@@ -225,6 +225,6 @@
 </section>
 
 <script type="application/json" id="picker-data">{{ picker.json|safe }}</script>
-<script src="{{ base_url }}assets/js/picker.js" defer></script>
-<script src="{{ base_url }}assets/js/product_tabs.js" defer></script>
+<script src="{{ base_url }}assets/js/picker.js?v={{ asset_version }}" defer></script>
+<script src="{{ base_url }}assets/js/product_tabs.js?v={{ asset_version }}" defer></script>
 {% endblock %}

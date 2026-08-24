@@ -34,6 +34,10 @@ ASSETS_SRC = os.path.join(ROOT, "assets")
 BASE_URL = os.environ.get("BASE_URL", "/tanko-website-1-/")
 
 YEAR = datetime.utcnow().year
+# Cache-bust query string appended to every CSS/JS reference. Refreshes on
+# every build so browsers pick up new asset URLs (fixing subpath BASE_URL
+# changes, JS bug fixes, etc.) instead of holding on to stale copies.
+ASSET_VERSION = datetime.utcnow().strftime("%Y%m%d%H%M")
 
 env = Environment(
     loader=FileSystemLoader(TPL_DIR),
@@ -45,6 +49,7 @@ env = Environment(
 # Populated in main() once CATEGORIES_META is known.
 env.globals["nav_categories"] = []
 env.globals["nav_guides"] = [{"slug": g["slug"], "nav_title": g["nav_title"]} for g in GUIDES]
+env.globals["asset_version"] = ASSET_VERSION
 
 # ---------------------- category display metadata ----------------------
 # The 11 approved categories with SEO-tuned taglines, H1s and intros.
