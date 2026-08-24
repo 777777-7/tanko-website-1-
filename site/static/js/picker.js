@@ -172,11 +172,16 @@
     // differentiable in quote emails: RA-6091(Wood) vs RA-6091(Stainless steel).
     var suffixKeys = ["Top", "Material", "Color", "Colour", "__color__"];
     var pieces = [];
+    // If the SKU already contains a parenthesised attribute (e.g.
+    // "WET-5102W5 (BLACK)"), don't append the same attribute again — that
+    // was producing "WET-5102W5 (BLACK)(Black)" in the basket.
+    var skuLc = String(current.sku || "").toLowerCase();
     suffixKeys.forEach(function (k) {
       var v = selection[k];
-      if (v && String(v).toLowerCase() !== "none" && pieces.indexOf(v) < 0) {
-        pieces.push(v);
-      }
+      if (!v || String(v).toLowerCase() === "none") return;
+      if (pieces.indexOf(v) >= 0) return;
+      if (skuLc.indexOf("(" + String(v).toLowerCase()) >= 0) return; // already in SKU
+      pieces.push(v);
     });
     return pieces.length ? current.sku + "(" + pieces.join(", ") + ")" : current.sku;
   }

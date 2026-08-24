@@ -84,18 +84,19 @@
       <div class="mobnav-panel">
         <ul>
           <li><a href="{{ base_url }}">Home</a></li>
-          <li>
-            <span class="grp">Products</span>
+          <li class="mob-group">
+            <a href="{{ base_url }}products/" class="grp-link">Products</a>
+            <button type="button" class="grp-toggle" aria-expanded="false" aria-label="Show product categories"><span class="chev"></span></button>
             <div class="subgrp">
               {% for c in nav_categories %}<a href="{{ base_url }}{{ c.slug }}/">{{ c.name }}</a>{% endfor %}
               <a href="{{ base_url }}products/"><strong>View all &rarr;</strong></a>
             </div>
           </li>
           <li><a href="{{ base_url }}download/">Download</a></li>
-          <li>
-            <span class="grp">Guides &amp; Resources</span>
+          <li class="mob-group">
+            <a href="{{ base_url }}guides/" class="grp-link">Guides &amp; Resources</a>
+            <button type="button" class="grp-toggle" aria-expanded="false" aria-label="Show all guides"><span class="chev"></span></button>
             <div class="subgrp">
-              <a href="{{ base_url }}guides/"><strong>All Guides</strong></a>
               {% for g in nav_guides %}<a href="{{ base_url }}guides/{{ g.slug }}/">{{ g.nav_title }}</a>{% endfor %}
             </div>
           </li>
@@ -177,5 +178,15 @@
     </div>
   </div>
 </footer>
+<script>
+  // Mobile-nav group toggles: header link is tappable, chevron button expands
+  document.addEventListener("click", function (e) {
+    var b = e.target.closest(".mobnav-panel .grp-toggle");
+    if (!b) return;
+    e.preventDefault();
+    var open = b.getAttribute("aria-expanded") === "true";
+    b.setAttribute("aria-expanded", open ? "false" : "true");
+  });
+</script>
 </body>
 </html>
