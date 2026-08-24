@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+
+# Backups + scratch
+*.bak
+*.bak-*
+*.bak-preoptim-*
+products.json.bak*
+scratch_*.py
+scratch_*.json
+scratchpad*
+*.log
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Never commit huge canonical PDFs by mistake — they're linked from the
+# site via dist/assets/catalogs/ (which IS committed). Keep the loose
+# copies at repo root out of the tracked tree.
+/TANKO Catalogue NO.E147.pdf
+/TANKO_Catalogue_NO.E327.pdf

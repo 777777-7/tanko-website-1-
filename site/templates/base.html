@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en-MY">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ page_title }}</title>
+<meta name="description" content="{{ meta_description }}">
+{% if canonical %}<link rel="canonical" href="{{ canonical }}">{% endif %}
+<meta property="og:site_name" content="Primaxs Marketing (M) Sdn Bhd">
+<meta property="og:title" content="{{ page_title }}">
+<meta property="og:description" content="{{ meta_description }}">
+<meta property="og:type" content="{{ og_type|default('website') }}">
+{% if og_image %}<meta property="og:image" content="{{ og_image }}">{% endif %}
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800;900&family=IBM+Plex+Sans:wght@400;500;600&family=JetBrains+Mono:wght@500;600&family=Saira+Condensed:wght@600;700;800&family=Public+Sans:wght@400;500;600;700&family=Libre+Bodoni:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="{{ base_url }}assets/css/site.css">
+{% if json_ld %}<script type="application/ld+json">{{ json_ld|safe }}</script>{% endif %}
+</head>
+<body class="{% block body_class %}{% endblock %}">
+<header class="site-header">
+  <div class="container">
+    <a class="brand" href="{{ base_url }}">
+      <img src="{{ base_url }}assets/primaxs-logo-removebg-preview.png" alt="Primaxs Marketing">
+      <span class="brand-text">Primaxs Marketing (M) Sdn Bhd</span>
+    </a>
+
+    <nav class="nav" aria-label="Primary">
+      <ul class="nav-list">
+        <li><a href="{{ base_url }}">Home</a></li>
+        <li>
+          <a href="{{ base_url }}products/" class="nav-toggle" aria-haspopup="true">Products<span class="caret"></span></a>
+          <div class="mega" role="menu" aria-label="Product categories">
+            <div class="mega-grid">
+              {% for c in nav_categories %}
+              <a class="mega-item" role="menuitem" href="{{ base_url }}{{ c.slug }}/">
+                <span class="mi-name">{{ c.name }}</span>
+                <span class="mi-desc">{{ c.tagline }}</span>
+              </a>
+              {% endfor %}
+            </div>
+            <div class="mega-foot"><a href="{{ base_url }}products/">View all product categories &rarr;</a></div>
+          </div>
+        </li>
+        <li><a href="{{ base_url }}download/">Download</a></li>
+        <li>
+          <a href="{{ base_url }}guides/" class="nav-toggle" aria-haspopup="true">Guides<span class="caret"></span></a>
+          <div class="dropdown" role="menu" aria-label="Guides and resources">
+            <a href="{{ base_url }}guides/" role="menuitem"><strong>All Guides &amp; Resources</strong></a>
+            {% for g in nav_guides %}
+            <a href="{{ base_url }}guides/{{ g.slug }}/" role="menuitem">{{ g.nav_title }}</a>
+            {% endfor %}
+          </div>
+        </li>
+        <li><a href="{{ base_url }}about/">About Us</a></li>
+        <li><a href="{{ base_url }}contact/">Contact Us</a></li>
+        <li class="nav-search-li">
+          <button type="button" id="nav-search-btn" class="nav-search-btn" aria-label="Search products" aria-controls="nav-search-modal">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg>
+          </button>
+        </li>
+        <li><a href="{{ base_url }}enquiry/" class="btn" style="margin-left:.5rem;">Basket &amp; Send List</a></li>
+      </ul>
+    </nav>
+
+    <details class="mobnav">
+      <summary aria-label="Open menu">&#9776;</summary>
+      <div class="mobnav-panel">
+        <ul>
+          <li><a href="{{ base_url }}">Home</a></li>
+          <li>
+            <span class="grp">Products</span>
+            <div class="subgrp">
+              {% for c in nav_categories %}<a href="{{ base_url }}{{ c.slug }}/">{{ c.name }}</a>{% endfor %}
+              <a href="{{ base_url }}products/"><strong>View all &rarr;</strong></a>
+            </div>
+          </li>
+          <li><a href="{{ base_url }}download/">Download</a></li>
+          <li>
+            <span class="grp">Guides &amp; Resources</span>
+            <div class="subgrp">
+              <a href="{{ base_url }}guides/"><strong>All Guides</strong></a>
+              {% for g in nav_guides %}<a href="{{ base_url }}guides/{{ g.slug }}/">{{ g.nav_title }}</a>{% endfor %}
+            </div>
+          </li>
+          <li><a href="{{ base_url }}about/">About Us</a></li>
+          <li><a href="{{ base_url }}contact/">Contact Us</a></li>
+          <li><a href="{{ base_url }}enquiry/">Request a Quote</a></li>
+        </ul>
+      </div>
+    </details>
+  </div>
+</header>
+{% block content %}{% endblock %}
+
+<section class="cta-band" aria-labelledby="cta-h">
+  <h2 id="cta-h">Need a custom quote for your workshop or factory?</h2>
+  <p style="color:#d4d9e0;max-width:50ch;margin:0 auto 1.25rem;">Tell us the models and quantities — we'll come back with pricing, lead time and delivery options.</p>
+  <a class="btn" href="{{ base_url }}enquiry/">Request a Quote</a>
+  <a class="btn btn-outline" style="color:#fff;border-color:#4a5563;" href="{{ base_url }}contact/">Contact Us</a>
+</section>
+
+{% include "_basket.html" %}
+
+<!-- Global search modal (opened from the nav magnifying glass) -->
+<div id="nav-search-modal" class="nav-search-modal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="nav-search-title">
+  <div class="nav-search-modal-scrim" data-close-search></div>
+  <div class="nav-search-modal-body" role="document">
+    <div class="nav-search-modal-head">
+      <label for="nav-search-input" id="nav-search-title" class="sr-only">Search products</label>
+      <svg class="nav-search-modal-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg>
+      <input type="search" id="nav-search-input" placeholder="Search SKU, product name, or category… (press Esc to close)" autocomplete="off" spellcheck="false">
+      <button type="button" class="nav-search-close" data-close-search aria-label="Close search">×</button>
+    </div>
+    <div id="nav-search-results" class="nav-search-results" role="listbox"></div>
+    <div class="nav-search-modal-foot">
+      <span class="ns-kbd">Enter</span> to open · <span class="ns-kbd">↑↓</span> to navigate · <span class="ns-kbd">Esc</span> to close
+    </div>
+  </div>
+</div>
+
+<script src="{{ base_url }}assets/js/basket.js" defer></script>
+<script src="{{ base_url }}assets/js/nav_search.js" defer></script>
+<footer class="site-footer">
+  <div class="container">
+    <div class="foot-grid">
+      <div>
+        <h4>Primaxs Marketing (M) Sdn Bhd</h4>
+        <p style="color:#a4abb5;font-size:.85rem;">Exclusive Malaysia retail distributor for Tanko industrial storage — tool cabinets, workbenches, racking, lockers and workstations engineered in Taiwan since 1975.</p>
+      </div>
+      <div>
+        <h4>Products</h4>
+        <ul>
+          <li><a href="{{ base_url }}workbench/">Workbenches</a></li>
+          <li><a href="{{ base_url }}tool-cabinet/">Tool Cabinets</a></li>
+          <li><a href="{{ base_url }}cnc-tool/">CNC Tool Storage</a></li>
+          <li><a href="{{ base_url }}workstation/">Modular Workstations</a></li>
+          <li><a href="{{ base_url }}hanger-rack/">Hanger Racks</a></li>
+          <li><a href="{{ base_url }}locker/">Lockers</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="{{ base_url }}about/">About Primaxs</a></li>
+          <li><a href="{{ base_url }}contact/">Contact</a></li>
+          <li><a href="{{ base_url }}enquiry/">Request a Quote</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Get in Touch</h4>
+        <ul>
+          <li>No. 39, Jalan Balakong Jaya 4,<br>Taman Industri Balakong Jaya,<br>43300 Seri Kembangan, Selangor</li>
+          <li><a href="tel:+60126163088">+60&nbsp;12-616&nbsp;3088</a> &middot; <a href="tel:+60342964737">+60&nbsp;3-4296&nbsp;4737</a></li>
+          <li><a href="mailto:sales@storagesystem.my">sales@storagesystem.my</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-legal">
+      &copy; {{ year }} Primaxs Marketing (M) Sdn Bhd. Tanko is a registered trademark of Tanko Enterprise Co., Ltd.
+    </div>
+  </div>
+</footer>
+</body>
+</html>

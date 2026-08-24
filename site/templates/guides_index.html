@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container">
+  <nav class="crumbs" aria-label="Breadcrumb">
+    <a href="{{ base_url }}">Home</a><span class="sep">/</span>
+    <span class="current">Guides &amp; Resources</span>
+  </nav>
+  <div class="page-head">
+    <h1>Industrial Storage Guides &amp; Resources — Malaysia</h1>
+    <p class="page-lede">Practical, vendor-neutral guidance for specifying workbenches, tool cabinets, lockers and workshop storage in Malaysia — written for facility managers, workshop owners and procurement teams.</p>
+  </div>
+</div>
+<section class="section">
+  <div class="container">
+    <ul class="guide-grid">
+      {% for g in guides %}
+      <li class="guide-card">
+        <div class="tag">{{ g.tag }}</div>
+        <h3><a href="{{ base_url }}guides/{{ g.slug }}/">{{ g.title }}</a></h3>
+        <p>{{ g.excerpt }}</p>
+        <a href="{{ base_url }}guides/{{ g.slug }}/">Read guide &rarr;</a>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>
+{% endblock %}

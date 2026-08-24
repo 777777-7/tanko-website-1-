@@ -1,0 +1,159 @@
+[
+  {
+    "category": "Workbench",
+    "slug": "workbenches",
+    "family_count": 55,
+    "sku_count": 887,
+    "skus_with_image": 753,
+    "families": [
+      "Bench Vise",
+      "Benchwork",
+      "Bottle Holder",
+      "Heavy Duty Workbench",
+      "Hexagonal Workbench",
+      "Monitor Arm",
+      "Performance Workbench",
+      "Professional Workbench",
+      "Stainless Steel Workbench",
+      "Steel Top Workbench",
+      "Workbench Seating"
+    ]
+  },
+  {
+    "category": "Tool Cabinet",
+    "slug": "tool-cabinets",
+    "family_count": 11,
+    "sku_count": 200,
+    "skus_with_image": 188,
+    "families": [
+      "Chest of Drawers",
+      "Mobile Tool Cabinet",
+      "Tool Cabinet",
+      "Tool Cabinet - H1000",
+      "Tool Cabinet - H1200",
+      "Tool Cabinet - H700"
+    ]
+  },
+  {
+    "category": "Perforated Board",
+    "slug": "perforated-boards",
+    "family_count": 12,
+    "sku_count": 151,
+    "skus_with_image": 27,
+    "families": [
+      "Bin Hanger",
+      "Clip Holder",
+      "Drill Holder",
+      "Louvred Board",
+      "Metal Hook",
+      "Perforated Board",
+      "Plastic Hook",
+      "Screwdriver Holder",
+      "Stainless Steel Hook",
+      "Stainless Steel Perforated Board",
+      "T Handle Holder",
+      "Wrench Holder"
+    ]
+  },
+  {
+    "category": "Documents & Parts Cabinet",
+    "slug": "parts-cabinets",
+    "family_count": 19,
+    "sku_count": 135,
+    "skus_with_image": 91,
+    "families": [
+      "Documents Tray",
+      "Documents cabinet (Desktop)",
+      "Documents cabinet (Floor-standing)",
+      "Documents cabinet (With doors)",
+      "Hanging Bin",
+      "Hanging Bin Set",
+      "Parts Cabinet",
+      "Team Bin",
+      "Team Case",
+      "Tilt Out Bin"
+    ]
+  },
+  {
+    "category": "Modular Workstation",
+    "slug": "modular-workstations",
+    "family_count": 20,
+    "sku_count": 92,
+    "skus_with_image": 60,
+    "families": [
+      "Classic Workstation",
+      "Professional Workstation"
+    ]
+  },
+  {
+    "category": "CNC Tool Storage",
+    "slug": "cnc-tool-storage",
+    "family_count": 10,
+    "sku_count": 90,
+    "skus_with_image": 90,
+    "families": [
+      "CNC Tool Cabinet - H1000",
+      "CNC Tool Cabinet - H1200",
+      "CNC Tool Cabinet with Door",
+      "CNC Trolley",
+      "Mobile CNC Tool Cabinet - H1000",
+      "Mobile CNC Tool Cabinet - H1300"
+    ]
+  },
+  {
+    "category": "Trolley & Cart",
+    "slug": "trolleys-carts",
+    "family_count": 5,
+    "sku_count": 87,
+    "skus_with_image": 16,
+    "families": [
+      "Packing Cart",
+      "Tilt Out Bins Cart",
+      "Trolley"
+    ]
+  },
+  {
+    "category": "Hanger Rack",
+    "slug": "hanger-racks",
+    "family_count": 9,
+    "sku_count": 67,
+    "skus_with_image": 41,
+    "families": [
+      "Display Stand",
+      "Hanger Rack",
+      "Mobile Hanger Rack"
+    ]
+  },
+  {
+    "category": "Locker",
+    "slug": "lockers",
+    "family_count": 2,
+    "sku_count": 20,
+    "skus_with_image": 10,
+    "families": [
+      "Locker"
+    ]
+  },
+  {
+    "category": "Mould Rack",
+    "slug": "mould-racks",
+    "family_count": 2,
+    "sku_count": 8,
+    "skus_with_image": 8,
+    "families": [
+      "Mould Rack (2 columns)",
+      "Mould Rack (3 columns)"
+    ]
+  },
+  {
+    "category": "Rack & Shelving",
+    "slug": "racking-shelving",
+    "family_count": 2,
+    "sku_count": 5,
+    "skus_with_image": 1,
+    "families": [
+      "Pull-out Rack",
+      "Shelf"
+    ]
+  }
+]

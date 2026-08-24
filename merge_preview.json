@@ -1,0 +1,1727 @@
+{
+  "add_new_skus": [
+    {
+      "sku": "RFA-091",
+      "product_family": "Professional Workstation",
+      "family_slug": "rfa_rfb",
+      "category": "Modular Workstation",
+      "category_slug": "modular-workstations",
+      "subcategory": "Professional",
+      "color": null,
+      "dimensions": "W970xD500xH2020mm",
+      "material": "Rack▸Steel",
+      "load_capacity": null,
+      "attributes": {
+        "Drawer": "60 pcs",
+        "Drawer Rack": "Independent"
+      },
+      "image_paths": [
+        "asset2/RFA-091.png"
+      ],
+      "tanko_url": "https://www.tanko.com.tw/en/products-detail/rfa_rfb/",
+      "evidence": {
+        "tanko": true,
+        "pdf": false,
+        "image": true
+      },
+      "_source": "asset2_supplement"
+    },
+    {
+      "sku": "RFA-092",
+      "product_family": "Professional Workstation",
+      "family_slug": "rfa_rfb",
+      "category": "Modular Workstation",
+      "category_slug": "modular-workstations",
+      "subcategory": "Professional",
+      "color": null,
+      "dimensions": "W970xD500xH2020mm",
+      "material": "Rack▸Steel",
+      "load_capacity": null,
+      "attributes": {
+        "Drawer": "60 pcs",
+        "Drawer Rack": "Linkable"
+      },
+      "image_paths": [
+        "asset2/RFA-092.png"
+      ],
+      "tanko_url": "https://www.tanko.com.tw/en/products-detail/rfa_rfb/",
+      "evidence": {
+        "tanko": true,
+        "pdf": false,
+        "image": true
+      },
+      "_source": "asset2_supplement"
+    },
+    {
+      "sku": "RFB-091",
+      "product_family": "Professional Workstation",
+      "family_slug": "rfa_rfb",
+      "category": "Modular Workstation",
+      "category_slug": "modular-workstations",
+      "subcategory": "Professional",
+      "color": null,
+      "dimensions": "W970xD500xH2020mm",
+      "material": "Rack▸Steel",
+      "load_capacity": null,
+      "attributes": {
+        "Drawer": "30 pcs",
+        "Drawer Rack": "Independent"
+      },
+      "image_paths": [
+        "asset2/RFB-091.png"
+      ],
+      "tanko_url": "https://www.tanko.com.tw/en/products-detail/rfa_rfb/",
+      "evidence": {
+        "tanko": true,
+        "pdf": false,
+        "image": true
+      },
+      "_source": "asset2_supplement"
+    },
+    {
+      "sku": "RFB-092",
+      "product_family": "Professional Workstation",
+      "family_slug": "rfa_rfb",
+      "category": "Modular Workstation",
+      "category_slug": "modular-workstations",
+      "subcategory": "Professional",
+      "color": null,
+      "dimensions": "W970xD500xH2020mm",
+      "material": "Rack▸Steel",
+      "load_capacity": null,
+      "attributes": {
+        "Drawer": "30 pcs",
+        "Drawer Rack": "Linkable"
+      },
+      "image_paths": [
+        "asset2/RFB-092.png"
+      ],
+      "tanko_url": "https://www.tanko.com.tw/en/products-detail/rfa_rfb/",
+      "evidence": {
+        "tanko": true,
+        "pdf": false,
+        "image": true
+      },
+      "_source": "asset2_supplement"
+    },
+    {
+      "sku": "SAQ-361K",
+      "product_family": "Classic Workstation",
+      "family_slug": "sa_k",
+      "category": "Modular Workstation",
+      "category_slug": "modular-workstations",
+      "subcategory": "Classic",
+      "color": null,
+      "dimensions": "W900xD515xH1780mm",
+      "material": "Steel",
+      "load_capacity": null,
+      "attributes": {
+        "Type": "Panel",
+        "Accessories": "None"
+      },
+      "image_paths": [
+        "asset2/SAQ-361K.jpg"
+      ],
+      "tanko_url": "https://www.tanko.com.tw/en/products-detail/sa_k/",
+      "evidence": {
+        "tanko": true,
+        "pdf": false,
+        "image": true
+      },
+      "_source": "asset2_supplement"
+    },
+    {
+      "sku": "SAQ-362K",
+      "product_family": "Classic Workstation",
+      "family_slug": "sa_k",
+      "category": "Modular Workstation",
+      "category_slug": "modular-workstations",
+      "subcategory": "Classic",
+      "color": null,
+      "dimensions": "W900xD515xH1780mm",
+      "material": "Steel",
+      "load_capacity": null,
+      "attributes": {
+        "Type": "Panel",
+        "Accessories": "Drawer set"
+      },
+      "image_paths": [
+        "asset2/SAQ-362K.jpg"
+      ],
+      "tanko_url": "https://www.tanko.com.tw/en/products-detail/sa_k/",
+      "evidence": {
+        "tanko": true,
+        "pdf": false,
+        "image": true
+      },
+      "_source": "asset2_supplement"
+    },
+    {
+      "sku": "SAA-361K",
+      "product_family": "Classic Workstation",
+      "family_slug": "sa_k",
+      "category": "Modular Workstation",
+      "category_slug": "modular-workstations",
+      "subcategory": "Classic",
+      "color": null,
+      "dimensions": "W900xD515xH1780mm",
+      "material": "Steel",
+      "load_capacity": null,
+      "attributes": {
+        "Type": "Shelves",
+        "Accessories": "None"
+      },
+      "image_paths": [
+        "asset2/SAA-361K.jpg"
+      ],
+      "tanko_url": "https://www.tanko.com.tw/en/products-detail/sa_k/",
+      "evidence": {
+        "tanko": true,
+        "pdf": false,
+        "image": true
+      },
+      "_source": "asset2_supplement"
+    },
+    {
+      "sku": "SAA-362K",
+      "product_family": "Classic Workstation",
+      "family_slug": "sa_k",
+      "category": "Modular Workstation",
+      "category_slug": "modular-workstations",
+      "subcategory": "Classic",
+      "color": null,
+      "dimensions": "W900xD515xH1780mm",
+      "material": "Steel",
+      "load_capacity": null,
+      "attributes": {
+        "Type": "Shelves",
+        "Accessories": "Drawer set"
+      },
+      "image_paths": [
+        "asset2/SAA-362K.jpg"
+      ],
+      "tanko_url": "https://www.tanko.com.tw/en/products-detail/sa_k/",
+      "evidence": {
+        "tanko": true,
+        "pdf": false,
+        "image": true
+      },
+      "_source": "asset2_supplement"
+    },
+    {
+      "sku": "TE-211",
+      "product_family": "Hanging bin",
+      "family_slug": "te_211",
+      "category": "Documents & Parts Cabinet",
+      "category_slug": "parts-cabinets",
+      "subcategory": "Hanging Bin",
+      "color": "Gray",
+      "dimensions": "W110xD110xH120 mm",
+      "material": "PP",
+      "load_capacity": "10kg",
+      "attributes": {
+        "Quantity": "1pc"
+      },
+      "image_paths": [
+        "asset2/TE-211_(variation).png"
+      ],
+      "tanko_url": "https://www.tanko.com.tw/en/products-detail/te_211/",
+      "evidence": {
+        "tanko": true,
+        "pdf": false,
+        "image": true
+      },
+      "_source": "asset2_supplement"
+    },
+    {
+      "sku": "WKT-5102F",
+      "product_family": "Packing Station",
+      "family_slug": "wkt_5102",
+      "category": "Workbench",
+      "category_slug": "workbenches",
+      "subcategory": "Packing Station",
+      "color": null,
+      "dimensions": "W1500xD755xH965-1165mm",
+      "material": "Laminate(F)",
+      "load_capacity": null,
+      "attributes": {
+        "Top": "Laminate(F)",
+        "Accessories": "None"
+      },
+      "image_paths": [
+        "asset2/WKT-5102F.png"
+      ],
+      "tanko_url": "https://www.tanko.com.tw/en/products-detail/wkt_5102/",
+      "evidence": {
+        "tanko": true,
+        "pdf": false,
+        "image": true
+      },
+      "_source": "asset2_supplement"
+    },
+    {
+      "sku": "WKT-5102F1",
+      "product_family": "Packing Station",
+      "family_slug": "wkt_5102",
+      "category": "Workbench",
+      "category_slug": "workbenches",
+      "subcategory": "Packing Station",
+      "color": null,
+      "dimensions": "W1500xD755xH965-1165mm",
+      "material": "Laminate(F)",
+      "load_capacity": null,
+      "attributes": {
+        "Top": "Laminate(F)",
+        "Accessories": "Shelf"
+      },
+      "image_paths": [
+        "asset2/WKT-5102F1.png"
+      ],
+      "tanko_url": "https://www.tanko.com.tw/en/products-detail/wkt_5102/",
+      "evidence": {
+        "tanko": true,
+        "pdf": false,
+        "image": true
+      },
+      "_source": "asset2_supplement"
+    },
+    {
+      "sku": "WKT-5102F1+WPK-21",
+      "product_family": "Packing Station",
+      "family_slug": "wkt_5102",
+      "category": "Workbench",
+      "category_slug": "workbenches",
+      "subcategory": "Packing Station",
+      "color": null,
+      "dimensions": "W1500xD755xH965-1165mm",
+      "material": "Laminate(F)",
+      "load_capacity": null,
+      "attributes": {
+        "Top": "Laminate(F)",
+        "Accessories": "Shelf+Tray"
+      },
+      "image_paths": [
+        "asset2/WKT-5102F1+WPK-21.png"
+      ],
+      "tanko_url": "https://www.tanko.com.tw/en/products-detail/wkt_5102/",
+      "evidence": {
+        "tanko": true,
+        "pdf": false,
+        "image": true
+      },
+      "_source": "asset2_supplement"
+    },
+    {
+      "sku": "WKT-5102W",
+      "product_family": "Packing Station",
+      "family_slug": "wkt_5102",
+      "category": "Workbench",
+      "category_slug": "workbenches",
+      "subcategory": "Packing Station",
+      "color": null,
+      "dimensions": "W1500xD755xH965-1165mm",
+      "material": "Wood(W)",
+      "load_capacity": null,
+      "attributes": {
+        "Top": "Wood(W)",
+        "Accessories": "None"
+      },
+      "image_paths": [
+        "asset2/WKT-5102W.png"
+      ],
+      "tanko_url": "https://www.tanko.com.tw/en/products-detail/wkt_5102/",
+      "evidence": {
+        "tanko": true,
+        "pdf": false,
+        "image": true
+      },
+      "_source": "asset2_supplement"
+    },
+    {
+      "sku": "WKT-5102W1",
+      "product_family": "Packing Station",
+      "family_slug": "wkt_5102",
+      "category": "Workbench",
+      "category_slug": "workbenches",
+      "subcategory": "Packing Station",
+      "color": null,
+      "dimensions": "W1500xD755xH965-1165mm",
+      "material": "Wood(W)",
+      "load_capacity": null,
+      "attributes": {
+        "Top": "Wood(W)",
+        "Accessories": "Shelf"
+      },
+      "image_paths": [
+        "asset2/WKT-5102W1.png"
+      ],
+      "tanko_url": "https://www.tanko.com.tw/en/products-detail/wkt_5102/",
+      "evidence": {
+        "tanko": true,
+        "pdf": false,
+        "image": true
+      },
+      "_source": "asset2_supplement"
+    },
+    {
+      "sku": "WKT-5102W1+WPK-21",
+      "product_family": "Packing Station",
+      "family_slug": "wkt_5102",
+      "category": "Workbench",
+      "category_slug": "workbenches",
+      "subcategory": "Packing Station",
+      "color": null,
+      "dimensions": "W1500xD755xH965-1165mm",
+      "material": "Wood(W)",
+      "load_capacity": null,
+      "attributes": {
+        "Top": "Wood(W)",
+        "Accessories": "Shelf+Tray"
+      },
+      "image_paths": [
+        "asset2/WKT-5102W1+WPK-21.png"
+      ],
+      "tanko_url": "https://www.tanko.com.tw/en/products-detail/wkt_5102/",
+      "evidence": {
+        "tanko": true,
+        "pdf": false,
+        "image": true
+      },
+      "_source": "asset2_supplement"
+    },
+    {
+      "sku": "WP-9003",
+      "product_family": "Ultra Thin LED Light",
+      "family_slug": "wp-9_1",
+      "category": "Workbench",
+      "category_slug": "workbenches",
+      "subcategory": "Accessories",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {
+        "Type": "Ultra thin LED light",
+        "Quantity": "1 pc"
+      },
+      "image_paths": [
+        "asset2/WP-9003.jpg"
+      ],
+      "tanko_url": "https://www.tanko.com.tw/en/products-detail/wp-9_1/",
+      "evidence": {
+        "tanko": true,
+        "pdf": false,
+        "image": true
+      },
+      "_source": "asset2_supplement"
+    },
+    {
+      "sku": "WP-9004",
+      "product_family": "Ultra Thin LED Light",
+      "family_slug": "wp-9_1",
+      "category": "Workbench",
+      "category_slug": "workbenches",
+      "subcategory": "Accessories",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {
+        "Type": "Extendable sub",
+        "Quantity": "1 pc"
+      },
+      "image_paths": [
+        "asset2/WP-9004.jpg"
+      ],
+      "tanko_url": "https://www.tanko.com.tw/en/products-detail/wp-9_1/",
+      "evidence": {
+        "tanko": true,
+        "pdf": false,
+        "image": true
+      },
+      "_source": "asset2_supplement"
+    }
+  ],
+  "image_swaps": [
+    {
+      "sku": "SCB-362",
+      "old": "assets/product/SCB-362.png",
+      "new": "asset2/SCB-362.png",
+      "hamming": 18
+    },
+    {
+      "sku": "SAA-331(SPW-3)",
+      "old": "assets/product/SAA-331(SPW-3) + SPQ-32A.png",
+      "new": "asset2/SAA-331(SPW-3).png",
+      "hamming": 17
+    },
+    {
+      "sku": "SAB-331(SPW-3)",
+      "old": "assets/product/SAB-331(SPW-3) + SPQ-32A.png",
+      "new": "asset2/SAB-331(SPW-3).png",
+      "hamming": 17
+    },
+    {
+      "sku": "SAA-331(SPW-3S)",
+      "old": "assets/product/SAA-331(SPW-3S) + SPQ-32A.png",
+      "new": "asset2/SAA-331(SPW-3S).png",
+      "hamming": 15
+    },
+    {
+      "sku": "WB-57N",
+      "old": "assets/product/WB-57N + EGA-7041.png",
+      "new": "asset2/WB-57N.png",
+      "hamming": 15
+    },
+    {
+      "sku": "WB-57F2",
+      "old": "assets/product/WB-57F2 + EGA-7041.png",
+      "new": "asset2/WB-57F2.png",
+      "hamming": 15
+    },
+    {
+      "sku": "WB-57F4A",
+      "old": "assets/product/WB-57F4A + EGA-7041.png",
+      "new": "asset2/WB-57F4A.png",
+      "hamming": 15
+    },
+    {
+      "sku": "SAB-331(SPW-3S)",
+      "old": "assets/product/SAB-331(SPW-3S) + SPQ-32A.png",
+      "new": "asset2/SAB-331(SPW-3S).png",
+      "hamming": 14
+    },
+    {
+      "sku": "WB-67F",
+      "old": "assets/product/WB-67F + EGA-7041.png",
+      "new": "asset2/WB-67F.png",
+      "hamming": 14
+    },
+    {
+      "sku": "WD-58S2",
+      "old": "assets/product/WD-58S2+WDP-15S.png",
+      "new": "asset2/WD-58S2.png",
+      "hamming": 14
+    },
+    {
+      "sku": "WB-57F",
+      "old": "assets/product/WB-57F + EGA-7041.png",
+      "new": "asset2/WB-57F.png",
+      "hamming": 13
+    },
+    {
+      "sku": "WD-68S7",
+      "old": "assets/product/WD-68S7+WDP-16S.png",
+      "new": "asset2/WD-68S7.png",
+      "hamming": 13
+    }
+  ],
+  "distinct_title_updates": [
+    {
+      "family_slug": "a4l-104",
+      "group": "Documents cabinet (Desktop)",
+      "distinct_title": "1 column",
+      "sku_code": "A4",
+      "review": false
+    },
+    {
+      "family_slug": "a4l-110",
+      "group": "Documents cabinet (Floor-standing)",
+      "distinct_title": "1 column",
+      "sku_code": "A4",
+      "review": false
+    },
+    {
+      "family_slug": "a4l-204",
+      "group": "Documents cabinet (Desktop)",
+      "distinct_title": "2 columns",
+      "sku_code": "A4",
+      "review": false
+    },
+    {
+      "family_slug": "a4l-220",
+      "group": "Documents cabinet (Floor-standing)",
+      "distinct_title": "2 columns",
+      "sku_code": "A4",
+      "review": false
+    },
+    {
+      "family_slug": "a4l-330",
+      "group": "Documents cabinet (Floor-standing)",
+      "distinct_title": "3 columns",
+      "sku_code": "A4",
+      "review": false
+    },
+    {
+      "family_slug": "a4l-330d",
+      "group": "Documents cabinet (With doors)",
+      "distinct_title": "3 columns",
+      "sku_code": "A4",
+      "review": false
+    },
+    {
+      "family_slug": "cea-3",
+      "group": "Parts Cabinet",
+      "distinct_title": "CEA",
+      "sku_code": "",
+      "review": true
+    },
+    {
+      "family_slug": "ceh-3",
+      "group": "Parts Cabinet",
+      "distinct_title": "CEH",
+      "sku_code": "",
+      "review": true
+    },
+    {
+      "family_slug": "da-3",
+      "group": "Display Stand",
+      "distinct_title": "DA",
+      "sku_code": "",
+      "review": true
+    },
+    {
+      "family_slug": "db-3",
+      "group": "Display Stand",
+      "distinct_title": "Shelves",
+      "sku_code": "",
+      "review": false
+    },
+    {
+      "family_slug": "dd-3",
+      "group": "Display Stand",
+      "distinct_title": "DD",
+      "sku_code": "",
+      "review": true
+    },
+    {
+      "family_slug": "ea-10",
+      "group": "Tool Cabinet - H1000",
+      "distinct_title": "Heavy Duty",
+      "sku_code": "",
+      "review": false
+    },
+    {
+      "family_slug": "ea-10mn",
+      "group": "Mobile CNC Tool Cabinet - H1300",
+      "distinct_title": "EA/EB/ED",
+      "sku_code": "",
+      "review": true
+    },
+    {
+      "family_slug": "ea-10n",
+      "group": "CNC Tool Cabinet - H1000",
+      "distinct_title": "EA/EB/ED",
+      "sku_code": "",
+      "review": true
+    },
+    {
+      "family_slug": "ea-12",
+      "group": "Tool Cabinet - H1200",
+      "distinct_title": "Heavy Duty",
+      "sku_code": "",
+      "review": false
+    },
+    {
+      "family_slug": "ea-12n",
+      "group": "CNC Tool Cabinet - H1200",
+      "distinct_title": "EA/EB/ED",
+      "sku_code": "",
+      "review": true
+    },
+    {
+      "family_slug": "ea-7",
+      "group": "Tool Cabinet - H700",
+      "distinct_title": "Heavy Duty",
+      "sku_code": "",
+      "review": false
+    },
+    {
+      "family_slug": "ea-7m",
+      "group": "Mobile Tool Cabinet",
+      "distinct_title": "Heavy Duty",
+      "sku_code": "",
+      "review": false
+    },
+    {
+      "family_slug": "ea-7mn",
+      "group": "Mobile CNC Tool Cabinet - H1000",
+      "distinct_title": "EA/EB/ED",
+      "sku_code": "",
+      "review": true
+    },
+    {
+      "family_slug": "ega-1",
+      "group": "Tool Cabinet",
+      "distinct_title": "Standard",
+      "sku_code": "",
+      "review": false
+    },
+    {
+      "family_slug": "ega-2m",
+      "group": "Mobile Tool Cabinet",
+      "distinct_title": "Standard",
+      "sku_code": "",
+      "review": false
+    },
+    {
+      "family_slug": "egl-1",
+      "group": "Mobile Tool Cabinet",
+      "distinct_title": "Standard",
+      "sku_code": "",
+      "review": false
+    },
+    {
+      "family_slug": "egm-1",
+      "group": "Mobile Tool Cabinet",
+      "distinct_title": "Standard",
+      "sku_code": "",
+      "review": false
+    },
+    {
+      "family_slug": "eka-3m",
+      "group": "Trolley",
+      "distinct_title": "EKA",
+      "sku_code": "",
+      "review": true
+    },
+    {
+      "family_slug": "eka-3ms",
+      "group": "Trolley",
+      "distinct_title": "Stainless Steel",
+      "sku_code": "",
+      "review": false
+    },
+    {
+      "family_slug": "ekb-3m",
+      "group": "Trolley",
+      "distinct_title": "Drawers",
+      "sku_code": "",
+      "review": false
+    },
+    {
+      "family_slug": "ekc",
+      "group": "Tilt Out Bins Cart",
+      "distinct_title": "EKC",
+      "sku_code": "",
+      "review": true
+    },
+    {
+      "family_slug": "ela-1",
+      "group": "Mobile Tool Cabinet",
+      "distinct_title": "Standard",
+      "sku_code": "",
+      "review": false
+    },
+    {
+      "family_slug": "els-2",
+      "group": "Mobile Tool Cabinet",
+      "distinct_title": "Standard",
+      "sku_code": "",
+      "review": false
+    },
+    {
+      "family_slug": "enr-12",
+      "group": "CNC Trolley",
+      "distinct_title": "ENR",
+      "sku_code": "",
+      "review": true
+    },
+    {
+      "family_slug": "ens-1",
+      "group": "CNC Trolley",
+      "distinct_title": "ENS-1",
+      "sku_code": "",
+      "review": true
+    },
+    {
+      "family_slug": "ens-3",
+      "group": "CNC Trolley",
+      "distinct_title": "ENS-3",
+      "sku_code": "",
+      "review": true
+    },
+    {
+      "family_slug": "haa",
+      "group": "Chest of Drawers",
+      "distinct_title": "HAA",
+      "sku_code": "",
+      "review": true
+    },
+    {
+      "family_slug": "kh-3",
+      "group": "Louvred Board",
+      "distinct_title": "KH-3",
+      "sku_code": "",
+      "review": true
+    },
+    {
+      "family_slug": "km-22",
+      "group": "Mobile Hanger Rack",
+      "distinct_title": "Double-sided",
+      "sku_code": "KM-22",
+      "review": false
+    },
+    {
+      "family_slug": "km-23",
+      "group": "Mobile Hanger Rack",
+      "distinct_title": "Double-sided ❘ KM-23",
+      "sku_code": "",
+      "review": false
+    },
+    {
+      "family_slug": "kp-17",
+      "group": "Shelf",
+      "distinct_title": "KP-17",
+      "sku_code": "",
+      "review": true
+    },
+    {
+      "family_slug": "kp-3",
+      "group": "Metal Hook",
+      "distinct_title": "KP-3",
+      "sku_code": "",
+      "review": true
+    },
+    {
+      "family_slug": "kp-41",
+      "group": "Drill Holder",
+      "distinct_title": "KP-41",
+      "sku_code": "",
+      "review": true
+    },
+    {
+      "family_slug": "kp-42",
+      "group": "Screwdriver Holder",
+      "distinct_title": "KP-4213",
+      "sku_code": "",
+      "review": true
+    },
+    {
+      "family_slug": "kp-43",
+      "group": "Bin Hanger",
+      "distinct_title": "KP-4300",
+      "sku_code": "",
+      "review": true
+    },
+    {
+      "family_slug": "kp-44",
+      "group": "Clip Holder",
+      "distinct_title": "KP-4418",
+      "sku_code": "",
+      "review": true
+    },
+    {
+      "family_slug": "kp-45",
+      "group": "T Handle Holder",
+      "distinct_title": "KP-4504",
+      "sku_code": "",
+      "review": true
+    },
+    {
+      "family_slug": "kp-46",
+      "group": "Bottle Holder",
+      "distinct_title": "KP-4604",
+      "sku_code": "",
+      "review": true
+    },
+    {
+      "family_slug": "kp-4802",
+      "group": "Monitor Arm",
+      "distinct_title": "KP-4802",
+      "sku_code": "",
+      "review": true
+    },
+    {
+      "family_slug": "kp-6",
+      "group": "Plastic Hook",
+      "distinct_title": "KP-6",
+      "sku_code": "",
+      "review": true
+    },
+    {
+      "family_slug": "kp-6109",
+      "group": "Wrench Holder",
+      "distinct_title": "KP-6109",
+      "sku_code": "",
+      "review": true
+    },
+    {
+      "family_slug": "kp-7",
+      "group": "Stainless Steel Hook",
+      "distinct_title": "KP-7",
+      "sku_code": "",
+      "review": true
+    },
+    {
+      "family_slug": "kpq-4301",
+      "group": "Hanging Bin Set",
+      "distinct_title": "KPQ-43",
+      "sku_code": "",
+      "review": true
+    },
+    {
+      "family_slug": "kpq-4306",
+      "group": "Hanging Bin Set",
+      "distinct_title": "KPQ-43",
+      "sku_code": "",
+      "review": true
+    },
+    {
+      "family_slug": "kq-3",
+      "group": "Perforated Board",
+      "distinct_title": "KQ-3/KQ-4",
+      "sku_code": "",
+      "review": true
+    },
+    {
+      "family_slug": "kq-306as",
+      "group": "Stainless Steel Perforated Board",
+      "distinct_title": "KQ-306AS",
+      "sku_code": "",
+      "review": true
+    },
+    {
+      "family_slug": "kr-13",
+      "group": "Hanger Rack",
+      "distinct_title": "Single-sided ❘ KR-13",
+      "sku_code": "",
+      "review": false
+    },
+    {
+      "family_slug": "kr-14",
+      "group": "Hanger Rack",
+      "distinct_title": "Single-sided ❘ KR-14",
+      "sku_code": "",
+      "review": false
+    },
+    {
+      "family_slug": "kr-23",
+      "group": "Hanger Rack",
+      "distinct_title": "Double-sided ❘ KR-23",
+      "sku_code": "",
+      "review": false
+    },
+    {
+      "family_slug": "kr-24",
+      "group": "Hanger Rack",
+      "distinct_title": "Double-sided ❘ KR-24",
+      "sku_code": "",
+      "review": false
+    },
+    {
+      "family_slug": "locker-gray",
+      "group": "Locker",
+      "distinct_title": "FBB",
+      "sku_code": "",
+      "review": true
+    },
+    {
+      "family_slug": "locker-white",
+      "group": "Locker",
+      "distinct_title": "FBA",
+      "sku_code": "",
+      "review": true
+    },
+    {
+      "family_slug": "mb-2",
+      "group": "Mould Rack (2 columns)",
+      "distinct_title": "MB-2",
+      "sku_code": "",
+      "review": true
+    },
+    {
+      "family_slug": "mb-3",
+      "group": "Mould Rack (3 columns)",
+      "distinct_title": "MB-3",
+      "sku_code": "",
+      "review": true
+    },
+    {
+      "family_slug": "me",
+      "group": "Pull-out Rack",
+      "distinct_title": "ME",
+      "sku_code": "",
+      "review": true
+    },
+    {
+      "family_slug": "ra-5",
+      "group": "Parts Cabinet",
+      "distinct_title": "RA",
+      "sku_code": "",
+      "review": true
+    },
+    {
+      "family_slug": "ra-6091",
+      "group": "Professional Workstation",
+      "distinct_title": "Storage Cabinet",
+      "sku_code": "RA-6091",
+      "review": false
+    },
+    {
+      "family_slug": "ra-6201",
+      "group": "Professional Workstation",
+      "distinct_title": "Storage Cabinet",
+      "sku_code": "RA-6201",
+      "review": false
+    },
+    {
+      "family_slug": "ra-9091",
+      "group": "Professional Workstation",
+      "distinct_title": "Storage Cabinet",
+      "sku_code": "RA-9091",
+      "review": false
+    },
+    {
+      "family_slug": "ra-9201",
+      "group": "Professional Workstation",
+      "distinct_title": "Storage Cabinet",
+      "sku_code": "RA-9201",
+      "review": false
+    },
+    {
+      "family_slug": "rb-5",
+      "group": "Parts Cabinet",
+      "distinct_title": "RB",
+      "sku_code": "",
+      "review": true
+    },
+    {
+      "family_slug": "rb-6098",
+      "group": "Professional Workstation",
+      "distinct_title": "Tool Cabinet",
+      "sku_code": "RB-6098",
+      "review": false
+    },
+    {
+      "family_slug": "rc-6094",
+      "group": "Professional Workstation",
+      "distinct_title": "Tool Cabinet",
+      "sku_code": "RC-6094",
+      "review": false
+    },
+    {
+      "family_slug": "rd-6091",
+      "group": "Professional Workstation",
+      "distinct_title": "Sink Cabinet",
+      "sku_code": "RD-6091",
+      "review": false
+    },
+    {
+      "family_slug": "re-6201",
+      "group": "Professional Workstation",
+      "distinct_title": "Clothes Locker",
+      "sku_code": "RE-6201",
+      "review": false
+    },
+    {
+      "family_slug": "rfc-13",
+      "group": "Professional Workstation",
+      "distinct_title": "Modular Rack",
+      "sku_code": "RFC",
+      "review": false
+    },
+    {
+      "family_slug": "rg-6091",
+      "group": "Professional Workstation",
+      "distinct_title": "Wastebin Cabinet",
+      "sku_code": "RG-6091",
+      "review": false
+    },
+    {
+      "family_slug": "ry",
+      "group": "Professional Workstation",
+      "distinct_title": "Combination",
+      "sku_code": "RY",
+      "review": false
+    },
+    {
+      "family_slug": "sa",
+      "group": "Classic Workstation",
+      "distinct_title": "Storage Cabinet",
+      "sku_code": "SAA/SAQ",
+      "review": false
+    },
+    {
+      "family_slug": "saa-231",
+      "group": "Classic Workstation",
+      "distinct_title": "Storage Cabinet",
+      "sku_code": "SAA-231",
+      "review": false
+    },
+    {
+      "family_slug": "saa-331",
+      "group": "Classic Workstation",
+      "distinct_title": "Storage Cabinet",
+      "sku_code": "SAA-331",
+      "review": false
+    },
+    {
+      "family_slug": "sab-331",
+      "group": "Classic Workstation",
+      "distinct_title": "Tool Cabinet",
+      "sku_code": "SAB-331",
+      "review": false
+    },
+    {
+      "family_slug": "sag-231",
+      "group": "Classic Workstation",
+      "distinct_title": "Wastebin Cabinet",
+      "sku_code": "SAG-231",
+      "review": false
+    },
+    {
+      "family_slug": "san-33",
+      "group": "CNC Tool Cabinet with Door",
+      "distinct_title": "SAN-33",
+      "sku_code": "",
+      "review": true
+    },
+    {
+      "family_slug": "san-36",
+      "group": "CNC Tool Cabinet with Door",
+      "distinct_title": "SAN-36",
+      "sku_code": "",
+      "review": true
+    },
+    {
+      "family_slug": "san-36k",
+      "group": "CNC Tool Cabinet with Door",
+      "distinct_title": "SAN-36K",
+      "sku_code": "",
+      "review": true
+    },
+    {
+      "family_slug": "sca",
+      "group": "Classic Workstation",
+      "distinct_title": "Drawer Rack",
+      "sku_code": "SCA/SCB",
+      "review": false
+    },
+    {
+      "family_slug": "scc",
+      "group": "Classic Workstation",
+      "distinct_title": "Modular Rack",
+      "sku_code": "SCC",
+      "review": false
+    },
+    {
+      "family_slug": "sg-23071",
+      "group": "Classic Workstation",
+      "distinct_title": "Tool Cabinet",
+      "sku_code": "SG-23071",
+      "review": false
+    },
+    {
+      "family_slug": "sy",
+      "group": "Classic Workstation",
+      "distinct_title": "Combination",
+      "sku_code": "SY",
+      "review": false
+    },
+    {
+      "family_slug": "ta-1",
+      "group": "Team Bin",
+      "distinct_title": "5 sizes",
+      "sku_code": "",
+      "review": false
+    },
+    {
+      "family_slug": "tc-11",
+      "group": "Tilt Out Bin",
+      "distinct_title": "3 drawer sizes",
+      "sku_code": "",
+      "review": false
+    },
+    {
+      "family_slug": "tki-1",
+      "group": "Parts Cabinet",
+      "distinct_title": "TKI-1",
+      "sku_code": "",
+      "review": true
+    },
+    {
+      "family_slug": "tki-2",
+      "group": "Parts Cabinet",
+      "distinct_title": "TKI-2",
+      "sku_code": "",
+      "review": true
+    },
+    {
+      "family_slug": "tki-30",
+      "group": "Team Case",
+      "distinct_title": "3 drawer sizes",
+      "sku_code": "",
+      "review": false
+    },
+    {
+      "family_slug": "tki-83",
+      "group": "Hanging Bin",
+      "distinct_title": "5 sizes",
+      "sku_code": "",
+      "review": false
+    },
+    {
+      "family_slug": "toa-14",
+      "group": "Documents Tray",
+      "distinct_title": "TOA-14",
+      "sku_code": "",
+      "review": true
+    },
+    {
+      "family_slug": "wa-57",
+      "group": "Heavy Duty Workbench",
+      "distinct_title": "Standard",
+      "sku_code": "WA(1500mm)",
+      "review": false
+    },
+    {
+      "family_slug": "wa-57a",
+      "group": "Benchwork",
+      "distinct_title": "WA(1500mm)",
+      "sku_code": "",
+      "review": false
+    },
+    {
+      "family_slug": "wa-57m",
+      "group": "Heavy Duty Workbench",
+      "distinct_title": "Mobile",
+      "sku_code": "WA(1500mm)",
+      "review": false
+    },
+    {
+      "family_slug": "wa-67",
+      "group": "Heavy Duty Workbench",
+      "distinct_title": "Standard",
+      "sku_code": "WA(1800mm)",
+      "review": false
+    },
+    {
+      "family_slug": "wa-67a",
+      "group": "Benchwork",
+      "distinct_title": "WA(1800mm)",
+      "sku_code": "",
+      "review": false
+    },
+    {
+      "family_slug": "wa-67m",
+      "group": "Heavy Duty Workbench",
+      "distinct_title": "Mobile",
+      "sku_code": "WA(1800mm)",
+      "review": false
+    },
+    {
+      "family_slug": "wa-77",
+      "group": "Heavy Duty Workbench",
+      "distinct_title": "Standard",
+      "sku_code": "WA(2100mm)",
+      "review": false
+    },
+    {
+      "family_slug": "wad-77041",
+      "group": "Heavy Duty Workbench",
+      "distinct_title": "Double Cabinet",
+      "sku_code": "WAD(2100mm)",
+      "review": false
+    },
+    {
+      "family_slug": "was-54",
+      "group": "Heavy Duty Workbench",
+      "distinct_title": "Hanging Cabinet",
+      "sku_code": "WAS(1500mm)",
+      "review": false
+    },
+    {
+      "family_slug": "was-57042",
+      "group": "Heavy Duty Workbench",
+      "distinct_title": "Tool Cabinet",
+      "sku_code": "WAS(1500mm)",
+      "review": false
+    },
+    {
+      "family_slug": "was-67053",
+      "group": "Heavy Duty Workbench",
+      "distinct_title": "Tool Cabinet",
+      "sku_code": "WAS(1800mm)",
+      "review": false
+    },
+    {
+      "family_slug": "was-74",
+      "group": "Heavy Duty Workbench",
+      "distinct_title": "Hanging Cabinet",
+      "sku_code": "WAS(2100mm)",
+      "review": false
+    },
+    {
+      "family_slug": "was-77042",
+      "group": "Heavy Duty Workbench",
+      "distinct_title": "Tool Cabinet",
+      "sku_code": "WAS(2100mm)",
+      "review": false
+    },
+    {
+      "family_slug": "wat-5203",
+      "group": "Heavy Duty Workbench",
+      "distinct_title": "Drawers",
+      "sku_code": "WAT(1500mm)",
+      "review": false
+    },
+    {
+      "family_slug": "wat-6203",
+      "group": "Heavy Duty Workbench",
+      "distinct_title": "Drawers",
+      "sku_code": "WAT(1800mm)",
+      "review": false
+    },
+    {
+      "family_slug": "wat-7203",
+      "group": "Heavy Duty Workbench",
+      "distinct_title": "Drawers",
+      "sku_code": "",
+      "review": false
+    },
+    {
+      "family_slug": "wb-57",
+      "group": "Professional Workbench",
+      "distinct_title": "Standard",
+      "sku_code": "WB(1500mm)",
+      "review": false
+    },
+    {
+      "family_slug": "wb-67",
+      "group": "Professional Workbench",
+      "distinct_title": "Standard",
+      "sku_code": "WB(1800mm)",
+      "review": false
+    },
+    {
+      "family_slug": "wb57-ega",
+      "group": "Professional Workbench",
+      "distinct_title": "Tool Cabinet",
+      "sku_code": "WB(1500mm)",
+      "review": false
+    },
+    {
+      "family_slug": "wb67-ega",
+      "group": "Professional Workbench",
+      "distinct_title": "Tool Cabinet",
+      "sku_code": "WB(1800mm)",
+      "review": false
+    },
+    {
+      "family_slug": "wbs-53022",
+      "group": "Professional Workbench",
+      "distinct_title": "Hanging Cabinet",
+      "sku_code": "WBS(1500mm)",
+      "review": false
+    },
+    {
+      "family_slug": "wbs-63022",
+      "group": "Professional Workbench",
+      "distinct_title": "Hanging Cabinet",
+      "sku_code": "WBS(1800mm)",
+      "review": false
+    },
+    {
+      "family_slug": "wbt-5203",
+      "group": "Professional Workbench",
+      "distinct_title": "Drawers",
+      "sku_code": "WBT(1500mm)",
+      "review": false
+    },
+    {
+      "family_slug": "wbt-6203",
+      "group": "Professional Workbench",
+      "distinct_title": "Drawers",
+      "sku_code": "WBT(1800mm)",
+      "review": false
+    },
+    {
+      "family_slug": "wd-48",
+      "group": "Steel Top Workbench",
+      "distinct_title": "Standard",
+      "sku_code": "WD(1224mm)",
+      "review": false
+    },
+    {
+      "family_slug": "wd-4801",
+      "group": "Steel Top Workbench",
+      "distinct_title": "Hanging Cabinet",
+      "sku_code": "WD(1224mm)",
+      "review": false
+    },
+    {
+      "family_slug": "wd-48s",
+      "group": "Stainless Steel Workbench",
+      "distinct_title": "Standard",
+      "sku_code": "",
+      "review": false
+    },
+    {
+      "family_slug": "wd-4ms",
+      "group": "Stainless Steel Workbench",
+      "distinct_title": "Mobile",
+      "sku_code": "",
+      "review": false
+    },
+    {
+      "family_slug": "wd-58",
+      "group": "Steel Top Workbench",
+      "distinct_title": "Standard",
+      "sku_code": "WD(1524mm)",
+      "review": false
+    },
+    {
+      "family_slug": "wd-5801",
+      "group": "Steel Top Workbench",
+      "distinct_title": "Hanging Cabinet",
+      "sku_code": "WD(1524mm)",
+      "review": false
+    },
+    {
+      "family_slug": "wd-58s",
+      "group": "Stainless Steel Workbench",
+      "distinct_title": "Standard",
+      "sku_code": "",
+      "review": false
+    },
+    {
+      "family_slug": "wd-5ms",
+      "group": "Stainless Steel Workbench",
+      "distinct_title": "Mobile",
+      "sku_code": "",
+      "review": false
+    },
+    {
+      "family_slug": "wd-68",
+      "group": "Steel Top Workbench",
+      "distinct_title": "Standard",
+      "sku_code": "WD(1824mm)",
+      "review": false
+    },
+    {
+      "family_slug": "wd-6801",
+      "group": "Steel Top Workbench",
+      "distinct_title": "Hanging Cabinet",
+      "sku_code": "WD(1824mm)",
+      "review": false
+    },
+    {
+      "family_slug": "wd-68s",
+      "group": "Stainless Steel Workbench",
+      "distinct_title": "Standard",
+      "sku_code": "",
+      "review": false
+    },
+    {
+      "family_slug": "wd-6ms",
+      "group": "Stainless Steel Workbench",
+      "distinct_title": "Mobile",
+      "sku_code": "",
+      "review": false
+    },
+    {
+      "family_slug": "wdt-4202",
+      "group": "Steel Top Workbench",
+      "distinct_title": "Drawers",
+      "sku_code": "WD(1224mm)",
+      "review": false
+    },
+    {
+      "family_slug": "wdt-48s",
+      "group": "Stainless Steel Workbench",
+      "distinct_title": "Drawers",
+      "sku_code": "WDT-4(1221mm)",
+      "review": false
+    },
+    {
+      "family_slug": "wdt-5203",
+      "group": "Steel Top Workbench",
+      "distinct_title": "Drawers",
+      "sku_code": "WD(1524mm)",
+      "review": false
+    },
+    {
+      "family_slug": "wdt-58s",
+      "group": "Stainless Steel Workbench",
+      "distinct_title": "Drawers",
+      "sku_code": "WDT-5(1521mm)",
+      "review": false
+    },
+    {
+      "family_slug": "wdt-6203",
+      "group": "Steel Top Workbench",
+      "distinct_title": "Drawers",
+      "sku_code": "WD(1824mm)",
+      "review": false
+    },
+    {
+      "family_slug": "wdt-68s",
+      "group": "Stainless Steel Workbench",
+      "distinct_title": "Drawers",
+      "sku_code": "WDT-6(1821mm)",
+      "review": false
+    },
+    {
+      "family_slug": "we",
+      "group": "Performance Workbench",
+      "distinct_title": "Standard",
+      "sku_code": "WE(1500mm)",
+      "review": false
+    },
+    {
+      "family_slug": "we1200",
+      "group": "Performance Workbench",
+      "distinct_title": "Standard",
+      "sku_code": "WE(1200mm)",
+      "review": false
+    },
+    {
+      "family_slug": "wet",
+      "group": "Performance Workbench",
+      "distinct_title": "Drawers",
+      "sku_code": "WET(1500mm)",
+      "review": false
+    },
+    {
+      "family_slug": "wet1200",
+      "group": "Performance Workbench",
+      "distinct_title": "Drawers",
+      "sku_code": "WET(1200mm)",
+      "review": false
+    },
+    {
+      "family_slug": "wha-882",
+      "group": "Hexagonal Workbench",
+      "distinct_title": "Tool Cabinet",
+      "sku_code": "WHA-882",
+      "review": false
+    },
+    {
+      "family_slug": "whb-88",
+      "group": "Hexagonal Workbench",
+      "distinct_title": "Standard",
+      "sku_code": "WHB-88",
+      "review": false
+    },
+    {
+      "family_slug": "whb-881",
+      "group": "Hexagonal Workbench",
+      "distinct_title": "Hanging Cabinet",
+      "sku_code": "WHB-881",
+      "review": false
+    },
+    {
+      "family_slug": "whb-882",
+      "group": "Hexagonal Workbench",
+      "distinct_title": "Tool Cabinet",
+      "sku_code": "WHB-882",
+      "review": false
+    },
+    {
+      "family_slug": "wp-51",
+      "group": "Bench Vise",
+      "distinct_title": "Taiwan",
+      "sku_code": "WP51",
+      "review": false
+    },
+    {
+      "family_slug": "wp-53",
+      "group": "Bench Vise",
+      "distinct_title": "HEUER",
+      "sku_code": "WP53",
+      "review": true
+    },
+    {
+      "family_slug": "wp-6",
+      "group": "Workbench Seating",
+      "distinct_title": "4 styles",
+      "sku_code": "WP-6",
+      "review": false
+    }
+  ],
+  "subcollection_pages": [
+    {
+      "tanko_category": "workstation",
+      "subcollection": "Professional",
+      "slug": "professional",
+      "product_count": 12
+    },
+    {
+      "tanko_category": "workstation",
+      "subcollection": "Classic",
+      "slug": "classic",
+      "product_count": 10
+    },
+    {
+      "tanko_category": "workbench",
+      "subcollection": "Performance",
+      "slug": "performance",
+      "product_count": 4
+    },
+    {
+      "tanko_category": "workbench",
+      "subcollection": "Professional",
+      "slug": "professional",
+      "product_count": 8
+    },
+    {
+      "tanko_category": "workbench",
+      "subcollection": "Heavy Duty",
+      "slug": "heavy-duty",
+      "product_count": 25
+    },
+    {
+      "tanko_category": "workbench",
+      "subcollection": "Stainless Steel",
+      "slug": "stainless-steel",
+      "product_count": 9
+    },
+    {
+      "tanko_category": "workbench",
+      "subcollection": "Workbench Accessories",
+      "slug": "workbench-accessories",
+      "product_count": 4
+    },
+    {
+      "tanko_category": "workbench",
+      "subcollection": "Hexagonal",
+      "slug": "hexagonal",
+      "product_count": 4
+    },
+    {
+      "tanko_category": "workbench",
+      "subcollection": "Packing Station",
+      "slug": "packing-station",
+      "product_count": 1
+    },
+    {
+      "tanko_category": "tool-cabinet",
+      "subcollection": "Standard Tool Cabinet",
+      "slug": "standard-tool-cabinet",
+      "product_count": 6
+    },
+    {
+      "tanko_category": "tool-cabinet",
+      "subcollection": "Heavy-Duty Tool Cabinet",
+      "slug": "heavy-duty-tool-cabinet",
+      "product_count": 4
+    },
+    {
+      "tanko_category": "tool-cabinet",
+      "subcollection": "Trolley",
+      "slug": "trolley",
+      "product_count": 3
+    },
+    {
+      "tanko_category": "tool-cabinet",
+      "subcollection": "Tilt Out Bins Cart",
+      "slug": "tilt-out-bins-cart",
+      "product_count": 1
+    },
+    {
+      "tanko_category": "cnc-tool",
+      "subcollection": "CNC Tool Cabinet",
+      "slug": "cnc-tool-cabinet",
+      "product_count": 4
+    },
+    {
+      "tanko_category": "cnc-tool",
+      "subcollection": "CNC Trolley",
+      "slug": "cnc-trolley",
+      "product_count": 3
+    },
+    {
+      "tanko_category": "cnc-tool",
+      "subcollection": "CNC Tool Cabinet with Door",
+      "slug": "cnc-tool-cabinet-with-door",
+      "product_count": 3
+    },
+    {
+      "tanko_category": "rack",
+      "subcollection": "Mould Rack",
+      "slug": "mould-rack",
+      "product_count": 2
+    },
+    {
+      "tanko_category": "rack",
+      "subcollection": "Pull-out Rack",
+      "slug": "pull-out-rack",
+      "product_count": 1
+    },
+    {
+      "tanko_category": "hanger-rack",
+      "subcollection": "Hanger Rack",
+      "slug": "hanger-rack",
+      "product_count": 6
+    },
+    {
+      "tanko_category": "hanger-rack",
+      "subcollection": "Display Stand",
+      "slug": "display-stand",
+      "product_count": 3
+    },
+    {
+      "tanko_category": "parts-cabinet",
+      "subcollection": "Parts Cabinet",
+      "slug": "parts-cabinet",
+      "product_count": 6
+    },
+    {
+      "tanko_category": "parts-cabinet",
+      "subcollection": "Parts Bin",
+      "slug": "parts-bin",
+      "product_count": 2
+    },
+    {
+      "tanko_category": "parts-cabinet",
+      "subcollection": "Team Case",
+      "slug": "team-case",
+      "product_count": 2
+    },
+    {
+      "tanko_category": "documents-cabinet",
+      "subcollection": "Documents Tray",
+      "slug": "documents-tray",
+      "product_count": 1
+    },
+    {
+      "tanko_category": "documents-cabinet",
+      "subcollection": "Documents Cabinet",
+      "slug": "documents-cabinet",
+      "product_count": 6
+    },
+    {
+      "tanko_category": "perforated-board",
+      "subcollection": "Perforated Board",
+      "slug": "perforated-board",
+      "product_count": 3
+    },
+    {
+      "tanko_category": "perforated-board",
+      "subcollection": "Hooks",
+      "slug": "hooks",
+      "product_count": 3
+    },
+    {
+      "tanko_category": "perforated-board",
+      "subcollection": "Hangers",
+      "slug": "hangers",
+      "product_count": 12
+    },
+    {
+      "tanko_category": "household-items",
+      "subcollection": "Chest of Drawers",
+      "slug": "chest-of-drawers",
+      "product_count": 1
+    }
+  ],
+  "summary": {
+    "new_skus": 17,
+    "image_swaps": 12,
+    "distinct_titles": 146,
+    "subcollection_pages": 29,
+    "products_json_before": 1742,
+    "products_json_after": 1759
+  }
+}

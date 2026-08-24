@@ -1,0 +1,71 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container">
+  <nav class="crumbs" aria-label="Breadcrumb">
+    <a href="{{ base_url }}">Home</a><span class="sep">/</span>
+    <a href="{{ base_url }}{{ category.slug }}/">{{ category.name }}</a><span class="sep">/</span>
+    <a href="{{ base_url }}{{ family.url }}">{{ family.name }}</a><span class="sep">/</span>
+    <span class="current">{{ variant.sku }}</span>
+  </nav>
+</div>
+<section class="section">
+  <div class="container">
+    <div class="variant">
+      <div class="variant-gallery">
+        {% if variant.image_paths %}
+        <img src="{{ base_url }}{{ variant.image_paths[0] }}" alt="{{ variant.h1 }}" id="main-img">
+        {% if variant.image_paths|length > 1 %}
+        <div class="variant-thumbs">
+          {% for img in variant.image_paths %}
+          <a href="#" onclick="document.getElementById('main-img').src=this.querySelector('img').src;return false;"><img src="{{ base_url }}{{ img }}" alt="{{ variant.sku }} view {{ loop.index }}"></a>
+          {% endfor %}
+        </div>
+        {% endif %}
+        {% endif %}
+      </div>
+      <div class="variant-info">
+        <h1>{{ variant.h1 }}</h1>
+        <div class="sku-line">Model No. {{ variant.sku }} &middot; <a href="{{ base_url }}{{ family.url }}">{{ family.name }}</a></div>
+        <ul class="spec-list">
+          {% if variant.dimensions %}<li><span class="k">Dimensions</span><span class="v">{{ variant.dimensions|replace('|','')|trim }}</span></li>{% endif %}
+          {% if variant.material %}<li><span class="k">Material / Top</span><span class="v">{{ variant.material }}</span></li>{% endif %}
+          {% if variant.color %}<li><span class="k">Colour</span><span class="v">{{ variant.color }}</span></li>{% endif %}
+          {% if variant.load_capacity %}<li><span class="k">Load capacity</span><span class="v">{{ variant.load_capacity }}</span></li>{% endif %}
+          {% for k, v in (variant.attributes or {}).items() %}
+          {% if v and (v|string).lower() != 'none' and k not in ('Top', 'Material', 'Color', 'Colour', 'Dimensions') %}<li><span class="k">{{ k }}</span><span class="v">{{ v }}</span></li>{% endif %}
+          {% endfor %}
+          <li><span class="k">Origin</span><span class="v">Manufactured in Taiwan by Tanko Enterprise Co., Ltd.</span></li>
+          <li><span class="k">Availability</span><span class="v">Malaysia stock &middot; nationwide delivery</span></li>
+        </ul>
+        <p><button type="button" class="btn add-to-basket-btn"
+              data-sku="{{ variant.sku }}"
+              data-name="{{ variant.h1 }}"
+              data-image="{{ variant.image_paths[0] if variant.image_paths else '' }}"
+              data-url="{{ canonical.replace('https://primaxs.com.my', '') if canonical else '' }}">Add to Basket</button>
+           <a class="btn btn-outline" href="{{ base_url }}{{ family.url }}">Compare Variants</a></p>
+      </div>
+    </div>
+
+    {% if related %}
+    <section class="related" style="margin-top:2.5rem;">
+      <h2>Related variants in the {{ family.name }} range</h2>
+      <ul>
+        {% for r in related %}<li><a href="{{ base_url }}{{ r.url }}">{{ r.sku }}{% if r.label %} &middot; {{ r.label }}{% endif %}</a></li>{% endfor %}
+      </ul>
+    </section>
+    {% endif %}
+
+    {% if faqs %}
+    <section class="related" style="margin-top:2.5rem;">
+      <h2>Frequently asked</h2>
+      {% for f in faqs %}
+      <details style="border:1px solid var(--line);border-radius:4px;padding:.75rem 1rem;margin-bottom:.5rem;">
+        <summary style="cursor:pointer;font-weight:600;">{{ f.q }}</summary>
+        <p style="margin-top:.5rem;">{{ f.a }}</p>
+      </details>
+      {% endfor %}
+    </section>
+    {% endif %}
+  </div>
+</section>
+{% endblock %}

@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container">
+  <nav class="crumbs" aria-label="Breadcrumb">
+    <a href="{{ base_url }}">Home</a><span class="sep">/</span>
+    <span class="current">Products</span>
+  </nav>
+  <div class="page-head">
+    <h1>Industrial Storage Product Range — Malaysia</h1>
+    <p class="page-lede">Eleven core Tanko ranges distributed exclusively in Malaysia by Primaxs. Browse a category to compare models, sizes and finishes, then request a quote.</p>
+  </div>
+</div>
+<section class="section">
+  <div class="container">
+    <ul class="cat-grid">
+      {% for c in categories %}
+      <li class="cat-card"><a href="{{ base_url }}{{ c.slug }}/">
+        <div class="cat-thumb">{% if c.hero_image %}<img src="{{ base_url }}{{ c.hero_image }}" alt="{{ c.name }} — {{ c.tagline }}" loading="lazy">{% endif %}</div>
+        <div class="cat-body"><h3>{{ c.name }}</h3><p>{{ c.tagline }}</p></div>
+      </a></li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>
+{% endblock %}

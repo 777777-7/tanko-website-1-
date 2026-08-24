@@ -1,0 +1,198 @@
+{% extends "base.html" %}
+{% block body_class %}home home-v4{% endblock %}
+{% block content %}
+
+{# ══════════════════ HERO — warm paper editorial split ══════════════════ #}
+<section class="v4-hero" aria-label="Featured product ranges">
+  <div class="v4-hero-track" id="hero-track">
+    {% for slide in slides %}
+    <article class="v4-slide{% if loop.first %} is-active{% endif %}" data-slide="{{ loop.index }}">
+      <div class="v4-hero-inner">
+        <div class="v4-hero-copy">
+          <p class="v4-eyebrow"><span class="v4-rule"></span>EST.&nbsp;1975 &middot; AUTHORISED MALAYSIA DEALER</p>
+          {% if loop.first %}
+          <h1 class="v4-hero-h">The Tanko catalogue,<br>distributed in Malaysia<br>since 2006.</h1>
+          {% else %}
+          <h2 class="v4-hero-h">{{ slide.headline }}</h2>
+          {% endif %}
+          <p class="v4-hero-sub">Authorised dealer for Tanko Enterprise Co., Ltd. — the Taiwan industrial-storage manufacturer since 1975. Stocked in Selangor, quoted in Ringgit, warranty administered locally.</p>
+          <div class="v4-hero-actions">
+            <a class="v4-btn v4-btn-primary" href="{{ base_url }}enquiry/">Send us your list</a>
+            <a class="v4-btn v4-btn-ghost" href="{{ base_url }}{{ slide.link }}">Browse the range&nbsp;→</a>
+          </div>
+        </div>
+        <figure class="v4-hero-photo">
+          <img src="{{ base_url }}{{ slide.image }}" alt="{{ slide.headline }}" {% if loop.first %}fetchpriority="high"{% else %}loading="lazy"{% endif %}>
+          <figcaption class="v4-hero-caption">
+            <span class="v4-mono">Plate {{ '%02d' % loop.index }} / {{ slides|length }}</span>
+          </figcaption>
+        </figure>
+      </div>
+    </article>
+    {% endfor %}
+  </div>
+  <nav class="v4-hero-ticks" aria-label="Slide navigation">
+    {% for slide in slides %}
+    <a href="#slide-{{ loop.index }}" data-goto="{{ loop.index }}" class="v4-tick{% if loop.first %} is-active{% endif %}" aria-label="Slide {{ loop.index }}"><span>{{ '%02d' % loop.index }}</span></a>
+    {% endfor %}
+  </nav>
+</section>
+
+{# ══════════════════ THE RANGE — 11 category directory ══════════════════ #}
+<section class="v4-section" id="categories">
+  <div class="v4-wrap">
+    <header class="v4-head">
+      <span class="v4-chapter">01</span>
+      <span class="v4-kicker">THE RANGE</span>
+      <h2 class="v4-h2">Eleven core Tanko ranges,<br>from workbench to CNC storage.</h2>
+    </header>
+    <ul class="v4-cats" role="list">
+      {% for c in categories %}
+      <li class="v4-cat">
+        <a href="{{ base_url }}{{ c.slug }}/">
+          <span class="v4-cat-num">{{ '%02d' % loop.index }}</span>
+          <div class="v4-cat-tile">
+            {% if c.hero_image %}<img src="{{ base_url }}{{ c.hero_image }}" alt="{{ c.name }} — {{ c.tagline }}" loading="lazy">{% endif %}
+          </div>
+          <div class="v4-cat-body">
+            <h3 class="v4-cat-name">{{ c.name }}</h3>
+            <p class="v4-cat-desc">{{ c.tagline }}</p>
+            <span class="v4-cat-more">View range&nbsp;→</span>
+          </div>
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>
+
+{# ══════════════════ SELECTED MODELS — editorial featured strip ══════════════════ #}
+<section class="v4-section v4-section-paper2" id="featured">
+  <div class="v4-wrap">
+    <header class="v4-head">
+      <span class="v4-chapter">02</span>
+      <span class="v4-kicker">SELECTED MODELS</span>
+      <h2 class="v4-h2">Flagship configurations,<br>real specifications.</h2>
+    </header>
+    <ul class="v4-feat" role="list">
+      {% for f in featured %}
+      <li class="v4-feat-card">
+        <a href="{{ base_url }}{{ f.url }}">
+          <span class="v4-feat-hairline"></span>
+          <div class="v4-feat-head">
+            <span class="v4-feat-sku">{{ f.sku }}</span>
+            {% if f.badges %}
+            <span class="v4-feat-badges">
+              {% for b in f.badges %}<span class="v4-badge v4-badge-{{ b.kind }}">{{ b.label }}</span>{% endfor %}
+            </span>
+            {% endif %}
+          </div>
+          <div class="v4-feat-tile">
+            <img src="{{ base_url }}{{ f.image }}" alt="{{ f.name }} ({{ f.sku }})" loading="lazy">
+          </div>
+          <div class="v4-feat-body">
+            <h3 class="v4-feat-name">{{ f.name }}</h3>
+            {% if f.dims %}<p class="v4-feat-dim">{{ f.dims }}</p>{% endif %}
+            <span class="v4-feat-more">View details&nbsp;→</span>
+          </div>
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>
+
+{# ══════════════════ INDUSTRIES — editorial rows ══════════════════ #}
+<section class="v4-section">
+  <div class="v4-wrap">
+    <header class="v4-head">
+      <span class="v4-chapter">03</span>
+      <span class="v4-kicker">WHO WE EQUIP</span>
+      <h2 class="v4-h2">Industries we serve<br>across Malaysia.</h2>
+    </header>
+    <ul class="v4-ind" role="list">
+      <li class="v4-ind-row">
+        <span class="v4-ind-num">i</span>
+        <div class="v4-ind-body">
+          <h3 class="v4-ind-name">Factories &amp; Manufacturing</h3>
+          <p class="v4-ind-desc">Production-line workstations, tool control and parts organisation for continuous shift operations.</p>
+        </div>
+        <div class="v4-ind-links">
+          <a href="{{ base_url }}workstation/">Workstations&nbsp;↗</a>
+          <a href="{{ base_url }}workbench/">Workbenches&nbsp;↗</a>
+          <a href="{{ base_url }}parts-cabinet/">Parts Cabinets&nbsp;↗</a>
+        </div>
+      </li>
+      <li class="v4-ind-row">
+        <span class="v4-ind-num">ii</span>
+        <div class="v4-ind-body">
+          <h3 class="v4-ind-name">Automotive Workshops</h3>
+          <p class="v4-ind-desc">Heavy-duty tool cabinets, mobile trolleys and workbenches sized for bay-side use.</p>
+        </div>
+        <div class="v4-ind-links">
+          <a href="{{ base_url }}tool-cabinet/">Tool Cabinets&nbsp;↗</a>
+          <a href="{{ base_url }}workbench/">Workbenches&nbsp;↗</a>
+          <a href="{{ base_url }}perforated-board/">Perforated Boards&nbsp;↗</a>
+        </div>
+      </li>
+      <li class="v4-ind-row">
+        <span class="v4-ind-num">iii</span>
+        <div class="v4-ind-body">
+          <h3 class="v4-ind-name">Laboratories &amp; Cleanrooms</h3>
+          <p class="v4-ind-desc">Stainless-steel worksurfaces, chemical-resistant storage and modular lab benching.</p>
+        </div>
+        <div class="v4-ind-links">
+          <a href="{{ base_url }}workbench/">Workbenches&nbsp;↗</a>
+          <a href="{{ base_url }}locker/">Lockers&nbsp;↗</a>
+          <a href="{{ base_url }}documents-cabinet/">Documents Cabinets&nbsp;↗</a>
+        </div>
+      </li>
+      <li class="v4-ind-row">
+        <span class="v4-ind-num">iv</span>
+        <div class="v4-ind-body">
+          <h3 class="v4-ind-name">Campuses &amp; Facilities</h3>
+          <p class="v4-ind-desc">Lockers, technical-training benches and departmental parts storage for schools and campuses.</p>
+        </div>
+        <div class="v4-ind-links">
+          <a href="{{ base_url }}locker/">Lockers&nbsp;↗</a>
+          <a href="{{ base_url }}workbench/">Workbenches&nbsp;↗</a>
+          <a href="{{ base_url }}parts-cabinet/">Parts Cabinets&nbsp;↗</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
+
+{# ══════════════════ WHY PRIMAXS — dark-steel gravitas section ══════════════════ #}
+<section class="v4-section v4-section-steel">
+  <div class="v4-wrap">
+    <div class="v4-why">
+      <div class="v4-why-copy">
+        <span class="v4-chapter v4-chapter-light">04</span>
+        <span class="v4-kicker v4-kicker-light">WHY PRIMAXS</span>
+        <h2 class="v4-h2 v4-h2-light">A local channel<br>for a Taiwan catalogue.</h2>
+        <p>Primaxs Marketing (M) Sdn Bhd is the exclusive Malaysia retail distributor for Tanko Enterprise Co., Ltd., the Taiwan industrial-storage manufacturer established in 1975. Buying through the local distributor means Malaysian stock and Ringgit pricing, help selecting the right model from a technician who has physically handled the range, and after-sales support routed through a Malaysia office instead of a cross-border RMA queue.</p>
+        <a class="v4-btn v4-btn-ghost-light" href="{{ base_url }}about/">More about Primaxs&nbsp;→</a>
+      </div>
+      <ul class="v4-stats" role="list">
+        <li><span class="v4-stat-n">1975</span><span class="v4-stat-l">tanko established</span></li>
+        <li><span class="v4-stat-n">2006</span><span class="v4-stat-l">primaxs incorporated</span></li>
+        <li><span class="v4-stat-n">11</span><span class="v4-stat-l">product categories</span></li>
+        <li><span class="v4-stat-n">1,700<sup>+</sup></span><span class="v4-stat-l">SKUs catalogued</span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+{# ══════════════════ CTA close ══════════════════ #}
+<section class="v4-cta">
+  <div class="v4-wrap">
+    <span class="v4-chapter v4-chapter-light">05</span>
+    <span class="v4-kicker v4-kicker-light">READY TO SPECIFY</span>
+    <h2 class="v4-h2 v4-h2-light">Send us your model list<br>and we'll come back with a quote.</h2>
+    <a class="v4-btn v4-btn-primary v4-btn-lg" href="{{ base_url }}enquiry/">Send us your list&nbsp;→</a>
+  </div>
+</section>
+
+<script src="{{ base_url }}assets/js/home.js" defer></script>
+{% endblock %}

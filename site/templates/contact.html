@@ -1,0 +1,56 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container">
+  <nav class="crumbs" aria-label="Breadcrumb">
+    <a href="{{ base_url }}">Home</a><span class="sep">/</span>
+    <span class="current">Contact Us</span>
+  </nav>
+  <div class="page-head">
+    <h1>Contact Primaxs Marketing (M) Sdn Bhd</h1>
+    <p class="page-lede">Speak to our team about specifications, quotes, stock or after-sales support — we respond during Malaysia business hours (Mon–Fri, 9:00 AM to 6:00 PM).</p>
+  </div>
+</div>
+
+<section class="section">
+  <div class="container">
+    <div class="contact-grid">
+      <div class="contact-card">
+        <span class="ck">Office &amp; warehouse</span>
+        <p class="cv">No. 39, Jalan Balakong Jaya 4,<br>Taman Industri Balakong Jaya,<br>43300 Seri Kembangan,<br>Selangor, Malaysia</p>
+      </div>
+      <div class="contact-card">
+        <span class="ck">Phone (sales &amp; enquiries)</span>
+        <p class="cv"><a href="tel:+60126163088">+60 12-616 3088</a></p>
+      </div>
+      <div class="contact-card">
+        <span class="ck">Phone (main office)</span>
+        <p class="cv"><a href="tel:+60342964737">+60 3-4296 4737</a></p>
+      </div>
+      <div class="contact-card">
+        <span class="ck">Email</span>
+        <p class="cv"><a href="mailto:sales@storagesystem.my">sales@storagesystem.my</a></p>
+      </div>
+      <div class="contact-card">
+        <span class="ck">Business hours</span>
+        <p class="cv">Monday – Friday · 9:00 AM – 6:00 PM<br>Saturday · closed<br>Sunday · closed</p>
+      </div>
+      <div class="contact-card">
+        <span class="ck">Company registration</span>
+        <p class="cv">Primaxs Marketing (M) Sdn Bhd<br>Company No. 756588-H<br>Incorporated 15 Dec 2006, Malaysia</p>
+      </div>
+    </div>
+
+    <div class="contact-cta">
+      <p>Sending a full spec list or a bill of materials?</p>
+      <a class="btn" href="{{ base_url }}enquiry/">Send us a quote request&nbsp;→</a>
+    </div>
+
+    <div class="contact-map">
+      <a href="https://www.google.com/maps/search/?api=1&query=No.+39,+Jalan+Balakong+Jaya+4,+43300+Seri+Kembangan,+Selangor"
+         target="_blank" rel="noopener">
+        Open our address in Google Maps&nbsp;→
+      </a>
+    </div>
+  </div>
+</section>
+{% endblock %}

@@ -1,0 +1,100 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container">
+  <nav class="crumbs" aria-label="Breadcrumb">
+    <a href="{{ base_url }}">Home</a><span class="sep">/</span>
+    <span class="current">Request a Quote</span>
+  </nav>
+  <div class="page-head">
+    <h1>Request a Quote</h1>
+    <p class="page-lede">Review your basket, add or adjust quantities, then submit. We'll respond within one Malaysia business day with pricing, stock and delivery for the items you selected.</p>
+  </div>
+</div>
+
+<section class="section">
+  <div class="container">
+    <div class="enq-wrap">
+      <div class="enq-basket">
+        <h2 class="enq-h2">Your basket</h2>
+        <div id="enq-basket-empty" class="enq-empty" hidden>
+          <p>Your basket is empty. Browse the <a href="{{ base_url }}products/">product catalog</a> and add items to request a quote.</p>
+        </div>
+        <div id="enq-basket-list" class="enq-basket-list" aria-live="polite">
+          <!-- populated by basket.js -->
+        </div>
+      </div>
+
+      <form id="enq-form" class="enq-form"
+            action="https://formsubmit.co/weimingwong78@gmail.com"
+            method="POST" novalidate>
+        <input type="hidden" name="_subject" value="Primaxs — new quote request">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_template" value="table">
+        <input type="hidden" id="enq-basket-payload" name="basket_items" value="">
+
+        <h2 class="enq-h2">Your details</h2>
+
+        <div class="enq-row">
+          <label>
+            <span class="enq-lbl">Name <em>*</em></span>
+            <div class="enq-title-row">
+              <label class="enq-radio"><input type="radio" name="title" value="Mr" checked> Mr</label>
+              <label class="enq-radio"><input type="radio" name="title" value="Ms"> Ms</label>
+              <label class="enq-radio"><input type="radio" name="title" value="Dr"> Dr</label>
+              <input type="text" name="name" required placeholder="Full name">
+            </div>
+          </label>
+          <label>
+            <span class="enq-lbl">Company</span>
+            <input type="text" name="company" placeholder="Company name">
+          </label>
+        </div>
+
+        <div class="enq-row">
+          <label>
+            <span class="enq-lbl">Email <em>*</em></span>
+            <input type="email" name="email" required placeholder="you@company.com">
+          </label>
+          <label>
+            <span class="enq-lbl">Phone</span>
+            <input type="tel" name="phone" placeholder="+60 12-345 6789">
+          </label>
+        </div>
+
+        <div class="enq-row">
+          <label class="enq-full">
+            <span class="enq-lbl">Delivery address / state</span>
+            <input type="text" name="address" placeholder="Address, city, state, postcode">
+          </label>
+        </div>
+
+        <div class="enq-row">
+          <label class="enq-full">
+            <span class="enq-lbl">Best time to contact</span>
+            <div class="enq-check-row">
+              <label class="enq-check"><input type="checkbox" name="contact_time[]" value="Morning (9am-12pm)"> Morning (9am–12pm)</label>
+              <label class="enq-check"><input type="checkbox" name="contact_time[]" value="Afternoon (1pm-5pm)"> Afternoon (1pm–5pm)</label>
+              <label class="enq-check"><input type="checkbox" name="contact_time[]" value="WhatsApp any time"> WhatsApp any time</label>
+            </div>
+          </label>
+        </div>
+
+        <div class="enq-row">
+          <label class="enq-full">
+            <span class="enq-lbl">Requirement / notes <em>*</em></span>
+            <textarea name="requirement" rows="5" required placeholder="Quantities, delivery timeline, custom configuration, or any specification questions."></textarea>
+          </label>
+        </div>
+
+        <div class="enq-row enq-submit-row">
+          <button type="submit" class="btn btn-lg">Submit Quote Request</button>
+          <p class="enq-note">By submitting, you agree we can contact you about your enquiry.<br>We do not share your details with third parties.</p>
+        </div>
+      </form>
+    </div>
+
+  </div>
+</section>
+
+<script src="{{ base_url }}assets/js/enquiry.js" defer></script>
+{% endblock %}

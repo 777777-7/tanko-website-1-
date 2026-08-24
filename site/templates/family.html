@@ -1,0 +1,230 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container">
+  <nav class="crumbs" aria-label="Breadcrumb">
+    <a href="{{ base_url }}">Home</a><span class="sep">/</span>
+    <a href="{{ base_url }}{{ category.slug }}/">{{ category.name }}</a><span class="sep">/</span>
+    <span class="current">{{ family.name }}</span>
+  </nav>
+</div>
+
+{# ── product hero: media + interactive picker ── #}
+<section class="section" style="padding-top:1rem;">
+  <div class="container">
+    <div class="product" id="product" data-base="{{ base_url }}" data-family="{{ family.name }}">
+      <div class="product-media">
+        <div class="stage"><img id="stage-img" src="{{ base_url }}{{ picker.default.image }}" alt="{{ family.name }} — {{ picker.default.sku }}"></div>
+        {% if picker.default.thumbs and picker.default.thumbs|length > 1 %}
+        <div class="product-thumbs" id="stage-thumbs">
+          {% for t in picker.default.thumbs %}
+          <button type="button" class="{{ 'active' if loop.first else '' }}" data-src="{{ base_url }}{{ t }}"><img src="{{ base_url }}{{ t }}" alt="{{ picker.default.sku }} view {{ loop.index }}"></button>
+          {% endfor %}
+        </div>
+        {% endif %}
+      </div>
+
+      <div class="product-info">
+        <div class="eyebrow">{{ category.name }}</div>
+        <h1>{{ family.h1 }}</h1>
+        <div class="product-model"><span class="lbl">Model No.</span><span class="val" id="model-val">{{ picker.default.sku }}</span></div>
+
+        <div id="opt-container"></div>
+        <ul class="product-specs" id="product-specs"></ul>
+
+        <div class="product-cta">
+          <button type="button" class="btn" id="add-to-basket"
+                  data-sku="{{ picker.default.sku }}"
+                  data-name="{{ family.name }} — {{ picker.default.sku }}"
+                  data-image="{{ picker.default.image }}"
+                  data-url="{{ picker.default.url }}">Add to Basket</button>
+          <a class="btn btn-outline" id="details-link" href="{{ base_url }}{{ picker.default.url }}">Full Specs &amp; Details</a>
+        </div>
+        <p style="font-size:.82rem;color:var(--ink-muted);margin-top:1rem;">Manufactured in Taiwan by Tanko &middot; Malaysia stock &middot; nationwide delivery. Not all combinations are stocked — request a quote to confirm lead time.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+{# ── Dynamic tab section: uses whichever tabs this family actually has, plus the always-on Product Specification (variant comparison) ── #}
+<section class="section section-alt">
+  <div class="container">
+    <div class="ptabs" role="tablist" aria-label="Product information">
+      {% for t in ptabs %}
+      <button class="ptabs-btn" role="tab" aria-selected="{{ 'true' if loop.first else 'false' }}" data-tab="{{ t.key }}">{{ t.label }}</button>
+      {% endfor %}
+      <button class="ptabs-btn" role="tab" aria-selected="false" data-tab="variants">Variant Comparison</button>
+    </div>
+
+    {% for t in ptabs %}
+    <div class="ptab-panel" data-tab="{{ t.key }}" data-active="{{ 'true' if loop.first else 'false' }}" role="tabpanel">
+      {% if t.kind == "cards" %}
+        {% if t.key == "howto" %}
+        <ul class="pchoose">
+          {% for c in t.cards %}
+          <li>
+            {% if c.image %}<div class="pc-img"><img src="{{ base_url }}{{ c.image }}" alt="{{ c.title or (family.name ~ ' — step ' ~ loop.index) }}" loading="lazy"></div>{% endif %}
+            <div class="pc-body">
+              <span class="pc-step">Step&nbsp;{{ '%02d' % loop.index }}</span>
+              <h3>{{ c.title }}</h3>
+              {% if c.caption %}<p style="font-size:13.5px;color:var(--ink-muted);margin:6px 0 0;line-height:1.5;">{{ c.caption }}</p>{% endif %}
+            </div>
+          </li>
+          {% endfor %}
+        </ul>
+        {% else %}
+        <ul class="pfeat">
+          {% for c in t.cards %}
+          <li class="{{ 'pf-has-spec' if c.spec_rows else '' }}">
+            {% if c.image %}<div class="pf-img"><img src="{{ base_url }}{{ c.image }}" alt="{{ c.title or family.name }}" loading="lazy"></div>{% endif %}
+            <div class="pf-body">
+              {% if c.title %}<h3>{{ c.title }}</h3>{% endif %}
+              {% if c.caption %}<p>{{ c.caption }}</p>{% endif %}
+              {% if c.spec_tables %}
+              <div class="pf-spec-tables">
+                {% for tbl in c.spec_tables %}
+                <div class="pf-spec-table-wrap">
+                  <table class="pf-spec-table">
+                    <thead><tr><th>Model&nbsp;No.</th>{% for h in tbl.headers %}<th>{{ h }}</th>{% endfor %}</tr></thead>
+                    <tbody>
+                      {% for r in tbl.rows %}
+                      <tr>
+                        <th scope="row">{{ r.label }}</th>
+                        {% if r['colspan'] and r['colspan'] > 1 %}<td colspan="{{ r['colspan'] }}">{{ r['values'][0] }}</td>
+                        {% else %}{% for v in r['values'] %}<td>{{ v }}</td>{% endfor %}{% endif %}
+                      </tr>
+                      {% endfor %}
+                    </tbody>
+                  </table>
+                </div>
+                {% endfor %}
+              </div>
+              {% elif c.spec_rows %}
+              <div class="pf-spec-rows">
+                {% for row in c.spec_rows %}
+                  <p>{{ row|replace('Model No.', '<strong>Model No.</strong>')|safe }}</p>
+                {% endfor %}
+              </div>
+              {% endif %}
+            </div>
+          </li>
+          {% endfor %}
+        </ul>
+        {% endif %}
+      {% elif t.kind == "spec_blocks" %}
+        {% if t.blueprint %}
+        <figure class="spec-blueprint">
+          <img src="{{ base_url }}{{ t.blueprint }}" alt="{{ family.name }} — overall frame dimensions (mm)" loading="lazy">
+          <figcaption>Overall frame dimensions in millimetres. Per-model specifications below.</figcaption>
+        </figure>
+        {% endif %}
+        {% for b in t.blocks %}
+        <div class="pspec-block">
+          <div class="pspec-image">{% if b.image %}<img src="{{ base_url }}{{ b.image }}" alt="{{ b.model_no }} drawing" loading="lazy">{% endif %}</div>
+          <div class="pspec-body">
+            {% if b.spec_table %}
+              {% set _tables = b.spec_table if b.spec_table is sequence and b.spec_table is not mapping else [b.spec_table] %}
+              {% for tbl in _tables %}
+              <div class="pf-spec-table-wrap">
+                <table class="pf-spec-table">
+                  <thead><tr><th>Model&nbsp;No.</th>{% for h in tbl.headers %}<th>{{ h }}</th>{% endfor %}</tr></thead>
+                  <tbody>
+                    {% for r in tbl.rows %}
+                    <tr>
+                      <th scope="row">{{ r.label }}</th>
+                      {% if r['colspan'] and r['colspan'] > 1 %}<td colspan="{{ r['colspan'] }}">{{ r['values'][0] }}</td>
+                      {% else %}{% for v in r['values'] %}<td>{{ v }}</td>{% endfor %}{% endif %}
+                    </tr>
+                    {% endfor %}
+                  </tbody>
+                </table>
+              </div>
+              {% endfor %}
+            {% else %}
+              <p class="pspec-model">Model No.<strong>{{ b.model_no }}</strong></p>
+              <ul class="pspec-attrs">
+                {% if b.dimensions %}<li><span class="k">Dimensions</span><span class="v">{{ b.dimensions }}</span></li>{% endif %}
+                {% if b.material %}<li><span class="k">Material</span><span class="v">{{ b.material }}</span></li>{% endif %}
+                {% if b.desktop %}<li><span class="k">Desktop</span><span class="v">{{ b.desktop }}</span></li>{% endif %}
+              </ul>
+            {% endif %}
+            {% if b.items_included %}
+            <p class="pspec-items-h">Items included</p>
+            <ul class="pspec-items">
+              {% for it in b.items_included %}
+              <li><span class="sku">{{ it.sku }}</span><span class="desc">{{ it.desc }}</span>{% if it.qty %}<span class="qty">× {{ it.qty }}</span>{% endif %}</li>
+              {% endfor %}
+            </ul>
+            {% endif %}
+          </div>
+        </div>
+        {% endfor %}
+      {% elif t.kind == "generic" %}
+        <ul class="pfeat">
+          {% for b in t.blocks %}
+          <li class="{{ 'pf-has-spec' if (b.spec_table or b.table) else '' }}">
+            {% if b.image %}<div class="pf-img"><img src="{{ base_url }}{{ b.image }}" alt="{{ b.title or family.name }}" loading="lazy"></div>{% endif %}
+            <div class="pf-body">
+              {% if b.title %}<h3>{{ b.title }}</h3>{% endif %}
+              {% if b.spec_table %}
+                <div class="pf-spec-tables">
+                  {% set _tables = b.spec_table if b.spec_table is sequence and b.spec_table is not mapping else [b.spec_table] %}
+                  {% for tbl in _tables %}
+                  <div class="pf-spec-table-wrap">
+                    <table class="pf-spec-table">
+                      <thead><tr><th>Model&nbsp;No.</th>{% for h in tbl.headers %}<th>{{ h }}</th>{% endfor %}</tr></thead>
+                      <tbody>
+                        {% for r in tbl.rows %}
+                        <tr>
+                          <th scope="row">{{ r.label }}</th>
+                          {% if r['colspan'] and r['colspan'] > 1 %}<td colspan="{{ r['colspan'] }}">{{ r['values'][0] }}</td>
+                          {% else %}{% for v in r['values'] %}<td>{{ v }}</td>{% endfor %}{% endif %}
+                        </tr>
+                        {% endfor %}
+                      </tbody>
+                    </table>
+                  </div>
+                  {% endfor %}
+                </div>
+              {% elif b.body %}
+                <p style="white-space:pre-line;">{{ b.body }}</p>
+              {% endif %}
+              {% if b.table and not b.spec_table %}
+              <div class="table-scroll" style="margin-top:12px;"><table class="spec-table">
+                {% for row in b.table %}<tr>{% for cell in row %}<td>{{ cell }}</td>{% endfor %}</tr>{% endfor %}
+              </table></div>
+              {% endif %}
+            </div>
+          </li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+    </div>
+    {% endfor %}
+
+    {# always last: variant comparison, our own crawlable table #}
+    <div class="ptab-panel" data-tab="variants" data-active="{{ 'true' if not ptabs else 'false' }}" role="tabpanel">
+      <p style="max-width:64ch;color:var(--ink-muted);">{{ variants|length }} configurations. Every variant below has its own detail page.</p>
+      <div class="table-scroll">
+        <table class="spec-table">
+          <thead>
+            <tr><th>Model</th>{% for col in cols %}<th>{{ col }}</th>{% endfor %}<th></th></tr>
+          </thead>
+          <tbody>
+            {% for v in variants %}
+            <tr>
+              <td><strong>{{ v.sku }}</strong></td>
+              {% for col in cols %}<td>{{ v.row.get(col) or '—' }}</td>{% endfor %}
+              <td>{% if v.url %}<a href="{{ base_url }}{{ v.url }}">Details &rarr;</a>{% endif %}</td>
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script type="application/json" id="picker-data">{{ picker.json|safe }}</script>
+<script src="{{ base_url }}assets/js/picker.js" defer></script>
+<script src="{{ base_url }}assets/js/product_tabs.js" defer></script>
+{% endblock %}

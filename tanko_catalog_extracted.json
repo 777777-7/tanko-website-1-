@@ -1,0 +1,2936 @@
+[
+  {
+    "sku": "EDAB-090505",
+    "variant_label": "EDAB-062505",
+    "dimensions": null,
+    "load_capacity_hint": "100kg",
+    "category_heading": "Professional",
+    "page": 4,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "RPW-09S",
+    "variant_label": "RPW-06S",
+    "dimensions": null,
+    "load_capacity_hint": "100kg",
+    "category_heading": "Professional",
+    "page": 4,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "RPW-12S",
+    "variant_label": "RPW-06S",
+    "dimensions": null,
+    "load_capacity_hint": "100kg",
+    "category_heading": "Professional",
+    "page": 4,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "RPW-09D",
+    "variant_label": "RPW-06D",
+    "dimensions": null,
+    "load_capacity_hint": "100kg",
+    "category_heading": "Professional",
+    "page": 4,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "RPQ-9063A",
+    "variant_label": "RPQ-6063A",
+    "dimensions": null,
+    "load_capacity_hint": "100kg",
+    "category_heading": "Professional",
+    "page": 4,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "RPQ-6103A",
+    "variant_label": "RPQ-6063A",
+    "dimensions": null,
+    "load_capacity_hint": "100kg",
+    "category_heading": "Professional",
+    "page": 4,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "RPQ-9103A",
+    "variant_label": "RPQ-6063A",
+    "dimensions": null,
+    "load_capacity_hint": "100kg",
+    "category_heading": "Professional",
+    "page": 4,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "RPQ-6102",
+    "variant_label": "RPQ-6062",
+    "dimensions": null,
+    "load_capacity_hint": "100kg",
+    "category_heading": "Professional",
+    "page": 4,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "WE-58W",
+    "variant_label": "WE-47W",
+    "dimensions": null,
+    "load_capacity_hint": "45kg",
+    "category_heading": "9",
+    "page": 9,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "WE-47W7",
+    "variant_label": "WE-47W3",
+    "dimensions": null,
+    "load_capacity_hint": "45kg",
+    "category_heading": "9",
+    "page": 9,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "WE-47W8",
+    "variant_label": "WE-47W4",
+    "dimensions": null,
+    "load_capacity_hint": "45kg",
+    "category_heading": "9",
+    "page": 9,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "WE-47W9",
+    "variant_label": "WE-47W5",
+    "dimensions": null,
+    "load_capacity_hint": "45kg",
+    "category_heading": "9",
+    "page": 9,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "WE-58W3",
+    "variant_label": "WE-47W3",
+    "dimensions": null,
+    "load_capacity_hint": "45kg",
+    "category_heading": "9",
+    "page": 9,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "WE-58W4",
+    "variant_label": "WE-47W4",
+    "dimensions": null,
+    "load_capacity_hint": "45kg",
+    "category_heading": "9",
+    "page": 9,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "WE-58W5",
+    "variant_label": "WE-47W5",
+    "dimensions": null,
+    "load_capacity_hint": "45kg",
+    "category_heading": "9",
+    "page": 9,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "WEW-5102W",
+    "variant_label": "WET-4102W",
+    "dimensions": null,
+    "load_capacity_hint": "45kg",
+    "category_heading": "9",
+    "page": 9,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "WET-4102W7",
+    "variant_label": "WET-4102W3",
+    "dimensions": null,
+    "load_capacity_hint": "45kg",
+    "category_heading": "9",
+    "page": 9,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "WET-4102W8",
+    "variant_label": "WET-4102W4",
+    "dimensions": null,
+    "load_capacity_hint": "45kg",
+    "category_heading": "9",
+    "page": 9,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "WET-4102W9",
+    "variant_label": "WET-4102W5",
+    "dimensions": null,
+    "load_capacity_hint": "45kg",
+    "category_heading": "9",
+    "page": 9,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "WET-5102W3",
+    "variant_label": "WET-4102W3",
+    "dimensions": null,
+    "load_capacity_hint": "45kg",
+    "category_heading": "9",
+    "page": 9,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "WET-5102W4",
+    "variant_label": "WET-4102W4",
+    "dimensions": null,
+    "load_capacity_hint": "45kg",
+    "category_heading": "9",
+    "page": 9,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "WET-5102W5",
+    "variant_label": "WET-4102W5",
+    "dimensions": null,
+    "load_capacity_hint": "45kg",
+    "category_heading": "9",
+    "page": 9,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "WB-57N",
+    "variant_label": "Rubber top N",
+    "dimensions": "W1500xD750xH800",
+    "load_capacity_hint": "600kg",
+    "category_heading": "Professional",
+    "page": 10,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "WB-57F",
+    "variant_label": "Laminate top F",
+    "dimensions": "W1500xD750xH800",
+    "load_capacity_hint": "600kg",
+    "category_heading": "Professional",
+    "page": 10,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "WB-57W",
+    "variant_label": "Wood top W",
+    "dimensions": "W1500xD750xH800",
+    "load_capacity_hint": "600kg",
+    "category_heading": "Professional",
+    "page": 10,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "WB-67N",
+    "variant_label": "Rubber top N",
+    "dimensions": "W1800xD750xH800",
+    "load_capacity_hint": "600kg",
+    "category_heading": "Professional",
+    "page": 10,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "WB-67F",
+    "variant_label": "Laminate top F",
+    "dimensions": "W1800xD750xH800",
+    "load_capacity_hint": "600kg",
+    "category_heading": "Professional",
+    "page": 10,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "WB-67W",
+    "variant_label": "Wood top W",
+    "dimensions": "W1800xD750xH800",
+    "load_capacity_hint": "600kg",
+    "category_heading": "Professional",
+    "page": 10,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "WBT-5203N",
+    "variant_label": "Rubber top N",
+    "dimensions": "W1500xD750xH800",
+    "load_capacity_hint": "600kg",
+    "category_heading": "Professional",
+    "page": 10,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "WBT-5203F",
+    "variant_label": "Laminate top F",
+    "dimensions": "W1500xD750xH800",
+    "load_capacity_hint": "600kg",
+    "category_heading": "Professional",
+    "page": 10,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "WBT-5203W",
+    "variant_label": "Wood top W",
+    "dimensions": "W1500xD750xH800",
+    "load_capacity_hint": "600kg",
+    "category_heading": "Professional",
+    "page": 10,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "WBT-6203N",
+    "variant_label": "Rubber top N",
+    "dimensions": "W1800xD750xH800",
+    "load_capacity_hint": "600kg",
+    "category_heading": "Professional",
+    "page": 10,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "WBT-6203F",
+    "variant_label": "Laminate top F",
+    "dimensions": "W1800xD750xH800",
+    "load_capacity_hint": "600kg",
+    "category_heading": "Professional",
+    "page": 10,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "WBT-6203W",
+    "variant_label": "Wood top W",
+    "dimensions": "W1800xD750xH800",
+    "load_capacity_hint": "600kg",
+    "category_heading": "Professional",
+    "page": 10,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "WBS-53022N",
+    "variant_label": "Rubber top N",
+    "dimensions": "W1500xD750xH800",
+    "load_capacity_hint": "600kg",
+    "category_heading": "Professional",
+    "page": 10,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "WBS-53022F",
+    "variant_label": "Laminate top F",
+    "dimensions": "W1500xD750xH800",
+    "load_capacity_hint": "600kg",
+    "category_heading": "Professional",
+    "page": 10,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "WBS-53022W",
+    "variant_label": "Wood top W",
+    "dimensions": "W1500xD750xH800",
+    "load_capacity_hint": "600kg",
+    "category_heading": "Professional",
+    "page": 10,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "WBS-63022N",
+    "variant_label": "Rubber top N",
+    "dimensions": "W1800xD750xH800",
+    "load_capacity_hint": "600kg",
+    "category_heading": "Professional",
+    "page": 10,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "WBS-63022F",
+    "variant_label": "Laminate top F",
+    "dimensions": "W1800xD750xH800",
+    "load_capacity_hint": "600kg",
+    "category_heading": "Professional",
+    "page": 10,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "WBS-63022W",
+    "variant_label": "Wood top W",
+    "dimensions": "W1800xD750xH800",
+    "load_capacity_hint": "600kg",
+    "category_heading": "Professional",
+    "page": 10,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "WB-57N6A",
+    "variant_label": "Rubber top N",
+    "dimensions": "W1500xD750xH1400",
+    "load_capacity_hint": "600kg",
+    "category_heading": "Professional",
+    "page": 10,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "WB-57F6A",
+    "variant_label": "Laminate top F",
+    "dimensions": "W1500xD750xH1400",
+    "load_capacity_hint": "600kg",
+    "category_heading": "Professional",
+    "page": 10,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "WB-57W6A",
+    "variant_label": "Wood top W",
+    "dimensions": "W1500xD750xH1400",
+    "load_capacity_hint": "600kg",
+    "category_heading": "Professional",
+    "page": 10,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "WB-67N6A",
+    "variant_label": "Rubber top N",
+    "dimensions": "W1800xD750xH1400",
+    "load_capacity_hint": "600kg",
+    "category_heading": "Professional",
+    "page": 10,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "WB-67F6A",
+    "variant_label": "Laminate top F",
+    "dimensions": "W1800xD750xH1400",
+    "load_capacity_hint": "600kg",
+    "category_heading": "Professional",
+    "page": 10,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "WB-67W6A",
+    "variant_label": "Wood top W",
+    "dimensions": "W1800xD750xH1400",
+    "load_capacity_hint": "600kg",
+    "category_heading": "Professional",
+    "page": 10,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "EGA-7041",
+    "variant_label": "Rubber top N",
+    "dimensions": "W566xD510xH700",
+    "load_capacity_hint": "600kg",
+    "category_heading": "Professional",
+    "page": 10,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "WA-57A",
+    "variant_label": "A\nBenchwork top",
+    "dimensions": "W1500xD750xH800",
+    "load_capacity_hint": "2000kg",
+    "category_heading": "Heavy",
+    "page": 13,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "WA-67A",
+    "variant_label": "A\nBenchwork top",
+    "dimensions": "W1800xD750xH800",
+    "load_capacity_hint": "2000kg",
+    "category_heading": "Heavy",
+    "page": 13,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "WAT-5203A",
+    "variant_label": "A\nBenchwork top",
+    "dimensions": "W1500xD750xH800",
+    "load_capacity_hint": "2000kg",
+    "category_heading": "Heavy",
+    "page": 13,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "WAT-6203A",
+    "variant_label": "A\nBenchwork top",
+    "dimensions": "W1800xD750xH800",
+    "load_capacity_hint": "2000kg",
+    "category_heading": "Heavy",
+    "page": 13,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "WAS-54031A",
+    "variant_label": "A\nBenchwork top",
+    "dimensions": "W1500xD750xH800",
+    "load_capacity_hint": "2000kg",
+    "category_heading": "Heavy",
+    "page": 13,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "WAS-64031A",
+    "variant_label": "A\nBenchwork top",
+    "dimensions": "W1800xD750xH800",
+    "load_capacity_hint": "2000kg",
+    "category_heading": "Heavy",
+    "page": 13,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "WAS-57042A",
+    "variant_label": "A\nBenchwork top",
+    "dimensions": "W1500xD750xH800",
+    "load_capacity_hint": "2000kg",
+    "category_heading": "Heavy",
+    "page": 13,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "WAS-67042A",
+    "variant_label": "A\nBenchwork top",
+    "dimensions": "W1800xD750xH800",
+    "load_capacity_hint": "2000kg",
+    "category_heading": "Heavy",
+    "page": 13,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "WD-58S",
+    "variant_label": "WD-48S",
+    "dimensions": null,
+    "load_capacity_hint": "600kg",
+    "category_heading": "Stainless",
+    "page": 15,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "WD-68S",
+    "variant_label": "WD-48S",
+    "dimensions": null,
+    "load_capacity_hint": "600kg",
+    "category_heading": "Stainless",
+    "page": 15,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "WDT-6203S",
+    "variant_label": "WDT-5203S",
+    "dimensions": null,
+    "load_capacity_hint": "600kg",
+    "category_heading": "Stainless",
+    "page": 15,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "WDT-5203MS",
+    "variant_label": "WD-48MS",
+    "dimensions": null,
+    "load_capacity_hint": "600kg",
+    "category_heading": "Stainless",
+    "page": 15,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "WDT-6203MS",
+    "variant_label": "WD-48MS",
+    "dimensions": null,
+    "load_capacity_hint": "600kg",
+    "category_heading": "Stainless",
+    "page": 15,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "WHB-88N",
+    "variant_label": "Rubber top N",
+    "dimensions": "W2500xD2165xH850",
+    "load_capacity_hint": "600kg",
+    "category_heading": "Hexagonal",
+    "page": 17,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "WHB-88F",
+    "variant_label": "Laminate top F",
+    "dimensions": "W2500xD2165xH850",
+    "load_capacity_hint": "600kg",
+    "category_heading": "Hexagonal",
+    "page": 17,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "WHB-88N1A",
+    "variant_label": "Rubber top N",
+    "dimensions": "W2500xD2165xH1100",
+    "load_capacity_hint": "600kg",
+    "category_heading": "Hexagonal",
+    "page": 17,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "WHB-88F1A",
+    "variant_label": "Laminate top F",
+    "dimensions": "W2500xD2165xH1100",
+    "load_capacity_hint": "600kg",
+    "category_heading": "Hexagonal",
+    "page": 17,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "WHB-881N",
+    "variant_label": "Rubber top N",
+    "dimensions": "W2500xD2165xH850",
+    "load_capacity_hint": "600kg",
+    "category_heading": "Hexagonal",
+    "page": 17,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "WHB-881F",
+    "variant_label": "Laminate top F",
+    "dimensions": "W2500xD2165xH850",
+    "load_capacity_hint": "600kg",
+    "category_heading": "Hexagonal",
+    "page": 17,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "WHB-881N1A",
+    "variant_label": "Rubber top N",
+    "dimensions": "W2500xD2165xH1100",
+    "load_capacity_hint": "600kg",
+    "category_heading": "Hexagonal",
+    "page": 17,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "WHB-881F1A",
+    "variant_label": "Laminate top F",
+    "dimensions": "W2500xD2165xH1100",
+    "load_capacity_hint": "600kg",
+    "category_heading": "Hexagonal",
+    "page": 17,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "WHB-882N",
+    "variant_label": "Rubber top N",
+    "dimensions": "W2500xD2165xH850",
+    "load_capacity_hint": "600kg",
+    "category_heading": "Hexagonal",
+    "page": 17,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "WHB-882F",
+    "variant_label": "Laminate top F",
+    "dimensions": "W2500xD2165xH850",
+    "load_capacity_hint": "600kg",
+    "category_heading": "Hexagonal",
+    "page": 17,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "WHB-882N1A",
+    "variant_label": "Rubber top N",
+    "dimensions": "W2500xD2165xH1100",
+    "load_capacity_hint": "600kg",
+    "category_heading": "Hexagonal",
+    "page": 17,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "WHB-882F1A",
+    "variant_label": "Laminate top F",
+    "dimensions": "W2500xD2165xH1100",
+    "load_capacity_hint": "600kg",
+    "category_heading": "Hexagonal",
+    "page": 17,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "WHA-882N",
+    "variant_label": "Rubber top N",
+    "dimensions": "W2500xD2165xH850",
+    "load_capacity_hint": "600kg",
+    "category_heading": "Hexagonal",
+    "page": 17,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "WHA-882F",
+    "variant_label": "Laminate top F",
+    "dimensions": "W2500xD2165xH850",
+    "load_capacity_hint": "600kg",
+    "category_heading": "Hexagonal",
+    "page": 17,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "WHA-882N1A",
+    "variant_label": "Rubber top N",
+    "dimensions": "W2500xD2165xH1100",
+    "load_capacity_hint": "600kg",
+    "category_heading": "Hexagonal",
+    "page": 17,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "WHA-882F1A",
+    "variant_label": "Laminate top F",
+    "dimensions": "W2500xD2165xH1100",
+    "load_capacity_hint": "600kg",
+    "category_heading": "Hexagonal",
+    "page": 17,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "WQ-62",
+    "variant_label": "WQ-52",
+    "dimensions": null,
+    "load_capacity_hint": null,
+    "category_heading": "Accessories",
+    "page": 18,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "WQ-72",
+    "variant_label": "WQ-52",
+    "dimensions": null,
+    "load_capacity_hint": null,
+    "category_heading": "Accessories",
+    "page": 18,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "WQ-63",
+    "variant_label": "WQ-53",
+    "dimensions": null,
+    "load_capacity_hint": null,
+    "category_heading": "Accessories",
+    "page": 18,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "WQ-73",
+    "variant_label": "WQ-53",
+    "dimensions": null,
+    "load_capacity_hint": null,
+    "category_heading": "Accessories",
+    "page": 18,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "WQ-64A",
+    "variant_label": "WQ-54A",
+    "dimensions": null,
+    "load_capacity_hint": null,
+    "category_heading": "Accessories",
+    "page": 18,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "WQ-74A",
+    "variant_label": "WQ-54A",
+    "dimensions": null,
+    "load_capacity_hint": null,
+    "category_heading": "Accessories",
+    "page": 18,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "WQ-65A",
+    "variant_label": "WQ-55A",
+    "dimensions": null,
+    "load_capacity_hint": null,
+    "category_heading": "Accessories",
+    "page": 18,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "WQ-75A",
+    "variant_label": "WQ-55A",
+    "dimensions": null,
+    "load_capacity_hint": null,
+    "category_heading": "Accessories",
+    "page": 18,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "WQ-66A",
+    "variant_label": "WQ-56A",
+    "dimensions": null,
+    "load_capacity_hint": null,
+    "category_heading": "Accessories",
+    "page": 18,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "WQ-76A",
+    "variant_label": "WQ-56A",
+    "dimensions": null,
+    "load_capacity_hint": null,
+    "category_heading": "Accessories",
+    "page": 18,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "WQ-77A",
+    "variant_label": "WQ-67A",
+    "dimensions": null,
+    "load_capacity_hint": null,
+    "category_heading": "Accessories",
+    "page": 18,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "WQD-53",
+    "variant_label": "WQD-43",
+    "dimensions": null,
+    "load_capacity_hint": null,
+    "category_heading": "Accessories",
+    "page": 18,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "WQD-63",
+    "variant_label": "WQD-43",
+    "dimensions": null,
+    "load_capacity_hint": null,
+    "category_heading": "Accessories",
+    "page": 18,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "WQD-56A",
+    "variant_label": "WQD-46A",
+    "dimensions": null,
+    "load_capacity_hint": null,
+    "category_heading": "Accessories",
+    "page": 18,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "WQD-66A",
+    "variant_label": "WQD-46A",
+    "dimensions": null,
+    "load_capacity_hint": null,
+    "category_heading": "Accessories",
+    "page": 18,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "WQD-59A",
+    "variant_label": "WQD-49A",
+    "dimensions": null,
+    "load_capacity_hint": null,
+    "category_heading": "Accessories",
+    "page": 18,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "WQD-69A",
+    "variant_label": "WQD-49A",
+    "dimensions": null,
+    "load_capacity_hint": null,
+    "category_heading": "Accessories",
+    "page": 18,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "WQD-52S",
+    "variant_label": "WQD-42S",
+    "dimensions": null,
+    "load_capacity_hint": null,
+    "category_heading": "Accessories",
+    "page": 18,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "WQD-62S",
+    "variant_label": "WQD-42S",
+    "dimensions": null,
+    "load_capacity_hint": null,
+    "category_heading": "Accessories",
+    "page": 18,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "WQD-53S",
+    "variant_label": "WQD-43S",
+    "dimensions": null,
+    "load_capacity_hint": null,
+    "category_heading": "Accessories",
+    "page": 18,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "WQD-63S",
+    "variant_label": "WQD-43S",
+    "dimensions": null,
+    "load_capacity_hint": null,
+    "category_heading": "Accessories",
+    "page": 18,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "WQD-57S",
+    "variant_label": "WQD-47S",
+    "dimensions": null,
+    "load_capacity_hint": null,
+    "category_heading": "Accessories",
+    "page": 18,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "WQD-67S",
+    "variant_label": "WQD-47S",
+    "dimensions": null,
+    "load_capacity_hint": null,
+    "category_heading": "Accessories",
+    "page": 18,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "WP-42",
+    "variant_label": "WP-41",
+    "dimensions": null,
+    "load_capacity_hint": null,
+    "category_heading": "Workbench",
+    "page": 19,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "WP-43",
+    "variant_label": "WP-41",
+    "dimensions": null,
+    "load_capacity_hint": null,
+    "category_heading": "Workbench",
+    "page": 19,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "WDP-15",
+    "variant_label": "WDP-14",
+    "dimensions": null,
+    "load_capacity_hint": null,
+    "category_heading": "Workbench",
+    "page": 19,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "WDP-16",
+    "variant_label": "WDP-14",
+    "dimensions": null,
+    "load_capacity_hint": null,
+    "category_heading": "Workbench",
+    "page": 19,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "WDP-15S",
+    "variant_label": "WDP-14S",
+    "dimensions": null,
+    "load_capacity_hint": null,
+    "category_heading": "Workbench",
+    "page": 19,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "WDP-16S",
+    "variant_label": "WDP-14S",
+    "dimensions": null,
+    "load_capacity_hint": null,
+    "category_heading": "Workbench",
+    "page": 19,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "KP-20",
+    "variant_label": "KP-19",
+    "dimensions": null,
+    "load_capacity_hint": null,
+    "category_heading": "Workbench",
+    "page": 19,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "KP-21",
+    "variant_label": "KP-19",
+    "dimensions": null,
+    "load_capacity_hint": null,
+    "category_heading": "Workbench",
+    "page": 19,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "EGL-185M",
+    "variant_label": "● ●",
+    "dimensions": null,
+    "load_capacity_hint": "45kg",
+    "category_heading": "Standard",
+    "page": 22,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "EGL-187M",
+    "variant_label": "● ●",
+    "dimensions": null,
+    "load_capacity_hint": "45kg",
+    "category_heading": "Standard",
+    "page": 22,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "EGL-185MA",
+    "variant_label": "● ●",
+    "dimensions": null,
+    "load_capacity_hint": "45kg",
+    "category_heading": "Standard",
+    "page": 22,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "EGL-187MA",
+    "variant_label": "● ●",
+    "dimensions": null,
+    "load_capacity_hint": "45kg",
+    "category_heading": "Standard",
+    "page": 22,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "TK-8721",
+    "variant_label": "Drawer Height 75mm",
+    "dimensions": null,
+    "load_capacity_hint": "45kg",
+    "category_heading": "Standard",
+    "page": 22,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "TK-8731",
+    "variant_label": "Drawer Height 100mm",
+    "dimensions": null,
+    "load_capacity_hint": "45kg",
+    "category_heading": "Standard",
+    "page": 22,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "TK-8722",
+    "variant_label": "Drawer Height 75mm",
+    "dimensions": null,
+    "load_capacity_hint": "45kg",
+    "category_heading": "Standard",
+    "page": 22,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "TK-8732",
+    "variant_label": "Drawer Height 100mm",
+    "dimensions": null,
+    "load_capacity_hint": "45kg",
+    "category_heading": "Standard",
+    "page": 22,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "TK-8723",
+    "variant_label": "Drawer Height 75mm",
+    "dimensions": null,
+    "load_capacity_hint": "45kg",
+    "category_heading": "Standard",
+    "page": 22,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "TK-8733",
+    "variant_label": "Drawer Height 100mm",
+    "dimensions": null,
+    "load_capacity_hint": "45kg",
+    "category_heading": "Standard",
+    "page": 22,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "EGP-03L",
+    "variant_label": "● ●",
+    "dimensions": null,
+    "load_capacity_hint": "45kg",
+    "category_heading": "Standard",
+    "page": 22,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "EGQ-02A",
+    "variant_label": "● ●",
+    "dimensions": null,
+    "load_capacity_hint": "45kg",
+    "category_heading": "Standard",
+    "page": 22,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "EGP-03M",
+    "variant_label": "●",
+    "dimensions": null,
+    "load_capacity_hint": "45kg",
+    "category_heading": "Standard",
+    "page": 22,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "BT-30",
+    "variant_label": "Drawer Tray (Qty)",
+    "dimensions": null,
+    "load_capacity_hint": "1000kg",
+    "category_heading": "Unit of measurement : mm",
+    "page": 26,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "BT-40",
+    "variant_label": "Drawer Tray (Qty)",
+    "dimensions": null,
+    "load_capacity_hint": "1000kg",
+    "category_heading": "Unit of measurement : mm",
+    "page": 26,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "BT-50",
+    "variant_label": "Drawer Tray (Qty)",
+    "dimensions": null,
+    "load_capacity_hint": "1000kg",
+    "category_heading": "Unit of measurement : mm",
+    "page": 26,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "HSK-40",
+    "variant_label": "Drawer Tray (Qty)",
+    "dimensions": null,
+    "load_capacity_hint": "1000kg",
+    "category_heading": "Unit of measurement : mm",
+    "page": 26,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "HSK-63",
+    "variant_label": "Drawer Tray (Qty)",
+    "dimensions": null,
+    "load_capacity_hint": "1000kg",
+    "category_heading": "Unit of measurement : mm",
+    "page": 26,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "ENP-61",
+    "variant_label": "Tool Holder Rack",
+    "dimensions": null,
+    "load_capacity_hint": "400kg",
+    "category_heading": "CNC",
+    "page": 27,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "BT-30",
+    "variant_label": null,
+    "dimensions": null,
+    "load_capacity_hint": "400kg",
+    "category_heading": "CNC",
+    "page": 27,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "ENP-62",
+    "variant_label": "Tool Holder Rack",
+    "dimensions": null,
+    "load_capacity_hint": "400kg",
+    "category_heading": "CNC",
+    "page": 27,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "BT-40",
+    "variant_label": null,
+    "dimensions": null,
+    "load_capacity_hint": "400kg",
+    "category_heading": "CNC",
+    "page": 27,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "ENP-63",
+    "variant_label": "Tool Holder Rack",
+    "dimensions": null,
+    "load_capacity_hint": "400kg",
+    "category_heading": "CNC",
+    "page": 27,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "BT-50",
+    "variant_label": null,
+    "dimensions": null,
+    "load_capacity_hint": "400kg",
+    "category_heading": "CNC",
+    "page": 27,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "ENP-66",
+    "variant_label": "Tool Holder Rack",
+    "dimensions": null,
+    "load_capacity_hint": "400kg",
+    "category_heading": "CNC",
+    "page": 27,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "HSK-40",
+    "variant_label": null,
+    "dimensions": null,
+    "load_capacity_hint": "400kg",
+    "category_heading": "CNC",
+    "page": 27,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "ENP-68",
+    "variant_label": "Tool Holder Rack",
+    "dimensions": null,
+    "load_capacity_hint": "400kg",
+    "category_heading": "CNC",
+    "page": 27,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "HSK-63",
+    "variant_label": null,
+    "dimensions": null,
+    "load_capacity_hint": "400kg",
+    "category_heading": "CNC",
+    "page": 27,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "ENS-112M",
+    "variant_label": "CNC Trolley",
+    "dimensions": null,
+    "load_capacity_hint": "400kg",
+    "category_heading": "CNC",
+    "page": 28,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "BT-30",
+    "variant_label": null,
+    "dimensions": null,
+    "load_capacity_hint": "400kg",
+    "category_heading": "CNC",
+    "page": 28,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "ENS-122M",
+    "variant_label": "CNC Trolley",
+    "dimensions": null,
+    "load_capacity_hint": "400kg",
+    "category_heading": "CNC",
+    "page": 28,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "BT-40",
+    "variant_label": null,
+    "dimensions": null,
+    "load_capacity_hint": "400kg",
+    "category_heading": "CNC",
+    "page": 28,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "ENS-132M",
+    "variant_label": "CNC Trolley",
+    "dimensions": null,
+    "load_capacity_hint": "400kg",
+    "category_heading": "CNC",
+    "page": 28,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "BT-50",
+    "variant_label": null,
+    "dimensions": null,
+    "load_capacity_hint": "400kg",
+    "category_heading": "CNC",
+    "page": 28,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "ENS-162M",
+    "variant_label": "CNC Trolley",
+    "dimensions": null,
+    "load_capacity_hint": "400kg",
+    "category_heading": "CNC",
+    "page": 28,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "HSK-40",
+    "variant_label": null,
+    "dimensions": null,
+    "load_capacity_hint": "400kg",
+    "category_heading": "CNC",
+    "page": 28,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "ENS-182M",
+    "variant_label": "CNC Trolley",
+    "dimensions": null,
+    "load_capacity_hint": "400kg",
+    "category_heading": "CNC",
+    "page": 28,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "HSK-63",
+    "variant_label": null,
+    "dimensions": null,
+    "load_capacity_hint": "400kg",
+    "category_heading": "CNC",
+    "page": 28,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "ENP-11",
+    "variant_label": "Tool Holder Rack",
+    "dimensions": null,
+    "load_capacity_hint": "400kg",
+    "category_heading": "CNC",
+    "page": 28,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "ENP-12",
+    "variant_label": "Tool Holder Rack",
+    "dimensions": null,
+    "load_capacity_hint": "400kg",
+    "category_heading": "CNC",
+    "page": 28,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "ENP-13",
+    "variant_label": "Tool Holder Rack",
+    "dimensions": null,
+    "load_capacity_hint": "400kg",
+    "category_heading": "CNC",
+    "page": 28,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "ENP-16",
+    "variant_label": "Tool Holder Rack",
+    "dimensions": null,
+    "load_capacity_hint": "400kg",
+    "category_heading": "CNC",
+    "page": 28,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "ENP-18",
+    "variant_label": "Tool Holder Rack",
+    "dimensions": null,
+    "load_capacity_hint": "400kg",
+    "category_heading": "CNC",
+    "page": 28,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "ENS-312M",
+    "variant_label": "CNC Trolley",
+    "dimensions": null,
+    "load_capacity_hint": "400kg",
+    "category_heading": "CNC Trolley",
+    "page": 29,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "BT-30",
+    "variant_label": null,
+    "dimensions": null,
+    "load_capacity_hint": "400kg",
+    "category_heading": "CNC Trolley",
+    "page": 29,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "ENS-322M",
+    "variant_label": "CNC Trolley",
+    "dimensions": null,
+    "load_capacity_hint": "400kg",
+    "category_heading": "CNC Trolley",
+    "page": 29,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "BT-40",
+    "variant_label": null,
+    "dimensions": null,
+    "load_capacity_hint": "400kg",
+    "category_heading": "CNC Trolley",
+    "page": 29,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "ENS-332M",
+    "variant_label": "CNC Trolley",
+    "dimensions": null,
+    "load_capacity_hint": "400kg",
+    "category_heading": "CNC Trolley",
+    "page": 29,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "BT-50",
+    "variant_label": null,
+    "dimensions": null,
+    "load_capacity_hint": "400kg",
+    "category_heading": "CNC Trolley",
+    "page": 29,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "ENS-362M",
+    "variant_label": "CNC Trolley",
+    "dimensions": null,
+    "load_capacity_hint": "400kg",
+    "category_heading": "CNC Trolley",
+    "page": 29,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "HSK-40",
+    "variant_label": null,
+    "dimensions": null,
+    "load_capacity_hint": "400kg",
+    "category_heading": "CNC Trolley",
+    "page": 29,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "ENS-382M",
+    "variant_label": "CNC Trolley",
+    "dimensions": null,
+    "load_capacity_hint": "400kg",
+    "category_heading": "CNC Trolley",
+    "page": 29,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "HSK-63",
+    "variant_label": null,
+    "dimensions": null,
+    "load_capacity_hint": "400kg",
+    "category_heading": "CNC Trolley",
+    "page": 29,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "EKBN-21",
+    "variant_label": "Tool Holder Rack",
+    "dimensions": null,
+    "load_capacity_hint": "400kg",
+    "category_heading": "CNC Trolley",
+    "page": 29,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "EKBN-22",
+    "variant_label": "Tool Holder Rack",
+    "dimensions": null,
+    "load_capacity_hint": "400kg",
+    "category_heading": "CNC Trolley",
+    "page": 29,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "EKBN-23",
+    "variant_label": "Tool Holder Rack",
+    "dimensions": null,
+    "load_capacity_hint": "400kg",
+    "category_heading": "CNC Trolley",
+    "page": 29,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "EKBN-26",
+    "variant_label": "Tool Holder Rack",
+    "dimensions": null,
+    "load_capacity_hint": "400kg",
+    "category_heading": "CNC Trolley",
+    "page": 29,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "EKBN-28",
+    "variant_label": "Tool Holder Rack",
+    "dimensions": null,
+    "load_capacity_hint": "400kg",
+    "category_heading": "CNC Trolley",
+    "page": 29,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "ENR-1218M",
+    "variant_label": "CNC Trolley",
+    "dimensions": null,
+    "load_capacity_hint": "400kg",
+    "category_heading": "CNC Trolley",
+    "page": 29,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "ENR-1228M",
+    "variant_label": "CNC Trolley",
+    "dimensions": null,
+    "load_capacity_hint": "400kg",
+    "category_heading": "CNC Trolley",
+    "page": 29,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "ENR-1238M",
+    "variant_label": "CNC Trolley",
+    "dimensions": null,
+    "load_capacity_hint": "400kg",
+    "category_heading": "CNC Trolley",
+    "page": 29,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "ENR-1268M",
+    "variant_label": "CNC Trolley",
+    "dimensions": null,
+    "load_capacity_hint": "400kg",
+    "category_heading": "CNC Trolley",
+    "page": 29,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "ENR-1288M",
+    "variant_label": "CNC Trolley",
+    "dimensions": null,
+    "load_capacity_hint": "400kg",
+    "category_heading": "CNC Trolley",
+    "page": 29,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "ENP-21",
+    "variant_label": "Tool Holder Rack",
+    "dimensions": null,
+    "load_capacity_hint": "400kg",
+    "category_heading": "CNC Trolley",
+    "page": 29,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "ENP-22",
+    "variant_label": "Tool Holder Rack",
+    "dimensions": null,
+    "load_capacity_hint": "400kg",
+    "category_heading": "CNC Trolley",
+    "page": 29,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "ENP-23",
+    "variant_label": "Tool Holder Rack",
+    "dimensions": null,
+    "load_capacity_hint": "400kg",
+    "category_heading": "CNC Trolley",
+    "page": 29,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "ENP-26",
+    "variant_label": "Tool Holder Rack",
+    "dimensions": null,
+    "load_capacity_hint": "400kg",
+    "category_heading": "CNC Trolley",
+    "page": 29,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "ENP-28",
+    "variant_label": "Tool Holder Rack",
+    "dimensions": null,
+    "load_capacity_hint": "400kg",
+    "category_heading": "CNC Trolley",
+    "page": 29,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "EKA-3M",
+    "variant_label": "● ●",
+    "dimensions": null,
+    "load_capacity_hint": "400kg",
+    "category_heading": "Trolley",
+    "page": 31,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "EKA-P03",
+    "variant_label": "● ●",
+    "dimensions": null,
+    "load_capacity_hint": "400kg",
+    "category_heading": "Trolley",
+    "page": 31,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "EKB-P02",
+    "variant_label": "● ● ●",
+    "dimensions": null,
+    "load_capacity_hint": "400kg",
+    "category_heading": "Trolley",
+    "page": 32,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "EKB-P03",
+    "variant_label": "● ● ●",
+    "dimensions": null,
+    "load_capacity_hint": "400kg",
+    "category_heading": "Trolley",
+    "page": 32,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "EKC-333M",
+    "variant_label": "Tilt Out Bins (Qty)",
+    "dimensions": null,
+    "load_capacity_hint": "400kg",
+    "category_heading": "Tilt",
+    "page": 33,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "EKC-332M",
+    "variant_label": "Tilt Out Bins (Qty)",
+    "dimensions": null,
+    "load_capacity_hint": "400kg",
+    "category_heading": "Tilt",
+    "page": 33,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "EKC-331M",
+    "variant_label": "Tilt Out Bins (Qty)",
+    "dimensions": null,
+    "load_capacity_hint": "400kg",
+    "category_heading": "Tilt",
+    "page": 33,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "EKC-322M",
+    "variant_label": "Tilt Out Bins (Qty)",
+    "dimensions": null,
+    "load_capacity_hint": "400kg",
+    "category_heading": "Tilt",
+    "page": 33,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "EKC-321M",
+    "variant_label": "Tilt Out Bins (Qty)",
+    "dimensions": null,
+    "load_capacity_hint": "400kg",
+    "category_heading": "Tilt",
+    "page": 33,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "EKC-311M",
+    "variant_label": "Tilt Out Bins (Qty)",
+    "dimensions": null,
+    "load_capacity_hint": "400kg",
+    "category_heading": "Tilt",
+    "page": 33,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "EKC-222M",
+    "variant_label": "Tilt Out Bins (Qty)",
+    "dimensions": null,
+    "load_capacity_hint": "400kg",
+    "category_heading": "Tilt",
+    "page": 33,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "EKC-221M",
+    "variant_label": "Tilt Out Bins (Qty)",
+    "dimensions": null,
+    "load_capacity_hint": "400kg",
+    "category_heading": "Tilt",
+    "page": 33,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "EKC-211M",
+    "variant_label": "Tilt Out Bins (Qty)",
+    "dimensions": null,
+    "load_capacity_hint": "400kg",
+    "category_heading": "Tilt",
+    "page": 33,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "EKC-111M",
+    "variant_label": "Tilt Out Bins (Qty)",
+    "dimensions": null,
+    "load_capacity_hint": "400kg",
+    "category_heading": "Tilt",
+    "page": 33,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "EKC-330M",
+    "variant_label": "Tilt Out Bins (Qty)",
+    "dimensions": null,
+    "load_capacity_hint": "400kg",
+    "category_heading": "Tilt",
+    "page": 33,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "EKC-320M",
+    "variant_label": "Tilt Out Bins (Qty)",
+    "dimensions": null,
+    "load_capacity_hint": "400kg",
+    "category_heading": "Tilt",
+    "page": 33,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "EKC-310M",
+    "variant_label": "Tilt Out Bins (Qty)",
+    "dimensions": null,
+    "load_capacity_hint": "400kg",
+    "category_heading": "Tilt",
+    "page": 33,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "EKC-220M",
+    "variant_label": "Tilt Out Bins (Qty)",
+    "dimensions": null,
+    "load_capacity_hint": "400kg",
+    "category_heading": "Tilt",
+    "page": 33,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "EKC-210M",
+    "variant_label": "Tilt Out Bins (Qty)",
+    "dimensions": null,
+    "load_capacity_hint": "400kg",
+    "category_heading": "Tilt",
+    "page": 33,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "EKC-110M",
+    "variant_label": "Tilt Out Bins (Qty)",
+    "dimensions": null,
+    "load_capacity_hint": "400kg",
+    "category_heading": "Tilt",
+    "page": 33,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "TKI-8304",
+    "variant_label": null,
+    "dimensions": null,
+    "load_capacity_hint": "400kg",
+    "category_heading": "Tilt",
+    "page": 33,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "TKI-8305",
+    "variant_label": null,
+    "dimensions": null,
+    "load_capacity_hint": "400kg",
+    "category_heading": "Tilt",
+    "page": 33,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "TA-115",
+    "variant_label": null,
+    "dimensions": null,
+    "load_capacity_hint": "400kg",
+    "category_heading": "Tilt",
+    "page": 33,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "TKI-8301",
+    "variant_label": null,
+    "dimensions": null,
+    "load_capacity_hint": "400kg",
+    "category_heading": "Tilt",
+    "page": 33,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "TKI-8302",
+    "variant_label": null,
+    "dimensions": null,
+    "load_capacity_hint": "400kg",
+    "category_heading": "Tilt",
+    "page": 33,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "TKI-8303",
+    "variant_label": null,
+    "dimensions": null,
+    "load_capacity_hint": "400kg",
+    "category_heading": "Tilt",
+    "page": 33,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "TA-112",
+    "variant_label": null,
+    "dimensions": null,
+    "load_capacity_hint": "400kg",
+    "category_heading": "Tilt",
+    "page": 33,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "DP-01A",
+    "variant_label": "●● ● For DB display stand",
+    "dimensions": null,
+    "load_capacity_hint": "45kg",
+    "category_heading": "Display",
+    "page": 37,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "DA-31",
+    "variant_label": "●● ●",
+    "dimensions": null,
+    "load_capacity_hint": "45kg",
+    "category_heading": "Display",
+    "page": 37,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "DA-32",
+    "variant_label": null,
+    "dimensions": null,
+    "load_capacity_hint": "45kg",
+    "category_heading": "Display",
+    "page": 37,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "DB-31",
+    "variant_label": "●● ●",
+    "dimensions": null,
+    "load_capacity_hint": "45kg",
+    "category_heading": "Display",
+    "page": 37,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "DB-32",
+    "variant_label": null,
+    "dimensions": null,
+    "load_capacity_hint": "45kg",
+    "category_heading": "Display",
+    "page": 37,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "DP-01B",
+    "variant_label": "●● ● For DC display stand",
+    "dimensions": null,
+    "load_capacity_hint": "45kg",
+    "category_heading": "Display",
+    "page": 37,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "DC-31",
+    "variant_label": "●● ●",
+    "dimensions": null,
+    "load_capacity_hint": "45kg",
+    "category_heading": "Display",
+    "page": 37,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "DC-32",
+    "variant_label": null,
+    "dimensions": null,
+    "load_capacity_hint": "45kg",
+    "category_heading": "Display",
+    "page": 37,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "DD-31",
+    "variant_label": "●● ●",
+    "dimensions": null,
+    "load_capacity_hint": "45kg",
+    "category_heading": "Display",
+    "page": 37,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "DD-32",
+    "variant_label": null,
+    "dimensions": null,
+    "load_capacity_hint": "45kg",
+    "category_heading": "Display",
+    "page": 37,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "DP-01C",
+    "variant_label": "●● ● For DD display stand",
+    "dimensions": null,
+    "load_capacity_hint": "45kg",
+    "category_heading": "Display",
+    "page": 37,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "KR-1303",
+    "variant_label": null,
+    "dimensions": null,
+    "load_capacity_hint": null,
+    "category_heading": "Hanger",
+    "page": 39,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "KR-1312",
+    "variant_label": null,
+    "dimensions": null,
+    "load_capacity_hint": null,
+    "category_heading": "Hanger",
+    "page": 39,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "KR-1321",
+    "variant_label": null,
+    "dimensions": null,
+    "load_capacity_hint": null,
+    "category_heading": "Hanger",
+    "page": 39,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "KR-1330",
+    "variant_label": null,
+    "dimensions": null,
+    "load_capacity_hint": null,
+    "category_heading": "Hanger",
+    "page": 39,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "KL-1303",
+    "variant_label": null,
+    "dimensions": null,
+    "load_capacity_hint": null,
+    "category_heading": "Hanger",
+    "page": 39,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "KL-1312",
+    "variant_label": null,
+    "dimensions": null,
+    "load_capacity_hint": null,
+    "category_heading": "Hanger",
+    "page": 39,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "KL-1321",
+    "variant_label": null,
+    "dimensions": null,
+    "load_capacity_hint": null,
+    "category_heading": "Hanger",
+    "page": 39,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "KL-1330",
+    "variant_label": null,
+    "dimensions": null,
+    "load_capacity_hint": null,
+    "category_heading": "Hanger",
+    "page": 39,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "KR-2306",
+    "variant_label": null,
+    "dimensions": null,
+    "load_capacity_hint": null,
+    "category_heading": "Hanger",
+    "page": 39,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "KR-2324",
+    "variant_label": null,
+    "dimensions": null,
+    "load_capacity_hint": null,
+    "category_heading": "Hanger",
+    "page": 39,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "KR-2342",
+    "variant_label": null,
+    "dimensions": null,
+    "load_capacity_hint": null,
+    "category_heading": "Hanger",
+    "page": 39,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "KR-2360",
+    "variant_label": null,
+    "dimensions": null,
+    "load_capacity_hint": null,
+    "category_heading": "Hanger",
+    "page": 39,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "KL-2306",
+    "variant_label": null,
+    "dimensions": null,
+    "load_capacity_hint": null,
+    "category_heading": "Hanger",
+    "page": 39,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "KL-2324",
+    "variant_label": null,
+    "dimensions": null,
+    "load_capacity_hint": null,
+    "category_heading": "Hanger",
+    "page": 39,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "KL-2342",
+    "variant_label": null,
+    "dimensions": null,
+    "load_capacity_hint": null,
+    "category_heading": "Hanger",
+    "page": 39,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "KL-2360",
+    "variant_label": null,
+    "dimensions": null,
+    "load_capacity_hint": null,
+    "category_heading": "Hanger",
+    "page": 39,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "KR-1404",
+    "variant_label": null,
+    "dimensions": null,
+    "load_capacity_hint": null,
+    "category_heading": "Hanger",
+    "page": 39,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "KR-1413",
+    "variant_label": null,
+    "dimensions": null,
+    "load_capacity_hint": null,
+    "category_heading": "Hanger",
+    "page": 39,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "KR-1422",
+    "variant_label": null,
+    "dimensions": null,
+    "load_capacity_hint": null,
+    "category_heading": "Hanger",
+    "page": 39,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "KR-1431",
+    "variant_label": null,
+    "dimensions": null,
+    "load_capacity_hint": null,
+    "category_heading": "Hanger",
+    "page": 39,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "KR-1440",
+    "variant_label": null,
+    "dimensions": null,
+    "load_capacity_hint": null,
+    "category_heading": "Hanger",
+    "page": 39,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "KL-1404",
+    "variant_label": null,
+    "dimensions": null,
+    "load_capacity_hint": null,
+    "category_heading": "Hanger",
+    "page": 39,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "KL-1413",
+    "variant_label": null,
+    "dimensions": null,
+    "load_capacity_hint": null,
+    "category_heading": "Hanger",
+    "page": 39,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "KL-1422",
+    "variant_label": null,
+    "dimensions": null,
+    "load_capacity_hint": null,
+    "category_heading": "Hanger",
+    "page": 39,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "KL-1431",
+    "variant_label": null,
+    "dimensions": null,
+    "load_capacity_hint": null,
+    "category_heading": "Hanger",
+    "page": 39,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "KL-1440",
+    "variant_label": null,
+    "dimensions": null,
+    "load_capacity_hint": null,
+    "category_heading": "Hanger",
+    "page": 39,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "KR-2408",
+    "variant_label": null,
+    "dimensions": null,
+    "load_capacity_hint": null,
+    "category_heading": "Hanger",
+    "page": 39,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "KR-2426",
+    "variant_label": null,
+    "dimensions": null,
+    "load_capacity_hint": null,
+    "category_heading": "Hanger",
+    "page": 39,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "KR-2444",
+    "variant_label": null,
+    "dimensions": null,
+    "load_capacity_hint": null,
+    "category_heading": "Hanger",
+    "page": 39,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "KR-2462",
+    "variant_label": null,
+    "dimensions": null,
+    "load_capacity_hint": null,
+    "category_heading": "Hanger",
+    "page": 39,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "KR-2480",
+    "variant_label": null,
+    "dimensions": null,
+    "load_capacity_hint": null,
+    "category_heading": "Hanger",
+    "page": 39,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "KL-2408",
+    "variant_label": null,
+    "dimensions": null,
+    "load_capacity_hint": null,
+    "category_heading": "Hanger",
+    "page": 39,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "KL-2426",
+    "variant_label": null,
+    "dimensions": null,
+    "load_capacity_hint": null,
+    "category_heading": "Hanger",
+    "page": 39,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "KL-2444",
+    "variant_label": null,
+    "dimensions": null,
+    "load_capacity_hint": null,
+    "category_heading": "Hanger",
+    "page": 39,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "KL-2462",
+    "variant_label": null,
+    "dimensions": null,
+    "load_capacity_hint": null,
+    "category_heading": "Hanger",
+    "page": 39,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "KL-2480",
+    "variant_label": null,
+    "dimensions": null,
+    "load_capacity_hint": null,
+    "category_heading": "Hanger",
+    "page": 39,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "KM-2204",
+    "variant_label": null,
+    "dimensions": null,
+    "load_capacity_hint": null,
+    "category_heading": "Hanger",
+    "page": 39,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "KM-2222",
+    "variant_label": null,
+    "dimensions": null,
+    "load_capacity_hint": null,
+    "category_heading": "Hanger",
+    "page": 39,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "KM-2240",
+    "variant_label": null,
+    "dimensions": null,
+    "load_capacity_hint": null,
+    "category_heading": "Hanger",
+    "page": 39,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "KM-2306",
+    "variant_label": null,
+    "dimensions": null,
+    "load_capacity_hint": null,
+    "category_heading": "Hanger",
+    "page": 39,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "KM-2324",
+    "variant_label": null,
+    "dimensions": null,
+    "load_capacity_hint": null,
+    "category_heading": "Hanger",
+    "page": 39,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "KM-2342",
+    "variant_label": null,
+    "dimensions": null,
+    "load_capacity_hint": null,
+    "category_heading": "Hanger",
+    "page": 39,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "KM-2360",
+    "variant_label": null,
+    "dimensions": null,
+    "load_capacity_hint": null,
+    "category_heading": "Hanger",
+    "page": 39,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "KQ-306AS",
+    "variant_label": "Model No.",
+    "dimensions": "W900xH450",
+    "load_capacity_hint": "5kg",
+    "category_heading": "Performance",
+    "page": 41,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "KQ-306A",
+    "variant_label": "Model No.",
+    "dimensions": "W900xH450",
+    "load_capacity_hint": "5kg",
+    "category_heading": "Performance",
+    "page": 41,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "KQ-308A",
+    "variant_label": "Model No.",
+    "dimensions": "W1200xH450",
+    "load_capacity_hint": "5kg",
+    "category_heading": "Performance",
+    "page": 41,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "KQ-310A",
+    "variant_label": "Model No.",
+    "dimensions": "W1500xH450",
+    "load_capacity_hint": "5kg",
+    "category_heading": "Performance",
+    "page": 41,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "KQ-312A",
+    "variant_label": "Model No.",
+    "dimensions": "W1800xH450",
+    "load_capacity_hint": "5kg",
+    "category_heading": "Performance",
+    "page": 41,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "KQ-314A",
+    "variant_label": "Model No.",
+    "dimensions": "W2100xH450",
+    "load_capacity_hint": "5kg",
+    "category_heading": "Performance",
+    "page": 41,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "KQ-408A",
+    "variant_label": "Model No.",
+    "dimensions": "W1200xH600",
+    "load_capacity_hint": "5kg",
+    "category_heading": "Performance",
+    "page": 41,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "KQ-410A",
+    "variant_label": "Model No.",
+    "dimensions": "W1500xH600",
+    "load_capacity_hint": "5kg",
+    "category_heading": "Performance",
+    "page": 41,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "KQ-412A",
+    "variant_label": "Model No.",
+    "dimensions": "W1800xH600",
+    "load_capacity_hint": "5kg",
+    "category_heading": "Performance",
+    "page": 41,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "KQ-414A",
+    "variant_label": "Model No.",
+    "dimensions": "W2100xH600",
+    "load_capacity_hint": "5kg",
+    "category_heading": "Performance",
+    "page": 41,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "KP-7604",
+    "variant_label": "Closed end hook-S",
+    "dimensions": null,
+    "load_capacity_hint": "5kg",
+    "category_heading": "Performance",
+    "page": 41,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "KP-7502",
+    "variant_label": "Loop hook-S",
+    "dimensions": null,
+    "load_capacity_hint": "5kg",
+    "category_heading": "Performance",
+    "page": 41,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "KP-7308",
+    "variant_label": "Closed end hook-L",
+    "dimensions": null,
+    "load_capacity_hint": "5kg",
+    "category_heading": "Performance",
+    "page": 41,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "KP-6101",
+    "variant_label": "● ● Single hook-S",
+    "dimensions": null,
+    "load_capacity_hint": null,
+    "category_heading": "Accessories",
+    "page": 42,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "KP-6102",
+    "variant_label": "● ● Single hook-M",
+    "dimensions": null,
+    "load_capacity_hint": null,
+    "category_heading": "Accessories",
+    "page": 42,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "KP-6103",
+    "variant_label": "● ● U hook",
+    "dimensions": null,
+    "load_capacity_hint": null,
+    "category_heading": "Accessories",
+    "page": 42,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "KP-6104",
+    "variant_label": "● ● Spring clips",
+    "dimensions": null,
+    "load_capacity_hint": null,
+    "category_heading": "Accessories",
+    "page": 42,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "KP-6109",
+    "variant_label": "● ● Wrench holder",
+    "dimensions": null,
+    "load_capacity_hint": null,
+    "category_heading": "Accessories",
+    "page": 42,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "KP-6208",
+    "variant_label": "● ● Double hook-L",
+    "dimensions": null,
+    "load_capacity_hint": null,
+    "category_heading": "Accessories",
+    "page": 42,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "KP-6308",
+    "variant_label": "● ● Single hook-L",
+    "dimensions": null,
+    "load_capacity_hint": null,
+    "category_heading": "Accessories",
+    "page": 42,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "KP-3305",
+    "variant_label": "Single hook",
+    "dimensions": null,
+    "load_capacity_hint": null,
+    "category_heading": "Accessories",
+    "page": 42,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "L50",
+    "variant_label": "Single hook",
+    "dimensions": null,
+    "load_capacity_hint": null,
+    "category_heading": "Accessories",
+    "page": 42,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "KP-3405",
+    "variant_label": "Double hook",
+    "dimensions": null,
+    "load_capacity_hint": null,
+    "category_heading": "Accessories",
+    "page": 42,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "KP-3108",
+    "variant_label": "Single hook",
+    "dimensions": null,
+    "load_capacity_hint": null,
+    "category_heading": "Accessories",
+    "page": 42,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "L80",
+    "variant_label": null,
+    "dimensions": null,
+    "load_capacity_hint": null,
+    "category_heading": "Accessories",
+    "page": 42,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "KP-3112",
+    "variant_label": "Single hook",
+    "dimensions": null,
+    "load_capacity_hint": null,
+    "category_heading": "Accessories",
+    "page": 42,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "L120",
+    "variant_label": null,
+    "dimensions": null,
+    "load_capacity_hint": null,
+    "category_heading": "Accessories",
+    "page": 42,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "KP-3116",
+    "variant_label": "Single hook",
+    "dimensions": null,
+    "load_capacity_hint": null,
+    "category_heading": "Accessories",
+    "page": 42,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "L160",
+    "variant_label": null,
+    "dimensions": null,
+    "load_capacity_hint": null,
+    "category_heading": "Accessories",
+    "page": 42,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "KP-3130",
+    "variant_label": "Single hook",
+    "dimensions": null,
+    "load_capacity_hint": null,
+    "category_heading": "Accessories",
+    "page": 42,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "L300",
+    "variant_label": null,
+    "dimensions": null,
+    "load_capacity_hint": null,
+    "category_heading": "Accessories",
+    "page": 42,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "KP-3208",
+    "variant_label": "Double hook",
+    "dimensions": null,
+    "load_capacity_hint": null,
+    "category_heading": "Accessories",
+    "page": 42,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "KP-3212",
+    "variant_label": "Double hook",
+    "dimensions": null,
+    "load_capacity_hint": null,
+    "category_heading": "Accessories",
+    "page": 42,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "KP-3216",
+    "variant_label": "Double hook",
+    "dimensions": null,
+    "load_capacity_hint": null,
+    "category_heading": "Accessories",
+    "page": 42,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "KP-3230",
+    "variant_label": "Double hook",
+    "dimensions": null,
+    "load_capacity_hint": null,
+    "category_heading": "Accessories",
+    "page": 42,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "KP-3502",
+    "variant_label": "Loop hook",
+    "dimensions": null,
+    "load_capacity_hint": null,
+    "category_heading": "Accessories",
+    "page": 42,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "KP-3503",
+    "variant_label": null,
+    "dimensions": null,
+    "load_capacity_hint": null,
+    "category_heading": "Accessories",
+    "page": 42,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "KP-3506",
+    "variant_label": null,
+    "dimensions": null,
+    "load_capacity_hint": null,
+    "category_heading": "Accessories",
+    "page": 42,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "KP-3510",
+    "variant_label": null,
+    "dimensions": null,
+    "load_capacity_hint": null,
+    "category_heading": "Accessories",
+    "page": 42,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "KP-3805",
+    "variant_label": "U hook",
+    "dimensions": null,
+    "load_capacity_hint": null,
+    "category_heading": "Accessories",
+    "page": 42,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "KP-3810",
+    "variant_label": null,
+    "dimensions": null,
+    "load_capacity_hint": null,
+    "category_heading": "Accessories",
+    "page": 42,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "KP-3705",
+    "variant_label": "Semicircle hook",
+    "dimensions": null,
+    "load_capacity_hint": null,
+    "category_heading": "Accessories",
+    "page": 42,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "KP-3709",
+    "variant_label": null,
+    "dimensions": null,
+    "load_capacity_hint": null,
+    "category_heading": "Accessories",
+    "page": 42,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "L90",
+    "variant_label": null,
+    "dimensions": null,
+    "load_capacity_hint": null,
+    "category_heading": "Accessories",
+    "page": 42,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "KP-4120",
+    "variant_label": "Drill holder",
+    "dimensions": null,
+    "load_capacity_hint": null,
+    "category_heading": "Perforated",
+    "page": 43,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "KP-4114",
+    "variant_label": null,
+    "dimensions": null,
+    "load_capacity_hint": null,
+    "category_heading": "Perforated",
+    "page": 43,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "L390",
+    "variant_label": "Drill holder",
+    "dimensions": null,
+    "load_capacity_hint": null,
+    "category_heading": "Perforated",
+    "page": 43,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "KP-4213",
+    "variant_label": "Screwdriver holder",
+    "dimensions": null,
+    "load_capacity_hint": null,
+    "category_heading": "Perforated",
+    "page": 43,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "KP-4504",
+    "variant_label": "T handle holder",
+    "dimensions": null,
+    "load_capacity_hint": null,
+    "category_heading": "Perforated",
+    "page": 43,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "KP-4802",
+    "variant_label": "Monitor arm",
+    "dimensions": null,
+    "load_capacity_hint": null,
+    "category_heading": "Perforated",
+    "page": 43,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "KPQ-4306",
+    "variant_label": "Hanging bin set",
+    "dimensions": null,
+    "load_capacity_hint": null,
+    "category_heading": "Perforated",
+    "page": 43,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "KPQ-4307",
+    "variant_label": null,
+    "dimensions": null,
+    "load_capacity_hint": null,
+    "category_heading": "Perforated",
+    "page": 43,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "L456",
+    "variant_label": "Hanging bin set",
+    "dimensions": null,
+    "load_capacity_hint": null,
+    "category_heading": "Perforated",
+    "page": 43,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "L608",
+    "variant_label": null,
+    "dimensions": null,
+    "load_capacity_hint": null,
+    "category_heading": "Perforated",
+    "page": 43,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "KP-4418",
+    "variant_label": "Clip holder",
+    "dimensions": null,
+    "load_capacity_hint": null,
+    "category_heading": "Perforated",
+    "page": 43,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "L430",
+    "variant_label": "Clip holder",
+    "dimensions": null,
+    "load_capacity_hint": null,
+    "category_heading": "Perforated",
+    "page": 43,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "KPQ-4301",
+    "variant_label": "Hanging bin set",
+    "dimensions": null,
+    "load_capacity_hint": null,
+    "category_heading": "Perforated",
+    "page": 43,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "KPQ-4302",
+    "variant_label": null,
+    "dimensions": null,
+    "load_capacity_hint": null,
+    "category_heading": "Perforated",
+    "page": 43,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "KPQ-4303",
+    "variant_label": null,
+    "dimensions": null,
+    "load_capacity_hint": null,
+    "category_heading": "Perforated",
+    "page": 43,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "KPQ-4304",
+    "variant_label": null,
+    "dimensions": null,
+    "load_capacity_hint": null,
+    "category_heading": "Perforated",
+    "page": 43,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "KPQ-4305",
+    "variant_label": null,
+    "dimensions": null,
+    "load_capacity_hint": null,
+    "category_heading": "Perforated",
+    "page": 43,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "L420",
+    "variant_label": "Hanging bin set",
+    "dimensions": null,
+    "load_capacity_hint": null,
+    "category_heading": "Perforated",
+    "page": 43,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "KP-4604",
+    "variant_label": "Bottle holder",
+    "dimensions": null,
+    "load_capacity_hint": null,
+    "category_heading": "Perforated",
+    "page": 43,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "KP-4300",
+    "variant_label": "Bin hanger",
+    "dimensions": null,
+    "load_capacity_hint": null,
+    "category_heading": "Perforated",
+    "page": 43,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "KP-17",
+    "variant_label": "Shelf",
+    "dimensions": null,
+    "load_capacity_hint": null,
+    "category_heading": "Perforated",
+    "page": 43,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "KP-4701",
+    "variant_label": "Tray",
+    "dimensions": null,
+    "load_capacity_hint": null,
+    "category_heading": "Perforated",
+    "page": 43,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "RB-530M",
+    "variant_label": "Mobile",
+    "dimensions": null,
+    "load_capacity_hint": "1000kg",
+    "category_heading": "Parts",
+    "page": 49,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "RB-565M",
+    "variant_label": "Mobile",
+    "dimensions": null,
+    "load_capacity_hint": "1000kg",
+    "category_heading": "Parts",
+    "page": 49,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "RA-530M",
+    "variant_label": "Mobile",
+    "dimensions": null,
+    "load_capacity_hint": "1000kg",
+    "category_heading": "Parts",
+    "page": 49,
+    "source_pdf": "E147"
+  },
+  {
+    "sku": "RA-560M",
+    "variant_label": "Mobile",
+    "dimensions": null,
+    "load_capacity_hint": "1000kg",
+    "category_heading": "Parts",
+    "page": 49,
+    "source_pdf": "E147"
+  }
+]

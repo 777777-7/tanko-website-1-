@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container">
+  <nav class="crumbs" aria-label="Breadcrumb">
+    <a href="{{ base_url }}">Home</a><span class="sep">/</span>
+    <span class="current">Download</span>
+  </nav>
+  <div class="page-head">
+    <h1>Catalogues &amp; Downloads</h1>
+    <p class="page-lede">Full Tanko product catalogues in PDF — model listings, dimensions and technical drawings. For Malaysia pricing and stock, add products to your basket or request a quote directly.</p>
+  </div>
+</div>
+
+<section class="section">
+  <div class="container">
+    <ul class="dl-grid dl-grid-visual">
+      {% for d in downloads %}
+      <li class="dl-card dl-card-visual">
+        <a href="{{ base_url }}{{ d.href }}" download class="dl-cover">
+          {% if d.cover %}<img src="{{ base_url }}{{ d.cover }}" alt="{{ d.name }} cover" loading="lazy">{% endif %}
+        </a>
+        <div class="dl-body">
+          <div class="dl-name">{{ d.name }}</div>
+          <div class="dl-meta">{{ d.meta }}</div>
+          <div class="dl-actions">
+            <a class="btn" href="{{ base_url }}{{ d.href }}" download>Download PDF</a>
+            <a class="btn btn-outline" href="{{ base_url }}{{ d.href }}" target="_blank" rel="noopener">Preview&nbsp;↗</a>
+          </div>
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
+    <div class="article" style="margin-top:2.5rem;max-width:64ch;">
+      <div class="callout">
+        <p><strong>Need help choosing?</strong> Our guides break down sizing, top materials and duty ratings for Malaysian workshops and factories — see <a href="{{ base_url }}guides/">Guides &amp; Resources</a>, or <a href="{{ base_url }}contact/">talk to our team</a>.</p>
+      </div>
+    </div>
+  </div>
+</section>
+{% endblock %}

@@ -1,0 +1,31 @@
+<!-- Floating basket + slide-out panel + fly-to-basket target -->
+<button type="button" id="basket-fab" class="basket-fab" aria-label="Open basket" aria-controls="basket-panel">
+  <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M6 7h12l-1.5 11a2 2 0 01-2 1.7h-5A2 2 0 017.5 18L6 7z"/>
+    <path d="M9 7V5a3 3 0 016 0v2"/>
+  </svg>
+  <span class="basket-fab-count" id="basket-count" data-count="0">0</span>
+</button>
+
+<aside id="basket-panel" class="basket-panel" aria-hidden="true" aria-labelledby="basket-h">
+  <div class="basket-panel-scrim" data-close-basket></div>
+  <div class="basket-panel-body" role="dialog" aria-modal="true">
+    <header class="basket-panel-head">
+      <h2 id="basket-h">Your basket</h2>
+      <button type="button" class="basket-close" data-close-basket aria-label="Close basket">×</button>
+    </header>
+    <div class="basket-empty" id="basket-empty">
+      <p>Your basket is empty.</p>
+      <a class="btn btn-outline" href="{{ base_url }}products/" data-close-basket>Browse products</a>
+    </div>
+    <ul class="basket-list" id="basket-list" role="list"></ul>
+    <footer class="basket-panel-foot" id="basket-foot" hidden>
+      <div class="basket-summary">
+        <span class="basket-summary-lbl">Items in basket</span>
+        <span class="basket-summary-val" id="basket-total">0</span>
+      </div>
+      <a class="btn btn-lg" href="{{ base_url }}enquiry/">Request a Quote&nbsp;→</a>
+      <button type="button" class="basket-clear" id="basket-clear">Clear basket</button>
+    </footer>
+  </div>
+</aside>

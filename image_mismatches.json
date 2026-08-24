@@ -1,0 +1,74 @@
+[
+  {
+    "sku": "SCB-362",
+    "hamming": 18,
+    "old_image": "assets/product/SCB-362.png",
+    "new_image": "asset2/SCB-362.png"
+  },
+  {
+    "sku": "SAA-331(SPW-3)",
+    "hamming": 17,
+    "old_image": "assets/product/SAA-331(SPW-3) + SPQ-32A.png",
+    "new_image": "asset2/SAA-331(SPW-3).png"
+  },
+  {
+    "sku": "SAB-331(SPW-3)",
+    "hamming": 17,
+    "old_image": "assets/product/SAB-331(SPW-3) + SPQ-32A.png",
+    "new_image": "asset2/SAB-331(SPW-3).png"
+  },
+  {
+    "sku": "SAA-331(SPW-3S)",
+    "hamming": 15,
+    "old_image": "assets/product/SAA-331(SPW-3S) + SPQ-32A.png",
+    "new_image": "asset2/SAA-331(SPW-3S).png"
+  },
+  {
+    "sku": "WB-57N",
+    "hamming": 15,
+    "old_image": "assets/product/WB-57N + EGA-7041.png",
+    "new_image": "asset2/WB-57N.png"
+  },
+  {
+    "sku": "WB-57F2",
+    "hamming": 15,
+    "old_image": "assets/product/WB-57F2 + EGA-7041.png",
+    "new_image": "asset2/WB-57F2.png"
+  },
+  {
+    "sku": "WB-57F4A",
+    "hamming": 15,
+    "old_image": "assets/product/WB-57F4A + EGA-7041.png",
+    "new_image": "asset2/WB-57F4A.png"
+  },
+  {
+    "sku": "SAB-331(SPW-3S)",
+    "hamming": 14,
+    "old_image": "assets/product/SAB-331(SPW-3S) + SPQ-32A.png",
+    "new_image": "asset2/SAB-331(SPW-3S).png"
+  },
+  {
+    "sku": "WB-67F",
+    "hamming": 14,
+    "old_image": "assets/product/WB-67F + EGA-7041.png",
+    "new_image": "asset2/WB-67F.png"
+  },
+  {
+    "sku": "WD-58S2",
+    "hamming": 14,
+    "old_image": "assets/product/WD-58S2+WDP-15S.png",
+    "new_image": "asset2/WD-58S2.png"
+  },
+  {
+    "sku": "WB-57F",
+    "hamming": 13,
+    "old_image": "assets/product/WB-57F + EGA-7041.png",
+    "new_image": "asset2/WB-57F.png"
+  },
+  {
+    "sku": "WD-68S7",
+    "hamming": 13,
+    "old_image": "assets/product/WD-68S7+WDP-16S.png",
+    "new_image": "asset2/WD-68S7.png"
+  }
+]

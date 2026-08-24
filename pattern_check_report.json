@@ -1,0 +1,3696 @@
+[
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 15,
+    "tab_keys": [
+      "features",
+      "holders_spec",
+      "pspec_extra",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "Holders Specification",
+      "Product Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "holders_spec",
+      "pspec_extra"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "cnc-tool",
+    "fam": "ea-10mn"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 15,
+    "tab_keys": [
+      "features",
+      "holders_spec",
+      "pspec_extra",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "Holders Specification",
+      "Product Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "holders_spec",
+      "pspec_extra"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "cnc-tool",
+    "fam": "ea-10n"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 15,
+    "tab_keys": [
+      "features",
+      "holders_spec",
+      "pspec_extra",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "Holders Specification",
+      "Product Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "holders_spec",
+      "pspec_extra"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "cnc-tool",
+    "fam": "ea-12n"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 15,
+    "tab_keys": [
+      "features",
+      "holders_spec",
+      "pspec_extra",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "Holders Specification",
+      "Product Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "holders_spec",
+      "pspec_extra"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "cnc-tool",
+    "fam": "ea-7mn"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 5,
+    "tab_keys": [
+      "features",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "cnc-tool",
+    "fam": "enr-12"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 5,
+    "tab_keys": [
+      "features",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "cnc-tool",
+    "fam": "ens-1"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 5,
+    "tab_keys": [
+      "features",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "cnc-tool",
+    "fam": "ens-3"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 5,
+    "tab_keys": [
+      "features",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "cnc-tool",
+    "fam": "san-33"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 5,
+    "tab_keys": [
+      "features",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "cnc-tool",
+    "fam": "san-36"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 5,
+    "tab_keys": [
+      "features",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "cnc-tool",
+    "fam": "san-36k"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 4,
+    "tab_keys": [
+      "features",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "documents-cabinet",
+    "fam": "a4l-104"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 3,
+    "tab_keys": [
+      "features",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "documents-cabinet",
+    "fam": "a4l-110"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 6,
+    "tab_keys": [
+      "features",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "documents-cabinet",
+    "fam": "a4l-204"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 3,
+    "tab_keys": [
+      "features",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "documents-cabinet",
+    "fam": "a4l-220"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 8,
+    "tab_keys": [
+      "features",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "documents-cabinet",
+    "fam": "a4l-330"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 3,
+    "tab_keys": [
+      "features",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "documents-cabinet",
+    "fam": "a4l-330d"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 1,
+    "tab_keys": [
+      "features",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "documents-cabinet",
+    "fam": "toa-14"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 4,
+    "tab_keys": [
+      "features",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "hanger-rack",
+    "fam": "da-3"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 8,
+    "tab_keys": [
+      "features",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "hanger-rack",
+    "fam": "db-3"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 4,
+    "tab_keys": [
+      "features",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "hanger-rack",
+    "fam": "dd-3"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 7,
+    "tab_keys": [
+      "features",
+      "howto",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "How to choose",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "howto",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "hanger-rack",
+    "fam": "km-22"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 8,
+    "tab_keys": [
+      "features",
+      "howto",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "How to choose",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "howto",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "hanger-rack",
+    "fam": "km-23"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 8,
+    "tab_keys": [
+      "features",
+      "howto",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "How to choose",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "howto",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "hanger-rack",
+    "fam": "kr-13"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 10,
+    "tab_keys": [
+      "features",
+      "howto",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "How to choose",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "howto",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "hanger-rack",
+    "fam": "kr-14"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 8,
+    "tab_keys": [
+      "features",
+      "howto",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "How to choose",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "howto",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "hanger-rack",
+    "fam": "kr-23"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 10,
+    "tab_keys": [
+      "features",
+      "howto",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "How to choose",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "howto",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "hanger-rack",
+    "fam": "kr-24"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 2,
+    "tab_keys": [
+      "features",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "household-items",
+    "fam": "haa"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 16,
+    "tab_keys": [
+      "features",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "locker",
+    "fam": "locker-gray"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 4,
+    "tab_keys": [
+      "features",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "locker",
+    "fam": "locker-white"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 5,
+    "tab_keys": [
+      "features",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "parts-cabinet",
+    "fam": "cea-3"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 5,
+    "tab_keys": [
+      "features",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "parts-cabinet",
+    "fam": "ceh-3"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 6,
+    "tab_keys": [
+      "features",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "parts-cabinet",
+    "fam": "ra-5"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 4,
+    "tab_keys": [
+      "features",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "parts-cabinet",
+    "fam": "rb-5"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 10,
+    "tab_keys": [
+      "features",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "parts-cabinet",
+    "fam": "ta-1"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 3,
+    "tab_keys": [
+      "features",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "parts-cabinet",
+    "fam": "tc-11"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 13,
+    "tab_keys": [
+      "features",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "parts-cabinet",
+    "fam": "tki-1"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 22,
+    "tab_keys": [
+      "features",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "parts-cabinet",
+    "fam": "tki-2"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 3,
+    "tab_keys": [
+      "features",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "parts-cabinet",
+    "fam": "tki-30"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 17,
+    "tab_keys": [
+      "features",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "parts-cabinet",
+    "fam": "tki-83"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 1,
+    "tab_keys": [
+      "features",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "perforated-board",
+    "fam": "kh-3"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 1,
+    "tab_keys": [
+      "features",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "perforated-board",
+    "fam": "kp-17"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 18,
+    "tab_keys": [
+      "features",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "perforated-board",
+    "fam": "kp-3"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 2,
+    "tab_keys": [
+      "features",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "perforated-board",
+    "fam": "kp-41"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 1,
+    "tab_keys": [
+      "features",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "perforated-board",
+    "fam": "kp-42"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 1,
+    "tab_keys": [
+      "features",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "perforated-board",
+    "fam": "kp-43"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 1,
+    "tab_keys": [
+      "features",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "perforated-board",
+    "fam": "kp-44"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 1,
+    "tab_keys": [
+      "features",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "perforated-board",
+    "fam": "kp-45"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 1,
+    "tab_keys": [
+      "features",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "perforated-board",
+    "fam": "kp-46"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 1,
+    "tab_keys": [
+      "features",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "perforated-board",
+    "fam": "kp-4802"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 13,
+    "tab_keys": [
+      "features",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "perforated-board",
+    "fam": "kp-6"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 2,
+    "tab_keys": [
+      "features",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "perforated-board",
+    "fam": "kp-6109"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 64,
+    "tab_keys": [
+      "features",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "perforated-board",
+    "fam": "kp-7"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 17,
+    "tab_keys": [
+      "features",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "perforated-board",
+    "fam": "kpq-4301"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 2,
+    "tab_keys": [
+      "features",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "perforated-board",
+    "fam": "kpq-4306"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 46,
+    "tab_keys": [
+      "features",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "perforated-board",
+    "fam": "kq-3"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 1,
+    "tab_keys": [
+      "features",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "perforated-board",
+    "fam": "kq-306as"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 1,
+    "tab_keys": [
+      "features",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "perforated-board",
+    "fam": "te_211"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 4,
+    "tab_keys": [
+      "features",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "rack",
+    "fam": "mb-2"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 4,
+    "tab_keys": [
+      "features",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "rack",
+    "fam": "mb-3"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 4,
+    "tab_keys": [
+      "features",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "rack",
+    "fam": "me"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 48,
+    "tab_keys": [
+      "features",
+      "howto",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "How to choose",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "howto",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "tool-cabinet",
+    "fam": "ea-10"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 48,
+    "tab_keys": [
+      "features",
+      "howto",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "How to choose",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "howto",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "tool-cabinet",
+    "fam": "ea-12"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 32,
+    "tab_keys": [
+      "features",
+      "howto",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "How to choose",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "howto",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "tool-cabinet",
+    "fam": "ea-7"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 32,
+    "tab_keys": [
+      "features",
+      "howto",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "How to choose",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "howto",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "tool-cabinet",
+    "fam": "ea-7m"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 3,
+    "tab_keys": [
+      "features",
+      "accessories",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "Accessories",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "accessories",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "tool-cabinet",
+    "fam": "ega-1"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 2,
+    "tab_keys": [
+      "features",
+      "accessories",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "Accessories",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "accessories",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "tool-cabinet",
+    "fam": "ega-2m"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 17,
+    "tab_keys": [
+      "features",
+      "accessories",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "Accessories",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "accessories",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "tool-cabinet",
+    "fam": "egl-1"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 8,
+    "tab_keys": [
+      "features",
+      "accessories",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "Accessories",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "accessories",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "tool-cabinet",
+    "fam": "egm-1"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 4,
+    "tab_keys": [
+      "features",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "tool-cabinet",
+    "fam": "eka-3m"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 4,
+    "tab_keys": [
+      "features",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "tool-cabinet",
+    "fam": "eka-3ms"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 15,
+    "tab_keys": [
+      "features",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "tool-cabinet",
+    "fam": "ekb-3m"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 64,
+    "tab_keys": [
+      "features",
+      "howto",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "How to choose",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "howto",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "tool-cabinet",
+    "fam": "ekc"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 1,
+    "tab_keys": [
+      "features",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "tool-cabinet",
+    "fam": "ekk-1m"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 4,
+    "tab_keys": [
+      "features",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "tool-cabinet",
+    "fam": "ela-1"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 4,
+    "tab_keys": [
+      "features",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "tool-cabinet",
+    "fam": "els-2"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 48,
+    "tab_keys": [
+      "features",
+      "howto",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "How to choose",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "howto",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "workbench",
+    "fam": "wa-57"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 24,
+    "tab_keys": [
+      "features",
+      "howto",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "How to choose",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "howto",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "workbench",
+    "fam": "wa-57a"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 18,
+    "tab_keys": [
+      "features",
+      "howto",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "How to choose",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "howto",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "workbench",
+    "fam": "wa-57m"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 42,
+    "tab_keys": [
+      "features",
+      "howto",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "How to choose",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "howto",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "workbench",
+    "fam": "wa-67"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 28,
+    "tab_keys": [
+      "features",
+      "howto",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "How to choose",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "howto",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "workbench",
+    "fam": "wa-67a"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 18,
+    "tab_keys": [
+      "features",
+      "howto",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "How to choose",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "howto",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "workbench",
+    "fam": "wa-67m"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 28,
+    "tab_keys": [
+      "features",
+      "howto",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "How to choose",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "howto",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "workbench",
+    "fam": "wa-77"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 28,
+    "tab_keys": [
+      "features",
+      "howto",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "How to choose",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "howto",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "workbench",
+    "fam": "wad-77041"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 36,
+    "tab_keys": [
+      "features",
+      "howto",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "how to choose",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "howto",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "workbench",
+    "fam": "was-54"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 36,
+    "tab_keys": [
+      "features",
+      "howto",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "How to choose",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "howto",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "workbench",
+    "fam": "was-57042"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 42,
+    "tab_keys": [
+      "features",
+      "howto",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "How to choose",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "howto",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "workbench",
+    "fam": "was-67053"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 28,
+    "tab_keys": [
+      "features",
+      "howto",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "How to choose",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "howto",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "workbench",
+    "fam": "was-74"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 28,
+    "tab_keys": [
+      "features",
+      "howto",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "How to choose",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "howto",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "workbench",
+    "fam": "was-77042"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 36,
+    "tab_keys": [
+      "features",
+      "howto",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "How to choose",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "howto",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "workbench",
+    "fam": "wat-5203"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 42,
+    "tab_keys": [
+      "features",
+      "howto",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "How to choose",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "howto",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "workbench",
+    "fam": "wat-6203"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 28,
+    "tab_keys": [
+      "features",
+      "howto",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "How to choose",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "howto",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "workbench",
+    "fam": "wat-7203"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 18,
+    "tab_keys": [
+      "features",
+      "howto",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "How to choose",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "howto",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "workbench",
+    "fam": "wb-57"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 21,
+    "tab_keys": [
+      "features",
+      "howto",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "How to choose",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "howto",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "workbench",
+    "fam": "wb-67"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 18,
+    "tab_keys": [
+      "features",
+      "howto",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "How to choose",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "howto",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "workbench",
+    "fam": "wb57-ega"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 21,
+    "tab_keys": [
+      "features",
+      "howto",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "How to choose",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "howto",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "workbench",
+    "fam": "wb67-ega"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 18,
+    "tab_keys": [
+      "features",
+      "howto",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "How to choose",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "howto",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "workbench",
+    "fam": "wbs-53022"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 21,
+    "tab_keys": [
+      "features",
+      "howto",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "How to choose",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "howto",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "workbench",
+    "fam": "wbs-63022"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 18,
+    "tab_keys": [
+      "features",
+      "howto",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "How to choose",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "howto",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "workbench",
+    "fam": "wbt-5203"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 21,
+    "tab_keys": [
+      "features",
+      "howto",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "How to choose",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "howto",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "workbench",
+    "fam": "wbt-6203"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 8,
+    "tab_keys": [
+      "features",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "workbench",
+    "fam": "wd-48"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 8,
+    "tab_keys": [
+      "features",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "workbench",
+    "fam": "wd-4801"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 8,
+    "tab_keys": [
+      "features",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "workbench",
+    "fam": "wd-48s"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 2,
+    "tab_keys": [
+      "features",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "workbench",
+    "fam": "wd-4ms"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 8,
+    "tab_keys": [
+      "features",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "workbench",
+    "fam": "wd-58"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 8,
+    "tab_keys": [
+      "features",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "workbench",
+    "fam": "wd-5801"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 8,
+    "tab_keys": [
+      "features",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "workbench",
+    "fam": "wd-58s"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 2,
+    "tab_keys": [
+      "features",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "workbench",
+    "fam": "wd-5ms"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 8,
+    "tab_keys": [
+      "features",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "workbench",
+    "fam": "wd-68"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 8,
+    "tab_keys": [
+      "features",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "workbench",
+    "fam": "wd-6801"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 8,
+    "tab_keys": [
+      "features",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "workbench",
+    "fam": "wd-68s"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 2,
+    "tab_keys": [
+      "features",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "workbench",
+    "fam": "wd-6ms"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 8,
+    "tab_keys": [
+      "features",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "workbench",
+    "fam": "wdt-4202"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 8,
+    "tab_keys": [
+      "features",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "workbench",
+    "fam": "wdt-48s"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 8,
+    "tab_keys": [
+      "features",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "workbench",
+    "fam": "wdt-5203"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 8,
+    "tab_keys": [
+      "features",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "workbench",
+    "fam": "wdt-58s"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 8,
+    "tab_keys": [
+      "features",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "workbench",
+    "fam": "wdt-6203"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 8,
+    "tab_keys": [
+      "features",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "workbench",
+    "fam": "wdt-68s"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 14,
+    "tab_keys": [
+      "features",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "workbench",
+    "fam": "we"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 14,
+    "tab_keys": [
+      "features",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "workbench",
+    "fam": "we1200"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 14,
+    "tab_keys": [
+      "features",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "workbench",
+    "fam": "wet"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 14,
+    "tab_keys": [
+      "features",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "workbench",
+    "fam": "wet1200"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 4,
+    "tab_keys": [
+      "features",
+      "howto",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "How to choose",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "howto",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "workbench",
+    "fam": "wha-882"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 4,
+    "tab_keys": [
+      "features",
+      "howto",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "How to choose",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "howto",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "workbench",
+    "fam": "whb-88"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 4,
+    "tab_keys": [
+      "features",
+      "howto",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "How to choose",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "howto",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "workbench",
+    "fam": "whb-881"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 4,
+    "tab_keys": [
+      "features",
+      "howto",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "How to choose",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "howto",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "workbench",
+    "fam": "whb-882"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 6,
+    "tab_keys": [
+      "features",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "workbench",
+    "fam": "wkt_5102"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 8,
+    "tab_keys": [
+      "features",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "workbench",
+    "fam": "wp-51"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 9,
+    "tab_keys": [
+      "features",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "workbench",
+    "fam": "wp-53"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 4,
+    "tab_keys": [
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "workbench",
+    "fam": "wp-6"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 2,
+    "tab_keys": [
+      "features",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "workbench",
+    "fam": "wp-9_1"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 6,
+    "tab_keys": [
+      "features",
+      "howto",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "How to choose",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "howto",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "workstation",
+    "fam": "ra-6091"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 1,
+    "tab_keys": [
+      "features",
+      "howto",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "How to choose",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "howto",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "workstation",
+    "fam": "ra-6201"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 6,
+    "tab_keys": [
+      "features",
+      "howto",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "How to choose",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "howto",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "workstation",
+    "fam": "ra-9091"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 3,
+    "tab_keys": [
+      "features",
+      "howto",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "How to choose",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "howto",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "workstation",
+    "fam": "ra-9201"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 6,
+    "tab_keys": [
+      "features",
+      "accessories",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "Accessories",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "accessories",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "workstation",
+    "fam": "rb-6098"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 6,
+    "tab_keys": [
+      "features",
+      "accessories",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "Accessories",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "accessories",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "workstation",
+    "fam": "rc-6094"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 3,
+    "tab_keys": [
+      "features",
+      "howto",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "How to choose",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "howto",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "workstation",
+    "fam": "rd-6091"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 1,
+    "tab_keys": [
+      "features",
+      "howto",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "How to choose",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "howto",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "workstation",
+    "fam": "re-6201"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 4,
+    "tab_keys": [
+      "features",
+      "howto",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "How to choose",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "howto",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "workstation",
+    "fam": "rfa_rfb"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 2,
+    "tab_keys": [
+      "features",
+      "howto",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "How to choose",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "howto",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "workstation",
+    "fam": "rfc-13"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 6,
+    "tab_keys": [
+      "features",
+      "howto",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "How to choose",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "howto",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "workstation",
+    "fam": "rg-6091"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 10,
+    "tab_keys": [
+      "features",
+      "howto",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "How to choose",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "howto",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "workstation",
+    "fam": "ry"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 8,
+    "tab_keys": [
+      "features",
+      "howto",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "How to choose",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "howto",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "workstation",
+    "fam": "sa"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 4,
+    "tab_keys": [
+      "features",
+      "howto",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "How to choose",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "howto",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "workstation",
+    "fam": "sa_k"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 1,
+    "tab_keys": [
+      "features",
+      "howto",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "How to choose",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "howto",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "workstation",
+    "fam": "saa-231"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 10,
+    "tab_keys": [
+      "features",
+      "howto",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "How to choose",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "howto",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "workstation",
+    "fam": "saa-331"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 7,
+    "tab_keys": [
+      "features",
+      "howto",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "How to choose",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "howto",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "workstation",
+    "fam": "sab-331"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 1,
+    "tab_keys": [
+      "features",
+      "howto",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "How to choose",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "howto",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "workstation",
+    "fam": "sag-231"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 4,
+    "tab_keys": [
+      "features",
+      "howto",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "How to choose",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "howto",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "workstation",
+    "fam": "sca"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 2,
+    "tab_keys": [
+      "features",
+      "howto",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "How to choose",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "howto",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "workstation",
+    "fam": "scc"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 1,
+    "tab_keys": [
+      "features",
+      "howto",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "How to choose",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "howto",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "workstation",
+    "fam": "sg-23071"
+  },
+  {
+    "h1_count": 1,
+    "has_picker": true,
+    "variant_rows": 8,
+    "tab_keys": [
+      "features",
+      "howto",
+      "spec_blocks",
+      "variants"
+    ],
+    "tab_labels": [
+      "Features",
+      "How to choose",
+      "Specification",
+      "Variant Comparison"
+    ],
+    "non_variant_tabs": [
+      "features",
+      "howto",
+      "spec_blocks"
+    ],
+    "empty_panels": 0,
+    "broken_first3": 0,
+    "cat": "workstation",
+    "fam": "sy"
+  }
+]

@@ -1,0 +1,206 @@
+[
+  {
+    "sku": "RFA-091",
+    "kind": "mother_product",
+    "family": "Professional Workstation",
+    "distinct_title": "Drawer Rack",
+    "subcollections": [
+      "All",
+      "Professional"
+    ],
+    "url": "https://www.tanko.com.tw/en/products-detail/rfa_rfb/",
+    "n_images": 1
+  },
+  {
+    "sku": "RFA-092",
+    "kind": "mother_product",
+    "family": "Professional Workstation",
+    "distinct_title": "Drawer Rack",
+    "subcollections": [
+      "All",
+      "Professional"
+    ],
+    "url": "https://www.tanko.com.tw/en/products-detail/rfa_rfb/",
+    "n_images": 2
+  },
+  {
+    "sku": "RFB-091",
+    "kind": "mother_product",
+    "family": "Professional Workstation",
+    "distinct_title": "Drawer Rack",
+    "subcollections": [
+      "All",
+      "Professional"
+    ],
+    "url": "https://www.tanko.com.tw/en/products-detail/rfa_rfb/",
+    "n_images": 1
+  },
+  {
+    "sku": "RFB-092",
+    "kind": "mother_product",
+    "family": "Professional Workstation",
+    "distinct_title": "Drawer Rack",
+    "subcollections": [
+      "All",
+      "Professional"
+    ],
+    "url": "https://www.tanko.com.tw/en/products-detail/rfa_rfb/",
+    "n_images": 3
+  },
+  {
+    "sku": "SAQ-361K",
+    "kind": "mother_product",
+    "family": "Classic Workstation",
+    "distinct_title": "Storage Cabinet",
+    "subcollections": [
+      "All",
+      "Classic"
+    ],
+    "url": "https://www.tanko.com.tw/en/products-detail/sa_k/",
+    "n_images": 2
+  },
+  {
+    "sku": "SAQ-362K",
+    "kind": "mother_product",
+    "family": "Classic Workstation",
+    "distinct_title": "Storage Cabinet",
+    "subcollections": [
+      "All",
+      "Classic"
+    ],
+    "url": "https://www.tanko.com.tw/en/products-detail/sa_k/",
+    "n_images": 2
+  },
+  {
+    "sku": "SAA-361K",
+    "kind": "mother_product",
+    "family": "Classic Workstation",
+    "distinct_title": "Storage Cabinet",
+    "subcollections": [
+      "All",
+      "Classic"
+    ],
+    "url": "https://www.tanko.com.tw/en/products-detail/sa_k/",
+    "n_images": 2
+  },
+  {
+    "sku": "SAA-362K",
+    "kind": "mother_product",
+    "family": "Classic Workstation",
+    "distinct_title": "Storage Cabinet",
+    "subcollections": [
+      "All",
+      "Classic"
+    ],
+    "url": "https://www.tanko.com.tw/en/products-detail/sa_k/",
+    "n_images": 2
+  },
+  {
+    "sku": "TE-211",
+    "kind": "accessory",
+    "family": "Hanging bin",
+    "distinct_title": "TE-211",
+    "subcollections": [
+      "All",
+      "Hangers"
+    ],
+    "url": "https://www.tanko.com.tw/en/products-detail/te_211/",
+    "n_images": 2
+  },
+  {
+    "sku": "WKT-5102F",
+    "kind": "mother_product",
+    "family": "Packing Station",
+    "distinct_title": "Drawers｜WKT(1500mm)",
+    "subcollections": [
+      "All",
+      "Packing Station"
+    ],
+    "url": "https://www.tanko.com.tw/en/products-detail/wkt_5102/",
+    "n_images": 1
+  },
+  {
+    "sku": "WKT-5102F1",
+    "kind": "mother_product",
+    "family": "Packing Station",
+    "distinct_title": "Drawers｜WKT(1500mm)",
+    "subcollections": [
+      "All",
+      "Packing Station"
+    ],
+    "url": "https://www.tanko.com.tw/en/products-detail/wkt_5102/",
+    "n_images": 1
+  },
+  {
+    "sku": "WKT-5102F1+WPK-21",
+    "kind": "mother_product",
+    "family": "Packing Station",
+    "distinct_title": "Drawers｜WKT(1500mm)",
+    "subcollections": [
+      "All",
+      "Packing Station"
+    ],
+    "url": "https://www.tanko.com.tw/en/products-detail/wkt_5102/",
+    "n_images": 1
+  },
+  {
+    "sku": "WKT-5102W",
+    "kind": "mother_product",
+    "family": "Packing Station",
+    "distinct_title": "Drawers｜WKT(1500mm)",
+    "subcollections": [
+      "All",
+      "Packing Station"
+    ],
+    "url": "https://www.tanko.com.tw/en/products-detail/wkt_5102/",
+    "n_images": 1
+  },
+  {
+    "sku": "WKT-5102W1",
+    "kind": "mother_product",
+    "family": "Packing Station",
+    "distinct_title": "Drawers｜WKT(1500mm)",
+    "subcollections": [
+      "All",
+      "Packing Station"
+    ],
+    "url": "https://www.tanko.com.tw/en/products-detail/wkt_5102/",
+    "n_images": 1
+  },
+  {
+    "sku": "WKT-5102W1+WPK-21",
+    "kind": "mother_product",
+    "family": "Packing Station",
+    "distinct_title": "Drawers｜WKT(1500mm)",
+    "subcollections": [
+      "All",
+      "Packing Station"
+    ],
+    "url": "https://www.tanko.com.tw/en/products-detail/wkt_5102/",
+    "n_images": 1
+  },
+  {
+    "sku": "WP-9003",
+    "kind": "mother_product",
+    "family": "Ultra Thin LED Light",
+    "distinct_title": "WP-9003 / WP-9004",
+    "subcollections": [
+      "All",
+      "Workbench Accessories"
+    ],
+    "url": "https://www.tanko.com.tw/en/products-detail/wp-9_1/",
+    "n_images": 2
+  },
+  {
+    "sku": "WP-9004",
+    "kind": "mother_product",
+    "family": "Ultra Thin LED Light",
+    "distinct_title": "WP-9003 / WP-9004",
+    "subcollections": [
+      "All",
+      "Workbench Accessories"
+    ],
+    "url": "https://www.tanko.com.tw/en/products-detail/wp-9_1/",
+    "n_images": 1
+  }
+]

@@ -1,0 +1,4340 @@
+{
+  "families_without_category_mapping": [],
+  "pdf_only_skus": [
+    {
+      "sku": "RPW-09S",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Modular Workstation",
+      "category_slug": "modular-workstations",
+      "subcategory": "Professional",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "EDAB-062505",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Modular Workstation",
+      "category_slug": "modular-workstations",
+      "subcategory": "Professional",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "EDAB-090505",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Modular Workstation",
+      "category_slug": "modular-workstations",
+      "subcategory": "Professional",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "RPW-06S",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Modular Workstation",
+      "category_slug": "modular-workstations",
+      "subcategory": "Professional",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "RPW-12S",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Modular Workstation",
+      "category_slug": "modular-workstations",
+      "subcategory": "Professional",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "RPW-06D",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Modular Workstation",
+      "category_slug": "modular-workstations",
+      "subcategory": "Professional",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "RPW-09D",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Modular Workstation",
+      "category_slug": "modular-workstations",
+      "subcategory": "Professional",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "RPQ-6063A",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Modular Workstation",
+      "category_slug": "modular-workstations",
+      "subcategory": "Professional",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "RPQ-9063A",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Modular Workstation",
+      "category_slug": "modular-workstations",
+      "subcategory": "Professional",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "RPQ-6103A",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Modular Workstation",
+      "category_slug": "modular-workstations",
+      "subcategory": "Professional",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "RPQ-9103A",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Modular Workstation",
+      "category_slug": "modular-workstations",
+      "subcategory": "Professional",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "RPQ-6062",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Modular Workstation",
+      "category_slug": "modular-workstations",
+      "subcategory": "Professional",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "RPQ-6102",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Modular Workstation",
+      "category_slug": "modular-workstations",
+      "subcategory": "Professional",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "RPB-92",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Modular Workstation",
+      "category_slug": "modular-workstations",
+      "subcategory": "Professional",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": "45kg",
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "RPB-91",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Modular Workstation",
+      "category_slug": "modular-workstations",
+      "subcategory": "Professional",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": "45kg",
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "RPH-61",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Modular Workstation",
+      "category_slug": "modular-workstations",
+      "subcategory": "Professional",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "RPH-91",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Modular Workstation",
+      "category_slug": "modular-workstations",
+      "subcategory": "Professional",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "RFA-091",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Modular Workstation",
+      "category_slug": "modular-workstations",
+      "subcategory": "Professional",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [
+        "assets/product/RFA-091.png"
+      ],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": true
+      }
+    },
+    {
+      "sku": "RFB-091",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Modular Workstation",
+      "category_slug": "modular-workstations",
+      "subcategory": "Professional",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [
+        "assets/product/RFB-091.png"
+      ],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": true
+      }
+    },
+    {
+      "sku": "RFA-092",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Modular Workstation",
+      "category_slug": "modular-workstations",
+      "subcategory": "Professional",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [
+        "assets/product/RFA-092.png"
+      ],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": true
+      }
+    },
+    {
+      "sku": "RFB-092",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Modular Workstation",
+      "category_slug": "modular-workstations",
+      "subcategory": "Professional",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": "100kg",
+      "attributes": {},
+      "image_paths": [
+        "assets/product/RFB-092.png"
+      ],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": true
+      }
+    },
+    {
+      "sku": "TB-1016",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Modular Workstation",
+      "category_slug": "modular-workstations",
+      "subcategory": "Classic",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": "400kg",
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "SG-23071M",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Modular Workstation",
+      "category_slug": "modular-workstations",
+      "subcategory": "Classic",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": "45kg",
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "SAA-361K",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Modular Workstation",
+      "category_slug": "modular-workstations",
+      "subcategory": "Classic",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": "200kg",
+      "attributes": {},
+      "image_paths": [
+        "assets/product/SAA-361K.jpg"
+      ],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": true
+      }
+    },
+    {
+      "sku": "SAQ-362KM",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Modular Workstation",
+      "category_slug": "modular-workstations",
+      "subcategory": "Classic",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": "45kg",
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "SPQ-32A",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Modular Workstation",
+      "category_slug": "modular-workstations",
+      "subcategory": "Classic",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "SPQ-33A",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Modular Workstation",
+      "category_slug": "modular-workstations",
+      "subcategory": "Classic",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "SPQ-42A",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Modular Workstation",
+      "category_slug": "modular-workstations",
+      "subcategory": "Classic",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "SPQ-43A",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Modular Workstation",
+      "category_slug": "modular-workstations",
+      "subcategory": "Classic",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "SPW-3S",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Modular Workstation",
+      "category_slug": "modular-workstations",
+      "subcategory": "Classic",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "SPW-4S",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Modular Workstation",
+      "category_slug": "modular-workstations",
+      "subcategory": "Classic",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "WET-4102W",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Workbench",
+      "category_slug": "workbenches",
+      "subcategory": "Performance",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [
+        "assets/product/WET-4102W (Black).jpg",
+        "assets/product/WET-4102W (White).jpg"
+      ],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": true
+      }
+    },
+    {
+      "sku": "WET-4102W3",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Workbench",
+      "category_slug": "workbenches",
+      "subcategory": "Performance",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [
+        "assets/product/WET-4102W3 (Black).jpg",
+        "assets/product/WET-4102W3 (White).jpg"
+      ],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": true
+      }
+    },
+    {
+      "sku": "WET-4102W4",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Workbench",
+      "category_slug": "workbenches",
+      "subcategory": "Performance",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [
+        "assets/product/WET-4102W4 (Black).jpg",
+        "assets/product/WET-4102W4 (White).jpg"
+      ],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": true
+      }
+    },
+    {
+      "sku": "WET-4102W5",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Workbench",
+      "category_slug": "workbenches",
+      "subcategory": "Performance",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [
+        "assets/product/WET-4102W5 (Black).jpg",
+        "assets/product/WET-4102W5 (White).jpg"
+      ],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": true
+      }
+    },
+    {
+      "sku": "WP-9003",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Workbench",
+      "category_slug": "workbenches",
+      "subcategory": "Performance",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [
+        "assets/product/WP-9003.jpg"
+      ],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": true
+      }
+    },
+    {
+      "sku": "WEW-5102W",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Workbench",
+      "category_slug": "workbenches",
+      "subcategory": "Performance",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "WET-4102W7",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Workbench",
+      "category_slug": "workbenches",
+      "subcategory": "Performance",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [
+        "assets/product/WET-4102W7 (Black).jpg",
+        "assets/product/WET-4102W7 (White).jpg"
+      ],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": true
+      }
+    },
+    {
+      "sku": "WET-4102W8",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Workbench",
+      "category_slug": "workbenches",
+      "subcategory": "Performance",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [
+        "assets/product/WET-4102W8 (Black).jpg",
+        "assets/product/WET-4102W8 (White).jpg"
+      ],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": true
+      }
+    },
+    {
+      "sku": "WET-4102W9",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Workbench",
+      "category_slug": "workbenches",
+      "subcategory": "Performance",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [
+        "assets/product/WET-4102W9 (Black).jpg",
+        "assets/product/WET-4102W9 (White).jpg"
+      ],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": true
+      }
+    },
+    {
+      "sku": "WET-5102W3",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Workbench",
+      "category_slug": "workbenches",
+      "subcategory": "Performance",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [
+        "assets/product/WET-5102W3 (Black).png",
+        "assets/product/WET-5102W3 (White).png"
+      ],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": true
+      }
+    },
+    {
+      "sku": "WET-5102W4",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Workbench",
+      "category_slug": "workbenches",
+      "subcategory": "Performance",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [
+        "assets/product/WET-5102W4 (Black).png",
+        "assets/product/WET-5102W4 (White).png"
+      ],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": true
+      }
+    },
+    {
+      "sku": "WET-5102W5",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Workbench",
+      "category_slug": "workbenches",
+      "subcategory": "Performance",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [
+        "assets/product/WET-5102W5 (Black).png",
+        "assets/product/WET-5102W5 (White).png"
+      ],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": true
+      }
+    },
+    {
+      "sku": "WP-9004",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Workbench",
+      "category_slug": "workbenches",
+      "subcategory": "Performance",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": "45kg",
+      "attributes": {},
+      "image_paths": [
+        "assets/product/WP-9004.jpg"
+      ],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": true
+      }
+    },
+    {
+      "sku": "WE-47W",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Workbench",
+      "category_slug": "workbenches",
+      "subcategory": "Performance",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [
+        "assets/product/WE-47W (Black).jpg",
+        "assets/product/WE-47W (White).jpg"
+      ],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": true
+      }
+    },
+    {
+      "sku": "WE-47W3",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Workbench",
+      "category_slug": "workbenches",
+      "subcategory": "Performance",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [
+        "assets/product/WE-47W3 (Black).jpg",
+        "assets/product/WE-47W3 (White).jpg"
+      ],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": true
+      }
+    },
+    {
+      "sku": "WE-47W4",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Workbench",
+      "category_slug": "workbenches",
+      "subcategory": "Performance",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [
+        "assets/product/WE-47W4 (Black).jpg",
+        "assets/product/WE-47W4 (White).jpg"
+      ],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": true
+      }
+    },
+    {
+      "sku": "WE-47W5",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Workbench",
+      "category_slug": "workbenches",
+      "subcategory": "Performance",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [
+        "assets/product/WE-47W5 (Black).jpg",
+        "assets/product/WE-47W5 (White).jpg"
+      ],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": true
+      }
+    },
+    {
+      "sku": "WE-58W",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Workbench",
+      "category_slug": "workbenches",
+      "subcategory": "Performance",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [
+        "assets/product/WE-58W (Black).jpg",
+        "assets/product/WE-58W (White).jpg"
+      ],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": true
+      }
+    },
+    {
+      "sku": "WE-47W7",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Workbench",
+      "category_slug": "workbenches",
+      "subcategory": "Performance",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [
+        "assets/product/WE-47W7 (Black).jpg",
+        "assets/product/WE-47W7 (White).jpg"
+      ],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": true
+      }
+    },
+    {
+      "sku": "WE-47W8",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Workbench",
+      "category_slug": "workbenches",
+      "subcategory": "Performance",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [
+        "assets/product/WE-47W8 (Black).jpg",
+        "assets/product/WE-47W8 (White).jpg"
+      ],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": true
+      }
+    },
+    {
+      "sku": "WE-47W9",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Workbench",
+      "category_slug": "workbenches",
+      "subcategory": "Performance",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [
+        "assets/product/WE-47W9 (Black).jpg",
+        "assets/product/WE-47W9 (White).jpg"
+      ],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": true
+      }
+    },
+    {
+      "sku": "WE-58W3",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Workbench",
+      "category_slug": "workbenches",
+      "subcategory": "Performance",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [
+        "assets/product/WE-58W3 (Black).png",
+        "assets/product/WE-58W3 (White).png"
+      ],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": true
+      }
+    },
+    {
+      "sku": "WE-58W4",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Workbench",
+      "category_slug": "workbenches",
+      "subcategory": "Performance",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [
+        "assets/product/WE-58W4 (Black).png",
+        "assets/product/WE-58W4 (White).png"
+      ],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": true
+      }
+    },
+    {
+      "sku": "WE-58W5",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Workbench",
+      "category_slug": "workbenches",
+      "subcategory": "Performance",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [
+        "assets/product/WE-58W5 (Black).png",
+        "assets/product/WE-58W5 (White).png"
+      ],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": true
+      }
+    },
+    {
+      "sku": "ES-13022",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Workbench",
+      "category_slug": "workbenches",
+      "subcategory": "Professional",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "WA-57",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Workbench",
+      "category_slug": "workbenches",
+      "subcategory": "Heavy Duty",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "WA-67",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Workbench",
+      "category_slug": "workbenches",
+      "subcategory": "Heavy Duty",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "WA-56",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Workbench",
+      "category_slug": "workbenches",
+      "subcategory": "Heavy Duty",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "WA-77",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Workbench",
+      "category_slug": "workbenches",
+      "subcategory": "Heavy Duty",
+      "color": "green",
+      "dimensions": null,
+      "material": "covered with 1.2mm",
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "WAT-5203",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Workbench",
+      "category_slug": "workbenches",
+      "subcategory": "Heavy Duty",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "WAT-6203",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Workbench",
+      "category_slug": "workbenches",
+      "subcategory": "Heavy Duty",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "WAT-7203",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Workbench",
+      "category_slug": "workbenches",
+      "subcategory": "Heavy Duty",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "WAD-77042",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Workbench",
+      "category_slug": "workbenches",
+      "subcategory": "Heavy Duty",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "WAS-54031",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Workbench",
+      "category_slug": "workbenches",
+      "subcategory": "Heavy Duty",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "WAS-64031",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Workbench",
+      "category_slug": "workbenches",
+      "subcategory": "Heavy Duty",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "WAS-74031",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Workbench",
+      "category_slug": "workbenches",
+      "subcategory": "Heavy Duty",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "WAS-57042",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Workbench",
+      "category_slug": "workbenches",
+      "subcategory": "Heavy Duty",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "WAS-67042",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Workbench",
+      "category_slug": "workbenches",
+      "subcategory": "Heavy Duty",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "WAS-77042",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Workbench",
+      "category_slug": "workbenches",
+      "subcategory": "Heavy Duty",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": "50kg",
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "WD-48",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Workbench",
+      "category_slug": "workbenches",
+      "subcategory": "Heavy Duty",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "WD-58",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Workbench",
+      "category_slug": "workbenches",
+      "subcategory": "Heavy Duty",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "WD-68",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Workbench",
+      "category_slug": "workbenches",
+      "subcategory": "Heavy Duty",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "WD-4801",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Workbench",
+      "category_slug": "workbenches",
+      "subcategory": "Heavy Duty",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "WD-5801",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Workbench",
+      "category_slug": "workbenches",
+      "subcategory": "Heavy Duty",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "WD-6801",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Workbench",
+      "category_slug": "workbenches",
+      "subcategory": "Heavy Duty",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "WDT-4202",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Workbench",
+      "category_slug": "workbenches",
+      "subcategory": "Heavy Duty",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "WDT-5203",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Workbench",
+      "category_slug": "workbenches",
+      "subcategory": "Heavy Duty",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "WDT-6203",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Workbench",
+      "category_slug": "workbenches",
+      "subcategory": "Heavy Duty",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "WD-48MS",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Workbench",
+      "category_slug": "workbenches",
+      "subcategory": "Stainless Steel",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "WQ-52",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Workbench",
+      "category_slug": "workbenches",
+      "subcategory": "Accessories",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "WQ-62",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Workbench",
+      "category_slug": "workbenches",
+      "subcategory": "Accessories",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "WQ-72",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Workbench",
+      "category_slug": "workbenches",
+      "subcategory": "Accessories",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "WQD-43",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Workbench",
+      "category_slug": "workbenches",
+      "subcategory": "Accessories",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "WQD-53",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Workbench",
+      "category_slug": "workbenches",
+      "subcategory": "Accessories",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "WQD-63",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Workbench",
+      "category_slug": "workbenches",
+      "subcategory": "Accessories",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "WQD-42S",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Workbench",
+      "category_slug": "workbenches",
+      "subcategory": "Accessories",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "WQD-52S",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Workbench",
+      "category_slug": "workbenches",
+      "subcategory": "Accessories",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "WQD-62S",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Workbench",
+      "category_slug": "workbenches",
+      "subcategory": "Accessories",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "WQD-43S",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Workbench",
+      "category_slug": "workbenches",
+      "subcategory": "Accessories",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "WQD-53S",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Workbench",
+      "category_slug": "workbenches",
+      "subcategory": "Accessories",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "WQD-63S",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Workbench",
+      "category_slug": "workbenches",
+      "subcategory": "Accessories",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "WQD-47S",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Workbench",
+      "category_slug": "workbenches",
+      "subcategory": "Accessories",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "WQD-57S",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Workbench",
+      "category_slug": "workbenches",
+      "subcategory": "Accessories",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "WQD-67S",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Workbench",
+      "category_slug": "workbenches",
+      "subcategory": "Accessories",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "WQ-53",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Workbench",
+      "category_slug": "workbenches",
+      "subcategory": "Accessories",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "WQ-63",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Workbench",
+      "category_slug": "workbenches",
+      "subcategory": "Accessories",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "WQ-73",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Workbench",
+      "category_slug": "workbenches",
+      "subcategory": "Accessories",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "WQ-54A",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Workbench",
+      "category_slug": "workbenches",
+      "subcategory": "Accessories",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "WQ-64A",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Workbench",
+      "category_slug": "workbenches",
+      "subcategory": "Accessories",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "WQ-74A",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Workbench",
+      "category_slug": "workbenches",
+      "subcategory": "Accessories",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "WQ-56A",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Workbench",
+      "category_slug": "workbenches",
+      "subcategory": "Accessories",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "WQ-66A",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Workbench",
+      "category_slug": "workbenches",
+      "subcategory": "Accessories",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "WQ-76A",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Workbench",
+      "category_slug": "workbenches",
+      "subcategory": "Accessories",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "WQ-67A",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Workbench",
+      "category_slug": "workbenches",
+      "subcategory": "Accessories",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "WQ-77A",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Workbench",
+      "category_slug": "workbenches",
+      "subcategory": "Accessories",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "WQ-55A",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Workbench",
+      "category_slug": "workbenches",
+      "subcategory": "Accessories",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "WQ-65A",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Workbench",
+      "category_slug": "workbenches",
+      "subcategory": "Accessories",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "WQ-75A",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Workbench",
+      "category_slug": "workbenches",
+      "subcategory": "Accessories",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "WQD-46A",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Workbench",
+      "category_slug": "workbenches",
+      "subcategory": "Accessories",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "WQD-56A",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Workbench",
+      "category_slug": "workbenches",
+      "subcategory": "Accessories",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "WQD-66A",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Workbench",
+      "category_slug": "workbenches",
+      "subcategory": "Accessories",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "WQD-49A",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Workbench",
+      "category_slug": "workbenches",
+      "subcategory": "Accessories",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "WQD-59A",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Workbench",
+      "category_slug": "workbenches",
+      "subcategory": "Accessories",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "WQD-69A",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Workbench",
+      "category_slug": "workbenches",
+      "subcategory": "Accessories",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "WP-41",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Workbench",
+      "category_slug": "workbenches",
+      "subcategory": "Accessories",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "WP-42",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Workbench",
+      "category_slug": "workbenches",
+      "subcategory": "Accessories",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "WP-43",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Workbench",
+      "category_slug": "workbenches",
+      "subcategory": "Accessories",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "WDP-14",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Workbench",
+      "category_slug": "workbenches",
+      "subcategory": "Accessories",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "WDP-15",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Workbench",
+      "category_slug": "workbenches",
+      "subcategory": "Accessories",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "WDP-16",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Workbench",
+      "category_slug": "workbenches",
+      "subcategory": "Accessories",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "WDP-14S",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Workbench",
+      "category_slug": "workbenches",
+      "subcategory": "Accessories",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "WDP-15S",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Workbench",
+      "category_slug": "workbenches",
+      "subcategory": "Accessories",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "WDP-16S",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Workbench",
+      "category_slug": "workbenches",
+      "subcategory": "Accessories",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "KP-19",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Workbench",
+      "category_slug": "workbenches",
+      "subcategory": "Accessories",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "KP-20",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Workbench",
+      "category_slug": "workbenches",
+      "subcategory": "Accessories",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "KP-21",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Workbench",
+      "category_slug": "workbenches",
+      "subcategory": "Accessories",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "WP-9002",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Workbench",
+      "category_slug": "workbenches",
+      "subcategory": "Accessories",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "WP-9021",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Workbench",
+      "category_slug": "workbenches",
+      "subcategory": "Accessories",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "WP-9013A",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Workbench",
+      "category_slug": "workbenches",
+      "subcategory": "Accessories",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "EGP-03M",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Tool Cabinet",
+      "category_slug": "tool-cabinets",
+      "subcategory": "Standard",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "EGP-03L",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Tool Cabinet",
+      "category_slug": "tool-cabinets",
+      "subcategory": "Standard",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "EGQ-02A",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Tool Cabinet",
+      "category_slug": "tool-cabinets",
+      "subcategory": "Standard",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "TK-8721",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Tool Cabinet",
+      "category_slug": "tool-cabinets",
+      "subcategory": "Standard",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "TK-8731",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Tool Cabinet",
+      "category_slug": "tool-cabinets",
+      "subcategory": "Standard",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "TK-8722",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Tool Cabinet",
+      "category_slug": "tool-cabinets",
+      "subcategory": "Standard",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "TK-8732",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Tool Cabinet",
+      "category_slug": "tool-cabinets",
+      "subcategory": "Standard",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "TK-8723",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Tool Cabinet",
+      "category_slug": "tool-cabinets",
+      "subcategory": "Standard",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "TK-8733",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Tool Cabinet",
+      "category_slug": "tool-cabinets",
+      "subcategory": "Standard",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": "45kg",
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "EP-0533",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Tool Cabinet",
+      "category_slug": "tool-cabinets",
+      "subcategory": "Heavy Duty",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "EP-0543",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Tool Cabinet",
+      "category_slug": "tool-cabinets",
+      "subcategory": "Heavy Duty",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "EP-0544",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Tool Cabinet",
+      "category_slug": "tool-cabinets",
+      "subcategory": "Heavy Duty",
+      "color": "Black",
+      "dimensions": null,
+      "material": null,
+      "load_capacity": "1000kg",
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "BT-30",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Tool Cabinet",
+      "category_slug": "tool-cabinets",
+      "subcategory": "CNC Tool",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "BT-40",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Tool Cabinet",
+      "category_slug": "tool-cabinets",
+      "subcategory": "CNC Tool",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "BT-50",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Tool Cabinet",
+      "category_slug": "tool-cabinets",
+      "subcategory": "CNC Tool",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "HSK-40",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Tool Cabinet",
+      "category_slug": "tool-cabinets",
+      "subcategory": "CNC Tool",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "HSK-63",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Tool Cabinet",
+      "category_slug": "tool-cabinets",
+      "subcategory": "CNC Tool",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "ENP-61",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Tool Cabinet",
+      "category_slug": "tool-cabinets",
+      "subcategory": "CNC Tool",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "ENP-62",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Tool Cabinet",
+      "category_slug": "tool-cabinets",
+      "subcategory": "CNC Tool",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "ENP-63",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Tool Cabinet",
+      "category_slug": "tool-cabinets",
+      "subcategory": "CNC Tool",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "ENP-66",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Tool Cabinet",
+      "category_slug": "tool-cabinets",
+      "subcategory": "CNC Tool",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "ENP-68",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Tool Cabinet",
+      "category_slug": "tool-cabinets",
+      "subcategory": "CNC Tool",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "ENP-11",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Tool Cabinet",
+      "category_slug": "tool-cabinets",
+      "subcategory": "CNC Tool",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "ENP-12",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Tool Cabinet",
+      "category_slug": "tool-cabinets",
+      "subcategory": "CNC Tool",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "ENP-13",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Tool Cabinet",
+      "category_slug": "tool-cabinets",
+      "subcategory": "CNC Tool",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "ENP-16",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Tool Cabinet",
+      "category_slug": "tool-cabinets",
+      "subcategory": "CNC Tool",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "ENP-18",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Tool Cabinet",
+      "category_slug": "tool-cabinets",
+      "subcategory": "CNC Tool",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "EKBN-21",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Tool Cabinet",
+      "category_slug": "tool-cabinets",
+      "subcategory": "CNC Tool",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "EKBN-22",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Tool Cabinet",
+      "category_slug": "tool-cabinets",
+      "subcategory": "CNC Tool",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "EKBN-23",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Tool Cabinet",
+      "category_slug": "tool-cabinets",
+      "subcategory": "CNC Tool",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "EKBN-26",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Tool Cabinet",
+      "category_slug": "tool-cabinets",
+      "subcategory": "CNC Tool",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "EKBN-28",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Tool Cabinet",
+      "category_slug": "tool-cabinets",
+      "subcategory": "CNC Tool",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "ENP-21",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Tool Cabinet",
+      "category_slug": "tool-cabinets",
+      "subcategory": "CNC Tool",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "ENP-22",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Tool Cabinet",
+      "category_slug": "tool-cabinets",
+      "subcategory": "CNC Tool",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "ENP-23",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Tool Cabinet",
+      "category_slug": "tool-cabinets",
+      "subcategory": "CNC Tool",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "ENP-26",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Tool Cabinet",
+      "category_slug": "tool-cabinets",
+      "subcategory": "CNC Tool",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "ENP-28",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Tool Cabinet",
+      "category_slug": "tool-cabinets",
+      "subcategory": "CNC Tool",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "DA-31",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Hanger Rack",
+      "category_slug": "hanger-racks",
+      "subcategory": "Display Stand",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [
+        "assets/product/DA-31 (Black).jpg",
+        "assets/product/DA-31 (White).jpg"
+      ],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": true
+      }
+    },
+    {
+      "sku": "DA-32",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Hanger Rack",
+      "category_slug": "hanger-racks",
+      "subcategory": "Display Stand",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [
+        "assets/product/DA-32 (Black).jpg",
+        "assets/product/DA-32 (White).jpg"
+      ],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": true
+      }
+    },
+    {
+      "sku": "DD-31",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Hanger Rack",
+      "category_slug": "hanger-racks",
+      "subcategory": "Display Stand",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [
+        "assets/product/DD-31(Black).jpg",
+        "assets/product/DD-31(White).jpg"
+      ],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": true
+      }
+    },
+    {
+      "sku": "DD-32",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Hanger Rack",
+      "category_slug": "hanger-racks",
+      "subcategory": "Display Stand",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [
+        "assets/product/DD-32(Black).jpg",
+        "assets/product/DD-32(White).jpg"
+      ],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": true
+      }
+    },
+    {
+      "sku": "DP-01C",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Hanger Rack",
+      "category_slug": "hanger-racks",
+      "subcategory": "Display Stand",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": "50kg",
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "DP-01B",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Hanger Rack",
+      "category_slug": "hanger-racks",
+      "subcategory": "Display Stand",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": "50kg",
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "DP-01A",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Hanger Rack",
+      "category_slug": "hanger-racks",
+      "subcategory": "Display Stand",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": "50kg",
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "DB-31",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Hanger Rack",
+      "category_slug": "hanger-racks",
+      "subcategory": "Display Stand",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [
+        "assets/product/DB-31 (Black).jpg",
+        "assets/product/DB-31 (White).jpg"
+      ],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": true
+      }
+    },
+    {
+      "sku": "DB-32",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Hanger Rack",
+      "category_slug": "hanger-racks",
+      "subcategory": "Display Stand",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [
+        "assets/product/DB-32 (Black).jpg",
+        "assets/product/DB-32 (White).jpg"
+      ],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": true
+      }
+    },
+    {
+      "sku": "DC-31",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Hanger Rack",
+      "category_slug": "hanger-racks",
+      "subcategory": "Display Stand",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [
+        "assets/product/DC-31 (Black).jpg",
+        "assets/product/DC-31 (White).jpg"
+      ],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": true
+      }
+    },
+    {
+      "sku": "DC-32",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Hanger Rack",
+      "category_slug": "hanger-racks",
+      "subcategory": "Display Stand",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [
+        "assets/product/DC-32 (Black).jpg",
+        "assets/product/DC-32 (White).jpg"
+      ],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": true
+      }
+    },
+    {
+      "sku": "KQ-306A",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Perforated Board",
+      "category_slug": "perforated-boards",
+      "subcategory": "Perforated Board",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [
+        "assets/product/KQ-306A (Black).png",
+        "assets/product/KQ-306A (Blue).png",
+        "assets/product/KQ-306A (Gray).png",
+        "assets/product/KQ-306A (Red).png",
+        "assets/product/KQ-306A (White).png"
+      ],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": true
+      }
+    },
+    {
+      "sku": "KQ-308A",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Perforated Board",
+      "category_slug": "perforated-boards",
+      "subcategory": "Perforated Board",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [
+        "assets/product/KQ-308A (Black).png",
+        "assets/product/KQ-308A (Blue).png",
+        "assets/product/KQ-308A (Gray).png",
+        "assets/product/KQ-308A (Red).png",
+        "assets/product/KQ-308A (White).png"
+      ],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": true
+      }
+    },
+    {
+      "sku": "KQ-310A",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Perforated Board",
+      "category_slug": "perforated-boards",
+      "subcategory": "Perforated Board",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [
+        "assets/product/KQ-310A (Black).png",
+        "assets/product/KQ-310A (Blue).png",
+        "assets/product/KQ-310A (Gray).png",
+        "assets/product/KQ-310A (Red).png",
+        "assets/product/KQ-310A (White).png"
+      ],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": true
+      }
+    },
+    {
+      "sku": "KQ-312A",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Perforated Board",
+      "category_slug": "perforated-boards",
+      "subcategory": "Perforated Board",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [
+        "assets/product/KQ-312A (Black).png",
+        "assets/product/KQ-312A (Blue).png",
+        "assets/product/KQ-312A (Gray).png",
+        "assets/product/KQ-312A (Red).png",
+        "assets/product/KQ-312A (White).png"
+      ],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": true
+      }
+    },
+    {
+      "sku": "KQ-314A",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Perforated Board",
+      "category_slug": "perforated-boards",
+      "subcategory": "Perforated Board",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [
+        "assets/product/KQ-314A (Black).png",
+        "assets/product/KQ-314A (Blue).png",
+        "assets/product/KQ-314A (Gray).png",
+        "assets/product/KQ-314A (Red).png",
+        "assets/product/KQ-314A (White).png"
+      ],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": true
+      }
+    },
+    {
+      "sku": "KQ-408A",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Perforated Board",
+      "category_slug": "perforated-boards",
+      "subcategory": "Perforated Board",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [
+        "assets/product/KQ-408A (Black).png",
+        "assets/product/KQ-408A (Blue).png",
+        "assets/product/KQ-408A (Gray).png",
+        "assets/product/KQ-408A (Red).png",
+        "assets/product/KQ-408A (White).png"
+      ],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": true
+      }
+    },
+    {
+      "sku": "KQ-410A",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Perforated Board",
+      "category_slug": "perforated-boards",
+      "subcategory": "Perforated Board",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [
+        "assets/product/KQ-410A (Black).png",
+        "assets/product/KQ-410A (Blue).png",
+        "assets/product/KQ-410A (Gray).png",
+        "assets/product/KQ-410A (Red).png",
+        "assets/product/KQ-410A (White).png"
+      ],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": true
+      }
+    },
+    {
+      "sku": "KQ-412A",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Perforated Board",
+      "category_slug": "perforated-boards",
+      "subcategory": "Perforated Board",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [
+        "assets/product/KQ-412A (Black).png",
+        "assets/product/KQ-412A (Blue).png",
+        "assets/product/KQ-412A (Gray).png",
+        "assets/product/KQ-412A (Red).png",
+        "assets/product/KQ-412A (White).png"
+      ],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": true
+      }
+    },
+    {
+      "sku": "KQ-414A",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Perforated Board",
+      "category_slug": "perforated-boards",
+      "subcategory": "Perforated Board",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [
+        "assets/product/KQ-414A (Black).png",
+        "assets/product/KQ-414A (Blue).png",
+        "assets/product/KQ-414A (Gray).png",
+        "assets/product/KQ-414A (Red).png",
+        "assets/product/KQ-414A (White).png"
+      ],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": true
+      }
+    },
+    {
+      "sku": "KP-6109",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Perforated Board",
+      "category_slug": "perforated-boards",
+      "subcategory": "Perforated Board",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [
+        "assets/product/KP-6109(GRAY).png",
+        "assets/product/KP-6109(RED).png"
+      ],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": true
+      }
+    },
+    {
+      "sku": "KPQ-4301",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Perforated Board",
+      "category_slug": "perforated-boards",
+      "subcategory": "Perforated Board",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [
+        "assets/product/KPQ-4301 (Blue).png",
+        "assets/product/KPQ-4301 (Red).png",
+        "assets/product/KPQ-4301 (Yellow).png"
+      ],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": true
+      }
+    },
+    {
+      "sku": "KPQ-4302",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Perforated Board",
+      "category_slug": "perforated-boards",
+      "subcategory": "Perforated Board",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [
+        "assets/product/KPQ-4302 (Black)(anti-static).png",
+        "assets/product/KPQ-4302 (Blue).png",
+        "assets/product/KPQ-4302 (Red).png",
+        "assets/product/KPQ-4302 (Yellow).png"
+      ],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": true
+      }
+    },
+    {
+      "sku": "KPQ-4303",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Perforated Board",
+      "category_slug": "perforated-boards",
+      "subcategory": "Perforated Board",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [
+        "assets/product/KPQ-4303 (Blue).png",
+        "assets/product/KPQ-4303 (Red).png",
+        "assets/product/KPQ-4303 (Yellow).png"
+      ],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": true
+      }
+    },
+    {
+      "sku": "KPQ-4304",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Perforated Board",
+      "category_slug": "perforated-boards",
+      "subcategory": "Perforated Board",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [
+        "assets/product/KPQ-4304 (Black)(anti-static).png",
+        "assets/product/KPQ-4304 (Blue).png",
+        "assets/product/KPQ-4304 (Red).png",
+        "assets/product/KPQ-4304 (Yellow).png"
+      ],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": true
+      }
+    },
+    {
+      "sku": "KPQ-4305",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Perforated Board",
+      "category_slug": "perforated-boards",
+      "subcategory": "Perforated Board",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [
+        "assets/product/KPQ-4305 (Blue).png",
+        "assets/product/KPQ-4305 (Red).png",
+        "assets/product/KPQ-4305 (Yellow).png"
+      ],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": true
+      }
+    },
+    {
+      "sku": "KP-4701",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Perforated Board",
+      "category_slug": "perforated-boards",
+      "subcategory": "Perforated Board",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "TKI-1-2",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Documents & Parts Cabinet",
+      "category_slug": "parts-cabinets",
+      "subcategory": "Parts Cabinet",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "TKI-1-3",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Documents & Parts Cabinet",
+      "category_slug": "parts-cabinets",
+      "subcategory": "Parts Cabinet",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": "10kg",
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "TKI-2-3",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Documents & Parts Cabinet",
+      "category_slug": "parts-cabinets",
+      "subcategory": "Parts Cabinet",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "TKI-2-9",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Documents & Parts Cabinet",
+      "category_slug": "parts-cabinets",
+      "subcategory": "Parts Cabinet",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": "10kg",
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "RA-1016",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Documents & Parts Cabinet",
+      "category_slug": "parts-cabinets",
+      "subcategory": "Parts Cabinet",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": "10kg",
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "RA-560",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Documents & Parts Cabinet",
+      "category_slug": "parts-cabinets",
+      "subcategory": "Parts Cabinet",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "WHB-88F1",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Workbench",
+      "category_slug": "workbenches",
+      "subcategory": "Hexagonal",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "WHB-881N1",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Workbench",
+      "category_slug": "workbenches",
+      "subcategory": "Hexagonal",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "WHB-882F1",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Workbench",
+      "category_slug": "workbenches",
+      "subcategory": "Hexagonal",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    },
+    {
+      "sku": "WHA-882N1",
+      "product_family": null,
+      "family_slug": null,
+      "category": "Workbench",
+      "category_slug": "workbenches",
+      "subcategory": "Hexagonal",
+      "color": null,
+      "dimensions": null,
+      "material": null,
+      "load_capacity": null,
+      "attributes": {},
+      "image_paths": [],
+      "tanko_url": null,
+      "evidence": {
+        "tanko": false,
+        "pdf": true,
+        "image": false
+      }
+    }
+  ],
+  "orphan_local_images": [
+    "RG-6091(S STEEL)(1).png",
+    "RG-6091(S STEEL)(2).png",
+    "RG-6091(S STEEL)(3).png",
+    "RG-6091(WOOD)(1).png",
+    "RG-6091(WOOD)(2).png",
+    "RG-6091(WOOD)(3).png",
+    "SAA-362K.jpg",
+    "SAQ-361K.jpg",
+    "SAQ-362K.jpg",
+    "WAS-64022F.png",
+    "WAS-64022F2.png",
+    "WAS-64022F3.png",
+    "WAS-64022F4A.png",
+    "WAS-64022N.png",
+    "WAS-64022N2.png",
+    "WAS-64022N3.png",
+    "WAS-64022N4A.png",
+    "WAS-64022S.png",
+    "WAS-64022S2.png",
+    "WAS-64022S3.png",
+    "WAS-64022S4A.png",
+    "WAS-64022TG.png",
+    "WAS-64022TG2.png",
+    "WAS-64022TG3.png",
+    "WAS-64022TG4A.png",
+    "WAS-64022TH.png",
+    "WAS-64022TH2.png",
+    "WAS-64022TH3.png",
+    "WAS-64022TH4A.png",
+    "WAS-64022W.png",
+    "WAS-64022W2.png",
+    "WAS-64022W3.png",
+    "WAS-64022W4A.png",
+    "WAS-64031F5A.png",
+    "WAS-64031F6A.png",
+    "WAS-64031F7A.png",
+    "WAS-64031N5A.png",
+    "WAS-64031N6A.png",
+    "WAS-64031N7A.png",
+    "WAS-64031S5A.png",
+    "WAS-64031S6A.png",
+    "WAS-64031S7A.png",
+    "WAS-64031TG5A.png",
+    "WAS-64031TG6A.png",
+    "WAS-64031TG7A.png",
+    "WAS-64031TH5A.png",
+    "WAS-64031TH6A.png",
+    "WAS-64031TH7A.png",
+    "WAS-64031W5A.png",
+    "WAS-64031W6A.png",
+    "WAS-64031W7A.png",
+    "WE-58W7 (Black).jpg",
+    "WE-58W7 (White).jpg",
+    "WE-58W8 (Black).jpg",
+    "WE-58W8 (White).jpg",
+    "WE-58W9 (Black).jpg",
+    "WE-58W9 (White).jpg",
+    "WET-5102W (Black).jpg",
+    "WET-5102W (White).jpg",
+    "WET-5102W7 (Black).jpg",
+    "WET-5102W7 (White).jpg",
+    "WET-5102W8 (Black).jpg",
+    "WET-5102W9 (Black).jpg",
+    "WET-5102W9 (White).jpg",
+    "WP53100 100.jpg",
+    "WP53100 120.jpg",
+    "WP53100 140.jpg",
+    "WP53100 160.jpg",
+    "WP53100 180.jpg",
+    "WP53101 120.jpg",
+    "WP53101 140.jpg",
+    "WP53101 160.jpg",
+    "WP53118 001.jpg"
+  ]
+}

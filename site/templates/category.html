@@ -1,0 +1,57 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container">
+  <nav class="crumbs" aria-label="Breadcrumb">
+    <a href="{{ base_url }}">Home</a><span class="sep">/</span>
+    <span class="current">{{ category.name }}</span>
+  </nav>
+  <div class="page-head">
+    <h1>{{ category.h1 }}</h1>
+    <p class="page-lede">{{ category.intro }}</p>
+  </div>
+  {% if subcollection_nav %}
+  <nav class="subcol-nav" aria-label="Sub-collections">
+    {% for pill in subcollection_nav %}
+    <a href="{{ base_url }}{{ pill.href }}" class="subcol-pill{% if pill.active %} is-active{% endif %}">{{ pill.label }}</a>
+    {% endfor %}
+  </nav>
+  {% endif %}
+</div>
+<section class="section">
+  <div class="container">
+    {% if sections %}
+      {% for sec in sections %}
+      <h2 style="margin-top:{{ '0' if loop.first else '2.5rem' }};">{{ sec.title }}</h2>
+      <ul class="fam-grid">
+        {% for f in sec.families %}
+        <li class="fam-card"><a href="{{ base_url }}{{ f.url }}">
+          <div class="fam-thumb">{% if f.thumb %}<img src="{{ base_url }}{{ f.thumb }}" alt="{{ f.name }}" loading="lazy">{% endif %}</div>
+          <div class="fam-body">
+            <div class="name">{{ f.name }}</div>
+            <div class="meta">
+              {% if f.sku_code_base %}<span class="sku-code">{{ f.sku_code_base }}</span>{% endif %}
+              {% if f.dim_chip %}<span class="dim-chip">{{ f.dim_chip }}</span>{% endif %}
+              {% if f.sku_code_base or f.dim_chip %} &middot; {% endif %}{{ f.variant_count }} variant{{ 's' if f.variant_count != 1 else '' }}
+            </div>
+          </div>
+        </a></li>
+        {% endfor %}
+      </ul>
+      {% endfor %}
+    {% else %}
+      <h2>Product Ranges in this Category</h2>
+      <ul class="fam-grid">
+        {% for f in families %}
+        <li class="fam-card"><a href="{{ base_url }}{{ f.url }}">
+          <div class="fam-thumb">{% if f.thumb %}<img src="{{ base_url }}{{ f.thumb }}" alt="{{ f.name }}" loading="lazy">{% endif %}</div>
+          <div class="fam-body">
+            <div class="name">{{ f.name }}</div>
+            <div class="meta">{{ f.variant_count }} variant{{ 's' if f.variant_count != 1 else '' }}{% if f.subcategory %} &middot; {{ f.subcategory }}{% endif %}</div>
+          </div>
+        </a></li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+  </div>
+</section>
+{% endblock %}

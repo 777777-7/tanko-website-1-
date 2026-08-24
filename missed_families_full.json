@@ -1,0 +1,536 @@
+[
+  {
+    "url": "https://www.tanko.com.tw/en/products-detail/rfa_rfb/",
+    "slug": "rfa_rfb",
+    "family": "Professional Workstation",
+    "breadcrumb": "",
+    "index_id": "471",
+    "static_specs": {
+      "dimensions": "W970xD500xH2020mm",
+      "material": "Rack▸Steel",
+      "load_capacity": "",
+      "raw_snippet": "Workstation\nProfessional\nProfessional Workstation\nDrawer Rack | RFA/RFB\nDrawer：\n60 pcs\n30 pcs\nDrawer Rack：\nIndependent\nLinkable\nRequest A Quote\nSHARE\nShelf\n100kg load capacity.\nLinkable\nDrawer stop design\n▲Professional series workstation is designed for flexible space utility.\nStep.1\nCabinets\nStep.2\nDesktop\nStep.3\nPanel set\nMade in Taiwan\nDIY product\n60 pcs Drawer Rack【Independent】\nModel No.\nRFA-091\nDimensions ： W970xD500xH2020mm\nMaterial： Rack▸Steel\nItems included： Drawer x 60\n60 pcs Drawer Rack【Linkable】\nModel No.\nRFA-092\nDimensions ： W900xD500xH2020mm\nMaterial： Rcak▸Steel\nItems included： Dr"
+    },
+    "spec_groups": [
+      {
+        "label": "Drawer",
+        "level": 1,
+        "options": [
+          {
+            "data_id": "2643",
+            "label": "60 pcs"
+          },
+          {
+            "data_id": "2644",
+            "label": "30 pcs"
+          }
+        ]
+      },
+      {
+        "label": "Drawer Rack",
+        "level": 2,
+        "options": [
+          {
+            "data_id": "2645",
+            "label": "Independent"
+          },
+          {
+            "data_id": "2646",
+            "label": "Linkable"
+          }
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "model_no": "RFA-091",
+        "sku_id": "RFA-091",
+        "combo_labels": {
+          "Drawer": "60 pcs",
+          "Drawer Rack": "Independent"
+        },
+        "data_ids": [
+          "2643",
+          "2645"
+        ],
+        "images": [
+          "https://www.tanko.com.tw/upload/catalog_package_b/ALL_catalog_package_25F11_RHv12kzmaJ.png"
+        ]
+      },
+      {
+        "model_no": "RFA-092",
+        "sku_id": "RFA-092",
+        "combo_labels": {
+          "Drawer": "60 pcs",
+          "Drawer Rack": "Linkable"
+        },
+        "data_ids": [
+          "2643",
+          "2646"
+        ],
+        "images": [
+          "https://www.tanko.com.tw/upload/catalog_package_b/ALL_catalog_package_25F11_aQ5pVk0qbZ.png",
+          "https://www.tanko.com.tw/upload/catalog_package_b/ALL_catalog_package_25F11_xbNUTxFT4L.png"
+        ]
+      },
+      {
+        "model_no": "RFB-091",
+        "sku_id": "RFB-091",
+        "combo_labels": {
+          "Drawer": "30 pcs",
+          "Drawer Rack": "Independent"
+        },
+        "data_ids": [
+          "2644",
+          "2645"
+        ],
+        "images": [
+          "https://www.tanko.com.tw/upload/catalog_package_b/ALL_catalog_package_25F11_wlR6H9rcdn.png"
+        ]
+      },
+      {
+        "model_no": "RFB-092",
+        "sku_id": "RFB-092",
+        "combo_labels": {
+          "Drawer": "30 pcs",
+          "Drawer Rack": "Linkable"
+        },
+        "data_ids": [
+          "2644",
+          "2646"
+        ],
+        "images": [
+          "https://www.tanko.com.tw/upload/catalog_package_b/ALL_catalog_package_25F11_nGI9TNIsoN.png",
+          "https://www.tanko.com.tw/upload/catalog_package_b/ALL_catalog_package_25F11_dKXbj9lj4h.png",
+          "https://www.tanko.com.tw/upload/catalog_package_b/ALL_catalog_package_25F11_5DwIKIFNEw.png"
+        ]
+      }
+    ],
+    "_kind": "mother_product",
+    "_basis": "mother-default",
+    "_distinct_title": "Drawer Rack",
+    "_subcollections": [
+      "All",
+      "Professional"
+    ]
+  },
+  {
+    "url": "https://www.tanko.com.tw/en/products-detail/sa_k/",
+    "slug": "sa_k",
+    "family": "Classic Workstation",
+    "breadcrumb": "",
+    "index_id": "520",
+    "static_specs": {
+      "dimensions": "W900xD515xH1780mm",
+      "material": "Steel",
+      "load_capacity": "",
+      "raw_snippet": "Workstation\nClassic\nClassic Workstation\nStorage Cabinet | SAA/SAQ\nType：\nPanel\nShelves\nAccessories：\nNone\nDrawer set\nRequest A Quote\nSHARE\nPanel\nHooks\ncan be applied to perforated boards.\nShelf\n200kg load capacity.\nDrawer set\nWith lock\nWith levelers screws\nAdjustable to maintain cabinet level.\n▲Classic Series Workstation is designed for flexible space utility.\nStep.1\nCabinets\nStep.2\nDesktop\nStep.3\nPanel set\nMade in Taiwan\nDIY product\nModel No.\nSAQ-361K\n｜\nWith panel\nDimensions ： W900xD515xH1780mm\nModel No.\nSAA-361K\n｜\nWith shelves\nDimensions ： W900xD515xH1780mm\nMaterial： Steel\nShelf： 200kg load ca"
+    },
+    "spec_groups": [
+      {
+        "label": "Type",
+        "level": 1,
+        "options": [
+          {
+            "data_id": "2862",
+            "label": "Panel"
+          },
+          {
+            "data_id": "2863",
+            "label": "Shelves"
+          }
+        ]
+      },
+      {
+        "label": "Accessories",
+        "level": 2,
+        "options": [
+          {
+            "data_id": "2864",
+            "label": "None"
+          },
+          {
+            "data_id": "2865",
+            "label": "Drawer set"
+          }
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "model_no": "SAQ-361K",
+        "sku_id": "SAQ-361K",
+        "combo_labels": {
+          "Type": "Panel",
+          "Accessories": "None"
+        },
+        "data_ids": [
+          "2862",
+          "2864"
+        ],
+        "images": [
+          "https://www.tanko.com.tw/upload/catalog_package_b/ALL_catalog_package_25K04_4Gl3Bi2PFh.jpg",
+          "https://www.tanko.com.tw/upload/catalog_package_b/ALL_catalog_package_25K04_WxSkk1Bvcg.jpg"
+        ]
+      },
+      {
+        "model_no": "SAQ-362K",
+        "sku_id": "SAQ-362K",
+        "combo_labels": {
+          "Type": "Panel",
+          "Accessories": "Drawer set"
+        },
+        "data_ids": [
+          "2862",
+          "2865"
+        ],
+        "images": [
+          "https://www.tanko.com.tw/upload/catalog_package_b/ALL_catalog_package_25K04_PjOUxR4Ax1.jpg",
+          "https://www.tanko.com.tw/upload/catalog_package_b/ALL_catalog_package_25K04_XHTKcmJVaI.jpg"
+        ]
+      },
+      {
+        "model_no": "SAA-361K",
+        "sku_id": "SAA-361K",
+        "combo_labels": {
+          "Type": "Shelves",
+          "Accessories": "None"
+        },
+        "data_ids": [
+          "2863",
+          "2864"
+        ],
+        "images": [
+          "https://www.tanko.com.tw/upload/catalog_package_b/ALL_catalog_package_25K04_27BuSbBESC.jpg",
+          "https://www.tanko.com.tw/upload/catalog_package_b/ALL_catalog_package_25K04_DnxSuMkHwK.jpg"
+        ]
+      },
+      {
+        "model_no": "SAA-362K",
+        "sku_id": "SAA-362K",
+        "combo_labels": {
+          "Type": "Shelves",
+          "Accessories": "Drawer set"
+        },
+        "data_ids": [
+          "2863",
+          "2865"
+        ],
+        "images": [
+          "https://www.tanko.com.tw/upload/catalog_package_b/ALL_catalog_package_25K04_uw78oVjT4b.jpg",
+          "https://www.tanko.com.tw/upload/catalog_package_b/ALL_catalog_package_25K04_VYt6SCmVMk.jpg"
+        ]
+      }
+    ],
+    "_kind": "mother_product",
+    "_basis": "mother-default",
+    "_distinct_title": "Storage Cabinet",
+    "_subcollections": [
+      "All",
+      "Classic"
+    ]
+  },
+  {
+    "url": "https://www.tanko.com.tw/en/products-detail/te_211/",
+    "slug": "te_211",
+    "family": "Hanging bin",
+    "breadcrumb": "",
+    "index_id": "577",
+    "static_specs": {
+      "dimensions": "W110xD110xH120 mm",
+      "material": "PP",
+      "load_capacity": "10kg",
+      "raw_snippet": "Perforated Board\nHangers\nHanging bin\nTE-211\nQuantity：\n1pc\n5pc\nColor：\nGray\nRequest A Quote\n立即購買產品\nSHARE\nHanger function\nDesktop\nHanger\nAnti-slip hole\nHandle\nModel No.\nTE-211\nDimensions：W110xD110xH120 mm\nMaterial：PP\nColor：Gray\nLoad capacity：10kg"
+    },
+    "spec_groups": [
+      {
+        "label": "Quantity",
+        "level": 1,
+        "options": [
+          {
+            "data_id": "3021",
+            "label": "1pc"
+          },
+          {
+            "data_id": "3022",
+            "label": "5pc"
+          }
+        ]
+      },
+      {
+        "label": "Color",
+        "level": 2,
+        "options": [
+          {
+            "data_id": "3023",
+            "label": "Gray"
+          }
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "model_no": "TE-211",
+        "sku_id": "TE-211",
+        "combo_labels": {
+          "Quantity": "1pc",
+          "Color": "Gray"
+        },
+        "data_ids": [
+          "3021",
+          "3023"
+        ],
+        "images": [
+          "https://www.tanko.com.tw/upload/catalog_package_b/ALL_catalog_package_26F25_BXZY5WcGWx.png"
+        ]
+      },
+      {
+        "model_no": "TE-211",
+        "sku_id": "TE-211",
+        "combo_labels": {
+          "Quantity": "5pc",
+          "Color": "Gray"
+        },
+        "data_ids": [
+          "3022",
+          "3023"
+        ],
+        "images": [
+          "https://www.tanko.com.tw/upload/catalog_package_b/ALL_catalog_package_26F25_V3aKSHIVL3.png"
+        ]
+      }
+    ],
+    "_kind": "accessory",
+    "_basis": "subcollection:Hangers",
+    "_distinct_title": "TE-211",
+    "_subcollections": [
+      "All",
+      "Hangers"
+    ]
+  },
+  {
+    "url": "https://www.tanko.com.tw/en/products-detail/wkt_5102/",
+    "slug": "wkt_5102",
+    "family": "Packing Station",
+    "breadcrumb": "",
+    "index_id": "588",
+    "static_specs": {
+      "dimensions": "W1500xD755xH965-1165mm",
+      "material": "Steel",
+      "load_capacity": "",
+      "raw_snippet": "Workbench\nPacking Station\nPacking Station\nDrawers｜WKT(1500mm)\nTop：\nLaminate(F)\nWood(W)\nAccessories：\nNone\nShelf\nShelf+Tray\nRequest A Quote\nSHARE\nRoll holder\nHeight-adjustable\nTabletop cutter\nPerforated board\nDrawer\nTray\nMade in Taiwan,\nDIY product\nModel No. WKT-5102□1\n□ : Workbench-Top → WKT-5102F1\nLaminate top(F) / Rubber wood top(W)\nModel No.\nWKT-5102□\nWorkbench-top：\nF\n/\nW\nDimensions：W1500xD755xH965-1165mm\nMaterial：Steel\nWorkbench loading：100kg\nDrawer loading：35kg\nRoll holder loading：20kg\nModel No.\nWKT-5102□1\nWorkbench-top：\nF\n/\nW\nDimensions：W1500xD785xH965-1165mm\nMaterial：Steel\nWorkbench load"
+    },
+    "spec_groups": [
+      {
+        "label": "Top",
+        "level": 1,
+        "options": [
+          {
+            "data_id": "3037",
+            "label": "Laminate(F)"
+          },
+          {
+            "data_id": "3038",
+            "label": "Wood(W)"
+          }
+        ]
+      },
+      {
+        "label": "Accessories",
+        "level": 2,
+        "options": [
+          {
+            "data_id": "3040",
+            "label": "None"
+          },
+          {
+            "data_id": "3041",
+            "label": "Shelf"
+          },
+          {
+            "data_id": "3048",
+            "label": "Shelf+Tray"
+          }
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "model_no": "WKT-5102F",
+        "sku_id": "WKT-5102F",
+        "combo_labels": {
+          "Top": "Laminate(F)",
+          "Accessories": "None"
+        },
+        "data_ids": [
+          "3037",
+          "3040"
+        ],
+        "images": [
+          "https://www.tanko.com.tw/upload/catalog_package_b/ALL_catalog_package_26H14_vimH1vDOIh.png"
+        ]
+      },
+      {
+        "model_no": "WKT-5102F1",
+        "sku_id": "WKT-5102F1",
+        "combo_labels": {
+          "Top": "Laminate(F)",
+          "Accessories": "Shelf"
+        },
+        "data_ids": [
+          "3037",
+          "3041"
+        ],
+        "images": [
+          "https://www.tanko.com.tw/upload/catalog_package_b/ALL_catalog_package_26H14_3AAhmNFuce.png"
+        ]
+      },
+      {
+        "model_no": "WKT-5102F1+WPK-21",
+        "sku_id": "WKT-5102F1+WPK-21",
+        "combo_labels": {
+          "Top": "Laminate(F)",
+          "Accessories": "Shelf+Tray"
+        },
+        "data_ids": [
+          "3037",
+          "3048"
+        ],
+        "images": [
+          "https://www.tanko.com.tw/upload/catalog_package_b/ALL_catalog_package_26H14_XGdppXm9lx.png"
+        ]
+      },
+      {
+        "model_no": "WKT-5102W",
+        "sku_id": "WKT-5102W",
+        "combo_labels": {
+          "Top": "Wood(W)",
+          "Accessories": "None"
+        },
+        "data_ids": [
+          "3038",
+          "3040"
+        ],
+        "images": [
+          "https://www.tanko.com.tw/upload/catalog_package_b/ALL_catalog_package_26H14_a2JBkxKOQw.png"
+        ]
+      },
+      {
+        "model_no": "WKT-5102W1",
+        "sku_id": "WKT-5102W1",
+        "combo_labels": {
+          "Top": "Wood(W)",
+          "Accessories": "Shelf"
+        },
+        "data_ids": [
+          "3038",
+          "3041"
+        ],
+        "images": [
+          "https://www.tanko.com.tw/upload/catalog_package_b/ALL_catalog_package_26H14_urBTcWGETc.png"
+        ]
+      },
+      {
+        "model_no": "WKT-5102W1+WPK-21",
+        "sku_id": "WKT-5102W1+WPK-21",
+        "combo_labels": {
+          "Top": "Wood(W)",
+          "Accessories": "Shelf+Tray"
+        },
+        "data_ids": [
+          "3038",
+          "3048"
+        ],
+        "images": [
+          "https://www.tanko.com.tw/upload/catalog_package_b/ALL_catalog_package_26H14_f5p6GfgyF1.png"
+        ]
+      }
+    ],
+    "_kind": "mother_product",
+    "_basis": "mother-default",
+    "_distinct_title": "Drawers｜WKT(1500mm)",
+    "_subcollections": [
+      "All",
+      "Packing Station"
+    ]
+  },
+  {
+    "url": "https://www.tanko.com.tw/en/products-detail/wp-9_1/",
+    "slug": "wp-9_1",
+    "family": "Ultra Thin LED Light",
+    "breadcrumb": "",
+    "index_id": "431",
+    "static_specs": {
+      "dimensions": "",
+      "material": "",
+      "load_capacity": "",
+      "raw_snippet": "Workbench\nWorkbench Accessories\nUltra Thin LED Light\nWP-9003 / WP-9004\nWP-9003 can be extended with WP-9004.\nType：\nUltra thin LED light\nExtendable sub\nQuantity：\n1 pc\nRequest A Quote\nSHARE\nMotion activated sensor\nSensor working distance: 5 cm\nMagnet holder\nCan be adjusted at a maximum of 90° angle.\nWP-9003 can be extended with WP-9004.\nCan be used on corner.\nUltra thin LED light\nModel No.\nWP-9003\nWP-9004\nSize\nW604xD32xH7 mm\nSpecification\nLumen: 1100 lm(max)\nRated Power Consumption: 15 W\nMaximum when connected with WP-9004: 27.5W"
+    },
+    "spec_groups": [
+      {
+        "label": "Type",
+        "level": 1,
+        "options": [
+          {
+            "data_id": "2422",
+            "label": "Ultra thin LED light"
+          },
+          {
+            "data_id": "2423",
+            "label": "Extendable sub"
+          }
+        ]
+      },
+      {
+        "label": "Quantity",
+        "level": 2,
+        "options": [
+          {
+            "data_id": "2424",
+            "label": "1 pc"
+          }
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "model_no": "WP-9003",
+        "sku_id": "WP-9003",
+        "combo_labels": {
+          "Type": "Ultra thin LED light",
+          "Quantity": "1 pc"
+        },
+        "data_ids": [
+          "2422",
+          "2424"
+        ],
+        "images": [
+          "https://www.tanko.com.tw/upload/catalog_package_b/ALL_catalog_package_24C18_7qFoRQ0A6b.jpg",
+          "https://www.tanko.com.tw/upload/catalog_package_b/ALL_catalog_package_24C18_h4dvRuGFgi.jpg"
+        ]
+      },
+      {
+        "model_no": "WP-9004",
+        "sku_id": "WP-9004",
+        "combo_labels": {
+          "Type": "Extendable sub",
+          "Quantity": "1 pc"
+        },
+        "data_ids": [
+          "2423",
+          "2424"
+        ],
+        "images": [
+          "https://www.tanko.com.tw/upload/catalog_package_b/ALL_catalog_package_24C18_iSPnzM4RoL.jpg"
+        ]
+      }
+    ],
+    "_kind": "mother_product",
+    "_basis": "subcollection:Workbench Accessories",
+    "_distinct_title": "WP-9003 / WP-9004",
+    "_subcollections": [
+      "All",
+      "Workbench Accessories"
+    ]
+  }
+]
