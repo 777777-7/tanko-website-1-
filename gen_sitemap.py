@@ -7,7 +7,7 @@ import os, sys, io, datetime, re
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
-DIST = os.path.join(ROOT, "dist")
+DIST = os.path.join(ROOT, "docs")   # GitHub Pages serves from /docs
 DOMAIN = "https://primaxs.com.my"
 TODAY = datetime.date.today().isoformat()
 

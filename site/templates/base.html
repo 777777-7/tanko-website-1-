@@ -5,6 +5,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{{ page_title }}</title>
 <meta name="description" content="{{ meta_description }}">
+{# Google Search Console verification — replace PLACEHOLDER_REPLACE_WITH_GSC_TOKEN
+   with the token GSC gives you under Add property -> HTML tag. Keep the meta once
+   verified; GSC re-checks periodically. Adding a second method (DNS TXT) later is
+   fine, both can coexist. #}
+<meta name="google-site-verification" content="PLACEHOLDER_REPLACE_WITH_GSC_TOKEN">
 {% if canonical %}<link rel="canonical" href="{{ canonical }}">{% endif %}
 <meta property="og:site_name" content="Primaxs Marketing (M) Sdn Bhd">
 <meta property="og:title" content="{{ page_title }}">
@@ -16,6 +21,16 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800;900&family=IBM+Plex+Sans:wght@400;500;600&family=JetBrains+Mono:wght@500;600&family=Saira+Condensed:wght@600;700;800&family=Public+Sans:wght@400;500;600;700&family=Libre+Bodoni:wght@400;500;600;700&display=swap">
 <link rel="stylesheet" href="{{ base_url }}assets/css/site.css">
 {% if json_ld %}<script type="application/ld+json">{{ json_ld|safe }}</script>{% endif %}
+{# Google Analytics 4 — replace G-XXXXXXXXXX with the Measurement ID from
+   GA4 -> Admin -> Data Streams -> Web stream. Loaded async so it doesn't
+   block LCP. Removed automatically if the placeholder isn't set. #}
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-XXXXXXXXXX', { anonymize_ip: true });
+</script>
 </head>
 <body class="{% block body_class %}{% endblock %}">
 <header class="site-header">

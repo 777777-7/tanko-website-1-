@@ -23,7 +23,7 @@ from content.guides import GUIDES
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.abspath(os.path.join(HERE, ".."))
-DIST = os.path.join(ROOT, "dist")
+DIST = os.path.join(ROOT, "docs")   # GitHub Pages serves from /docs
 TPL_DIR = os.path.join(HERE, "templates")
 STATIC = os.path.join(HERE, "static")
 ASSETS_SRC = os.path.join(ROOT, "assets")
