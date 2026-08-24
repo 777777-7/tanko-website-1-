@@ -12,10 +12,12 @@
   var visibleHits = []; // current DOM elements, for keyboard nav
   var focusIndex = -1;
 
+  var BASE = (window.__BASE__ || "/").replace(/\/?$/, "/");
+
   function loadIndex() {
     if (index || loading) return;
     loading = true;
-    fetch("/search_index.json")
+    fetch(BASE + "search_index.json")
       .then(function (r) { return r.json(); })
       .then(function (data) { index = data; loading = false; if (input.value) render(); })
       .catch(function () { loading = false; });
@@ -123,9 +125,9 @@
       var it = r.it;
       html +=
         '<li>' +
-          '<a class="ns-card" href="/' + it.url + '" role="option">' +
+          '<a class="ns-card" href="' + BASE + it.url + '" role="option">' +
             '<div class="ns-card-img">' +
-              (it.img ? '<img src="/' + it.img + '" alt="" loading="lazy">' : '') +
+              (it.img ? '<img src="' + BASE + it.img + '" alt="" loading="lazy">' : '') +
             '</div>' +
             '<div class="ns-card-body">' +
               '<div class="ns-card-sku">' + highlight(it.sku, q) + '</div>' +

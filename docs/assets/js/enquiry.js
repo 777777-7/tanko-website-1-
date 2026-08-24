@@ -40,8 +40,9 @@
     var html = '<table class="enq-table"><thead><tr>' +
       '<th class="enq-col-img"></th><th>Item</th><th>SKU</th>' +
       '<th class="enq-col-qty">Qty</th><th class="enq-col-rm"></th></tr></thead><tbody>';
+    var BASE = (window.__BASE__ || "/").replace(/\/?$/, "/");
     items.forEach(function (it) {
-      var img = it.image ? '<img src="/' + it.image.replace(/^\//, "") + '" alt="' + escapeHtml(it.sku) + '">' : "";
+      var img = it.image ? '<img src="' + BASE + it.image.replace(/^\//, "") + '" alt="' + escapeHtml(it.sku) + '">' : "";
       html += '<tr>' +
         '<td class="enq-col-img"><div class="enq-item-img">' + img + '</div></td>' +
         '<td>' + escapeHtml(it.name) + '</td>' +

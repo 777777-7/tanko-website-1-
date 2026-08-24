@@ -28,7 +28,10 @@ TPL_DIR = os.path.join(HERE, "templates")
 STATIC = os.path.join(HERE, "static")
 ASSETS_SRC = os.path.join(ROOT, "assets")
 
-BASE_URL = "/"   # deploy at domain root; for GH Pages sub-path change here
+# Deploy path. Root-hosted (own domain) = "/". GitHub Pages project sites
+# live under /<repo-name>/, so override with BASE_URL env var when needed:
+#   BASE_URL=/tanko-website-1-/ python site/build.py
+BASE_URL = os.environ.get("BASE_URL", "/tanko-website-1-/")
 
 YEAR = datetime.utcnow().year
 

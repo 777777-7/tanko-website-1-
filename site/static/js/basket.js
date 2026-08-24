@@ -64,8 +64,9 @@
     items.forEach(function (it) {
       var li = document.createElement("li");
       li.className = "basket-item";
-      var img = it.image ? '<img src="/' + it.image.replace(/^\//, "") + '" alt="' + escapeHtml(it.sku) + '">' : "";
-      var link = it.url ? ('/' + it.url.replace(/^\//, "")) : null;
+      var BASE = (window.__BASE__ || "/").replace(/\/?$/, "/");
+      var img = it.image ? '<img src="' + BASE + it.image.replace(/^\//, "") + '" alt="' + escapeHtml(it.sku) + '">' : "";
+      var link = it.url ? (BASE + it.url.replace(/^\//, "")) : null;
       li.innerHTML =
         '<div class="basket-item-img">' + img + '</div>' +
         '<div class="basket-item-body">' +
