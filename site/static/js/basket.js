@@ -4,7 +4,21 @@
   var KEY = "primaxs.basket.v1";
 
   function load() {
-    try { return JSON.parse(localStorage.getItem(KEY) || "[]"); } catch (e) { return []; }
+    var items;
+    try { items = JSON.parse(localStorage.getItem(KEY) || "[]"); } catch (e) { return []; }
+    // One-time self-heal for baskets saved BEFORE the PNG->JPG image
+    // compression: rewrite any .png reference so the thumbnail resolves.
+    var dirty = false;
+    (items || []).forEach(function (it) {
+      if (it && typeof it.image === "string" && /\.png($|\?)/i.test(it.image)) {
+        it.image = it.image.replace(/\.png/i, ".jpg");
+        dirty = true;
+      }
+    });
+    if (dirty) {
+      try { localStorage.setItem(KEY, JSON.stringify(items)); } catch (e) {}
+    }
+    return items || [];
   }
   function save(items) { localStorage.setItem(KEY, JSON.stringify(items)); render(); }
 
@@ -70,7 +84,17 @@
       function encPath(p) {
         return String(p || "").replace(/^\//, "").split("/").map(encodeURIComponent).join("/");
       }
-      var img = it.image ? '<img src="' + BASE + encPath(it.image) + '" alt="' + escapeHtml(it.sku) + '">' : "";
+      // Fallback: baskets added BEFORE the PNG->JPG image compression still
+      // reference .png. If it fails to load, retry with .jpg (or .jpeg);
+      // if that also fails, hide the img so we don't show a broken icon.
+      var imgSrc = it.image ? BASE + encPath(it.image) : "";
+      var img = imgSrc
+        ? '<img src="' + imgSrc + '" alt="' + escapeHtml(it.sku) + '" ' +
+          'onerror="var s=this.getAttribute(\'src\');' +
+          'if(/\\.png($|\\?)/i.test(s)){this.src=s.replace(/\\.png/i,\'.jpg\');return;}' +
+          'if(/\\.jpeg($|\\?)/i.test(s)){this.src=s.replace(/\\.jpeg/i,\'.jpg\');return;}' +
+          'this.style.display=\'none\';">'
+        : "";
       var link = it.url ? (BASE + encPath(it.url)) : null;
       li.innerHTML =
         '<div class="basket-item-img">' + img + '</div>' +

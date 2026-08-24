@@ -45,7 +45,14 @@
       return String(p || "").replace(/^\//, "").split("/").map(encodeURIComponent).join("/");
     }
     items.forEach(function (it) {
-      var img = it.image ? '<img src="' + BASE + encPath(it.image) + '" alt="' + escapeHtml(it.sku) + '">' : "";
+      var imgSrc = it.image ? BASE + encPath(it.image) : "";
+      var img = imgSrc
+        ? '<img src="' + imgSrc + '" alt="' + escapeHtml(it.sku) + '" ' +
+          'onerror="var s=this.getAttribute(\'src\');' +
+          'if(/\\.png($|\\?)/i.test(s)){this.src=s.replace(/\\.png/i,\'.jpg\');return;}' +
+          'if(/\\.jpeg($|\\?)/i.test(s)){this.src=s.replace(/\\.jpeg/i,\'.jpg\');return;}' +
+          'this.style.display=\'none\';">'
+        : "";
       html += '<tr>' +
         '<td class="enq-col-img"><div class="enq-item-img">' + img + '</div></td>' +
         '<td>' + escapeHtml(it.name) + '</td>' +
