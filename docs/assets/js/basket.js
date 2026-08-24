@@ -65,8 +65,13 @@
       var li = document.createElement("li");
       li.className = "basket-item";
       var BASE = (window.__BASE__ || "/").replace(/\/?$/, "/");
-      var img = it.image ? '<img src="' + BASE + it.image.replace(/^\//, "") + '" alt="' + escapeHtml(it.sku) + '">' : "";
-      var link = it.url ? (BASE + it.url.replace(/^\//, "")) : null;
+      // encode each path segment so spaces/parens in image filenames serve
+      // correctly on strict hosts (WE-58W8 (White).jpg -> WE-58W8%20(White).jpg)
+      function encPath(p) {
+        return String(p || "").replace(/^\//, "").split("/").map(encodeURIComponent).join("/");
+      }
+      var img = it.image ? '<img src="' + BASE + encPath(it.image) + '" alt="' + escapeHtml(it.sku) + '">' : "";
+      var link = it.url ? (BASE + encPath(it.url)) : null;
       li.innerHTML =
         '<div class="basket-item-img">' + img + '</div>' +
         '<div class="basket-item-body">' +

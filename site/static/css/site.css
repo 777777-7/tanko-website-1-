@@ -2200,3 +2200,52 @@ body.home-v4 .nav-list > li:hover > .nav-toggle {
 @media (max-width: 640px) {
   .spec-blueprint { padding: 12px !important; }
 }
+
+/* ---------- Enquiry submission thank-you toast ---------- */
+.enq-toast {
+  position: fixed !important;
+  inset: 0 !important;
+  z-index: 100 !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity .18s ease, visibility 0s linear .18s;
+}
+.enq-toast.is-open {
+  opacity: 1 !important;
+  visibility: visible !important;
+  transition: opacity .18s ease, visibility 0s;
+}
+.enq-toast-scrim {
+  position: absolute; inset: 0;
+  background: rgba(15, 20, 30, .55);
+}
+.enq-toast-card {
+  position: relative;
+  z-index: 1;
+  max-width: 460px;
+  width: calc(100% - 32px);
+  padding: 36px 32px 28px;
+  border-radius: 8px;
+  text-align: center;
+  transform: translateY(8px);
+  transition: transform .2s ease;
+}
+.enq-toast.is-open .enq-toast-card { transform: translateY(0); }
+.enq-toast-check svg {
+  width: 64px; height: 64px;
+  margin: 0 auto 16px;
+  display: block;
+}
+.enq-toast h3 {
+  font-size: 22px;
+  line-height: 1.35;
+  margin: 0 0 20px;
+}
+.enq-toast .btn { min-width: 120px; }
+@media (max-width: 480px) {
+  .enq-toast-card { padding: 28px 22px 22px; }
+  .enq-toast h3 { font-size: 18px; }
+}
