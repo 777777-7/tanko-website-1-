@@ -6,12 +6,20 @@
   function load() {
     var items;
     try { items = JSON.parse(localStorage.getItem(KEY) || "[]"); } catch (e) { return []; }
-    // One-time self-heal for baskets saved BEFORE the PNG->JPG image
-    // compression: rewrite any .png reference so the thumbnail resolves.
+    // Self-heal: (1) rewrite legacy .png references to .jpg;
+    // (2) strip a leading __BASE__ prefix that was accidentally stored by
+    //     the family-page picker (stageImg.src is absolute, caused double
+    //     base-url like /tanko-website-1-/tanko-website-1-/asset3/…).
     var dirty = false;
+    var basePrefix = (window.__BASE__ || "/").replace(/\/?$/, "/");
     (items || []).forEach(function (it) {
-      if (it && typeof it.image === "string" && /\.png($|\?)/i.test(it.image)) {
+      if (!it || typeof it.image !== "string") return;
+      if (/\.png($|\?)/i.test(it.image)) {
         it.image = it.image.replace(/\.png/i, ".jpg");
+        dirty = true;
+      }
+      if (basePrefix !== "/" && it.image.indexOf(basePrefix) === 0) {
+        it.image = it.image.slice(basePrefix.length);
         dirty = true;
       }
     });
@@ -146,7 +154,8 @@
     var flyEl = document.createElement("div");
     flyEl.className = "basket-fly";
     if (imageUrl) {
-      flyEl.style.backgroundImage = 'url("/' + imageUrl.replace(/^\//, "") + '")';
+      var flyBase = (window.__BASE__ || "/").replace(/\/?$/, "/");
+      flyEl.style.backgroundImage = 'url("' + flyBase + imageUrl.replace(/^\//, "") + '")';
     }
     document.body.appendChild(flyEl);
     var startX = rectFrom.left + rectFrom.width / 2 - 30;
@@ -186,7 +195,16 @@
         item.sku = modelVal.textContent.trim() || item.sku;
       }
       if (stageImg && addBtn.id === "add-to-basket") {
-        item.image = stageImg.getAttribute("src") || item.image;
+        // stageImg.src is an absolute path (base + relative), e.g.
+        // /tanko-website-1-/asset3/EA-10051.jpg. Strip the base prefix so
+        // we store a relative path — otherwise render() doubles the base.
+        var rawSrc = stageImg.getAttribute("src") || "";
+        var flyBase = (window.__BASE__ || "/").replace(/\/?$/, "/");
+        if (rawSrc.indexOf(flyBase) === 0) {
+          item.image = rawSrc.slice(flyBase.length) || item.image;
+        } else {
+          item.image = rawSrc || item.image;
+        }
       }
       fly(addBtn, item.image);
       add(item);
