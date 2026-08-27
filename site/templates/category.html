@@ -54,4 +54,41 @@
     {% endif %}
   </div>
 </section>
+
+{% if related_guides %}
+<section class="section" style="padding-top:0;">
+  <div class="container">
+    <h2>Related guides</h2>
+    <div class="guide-grid">
+      {% for g in related_guides %}
+      <a class="guide-card" href="{{ base_url }}guides/{{ g.slug }}/">
+        <strong>{{ g.title }}</strong>
+        <span>{{ g.excerpt }}</span>
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
+
+{% if faqs %}
+<section class="section" style="padding-top:0;">
+  <div class="container">
+    <h2>Frequently asked questions — {{ category.name }}</h2>
+    <div class="faq">
+      {% for f in faqs %}
+      <details><summary>{{ f.q }}</summary><p>{{ f.a }}</p></details>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
+
+<section class="section v4-section-paper2" style="padding-top:0;">
+  <div class="container">
+    <div class="callout">
+      <p><strong>Sourcing {{ category.name }} in Malaysia?</strong> Primaxs Marketing (M) Sdn Bhd is the exclusive Malaysia distributor for Tanko. Nationwide delivery from our Selangor warehouse, Ringgit pricing and local warranty. <a href="{{ base_url }}enquiry/">Request a quote</a> or <a href="{{ base_url }}contact/">talk to our team</a> — we reply within one business day.</p>
+    </div>
+  </div>
+</section>
 {% endblock %}

@@ -73,8 +73,8 @@
       "items_included": "RA-6091｜\nStorage cabinet\nx 1\nRB-6098｜\nTool cabinet\nx 1\nRPH-61｜",
       "raw": "Made in Taiwan\nDIY product\nPower plugs not included.\nModel No.\nRY-01A\nDimensions ： W1240xD540xH2020mm\nMaterial\n：\nSteel\nDesktop\n： Rubber wood / 304 Stainless steel\nItems included\n：\nRA-6091｜\nStorage cabinet\nx 1\nRB-6098｜\nTool cabinet\nx 1\nRPH-61｜\nWall cabinet\nx 2\nRPQ-6063A｜\nPanel with socket\nx 2\nRPA-1｜\nPole\nx 2\n(4 pcs)\nModel No.\nRY-02A\nDimensions ：\nW2140xD540xH2020mm\nMaterial\n：\nSteel\nDesktop\n：\nRubber wood / 304 Stainless steel\nItems included\n：\nRA-9201｜\nStorage cabinet\nx 1\nRA-6091｜\nStorage cabinet\nx 1\nRB-6098｜\nTool cabinet\nx 1\nRPH-61｜\nWall cabinet\nx 2\nRPQ-6063A\n｜\nPanel with socket\nx 2\nRPA-1｜\nPole\nx 2\n(4 pcs)\nModel No.\nRY-03A\nDimensions\n： W2760xD540xH2020mm\nMaterial\n：\nSteel\nDesktop\n：\nRubber wood / 304 Stainless steel\nItems included\n：\nRA-9091｜\nstorage cabinet\nx 1\nRA-6091｜\nstorage cabinet\nx 1\nRB-6098｜\nTool cabinet\nx 1\nRC-6094｜\nTool cabinet\nx 1\nRPH-91｜\nWall cabinet\nx 1\nRPH-61｜\nWall cabinet\nx 3\nRPQ-9063A｜\nPanel with socket\nx 1\nRPQ-6063A｜\nPanel with socket\nx 3\nRPA-1｜\nPole\nx 4\n(8 pcs)\nModel No.\nRY-04A\n(\nClothes locker\n)\nDimensions\n： W3660xD540xH2020mm\nMaterial\n：\nSteel\nDesktop\n：\nRubber wood / 304 Stainless steel\nItems included\n：\nRA-9091｜\nstorage cabinet\nx 1\nRA-6091｜\nstorage cabinet\nx 1\nRC-6094｜",
       "images": [
-        "asset_content/ry/spec1.png",
-        "asset_content/ry/spec2.png",
+        "asset_content/ry/spec1.jpg",
+        "asset_content/ry/spec2.jpg",
         "asset_content/ry/spec3.jpg",
         "asset_content/ry/spec4.jpg",
         "asset_content/ry/spec5.jpg"
@@ -87,7 +87,7 @@
         "material": "Steel",
         "desktop": "Rubber wood / 304 Stainless steel",
         "items_included": [],
-        "image": "asset_content/ry/spec1.png"
+        "image": "asset_content/ry/spec1.jpg"
       },
       {
         "model_no": "RY-02A",
@@ -101,7 +101,7 @@
             "qty": "2"
           }
         ],
-        "image": "asset_content/ry/spec2.png"
+        "image": "asset_content/ry/spec2.jpg"
       },
       {
         "model_no": "RY-03A",
@@ -189,8 +189,8 @@
       "items_included": "Shelf x 2\nModular Rack【Linkable】\nModel No.\nRFC-132\nDimensions ： W1300xD500xH2020mm\nMaterial： Steel\nShelf： 200kg load capacity",
       "raw": "Made in Taiwan\nDIY product\nModular Rack【Independent】\nModel No.\nRFC-131\nDimensions ： W1370xD500xH2020mm\nMaterial： Steel\nShelf： 200kg load capacity\nItems included： Shelf x 2\nModular Rack【Linkable】\nModel No.\nRFC-132\nDimensions ： W1300xD500xH2020mm\nMaterial： Steel\nShelf： 200kg load capacity\nItems included： Shelf x 2\n▸\nLinkable type\ncomes with linking pole\nto be fixed to Independent type.",
       "images": [
-        "asset_content/rfc-13/spec1.png",
-        "asset_content/rfc-13/spec2.png"
+        "asset_content/rfc-13/spec1.jpg",
+        "asset_content/rfc-13/spec2.jpg"
       ]
     },
     "spec_blocks": [
@@ -200,7 +200,7 @@
         "material": "Steel",
         "desktop": "",
         "items_included": [],
-        "image": "asset_content/rfc-13/spec1.png"
+        "image": "asset_content/rfc-13/spec1.jpg"
       },
       {
         "model_no": "RFC-132",
@@ -208,7 +208,7 @@
         "material": "Steel",
         "desktop": "",
         "items_included": [],
-        "image": "asset_content/rfc-13/spec2.png"
+        "image": "asset_content/rfc-13/spec2.jpg"
       }
     ]
   },
@@ -261,10 +261,10 @@
       "items_included": "Drawer x 60\n60 pcs Drawer Rack【Linkable】\nModel No.\nRFA-092\nDimensions ： W900xD500xH2020mm\nMaterial： Rcak▸Steel\nItems included： Drawer x 60",
       "raw": "Made in Taiwan\nDIY product\n60 pcs Drawer Rack【Independent】\nModel No.\nRFA-091\nDimensions ： W970xD500xH2020mm\nMaterial： Rack▸Steel\nItems included： Drawer x 60\n60 pcs Drawer Rack【Linkable】\nModel No.\nRFA-092\nDimensions ： W900xD500xH2020mm\nMaterial： Rcak▸Steel\nItems included： Drawer x 60\n▸\nLinkable type\ncomes with linking pole\nto be fixed to Independent type.\n30 pcs Drawer Rack【Independent】\nModel No.\nRFB-091\nDimensions ： W970xD500xH2020mm\nMaterial： Rack▸Steel\nShelf： 100kg load capacity\nItems included： Drawer x 30, Shelf x 1\n30 pcs Drawer Rack【Linkable】\nModel No.\nRFB-092\nDimensions ： W900xD500xH2020mm\nMaterial： Rack▸Steel\nShelf： 100kg load capacity\nItems included： Drawer x 30, Shelf x 1\n▸\nLinkable type\ncomes with linking pole\nto be fixed to Independent type.\nModel No.\nTB-1016\nOuter Dimensions： W160xD450xH117mm\nInner Dimensions ： W120xD385xH98mm\nMaterial： PP, PS\nItems included： Colored label, Divider\nDrawer： 10kg load capacity",
       "images": [
-        "asset_content/rfa_rfb/spec1.png",
-        "asset_content/rfa_rfb/spec2.png",
-        "asset_content/rfa_rfb/spec3.png",
-        "asset_content/rfa_rfb/spec4.png",
+        "asset_content/rfa_rfb/spec1.jpg",
+        "asset_content/rfa_rfb/spec2.jpg",
+        "asset_content/rfa_rfb/spec3.jpg",
+        "asset_content/rfa_rfb/spec4.jpg",
         "asset_content/rfa_rfb/spec5.jpg"
       ]
     },
@@ -275,7 +275,7 @@
         "material": "Rack▸Steel",
         "desktop": "",
         "items_included": [],
-        "image": "asset_content/rfa_rfb/spec1.png"
+        "image": "asset_content/rfa_rfb/spec1.jpg"
       },
       {
         "model_no": "RFA-092",
@@ -283,7 +283,7 @@
         "material": "Rcak▸Steel",
         "desktop": "",
         "items_included": [],
-        "image": "asset_content/rfa_rfb/spec2.png"
+        "image": "asset_content/rfa_rfb/spec2.jpg"
       },
       {
         "model_no": "RFB-091",
@@ -291,7 +291,7 @@
         "material": "Rack▸Steel",
         "desktop": "",
         "items_included": [],
-        "image": "asset_content/rfa_rfb/spec3.png"
+        "image": "asset_content/rfa_rfb/spec3.jpg"
       },
       {
         "model_no": "RFB-092",
@@ -299,7 +299,7 @@
         "material": "Rack▸Steel",
         "desktop": "",
         "items_included": [],
-        "image": "asset_content/rfa_rfb/spec4.png"
+        "image": "asset_content/rfa_rfb/spec4.jpg"
       },
       {
         "model_no": "TB-1016",
@@ -355,7 +355,7 @@
       "items_included": "Shelf x 4\nPull-out shelf\nModel No.\nRPB-92\nDimensions ： W733xD444mm\nMaterial\n： Steel",
       "raw": "Made in Taiwan\nDIY product\nModel No.\nRA-9201\nDimensions ： W900xD510xH2020mm\nMaterial\n： Steel\nShelf：100kg load capacity\nItems included： Shelf x 4\nPull-out shelf\nModel No.\nRPB-92\nDimensions ： W733xD444mm\nMaterial\n： Steel\nShelf： 45kg load capacity\nDrawer set\nModel No.\nRPB-91\nDimensions ： W865xD425xH312mm\nMaterial\n： Steel\nDrawer： 45kg load capacity",
       "images": [
-        "asset_content/ra-9201/spec1.png",
+        "asset_content/ra-9201/spec1.jpg",
         "asset_content/ra-9201/spec2.jpg"
       ]
     },
@@ -366,7 +366,7 @@
         "material": "Steel",
         "desktop": "",
         "items_included": [],
-        "image": "asset_content/ra-9201/spec1.png"
+        "image": "asset_content/ra-9201/spec1.jpg"
       },
       {
         "model_no": "RPB-92",
@@ -422,7 +422,7 @@
       "items_included": "Shelf x 4",
       "raw": "Made in Taiwan\nDIY product\nModel No.\nRA-6201\nDimensions ： W620xD510xH2020mm\nMaterial\n： Steel\nShelf： 100kg load capacity\nItems included： Shelf x 4",
       "images": [
-        "asset_content/ra-6201/spec1.png"
+        "asset_content/ra-6201/spec1.jpg"
       ]
     },
     "spec_blocks": [
@@ -432,7 +432,7 @@
         "material": "Steel",
         "desktop": "",
         "items_included": [],
-        "image": "asset_content/ra-6201/spec1.png"
+        "image": "asset_content/ra-6201/spec1.jpg"
       }
     ]
   },
@@ -480,7 +480,7 @@
       "items_included": "Closet rod x 1\nShelf x 2",
       "raw": "Made in Taiwan\nDIY product\nModel No.\nRE-6201\nDimensions ： W620xD510xH2020mm\nMaterial\n： Steel\nShelf： 100kg load capacity\nItems included： Closet rod x 1\nShelf x 2",
       "images": [
-        "asset_content/re-6201/spec1.png"
+        "asset_content/re-6201/spec1.jpg"
       ]
     },
     "spec_blocks": [
@@ -490,7 +490,7 @@
         "material": "Steel",
         "desktop": "",
         "items_included": [],
-        "image": "asset_content/re-6201/spec1.png"
+        "image": "asset_content/re-6201/spec1.jpg"
       }
     ]
   },
@@ -553,9 +553,9 @@
       "items_included": "Shelf x 2\nModel No.\nRA-9091\n｜\nStorage cabinet\nRPQ-9103A\n｜",
       "raw": "Made in Taiwan\nDIY product\nPower plugs not included.\nModel No.\nRA-9091\n｜\nStorage cabinet\nDimensions ： W900xD510xH970mm\nMaterial\n： Steel\nDesktop\n： Rubber wood / 304 Stainless steel\nShelf： 100kg load capacity\nItems included： Shelf x 2\nModel No.\nRA-9091\n｜\nStorage cabinet\nRPQ-9103A\n｜\nPanel set\nRPA-1\n｜\nPole x 1 (2 pcs)\nDimensions ： W900xD540xH2020mm\nMaterial\n： Steel\nDesktop\n： Rubber wood / 304 Stainless steel\nShelf： 100kg load capacity\nItems included： Shelf x 2\nUniversal socket 110V~220V x 2\nModel No.\nRA-9091\n｜\nStorage cabinet\nRPQ-9063A\n｜\nPanel set\nRPH-91\n｜\nWall cabinet\nRPA-1\n｜\nPole x 1 (2 pcs)\nDimensions ： W900xD540xH2020mm\nMaterial\n： Steel\nDesktop\n： Rubber wood / 304 Stainless steel\nShelf： 100kg load capacity\nItems included： Shelf x 2\nUniversal socket 110V~220V x 2\nPull-out shelf\n：\nModel No.\nRPB-92\nDimensions ： W733xD444mm\nMaterial\n： Steel\nShelf： 45kg load capacity\nDrawer set\n：\nModel No.\nRPB-91\nDimensions ： W865xD425xH312mm\nMaterial\n： Steel\nDrawer： 45kg load capacity",
       "images": [
-        "asset_content/ra-9091/spec1.png",
-        "asset_content/ra-9091/spec2.png",
-        "asset_content/ra-9091/spec3.png",
+        "asset_content/ra-9091/spec1.jpg",
+        "asset_content/ra-9091/spec2.jpg",
+        "asset_content/ra-9091/spec3.jpg",
         "asset_content/ra-9091/spec4.jpg"
       ]
     },
@@ -566,7 +566,7 @@
         "material": "Steel",
         "desktop": "Rubber wood / 304 Stainless steel",
         "items_included": [],
-        "image": "asset_content/ra-9091/spec1.png"
+        "image": "asset_content/ra-9091/spec1.jpg"
       },
       {
         "model_no": "RA-9091",
@@ -574,7 +574,7 @@
         "material": "Steel",
         "desktop": "Rubber wood / 304 Stainless steel",
         "items_included": [],
-        "image": "asset_content/ra-9091/spec2.png"
+        "image": "asset_content/ra-9091/spec2.jpg"
       },
       {
         "model_no": "RA-9091",
@@ -582,7 +582,7 @@
         "material": "Steel",
         "desktop": "Rubber wood / 304 Stainless steel",
         "items_included": [],
-        "image": "asset_content/ra-9091/spec3.png"
+        "image": "asset_content/ra-9091/spec3.jpg"
       },
       {
         "model_no": "RPB-92",
@@ -653,9 +653,9 @@
       "items_included": "Shelf x 2\nModel No.\nRA-6091\n｜Storage cabinet\nRPQ-6103A\n｜\nPanel set",
       "raw": "Made in Taiwan\nDIY product\nPower plugs not included.\nModel No.\nRA-6091\n｜Storage cabinet\nDimensions ： W620xD510xH970mm\nMaterial\n： Steel\nDesktop\n： Rubber wood / 304 Stainless steel\nShelf： 100kg load capacity\nItems included： Shelf x 2\nModel No.\nRA-6091\n｜Storage cabinet\nRPQ-6103A\n｜\nPanel set\nRPA-1\n｜\nPole x 1 (2 pcs)\nDimensions ： W620xD540xH2020mm\nMaterial\n： Steel\nDesktop\n： Rubber wood / 304 Stainless steel\nShelf： 100kg load capacity\nItems included： Shelf x 2\nUniversal socket 110V~220V x 2\nModel No.\nRA-6091\n｜Storage cabinet\nRPQ-6063A\n｜\nPanel set\nRPH-61\n｜Wall cabinet\nRPA-1\n｜\nPole x 1 (2 pcs)\nDimensions ： W620xD540xH2020mm\nMaterial\n： Steel\nDesktop\n： Rubber wood / 304 Stainless steel\nShelf： 100kg load capacity\nItems included： Shelf x 2\nUniversal socket 110V~220V x 2",
       "images": [
-        "asset_content/ra-6091/spec1.png",
-        "asset_content/ra-6091/spec2.png",
-        "asset_content/ra-6091/spec3.png"
+        "asset_content/ra-6091/spec1.jpg",
+        "asset_content/ra-6091/spec2.jpg",
+        "asset_content/ra-6091/spec3.jpg"
       ]
     },
     "spec_blocks": [
@@ -665,7 +665,7 @@
         "material": "Steel",
         "desktop": "Rubber wood / 304 Stainless steel",
         "items_included": [],
-        "image": "asset_content/ra-6091/spec1.png"
+        "image": "asset_content/ra-6091/spec1.jpg"
       },
       {
         "model_no": "RA-6091",
@@ -673,7 +673,7 @@
         "material": "Steel",
         "desktop": "Rubber wood / 304 Stainless steel",
         "items_included": [],
-        "image": "asset_content/ra-6091/spec2.png"
+        "image": "asset_content/ra-6091/spec2.jpg"
       },
       {
         "model_no": "RA-6091",
@@ -681,7 +681,7 @@
         "material": "Steel",
         "desktop": "Rubber wood / 304 Stainless steel",
         "items_included": [],
-        "image": "asset_content/ra-6091/spec3.png"
+        "image": "asset_content/ra-6091/spec3.jpg"
       }
     ]
   },
@@ -744,9 +744,9 @@
       "items_included": "",
       "raw": "Made in Taiwan\nDIY product\nModel No.\nRD-6091\n｜Sink cabinet\nDimensions ： W620xD510xH1220mm\nMaterial\n： Steel\nSink\n： 304 Stainless steel\n▸ Plumbing pipes not included.\nModel No.\nRD-6091\n｜Sink cabinet\nRPQ-6102\n｜Panel set\nRPA-1\n｜\nPole x 1 (2 pcs)\nDimensions ： W620xD540xH2020mm\nMaterial\n： Steel\nSink\n： 304 Stainless steel\n▸ Plumbing pipes not included.\nModel No.\nRD-6091\n｜Sink cabinet\nRPQ-6062\n｜Panel set\nRPH-61\n｜Wall cabinet\nRPA-1\n｜\nPole x 1 (2 pcs)\nDimensions ： W620xD540xH2020mm\nMaterial\n： Steel\nSink\n： 304 Stainless steel\n▸ Plumbing pipes not included.",
       "images": [
-        "asset_content/rd-6091/spec1.png",
-        "asset_content/rd-6091/spec2.png",
-        "asset_content/rd-6091/spec3.png"
+        "asset_content/rd-6091/spec1.jpg",
+        "asset_content/rd-6091/spec2.jpg",
+        "asset_content/rd-6091/spec3.jpg"
       ]
     },
     "spec_blocks": [
@@ -756,7 +756,7 @@
         "material": "Steel",
         "desktop": "",
         "items_included": [],
-        "image": "asset_content/rd-6091/spec1.png"
+        "image": "asset_content/rd-6091/spec1.jpg"
       },
       {
         "model_no": "RD-6091",
@@ -764,7 +764,7 @@
         "material": "Steel",
         "desktop": "",
         "items_included": [],
-        "image": "asset_content/rd-6091/spec2.png"
+        "image": "asset_content/rd-6091/spec2.jpg"
       },
       {
         "model_no": "RD-6091",
@@ -772,7 +772,7 @@
         "material": "Steel",
         "desktop": "",
         "items_included": [],
-        "image": "asset_content/rd-6091/spec3.png"
+        "image": "asset_content/rd-6091/spec3.jpg"
       }
     ]
   },
@@ -835,9 +835,9 @@
       "items_included": "Universal socket 110V~220V x 2\n▸ Stainless steel wastebin｜W490xD400xH503mm\nModel No.\nRG-6091\n｜Wastebin cabinet\nRPQ-6063A\n｜Panel set",
       "raw": "Made in Taiwan\nDIY product\nPower plugs not included.\nModel No.\nRG-6091\n｜Wastebin cabinet\nDimensions ： W620xD510xH970mm\nMaterial\n： Steel\nDesktop\n： Rubber wood / 304 Stainless steel\nWastebin\n： 304 Stainless steel\n▸ Stainless steel wastebin｜W490xD400xH503mm\nModel No.\nRG-6091\n｜Wastebin cabinet\nRPQ-6103A\n｜Panel set\nRPA-1\n｜\nPole x 1 (2 pcs)\nDimensions ： W620xD540xH2020mm\nMaterial\n： Steel\nDesktop\n： Rubber wood / 304 Stainless steel\nWastebin\n： 304 Stainless steel\nItems included：\nUniversal socket 110V~220V x 2\n▸ Stainless steel wastebin｜W490xD400xH503mm\nModel No.\nRG-6091\n｜Wastebin cabinet\nRPQ-6063A\n｜Panel set\nRPH-61\n｜Wall cabinet\nRPA-1\n｜\nPole x 1 (2 pcs)\nDimensions ： W620xD540xH2020mm\nMaterial\n： Steel\nDesktop\n： Rubber wood / 304 Stainless steel\nWastebin\n： 304 Stainless steel\nItems included：\nUniversal socket 110V~220V x 2\n▸ Stainless steel wastebin｜W490xD400xH503mm",
       "images": [
-        "asset_content/rg-6091/spec1.png",
-        "asset_content/rg-6091/spec2.png",
-        "asset_content/rg-6091/spec3.png"
+        "asset_content/rg-6091/spec1.jpg",
+        "asset_content/rg-6091/spec2.jpg",
+        "asset_content/rg-6091/spec3.jpg"
       ]
     },
     "spec_blocks": [
@@ -847,7 +847,7 @@
         "material": "Steel",
         "desktop": "Rubber wood / 304 Stainless steel",
         "items_included": [],
-        "image": "asset_content/rg-6091/spec1.png"
+        "image": "asset_content/rg-6091/spec1.jpg"
       },
       {
         "model_no": "RG-6091",
@@ -855,7 +855,7 @@
         "material": "Steel",
         "desktop": "Rubber wood / 304 Stainless steel",
         "items_included": [],
-        "image": "asset_content/rg-6091/spec2.png"
+        "image": "asset_content/rg-6091/spec2.jpg"
       },
       {
         "model_no": "RG-6091",
@@ -863,7 +863,7 @@
         "material": "Steel",
         "desktop": "Rubber wood / 304 Stainless steel",
         "items_included": [],
-        "image": "asset_content/rg-6091/spec3.png"
+        "image": "asset_content/rg-6091/spec3.jpg"
       }
     ]
   },
@@ -941,9 +941,9 @@
       "items_included": "Universal socket 110V~220V x 2\n▸ Drawer division boxes and dividers\nare optional accessories.\nModel No.\nRC-6094\n｜Tool cabinet\nRPQ-6063A",
       "raw": "Made in Taiwan\nDIY product\nPower plugs not included.\nModel No.\nRC-6094\n｜Tool cabinet\nDimensions ： W620xD510xH970mm\nMaterial\n： Steel\nDesktop\n： Rubber wood / 304 Stainless steel\nDrawer： 45kg load capacity\n▸ Drawer division boxes and dividers\nare optional accessories.\nModel No.\nRC-6094\n｜Tool cabinet\nRPQ-6103A\n｜Panel set\nRPA-1\n｜\nPole x 1 (2 pcs)\nDimensions ： W620xD540xH2020mm\nMaterial\n：\nSteel\nDesktop\n：\nRubber wood / 304 Stainless steel\nDrawer： 45kg load capacity\nItems included：\nUniversal socket 110V~220V x 2\n▸ Drawer division boxes and dividers\nare optional accessories.\nModel No.\nRC-6094\n｜Tool cabinet\nRPQ-6063A\n｜Panel set\nRPH-61\n｜Wall cabinet\nRPA-1\n｜\nPole x 1 (2 pcs)\nDimensions ： W620xD540xH2020mm\nMaterial\n：\nSteel\nDesktop\n：\nRubber wood / 304 Stainless steel\nDrawer： 45kg load capacity\nItems included：\nUniversal socket 110V~220V x 2\n▸ Drawer division boxes and dividers\nare optional accessories.",
       "images": [
-        "asset_content/rc-6094/spec1.png",
-        "asset_content/rc-6094/spec2.png",
-        "asset_content/rc-6094/spec3.png"
+        "asset_content/rc-6094/spec1.jpg",
+        "asset_content/rc-6094/spec2.jpg",
+        "asset_content/rc-6094/spec3.jpg"
       ]
     },
     "spec_blocks": [
@@ -953,7 +953,7 @@
         "material": "Steel",
         "desktop": "Rubber wood / 304 Stainless steel",
         "items_included": [],
-        "image": "asset_content/rc-6094/spec1.png"
+        "image": "asset_content/rc-6094/spec1.jpg"
       },
       {
         "model_no": "RC-6094",
@@ -961,7 +961,7 @@
         "material": "Steel",
         "desktop": "Rubber wood / 304 Stainless steel",
         "items_included": [],
-        "image": "asset_content/rc-6094/spec2.png"
+        "image": "asset_content/rc-6094/spec2.jpg"
       },
       {
         "model_no": "RC-6094",
@@ -969,7 +969,7 @@
         "material": "Steel",
         "desktop": "Rubber wood / 304 Stainless steel",
         "items_included": [],
-        "image": "asset_content/rc-6094/spec3.png"
+        "image": "asset_content/rc-6094/spec3.jpg"
       }
     ]
   },
@@ -1052,9 +1052,9 @@
       "items_included": "Universal socket 110V~220V x 2\n▸ Drawer division boxes and dividers\nare optional accessories.\nModel No.\nRB-6098\n｜Tool cabinet\nRPQ-6063A",
       "raw": "Made in Taiwan\nDIY product\nPower plugs not included.\nModel No.\nRB-6098\n｜Tool cabinet\nDimensions ： W620xD510xH970mm\nMaterial\n：\nSteel\nDesktop\n：\nRubber wood / 304 Stainless steel\nDrawer： 45kg load capacity\n▸ Drawer division boxes and dividers\nare optional accessories.\nModel No.\nRB-6098\n｜Tool cabinet\nRPQ-6103A\n｜Panel set\nRPA-1\n｜\nPole x 1 (2 pcs)\nDimensions ： W620xD540xH2020mm\nMaterial\n：\nSteel\nDesktop\n：\nRubber wood / 304 Stainless steel\nDrawer： 45kg load capacity\nItems included：\nUniversal socket 110V~220V x 2\n▸ Drawer division boxes and dividers\nare optional accessories.\nModel No.\nRB-6098\n｜Tool cabinet\nRPQ-6063A\n｜Panel set\nRPH-61\n｜Wall cabinet\nRPA-1\n｜\nPole x 1 (2 pcs)\nDimensions ： W620xD540xH2020mm\nMaterial\n： Steel\nDesktop\n： Rubber wood / 304 Stainless steel\nDrawer： 45kg load capacity\nItems included：\nUniversal socket 110V~220V x 2\n▸ Drawer division boxes and dividers\nare optional accessories.",
       "images": [
-        "asset_content/rb-6098/spec1.png",
-        "asset_content/rb-6098/spec2.png",
-        "asset_content/rb-6098/spec3.png"
+        "asset_content/rb-6098/spec1.jpg",
+        "asset_content/rb-6098/spec2.jpg",
+        "asset_content/rb-6098/spec3.jpg"
       ]
     },
     "spec_blocks": [
@@ -1064,7 +1064,7 @@
         "material": "Steel",
         "desktop": "Rubber wood / 304 Stainless steel",
         "items_included": [],
-        "image": "asset_content/rb-6098/spec1.png"
+        "image": "asset_content/rb-6098/spec1.jpg"
       },
       {
         "model_no": "RB-6098",
@@ -1072,7 +1072,7 @@
         "material": "Steel",
         "desktop": "Rubber wood / 304 Stainless steel",
         "items_included": [],
-        "image": "asset_content/rb-6098/spec2.png"
+        "image": "asset_content/rb-6098/spec2.jpg"
       },
       {
         "model_no": "RB-6098",
@@ -1080,7 +1080,7 @@
         "material": "Steel",
         "desktop": "Rubber wood / 304 Stainless steel",
         "items_included": [],
-        "image": "asset_content/rb-6098/spec3.png"
+        "image": "asset_content/rb-6098/spec3.jpg"
       }
     ]
   },
@@ -1150,8 +1150,8 @@
       "images": [
         "asset_content/sy/spec1.jpg",
         "asset_content/sy/spec2.jpg",
-        "asset_content/sy/spec3.png",
-        "asset_content/sy/spec4.png"
+        "asset_content/sy/spec3.jpg",
+        "asset_content/sy/spec4.jpg"
       ]
     },
     "spec_blocks": [
@@ -1225,7 +1225,7 @@
             "qty": "1"
           }
         ],
-        "image": "asset_content/sy/spec3.png"
+        "image": "asset_content/sy/spec3.jpg"
       },
       {
         "model_no": "SY-04A",
@@ -1233,7 +1233,7 @@
         "material": "Steel",
         "desktop": "Steel / 304 Stainless steel",
         "items_included": [],
-        "image": "asset_content/sy/spec4.png"
+        "image": "asset_content/sy/spec4.jpg"
       }
     ]
   },
@@ -1286,8 +1286,8 @@
       "items_included": "Shelf x 2\nModular Rack【Linkable】\nModel No.\nSCC-462\nDimensions ： W1300xD500xH1780mm\nMaterial： Steel\nShelf： 200kg load capacity",
       "raw": "Made in Taiwan\nDIY product\nModular Rack【Independent】\nModel No.\nSCC-461\nDimensions ： W1370xD500xH1780mm\nMaterial： Steel\nShelf： 200kg load capacity\nItems included： Shelf x 2\nModular Rack【Linkable】\nModel No.\nSCC-462\nDimensions ： W1300xD500xH1780mm\nMaterial： Steel\nShelf： 200kg load capacity\nItems included： Shelf x 2\n▸\nLinkable type\ncomes with linking pole\nto be fixed to Independent type.",
       "images": [
-        "asset_content/scc/spec1.png",
-        "asset_content/scc/spec2.png"
+        "asset_content/scc/spec1.jpg",
+        "asset_content/scc/spec2.jpg"
       ]
     },
     "spec_blocks": [
@@ -1297,7 +1297,7 @@
         "material": "Steel",
         "desktop": "",
         "items_included": [],
-        "image": "asset_content/scc/spec1.png"
+        "image": "asset_content/scc/spec1.jpg"
       },
       {
         "model_no": "SCC-462",
@@ -1305,7 +1305,7 @@
         "material": "Steel",
         "desktop": "",
         "items_included": [],
-        "image": "asset_content/scc/spec2.png"
+        "image": "asset_content/scc/spec2.jpg"
       }
     ]
   },
@@ -1358,10 +1358,10 @@
       "items_included": "Drawer x 60\n60 pcs Drawer Rack【Linkable】\nModel No.\nSCA-362\nDimensions ： W900xD500xH1780mm\nMaterial： Rcak▸Steel\nItems included： Drawer x 60",
       "raw": "Made in Taiwan\nDIY product\n60 pcs Drawer Rack【Independent】\nModel No.\nSCA-361\nDimensions ： W970xD500xH1780mm\nMaterial： Rack▸Steel\nItems included： Drawer x 60\n60 pcs Drawer Rack【Linkable】\nModel No.\nSCA-362\nDimensions ： W900xD500xH1780mm\nMaterial： Rcak▸Steel\nItems included： Drawer x 60\n▸\nLinkable type\ncomes with linking pole\nto be fixed to Independent type.\n30 pcs Drawer Rack【Independent】\nModel No.\nSCB-361\nDimensions ： W970xD500xH1780mm\nMaterial： Rack▸Steel\nShelf： 100kg load capacity\nItems included： Drawer x 30, Shelf x 1\n30 pcs Drawer Rack【Linkable】\nModel No.\nSCB-362\nDimensions ： W900xD500xH1780mm\nMaterial： Rack▸Steel\nShelf： 100kg load capacity\nItems included： Drawer x 30, Shelf x 1\n▸\nLinkable type\ncomes with linking pole\nto be fixed to Independent type.\nModel No.\nTB-1016\nOuter Dimensions： W160xD450xH117mm\nInner Dimensions ： W120xD385xH98mm\nMaterial： PP, PS\nItems included： Colored label, Divider\nDrawer： 10kg load capacity",
       "images": [
-        "asset_content/sca/spec1.png",
-        "asset_content/sca/spec2.png",
-        "asset_content/sca/spec3.png",
-        "asset_content/sca/spec4.png",
+        "asset_content/sca/spec1.jpg",
+        "asset_content/sca/spec2.jpg",
+        "asset_content/sca/spec3.jpg",
+        "asset_content/sca/spec4.jpg",
         "asset_content/sca/spec5.jpg"
       ]
     },
@@ -1372,7 +1372,7 @@
         "material": "Rack▸Steel",
         "desktop": "",
         "items_included": [],
-        "image": "asset_content/sca/spec1.png"
+        "image": "asset_content/sca/spec1.jpg"
       },
       {
         "model_no": "SCA-362",
@@ -1380,7 +1380,7 @@
         "material": "Rcak▸Steel",
         "desktop": "",
         "items_included": [],
-        "image": "asset_content/sca/spec2.png"
+        "image": "asset_content/sca/spec2.jpg"
       },
       {
         "model_no": "SCB-361",
@@ -1388,7 +1388,7 @@
         "material": "Rack▸Steel",
         "desktop": "",
         "items_included": [],
-        "image": "asset_content/sca/spec3.png"
+        "image": "asset_content/sca/spec3.jpg"
       },
       {
         "model_no": "SCB-362",
@@ -1396,7 +1396,7 @@
         "material": "Rack▸Steel",
         "desktop": "",
         "items_included": [],
-        "image": "asset_content/sca/spec4.png"
+        "image": "asset_content/sca/spec4.jpg"
       },
       {
         "model_no": "TB-1016",
@@ -1467,10 +1467,10 @@
       "items_included": "Shelf x 4\nModel No.\nSAQ-362\n｜With panel\n｜\nDrawer set\nDimensions ： W900xD515xH1780mm",
       "raw": "Made in Taiwan\nDIY product\nModel No.\nSAQ-361\n｜\nWith panel\nDimensions ： W900xD515xH1780mm\nMaterial：Steel\nModel No.\nSAA-361\n｜\nWith shelves\nDimensions ： W900xD515xH1780mm\nMaterial： Steel\nShelf： 200kg load capacity\nItems included： Shelf x 4\nModel No.\nSAQ-362\n｜With panel\n｜\nDrawer set\nDimensions ： W900xD515xH1780mm\nMaterial： Steel\nDrawer： 45kg load capacity\nModel No.\nSAA-362\n｜With shelves\n｜\nDrawer set\nDimensions ： W900xD515xH1780mm\nMaterial： Steel\nShelf ： 200kg load capacity\nDrawer： 45kg load capacity\nItems included： Shelf x 3\nDrawer set\nModel No.\nSPB-31\nDimensions ： W865xD425xH312mm\nMaterial： Steel\nDrawer： 45kg load capacity",
       "images": [
-        "asset_content/sa/spec1.png",
-        "asset_content/sa/spec2.png",
-        "asset_content/sa/spec3.png",
-        "asset_content/sa/spec4.png",
+        "asset_content/sa/spec1.jpg",
+        "asset_content/sa/spec2.jpg",
+        "asset_content/sa/spec3.jpg",
+        "asset_content/sa/spec4.jpg",
         "asset_content/sa/spec5.jpg"
       ]
     },
@@ -1492,7 +1492,7 @@
             "qty": ""
           }
         ],
-        "image": "asset_content/sa/spec1.png"
+        "image": "asset_content/sa/spec1.jpg"
       },
       {
         "model_no": "SPB-31",
@@ -1500,7 +1500,7 @@
         "material": "Steel",
         "desktop": "",
         "items_included": [],
-        "image": "asset_content/sa/spec2.png"
+        "image": "asset_content/sa/spec2.jpg"
       }
     ]
   },
@@ -1563,10 +1563,10 @@
       "items_included": "Shelf x 4\nModel No.\nSAQ-362K\n｜With panel\n｜\nDrawer set\nDimensions ： W900xD515xH1780mm",
       "raw": "Made in Taiwan\nDIY product\nModel No.\nSAQ-361K\n｜\nWith panel\nDimensions ： W900xD515xH1780mm\nModel No.\nSAA-361K\n｜\nWith shelves\nDimensions ： W900xD515xH1780mm\nMaterial： Steel\nShelf： 200kg load capacity\nItems included： Shelf x 4\nModel No.\nSAQ-362K\n｜With panel\n｜\nDrawer set\nDimensions ： W900xD515xH1780mm\nMaterial： Steel\nDrawer： 45kg load capacity\nModel No.\nSAA-362K\n｜With shelves\n｜\nDrawer set\nDimensions ： W900xD515xH1780mm\nMaterial： Steel\nShelf ： 200kg load capacity\nDrawer： 45kg load capacity\nItems included： Shelf x 3\nDrawer set\nModel No.\nSPB-31\nDimensions ： W865xD425xH312mm\nMaterial： Steel\nDrawer： 45kg load capacity",
       "images": [
-        "asset_content/sa_k/spec1.png",
-        "asset_content/sa_k/spec2.png",
-        "asset_content/sa_k/spec3.png",
-        "asset_content/sa_k/spec4.png",
+        "asset_content/sa_k/spec1.jpg",
+        "asset_content/sa_k/spec2.jpg",
+        "asset_content/sa_k/spec3.jpg",
+        "asset_content/sa_k/spec4.jpg",
         "asset_content/sa_k/spec5.jpg"
       ]
     },
@@ -1588,7 +1588,7 @@
             "qty": ""
           }
         ],
-        "image": "asset_content/sa_k/spec1.png"
+        "image": "asset_content/sa_k/spec1.jpg"
       },
       {
         "model_no": "SPB-31",
@@ -1596,7 +1596,7 @@
         "material": "Steel",
         "desktop": "",
         "items_included": [],
-        "image": "asset_content/sa_k/spec2.png"
+        "image": "asset_content/sa_k/spec2.jpg"
       }
     ]
   },
@@ -1674,9 +1674,9 @@
       "items_included": "Shelf x 2\nModel No.\nSAA-331\n｜Storage cabinet\nSPW-3\n｜Desktop\nDimensions ： W900xD515xH950mm",
       "raw": "Made in Taiwan\nDIY product\nPower plugs not included.\nModel No.\nSAA-331\n｜Storage cabinet\nDimensions ： W900xD515xH900mm\nMaterial： Steel\nShelf： 200kg load capacity\nItems included： Shelf x 2\nModel No.\nSAA-331\n｜Storage cabinet\nSPW-3\n｜Desktop\nDimensions ： W900xD515xH950mm\nMaterial\n： Steel\nDesktop\n： Steel / 304 Stainless steel\nShelf： 200kg load capacity\nItems included： Shelf x 2\nModel No.\nSAA-331\n｜Storage cabinet\nSPW-3\n｜Desktop\nSPQ-32A\n｜Panel set\nSPA-1\n｜\nPole x 2\nDimensions ： W900xD555xH1780mm\nMaterial\n： Steel\nDesktop\n： Steel / 304 Stainless steel\nShelf： 200kg load capacity\nItems included： Shelf x 2\nUniversal socket 220V x 2\n▸ 10W LED lamp is optional.",
       "images": [
-        "asset_content/saa-331/spec1.png",
-        "asset_content/saa-331/spec2.png",
-        "asset_content/saa-331/spec3.png"
+        "asset_content/saa-331/spec1.jpg",
+        "asset_content/saa-331/spec2.jpg",
+        "asset_content/saa-331/spec3.jpg"
       ]
     },
     "spec_blocks": [
@@ -1717,7 +1717,7 @@
             "qty": ""
           }
         ],
-        "image": "asset_content/saa-331/spec1.png"
+        "image": "asset_content/saa-331/spec1.jpg"
       }
     ]
   },
@@ -1795,9 +1795,9 @@
       "items_included": "Shelf x 2\nModel No.\nSAB-331\n｜Tool cabinet\nSPW-3\n｜Desktop\nDimensions ： W900xD515xH950mm",
       "raw": "Made in Taiwan\nDIY product\nPower plugs not included.\nModel No.\nSAB-331\n｜Tool cabinet\nDimensions ： W900xD515xH900mm\nMaterial： Steel\nShelf ： 100kg load capacity\nDrawer： 45kg load capacity\nItems included： Shelf x 2\nModel No.\nSAB-331\n｜Tool cabinet\nSPW-3\n｜Desktop\nDimensions ： W900xD515xH950mm\nMaterial\n：Steel\nDesktop\n： Steel / 304 Stainless steel\nShelf ： 100kg load capacity\nDrawer：45kg load capacity\nItems included： Shelf x 2\nModel No.\nSAB-331\n｜Tool cabinet\nSPW-3\n｜Desktop\nSPQ-32A\n｜Panel set\nSPA-1\n｜\nPole x 2\nDimensions ： W900xD555xH1780mm\nMaterial\n： Steel\nDesktop\n： Steel / 304 Stainless steel\nShelf ： 100kg load capacity\nDrawer：45kg load capacity\nItems included： Shelf x 2\nUniversal socket 220V x 2\n▸ 10W LED lamp is optional.",
       "images": [
-        "asset_content/sab-331/spec1.png",
-        "asset_content/sab-331/spec2.png",
-        "asset_content/sab-331/spec3.png"
+        "asset_content/sab-331/spec1.jpg",
+        "asset_content/sab-331/spec2.jpg",
+        "asset_content/sab-331/spec3.jpg"
       ]
     },
     "spec_blocks": [
@@ -1807,7 +1807,7 @@
         "material": "Steel",
         "desktop": "",
         "items_included": [],
-        "image": "asset_content/sab-331/spec1.png"
+        "image": "asset_content/sab-331/spec1.jpg"
       },
       {
         "model_no": "SAB-331",
@@ -1815,7 +1815,7 @@
         "material": "Steel",
         "desktop": "Dimensions ： W900xD515xH950mm",
         "items_included": [],
-        "image": "asset_content/sab-331/spec2.png"
+        "image": "asset_content/sab-331/spec2.jpg"
       },
       {
         "model_no": "SAB-331",
@@ -1823,7 +1823,7 @@
         "material": "Steel",
         "desktop": "SPQ-32A",
         "items_included": [],
-        "image": "asset_content/sab-331/spec3.png"
+        "image": "asset_content/sab-331/spec3.jpg"
       }
     ]
   },
@@ -1876,7 +1876,7 @@
       "items_included": "Shelf x 2",
       "raw": "Made in Taiwan\nDIY product\nModel No.\nSAA-231\nDimensions ： W600xD515xH900mm\nMaterial： Steel\nShelf： 200kg load capacity\nItems included： Shelf x 2",
       "images": [
-        "asset_content/saa-231/spec1.png"
+        "asset_content/saa-231/spec1.jpg"
       ]
     },
     "spec_blocks": [
@@ -1886,7 +1886,7 @@
         "material": "Steel",
         "desktop": "",
         "items_included": [],
-        "image": "asset_content/saa-231/spec1.png"
+        "image": "asset_content/saa-231/spec1.jpg"
       }
     ]
   },
@@ -1939,7 +1939,7 @@
       "items_included": "",
       "raw": "Made in Taiwan\nDIY product\nModel No.\nSG-23071\nDimensions ： W600xD510xH900mm\nMaterial： Steel\nDrawer： 45kg load capacity",
       "images": [
-        "asset_content/sg-23071/spec1.png"
+        "asset_content/sg-23071/spec1.jpg"
       ]
     },
     "spec_blocks": [
@@ -1949,7 +1949,7 @@
         "material": "Steel",
         "desktop": "",
         "items_included": [],
-        "image": "asset_content/sg-23071/spec1.png"
+        "image": "asset_content/sg-23071/spec1.jpg"
       }
     ]
   },
@@ -2002,7 +2002,7 @@
       "items_included": "",
       "raw": "Made in Taiwan\nDIY product\nModel No.\nSAG-231\nDimensions ： W600xD515xH900mm\nMaterial： Steel",
       "images": [
-        "asset_content/sag-231/spec1.png"
+        "asset_content/sag-231/spec1.jpg"
       ]
     },
     "spec_blocks": [
@@ -2012,7 +2012,7 @@
         "material": "Steel",
         "desktop": "",
         "items_included": [],
-        "image": "asset_content/sag-231/spec1.png"
+        "image": "asset_content/sag-231/spec1.jpg"
       }
     ]
   },
@@ -2175,32 +2175,32 @@
       {
         "title": "WE-58W3",
         "caption": "Model No. WE-58W3 Dimensions： W1500xD770xH1405mm Color： White / Black Material： Steel Panel Set：H600 Perforated Board",
-        "image": "asset_content/we/choose2.png"
+        "image": "asset_content/we/choose2.jpg"
       },
       {
         "title": "WE-58W4",
         "caption": "Model No. WE-58W4 Dimensions： W1500xD770xH1405mm Color： White / Black Material： Steel Panel Set：H600 Perforated Board+Shelf",
-        "image": "asset_content/we/choose3.png"
+        "image": "asset_content/we/choose3.jpg"
       },
       {
         "title": "WE-58W5",
         "caption": "Model No. WE-58W5 Dimensions： W1500xD770xH1405mm Color： White / Black Material： Steel Panel Set：H600 Perforated Board+Shelf LED Light： WP-9003 + WP-9004",
-        "image": "asset_content/we/choose4.png"
+        "image": "asset_content/we/choose4.jpg"
       },
       {
         "title": "WE-58W7",
         "caption": "Model No. WE-58W7 Dimensions： W1500xD770xH1705mm Color： White / Black Material： Steel Panel Set： H900 Perforated Board",
-        "image": "asset_content/we/choose5.png"
+        "image": "asset_content/we/choose5.jpg"
       },
       {
         "title": "WE-58W8",
         "caption": "Model No. WE-58W8 Dimensions： W1500xD770xH1705mm Color： White / Black Material： Steel Panel Set： H900 Perforated Board+Shelf",
-        "image": "asset_content/we/choose6.png"
+        "image": "asset_content/we/choose6.jpg"
       },
       {
         "title": "WE-58W9",
         "caption": "Model No. WE-58W9 Dimensions： W1500xD770xH1705mm Color： White / Black Material： Steel Panel Set： H900 Perforated Board+Shelf LED Light： WP-9003 + WP-9004",
-        "image": "asset_content/we/choose7.png"
+        "image": "asset_content/we/choose7.jpg"
       }
     ],
     "spec": {},
@@ -2395,32 +2395,32 @@
       {
         "title": "WET-5102W3",
         "caption": "Model No. WET-5102W3 Dimensions： W1500xD775xH1405mm Color： White / Black Material： Steel Panel Set：H600 Perforated Board",
-        "image": "asset_content/wet/choose2.png"
+        "image": "asset_content/wet/choose2.jpg"
       },
       {
         "title": "WET-5102W4",
         "caption": "Model No. WET-5102W4 Dimensions： W1500xD775xH1405mm Color： White / Black Material： Steel Panel Set：H600 Perforated Board+Shelf",
-        "image": "asset_content/wet/choose3.png"
+        "image": "asset_content/wet/choose3.jpg"
       },
       {
         "title": "WET-5102W5",
         "caption": "Model No. WET-5102W5 Dimensions： W1500xD775xH1405mm Color： White / Black Material： Steel Panel Set：H600 Perforated Board+Shelf LED Light： WP-9003+WP-9004",
-        "image": "asset_content/wet/choose4.png"
+        "image": "asset_content/wet/choose4.jpg"
       },
       {
         "title": "WET-5102W7",
         "caption": "Model No. WET-5102W7 Dimensions： W1500xD775xH1705mm Color： White / Black Material： Steel Panel Set： Perforated Board",
-        "image": "asset_content/wet/choose5.png"
+        "image": "asset_content/wet/choose5.jpg"
       },
       {
         "title": "WET-5102W8",
         "caption": "Model No. WET-5102W8 Dimensions： W1500xD775xH1705mm Color： White / Black Material： Steel Panel Set： Perforated Board+Shelf",
-        "image": "asset_content/wet/choose6.png"
+        "image": "asset_content/wet/choose6.jpg"
       },
       {
         "title": "WET-5102W9",
         "caption": "Model No. WET-5102W9 Dimensions： W1500xD775xH1705mm Color： White / Black Material： Steel Panel Set： Perforated Board+Shelf LED Light： WP-9003+WP-9004",
-        "image": "asset_content/wet/choose7.png"
+        "image": "asset_content/wet/choose7.jpg"
       }
     ],
     "spec": {},
@@ -2510,12 +2510,12 @@
       "items_included": "",
       "raw": "DIY product,\nMade in Taiwan\nModel No.\nWB-57□\n□\n:\nWorkbench-Top → WB-57F\nRubber top(\nN\n),\nLaminate top(\nF\n)\nRubber wood top(\nW\n)\nModel No.\nWB-57□\nWorkbench-top：\nN\n/\nF\n/\nW\nDimensions： W1500xD750xH800mm\nMaterial： Steel\nModel No.\nWB-57□2\nWorkbench-top：\nN\n/\nF\n/\nW\nDimensions：\nW1500xD750xH1400mm\nMaterial： Steel\nPanel Set： Perforated Board\nModel No.\nWB-57□3\nWorkbench-top：\nN\n/\nF\n/\nW\nDimensions：\nW1500xD750xH1400mm\nMaterial： Steel\nPanel Set： Perforated Board+Shelf\nModel No.\nWB-57□4A\nWorkbench-top：\nN\n/\nF\n/\nW\nDimensions：\nW1500xD750xH1400mm\nMaterial： Steel\nPanel Set： Perforated Board+\nSocket\n※ Power plugs not included\nModel No.\nWB-57□5A\nWorkbench-top：\nN\n/\nF\n/\nW\nDimensions：\nW1500xD750xH1400mm\nMaterial： Steel\nPanel Set： Perforated Board+\nShelf+Socket\n※ Power plugs not included\nModel No.\nWB-57□6A\nWorkbench-top：\nN\n/\nF\n/\nW\nDimensions：\nW1500xD750xH1400mm\nMaterial： Steel\nPanel Set： Perforated Board+\nShelf+Socket+Light\n※ Power plugs not included",
       "images": [
-        "asset_content/wb-57/spec1.png",
-        "asset_content/wb-57/spec2.png",
-        "asset_content/wb-57/spec3.png",
-        "asset_content/wb-57/spec4.png",
-        "asset_content/wb-57/spec5.png",
-        "asset_content/wb-57/spec6.png"
+        "asset_content/wb-57/spec1.jpg",
+        "asset_content/wb-57/spec2.jpg",
+        "asset_content/wb-57/spec3.jpg",
+        "asset_content/wb-57/spec4.jpg",
+        "asset_content/wb-57/spec5.jpg",
+        "asset_content/wb-57/spec6.jpg"
       ]
     },
     "spec_blocks": [
@@ -2533,7 +2533,7 @@
         "material": "Steel",
         "desktop": "",
         "items_included": [],
-        "image": "asset_content/wb-57/spec1.png"
+        "image": "asset_content/wb-57/spec1.jpg"
       },
       {
         "model_no": "WB-57□2",
@@ -2541,7 +2541,7 @@
         "material": "Steel",
         "desktop": "",
         "items_included": [],
-        "image": "asset_content/wb-57/spec2.png"
+        "image": "asset_content/wb-57/spec2.jpg"
       },
       {
         "model_no": "WB-57□3",
@@ -2549,7 +2549,7 @@
         "material": "Steel",
         "desktop": "",
         "items_included": [],
-        "image": "asset_content/wb-57/spec3.png"
+        "image": "asset_content/wb-57/spec3.jpg"
       },
       {
         "model_no": "WB-57□4A",
@@ -2557,7 +2557,7 @@
         "material": "Steel",
         "desktop": "",
         "items_included": [],
-        "image": "asset_content/wb-57/spec4.png"
+        "image": "asset_content/wb-57/spec4.jpg"
       },
       {
         "model_no": "WB-57□5A",
@@ -2565,7 +2565,7 @@
         "material": "Steel",
         "desktop": "",
         "items_included": [],
-        "image": "asset_content/wb-57/spec5.png"
+        "image": "asset_content/wb-57/spec5.jpg"
       },
       {
         "model_no": "WB-57□6A",
@@ -2573,7 +2573,7 @@
         "material": "Steel",
         "desktop": "",
         "items_included": [],
-        "image": "asset_content/wb-57/spec6.png"
+        "image": "asset_content/wb-57/spec6.jpg"
       }
     ]
   },
@@ -2676,13 +2676,13 @@
       "items_included": "",
       "raw": "DIY product,\nMade in Taiwan\nModel No.\nWB-67□\n□ : Workbench-Top → WB-67F\nRubber top(\nN\n),\nLaminate top(\nF\n)\nRubber wood top(\nW\n)\nModel No.\nWB-67□\nWorkbench-top：\nN\n/\nF\n/\nW\nDimensions： W1800xD750xH800mm\nMaterial： Steel\nModel No.\nWB-67□2\nWorkbench-top：\nN\n/\nF\n/\nW\nDimensions： W1800xD750xH1400mm\nMaterial： Steel\nPanel Set： Perforated Board\nModel No.\nWB-67□3\nWorkbench-top：\nN\n/\nF\n/\nW\nDimensions：\nW1800xD750xH1400mm\nMaterial ： Steel\nPanel Set： Perforated Board+Shelf\nModel No.\nWB-67□4A\nWorkbench-top：\nN\n/\nF\n/\nW\nDimensions： W1800xD750xH1400mm\nMaterial ： Steel\nPanel Set： Perforated Board+\nSocket\n※ Power plugs not included\nModel No.\nWB-67□5A\nWorkbench-top：\nN\n/\nF\n/\nW\nDimensions： W1800xD750xH1400mm\nMaterial ： Steel\nPanel Set： Perforated Board+\nShelf+Socket\n※ Power plugs not included\nModel No.\nWB-67□6A\nWorkbench-top：\nN\n/\nF\n/\nW\nDimensions：\nW1800xD750xH1400mm\nMaterial ： Steel\nPanel Set： Perforated Board+\nShelf+Socket+Light\n※ Power plugs not included\nModel No.\nWB-67□7A\nWorkbench-top：\nN\n/\nF\n/\nW\nDimensions：\nW1800xD750xH1365mm\nMaterial ： Steel\nPanel Set： Parts Cabinet\nSocket+Light\n※ Power plugs not included",
       "images": [
-        "asset_content/wb-67/spec1.png",
-        "asset_content/wb-67/spec2.png",
-        "asset_content/wb-67/spec3.png",
-        "asset_content/wb-67/spec4.png",
-        "asset_content/wb-67/spec5.png",
-        "asset_content/wb-67/spec6.png",
-        "asset_content/wb-67/spec7.png"
+        "asset_content/wb-67/spec1.jpg",
+        "asset_content/wb-67/spec2.jpg",
+        "asset_content/wb-67/spec3.jpg",
+        "asset_content/wb-67/spec4.jpg",
+        "asset_content/wb-67/spec5.jpg",
+        "asset_content/wb-67/spec6.jpg",
+        "asset_content/wb-67/spec7.jpg"
       ]
     },
     "spec_blocks": [
@@ -2700,7 +2700,7 @@
         "material": "Steel",
         "desktop": "",
         "items_included": [],
-        "image": "asset_content/wb-67/spec1.png"
+        "image": "asset_content/wb-67/spec1.jpg"
       },
       {
         "model_no": "WB-67□2",
@@ -2708,7 +2708,7 @@
         "material": "Steel",
         "desktop": "",
         "items_included": [],
-        "image": "asset_content/wb-67/spec2.png"
+        "image": "asset_content/wb-67/spec2.jpg"
       },
       {
         "model_no": "WB-67□3",
@@ -2716,7 +2716,7 @@
         "material": "Steel",
         "desktop": "",
         "items_included": [],
-        "image": "asset_content/wb-67/spec3.png"
+        "image": "asset_content/wb-67/spec3.jpg"
       },
       {
         "model_no": "WB-67□4A",
@@ -2724,7 +2724,7 @@
         "material": "Steel",
         "desktop": "",
         "items_included": [],
-        "image": "asset_content/wb-67/spec4.png"
+        "image": "asset_content/wb-67/spec4.jpg"
       },
       {
         "model_no": "WB-67□5A",
@@ -2732,7 +2732,7 @@
         "material": "Steel",
         "desktop": "",
         "items_included": [],
-        "image": "asset_content/wb-67/spec5.png"
+        "image": "asset_content/wb-67/spec5.jpg"
       },
       {
         "model_no": "WB-67□6A",
@@ -2740,7 +2740,7 @@
         "material": "Steel",
         "desktop": "",
         "items_included": [],
-        "image": "asset_content/wb-67/spec6.png"
+        "image": "asset_content/wb-67/spec6.jpg"
       },
       {
         "model_no": "WB-67□7A",
@@ -2748,7 +2748,7 @@
         "material": "Steel",
         "desktop": "",
         "items_included": [],
-        "image": "asset_content/wb-67/spec7.png"
+        "image": "asset_content/wb-67/spec7.jpg"
       }
     ]
   },
@@ -2836,12 +2836,12 @@
       "items_included": "",
       "raw": "DIY product, Made in Taiwan\nModel No.\nWBT-5203□\n□ : Workbench-Top →\nWBT-5203W\nRubber top(\nN\n),\nLaminate top(\nF\n)\nRubber wood top(\nW\n)\nModel No.\nWBT-5203□\nWorkbench-top：\nN\n/\nF\n/\nW\nDimensions：\nW1500xD750xH1400mm\nMaterials： Steel\nModel No.\nWBT-5203□2\nWorkbench-top：\nN\n/\nF\n/\nW\nDimensions：\nW1500xD750xH1400mm\nMaterials： Steel\nPanel Set： Perforated Board\nModel No.\nWBT-5203□3\nWorkbench-top：\nN\n/\nF\n/\nW\nDimensions：\nW1500xD750xH1400mm\nMaterials： Steel\nPanel Set： Perforated Board+Shelf\nModel No.\nWBT-5203□4A\nWorkbench-top：\nN\n/\nF\n/\nW\nDimensions：\nW1500xD750xH1400mm\nMaterials： Steel\nPanel Set： Perforated Board+\nSocket\n※ Power plugs not included\nModel No.\nWBT-5203□5A\nWorkbench-top：\nN\n/\nF\n/\nW\nDimensions：\nW1500xD750xH1400mm\nMaterials： Steel\nPanel Set： Perforated Board+\nShelf+Socket\n※ Power plugs not included\nModel No.\nWBT-5203□6A\nWorkbench-top：\nN\n/\nF\n/\nW\nDimensions：\nW1500xD750xH1400mm\nMaterials： Steel\nPanel Set： Perforated Board+\nShelf+Socket+Light\n※ Power plugs not included",
       "images": [
-        "asset_content/wbt-5203/spec1.png",
-        "asset_content/wbt-5203/spec2.png",
-        "asset_content/wbt-5203/spec3.png",
-        "asset_content/wbt-5203/spec4.png",
-        "asset_content/wbt-5203/spec5.png",
-        "asset_content/wbt-5203/spec6.png"
+        "asset_content/wbt-5203/spec1.jpg",
+        "asset_content/wbt-5203/spec2.jpg",
+        "asset_content/wbt-5203/spec3.jpg",
+        "asset_content/wbt-5203/spec4.jpg",
+        "asset_content/wbt-5203/spec5.jpg",
+        "asset_content/wbt-5203/spec6.jpg"
       ]
     },
     "spec_blocks": [
@@ -2859,7 +2859,7 @@
         "material": "s： Steel",
         "desktop": "",
         "items_included": [],
-        "image": "asset_content/wbt-5203/spec1.png"
+        "image": "asset_content/wbt-5203/spec1.jpg"
       },
       {
         "model_no": "WBT-5203□2",
@@ -2867,7 +2867,7 @@
         "material": "s： Steel",
         "desktop": "",
         "items_included": [],
-        "image": "asset_content/wbt-5203/spec2.png"
+        "image": "asset_content/wbt-5203/spec2.jpg"
       },
       {
         "model_no": "WBT-5203□3",
@@ -2875,7 +2875,7 @@
         "material": "s： Steel",
         "desktop": "",
         "items_included": [],
-        "image": "asset_content/wbt-5203/spec3.png"
+        "image": "asset_content/wbt-5203/spec3.jpg"
       },
       {
         "model_no": "WBT-5203□4A",
@@ -2883,7 +2883,7 @@
         "material": "s： Steel",
         "desktop": "",
         "items_included": [],
-        "image": "asset_content/wbt-5203/spec4.png"
+        "image": "asset_content/wbt-5203/spec4.jpg"
       },
       {
         "model_no": "WBT-5203□5A",
@@ -2891,7 +2891,7 @@
         "material": "s： Steel",
         "desktop": "",
         "items_included": [],
-        "image": "asset_content/wbt-5203/spec5.png"
+        "image": "asset_content/wbt-5203/spec5.jpg"
       },
       {
         "model_no": "WBT-5203□6A",
@@ -2899,7 +2899,7 @@
         "material": "s： Steel",
         "desktop": "",
         "items_included": [],
-        "image": "asset_content/wbt-5203/spec6.png"
+        "image": "asset_content/wbt-5203/spec6.jpg"
       }
     ]
   },
@@ -3002,13 +3002,13 @@
       "items_included": "",
       "raw": "DIY product, Made in Taiwan\nModel No.\nWBT-6203□\n□ : Workbench-Top →\nWBT-6203W\nRubber top(\nN\n),\nLaminate top(\nF\n)\nRubber wood top(\nW\n)\nModel No.\nWBT-6203□\nWorkbench-top：\nN\n/\nF\n/\nW\nDimensions： W1800xD750xH800mm\nMaterial： Steel\nModel No.\nWBT-6203□2\nWorkbench-top：\nN\n/\nF\n/\nW\nDimensions： W1800xD750xH1400mm\nMaterial： Steel\nPanel Set： Perforated Board\nModel No.\nWBT-6203□3\nWorkbench-top：\nN\n/\nF\n/\nW\nDimensions：\nW1800xD750xH1400mm\nMaterial： Steel\nPanel Set： Perforated Board+Shelf\nModel No.\nWBT-6203□4A\nWorkbench-top：\nN\n/\nF\n/\nW\nDimensions：\nW1800xD750xH1400mm\nMaterial： Steel\nPanel Set： Perforated Board+\nSocket\n※ Power plugs not included\nModel No.\nWBT-6203□5A\nWorkbench-top：\nN\n/\nF\n/\nW\nDimensions：\nW1800xD750xH1400mm\nMaterial： Steel\nPanel Set： Perforated Board+\nShelf+Socket\n※ Power plugs not included\nModel No.\nWBT-6203□6A\nWorkbench-top：\nN\n/\nF\n/\nW\nDimensions：\nW1800xD750xH1400mm\nMaterial： Steel\nPanel Set： Perforated Board+\nShelf+Socket+Light\n※ Power plugs not included\nModel No.\nWBT-6203□7A\nWorkbench-top：\nN\n/\nF\n/\nW\nDimensions： W1800xD750xH1365mm\nMaterial： Steel\nPanel Set： Parts Cabinet\nSocket+Light\n※ Power plugs not included",
       "images": [
-        "asset_content/wbt-6203/spec1.png",
-        "asset_content/wbt-6203/spec2.png",
-        "asset_content/wbt-6203/spec3.png",
-        "asset_content/wbt-6203/spec4.png",
-        "asset_content/wbt-6203/spec5.png",
-        "asset_content/wbt-6203/spec6.png",
-        "asset_content/wbt-6203/spec7.png"
+        "asset_content/wbt-6203/spec1.jpg",
+        "asset_content/wbt-6203/spec2.jpg",
+        "asset_content/wbt-6203/spec3.jpg",
+        "asset_content/wbt-6203/spec4.jpg",
+        "asset_content/wbt-6203/spec5.jpg",
+        "asset_content/wbt-6203/spec6.jpg",
+        "asset_content/wbt-6203/spec7.jpg"
       ]
     },
     "spec_blocks": [
@@ -3026,7 +3026,7 @@
         "material": "Steel",
         "desktop": "",
         "items_included": [],
-        "image": "asset_content/wbt-6203/spec1.png"
+        "image": "asset_content/wbt-6203/spec1.jpg"
       },
       {
         "model_no": "WBT-6203□2",
@@ -3034,7 +3034,7 @@
         "material": "Steel",
         "desktop": "",
         "items_included": [],
-        "image": "asset_content/wbt-6203/spec2.png"
+        "image": "asset_content/wbt-6203/spec2.jpg"
       },
       {
         "model_no": "WBT-6203□3",
@@ -3042,7 +3042,7 @@
         "material": "Steel",
         "desktop": "",
         "items_included": [],
-        "image": "asset_content/wbt-6203/spec3.png"
+        "image": "asset_content/wbt-6203/spec3.jpg"
       },
       {
         "model_no": "WBT-6203□4A",
@@ -3050,7 +3050,7 @@
         "material": "Steel",
         "desktop": "",
         "items_included": [],
-        "image": "asset_content/wbt-6203/spec4.png"
+        "image": "asset_content/wbt-6203/spec4.jpg"
       },
       {
         "model_no": "WBT-6203□5A",
@@ -3058,7 +3058,7 @@
         "material": "Steel",
         "desktop": "",
         "items_included": [],
-        "image": "asset_content/wbt-6203/spec5.png"
+        "image": "asset_content/wbt-6203/spec5.jpg"
       },
       {
         "model_no": "WBT-6203□6A",
@@ -3066,7 +3066,7 @@
         "material": "Steel",
         "desktop": "",
         "items_included": [],
-        "image": "asset_content/wbt-6203/spec6.png"
+        "image": "asset_content/wbt-6203/spec6.jpg"
       },
       {
         "model_no": "WBT-6203□7A",
@@ -3074,7 +3074,7 @@
         "material": "Steel",
         "desktop": "",
         "items_included": [],
-        "image": "asset_content/wbt-6203/spec7.png"
+        "image": "asset_content/wbt-6203/spec7.jpg"
       }
     ]
   },
@@ -3090,7 +3090,7 @@
       {
         "title": "Hanging cabinet",
         "caption": "45kg load capacity per drawer.",
-        "image": "asset_content/wbs-53022/feat2.png"
+        "image": "asset_content/wbs-53022/feat2.jpg"
       },
       {
         "title": "600kg load capacity",
@@ -3142,7 +3142,7 @@
       {
         "title": "Step.2",
         "caption": "Drawer/Cabinet",
-        "image": "asset_content/wbs-53022/choose5.png"
+        "image": "asset_content/wbs-53022/choose5.jpg"
       },
       {
         "title": "Step.3",
@@ -3234,7 +3234,7 @@
       {
         "title": "Hanging cabinet",
         "caption": "45kg load capacity per drawer.",
-        "image": "asset_content/wbs-63022/feat2.png"
+        "image": "asset_content/wbs-63022/feat2.jpg"
       },
       {
         "title": "600kg load capacity",
@@ -3301,7 +3301,7 @@
       {
         "title": "Step.2",
         "caption": "Drawer/Cabinet",
-        "image": "asset_content/wbs-63022/choose5.png"
+        "image": "asset_content/wbs-63022/choose5.jpg"
       },
       {
         "title": "Step.3",
@@ -3321,13 +3321,13 @@
       "items_included": "",
       "raw": "DIY product,\nMade in Taiwan\nModel No.\nWBS-63022□\n□ : Workbench-Top → WBS-63022N\nRubber top(\nN\n),\nLaminate top(\nF\n)\nRubber wood top(\nW\n)\nModel No.\nWBS-63022□\nWorkbench-top：\nN\n/\nF\n/\nW\nDimensions： W1800xD750xH800mm\nMaterial： Steel\nModel No.\nWBS-63022□2\nWorkbench-top：\nN\n/\nF\n/\nW\nDimensions： W1800xD750xH1400mm\nMaterial： Steel\nPanel Set： Perforated Board\nModel No.\nWBS-63022□3\nWorkbench-top：\nN\n/\nF\n/\nW\nDimensions： W1800xD750xH1400mm\nMaterial： Steel\nPanel Set： Perforated Board+Shelf\nModel No.\nWBS-63022□4A\nWorkbench-top：\nN\n/\nF\n/\nW\nDimensions： W1800xD750xH1400mm\nMaterial： Steel\nPanel Set： Perforated Board+\nSocket\n※ Power plugs not included\nModel No.\nWBS-63022□5A\nWorkbench-top：\nN\n/\nF\n/\nW\nDimensions： W1800xD750xH1400mm\nMaterial： Steel\nPanel Set： Perforated Board+\nShelf+Socket\n※ Power plugs not included\nModel No.\nWBS-63022□6A\nWorkbench-top：\nN\n/\nF\n/\nW\nDimensions： W1800xD750xH1400mm\nMaterial： Steel\nPanel Set： Perforated Board+\nShelf+Socket\n※ Power plugs not included\nModel No.\nWBS-63022□7A\nWorkbench-top：\nN\n/\nF\n/\nW\nDimensions：\nW1800xD750xH1365mm\nMaterial： Steel\nPanel Set： Parts Cabinet\nSocket+Light\n※ Power plugs not included",
       "images": [
-        "asset_content/wbs-63022/spec1.png",
-        "asset_content/wbs-63022/spec2.png",
-        "asset_content/wbs-63022/spec3.png",
-        "asset_content/wbs-63022/spec4.png",
-        "asset_content/wbs-63022/spec5.png",
-        "asset_content/wbs-63022/spec6.png",
-        "asset_content/wbs-63022/spec7.png"
+        "asset_content/wbs-63022/spec1.jpg",
+        "asset_content/wbs-63022/spec2.jpg",
+        "asset_content/wbs-63022/spec3.jpg",
+        "asset_content/wbs-63022/spec4.jpg",
+        "asset_content/wbs-63022/spec5.jpg",
+        "asset_content/wbs-63022/spec6.jpg",
+        "asset_content/wbs-63022/spec7.jpg"
       ]
     },
     "spec_blocks": [
@@ -3345,7 +3345,7 @@
         "material": "Steel",
         "desktop": "",
         "items_included": [],
-        "image": "asset_content/wbs-63022/spec1.png"
+        "image": "asset_content/wbs-63022/spec1.jpg"
       },
       {
         "model_no": "WBS-63022□2",
@@ -3353,7 +3353,7 @@
         "material": "Steel",
         "desktop": "",
         "items_included": [],
-        "image": "asset_content/wbs-63022/spec2.png"
+        "image": "asset_content/wbs-63022/spec2.jpg"
       },
       {
         "model_no": "WBS-63022□3",
@@ -3361,7 +3361,7 @@
         "material": "Steel",
         "desktop": "",
         "items_included": [],
-        "image": "asset_content/wbs-63022/spec3.png"
+        "image": "asset_content/wbs-63022/spec3.jpg"
       },
       {
         "model_no": "WBS-63022□4A",
@@ -3369,7 +3369,7 @@
         "material": "Steel",
         "desktop": "",
         "items_included": [],
-        "image": "asset_content/wbs-63022/spec4.png"
+        "image": "asset_content/wbs-63022/spec4.jpg"
       },
       {
         "model_no": "WBS-63022□5A",
@@ -3377,7 +3377,7 @@
         "material": "Steel",
         "desktop": "",
         "items_included": [],
-        "image": "asset_content/wbs-63022/spec5.png"
+        "image": "asset_content/wbs-63022/spec5.jpg"
       },
       {
         "model_no": "WBS-63022□6A",
@@ -3385,7 +3385,7 @@
         "material": "Steel",
         "desktop": "",
         "items_included": [],
-        "image": "asset_content/wbs-63022/spec6.png"
+        "image": "asset_content/wbs-63022/spec6.jpg"
       },
       {
         "model_no": "WBS-63022□7A",
@@ -3393,7 +3393,7 @@
         "material": "Steel",
         "desktop": "",
         "items_included": [],
-        "image": "asset_content/wbs-63022/spec7.png"
+        "image": "asset_content/wbs-63022/spec7.jpg"
       }
     ]
   },
@@ -3481,12 +3481,12 @@
       "items_included": "",
       "raw": "DIY product,\nMade in Taiwan\nModel No.\nWB-57□\n□ : Workbench-Top → WB-57W\nRubber top(\nN\n),\nLaminate top(\nF\n)\nRubber wood top(\nW\n)\nModel No.\nWB-57□\nWorkbench-top：\nN\n/\nF\n/\nW\nDimensions： W1500xD750xH800mm\nMaterial： Steel\nTool Cabinet：\nEGA-7041\nDimensions： W566xD510xH700mm\nMaterial： Steel\nModel No.\nWB-57□2\nWorkbench-top：\nN\n/\nF\n/\nW\nDimensions：\nW1500xD750xH1400mm\nMaterial： Steel\nPanel Set： Perforated Board\nTool Cabinet：\nEGA-7041\nDimensions： W566xD510xH700mm\nMaterial： Steel\nModel No.\nWB-57□3\nWorkbench-top：\nN\n/\nF\n/\nW\nDimensions：\nW1500xD750xH1400mm\nMaterial： Steel\nPanel Set： Perforated Board+Shelf\nTool Cabinet：\nEGA-7041\nDimensions： W566xD510xH700mm\nMaterial： Steel\nModel No.\nWB-57□4A\nWorkbench-top：\nN\n/\nF\n/\nW\nDimensions：\nW1500xD750xH1400mm\nMaterial： Steel\nPanel Set： Perforated Board+\nSocket\n※ Power plugs not included\nTool Cabinet：\nEGA-7041\nDimensions： W566xD510xH700mm\nMaterial： Steel\nModel No.\nWB-57□5A\nWorkbench-top：\nN\n/\nF\n/\nW\nDimensions：\nW1500xD750xH1400mm\nMaterial： Steel\nPanel Set： Perforated Board+\nShelf+Socket\n※ Power plugs not included\nTool Cabinet：\nEGA-7041\nDimensions： W566xD510xH700mm\nMaterial： Steel\nModel No.\nWB-57□6A\nWorkbench-top：\nN\n/\nF\n/\nW\nDimensions：\nW1500xD750xH1400mm\nMaterial： Ste",
       "images": [
-        "asset_content/wb57-ega/spec1.png",
-        "asset_content/wb57-ega/spec2.png",
-        "asset_content/wb57-ega/spec3.png",
-        "asset_content/wb57-ega/spec4.png",
-        "asset_content/wb57-ega/spec5.png",
-        "asset_content/wb57-ega/spec6.png"
+        "asset_content/wb57-ega/spec1.jpg",
+        "asset_content/wb57-ega/spec2.jpg",
+        "asset_content/wb57-ega/spec3.jpg",
+        "asset_content/wb57-ega/spec4.jpg",
+        "asset_content/wb57-ega/spec5.jpg",
+        "asset_content/wb57-ega/spec6.jpg"
       ]
     },
     "spec_blocks": [
@@ -3504,7 +3504,7 @@
         "material": "Steel",
         "desktop": "",
         "items_included": [],
-        "image": "asset_content/wb57-ega/spec1.png"
+        "image": "asset_content/wb57-ega/spec1.jpg"
       },
       {
         "model_no": "WB-57□2",
@@ -3512,7 +3512,7 @@
         "material": "Steel",
         "desktop": "",
         "items_included": [],
-        "image": "asset_content/wb57-ega/spec2.png"
+        "image": "asset_content/wb57-ega/spec2.jpg"
       },
       {
         "model_no": "WB-57□3",
@@ -3520,7 +3520,7 @@
         "material": "Steel",
         "desktop": "",
         "items_included": [],
-        "image": "asset_content/wb57-ega/spec3.png"
+        "image": "asset_content/wb57-ega/spec3.jpg"
       },
       {
         "model_no": "WB-57□4A",
@@ -3528,7 +3528,7 @@
         "material": "Steel",
         "desktop": "",
         "items_included": [],
-        "image": "asset_content/wb57-ega/spec4.png"
+        "image": "asset_content/wb57-ega/spec4.jpg"
       },
       {
         "model_no": "WB-57□5A",
@@ -3536,7 +3536,7 @@
         "material": "Steel",
         "desktop": "",
         "items_included": [],
-        "image": "asset_content/wb57-ega/spec5.png"
+        "image": "asset_content/wb57-ega/spec5.jpg"
       },
       {
         "model_no": "WB-57□6A",
@@ -3544,7 +3544,7 @@
         "material": "Steel",
         "desktop": "",
         "items_included": [],
-        "image": "asset_content/wb57-ega/spec6.png"
+        "image": "asset_content/wb57-ega/spec6.jpg"
       }
     ]
   },
@@ -3647,13 +3647,13 @@
       "items_included": "",
       "raw": "DIY product,\nMade in Taiwan\nModel No.\nWB-67□\n□ : Workbench-Top → WB-67W\nRubber top(\nN\n),\nLaminate top(\nF\n)\nRubber wood top(\nW\n)\nModel No.\nWB-67□\nWorkbench-top：\nN\n/\nF\n/\nW\nDimensions： W1800xD750xH800mm\nMaterial： Steel\nTool Cabinet：\nEGA-7041\nDimensions： W566xD510xH700mm\nMaterial： Steel\nModel No.\nWB-67□2\nWorkbench-top：\nN\n/\nF\n/\nW\nDimensions： W1800xD750xH1400mm\nMaterial： Steel\nPanel Set： Perforated Board\nTool Cabinet：\nEGA-7041\nDimensions： W566xD510xH700mm\nMaterial： Steel\nModel No.\nWB-67□3\nWorkbench-top：\nN\n/\nF\n/\nW\nDimensions：\nW1800xD750xH1400mm\nMaterial： Steel\nPanel Set： Perforated Board+Shelf\nTool Cabinet：\nEGA-7041\nDimensions： W566xD510xH700mm\nMaterial： Steel\nModel No.\nWB-67□4A\nWorkbench-top：\nN\n/\nF\n/\nW\nDimensions： W1800xD750xH1400mm\nMaterial： Steel\nPanel Set： Perforated Board+\nSocket\n※ Power plugs not included\nTool Cabinet：\nEGA-7041\nDimensions： W566xD510xH700mm\nMaterial： Steel\nModel No.\nWB-67□5A\nWorkbench-top：\nN\n/\nF\n/\nW\nDimensions： W1800xD750xH1400mm\nMaterial： Steel\nPanel Set： Perforated Board+\nShelf+Socket\n※ Power plugs not included\nTool Cabinet：\nEGA-7041\nDimensions： W566xD510xH700mm\nMaterial： Steel\nModel No.\nWB-67□6A\nWorkbench-top：\nN\n/\nF\n/\nW\nDimensions：\nW1800xD750xH1400mm\nMaterial： Ste",
       "images": [
-        "asset_content/wb67-ega/spec1.png",
+        "asset_content/wb67-ega/spec1.jpg",
         "asset_content/wb67-ega/spec2.jpg",
         "asset_content/wb67-ega/spec3.jpg",
         "asset_content/wb67-ega/spec4.jpg",
         "asset_content/wb67-ega/spec5.jpg",
         "asset_content/wb67-ega/spec6.jpg",
-        "asset_content/wb67-ega/spec7.png"
+        "asset_content/wb67-ega/spec7.jpg"
       ]
     },
     "spec_blocks": [
@@ -3671,7 +3671,7 @@
         "material": "Steel",
         "desktop": "",
         "items_included": [],
-        "image": "asset_content/wb67-ega/spec1.png"
+        "image": "asset_content/wb67-ega/spec1.jpg"
       },
       {
         "model_no": "WB-67□2",
@@ -3719,7 +3719,7 @@
         "material": "Steel",
         "desktop": "",
         "items_included": [],
-        "image": "asset_content/wb67-ega/spec7.png"
+        "image": "asset_content/wb67-ega/spec7.jpg"
       }
     ]
   },
@@ -3817,18 +3817,18 @@
       "items_included": "",
       "raw": "DIY product,\nMade in Taiwan\nModel No.\nWA-56□\n□\n: Workbench-Top → WA-56TG\nRubber top(\nN\n),\nLaminate top(\nF\n)\nRubber wood top(\nW\n),\nStainless steel top(\nS\n)\nTanko top(\nTG\n)&(\nTH\n)\nWA-56 Series\nModel No.\nWA-56□\nWorkbench-top :\nTG\n(H36)\n/\nTH\n(H43)\nDimensions :\nW1500xD650xH786mm |\nTG\nW1500xD650xH793mm |\nTH\nMaterial :  Steel\nModel No.\nWA-56□2\nWorkbench-top :\nTG\n(H36)\n/\nTH\n(H43)\nDimensions :\nW1500xD650xH1386mm |\nTG\nW1500xD650xH1393mm |\nTH\nMaterial :  Steel\nPanel Set :  Perforated Board\nModel No.\nWA-56□3\nWorkbench-top :\nTG\n(H36)\n/\nTH\n(H43)\nDimensions :\nW1500xD650xH1386mm |\nTG\nW1500xD650xH1393mm |\nTH\nMaterial :  Steel\nPanel Set :  Perforated Board+Shelf\nModel No.\nWA-56□4A\nWorkbench-top :\nTG\n(H36)\n/\nTH\n(H43)\nDimensions :\nW1500xD650xH1386mm |\nTG\nW1500xD650xH1393mm |\nTH\nMaterial :  Steel\nPanel Set： Perforated Board+\nSocket\n※ Power plugs not included\nModel No.\nWA-56□5A\nWorkbench-top :\nTG\n(H36)\n/\nTH\n(H43)\nDimensions :\nW1500xD650xH1386mm |\nTG\nW1500xD650xH1393mm |\nTH\nMaterial :  Steel\nPanel Set :  Perforated Board+\nShelf+Socket\n※ Power plugs not included\nModel No.\nWA-56□6A\nWorkbench-top :\nTG\n(H36)\n/\nTH\n(H43)\nDimensions :\nW1500xD650xH1386mm |\nTG\nW1500xD650xH1393mm |\nTH\nMaterial :  Steel\nPanel Set :",
       "images": [
-        "asset_content/wa-57/spec1.png",
-        "asset_content/wa-57/spec2.png",
-        "asset_content/wa-57/spec3.png",
-        "asset_content/wa-57/spec4.png",
-        "asset_content/wa-57/spec5.png",
-        "asset_content/wa-57/spec6.png",
-        "asset_content/wa-57/spec7.png",
-        "asset_content/wa-57/spec8.png",
-        "asset_content/wa-57/spec9.png",
-        "asset_content/wa-57/spec10.png",
-        "asset_content/wa-57/spec11.png",
-        "asset_content/wa-57/spec12.png"
+        "asset_content/wa-57/spec1.jpg",
+        "asset_content/wa-57/spec2.jpg",
+        "asset_content/wa-57/spec3.jpg",
+        "asset_content/wa-57/spec4.jpg",
+        "asset_content/wa-57/spec5.jpg",
+        "asset_content/wa-57/spec6.jpg",
+        "asset_content/wa-57/spec7.jpg",
+        "asset_content/wa-57/spec8.jpg",
+        "asset_content/wa-57/spec9.jpg",
+        "asset_content/wa-57/spec10.jpg",
+        "asset_content/wa-57/spec11.jpg",
+        "asset_content/wa-57/spec12.jpg"
       ]
     },
     "spec_blocks": [
@@ -3846,7 +3846,7 @@
         "material": "Steel",
         "desktop": "",
         "items_included": [],
-        "image": "asset_content/wa-57/spec1.png"
+        "image": "asset_content/wa-57/spec1.jpg"
       },
       {
         "model_no": "WA-56□2",
@@ -3854,7 +3854,7 @@
         "material": "Steel",
         "desktop": "",
         "items_included": [],
-        "image": "asset_content/wa-57/spec2.png"
+        "image": "asset_content/wa-57/spec2.jpg"
       },
       {
         "model_no": "WA-56□3",
@@ -3862,7 +3862,7 @@
         "material": "Steel",
         "desktop": "",
         "items_included": [],
-        "image": "asset_content/wa-57/spec3.png"
+        "image": "asset_content/wa-57/spec3.jpg"
       },
       {
         "model_no": "WA-56□4A",
@@ -3870,7 +3870,7 @@
         "material": "Steel",
         "desktop": "",
         "items_included": [],
-        "image": "asset_content/wa-57/spec4.png"
+        "image": "asset_content/wa-57/spec4.jpg"
       },
       {
         "model_no": "WA-56□5A",
@@ -3878,7 +3878,7 @@
         "material": "Steel",
         "desktop": "",
         "items_included": [],
-        "image": "asset_content/wa-57/spec5.png"
+        "image": "asset_content/wa-57/spec5.jpg"
       },
       {
         "model_no": "WA-56□6A",
@@ -3886,7 +3886,7 @@
         "material": "Steel",
         "desktop": "",
         "items_included": [],
-        "image": "asset_content/wa-57/spec6.png"
+        "image": "asset_content/wa-57/spec6.jpg"
       },
       {
         "model_no": "WA-57□",
@@ -3894,7 +3894,7 @@
         "material": "Steel",
         "desktop": "",
         "items_included": [],
-        "image": "asset_content/wa-57/spec7.png"
+        "image": "asset_content/wa-57/spec7.jpg"
       },
       {
         "model_no": "WA-57□2",
@@ -3902,7 +3902,7 @@
         "material": "Steel",
         "desktop": "",
         "items_included": [],
-        "image": "asset_content/wa-57/spec8.png"
+        "image": "asset_content/wa-57/spec8.jpg"
       },
       {
         "model_no": "WA-57□3",
@@ -3910,7 +3910,7 @@
         "material": "Steel",
         "desktop": "",
         "items_included": [],
-        "image": "asset_content/wa-57/spec9.png"
+        "image": "asset_content/wa-57/spec9.jpg"
       },
       {
         "model_no": "WA-57□4A",
@@ -3918,7 +3918,7 @@
         "material": "Steel",
         "desktop": "",
         "items_included": [],
-        "image": "asset_content/wa-57/spec10.png"
+        "image": "asset_content/wa-57/spec10.jpg"
       },
       {
         "model_no": "WA-57□5A",
@@ -3926,7 +3926,7 @@
         "material": "Steel",
         "desktop": "",
         "items_included": [],
-        "image": "asset_content/wa-57/spec11.png"
+        "image": "asset_content/wa-57/spec11.jpg"
       },
       {
         "model_no": "WA-57□6A",
@@ -3934,7 +3934,7 @@
         "material": "Steel",
         "desktop": "",
         "items_included": [],
-        "image": "asset_content/wa-57/spec12.png"
+        "image": "asset_content/wa-57/spec12.jpg"
       }
     ]
   },
@@ -4047,13 +4047,13 @@
       "items_included": "",
       "raw": "DIY product,\nMade in Taiwan\nModel No.\nWA-67□\n□\n: Workbench-Top → WA-67F\nRubber top(\nN\n),\nLaminate top(\nF\n)\nRubber wood top(\nW\n),\nStainless steel top(\nS\n)\nTanko top(\nTG\n)&(\nTH\n)\nModel No.\nWA-67□\nWorkbench-top :\nN\n/\nF\n/\nS\n/\nW\nDimensions :\nW1800xD750xH800mm\nWorkbench-top :\nTG\n(H36)\n/\nTH\n(H43)\nDimensions :\nW1800xD750xH786mm |\nTG\nW1800xD750xH793mm |\nTH\nMaterial :  Steel\nModel No.\nWA-67□2\nWorkbench-top :\nN\n/\nF\n/\nS\n/\nW\nDimensions :\nW1800xD750xH1400mm\nWorkbench-top :\nTG\n(H36)\n/\nTH\n(H43)\nDimensions :\nW1800xD750xH1386mm |\nTG\nW1800xD750xH1393mm |\nTH\nMaterial :  Steel\nPanel Set :  Perforated Board\nModel No.\nWA-67□3\nWorkbench-top :\nN\n/\nF\n/\nS\n/\nW\nDimensions :\nW1800xD750xH1400mm\nWorkbench-top :\nTG\n(H36)\n/\nTH\n(H43)\nDimensions :\nW1800xD750xH1386mm |\nTG\nW1800xD750xH1393mm |\nTH\nMaterial :  Steel\nPanel Set :  Perforated Board+Shelf\nModel No.\nWA-67□4A\nWorkbench-top :\nN\n/\nF\n/\nS\n/\nW\nDimensions :\nW1800xD750xH1400mm\nWorkbench-top :\nTG\n(H36)\n/\nTH\n(H43)\nDimensions :\nW1800xD750xH1386mm |\nTG\nW1800xD750xH1393mm |\nTH\nMaterial :  Steel\nPanel Set :  Perforated Board+\nSocket\n※ Power plugs not included\nModel No.\nWA-67□5A\nWorkbench-top :\nN\n/\nF\n/\nS\n/\nW\nDimensions :\nW1800xD750xH1400mm\nWorkbench-top :\nTG\n(H36)\n/\nTH\n(H43",
       "images": [
-        "asset_content/wa-67/spec1.png",
-        "asset_content/wa-67/spec2.png",
-        "asset_content/wa-67/spec3.png",
-        "asset_content/wa-67/spec4.png",
-        "asset_content/wa-67/spec5.png",
-        "asset_content/wa-67/spec6.png",
-        "asset_content/wa-67/spec7.png"
+        "asset_content/wa-67/spec1.jpg",
+        "asset_content/wa-67/spec2.jpg",
+        "asset_content/wa-67/spec3.jpg",
+        "asset_content/wa-67/spec4.jpg",
+        "asset_content/wa-67/spec5.jpg",
+        "asset_content/wa-67/spec6.jpg",
+        "asset_content/wa-67/spec7.jpg"
       ]
     },
     "spec_blocks": [
@@ -4071,7 +4071,7 @@
         "material": "Steel",
         "desktop": "",
         "items_included": [],
-        "image": "asset_content/wa-67/spec1.png"
+        "image": "asset_content/wa-67/spec1.jpg"
       },
       {
         "model_no": "WA-67□2",
@@ -4079,7 +4079,7 @@
         "material": "Steel",
         "desktop": "",
         "items_included": [],
-        "image": "asset_content/wa-67/spec2.png"
+        "image": "asset_content/wa-67/spec2.jpg"
       },
       {
         "model_no": "WA-67□3",
@@ -4087,7 +4087,7 @@
         "material": "Steel",
         "desktop": "",
         "items_included": [],
-        "image": "asset_content/wa-67/spec3.png"
+        "image": "asset_content/wa-67/spec3.jpg"
       },
       {
         "model_no": "WA-67□4A",
@@ -4095,7 +4095,7 @@
         "material": "Steel",
         "desktop": "",
         "items_included": [],
-        "image": "asset_content/wa-67/spec4.png"
+        "image": "asset_content/wa-67/spec4.jpg"
       },
       {
         "model_no": "WA-67□5A",
@@ -4103,7 +4103,7 @@
         "material": "Steel",
         "desktop": "",
         "items_included": [],
-        "image": "asset_content/wa-67/spec5.png"
+        "image": "asset_content/wa-67/spec5.jpg"
       },
       {
         "model_no": "WA-67□6A",
@@ -4111,7 +4111,7 @@
         "material": "Steel",
         "desktop": "",
         "items_included": [],
-        "image": "asset_content/wa-67/spec6.png"
+        "image": "asset_content/wa-67/spec6.jpg"
       },
       {
         "model_no": "WA-67□7A",
@@ -4119,7 +4119,7 @@
         "material": "Steel",
         "desktop": "",
         "items_included": [],
-        "image": "asset_content/wa-67/spec7.png"
+        "image": "asset_content/wa-67/spec7.jpg"
       }
     ]
   },
@@ -4367,12 +4367,12 @@
       "items_included": "",
       "raw": "DIY product,\nMade in Taiwan\nModel No.\nWAT-5203□\n□\n: Workbench-Top → WAT-5203N\nRubber top(\nN\n),\nLaminate top(\nF\n)\nWood top(\nW\n),\nStainless steel top(\nS\n)\nTanko top(\nTG\n)&(\nTH\n)\nModel No.\nWAT-5203□\nWorkbench-top :\nN\n/\nF\n/\nS\n/\nW\nDimensions :\nW1500xD750xH800mm\nWorkbench-top :\nTG\n(H36)\n/\nTH\n(H43)\nDimensions :\nW1500xD750xH786mm |\nTG\nW1500xD750xH793mm |\nTH\nMaterial :  Steel\nModel No.\nWAT-5203□2\nWorkbench-top :\nN\n/\nF\n/\nS\n/\nW\nDimensions :\nW1500xD750xH1400mm\nWorkbench-top :\nTG\n(H36)\n/\nTH\n(H43)\nDimensions :\nW1500xD750xH1386mm |\nTG\nW1500xD750xH1393mm |\nTH\nMaterial :  Steel\nPanel Set :  Perforated Board\nModel No.\nWAT-5203□3\nWorkbench-top :\nN\n/\nF\n/\nS\n/\nW\nDimensions :\nW1500xD750xH1400mm\nWorkbench-top :\nTG\n(H36)\n/\nTH\n(H43)\nDimensions :\nW1500xD750xH1386mm |\nTG\nW1500xD750xH1393mm |\nTH\nMaterial :  Steel\nPanel Set :  Perforated Board+Shelf\nModel No.\nWAT-5203□4A\nWorkbench-top :\nN\n/\nF\n/\nS\n/\nW\nDimensions :\nW1500xD750xH1400mm\nWorkbench-top :\nTG\n(H36)\n/\nTH\n(H43)\nDimensions :\nW1500xD750xH1386mm |\nTG\nW1500xD750xH1393mm |\nTH\nMaterial :  Steel\nPanel Set :  Perforated Board+\nSocket\n※ Power plugs not included\nModel No.\nWAT-5203□5A\nWorkbench-top :\nN\n/\nF\n/\nS\n/\nW\nDimensions :\nW1500xD750xH1400mm\nWorkbench-top :\nTG\n(",
       "images": [
-        "asset_content/wat-5203/spec1.png",
-        "asset_content/wat-5203/spec2.png",
-        "asset_content/wat-5203/spec3.png",
-        "asset_content/wat-5203/spec4.png",
-        "asset_content/wat-5203/spec5.png",
-        "asset_content/wat-5203/spec6.png"
+        "asset_content/wat-5203/spec1.jpg",
+        "asset_content/wat-5203/spec2.jpg",
+        "asset_content/wat-5203/spec3.jpg",
+        "asset_content/wat-5203/spec4.jpg",
+        "asset_content/wat-5203/spec5.jpg",
+        "asset_content/wat-5203/spec6.jpg"
       ]
     },
     "spec_blocks": [
@@ -4390,7 +4390,7 @@
         "material": "Steel",
         "desktop": "",
         "items_included": [],
-        "image": "asset_content/wat-5203/spec1.png"
+        "image": "asset_content/wat-5203/spec1.jpg"
       },
       {
         "model_no": "WAT-5203□2",
@@ -4398,7 +4398,7 @@
         "material": "Steel",
         "desktop": "",
         "items_included": [],
-        "image": "asset_content/wat-5203/spec2.png"
+        "image": "asset_content/wat-5203/spec2.jpg"
       },
       {
         "model_no": "WAT-5203□3",
@@ -4406,7 +4406,7 @@
         "material": "Steel",
         "desktop": "",
         "items_included": [],
-        "image": "asset_content/wat-5203/spec3.png"
+        "image": "asset_content/wat-5203/spec3.jpg"
       },
       {
         "model_no": "WAT-5203□4A",
@@ -4414,7 +4414,7 @@
         "material": "Steel",
         "desktop": "",
         "items_included": [],
-        "image": "asset_content/wat-5203/spec4.png"
+        "image": "asset_content/wat-5203/spec4.jpg"
       },
       {
         "model_no": "WAT-5203□5A",
@@ -4422,7 +4422,7 @@
         "material": "Steel",
         "desktop": "",
         "items_included": [],
-        "image": "asset_content/wat-5203/spec5.png"
+        "image": "asset_content/wat-5203/spec5.jpg"
       },
       {
         "model_no": "WAT-5203□6A",
@@ -4430,7 +4430,7 @@
         "material": "Steel",
         "desktop": "",
         "items_included": [],
-        "image": "asset_content/wat-5203/spec6.png"
+        "image": "asset_content/wat-5203/spec6.jpg"
       }
     ]
   },
@@ -4543,13 +4543,13 @@
       "items_included": "",
       "raw": "DIY product,\nMade in Taiwan\nModel No.\nWAT-6203□\n□\n: Workbench-Top → WAT-6203N\nRubber top(\nN\n),\nLaminate top(\nF\n)\nRubber wood top(\nW\n),\nStainless steel top(\nS\n)\nTanko top(\nTG\n)&(\nTH\n)\nModel No.\nWAT-6203□\nWorkbench-top :\nN\n/\nF\n/\nS\n/\nW\nDimensions :\nW1800xD750xH800mm\nWorkbench-top :\nTG\n(H36)\n/\nTH\n(H43)\nDimensions :\nW1800xD750xH786mm |\nTG\nW1800xD750xH793mm |\nTH\nMaterial :  Steel\nModel No.\nWAT-6203□2\nWorkbench-top :\nN\n/\nF\n/\nS\n/\nW\nDimensions :\nW1800xD750xH1400mm\nWorkbench-top :\nTG\n(H36)\n/\nTH\n(H43)\nDimensions :\nW1800xD750xH1386mm |\nTG\nW1800xD750xH1393mm |\nTH\nMaterial :  Steel\nPanel Set :  Perforated Board\nModel No.\nWAT-6203□3\nWorkbench-top :\nN\n/\nF\n/\nS\n/\nW\nDimensions :\nW1800xD750xH1400mm\nWorkbench-top :\nTG\n(H36)\n/\nTH\n(H43)\nDimensions :\nW1800xD750xH1386mm |\nTG\nW1800xD750xH1393mm |\nTH\nMaterial :  Steel\nPanel Set :  Perforated Board+Shelf\nModel No.\nWAT-6203□4A\nWorkbench-top :\nN\n/\nF\n/\nS\n/\nW\nDimensions :\nW1800xD750xH1400mm\nWorkbench-top :\nTG\n(H36)\n/\nTH\n(H43)\nDimensions :\nW1800xD750xH1386mm |\nTG\nW1800xD750xH1393mm |\nTH\nMaterial :  Steel\nPanel Set :  Perforated Board+\nSocket\n※ Power plugs not included\nModel No.\nWAT-6203□5A\nWorkbench-top :\nN\n/\nF\n/\nS\n/\nW\nDimensions :\nW1800xD750xH1400mm\nWorkbench-top",
       "images": [
-        "asset_content/wat-6203/spec1.png",
-        "asset_content/wat-6203/spec2.png",
-        "asset_content/wat-6203/spec3.png",
-        "asset_content/wat-6203/spec4.png",
-        "asset_content/wat-6203/spec5.png",
-        "asset_content/wat-6203/spec6.png",
-        "asset_content/wat-6203/spec7.png"
+        "asset_content/wat-6203/spec1.jpg",
+        "asset_content/wat-6203/spec2.jpg",
+        "asset_content/wat-6203/spec3.jpg",
+        "asset_content/wat-6203/spec4.jpg",
+        "asset_content/wat-6203/spec5.jpg",
+        "asset_content/wat-6203/spec6.jpg",
+        "asset_content/wat-6203/spec7.jpg"
       ]
     },
     "spec_blocks": [
@@ -4567,7 +4567,7 @@
         "material": "Steel",
         "desktop": "",
         "items_included": [],
-        "image": "asset_content/wat-6203/spec1.png"
+        "image": "asset_content/wat-6203/spec1.jpg"
       },
       {
         "model_no": "WAT-6203□2",
@@ -4575,7 +4575,7 @@
         "material": "Steel",
         "desktop": "",
         "items_included": [],
-        "image": "asset_content/wat-6203/spec2.png"
+        "image": "asset_content/wat-6203/spec2.jpg"
       },
       {
         "model_no": "WAT-6203□3",
@@ -4583,7 +4583,7 @@
         "material": "Steel",
         "desktop": "",
         "items_included": [],
-        "image": "asset_content/wat-6203/spec3.png"
+        "image": "asset_content/wat-6203/spec3.jpg"
       },
       {
         "model_no": "WAT-6203□4A",
@@ -4591,7 +4591,7 @@
         "material": "Steel",
         "desktop": "",
         "items_included": [],
-        "image": "asset_content/wat-6203/spec4.png"
+        "image": "asset_content/wat-6203/spec4.jpg"
       },
       {
         "model_no": "WAT-6203□5A",
@@ -4599,7 +4599,7 @@
         "material": "Steel",
         "desktop": "",
         "items_included": [],
-        "image": "asset_content/wat-6203/spec5.png"
+        "image": "asset_content/wat-6203/spec5.jpg"
       },
       {
         "model_no": "WAT-6203□6A",
@@ -4607,7 +4607,7 @@
         "material": "Steel",
         "desktop": "",
         "items_included": [],
-        "image": "asset_content/wat-6203/spec6.png"
+        "image": "asset_content/wat-6203/spec6.jpg"
       },
       {
         "model_no": "WAT-6203□7A",
@@ -4615,7 +4615,7 @@
         "material": "Steel",
         "desktop": "",
         "items_included": [],
-        "image": "asset_content/wat-6203/spec7.png"
+        "image": "asset_content/wat-6203/spec7.jpg"
       }
     ]
   },
@@ -4893,12 +4893,12 @@
       "items_included": "",
       "raw": "DIY product,\nMade in Taiwan\nModel No.\nWAS-54022□\n□\n: Workbench-Top → WAS-54022W\nRubber top(\nN\n),\nLaminate top(\nF\n)\nRubber wood top(\nW\n),\nStainless steel top(\nS\n)\nTanko top(\nTG\n)&(\nTH\n)\nModel No.\nWAS-54022□\nWorkbench-top :\nN\n/\nF\n/\nS\n/\nW\nDimensions :\nW1500xD750xH800mm\nWorkbench-top :\nTG\n(H36)\n/\nTH\n(H43)\nDimensions :\nW1500xD750xH786mm |\nTG\nW1500xD750xH793mm |\nTH\nMaterial :  Steel\nModel No.\nWAS-54022□2\nWorkbench-top :\nN\n/\nF\n/\nS\n/\nW\nDimensions :\nW1500xD750xH1400mm\nWorkbench-top :\nTG\n(H36)\n/\nTH\n(H43)\nDimensions :\nW1500xD750xH1386mm |\nTG\nW1500xD750xH1393mm |\nTH\nMaterial :  Steel\nPanel Set :  Perforated Board\nModel No.\nWAS-54022□3\nWorkbench-top :\nN\n/\nF\n/\nS\n/\nW\nDimensions :\nW1500xD750xH1400mm\nWorkbench-top :\nTG\n(H36)\n/\nTH\n(H43)\nDimensions :\nW1500xD750xH1386mm |\nTG\nW1500xD750xH1393mm |\nTH\nMaterial :  Steel\nPanel Set :  Perforated Board+Shelf\nModel No.\nWAS-54022□4A\nWorkbench-top :\nN\n/\nF\n/\nS\n/\nW\nDimensions :\nW1500xD750xH1400mm\nWorkbench-top :\nTG\n(H36)\n/\nTH\n(H43)\nDimensions :\nW1500xD750xH1386mm |\nTG\nW1500xD750xH1393mm |\nTH\nMaterial :  Steel\nPanel Set :  Perforated Board+\nSocket\n※ Power plugs not included\nModel No.\nWAS-54031□5A\nWorkbench-top :\nN\n/\nF\n/\nS\n/\nW\nDimensions :\nW1500xD750xH1400mm\nWorkbe",
       "images": [
-        "asset_content/was-54/spec1.png",
-        "asset_content/was-54/spec2.png",
-        "asset_content/was-54/spec3.png",
-        "asset_content/was-54/spec4.png",
-        "asset_content/was-54/spec5.png",
-        "asset_content/was-54/spec6.png"
+        "asset_content/was-54/spec1.jpg",
+        "asset_content/was-54/spec2.jpg",
+        "asset_content/was-54/spec3.jpg",
+        "asset_content/was-54/spec4.jpg",
+        "asset_content/was-54/spec5.jpg",
+        "asset_content/was-54/spec6.jpg"
       ]
     },
     "spec_blocks": [
@@ -4916,7 +4916,7 @@
         "material": "Steel",
         "desktop": "",
         "items_included": [],
-        "image": "asset_content/was-54/spec1.png"
+        "image": "asset_content/was-54/spec1.jpg"
       },
       {
         "model_no": "WAS-54022□2",
@@ -4924,7 +4924,7 @@
         "material": "Steel",
         "desktop": "",
         "items_included": [],
-        "image": "asset_content/was-54/spec2.png"
+        "image": "asset_content/was-54/spec2.jpg"
       },
       {
         "model_no": "WAS-54022□3",
@@ -4932,7 +4932,7 @@
         "material": "Steel",
         "desktop": "",
         "items_included": [],
-        "image": "asset_content/was-54/spec3.png"
+        "image": "asset_content/was-54/spec3.jpg"
       },
       {
         "model_no": "WAS-54022□4A",
@@ -4940,7 +4940,7 @@
         "material": "Steel",
         "desktop": "",
         "items_included": [],
-        "image": "asset_content/was-54/spec4.png"
+        "image": "asset_content/was-54/spec4.jpg"
       },
       {
         "model_no": "WAS-54031□5A",
@@ -4948,7 +4948,7 @@
         "material": "Steel",
         "desktop": "",
         "items_included": [],
-        "image": "asset_content/was-54/spec5.png"
+        "image": "asset_content/was-54/spec5.jpg"
       },
       {
         "model_no": "WAS-54031□6A",
@@ -4956,7 +4956,7 @@
         "material": "Steel",
         "desktop": "",
         "items_included": [],
-        "image": "asset_content/was-54/spec6.png"
+        "image": "asset_content/was-54/spec6.jpg"
       }
     ]
   },
@@ -5220,13 +5220,13 @@
       "items_included": "",
       "raw": "DIY product,\nMade in Taiwan\nModel No.\nWAS-57042□\n□\n: Workbench-Top → WAS-57042S\nRubber top(\nN\n),\nLaminate top(\nF\n)\nRubber wood top(\nW\n),\nStainless steel top(\nS\n)\nTanko top(\nTG\n)&(\nTH\n)\nModel No.\nWAS-57042□\nWorkbench-top :\nN\n/\nF\n/\nS\n/\nW\nDimensions :\nW1500xD750xH800mm\nWorkbench-top :\nTG\n(H36)\n/\nTH\n(H43)\nDimensions :\nW1500xD750xH786mm |\nTG\nW1500xD750xH793mm |\nTH\nMaterial :  Steel\nModel No.\nWAS-57042□2\nWorkbench-top :\nN\n/\nF\n/\nS\n/\nW\nDimensions :\nW1500xD750xH1400mm\nWorkbench-top :\nTG\n(H36)\n/\nTH\n(H43)\nDimensions :\nW1500xD750xH1386mm |\nTG\nW1500xD750xH1393mm |\nTH\nMaterial :  Steel\nPanel Set :  Perforated Board\nModel No.\nWAS-57042□3\nWorkbench-top :\nN\n/\nF\n/\nS\n/\nW\nDimensions :\nW1500xD750xH1400mm\nWorkbench-top :\nTG\n(H36)\n/\nTH\n(H43)\nDimensions :\nW1500xD750xH1386mm |\nTG\nW1500xD750xH1393mm |\nTH\nMaterial :  Steel\nPanel Set :  Perforated Board+Shelf\nModel No.\nWAS-57042□4A\nWorkbench-top :\nN\n/\nF\n/\nS\n/\nW\nDimensions :\nW1500xD750xH1400mm\nWorkbench-top :\nTG\n(H36)\n/\nTH\n(H43)\nDimensions :\nW1500xD750xH1386mm |\nTG\nW1500xD750xH1393mm |\nTH\nMaterial :  Steel\nPanel Set :  Perforated Board+\nSocket\n※ Power plugs not included\nModel No.\nWAS-57042□5A\nWorkbench-top :\nN\n/\nF\n/\nS\n/\nW\nDimensions :\nW1500xD750xH1400mm\nWorkbe",
       "images": [
-        "asset_content/was-57042/spec1.png",
-        "asset_content/was-57042/spec2.png",
-        "asset_content/was-57042/spec3.png",
-        "asset_content/was-57042/spec4.png",
-        "asset_content/was-57042/spec5.png",
-        "asset_content/was-57042/spec6.png",
-        "asset_content/was-57042/spec7.png"
+        "asset_content/was-57042/spec1.jpg",
+        "asset_content/was-57042/spec2.jpg",
+        "asset_content/was-57042/spec3.jpg",
+        "asset_content/was-57042/spec4.jpg",
+        "asset_content/was-57042/spec5.jpg",
+        "asset_content/was-57042/spec6.jpg",
+        "asset_content/was-57042/spec7.jpg"
       ]
     },
     "spec_blocks": [
@@ -5244,7 +5244,7 @@
         "material": "Steel",
         "desktop": "",
         "items_included": [],
-        "image": "asset_content/was-57042/spec1.png"
+        "image": "asset_content/was-57042/spec1.jpg"
       },
       {
         "model_no": "WAS-57042□2",
@@ -5252,7 +5252,7 @@
         "material": "Steel",
         "desktop": "",
         "items_included": [],
-        "image": "asset_content/was-57042/spec2.png"
+        "image": "asset_content/was-57042/spec2.jpg"
       },
       {
         "model_no": "WAS-57042□3",
@@ -5260,7 +5260,7 @@
         "material": "Steel",
         "desktop": "",
         "items_included": [],
-        "image": "asset_content/was-57042/spec3.png"
+        "image": "asset_content/was-57042/spec3.jpg"
       },
       {
         "model_no": "WAS-57042□4A",
@@ -5268,7 +5268,7 @@
         "material": "Steel",
         "desktop": "",
         "items_included": [],
-        "image": "asset_content/was-57042/spec4.png"
+        "image": "asset_content/was-57042/spec4.jpg"
       },
       {
         "model_no": "WAS-57042□5A",
@@ -5276,7 +5276,7 @@
         "material": "Steel",
         "desktop": "",
         "items_included": [],
-        "image": "asset_content/was-57042/spec5.png"
+        "image": "asset_content/was-57042/spec5.jpg"
       },
       {
         "model_no": "WAS-57042□6A",
@@ -5284,7 +5284,7 @@
         "material": "Steel",
         "desktop": "",
         "items_included": [],
-        "image": "asset_content/was-57042/spec6.png"
+        "image": "asset_content/was-57042/spec6.jpg"
       }
     ]
   },
@@ -5397,15 +5397,15 @@
       "items_included": "",
       "raw": "DIY product,\nMade in Taiwan\nModel No.\nWAS-67051□\n□\n: Workbench-Top → WAS-67051S\nRubber top(\nN\n),\nLaminate top(\nF\n)\nRubber wood top(\nW\n),\nStainless steel top(\nS\n)\nTanko top(\nTG\n)&(\nTH\n)\nModel No.\nWAS-67051□\nWorkbench-top :\nN\n/\nF\n/\nS\n/\nW\nDimensions :\nW1800xD750xH800mm\nWorkbench-top :\nTG\n(H36)\n/\nTH\n(H43)\nDimensions :\nW1800xD750xH786mm |\nTG\nW1800xD750xH793mm |\nTH\nMaterial :  Steel\nModel No.\nWAS-67042□\nWorkbench-top :\nN\n/\nF\n/\nS\n/\nW\nDimensions :\nW1800xD750xH800mm\nWorkbench-top :\nTG\n(H36)\n/\nTH\n(H43)\nDimensions :\nW1800xD750xH786mm |\nTG\nW1800xD750xH793mm |\nTH\nMaterial :  Steel\nModel No.\nWAS-67042□2\nWorkbench-top :\nN\n/\nF\n/\nS\n/\nW\nDimensions :\nW1800xD750xH1400mm\nWorkbench-top :\nTG\n(H36)\n/\nTH\n(H43)\nDimensions :\nW1800xD750xH1386mm |\nTG\nW1800xD750xH1393mm |\nTH\nMaterial :  Steel\nPanel Set :  Perforated Board\nModel No.\nWAS-67042□3\nWorkbench-top :\nN\n/\nF\n/\nS\n/\nW\nDimensions :\nW1800xD750xH1400mm\nWorkbench-top :\nTG\n(H36)\n/\nTH\n(H43)\nDimensions :\nW1800xD750xH1386mm |\nTG\nW1800xD750xH1393mm |\nTH\nMaterial :  Steel\nPanel Set :  Perforated Board+Shelf\nModel No.\nWAS-67042□4A\nWorkbench-top :\nN\n/\nF\n/\nS\n/\nW\nDimensions :\nW1800xD750xH1400mm\nWorkbench-top :\nTG\n(H36)\n/\nTH\n(H43)\nDimensions :\nW1800xD750xH1386mm |\nTG\nW18",
       "images": [
-        "asset_content/was-67053/spec1.png",
-        "asset_content/was-67053/spec2.png",
-        "asset_content/was-67053/spec3.png",
-        "asset_content/was-67053/spec4.png",
+        "asset_content/was-67053/spec1.jpg",
+        "asset_content/was-67053/spec2.jpg",
+        "asset_content/was-67053/spec3.jpg",
+        "asset_content/was-67053/spec4.jpg",
         "asset_content/was-67053/spec5.jpg",
-        "asset_content/was-67053/spec6.png",
-        "asset_content/was-67053/spec7.png",
-        "asset_content/was-67053/spec8.png",
-        "asset_content/was-67053/spec9.png"
+        "asset_content/was-67053/spec6.jpg",
+        "asset_content/was-67053/spec7.jpg",
+        "asset_content/was-67053/spec8.jpg",
+        "asset_content/was-67053/spec9.jpg"
       ]
     },
     "spec_blocks": [
@@ -5423,7 +5423,7 @@
         "material": "Steel",
         "desktop": "",
         "items_included": [],
-        "image": "asset_content/was-67053/spec1.png"
+        "image": "asset_content/was-67053/spec1.jpg"
       },
       {
         "model_no": "WAS-67042□",
@@ -5431,7 +5431,7 @@
         "material": "Steel",
         "desktop": "",
         "items_included": [],
-        "image": "asset_content/was-67053/spec2.png"
+        "image": "asset_content/was-67053/spec2.jpg"
       },
       {
         "model_no": "WAS-67042□2",
@@ -5439,7 +5439,7 @@
         "material": "Steel",
         "desktop": "",
         "items_included": [],
-        "image": "asset_content/was-67053/spec3.png"
+        "image": "asset_content/was-67053/spec3.jpg"
       },
       {
         "model_no": "WAS-67042□3",
@@ -5447,7 +5447,7 @@
         "material": "Steel",
         "desktop": "",
         "items_included": [],
-        "image": "asset_content/was-67053/spec4.png"
+        "image": "asset_content/was-67053/spec4.jpg"
       },
       {
         "model_no": "WAS-67042□4A",
@@ -5463,7 +5463,7 @@
         "material": "Steel",
         "desktop": "",
         "items_included": [],
-        "image": "asset_content/was-67053/spec6.png"
+        "image": "asset_content/was-67053/spec6.jpg"
       },
       {
         "model_no": "WAS-67042□6A",
@@ -5471,7 +5471,7 @@
         "material": "Steel",
         "desktop": "",
         "items_included": [],
-        "image": "asset_content/was-67053/spec7.png"
+        "image": "asset_content/was-67053/spec7.jpg"
       },
       {
         "model_no": "WAS-67042□7A",
@@ -5479,7 +5479,7 @@
         "material": "Steel",
         "desktop": "",
         "items_included": [],
-        "image": "asset_content/was-67053/spec8.png"
+        "image": "asset_content/was-67053/spec8.jpg"
       }
     ]
   },
@@ -5738,7 +5738,7 @@
       "items_included": "",
       "raw": "DIY product,\nMade in Taiwan\nModel No.\nWAS-77041□\n□\n: Workbench-Top → WAS-77041F\nRubber top(\nN\n),\nLaminate top(\nF\n)\nRubber wood top(\nW\n),\nStainless steel top(\nS\n)\nModel No.\nWAD-77042□\nWorkbench-top :\nN\n/\nF\n/\nS\n/\nW\nDimensions :\nW2100xD750xH800mm\nMaterial :  Steel\nWorkbench Loading:  2000kg\nDrawer loading:  100kg\nModel No.\nWAD-77042□2\nWorkbench-top :\nN\n/\nF\n/\nS\n/\nW\nDimensions :\nW2100xD750xH1400mm\nMaterial :  Steel\nPanel Set :  Perforated Board\nWorkbench Loading:  2000kg\nDrawer loading:  100kg\nModel No.\nWAD-77042□3\nWorkbench-top :\nN\n/\nF\n/\nS\n/\nW\nDimensions :\nW2100xD750xH1400mm\nMaterial :  Steel\nPanel Set :  Perforated Board+Shelf\nWorkbench Loading:  2000kg\nDrawer loading:  100kg\nModel No.\nWAD-77042□4A\nWorkbench-top :\nN\n/\nF\n/\nS\n/\nW\nDimensions :\nW2100xD750xH1400mm\nMaterial :  Steel\nPanel Set :  Perforated Board+\nSocket\nWorkbench Loading:  2000kg\nDrawer loading:  100kg\n※ Power plugs not included\nModel No.\nWAD-77042□5A\nWorkbench-top :\nN\n/\nF\n/\nS\n/\nW\nDimensions :\nW2100xD750xH1400mm\nMaterial :  Steel\nPanel Set :  Perforated Board+\nShelf+Socket\nWorkbench Loading:  2000kg\nDrawer loading:  100kg\n※ Power plugs not included\nModel No.\nWAD-77042□6A\nWorkbench-top :\nN\n/\nF\n/\nS\n/\nW\nDimensions :\nW2100xD750",
       "images": [
-        "asset_content/wad-77041/spec1.png",
+        "asset_content/wad-77041/spec1.jpg",
         "asset_content/wad-77041/spec2.jpg",
         "asset_content/wad-77041/spec3.jpg",
         "asset_content/wad-77041/spec4.jpg",
@@ -5763,7 +5763,7 @@
         "material": "Steel",
         "desktop": "",
         "items_included": [],
-        "image": "asset_content/wad-77041/spec1.png"
+        "image": "asset_content/wad-77041/spec1.jpg"
       },
       {
         "model_no": "WAD-77042□2",
@@ -5909,9 +5909,9 @@
       "items_included": "",
       "raw": "DIY product,\nMade in Taiwan\nModel No.\nWA-57□M\n□\n: Workbench-Top → WA-57NM\nRubber top(\nN\n),\nLaminate top(\nF\n)\nRubber wood top(\nW\n),\nStainless steel top(\nS\n)\nTanko top(\nTG\n)&(\nTH\n)\nModel No.\nWA-57□M\nWorkbench-top :\nN\n/\nF\n/\nS\n/\nW\nDimensions :\nW1500xD750xH850mm\nWorkbench-top :\nTG\n(H36)\n/\nTH\n(H43)\nDimensions :\nW1500xD750xH836mm |\nTG\nW1500xD750xH843mm |\nTH\nMaterial :  Steel\nWorkbench Loading:  1000kg\nModel No.\nWAT-5203□M\nWorkbench-top :\nN\n/\nF\n/\nS\n/\nW\nDimensions :\nW1500xD750xH850mm\nWorkbench-top :\nTG\n(H36)\n/\nTH\n(H43)\nDimensions :\nW1500xD750xH836mm |\nTG\nW1500xD750xH843mm |\nTH\nMaterial :  Steel\nWorkbench Loading:  1000kg\nDrawer loading:  50kg\nModel No.\nWAS-54031□M\nWorkbench-top :\nN\n/\nF\n/\nS\n/\nW\nDimensions :\nW1500xD750xH850mm\nWorkbench-top :\nTG\n(H36)\n/\nTH\n(H43)\nDimensions :\nW1500xD750xH836mm |\nTG\nW1500xD750xH843mm |\nTH\nMaterial :  Steel\nWorkbench Loading:  1000kg\nDrawer loading:  100kg",
       "images": [
-        "asset_content/wa-57m/spec1.png",
-        "asset_content/wa-57m/spec2.png",
-        "asset_content/wa-57m/spec3.png"
+        "asset_content/wa-57m/spec1.jpg",
+        "asset_content/wa-57m/spec2.jpg",
+        "asset_content/wa-57m/spec3.jpg"
       ]
     },
     "spec_blocks": [
@@ -5929,7 +5929,7 @@
         "material": "Steel",
         "desktop": "",
         "items_included": [],
-        "image": "asset_content/wa-57m/spec1.png"
+        "image": "asset_content/wa-57m/spec1.jpg"
       },
       {
         "model_no": "WAT-5203□M",
@@ -5937,7 +5937,7 @@
         "material": "Steel",
         "desktop": "",
         "items_included": [],
-        "image": "asset_content/wa-57m/spec2.png"
+        "image": "asset_content/wa-57m/spec2.jpg"
       },
       {
         "model_no": "WAS-54031□M",
@@ -5945,7 +5945,7 @@
         "material": "Steel",
         "desktop": "",
         "items_included": [],
-        "image": "asset_content/wa-57m/spec3.png"
+        "image": "asset_content/wa-57m/spec3.jpg"
       }
     ]
   },
@@ -6043,9 +6043,9 @@
       "items_included": "",
       "raw": "DIY product,\nMade in Taiwan\nModel No.\nWA-67□M\n□\n: Workbench-Top → WA-67NM\nRubber top(\nN\n),\nLaminate top(\nF\n)\nRubber wood top(\nW\n),\nStainless steel top(\nS\n)\nTanko top(\nTG\n)&(\nTH\n)\nModel No.\nWA-67□M\nWorkbench-top :\nN\n/\nF\n/\nS\n/\nW\nDimensions :\nW1800xD750xH850mm\nWorkbench-top :\nTG\n(H36)\n/\nTH\n(H43)\nDimensions :\nW1800xD750xH836mm |\nTG\nW1800xD750xH843mm |\nTH\nMaterial :  Steel\nWorkbench Loading:  1000kg\nModel No.\nWAT-6203□M\nWorkbench-top :\nN\n/\nF\n/\nS\n/\nW\nDimensions :\nW1800xD750xH850mm\nWorkbench-top :\nTG\n(H36)\n/\nTH\n(H43)\nDimensions :\nW1800xD750xH836mm |\nTG\nW1800xD750xH843mm |\nTH\nMaterial :  Steel\nWorkbench Loading:  1000kg\nDrawer loading:  50kg\nModel No.\nWAS-64031□M\nWorkbench-top :\nN\n/\nF\n/\nS\n/\nW\nDimensions :\nW1800xD750xH850mm\nWorkbench-top :\nTG\n(H36)\n/\nTH\n(H43)\nDimensions :\nW1800xD750xH836mm |\nTG\nW1800xD750xH843mm |\nTH\nMaterial :  Steel\nWorkbench Loading:  1000kg\nDrawer loading:  100kg",
       "images": [
-        "asset_content/wa-67m/spec1.png",
-        "asset_content/wa-67m/spec2.png",
-        "asset_content/wa-67m/spec3.png"
+        "asset_content/wa-67m/spec1.jpg",
+        "asset_content/wa-67m/spec2.jpg",
+        "asset_content/wa-67m/spec3.jpg"
       ]
     },
     "spec_blocks": [
@@ -6063,7 +6063,7 @@
         "material": "Steel",
         "desktop": "",
         "items_included": [],
-        "image": "asset_content/wa-67m/spec1.png"
+        "image": "asset_content/wa-67m/spec1.jpg"
       },
       {
         "model_no": "WAT-6203□M",
@@ -6071,7 +6071,7 @@
         "material": "Steel",
         "desktop": "",
         "items_included": [],
-        "image": "asset_content/wa-67m/spec2.png"
+        "image": "asset_content/wa-67m/spec2.jpg"
       },
       {
         "model_no": "WAS-64031□M",
@@ -6079,7 +6079,7 @@
         "material": "Steel",
         "desktop": "",
         "items_included": [],
-        "image": "asset_content/wa-67m/spec3.png"
+        "image": "asset_content/wa-67m/spec3.jpg"
       }
     ]
   },
@@ -6176,20 +6176,20 @@
         "asset_content/wa-57a/spec27.png",
         "asset_content/wa-57a/spec29.png",
         "asset_content/wa-57a/spec31.jpg",
-        "asset_content/wa-57a/spec32.png",
-        "asset_content/wa-57a/spec34.png",
-        "asset_content/wa-57a/spec36.png",
-        "asset_content/wa-57a/spec39.png",
+        "asset_content/wa-57a/spec32.jpg",
+        "asset_content/wa-57a/spec34.jpg",
+        "asset_content/wa-57a/spec36.jpg",
+        "asset_content/wa-57a/spec39.jpg",
         "asset_content/wa-57a/spec40.jpg",
-        "asset_content/wa-57a/spec42.png",
-        "asset_content/wa-57a/spec44.png",
-        "asset_content/wa-57a/spec46.png",
-        "asset_content/wa-57a/spec47.png",
+        "asset_content/wa-57a/spec42.jpg",
+        "asset_content/wa-57a/spec44.jpg",
+        "asset_content/wa-57a/spec46.jpg",
+        "asset_content/wa-57a/spec47.jpg",
         "asset_content/wa-57a/spec49.jpg",
-        "asset_content/wa-57a/spec50.png",
-        "asset_content/wa-57a/spec52.png",
-        "asset_content/wa-57a/spec54.png",
-        "asset_content/wa-57a/spec56.png"
+        "asset_content/wa-57a/spec50.jpg",
+        "asset_content/wa-57a/spec52.jpg",
+        "asset_content/wa-57a/spec54.jpg",
+        "asset_content/wa-57a/spec56.jpg"
       ]
     },
     "spec_blocks": []
@@ -6302,25 +6302,25 @@
         "asset_content/wa-67a/spec24.png",
         "asset_content/wa-67a/spec25.png",
         "asset_content/wa-67a/spec27.jpg",
-        "asset_content/wa-67a/spec28.png",
-        "asset_content/wa-67a/spec31.png",
-        "asset_content/wa-67a/spec32.png",
-        "asset_content/wa-67a/spec34.png",
+        "asset_content/wa-67a/spec28.jpg",
+        "asset_content/wa-67a/spec31.jpg",
+        "asset_content/wa-67a/spec32.jpg",
+        "asset_content/wa-67a/spec34.jpg",
         "asset_content/wa-67a/spec36.jpg",
-        "asset_content/wa-67a/spec38.png",
-        "asset_content/wa-67a/spec40.png",
-        "asset_content/wa-67a/spec42.png",
-        "asset_content/wa-67a/spec43.png",
+        "asset_content/wa-67a/spec38.jpg",
+        "asset_content/wa-67a/spec40.jpg",
+        "asset_content/wa-67a/spec42.jpg",
+        "asset_content/wa-67a/spec43.jpg",
         "asset_content/wa-67a/spec45.jpg",
-        "asset_content/wa-67a/spec47.png",
-        "asset_content/wa-67a/spec48.png",
-        "asset_content/wa-67a/spec50.png",
-        "asset_content/wa-67a/spec52.png",
+        "asset_content/wa-67a/spec47.jpg",
+        "asset_content/wa-67a/spec48.jpg",
+        "asset_content/wa-67a/spec50.jpg",
+        "asset_content/wa-67a/spec52.jpg",
         "asset_content/wa-67a/spec54.jpg",
-        "asset_content/wa-67a/spec56.png",
-        "asset_content/wa-67a/spec57.png",
-        "asset_content/wa-67a/spec60.png",
-        "asset_content/wa-67a/spec61.png"
+        "asset_content/wa-67a/spec56.jpg",
+        "asset_content/wa-67a/spec57.jpg",
+        "asset_content/wa-67a/spec60.jpg",
+        "asset_content/wa-67a/spec61.jpg"
       ]
     },
     "spec_blocks": []
@@ -6364,22 +6364,22 @@
       {
         "title": "WD-48□",
         "caption": "Model No. WD-48□ Workbench-top : P / Q Dimensions : W1224xD775xH810mm | P W1224xD775xH812mm | Q Material : Steel",
-        "image": "asset_content/wd-48/choose1.png"
+        "image": "asset_content/wd-48/choose1.jpg"
       },
       {
         "title": "WD-48□3",
         "caption": "Model No. WD-48□3 Workbench-top : P / Q Dimensions : W1224xD775xH1410mm Material : Steel Panel Set : Perforated Board+Shelf",
-        "image": "asset_content/wd-48/choose2.png"
+        "image": "asset_content/wd-48/choose2.jpg"
       },
       {
         "title": "WD-48□6A",
         "caption": "Model No. WD-48□6A Workbench-top : P / Q Dimensions : W1224xD775xH1410mm Material : Steel Panel Set : Perforated Board+ Shelf+Socket+Light Light : 10W LED Light ※ Power plugs not included",
-        "image": "asset_content/wd-48/choose3.png"
+        "image": "asset_content/wd-48/choose3.jpg"
       },
       {
         "title": "WD-48□9A",
         "caption": "Model No. WD-48□9A Workbench-top : P / Q Dimensions : W1224xD775xH1710mm Material : Steel Panel Set : Perforated Board+ Shelf+Socket+Light Light : 10W LED Light ※ Power plugs not included",
-        "image": "asset_content/wd-48/choose4.png"
+        "image": "asset_content/wd-48/choose4.jpg"
       }
     ],
     "spec": {},
@@ -6424,22 +6424,22 @@
       {
         "title": "WD-58□",
         "caption": "Model No. WD-58□ Workbench-top : P / Q Dimensions : W1524xD775xH810mm | P W1524xD775xH812mm | Q Material : Steel",
-        "image": "asset_content/wd-58/choose1.png"
+        "image": "asset_content/wd-58/choose1.jpg"
       },
       {
         "title": "WD-58□3",
         "caption": "Model No. WD-58□3 Workbench-top : P / Q Dimensions : W1524xD775xH1410mm Material : Steel Panel Set : Perforated Board+ Shelf",
-        "image": "asset_content/wd-58/choose2.png"
+        "image": "asset_content/wd-58/choose2.jpg"
       },
       {
         "title": "WD-58□6A",
         "caption": "Model No. WD-58□6A Workbench-top : P / Q Dimensions : W1524xD775xH1410mm Material : Steel Panel Set : Perforated Board+ Shelf+Socket+Light Light : 20W LED Light ※ Power plugs not included",
-        "image": "asset_content/wd-58/choose3.png"
+        "image": "asset_content/wd-58/choose3.jpg"
       },
       {
         "title": "WD-58□9A",
         "caption": "Model No. WD-58□9A Workbench-top : P / Q Dimensions : W1524xD775xH1710mm Material : Steel Panel Set : Perforated Board+ Shelf+Socket+Light Light : 20W LED Light ※ Power plugs not included",
-        "image": "asset_content/wd-58/choose4.png"
+        "image": "asset_content/wd-58/choose4.jpg"
       }
     ],
     "spec": {},
@@ -6484,22 +6484,22 @@
       {
         "title": "WD-68□",
         "caption": "Model No. WD-68□ Workbench-top : P / Q Dimensions : W1824xD775xH810mm | P W1824xD775xH812mm | Q Material : Steel",
-        "image": "asset_content/wd-68/choose1.png"
+        "image": "asset_content/wd-68/choose1.jpg"
       },
       {
         "title": "WD-68□3",
         "caption": "Model No. WD-68□3 Workbench-top : P / Q Dimensions : W1824xD775xH1410mm Material : Steel Panel Set : Perforated Board+ Shelf",
-        "image": "asset_content/wd-68/choose2.png"
+        "image": "asset_content/wd-68/choose2.jpg"
       },
       {
         "title": "WD-68□6A",
         "caption": "Model No. WD-68□6A Workbench-top : P / Q Dimensions : W1824xD775xH1410mm Material : Steel Panel Set : Perforated Board+ Shelf+Socket+Light Light : 20W LED Light ※ Power plugs not included",
-        "image": "asset_content/wd-68/choose3.png"
+        "image": "asset_content/wd-68/choose3.jpg"
       },
       {
         "title": "WD-68□9A",
         "caption": "Model No. WD-68□9A Workbench-top : P / Q Dimensions : W1824xD775xH1710mm Material : Steel Panel Set : Perforated Board+ Shelf+Socket+Light Light : 20W LED Light ※ Power plugs not included",
-        "image": "asset_content/wd-68/choose4.png"
+        "image": "asset_content/wd-68/choose4.jpg"
       }
     ],
     "spec": {},
@@ -6517,7 +6517,7 @@
       {
         "title": "Hanging cabinet",
         "caption": "45kg load capacity per drawer.",
-        "image": "asset_content/wd-4801/feat2.png"
+        "image": "asset_content/wd-4801/feat2.jpg"
       },
       {
         "title": "2000kg load capacity",
@@ -6544,22 +6544,22 @@
       {
         "title": "WD-4801□",
         "caption": "Model No. WD-4801□ Workbench-top : P / Q Dimensions : W1224xD775xH810mm | P W1224xD775xH812mm | Q Material : Steel",
-        "image": "asset_content/wd-4801/choose1.png"
+        "image": "asset_content/wd-4801/choose1.jpg"
       },
       {
         "title": "WD-4801□3",
         "caption": "Model No. WD-4801□3 Workbench-top : P / Q Dimensions : W1224xD775xH1410mm Material : Steel Panel Set : Perforated Board+Shelf",
-        "image": "asset_content/wd-4801/choose2.png"
+        "image": "asset_content/wd-4801/choose2.jpg"
       },
       {
         "title": "WD-4801□6A",
         "caption": "Model No. WD-4801□6A Workbench-top : P / Q Dimensions : W1224xD775xH1410mm Material : Steel Panel Set : Perforated Board+ Shelf+Socket+Light Light : 10W LED Light ※ Power plugs not included",
-        "image": "asset_content/wd-4801/choose3.png"
+        "image": "asset_content/wd-4801/choose3.jpg"
       },
       {
         "title": "WD-4801□9A",
         "caption": "Model No. WD-4801□9A Workbench-top : P / Q Dimensions : W1224xD775xH1710mm Material : Steel Panel Set : Perforated Board+ Shelf+Socket+Light Light : 10W LED Light ※ Power plugs not included",
-        "image": "asset_content/wd-4801/choose4.png"
+        "image": "asset_content/wd-4801/choose4.jpg"
       }
     ],
     "spec": {},
@@ -6577,7 +6577,7 @@
       {
         "title": "Hanging cabinet",
         "caption": "45kg load capacity per drawer.",
-        "image": "asset_content/wd-5801/feat2.png"
+        "image": "asset_content/wd-5801/feat2.jpg"
       },
       {
         "title": "2000kg load capacity",
@@ -6604,22 +6604,22 @@
       {
         "title": "WD-5801□",
         "caption": "Model No. WD-5801□ Workbench-top : P / Q Dimensions : W1524xD775xH810mm | P W1524xD775xH812mm | Q Material : Steel",
-        "image": "asset_content/wd-5801/choose1.png"
+        "image": "asset_content/wd-5801/choose1.jpg"
       },
       {
         "title": "WD-5801□3",
         "caption": "Model No. WD-5801□3 Workbench-top : P / Q Dimensions : W1524xD775xH1410mm Material : Steel Panel Set : Perforated Board+ Shelf",
-        "image": "asset_content/wd-5801/choose2.png"
+        "image": "asset_content/wd-5801/choose2.jpg"
       },
       {
         "title": "WD-5801□6A",
         "caption": "Model No. WD-5801□6A Workbench-top : P / Q Dimensions : W1524xD775xH1410mm Material : Steel Panel Set : Perforated Board+ Shelf+Socket+Light Light : 20W LED Light ※ Power plugs not included",
-        "image": "asset_content/wd-5801/choose3.png"
+        "image": "asset_content/wd-5801/choose3.jpg"
       },
       {
         "title": "WD-5801□9A",
         "caption": "Model No. WD-5801□9A Workbench-top : P / Q Dimensions : W1524xD775xH1710mm Material : Steel Panel Set : Perforated Board+ Shelf+Socket+Light Light : 20W LED Light ※ Power plugs not included",
-        "image": "asset_content/wd-5801/choose4.png"
+        "image": "asset_content/wd-5801/choose4.jpg"
       }
     ],
     "spec": {},
@@ -6637,7 +6637,7 @@
       {
         "title": "Hanging cabinet",
         "caption": "45kg load capacity per drawer.",
-        "image": "asset_content/wd-6801/feat2.png"
+        "image": "asset_content/wd-6801/feat2.jpg"
       },
       {
         "title": "2000kg load capacity",
@@ -6664,22 +6664,22 @@
       {
         "title": "WD-6801□",
         "caption": "Model No. WD-6801□ Workbench-top : P / Q Dimensions : W1824xD775xH810mm | P W1824xD775xH812mm | Q Material : Steel",
-        "image": "asset_content/wd-6801/choose1.png"
+        "image": "asset_content/wd-6801/choose1.jpg"
       },
       {
         "title": "WD-6801□3",
         "caption": "Model No. WD-6801□3 Workbench-top : P / Q Dimensions : W1824xD775xH1410mm Material : Steel Panel Set : Perforated Board+ Shelf",
-        "image": "asset_content/wd-6801/choose2.png"
+        "image": "asset_content/wd-6801/choose2.jpg"
       },
       {
         "title": "WD-6801□6A",
         "caption": "Model No. WD-6801□6A Workbench-top : P / Q Dimensions : W1824xD775xH1410mm Material : Steel Panel Set : Perforated Board+ Shelf+Socket+Light Light : 20W LED Light ※ Power plugs not included",
-        "image": "asset_content/wd-6801/choose3.png"
+        "image": "asset_content/wd-6801/choose3.jpg"
       },
       {
         "title": "WD-6801□9A",
         "caption": "Model No. WD-6801□9A Workbench-top : P / Q Dimensions : W1824xD775xH1710mm Material : Steel Panel Set : Perforated Board+ Shelf+Socket+Light Light : 20W LED Light ※ Power plugs not included",
-        "image": "asset_content/wd-6801/choose4.png"
+        "image": "asset_content/wd-6801/choose4.jpg"
       }
     ],
     "spec": {},
@@ -6724,22 +6724,22 @@
       {
         "title": "WDT-4202□",
         "caption": "Model No. WDT-4202□ Workbench-top : P / Q Dimensions : W1224xD775xH810mm | P W1224xD775xH812mm | Q Material : Steel",
-        "image": "asset_content/wdt-4202/choose1.png"
+        "image": "asset_content/wdt-4202/choose1.jpg"
       },
       {
         "title": "WDT-4202□3",
         "caption": "Model No. WDT-4202□3 Workbench-top : P / Q Dimensions : W1224xD775xH1410mm Material : Steel Panel Set : Perforated Board+Shelf",
-        "image": "asset_content/wdt-4202/choose2.png"
+        "image": "asset_content/wdt-4202/choose2.jpg"
       },
       {
         "title": "WDT-4202□6A",
         "caption": "Model No. WDT-4202□6A Workbench-top : P / Q Dimensions : W1224xD775xH1410mm Material : Steel Panel Set : Perforated Board+ Shelf+Socket+Light Light : 10W LED Light ※ Power plugs not included",
-        "image": "asset_content/wdt-4202/choose3.png"
+        "image": "asset_content/wdt-4202/choose3.jpg"
       },
       {
         "title": "WDT-4202□9A",
         "caption": "Model No. WDT-4202□9A Workbench-top : P / Q Dimensions : W1224xD775xH1710mm Material : Steel Panel Set : Perforated Board+ Shelf+Socket+Light Light : 10W LED Light ※ Power plugs not included",
-        "image": "asset_content/wdt-4202/choose4.png"
+        "image": "asset_content/wdt-4202/choose4.jpg"
       }
     ],
     "spec": {},
@@ -6784,22 +6784,22 @@
       {
         "title": "WDT-5203□",
         "caption": "Model No. WDT-5203□ Workbench-top : P / Q Dimensions : W1524xD775xH810mm | P W1524xD775xH812mm | Q Material : Steel",
-        "image": "asset_content/wdt-5203/choose1.png"
+        "image": "asset_content/wdt-5203/choose1.jpg"
       },
       {
         "title": "WDT-5203□3",
         "caption": "Model No. WDT-5203□3 Workbench-top : P / Q Dimensions : W1524xD775xH1410mm Material : Steel Panel Set : Perforated Board+ Shelf",
-        "image": "asset_content/wdt-5203/choose2.png"
+        "image": "asset_content/wdt-5203/choose2.jpg"
       },
       {
         "title": "WDT-5203□6A",
         "caption": "Model No. WDT-5203□6A Workbench-top : P / Q Dimensions : W1524xD775xH1410mm Material : Steel Panel Set : Perforated Board+ Shelf+Socket+Light Light : 20W LED Light ※ Power plugs not included",
-        "image": "asset_content/wdt-5203/choose3.png"
+        "image": "asset_content/wdt-5203/choose3.jpg"
       },
       {
         "title": "WDT-5203□9A",
         "caption": "Model No. WDT-5203□9A Workbench-top : P / Q Dimensions : W1524xD775xH1710mm Material : Steel Panel Set : Perforated Board+ Shelf+Socket+Light Light : 20W LED Light ※ Power plugs not included",
-        "image": "asset_content/wdt-5203/choose4.png"
+        "image": "asset_content/wdt-5203/choose4.jpg"
       }
     ],
     "spec": {},
@@ -6844,22 +6844,22 @@
       {
         "title": "WDT-6203□",
         "caption": "Model No. WDT-6203□ Workbench-top : P / Q Dimensions : W1824xD775xH810mm | P W1824xD775xH812mm | Q Material : Steel",
-        "image": "asset_content/wdt-6203/choose1.png"
+        "image": "asset_content/wdt-6203/choose1.jpg"
       },
       {
         "title": "WDT-6203□3",
         "caption": "Model No. WDT-6203□3 Workbench-top : P / Q Dimensions : W1824xD775xH1410mm Material : Steel Panel Set : Perforated Board+ Shelf",
-        "image": "asset_content/wdt-6203/choose2.png"
+        "image": "asset_content/wdt-6203/choose2.jpg"
       },
       {
         "title": "WDT-6203□6A",
         "caption": "Model No. WDT-6203□6A Workbench-top : P / Q Dimensions : W1824xD775xH1410mm Material : Steel Panel Set : Perforated Board+ Shelf+Socket+Light Light : 20W LED Light ※ Power plugs not included",
-        "image": "asset_content/wdt-6203/choose3.png"
+        "image": "asset_content/wdt-6203/choose3.jpg"
       },
       {
         "title": "WDT-6203□9A",
         "caption": "Model No. WDT-6203□9A Workbench-top : P / Q Dimensions : W1824xD775xH1710mm Material : Steel Panel Set : Perforated Board+ Shelf+Socket+Light Light : 20W LED Light ※ Power plugs not included",
-        "image": "asset_content/wdt-6203/choose4.png"
+        "image": "asset_content/wdt-6203/choose4.jpg"
       }
     ],
     "spec": {},
@@ -6904,22 +6904,22 @@
       {
         "title": "WD-48S",
         "caption": "Model No. WD-48S Dimensions： W1217xD768xH800mm Material： 304 stainless steel",
-        "image": "asset_content/wd-48s/choose1.png"
+        "image": "asset_content/wd-48s/choose1.jpg"
       },
       {
         "title": "WD-48S2",
         "caption": "Model No. WD-48S2 Dimensions： W1221xD770xH1405mm Material： 304 stainless steel Panel Set： Perforated board (H645mm)",
-        "image": "asset_content/wd-48s/choose2.png"
+        "image": "asset_content/wd-48s/choose2.jpg"
       },
       {
         "title": "WD-48S3",
         "caption": "Model No. WD-48S3 Dimensions： W1221xD770xH1405mm Material： 304 stainless steel Panel Set： Perforated board (H645mm) + Shelf",
-        "image": "asset_content/wd-48s/choose3.png"
+        "image": "asset_content/wd-48s/choose3.jpg"
       },
       {
         "title": "WD-48S7",
         "caption": "Model No. WD-48S7 Dimensions： W1221xD770xH1705mm Material： 304 stainless steel Panel Set： Perforated board (H945mm) + Shelf",
-        "image": "asset_content/wd-48s/choose4.png"
+        "image": "asset_content/wd-48s/choose4.jpg"
       }
     ],
     "spec": {},
@@ -6964,22 +6964,22 @@
       {
         "title": "WD-58S",
         "caption": "Model No. WD-58S Dimensions： W1517xD768xH800mm Material： 304 stainless steel",
-        "image": "asset_content/wd-58s/choose1.png"
+        "image": "asset_content/wd-58s/choose1.jpg"
       },
       {
         "title": "WD-58S2",
         "caption": "Model No. WD-58S2 Dimensions： W1521xD770xH1405mm Material： 304 stainless steel Panel Set： Perforated board (H645mm)",
-        "image": "asset_content/wd-58s/choose2.png"
+        "image": "asset_content/wd-58s/choose2.jpg"
       },
       {
         "title": "WD-58S3",
         "caption": "Model No. WD-58S3 Dimensions： W1521xD770xH1405mm Material： 304 stainless steel Panel Set： Perforated board (H645mm) + Shelf",
-        "image": "asset_content/wd-58s/choose3.png"
+        "image": "asset_content/wd-58s/choose3.jpg"
       },
       {
         "title": "WD-58S7",
         "caption": "Model No. WD-58S7 Dimensions： W1521xD770xH1705mm Material： 304 stainless steel Panel Set： Perforated board (H945mm) + Shelf",
-        "image": "asset_content/wd-58s/choose4.png"
+        "image": "asset_content/wd-58s/choose4.jpg"
       }
     ],
     "spec": {},
@@ -7024,22 +7024,22 @@
       {
         "title": "WD-68S",
         "caption": "Model No. WD-68S Dimensions： W1817xD768xH800mm Material： 304 stainless steel",
-        "image": "asset_content/wd-68s/choose1.png"
+        "image": "asset_content/wd-68s/choose1.jpg"
       },
       {
         "title": "WD-68S2",
         "caption": "Model No. WD-68S2 Dimensions： W1821xD770xH1405mm Material： 304 stainless steel Panel Set： Perforated board (H645mm)",
-        "image": "asset_content/wd-68s/choose2.png"
+        "image": "asset_content/wd-68s/choose2.jpg"
       },
       {
         "title": "WD-68S3",
         "caption": "Model No. WD-68S3 Dimensions： W1821xD770xH1405mm Material： 304 stainless steel Panel Set： Perforated board (H645mm) + Shelf",
-        "image": "asset_content/wd-68s/choose3.png"
+        "image": "asset_content/wd-68s/choose3.jpg"
       },
       {
         "title": "WD-68S7",
         "caption": "Model No. WD-68S7 Dimensions： W1821xD770xH1705mm Material： 304 stainless steel Panel Set： Perforated board (H945mm) + Shelf",
-        "image": "asset_content/wd-68s/choose4.png"
+        "image": "asset_content/wd-68s/choose4.jpg"
       }
     ],
     "spec": {},
@@ -7052,22 +7052,22 @@
       {
         "title": "WP-625011",
         "caption": "Model No. WP-625011 Dimensions： W350xD350xH480mm",
-        "image": "asset_content/wp-6/feat1.png"
+        "image": "asset_content/wp-6/feat1.jpg"
       },
       {
         "title": "WP-625023",
         "caption": "Model No. WP-625023 Dimensions： W350xD350xH500~640mm Gas lift seat height adjustment",
-        "image": "asset_content/wp-6/feat2.png"
+        "image": "asset_content/wp-6/feat2.jpg"
       },
       {
         "title": "WP-61301",
         "caption": "Model No. WP-61301 Dimensions： W330xD600xH400~510mm Gas lift seat height adjustment",
-        "image": "asset_content/wp-6/feat3.png"
+        "image": "asset_content/wp-6/feat3.jpg"
       },
       {
         "title": "WP-61102",
         "caption": "Model No. WP-61102 Dimensions： W430xD490~530xH810~925mm Gas lift seat height adjustment With conductive castors",
-        "image": "asset_content/wp-6/feat4.png"
+        "image": "asset_content/wp-6/feat4.jpg"
       }
     ],
     "how_to_choose": [],
@@ -7113,22 +7113,22 @@
       {
         "title": "WDT-4202S",
         "caption": "Model No. WDT-4202S Dimensions： W1217xD768xH800mm Material： 304 stainless steel",
-        "image": "asset_content/wdt-48s/choose1.png"
+        "image": "asset_content/wdt-48s/choose1.jpg"
       },
       {
         "title": "WDT-4202S2",
         "caption": "Model No. WDT-4202S2 Dimensions： W1221xD770xH1405mm Material： 304 stainless steel Panel Set： Perforated board (H645mm)",
-        "image": "asset_content/wdt-48s/choose2.png"
+        "image": "asset_content/wdt-48s/choose2.jpg"
       },
       {
         "title": "WDT-4202S3",
         "caption": "Model No. WDT-4202S3 Dimensions： W1221xD770xH1405mm Material： 304 stainless steel Panel Set： Perforated board (H645mm) + Shelf",
-        "image": "asset_content/wdt-48s/choose3.png"
+        "image": "asset_content/wdt-48s/choose3.jpg"
       },
       {
         "title": "WDT-4202S7",
         "caption": "Model No. WDT-4202S7 Dimensions： W1221xD770xH1705mm Material： 304 stainless steel Panel Set： Perforated board (H945mm) + Shelf",
-        "image": "asset_content/wdt-48s/choose4.png"
+        "image": "asset_content/wdt-48s/choose4.jpg"
       }
     ],
     "spec": {},
@@ -7198,22 +7198,22 @@
       {
         "title": "WDT-5203S",
         "caption": "Model No. WDT-5203S Dimensions： W1517xD768xH800mm Material： 304 stainless steel",
-        "image": "asset_content/wdt-58s/choose1.png"
+        "image": "asset_content/wdt-58s/choose1.jpg"
       },
       {
         "title": "WDT-5203S2",
         "caption": "Model No. WDT-5203S2 Dimensions： W1521xD770xH1405mm Material： 304 stainless steel Panel Set： Perforated board (H645mm)",
-        "image": "asset_content/wdt-58s/choose2.png"
+        "image": "asset_content/wdt-58s/choose2.jpg"
       },
       {
         "title": "WDT-5203S3",
         "caption": "Model No. WDT-5203S3 Dimensions： W1521xD770xH1405mm Material： 304 stainless steel Panel Set： Perforated board (H645mm) + Shelf",
-        "image": "asset_content/wdt-58s/choose3.png"
+        "image": "asset_content/wdt-58s/choose3.jpg"
       },
       {
         "title": "WDT-5203S7",
         "caption": "Model No. WDT-5203S7 Dimensions： W1521xD770xH1705mm Material： 304 stainless steel Panel Set： Perforated board (H945mm) + Shelf",
-        "image": "asset_content/wdt-58s/choose4.png"
+        "image": "asset_content/wdt-58s/choose4.jpg"
       }
     ],
     "spec": {},
@@ -7258,22 +7258,22 @@
       {
         "title": "WDT-6203S",
         "caption": "Model No. WDT-6203S Dimensions： W1817xD768xH800mm Material： 304 stainless steel",
-        "image": "asset_content/wdt-68s/choose1.png"
+        "image": "asset_content/wdt-68s/choose1.jpg"
       },
       {
         "title": "WDT-6203S2",
         "caption": "Model No. WDT-6203S2 Dimensions： W1821xD770xH1405mm Material： 304 stainless steel Panel Set： Perforated board (H645mm)",
-        "image": "asset_content/wdt-68s/choose2.png"
+        "image": "asset_content/wdt-68s/choose2.jpg"
       },
       {
         "title": "WDT-6203S3",
         "caption": "Model No. WDT-6203S3 Dimensions： W1821xD770xH1405mm Material： 304 stainless steel Panel Set： Perforated board (H645mm) + Shelf",
-        "image": "asset_content/wdt-68s/choose3.png"
+        "image": "asset_content/wdt-68s/choose3.jpg"
       },
       {
         "title": "WDT-6203S7",
         "caption": "Model No. WDT-6203S7 Dimensions： W1821xD770xH1705mm Material： 304 stainless steel Panel Set： Perforated board (H945mm) + Shelf",
-        "image": "asset_content/wdt-68s/choose4.png"
+        "image": "asset_content/wdt-68s/choose4.jpg"
       }
     ],
     "spec": {},
@@ -7346,37 +7346,37 @@
       {
         "title": "Type PR",
         "caption": "(Polyurethane grooved) Clamping of all types of delicate workpieces The material properties are of identical type as the PP-design. The corrugation of the jaws grips the surface without damaging it.",
-        "image": "asset_content/wp-53/feat5.png"
+        "image": "asset_content/wp-53/feat5.jpg"
       },
       {
         "title": "Type PP",
         "caption": "(Polyurethane prism) Clamping of delicate round and oval workpieces The jaws are made of polyurethane. This highly flexible, resistant and non ageing material is tending to assume the original shape after a deformation by pressure. The work pieces are fixed by means of different sized integrated prisms.",
-        "image": "asset_content/wp-53/feat6.png"
+        "image": "asset_content/wp-53/feat6.jpg"
       },
       {
         "title": "Type P",
         "caption": "(Prism) Clamping of workpieces of various shapes The jaw blocks are made out of Aluminium with a hardness factor between that of copper and lead. One horizontal prism and three different vertical prisms facilitate clamping of round or oval workpieces. The 90° cutout in the upper part of the jaw blocks facilitate problem free and horizontal clamping of flat material.",
-        "image": "asset_content/wp-53/feat7.png"
+        "image": "asset_content/wp-53/feat7.jpg"
       },
       {
         "title": "Type N",
         "caption": "(Natural) Clamping of rough to medium machined workpieces The jaw blocks are made out of Aluminium and have a hardness factor between that of copper and lead. 6 grooves hold the workpieces secure. A deeper groove serves to hold shafts and pins etc. secure.",
-        "image": "asset_content/wp-53/feat8.png"
+        "image": "asset_content/wp-53/feat8.jpg"
       },
       {
         "title": "Type F",
         "caption": "(Fibre) Clamping of workpieces with finely machined or polished faces The faces of the jaw blocks are special abrasion of layers of fibres. There is no deformation of the faces even when clamping warm workpieces.",
-        "image": "asset_content/wp-53/feat9.png"
+        "image": "asset_content/wp-53/feat9.jpg"
       },
       {
         "title": "Type G",
         "caption": "(Rubber) Clamping of thin walled tubes and shaped pieces, wood and plastic parts The clamping faces are produced from a special synthetic rubber. Three layers of a canvas material appose the natural spring tendency of the rubber during the clamping process. The workpieces are held secure even when very low forces are applied.",
-        "image": "asset_content/wp-53/feat10.png"
+        "image": "asset_content/wp-53/feat10.jpg"
       },
       {
         "title": "Type Fi",
         "caption": "(Felt) Clamping of extremely delicate workpieces The faces of the jaw blocks are special abrasion resistive felt that matches closely the contours of the workpieces. Even the most delicate workpieces are held securely without any damage.",
-        "image": "asset_content/wp-53/feat11.png"
+        "image": "asset_content/wp-53/feat11.jpg"
       }
     ],
     "how_to_choose": [
@@ -8009,7 +8009,7 @@
       {
         "title": "Drawer",
         "caption": "",
-        "image": "asset_content/wkt_5102/feat5.png"
+        "image": "asset_content/wkt_5102/feat5.jpg"
       },
       {
         "title": "Tray",
@@ -8021,17 +8021,17 @@
       {
         "title": "WKT-5102□",
         "caption": "Model No. WKT-5102□ Workbench-top： F / W Dimensions：W1500xD755xH965-1165mm Material：Steel Workbench loading：100kg Drawer loading：35kg Roll holder loading：20kg",
-        "image": "asset_content/wkt_5102/choose1.png"
+        "image": "asset_content/wkt_5102/choose1.jpg"
       },
       {
         "title": "WKT-5102□1",
         "caption": "Model No. WKT-5102□1 Workbench-top： F / W Dimensions：W1500xD785xH965-1165mm Material：Steel Workbench loading：100kg Drawer loading：35kg Roll holder loading：20kg Shelf loading：20kg",
-        "image": "asset_content/wkt_5102/choose2.png"
+        "image": "asset_content/wkt_5102/choose2.jpg"
       },
       {
         "title": "WPK-21",
         "caption": "Model No. WPK-21 Dimensions：W450xD386xH75mm Material：Steel Loading：3k",
-        "image": "asset_content/wkt_5102/choose3.png"
+        "image": "asset_content/wkt_5102/choose3.jpg"
       },
       {
         "title": "",
@@ -8041,7 +8041,7 @@
       {
         "title": "Applicable packaging specification",
         "caption": "A：500mm B：>26mm C：1200mm D：6mm",
-        "image": "asset_content/wkt_5102/choose5.png"
+        "image": "asset_content/wkt_5102/choose5.jpg"
       },
       {
         "title": "",
@@ -8136,9 +8136,9 @@
       "items_included": "",
       "raw": "Made in Taiwan\nModel No.\nEGA-7041\nDimension：W566xD510xH700 mm\nMaterial：Steel\nColor：Gray\nLoading：45kg per drawer\nModel No.\nEGA-10061\nDimension：W566xD510xH1000 mm\nMaterial：Steel\nColor：Gray\nLoading：45kg per drawer\nModel No.\nEGA-10091\nDimension：W566xD510xH1000 mm\nMaterial：Steel\nColor：Gray\nLoading：45kg per drawer",
       "images": [
-        "asset_content/ega-1/spec1.png",
-        "asset_content/ega-1/spec2.png",
-        "asset_content/ega-1/spec3.png"
+        "asset_content/ega-1/spec1.jpg",
+        "asset_content/ega-1/spec2.jpg",
+        "asset_content/ega-1/spec3.jpg"
       ]
     },
     "spec_blocks": [
@@ -8148,7 +8148,7 @@
         "material": "Steel",
         "desktop": "",
         "items_included": [],
-        "image": "asset_content/ega-1/spec1.png"
+        "image": "asset_content/ega-1/spec1.jpg"
       },
       {
         "model_no": "EGA-10061",
@@ -8156,7 +8156,7 @@
         "material": "Steel",
         "desktop": "",
         "items_included": [],
-        "image": "asset_content/ega-1/spec2.png"
+        "image": "asset_content/ega-1/spec2.jpg"
       },
       {
         "model_no": "EGA-10091",
@@ -8164,7 +8164,7 @@
         "material": "Steel",
         "desktop": "",
         "items_included": [],
-        "image": "asset_content/ega-1/spec3.png"
+        "image": "asset_content/ega-1/spec3.jpg"
       }
     ]
   },
@@ -8262,8 +8262,8 @@
       "items_included": "",
       "raw": "Made in Taiwan\nModel No.\nEGA-5041M\nDimensions：W568xD510xH690 mm\nMaterial：Steel\nColor：Black\nLoading：45kg per drawer\nModel No.\nEGA-7041M\nDimensions：W650xD510xH845 mm\nMaterial：Steel\nHandle：Steel\nColor：Gray\nLoading：45kg per drawer",
       "images": [
-        "asset_content/ega-2m/spec1.png",
-        "asset_content/ega-2m/spec2.png"
+        "asset_content/ega-2m/spec1.jpg",
+        "asset_content/ega-2m/spec2.jpg"
       ]
     },
     "spec_blocks": [
@@ -8273,7 +8273,7 @@
         "material": "Steel",
         "desktop": "",
         "items_included": [],
-        "image": "asset_content/ega-2m/spec1.png"
+        "image": "asset_content/ega-2m/spec1.jpg"
       },
       {
         "model_no": "EGA-7041M",
@@ -8281,7 +8281,7 @@
         "material": "Steel",
         "desktop": "",
         "items_included": [],
-        "image": "asset_content/ega-2m/spec2.png"
+        "image": "asset_content/ega-2m/spec2.jpg"
       }
     ]
   },
@@ -8400,10 +8400,10 @@
       "raw": "Made in  Taiwan\nModel No.\nEGL-187MA\nDimensions：W845xD510xH1441 mm\nMaterial：Steel\nHandle：Steel\nColor：Black / Red\nLoading：45kg per drawer\nItems Included：KPQ-B x 1 set\n▸\nSide panel\nis optional\nModel No.\nEGL-185MA\nDimensions：W845xD510xH1441 mm\nMaterial：Steel\nHandle：Steel\nColor：Black / Red\nLoading：45kg per drawer\nItems Included：KPQ-B x 1 set\n▸\nSide panel\nis optional\nModel No.\nEGL-187M\nDimensions：W845xD510xH986 mm\nMaterial：Steel\nHandle：Steel\nColor：Black / Red\nLoading：45kg per drawer\n▸\nSide panel\nand\ntop chest\nare optional\nModel No.\nEGL-185M\nDimensions：W845xD510xH986 mm\nMaterial：Steel\nHandle：Steel\nColor：Black / Red\nLoading：45kg per drawer\n▸\nSide panel\nand\ntop chest\nare optional\nModel No.\nEGL-177M\nDimensions：W755xD510xH850 mm\nMaterial：Steel\nHandle：Steel\nColor：Black\nLoading：45kg per drawer",
       "images": [
         "asset_content/egl-1/spec1.jpg",
-        "asset_content/egl-1/spec2.png",
-        "asset_content/egl-1/spec3.png",
-        "asset_content/egl-1/spec4.png",
-        "asset_content/egl-1/spec5.png"
+        "asset_content/egl-1/spec2.jpg",
+        "asset_content/egl-1/spec3.jpg",
+        "asset_content/egl-1/spec4.jpg",
+        "asset_content/egl-1/spec5.jpg"
       ]
     },
     "spec_blocks": [
@@ -8421,7 +8421,7 @@
         "material": "Steel",
         "desktop": "",
         "items_included": [],
-        "image": "asset_content/egl-1/spec2.png"
+        "image": "asset_content/egl-1/spec2.jpg"
       },
       {
         "model_no": "EGL-187M",
@@ -8429,7 +8429,7 @@
         "material": "Steel",
         "desktop": "",
         "items_included": [],
-        "image": "asset_content/egl-1/spec3.png"
+        "image": "asset_content/egl-1/spec3.jpg"
       },
       {
         "model_no": "EGL-185M",
@@ -8437,7 +8437,7 @@
         "material": "Steel",
         "desktop": "",
         "items_included": [],
-        "image": "asset_content/egl-1/spec4.png"
+        "image": "asset_content/egl-1/spec4.jpg"
       },
       {
         "model_no": "EGL-177M",
@@ -8445,7 +8445,7 @@
         "material": "Steel",
         "desktop": "",
         "items_included": [],
-        "image": "asset_content/egl-1/spec5.png"
+        "image": "asset_content/egl-1/spec5.jpg"
       }
     ]
   },
@@ -8563,10 +8563,10 @@
       "items_included": "Shelf x 1 pc\n▸\nSide panel\nand\ntop chest\nare optional\nModel No.",
       "raw": "Made in  Taiwan\nModel No.\nEGM-1703M\nDimensions：W1255xD510xH847 mm\nMaterial：Steel\nHandle：Steel\nColor：Black\nLoading：45kg per drawer, 60kg per shelf\nItems Included：Shelf x 1 pc\n▸\nSide panel\nand\ntop chest\nare optional\nModel No.\nEGM-1705M\nDimensions：W1255xD510xH847 mm\nMaterial：Steel\nHandle：Steel\nColor：Black\nLoading：45kg per drawer, 60kg per shelf\nItems Included：Shelf x 1 pc\n▸\nSide panel\nand\ntop chest\nare optional\nModel No.\nEGM-1703MA\nDimensions：W1255xD510xH1300 mm\nMaterial：Steel\nHandle：Steel\nColor：Black\nLoading：45kg per drawer, 60kg per shelf\nItems Included：Shelf x 1 pc\nKPQ-B x 1 set\n▸\nSide panel\nis optional\nModel No.\nEGM-1705MA\nDimensions：W1255xD510xH1300 mm\nMaterial：Steel\nHandle：Steel\nColor：Black\nLoading：45kg per drawer, 60kg per shelf\nItems Included：Shelf x 1 pc\nKPQ-B x 1 set\n▸\nSide panel\nis optional",
       "images": [
-        "asset_content/egm-1/spec1.png",
-        "asset_content/egm-1/spec2.png",
-        "asset_content/egm-1/spec3.png",
-        "asset_content/egm-1/spec4.png"
+        "asset_content/egm-1/spec1.jpg",
+        "asset_content/egm-1/spec2.jpg",
+        "asset_content/egm-1/spec3.jpg",
+        "asset_content/egm-1/spec4.jpg"
       ]
     },
     "spec_blocks": [
@@ -8576,7 +8576,7 @@
         "material": "Steel",
         "desktop": "",
         "items_included": [],
-        "image": "asset_content/egm-1/spec1.png"
+        "image": "asset_content/egm-1/spec1.jpg"
       },
       {
         "model_no": "EGM-1705M",
@@ -8584,7 +8584,7 @@
         "material": "Steel",
         "desktop": "",
         "items_included": [],
-        "image": "asset_content/egm-1/spec2.png"
+        "image": "asset_content/egm-1/spec2.jpg"
       },
       {
         "model_no": "EGM-1703MA",
@@ -8592,7 +8592,7 @@
         "material": "Steel",
         "desktop": "",
         "items_included": [],
-        "image": "asset_content/egm-1/spec3.png"
+        "image": "asset_content/egm-1/spec3.jpg"
       },
       {
         "model_no": "EGM-1705MA",
@@ -8600,7 +8600,7 @@
         "material": "Steel",
         "desktop": "",
         "items_included": [],
-        "image": "asset_content/egm-1/spec4.png"
+        "image": "asset_content/egm-1/spec4.jpg"
       }
     ]
   },
@@ -8658,27 +8658,27 @@
       {
         "title": "ELA-185M",
         "caption": "Model No. ELA-185M Dimensions：W690xD510xH1010 mm Material：Steel Handle：ABS Loading：50kg per drawer Items Included： TK-8727 x 12 pcs (1st drawer) Partition x 2 pcs (remaining drawers)",
-        "image": "asset_content/ela-1/choose1.png"
+        "image": "asset_content/ela-1/choose1.jpg"
       },
       {
         "title": "ELA-187M",
         "caption": "Model No. ELA-187M Dimensions：W690xD510xH1010 mm Material：Steel Handle：ABS Loading：50kg per drawer Items Included： TK-8727 x 12 pcs (1st drawer) Partition x 2 pcs (remaining drawers)",
-        "image": "asset_content/ela-1/choose2.png"
+        "image": "asset_content/ela-1/choose2.jpg"
       },
       {
         "title": "ELA-185MA",
         "caption": "Model No. ELA-185MA Dimensions：W690xD510xH1475 mm Material： Steel Handle： ABS Loading：50kg per drawer Items Included： TK-8727 x 12 pcs (1st drawer) Partition x 2 pcs (remaining drawers) KPQ-B x 1 set",
-        "image": "asset_content/ela-1/choose3.png"
+        "image": "asset_content/ela-1/choose3.jpg"
       },
       {
         "title": "ELA-187MA",
         "caption": "Model No. ELA-187MA Dimensions：W690xD510xH1475 mm Material：Steel Handle： ABS Loading：50kg per drawer Items Included： TK-8727 x 12 pcs (1st drawer) Partition x 2 pcs (remaining drawers) KPQ-B x 1 set",
-        "image": "asset_content/ela-1/choose4.png"
+        "image": "asset_content/ela-1/choose4.jpg"
       },
       {
         "title": "TK-8727",
         "caption": "Model No. TK-8727 Dimensions：W126xD126xH45 mm Material：PP",
-        "image": "asset_content/ela-1/choose5.png"
+        "image": "asset_content/ela-1/choose5.jpg"
       }
     ],
     "spec": {},
@@ -8738,27 +8738,27 @@
       {
         "title": "ELS-274M",
         "caption": "Model No. ELS-274M Dimensions：W1060xD515xH865 mm Material：Steel Handle：ABS Loading：50kg per drawer 60kg per shelf Items Included： TK-8727 x 12 pcs (1st drawer) Partition x 2 pcs (remaining drawers) Shelf x 1 pc",
-        "image": "asset_content/els-2/choose1.png"
+        "image": "asset_content/els-2/choose1.jpg"
       },
       {
         "title": "ELS-276M",
         "caption": "Model No. ELS-276M Dimensions：W1060xD515xH865 mm Material：Steel Handle ：ABS Loading：50kg per drawer 60kg per shelf Items Included： TK-8727 x 12 pcs (1st drawer) Partition x 2 pcs (remaining drawers) Shelf x 1 pc",
-        "image": "asset_content/els-2/choose2.png"
+        "image": "asset_content/els-2/choose2.jpg"
       },
       {
         "title": "ELS-274MA",
         "caption": "Model No. ELS-274MA Dimensions：W1060xD515xH1340 mm Material：Steel Handle ：ABS Loading：50kg per drawer 60kg per shelf Items Included： TK-8727 x 12 pcs (1st drawer) Partition x 2 pcs (remaining drawers) Shelf x 1 pc KPQ-B x 1 set",
-        "image": "asset_content/els-2/choose3.png"
+        "image": "asset_content/els-2/choose3.jpg"
       },
       {
         "title": "ELS-276MA",
         "caption": "Model No. ELS-276MA Dimensions：W1060xD515xH1340 mm Material：Steel Handle ：ABS Loading：50kg per drawer 60kg per shelf Items Included： TK-8727 x 12 pcs (1st drawer) Partition x 2 pcs (remaining drawers) Shelf x 1 pc KPQ-B x 1 set",
-        "image": "asset_content/els-2/choose4.png"
+        "image": "asset_content/els-2/choose4.jpg"
       },
       {
         "title": "TK-8727",
         "caption": "Model No. TK-8727 Dimensions：W126xD126xH45 mm Material：PP",
-        "image": "asset_content/els-2/choose5.png"
+        "image": "asset_content/els-2/choose5.jpg"
       }
     ],
     "spec": {},
@@ -9102,7 +9102,7 @@
       {
         "title": "100kg load capacity",
         "caption": "per drawer",
-        "image": "asset_content/ea-7m/feat1.png"
+        "image": "asset_content/ea-7m/feat1.jpg"
       },
       {
         "title": "Standard drawer",
@@ -9577,12 +9577,12 @@
       {
         "title": "EKK-1M",
         "caption": "Model No. EKK-1M Dimensions：W1300xD700xH1800mm Material：Steel Roll holder loading：20kg",
-        "image": "asset_content/ekk-1m/choose1.png"
+        "image": "asset_content/ekk-1m/choose1.jpg"
       },
       {
         "title": "Applicable packaging specification",
         "caption": "A：500mm B：>26mm C：900mm D：6mm",
-        "image": "asset_content/ekk-1m/choose2.png"
+        "image": "asset_content/ekk-1m/choose2.jpg"
       }
     ],
     "spec": {},
@@ -9595,12 +9595,12 @@
       {
         "title": "Standard drawer",
         "caption": "90% extention with 100kg load capacity",
-        "image": "asset_content/ea-10n/feat1.png"
+        "image": "asset_content/ea-10n/feat1.jpg"
       },
       {
         "title": "T drawer",
         "caption": "100% extention with 200kg load capacity",
-        "image": "asset_content/ea-10n/feat2.png"
+        "image": "asset_content/ea-10n/feat2.jpg"
       },
       {
         "title": "With leveler screws",
@@ -10328,17 +10328,17 @@
       {
         "title": "",
         "caption": "Made in Taiwan",
-        "image": "asset_content/me/choose1.png"
+        "image": "asset_content/me/choose1.jpg"
       },
       {
         "title": "Pull-out Rack【Independent】",
         "caption": "Model No. ME-321 Dimensions：W970xD700xH2000mm Material：Steel Shelf：80kg load capacity",
-        "image": "asset_content/me/choose2.png"
+        "image": "asset_content/me/choose2.jpg"
       },
       {
         "title": "Pull-out Rack【Linkable】",
         "caption": "Model No. ME-322 Dimensions：W900xD700xH2000mm Material：Steel Shelf：80kg load capacity ▸ Linkable type comes with linking pole to be fixed to Independent type.",
-        "image": "asset_content/me/choose3.png"
+        "image": "asset_content/me/choose3.jpg"
       },
       {
         "title": "",
@@ -10599,12 +10599,12 @@
       {
         "title": "Step.2 Double-sided / Single-sided",
         "caption": "",
-        "image": "asset_content/kr-13/choose2.png"
+        "image": "asset_content/kr-13/choose2.jpg"
       },
       {
         "title": "Step.3 Panel",
         "caption": "Qty of perforated board or louvred board",
-        "image": "asset_content/kr-13/choose3.png"
+        "image": "asset_content/kr-13/choose3.jpg"
       },
       {
         "title": "Step.4 Linkable",
@@ -10704,12 +10704,12 @@
       {
         "title": "Step.2 Double-sided / Single-sided",
         "caption": "",
-        "image": "asset_content/kr-14/choose2.png"
+        "image": "asset_content/kr-14/choose2.jpg"
       },
       {
         "title": "Step.3 Panel",
         "caption": "Qty of perforated board or louvred board",
-        "image": "asset_content/kr-14/choose3.png"
+        "image": "asset_content/kr-14/choose3.jpg"
       },
       {
         "title": "Step.4 Linkable",
@@ -10818,12 +10818,12 @@
       {
         "title": "Step.2 Double-sided / Single-sided",
         "caption": "",
-        "image": "asset_content/kr-23/choose2.png"
+        "image": "asset_content/kr-23/choose2.jpg"
       },
       {
         "title": "Step.3 Panel",
         "caption": "Qty of perforated board or louvred board",
-        "image": "asset_content/kr-23/choose3.png"
+        "image": "asset_content/kr-23/choose3.jpg"
       },
       {
         "title": "Step.4 Linkable",
@@ -10923,12 +10923,12 @@
       {
         "title": "Step.2 Double-sided / Single-sided",
         "caption": "",
-        "image": "asset_content/kr-24/choose2.png"
+        "image": "asset_content/kr-24/choose2.jpg"
       },
       {
         "title": "Step.3 Panel",
         "caption": "Qty of perforated board or louvred board",
-        "image": "asset_content/kr-24/choose3.png"
+        "image": "asset_content/kr-24/choose3.jpg"
       },
       {
         "title": "Step.4 Linkable",
@@ -12052,7 +12052,7 @@
       {
         "title": "TOA-14",
         "caption": "Model No. TOA-14 Dimensions：W260xD350xH265mm Material：ABS Color：Gray Items included：Supporting poles x8, Colored label x3",
-        "image": "asset_content/toa-14/choose1.png"
+        "image": "asset_content/toa-14/choose1.jpg"
       }
     ],
     "spec": {},
@@ -13122,7 +13122,7 @@
       {
         "title": "TE-211",
         "caption": "Model No. TE-211 Dimensions：W110xD110xH120 mm Material：PP Color：Gray Load capacity：10kg",
-        "image": "asset_content/te_211/choose1.png"
+        "image": "asset_content/te_211/choose1.jpg"
       }
     ],
     "spec": {},

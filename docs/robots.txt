@@ -40,4 +40,4 @@ Allow: /
 User-agent: Bytespider
 Disallow: /
 
-Sitemap: https://primaxs.com.my/sitemap.xml
+Sitemap: https://www.storagesystem.my/sitemap.xml

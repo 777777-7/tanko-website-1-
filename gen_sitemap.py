@@ -8,7 +8,7 @@ sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="repla
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 DIST = os.path.join(ROOT, "docs")   # GitHub Pages serves from /docs
-DOMAIN = "https://primaxs.com.my"
+DOMAIN = "https://www.storagesystem.my"
 TODAY = datetime.date.today().isoformat()
 
 # Priority + change-freq by page type — order matters; first match wins

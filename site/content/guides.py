@@ -667,4 +667,314 @@ GUIDES = [
              "a": "Mainly for very large single orders that easily meet factory minimums, planned projects that can absorb long lead times, and buyers with in-house logistics and customs capability. Outside those cases, local sourcing is usually lower risk and lower total cost."},
         ],
     },
+    {
+        "slug": "esd-anti-static-workbench-malaysia",
+        "nav_title": "ESD Workbench Guide",
+        "tag": "Industry Guide",
+        "title": "ESD & Anti-Static Workbenches in Malaysia: What Electronics & EMS Buyers Need to Know",
+        "h1": "ESD & Anti-Static Workbenches in Malaysia: A Specifier's Guide",
+        "updated": "August 2026",
+        "excerpt": "How to specify an ESD-safe workbench for electronics assembly, PCB repair and EMS lines in Malaysia — grounding, top materials, wrist-strap points and audit-readiness.",
+        "meta_description": "ESD workbench Malaysia guide: grounding paths, dissipative tops, wrist-strap points and audit readiness for electronics assembly and EMS facilities.",
+        "body": """
+<p class="lead">Electrostatic discharge is the quiet killer of electronics. A component that is fine at the bench can be damaged by a discharge it never visibly shows, then fail weeks later in the field. For Malaysian electronics assembly, EMS and repair facilities — where humidity swings make static charge build-up worse — an ESD workbench is a control point, not an accessory. This guide covers how to specify one properly.</p>
+
+<h2>Why Malaysian electronics shops need ESD benches</h2>
+<p>Static charge builds faster in air-conditioned rooms with low humidity, which is exactly the environment in most Malaysian electronics lines. A technician walking across a carpeted area, or handling a PCB in dry conditioned air, can carry several thousand volts. That charge transfers the moment the component touches an unprotected surface. The result is latent damage that shows up as field returns, higher rework rates and warranty costs.</p>
+<p>An ESD workstation gives every discharge a safe path to ground through a controlled chain: a grounded bench, a dissipative surface, a wrist strap and a common point ground. When specified and wired correctly, the chain protects boards from the moment they arrive at the position.</p>
+
+<h2>The five elements of a proper ESD workstation</h2>
+<ol>
+  <li><strong>ESD-safe work surface.</strong> A dissipative or conductive top (typically 10^6–10^9 ohms surface resistance) that bleeds charge slowly instead of sparking. Laminate and rubber ESD tops are the two common choices.</li>
+  <li><strong>Grounding cord set.</strong> The surface connects to a common point ground through a 1 MΩ resistor, protecting operators from the current path if they touch a live line.</li>
+  <li><strong>Wrist strap and coil cord.</strong> The operator's body is grounded through the strap; the coiled cord keeps the connection short and out of the way.</li>
+  <li><strong>Common point ground (CPG).</strong> A single hard-ground point that bonds the surface, wrist strap and any mat — one ground, not several, so no potential difference exists between them.</li>
+  <li><strong>ESD-safe storage nearby.</strong> Dissipative bins, drawer liners and conductive foam for holding boards and components that are not being worked on.</li>
+</ol>
+
+<h2>Grounding: the part that is easy to get wrong</h2>
+<p>The bench itself is only half the story — the grounding chain is what makes it ESD-safe. The common mistake is assuming an 'ESD bench' is automatically grounded. It is not. The surface must be wired to a common point ground through a 1 MΩ cord, and the ground must be a verified earth (a mains earth or dedicated ESD ground), not a random metal point.</p>
+<p>Specify that the grounding cord set is included with the bench, and that the workstation has an obvious wrist-strap jack. For multi-position lines, plan a per-position CPG so each operator is independently protected. This is also what auditors check: a certified ESD workstation should be verifiable with a surface-resistance tester and a wrist-strap tester.</p>
+
+<div class="callout"><p><strong>Direct answer:</strong> For an ESD workstation in Malaysia, start with a grounded steel-frame workbench with a dissipative laminate or rubber top, a 1 MΩ grounding cord set to a common point ground, and a wrist-strap jack at each position. Add ESD-safe bins and drawer liners for storage, and test the chain with a surface-resistance tester before first use.</p></div>
+
+<h2>Choosing the top material</h2>
+<ul>
+  <li><strong>ESD laminate tops</strong> suit clean electronics assembly — a hard, smooth dissipative surface that wipes down easily and resists solvents used in rework.</li>
+  <li><strong>ESD rubber tops</strong> add impact and thermal protection, useful at soldering and rework positions, and provide a compliant dissipative surface for heavier handling.</li>
+  <li><strong>Stainless-steel ESD options</strong> are used in cleaner or more hygienic environments where the surface must also resist corrosion and frequent sanitising.</li>
+</ul>
+<p>Whatever the top, pair it with the rest of the grounding chain. A dissipative surface without a ground cord is no safer than a bare steel top.</p>
+
+<h2>Workstation layout for an assembly line</h2>
+<p>Plan each ESD position as a complete cell: a bench with the right height and depth for seated or standing assembly, a shelf or pegboard for tools (kept ESD-safe where they contact boards), task lighting, and a nearby dissipative bin for work-in-progress. Cable management under the bench keeps the area clean, which matters in an audit. For batch production, match the number of positions to the line speed so boards never wait unprotected on a bare surface.</p>
+
+<h2>Where ESD benches sit in the wider range</h2>
+<p>An ESD workstation is usually built on the same modular frame as the broader <a href="/workbench/">workbench range</a>, so it integrates with the rest of your shop-floor storage — tool <a href="/tool-cabinet/">tool cabinets</a> alongside the line, <a href="/parts-cabinet/">small-parts storage</a> for components, and <a href="/perforated-board/">perforated boards</a> for shadow-boarded hand tools. Specifying the whole line from one supplier keeps the grounding philosophy consistent.</p>
+
+<h2>Verify before you commit</h2>
+<p>Ask any supplier three questions: what is the surface resistance of the top, is the grounding cord set included, and can the workstation pass an on-site ESD audit with a tester? The answers separate a genuine ESD workstation from a standard bench with an 'ESD' label. Request a quote through the site and include your expected headcount and line length so the proposal covers the full grounding plan.</p>
+""",
+        "faqs": [
+            {"q": "What is the difference between ESD and anti-static?",
+             "a": "Anti-static broadly means materials that resist charge build-up; ESD-safe is a stricter spec covering the controlled dissipation of charge through a grounded chain. For electronics assembly you want ESD-safe workstations with a verifiable grounding path, not just anti-static materials."},
+            {"q": "Do I really need a wrist strap if the bench is grounded?",
+             "a": "Yes. The grounded surface protects the board when it is on the bench, but the operator's body is a separate charge source. The wrist strap grounds the operator so both the person and the surface are at the same potential — one without the other leaves part of the chain ungrounded."},
+            {"q": "How often should ESD workstations be tested?",
+             "a": "Best practice is daily or shift-start wrist-strap tests and periodic (weekly to monthly) surface-resistance checks, depending on your ESD programme and audit requirements. A simple tester gives a pass/fail reading in seconds."},
+            {"q": "Can a standard workbench be converted to ESD?",
+             "a": "Sometimes, with an ESD top, grounding cord set and wrist-strap kit fitted to a compatible steel frame — but a purpose-specified ESD workstation ensures the surface, ground chain and jack are matched and testable from day one."},
+        ],
+    },
+    {
+        "slug": "stainless-steel-workbench-food-pharma-malaysia",
+        "nav_title": "Stainless Steel Workbench Guide",
+        "tag": "Industry Guide",
+        "title": "Stainless Steel Workbenches for Food, Pharma & Lab in Malaysia: A Hygienic Design Guide",
+        "h1": "Stainless Steel Workbenches for Food, Pharma & Lab in Malaysia",
+        "updated": "August 2026",
+        "excerpt": "Why food processing, pharmaceutical, laboratory and cleanroom facilities in Malaysia specify stainless steel workbenches — hygiene, corrosion, welding and grade decisions.",
+        "meta_description": "Stainless steel workbench Malaysia guide for food, pharma and lab: grade selection, hygienic design, corrosion in humid climates and cleanroom use.",
+        "body": """
+<p class="lead">In food processing, pharmaceuticals, laboratories and cleanrooms, the work surface is a hygiene surface. Every joint, weld and imperfection is a place where product, bacteria or cleaning chemicals can collect. That is why these sectors specify stainless steel workbenches — and why the specification matters. This guide explains how Malaysian facilities choose the right stainless bench.</p>
+
+<h2>Why stainless, and why not all stainless is equal</h2>
+<p>Stainless steel resists corrosion and is easy to clean, which makes it the default for hygienic applications. But 'stainless' covers many grades. For most food and pharma contact surfaces, 304-grade (18/8) is the workhorse: good corrosion resistance, easy to fabricate and weld, and suitable for frequent wash-down. For aggressive cleaning chemistries, high-chloride environments or salt exposure, 316-grade adds molybdenum for better pitting resistance. Malaysian facilities near the coast, or using strong sanitisers, should weigh 316 for the most corrosive positions.</p>
+
+<h2>Hygienic design: what to look for at the weld</h2>
+<p>The grade is only half the decision — design is the other half. A truly hygienic stainless bench is built with:</p>
+<ul>
+  <li><strong>Fully welded, ground and polished joints</strong> with no crevices where bacteria or product can lodge.</li>
+  <li><strong>Rounded, open-frame construction</strong> that lets wash water and air reach every surface; no boxed-in sections that trap moisture.</li>
+  <li><strong>Adjustable or bolted feet</strong> that keep the bench stable and easy to level on a wet floor.</li>
+  <li><strong>A top with a rolled or turned edge</strong> that drains instead of pooling liquid, and is easy to sweep.</li>
+</ul>
+<p>In humid Malaysia, condensation is constant. An open frame and good welds are what stop hidden rust and bacteria from forming behind sealed panels.</p>
+
+<h2>Food processing and halal certification</h2>
+<p>For food contact, the surface must meet food-grade requirements and be cleanable to the standard your facility is audited against — including halal and food-safety certification programmes common in Malaysia. That means smooth, non-porous surfaces, no bare wood or particle board at contact points, and materials that survive the sanitisers your team uses. Stainless tables, benches and packing stations with these properties are standard in food plants.</p>
+
+<h2>Pharmaceutical and laboratory use</h2>
+<p>Pharma and lab environments add their own needs: resistance to solvents and reagents, smooth finish for decontamination, and often a cleanroom-compatible design with minimal horizontal ledges that collect dust. Stainless benches in these settings are frequently specified with a mirror or semi-mirror finish and are selected to withstand the cleaning regime, including autoclaving or chemical disinfection where applicable.</p>
+
+<h2>Corrosion in Malaysia's climate</h2>
+<p>The combination of humidity, temperature swings and (near the coast) airborne salt makes corrosion the main long-term risk for any metal bench. Stainless mitigates it, but only if the grade matches the environment and the welds are passivated. Ask your supplier about the grade and the surface finish, and whether the bench is suited to the conditions where it will live — a dry air-conditioned lab and a humid packing hall are not the same environment.</p>
+
+<div class="callout"><p><strong>Direct answer:</strong> For food, pharma or lab work in Malaysia, specify a stainless steel workbench in 304 grade as the default (316 for the most corrosive or salt-exposed positions), with fully welded and polished joints, an open cleanable frame, and adjustable feet. Confirm the finish suits your audit and cleaning regime before ordering.</p></div>
+
+<h2>Matching stainless benches to the wider range</h2>
+<p>Stainless workbenches fit alongside the rest of a hygienic facility's storage: <a href="/workbench/">stainless workbench variants</a> across the range, <a href="/locker/">steel lockers</a> for PPE and uniforms, and <a href="/parts-cabinet/">parts and bin storage</a> for a clean, organised line. Choosing one supplier keeps materials and cleanability consistent across the shop floor.</p>
+
+<h2>Ask the right questions</h2>
+<p>Before you buy, confirm: the steel grade, the weld and finish quality, whether the design is open-framed and drainable, and whether the bench matches the cleaning chemicals your facility uses. A quote request through the site should include your application (food, pharma, lab, coastal), the wash-down frequency and any certification requirements so the right grade and finish are proposed.</p>
+""",
+        "faqs": [
+            {"q": "What grade of stainless steel should a food workbench be?",
+             "a": "304 (18/8) is the standard workhorse for food contact in Malaysia — good corrosion resistance and easy to clean. Consider 316 where exposure to salt, strong chlorine sanitisers or coastal humidity is severe."},
+            {"q": "Is a stainless workbench worth the higher cost over painted steel?",
+             "a": "For food, pharma, lab or any frequent-wash-down application, yes — the corrosion resistance and cleanability prevent contamination and premature rust that would cost far more in downtime and rework. For general dry mechanical work, painted steel is a sensible lower-cost choice."},
+            {"q": "Do stainless benches need special care in humid Malaysia?",
+             "a": "Wipe down after wet use, keep the surface dry, and avoid leaving chlorides or abrasive cleaners on the steel. Passivated welds and a good grade reduce maintenance; a light periodic clean keeps the surface audit-ready."},
+            {"q": "Can stainless steel worktops be retrofitted to an existing bench?",
+             "a": "Depending on the frame, a stainless top can sometimes be fitted to a compatible steel frame, but a purpose-built stainless bench guarantees the hygienic welds, open frame and drainage that audits look for."},
+        ],
+    },
+    {
+        "slug": "heavy-duty-workbench-fabrication-welding-malaysia",
+        "nav_title": "Heavy-Duty Workbench Guide",
+        "tag": "Industry Guide",
+        "title": "Heavy-Duty Workbenches for Fabrication, Welding & Maintenance in Malaysia",
+        "h1": "Heavy-Duty Workbenches for Fabrication, Welding & Maintenance in Malaysia",
+        "updated": "August 2026",
+        "excerpt": "How Malaysian fabrication shops, welding bays and maintenance workshops specify heavy-duty workbenches — load rating, steel tops, bench dogs and vibration.",
+        "meta_description": "Heavy-duty workbench Malaysia guide: load rating, thick steel tops, stability for welding and fabrication, and bench-vice mounting for maintenance bays.",
+        "body": """
+<p class="lead">A fabrication shop's workbench takes punishment a light-duty bench would never survive: heavy parts dropped on the surface, clamping loads, hammer blows and the constant vibration of grinding. The difference between a bench that lasts a decade and one that racks within a year is in the load rating, the top thickness and the frame design. This guide covers how Malaysian fabrication, welding and maintenance workshops specify heavy-duty benches.</p>
+
+<h2>Start with the load rating</h2>
+<p>Duty rating is the first decision and the one most often underestimated. A heavy-duty workbench is rated for the heaviest realistic load it must carry — think about the biggest single workpiece, not the average. Typical heavy-duty ratings start around several hundred kilograms of distributed load, with the frame and top sized to absorb it without flex. If you regularly work on large components or stack materials on the bench, size up.</p>
+
+<h2>The top: thickness is the story</h2>
+<p>On a heavy-duty bench, the top does real work. A thick steel top (commonly 3–5 mm and up) resists denting, spreads clamping loads and gives a solid surface for hammering and grinding. Rubber tops suit impact-heavy mechanical work; steel tops suit fabrication where the surface must take abuse. Wood or MDF tops are lighter-duty and have no place on a fabrication bench. The mounting of the top to the frame matters too — a thick top bolted to a rigid frame behaves as one solid unit, where a thin top on a light frame flexes and racks.</p>
+
+<h2>Frame rigidity and vibration</h2>
+<p>Welding, grinding and hammering send vibration through the bench. A heavy-duty frame — thick square or box-section steel legs with proper gussets and cross-bracing — keeps the surface steady so work doesn't bounce and measurements stay true. Leveling feet matter on uneven workshop floors: an adjustable foot lets you bed the bench down so it doesn't rock under load. Casters, where needed, should be heavy-duty with locks; a bench on light casters is a hazard under heavy work.</p>
+
+<h2>Bench dogs, vises and accessories</h2>
+<p>Fabrication benches earn their keep through accessories. A bench dog (peg) system and a machined slot or stop let you clamp workpieces firmly at the edge. A heavy vice needs a reinforced mounting zone — bolt it through the top into the frame, not just into sheet steel. Consider whether the position needs a tool rail, a parts tray, or a lower shelf for storage without compromising leg room.</p>
+
+<h2>Welding bays: ground and shield</h2>
+<p>In a welding bay, the bench is also part of the electrical and fire-safety picture. A steel top provides a grounded work surface (ensure the frame is properly earthed), and a steel top resists weld spatter better than coated or wooden surfaces. Keep a steel bench clear of flammables and use it with the workshop's ventilation and fire controls. If grinding and welding share the position, a heavier top and a clean, unobstructed surface are worth the investment.</p>
+
+<div class="callout"><p><strong>Direct answer:</strong> For a fabrication or welding bench in Malaysia, specify a heavy-duty steel-frame workbench with a thick steel top (3–5 mm or more), fully welded and braced frame, adjustable leveling feet, and reinforced mounting for your vice. Size the load rating for the heaviest workpiece you handle, not the average.</p></div>
+
+<h2>Maintenance bays: organisation alongside strength</h2>
+<p>A maintenance workshop bench usually needs more than a strong surface — it needs storage in arm's reach. Pair a heavy-duty bench with a mobile <a href="/tool-cabinet/">tool cabinet</a> for the technician's everyday tools, a <a href="/parts-cabinet/">small-parts cabinet</a> for fasteners and consumables, and a <a href="/perforated-board/">perforated board</a> behind the bench for shadow-boarded hand tools. This combination keeps the strong surface clear of clutter, which is both safer and faster to work on.</p>
+
+<h2>Specifying across a workshop</h2>
+<p>Workshops rarely need one bench — a fabrication bay, a welding station, a maintenance position and a light assembly bench have different needs. The <a href="/workbench/">workbench range</a> covers duty ratings from light to heavy, so you can standardise on one supplier across the shop floor and match each position to its actual task. Request a quote with the number of positions and the heaviest load at each, and the proposal will match bench to job.</p>
+""",
+        "faqs": [
+            {"q": "How much weight can a heavy-duty workbench hold?",
+             "a": "It depends on the model's rating — heavy-duty benches are typically rated for several hundred kilograms of distributed load, with the frame and top designed to carry the heaviest workpiece without flex. Confirm the rated load against your biggest part before ordering."},
+            {"q": "Steel or rubber top for a fabrication bench?",
+             "a": "For fabrication, hammering and clamping, a thick steel top is the standard choice — it resists dents and spreads loads. Rubber tops suit impact-heavy mechanical work where you want to protect the workpiece or dampen vibration."},
+            {"q": "Do I need casters on a heavy-duty bench?",
+             "a": "Only if the bench must move between positions. If you need mobility, choose heavy-duty locking casters sized for the full load; if the bench stays put, fixed leveling feet give better stability and are safer under heavy work."},
+            {"q": "Can a standard bench be upgraded to heavy duty?",
+             "a": "Not reliably — duty rating comes from the frame, the top thickness and how they are joined, not from accessories. Spec a bench that is heavy-duty from the start for fabrication, welding and maintenance positions."},
+        ],
+    },
+    {
+        "slug": "tanko-workbench-pricing-quote-guide-malaysia",
+        "nav_title": "Workbench Pricing & Quotes in Malaysia",
+        "tag": "Buying Guide",
+        "title": "How Tanko Workbench Pricing Works in Malaysia: Quotes, Factors & What Affects Cost",
+        "h1": "How Tanko Workbench Pricing Works in Malaysia",
+        "updated": "August 2026",
+        "excerpt": "Tanko workbenches are premium Taiwan-made B2B products, so pricing is quote-based rather than listed online. Here is what determines the cost and how to get an accurate quote.",
+        "meta_description": "Tanko workbench pricing in Malaysia is quote-based. Understand what affects cost — top material, size, drawers, accessories — and how to get an accurate quotation.",
+        "body": """
+<p class="lead">You will not see a fixed price tag on this site, and that is intentional. Tanko workbenches are premium, Taiwan-engineered B2B products — the same way commercial machinery and industrial racking are quoted, not shelf-priced. This guide explains how our pricing works in Malaysia, so you can budget correctly and get an accurate quotation fast.</p>
+
+<h2>Why is Tanko pricing quote-based?</h2>
+<p>Tanko storage is specified, not impulse-bought. Every bench is configured to a job — top material, width, drawers, shelves, power and lighting can all change the price. A quote lets us price the exact configuration you need, rather than making you pay for options you do not use. It also lets us give you the best rate for your order size, whether you need one bench or a full workstation line.</p>
+
+<h2>What determines the price of a Tanko workbench?</h2>
+<p>Before you ask for a quote, these are the factors that move the number:</p>
+<ul>
+  <li><strong>Top material.</strong> Rubber (impact), laminate, stainless steel and solid wood tops are priced differently. Stainless steel, used in food, pharma and cleanroom areas, is the premium option.</li>
+  <li><strong>Size.</strong> Depth is standard at 750 mm, but width runs from 1200 mm to 2100 mm. Bigger tops and longer benches cost more.</li>
+  <li><strong>Drawers and cabinets.</strong> Add-on drawer units, hanging cabinets and full drawer banks are the largest cost drivers after the top.</li>
+  <li><strong>Upper racks and accessories.</strong> Perforated boards, shelves, power socket bars, LED lights and anti-static mats are all priced as options.</li>
+  <li><strong>Duty rating.</strong> Heavy-duty frames with thicker steel and higher load ratings sit above standard duty.</li>
+  <li><strong>Quantity.</strong> Multi-unit and project quantities get better per-unit pricing.</li>
+</ul>
+
+<div class="callout"><p><strong>Direct answer:</strong> Because the range is modular, no single "price" exists — a standard single-top bench and a fully configured heavy-duty station with drawers, board, power and lighting sit at different price points. That is exactly why we quote per configuration.</p></div>
+
+<h2>How to get an accurate quote</h2>
+<ol>
+  <li><strong>Send your model list or a rough description.</strong> Tell us the bench width, top material and any drawers or accessories you need.</li>
+  <li><strong>Tell us the application.</strong> Assembly, fabrication, electronics, food or lab use helps us recommend the right top and options.</li>
+  <li><strong>Mention quantity.</strong> Let us know if this is one unit or a project quantity, so we can price accordingly.</li>
+  <li><strong>Receive a written quotation.</strong> We confirm price, configuration and lead time in one document, usually within one business day.</li>
+</ol>
+<p>You can start by <a href="/enquiry/">requesting a quote</a> or <a href="/contact/">contacting our team directly</a> on WhatsApp — we are happy to help you spec the right bench.</p>
+
+<h2>Is Tanko expensive?</h2>
+<p>Tanko sits in the premium tier of industrial storage — above entry-level imported units, and justified by heavier steel, precision slides and a design engineered for daily industrial use in Taiwan since 1975. For businesses that depend on their workshop, the difference is reliability and longevity: a Tanko bench is bought once and kept for years, which is why factories, small companies and warehouses across Malaysia choose it over cheaper alternatives that need replacing.</p>
+""",
+        "faqs": [
+            {"q": "Why don't you list Tanko workbench prices on your website?",
+             "a": "Tanko storage is a configured B2B product — the price depends on the top material, size, drawers and accessories you choose. A written quotation lets us price your exact configuration instead of quoting a fixed price that may not match what you need."},
+            {"q": "How do I get a Tanko workbench price in Malaysia?",
+             "a": "Send us your model list or a short description of the bench you need — width, top material and any drawers or accessories — and we will reply with a written quotation, usually within one business day."},
+            {"q": "What makes Tanko more expensive than other workbenches?",
+             "a": "Tanko is a premium Taiwan-made product: thicker steel frames, precision drawer slides and engineering built for daily industrial use since 1975. You pay once and keep the bench for years, which is the value proposition for businesses."},
+            {"q": "Do you give better prices for bulk or project orders?",
+             "a": "Yes. Multi-unit and project quantities get better per-unit pricing. Mention your quantity when you request a quote and we will price it accordingly."},
+            {"q": "Does the quotation include delivery in Malaysia?",
+             "a": "Yes — quotations include delivery arrangements from our Selangor warehouse. We confirm delivery cost and lead time as part of the written quote."},
+        ],
+    },
+    {
+        "slug": "meja-kerja-industri-malaysia",
+        "nav_title": "Meja Kerja Industri (Bahasa Malaysia)",
+        "tag": "Panduan",
+        "title": "Meja Kerja Industri di Malaysia: Panduan Membeli",
+        "h1": "Meja Kerja Industri di Malaysia: Panduan Membeli",
+        "updated": "Ogos 2026",
+        "excerpt": "Panduan membeli meja kerja industri di Malaysia — jenis permukaan, saiz, beban dan cara mendapatkan sebut harga dari pengedar eksklusif Tanko.",
+        "meta_description": "Panduan membeli meja kerja industri di Malaysia — permukaan getah, laminate, keluli tahan karat, saiz dan beban. Pengedar eksklusif Tanko dengan penghantaran seluruh Malaysia.",
+        "body": """
+<p class="lead">Meja kerja industri adalah aset penting untuk bengkel, kilang dan makmal di Malaysia. Ia bukan perabot rumah — ia adalah peralatan kerja yang mesti menahan beban, tahan lasak dan disusun mengikut tugas. Panduan ini membantu anda memilih meja kerja yang betul dan memahami bagaimana cara mendapatkannya di Malaysia.</p>
+
+<h2>Permukaan meja: mana yang sesuai untuk kerja anda?</h2>
+<ul>
+  <li><strong>Permukaan getah (rubber/impact).</strong> Sesuai untuk kerja memukul, mengetuk dan kerja mekanikal berat. Permukaan ini melindungi bahan kerja dan mengurangkan getaran.</li>
+  <li><strong>Permukaan laminate.</strong> Bersih, licin dan senyap — sesuai untuk kerja pemasangan, pemeriksaan dan elektronik.</li>
+  <li><strong>Permukaan keluli tahan karat (stainless steel).</strong> Pilihan premium untuk industri makanan, farmasi, makmal dan kawasan basah kerana mudah dibersihkan dan tahan karat.</li>
+  <li><strong>Permukaan kayu (solid wood).</strong> Sesuai untuk kerja pembungkusan, penyimpanan dan pameran.</li>
+</ul>
+
+<h2>Saiz dan beban</h2>
+<p>Meja kerja Tanko standard sedalam 750 mm dengan lebar dari 1200 mm hingga 2100 mm. Mulakan dengan barang terbesar yang akan diletakkan di atas meja, kemudian tambah ruang kerja. Untuk beban, pilih meja tugas sederhana untuk kerja biasa dan meja tugas berat untuk fabrikasi, kimpalan dan penyelenggaraan — sehingga 2000 kg untuk meja panjang.</p>
+
+<h2>Meja dengan laci, rak dan aksesori</h2>
+<p>Kebanyakan meja kerja Tanko boleh ditambah dengan laci, rak atas, papan berlubang (perforated board), soket kuasa, lampu LED dan tikar anti-statik. Ini menjadikan setiap stesen kerja tersusun mengikut keperluan — amalan 5S yang digemari kilang-kilang di Malaysia.</p>
+
+<div class="callout"><p><strong>Jawapan ringkas:</strong> Untuk kebanyakan bengkel di Malaysia, titik permulaan yang tepat ialah meja kerja keluli tugas sederhana atau berat dengan permukaan yang sepadan dengan tugas — getah untuk kerja impak, laminate untuk pemasangan bersih, keluli tahan karat untuk kawasan basah atau makanan.</p></div>
+
+<h2>Bagaimana cara membeli di Malaysia?</h2>
+<p>Tanko adalah produk B2B berkualiti — harga diberikan melalui <strong>sebut harga (quotation)</strong>, bukan harga senarai terbuka. Ini kerana setiap meja dikonfigurasikan mengikut keperluan anda. Untuk mendapatkan sebut harga:</p>
+<ol>
+  <li>Hantar senarai model atau penerangan ringkas meja yang anda perlukan.</li>
+  <li>Nyatakan aplikasi — pemasangan, fabrikasi, elektronik, makanan atau makmal.</li>
+  <li>Nyatakan kuantiti untuk harga terbaik.</li>
+  <li>Terima sebut harga bertulis termasuk penghantaran.</li>
+</ol>
+<p>Primaxs Marketing (M) Sdn Bhd adalah <strong>pengedar eksklusif Tanko di Malaysia</strong> — stok di Selangor, penghantaran seluruh Malaysia, harga dalam Ringgit dan waranti tempatan. <a href="/enquiry/">Hantar permintaan sebut harga</a> atau <a href="/contact/">hubungi kami</a> untuk maklumat lanjut.</p>
+
+<h2>Kenapa pilih Tanko?</h2>
+<p>Tanko dihasilkan di Taiwan sejak 1975 dengan keluli lebih tebal, laci dengan slaid ketepatan dan reka bentuk untuk kegunaan industri harian. Untuk syarikat kecil dan sederhana yang bergantung kepada bengkel mereka, Tanko dibeli sekali dan tahan bertahun-tahun — berbanding produk murah yang perlu diganti.</p>
+""",
+        "faqs": [
+            {"q": "Berapa harga meja kerja industri di Malaysia?",
+             "a": "Harga bergantung pada konfigurasi — permukaan, saiz, laci dan aksesori. Tanko adalah produk B2B, jadi harga diberikan melalui sebut harga. Hantar keperluan anda dan kami akan hantar quotation bertulis."},
+            {"q": "Di mana boleh beli meja kerja Tanko di Malaysia?",
+             "a": "Primaxs Marketing (M) Sdn Bhd adalah pengedar eksklusif Tanko di Malaysia, dengan stok di Selangor dan penghantaran seluruh negara."},
+            {"q": "Apakah perbezaan permukaan getah dan laminate?",
+             "a": "Permukaan getah sesuai untuk kerja impak dan mekanikal berat; permukaan laminate bersih dan senyap, sesuai untuk pemasangan dan pemeriksaan."},
+            {"q": "Bolehkah meja kerja dihantar ke Johor, Pulau Pinang atau Sabah?",
+             "a": "Ya — kami menghantar seluruh Malaysia, termasuk Semenanjung dan atas permintaan ke Malaysia Timur. Kos penghantaran disertakan dalam sebut harga."},
+        ],
+    },
+    {
+        "slug": "kabinet-alat-penyimpanan-bengkel-malaysia",
+        "nav_title": "Kabinet Alat Bengkel (Bahasa Malaysia)",
+        "tag": "Panduan",
+        "title": "Kabinet Alat & Penyimpanan Bengkel di Malaysia: Panduan Lengkap",
+        "h1": "Kabinet Alat & Penyimpanan Bengkel di Malaysia",
+        "updated": "Ogos 2026",
+        "excerpt": "Panduan memilih kabinet alat dan penyimpanan bengkel di Malaysia — kabinet tetap, troli mudah alih, kabinet CNC dan cara mendapatkan sebut harga.",
+        "meta_description": "Panduan kabinet alat dan penyimpanan bengkel di Malaysia — kabinet tetap, troli alat, kabinet CNC untuk BT/HSK. Pengedar eksklusif Tanko, sebut harga percuma.",
+        "body": """
+<p class="lead">Alat yang hilang atau rosak adalah kos tersembunyi bagi setiap bengkel. Kabinet alat yang betul menyimpan alat dengan selamat, tersusun dan mudah dicapai — menjimatkan masa mencari dan melindungi alat mahal. Panduan ini menerangkan pilihan kabinet alat di Malaysia dan cara memilih yang sesuai.</p>
+
+<h2>Jenis kabinet alat</h2>
+<ul>
+  <li><strong>Kabinet alat tetap (tool cabinet).</strong> Kabinet dengan laci gelongsor penuh untuk simpanan padat di satu stesen. Sesuai untuk bengkel automotif, penyelenggaraan dan MRO.</li>
+  <li><strong>Troli alat (mobile trolley).</strong> Kabinet dengan roda supaya alat bergerak dari satu tempat ke satu tempat — berguna untuk kerja yang berpindah-randah.</li>
+  <li><strong>Kabinet CNC.</strong> Kabinet khas untuk pemegang alat mesin CNC (BT-30, BT-40, BT-50, HSK, ISO) — melindungi hujung presisi dari serpihan dan kelembapan.</li>
+  <li><strong>Kabinet komponen dan fail.</strong> Untuk simpanan bahagian kecil, dokumen dan rekod QA di stesen kerja.</li>
+</ul>
+
+<h2>Kriteria pemilihan</h2>
+<ol>
+  <li><strong>Berat dan kekerapan penggunaan.</strong> Alat yang digunakan setiap hari perlu di paras mata dengan laci yang lancar. Alat berat memerlukan laci dengan beban lebih tinggi.</li>
+  <li><strong>Keselamatan.</strong> Pilih kabinet dengan sistem kunci pusat — semua laci terkunci dengan satu pusingan kunci, penting untuk bengkel kongsi.</li>
+  <li><strong>Mobiliti.</strong> Jika alat perlu bergerak antara stesen, pilih troli dengan roda berkunci yang bersaiz untuk beban penuh.</li>
+  <li><strong>Persekitaran.</strong> Untuk kawasan lembap atau panas (biasa di Malaysia), pastikan kabinet bersalut serbuk (powder-coated) berkualiti.</li>
+</ol>
+
+<div class="callout"><p><strong>Jawapan ringkas:</strong> Untuk kebanyakan bengkel automotif dan penyelenggaraan, gabungan terbaik ialah satu kabinet tetap untuk simpanan padat ditambah satu troli mudah alih untuk kerja yang berpindah-randah.</p></div>
+
+<h2>Kabinet CNC untuk industri permesinan</h2>
+<p>Bagi kilang permesinan (machining), kabinet CNC melindungi pemegang alat mahal seperti BT-40 dan HSK daripada serpihan, cecair penyejuk dan kelembapan. Dengan sisipan laci yang sepadan dengan setiap jenis hujung alat, kabinet memanjangkan hayat alat dan mengurangkan masa henti mesin.</p>
+
+<h2>Bagaimana cara mendapatkan sebut harga?</h2>
+<p>Seperti meja kerja, kabinet alat Tanko adalah produk B2B — harga diberikan melalui sebut harga mengikut konfigurasi. <a href="/enquiry/">Hantar permintaan sebut harga</a> dengan senarai model atau penerangan keperluan anda, dan kami akan hantar quotation bertulis termasuk penghantaran. Primaxs adalah pengedar eksklusif Tanko di Malaysia — stok di Selangor, penghantaran seluruh negara, waranti tempatan.</p>
+""",
+        "faqs": [
+            {"q": "Apakah perbezaan kabinet alat dan troli alat?",
+             "a": "Kabinet alat adalah tetap dengan laci untuk simpanan padat di satu tempat. Troli alat mempunyai roda supaya alat bergerak dari satu stesen ke stesen lain."},
+            {"q": "Berapa banyak beban boleh ditanggung laci kabinet alat?",
+             "a": "Kebanyakan kabinet industri Tanko menggunakan slaid bebola gelongsor penuh yang dinilai untuk kegunaan industri harian, biasanya 30-50 kg setiap laci bergantung pada model."},
+            {"q": "Adakah kabinet CNC sesuai untuk kilang permesinan di Malaysia?",
+             "a": "Ya — kabinet CNC melindungi pemegang alat BT/HSK daripada serpihan dan kelembapan, memanjangkan hayat alat dan mengurangkan masa henti mesin."},
+            {"q": "Bolehkah kabinet dihantar ke seluruh Malaysia?",
+             "a": "Ya — kami menghantar seluruh Malaysia dari gudang di Selangor. Kos dan masa penghantaran disahkan dalam sebut harga."},
+        ],
+    },
 ]

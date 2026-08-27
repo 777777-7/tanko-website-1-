@@ -13,7 +13,7 @@
       <div class="tag" style="color:var(--accent);font-weight:700;text-transform:uppercase;letter-spacing:.06em;font-size:.72rem;">{{ guide.tag }}</div>
       <h1>{{ guide.h1 }}</h1>
       <div class="article-meta">By Primaxs Marketing (M) Sdn Bhd &middot; Exclusive Malaysia distributor for Tanko &middot; Updated {{ guide.updated }}</div>
-      {{ guide.body|safe }}
+      {{ guide_body|safe }}
 
       {% if guide.faqs %}
       <div class="faq">
