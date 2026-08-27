@@ -3,6 +3,12 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+<meta name="theme-color" content="#0a0d13">
+<meta name="geo.region" content="MY-10">
+<meta name="geo.placename" content="Seri Kembangan, Selangor, Malaysia">
+<meta name="geo.position" content="3.0206;101.7036">
+<meta name="ICBM" content="3.0206, 101.7036">
 <title>{{ page_title }}</title>
 <meta name="description" content="{{ meta_description }}">
 <link rel="icon" href="{{ base_url }}assets/favicon.ico" sizes="48x48">
@@ -15,9 +21,16 @@
 <meta property="og:title" content="{{ page_title }}">
 <meta property="og:description" content="{{ meta_description }}">
 <meta property="og:type" content="{{ og_type|default('website') }}">
-{% if og_image %}<meta property="og:image" content="{{ og_image }}">{% endif %}
+<meta property="og:locale" content="en_MY">
+{% if canonical %}<meta property="og:url" content="{{ canonical }}">{% endif %}
+{% if og_image %}
+<meta property="og:image" content="{{ og_image }}">
+<meta name="twitter:image" content="{{ og_image }}">
+{% else %}
+<meta property="og:image" content="https://www.storagesystem.com.my/assets/primaxs-og-1200x630.png">
+<meta name="twitter:image" content="https://www.storagesystem.com.my/assets/primaxs-og-1200x630.png">
+{% endif %}
 <meta name="twitter:card" content="summary_large_image">
-{% if og_image %}<meta name="twitter:image" content="{{ og_image }}">{% endif %}
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800;900&family=IBM+Plex+Sans:wght@400;500;600&family=JetBrains+Mono:wght@500;600&family=Saira+Condensed:wght@600;700;800&family=Public+Sans:wght@400;500;600;700&family=Libre+Bodoni:wght@400;500;600;700&display=swap">

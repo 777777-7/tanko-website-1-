@@ -32,10 +32,11 @@ ASSETS_SRC = os.path.join(ROOT, "assets")
 # Deploy path. Root-hosted (own domain) = "/". GitHub Pages project sites
 # live under /<repo-name>/, so override with BASE_URL env var when needed:
 #   BASE_URL=/tanko-website-1-/ python site/build.py
-BASE_URL = os.environ.get("BASE_URL", "/tanko-website-1-/")
+# Cloudflare Pages with a custom domain serves at the root, so we default "/".
+BASE_URL = os.environ.get("BASE_URL", "/")
 
 # Canonical / schema domain used everywhere on the site.
-SITE_URL = "https://www.storagesystem.my"
+SITE_URL = "https://www.storagesystem.com.my"
 
 # Optional integrations, read from the environment so the built HTML never
 # ships with placeholder tokens. When set via env var they are injected into
@@ -347,6 +348,19 @@ def copy_static():
     if os.path.isdir(src_a3):
         shutil.copytree(src_a3, os.path.join(DIST, "asset3"), dirs_exist_ok=True)
 
+    # GitHub Pages: custom-domain CNAME + .nojekyll so the site is served
+    # as a static root site on storagesystem.com.my (no Jekyll processing).
+    with open(os.path.join(DIST, "CNAME"), "w", encoding="utf-8", newline="\n") as f:
+        f.write("www.storagesystem.com.my\n")
+    with open(os.path.join(DIST, ".nojekyll"), "w", encoding="utf-8", newline="\n") as f:
+        f.write("")
+    # A copy at repo root lets the Pages "deploy from /docs" and the
+    # "deploy from branch root" modes both find the domain file.
+    with open(os.path.join(ROOT, "CNAME"), "w", encoding="utf-8", newline="\n") as f:
+        f.write("www.storagesystem.com.my\n")
+    with open(os.path.join(ROOT, ".nojekyll"), "w", encoding="utf-8", newline="\n") as f:
+        f.write("")
+
 
 def org_json_ld():
     return graph_ld(*_org_graph_nodes(), website_ld())
@@ -357,20 +371,20 @@ def _org_graph_nodes():
     return [
         {
             "@type": "Organization",
-            "@id": "https://www.storagesystem.my/#org",
+            "@id": "https://www.storagesystem.com.my/#org",
             "name": "Primaxs Marketing (M) Sdn Bhd",
-            "url": "https://www.storagesystem.my/",
-            "logo": "https://www.storagesystem.my/assets/primaxs-logo-removebg-preview.png",
+            "url": "https://www.storagesystem.com.my/",
+            "logo": "https://www.storagesystem.com.my/assets/primaxs-logo-removebg-preview.png",
             "sameAs": [],
             "description": "Exclusive Malaysia retail distributor for Tanko Enterprise Co., Ltd., the Taiwan industrial storage manufacturer established in 1975.",
         },
         {
             "@type": "LocalBusiness",
-            "@id": "https://www.storagesystem.my/#local",
+            "@id": "https://www.storagesystem.com.my/#local",
             "name": "Primaxs Marketing (M) Sdn Bhd",
-            "url": "https://www.storagesystem.my/",
-            "logo": "https://www.storagesystem.my/assets/primaxs-logo-removebg-preview.png",
-            "image": "https://www.storagesystem.my/assets/primaxs-logo-removebg-preview.png",
+            "url": "https://www.storagesystem.com.my/",
+            "logo": "https://www.storagesystem.com.my/assets/primaxs-logo-removebg-preview.png",
+            "image": "https://www.storagesystem.com.my/assets/primaxs-logo-removebg-preview.png",
             "telephone": "+60-3-4296-4737",
             "email": "sales@storagesystem.my",
             "address": {
@@ -417,11 +431,11 @@ def _org_graph_nodes():
 
 def breadcrumb_ld(trail):
     """trail = [(name, url_or_None), ...]. Home is prepended automatically."""
-    items = [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.storagesystem.my/"}]
+    items = [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.storagesystem.com.my/"}]
     for i, (name, url) in enumerate(trail, start=2):
         entry = {"@type": "ListItem", "position": i, "name": name}
         if url:
-            entry["item"] = url if url.startswith("http") else f"https://www.storagesystem.my/{url.lstrip('/')}"
+            entry["item"] = url if url.startswith("http") else f"https://www.storagesystem.com.my/{url.lstrip('/')}"
         items.append(entry)
     return {"@type": "BreadcrumbList", "itemListElement": items}
 
@@ -429,13 +443,13 @@ def breadcrumb_ld(trail):
 def website_ld():
     return {
         "@type": "WebSite",
-        "@id": "https://www.storagesystem.my/#website",
-        "url": "https://www.storagesystem.my/",
+        "@id": "https://www.storagesystem.com.my/#website",
+        "url": "https://www.storagesystem.com.my/",
         "name": "Primaxs Marketing (M) Sdn Bhd",
-        "publisher": {"@id": "https://www.storagesystem.my/#org"},
+        "publisher": {"@id": "https://www.storagesystem.com.my/#org"},
         "potentialAction": {
             "@type": "SearchAction",
-            "target": {"@type": "EntryPoint", "urlTemplate": "https://www.storagesystem.my/products/?q={search_term_string}"},
+            "target": {"@type": "EntryPoint", "urlTemplate": "https://www.storagesystem.com.my/products/?q={search_term_string}"},
             "query-input": "required name=search_term_string",
         },
     }
@@ -447,12 +461,12 @@ def collection_page_ld(name, url, description, item_urls):
         "name": name,
         "url": url,
         "description": description,
-        "isPartOf": {"@id": "https://www.storagesystem.my/#website"},
+        "isPartOf": {"@id": "https://www.storagesystem.com.my/#website"},
         "mainEntity": {
             "@type": "ItemList",
             "numberOfItems": len(item_urls),
             "itemListElement": [
-                {"@type": "ListItem", "position": i, "url": (u if u.startswith("http") else f"https://www.storagesystem.my/{u.lstrip('/')}")}
+                {"@type": "ListItem", "position": i, "url": (u if u.startswith("http") else f"https://www.storagesystem.com.my/{u.lstrip('/')}")}
                 for i, u in enumerate(item_urls, start=1)
             ],
         },
@@ -543,8 +557,8 @@ def build_homepage(products, families, categories):
     html = env.get_template("home.html").render(
         page_title="Industrial Storage & Tool Cabinets Malaysia | Primaxs",
         meta_description="Exclusive Malaysia distributor for Tanko industrial storage — tool cabinets, workbenches, racking & lockers. Nationwide delivery. Request a quote today.",
-        canonical="https://www.storagesystem.my/",
-        og_image="https://www.storagesystem.my/assets/primaxs-og-1200x630.png",
+        canonical="https://www.storagesystem.com.my/",
+        og_image="https://www.storagesystem.com.my/assets/primaxs-og-1200x630.png",
         slides=slides, categories=cat_cards, featured=featured,
         n_categories=n_categories, n_skus_display=n_skus_display,
         base_url=BASE_URL, year=YEAR, json_ld=org_json_ld(),
@@ -605,8 +619,8 @@ def build_category(cat_slug, category_meta, cat_families, prods_by_family):
     section_list = [{"title": name, "families": cards} for name, cards in sections.items()]
     fam_cards = [c for cards in sections.values() for c in cards]
 
-    cat_url = f"https://www.storagesystem.my/{cat_slug}/"
-    fam_urls = [f"https://www.storagesystem.my/{c['url']}" for c in fam_cards]
+    cat_url = f"https://www.storagesystem.com.my/{cat_slug}/"
+    fam_urls = [f"https://www.storagesystem.com.my/{c['url']}" for c in fam_cards]
     # FAQ (if any) -> FAQPage schema node
     faqs = CATEGORY_FAQ.get(cat_slug, [])
     faq_node = None
@@ -629,7 +643,7 @@ def build_category(cat_slug, category_meta, cat_families, prods_by_family):
                 "slug": slug,
                 "title": g["nav_title"],
                 "excerpt": g.get("excerpt", ""),
-                "url": f"https://www.storagesystem.my/guides/{slug}/",
+                "url": f"https://www.storagesystem.com.my/guides/{slug}/",
             })
     json_ld = graph_ld(
         *_org_graph_nodes(),
@@ -1156,12 +1170,12 @@ def build_family(cat_slug, cat_meta, family_info, variants):
     picker = build_picker(cat_slug, family_info, variants)
     pcontent = build_product_content(family_info["family_slug"], fam_name)
     ptabs = build_ptabs(family_info["family_slug"])
-    fam_canonical = f"https://www.storagesystem.my/{cat_slug}/{family_info['family_slug']}/"
+    fam_canonical = f"https://www.storagesystem.com.my/{cat_slug}/{family_info['family_slug']}/"
     # Family-level Product schema (represents the group; variants have their own)
     default_variant = variants[0] if variants else None
     default_img = None
     if default_variant and default_variant.get("image_paths"):
-        default_img = f"https://www.storagesystem.my/{default_variant['image_paths'][0]}"
+        default_img = f"https://www.storagesystem.com.my/{default_variant['image_paths'][0]}"
     family_product_ld = {
         "@type": "Product",
         "name": fam_name,
@@ -1172,7 +1186,7 @@ def build_family(cat_slug, cat_meta, family_info, variants):
         "url": fam_canonical,
         "hasVariant": [
             {"@type": "Product", "name": f"{fam_name} — {v['sku']}", "sku": v["sku"],
-             "url": f"https://www.storagesystem.my/{variant_url(cat_slug, family_info['family_slug'], v['sku'])}"}
+             "url": f"https://www.storagesystem.com.my/{variant_url(cat_slug, family_info['family_slug'], v['sku'])}"}
             for v in variants[:50]  # cap to keep JSON-LD reasonable
         ],
     }
@@ -1181,7 +1195,7 @@ def build_family(cat_slug, cat_meta, family_info, variants):
     json_ld_family = graph_ld(
         *_org_graph_nodes(),
         breadcrumb_ld([
-            (cat_meta["name"], f"https://www.storagesystem.my/{cat_slug}/"),
+            (cat_meta["name"], f"https://www.storagesystem.com.my/{cat_slug}/"),
             (fam_name, fam_canonical),
         ]),
         family_product_ld,
@@ -1334,11 +1348,11 @@ def build_variant(cat_slug, cat_meta, family_info, variant, all_family_variants)
             "availability": "https://schema.org/InStock",
             "priceCurrency": "MYR",
             "seller": {"@type": "Organization", "name": "Primaxs Marketing (M) Sdn Bhd"},
-            "url": f"https://www.storagesystem.my/{variant_url(cat_slug, family_info['family_slug'], sku)}",
+            "url": f"https://www.storagesystem.com.my/{variant_url(cat_slug, family_info['family_slug'], sku)}",
         },
     }
     if variant["image_paths"]:
-        prod_ld["image"] = [f"https://www.storagesystem.my/{p}" for p in variant["image_paths"]]
+        prod_ld["image"] = [f"https://www.storagesystem.com.my/{p}" for p in variant["image_paths"]]
     if variant.get("dimensions"):
         prod_ld["additionalProperty"] = [
             {"@type": "PropertyValue", "name": "Dimensions", "value": variant["dimensions"]},
@@ -1348,10 +1362,10 @@ def build_variant(cat_slug, cat_meta, family_info, variant, all_family_variants)
         "@context": "https://schema.org",
         "@type": "BreadcrumbList",
         "itemListElement": [
-            {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.storagesystem.my/"},
-            {"@type": "ListItem", "position": 2, "name": cat_meta["name"], "item": f"https://www.storagesystem.my/{cat_slug}/"},
-            {"@type": "ListItem", "position": 3, "name": fam_name, "item": f"https://www.storagesystem.my/{cat_slug}/{family_info['family_slug']}/"},
-            {"@type": "ListItem", "position": 4, "name": sku, "item": f"https://www.storagesystem.my/{variant_url(cat_slug, family_info['family_slug'], sku)}"},
+            {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.storagesystem.com.my/"},
+            {"@type": "ListItem", "position": 2, "name": cat_meta["name"], "item": f"https://www.storagesystem.com.my/{cat_slug}/"},
+            {"@type": "ListItem", "position": 3, "name": fam_name, "item": f"https://www.storagesystem.com.my/{cat_slug}/{family_info['family_slug']}/"},
+            {"@type": "ListItem", "position": 4, "name": sku, "item": f"https://www.storagesystem.com.my/{variant_url(cat_slug, family_info['family_slug'], sku)}"},
         ],
     }
 
@@ -1360,9 +1374,9 @@ def build_variant(cat_slug, cat_meta, family_info, variant, all_family_variants)
     html = env.get_template("variant.html").render(
         page_title=title,
         meta_description=meta,
-        canonical=f"https://www.storagesystem.my/{variant_url(cat_slug, family_info['family_slug'], sku)}",
+        canonical=f"https://www.storagesystem.com.my/{variant_url(cat_slug, family_info['family_slug'], sku)}",
         og_type="product",
-        og_image=(f"https://www.storagesystem.my/{variant['image_paths'][0]}" if variant["image_paths"] else None),
+        og_image=(f"https://www.storagesystem.com.my/{variant['image_paths'][0]}" if variant["image_paths"] else None),
         category={"name": cat_meta["name"], "slug": cat_slug},
         family={"name": fam_name, "url": family_url(cat_slug, family_info["family_slug"])},
         variant={**variant, "h1": h1},
@@ -1379,7 +1393,7 @@ def build_category_stubs(cat_slug):
     html = env.get_template("category.html").render(
         page_title=f"{meta['h1']} | Primaxs",
         meta_description=meta["intro"][:155],
-        canonical=f"https://www.storagesystem.my/{cat_slug}/",
+        canonical=f"https://www.storagesystem.com.my/{cat_slug}/",
         category={"name": meta["name"], "h1": meta["h1"], "intro": meta["intro"] + " — Full product range coming online shortly. Contact us for current availability."},
         families=[],
         base_url=BASE_URL, year=YEAR, json_ld=org_json_ld(),
@@ -1401,18 +1415,18 @@ def build_products_index(products):
     prod_json_ld = graph_ld(
         *_org_graph_nodes(),
         website_ld(),
-        breadcrumb_ld([("Products", "https://www.storagesystem.my/products/")]),
+        breadcrumb_ld([("Products", "https://www.storagesystem.com.my/products/")]),
         collection_page_ld(
             name="Industrial Storage Product Range Malaysia",
-            url="https://www.storagesystem.my/products/",
+            url="https://www.storagesystem.com.my/products/",
             description="All Tanko industrial storage categories distributed in Malaysia by Primaxs.",
-            item_urls=[f"https://www.storagesystem.my/{c['slug']}/" for c in cat_cards],
+            item_urls=[f"https://www.storagesystem.com.my/{c['slug']}/" for c in cat_cards],
         ),
     )
     html = env.get_template("products_index.html").render(
         page_title="Industrial Storage Product Range Malaysia | Primaxs",
         meta_description="Browse Tanko industrial storage in Malaysia — workbenches, tool cabinets, CNC storage, workstations, racking, lockers and more. Exclusive distributor Primaxs.",
-        canonical="https://www.storagesystem.my/products/",
+        canonical="https://www.storagesystem.com.my/products/",
         categories=cat_cards, base_url=BASE_URL, year=YEAR, json_ld=prod_json_ld,
     )
     write(os.path.join(DIST, "products", "index.html"), html)
@@ -1476,7 +1490,7 @@ def build_download():
     html = env.get_template("download.html").render(
         page_title="Catalogues & Downloads | Primaxs Malaysia",
         meta_description="Download official Tanko industrial storage catalogues (E147, E327). For Malaysia pricing and stock, request a quote from Primaxs.",
-        canonical="https://www.storagesystem.my/download/",
+        canonical="https://www.storagesystem.com.my/download/",
         downloads=downloads, base_url=BASE_URL, year=YEAR, json_ld=org_json_ld(),
     )
     write(os.path.join(DIST, "download", "index.html"), html)
@@ -1527,24 +1541,24 @@ def build_guides():
     guides_ld = graph_ld(
         *_org_graph_nodes(),
         website_ld(),
-        breadcrumb_ld([("Guides", "https://www.storagesystem.my/guides/")]),
+        breadcrumb_ld([("Guides", "https://www.storagesystem.com.my/guides/")]),
         collection_page_ld(
             name="Industrial Storage Guides & Resources",
-            url="https://www.storagesystem.my/guides/",
+            url="https://www.storagesystem.com.my/guides/",
             description="Vendor-neutral guides for specifying industrial storage in Malaysia.",
-            item_urls=[f"https://www.storagesystem.my/guides/{g['slug']}/" for g in GUIDES],
+            item_urls=[f"https://www.storagesystem.com.my/guides/{g['slug']}/" for g in GUIDES],
         ),
     )
     html = env.get_template("guides_index.html").render(
         page_title="Industrial Storage Guides & Resources | Primaxs Malaysia",
         meta_description="Vendor-neutral guides for specifying industrial storage in Malaysia — workbenches, tool cabinets, lockers and workshop storage. By Primaxs.",
-        canonical="https://www.storagesystem.my/guides/",
+        canonical="https://www.storagesystem.com.my/guides/",
         guides=cards, base_url=BASE_URL, year=YEAR, json_ld=guides_ld,
     )
     write(os.path.join(DIST, "guides", "index.html"), html)
 
     for g in GUIDES:
-        guide_url = f"https://www.storagesystem.my/guides/{g['slug']}/"
+        guide_url = f"https://www.storagesystem.com.my/guides/{g['slug']}/"
         article_node = {
             "@type": "Article",
             "headline": g["title"],
@@ -1555,7 +1569,7 @@ def build_guides():
             "inLanguage": "en-MY",
         }
         breadcrumb_node = breadcrumb_ld([
-            ("Guides", "https://www.storagesystem.my/guides/"),
+            ("Guides", "https://www.storagesystem.com.my/guides/"),
             (g["title"], guide_url),
         ])
         faq_node = None
@@ -1578,7 +1592,7 @@ def build_guides():
         html = env.get_template("guide_article.html").render(
             page_title=guide_page_title,
             meta_description=g["meta_description"][:158],
-            canonical=f"https://www.storagesystem.my/guides/{g['slug']}/",
+            canonical=f"https://www.storagesystem.com.my/guides/{g['slug']}/",
             og_type="article",
             guide=g, base_url=BASE_URL, year=YEAR, json_ld=combined_ld,
             guide_body=_fix_guide_links(g.get("body") or "", BASE_URL),
@@ -1639,18 +1653,18 @@ def build_subcollections(families, prods_by_family):
         h1 = f"{label} {cat_name} — Malaysia"
         intro = (f"{label} range within our {cat_name.lower()} — {len(fam_cards)} model "
                  f"lines from Tanko, distributed in Malaysia by Primaxs. Compare options and request a quote.")
-        sub_canonical = f"https://www.storagesystem.my/{cat_slug}/{sub_slug}/"
+        sub_canonical = f"https://www.storagesystem.com.my/{cat_slug}/{sub_slug}/"
         json_ld_sub = graph_ld(
             *_org_graph_nodes(),
             breadcrumb_ld([
-                (cat_name, f"https://www.storagesystem.my/{cat_slug}/"),
+                (cat_name, f"https://www.storagesystem.com.my/{cat_slug}/"),
                 (label, sub_canonical),
             ]),
             collection_page_ld(
                 name=h1,
                 url=sub_canonical,
                 description=intro,
-                item_urls=[f"https://www.storagesystem.my/{c['url']}" for c in fam_cards],
+                item_urls=[f"https://www.storagesystem.com.my/{c['url']}" for c in fam_cards],
             ),
         )
         html = env.get_template("category.html").render(
@@ -1735,19 +1749,19 @@ def main():
           env.get_template("about.html").render(
               page_title="About Primaxs | Malaysia's Exclusive Tanko Distributor",
               meta_description="Primaxs Marketing (M) Sdn Bhd — Malaysia's exclusive Tanko industrial storage distributor. Selangor office, nationwide delivery, local warranty.",
-              canonical="https://www.storagesystem.my/about/",
+              canonical="https://www.storagesystem.com.my/about/",
               base_url=BASE_URL, year=YEAR, json_ld=org_json_ld()))
     write(os.path.join(DIST, "contact", "index.html"),
           env.get_template("contact.html").render(
               page_title="Contact Primaxs Marketing (M) Sdn Bhd | Malaysia",
               meta_description="Contact Primaxs Marketing (M) Sdn Bhd — Selangor office, sales@storagesystem.my, +60 12-616 3088. Malaysia's exclusive Tanko distributor.",
-              canonical="https://www.storagesystem.my/contact/",
+              canonical="https://www.storagesystem.com.my/contact/",
               base_url=BASE_URL, year=YEAR, json_ld=org_json_ld()))
     write(os.path.join(DIST, "enquiry", "index.html"),
           env.get_template("enquiry.html").render(
               page_title="Request a Quote | Primaxs Malaysia",
               meta_description="Review your basket and submit a quote request to Primaxs Marketing (M) Sdn Bhd — Malaysia's exclusive Tanko distributor. Reply within one business day.",
-              canonical="https://www.storagesystem.my/enquiry/",
+              canonical="https://www.storagesystem.com.my/enquiry/",
               base_url=BASE_URL, year=YEAR, json_ld=org_json_ld()))
 
     # (applications section removed — no /applications/ page or links)

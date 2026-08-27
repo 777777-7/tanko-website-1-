@@ -2,15 +2,20 @@
 
 Date: 27 Aug 2026. All changes were made to the source (`site/`, `gen_sitemap.py`,
 `asset_content/`, `product_content*.json`) and the site was rebuilt into `docs/`
-(1806 HTML pages). `docs/` is the GitHub Pages deploy folder.
+(1806 HTML pages). `docs/` is the deploy folder — point Cloudflare Pages at it.
 
 ## What was fixed / improved
 
-### 1. Domain corrected everywhere (was the wrong `primaxs.com.my`)
+### 0. Deployed on Cloudflare — domain now `https://www.storagesystem.com.my`
 - All canonical tags, JSON-LD schema (`@id`, `url`, `logo`, `image`), sitemap URLs,
-  robots.txt `Sitemap:` line and one template now use **https://www.storagesystem.my**.
-- Your domain currently still points at the Tanko Taiwan site — the site itself is
-  ready for when you connect it.
+  robots.txt `Sitemap:` line and every internal link now use
+  **https://www.storagesystem.com.my**.
+- Site rebuilt **root-hosted** (`BASE_URL=/`) so `storagesystem.com.my/` is the
+  homepage (no more `/tanko-website-1/` sub-path).
+- Email `sales@storagesystem.my` kept as-is (mailbox unchanged).
+- **Cloudflare Pages setup:** upload the `docs/` folder as the site root
+  (Build output directory = `docs`). Both `storagesystem.com.my` and
+  `www.storagesystem.com.my` resolve to Cloudflare already.
 
 ### 2. Broken internal links fixed (10 guides)
 - Guide articles linked to non-existent URLs like `/workbenches/`, `/tool-cabinets/`,
@@ -86,16 +91,34 @@ Date: 27 Aug 2026. All changes were made to the source (`site/`, `gen_sitemap.py
 - Broken internal links: **0**
 - Missing asset references: **0**
 - Invalid JSON-LD blocks: **0** (all 1806 pages parse)
+- Old-domain leftovers: **0** · Sub-path leftovers: **0**
+
+## Technical SEO checklist (all in place)
+- Canonical tags on every page → `https://www.storagesystem.com.my/...`
+- `robots.txt` with `Sitemap:` line + AI answer-engine crawlers allowed
+  (OAI-SearchBot, ChatGPT-User, Perplexity, Claude, Applebot, GPTBot, Google-Extended)
+- `sitemap.xml` with 1805 URLs (prioritised: homepage 1.0 → variants 0.5)
+- JSON-LD: Organization + LocalBusiness (geo, hours, phone) on all pages;
+  Product + Offer (SKU, MYR) on variant pages; BreadcrumbList everywhere;
+  FAQPage on category + guide pages; WebSite SearchAction for sitelinks
+- Meta: `robots: index,follow`, geo meta (MY-10 / Seri Kembangan),
+  Open Graph (locale en_MY, url, image fallback), Twitter card, theme-color
+- Favicon set + 1200×630 OG share image
+- `lang="en-MY"` + Malaysian content (incl. Bahasa Malaysia guides)
 
 ## How to rebuild
 ```
-python site/build.py     # writes docs/ (GitHub Pages folder)
+python site/build.py     # writes docs/ (upload this folder to Cloudflare Pages)
 ```
+For GitHub Pages project sites (sub-path) use: `BASE_URL=/repo-name/ python site/build.py`
 
 ## Next steps you own
-1. When ready, connect `www.storagesystem.my` to GitHub Pages and set the custom
-   domain (GitHub repo → Settings → Pages → Custom domain).
-2. Add the site to **Google Search Console** and submit `sitemap.xml`.
+1. In **Cloudflare Pages**: create/update the project, set the **build output
+   directory to `docs`** (or upload the `docs/` folder directly), and add the
+   custom domain `storagesystem.com.my` (+ `www`).
+2. Add the site to **Google Search Console** and submit `https://www.storagesystem.com.my/sitemap.xml`.
 3. Set `GSC_VERIFICATION` + `GA4_ID` env vars and rebuild (see above).
-4. Consider creating a **Google Business Profile** for the Balakong address to feed
+4. **Redirect www ⇄ non-www**: in Cloudflare add a redirect rule so
+   `storagesystem.com.my` → `https://www.storagesystem.com.my` (canonical host is `www`).
+5. Consider creating a **Google Business Profile** for the Balakong address to feed
    the local/geo signals in the schema.
