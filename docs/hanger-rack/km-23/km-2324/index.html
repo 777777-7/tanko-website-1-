@@ -26,14 +26,17 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800;900&family=IBM+Plex+Sans:wght@400;500;600&family=JetBrains+Mono:wght@500;600&family=Saira+Condensed:wght@600;700;800&family=Public+Sans:wght@400;500;600;700&family=Libre+Bodoni:wght@400;500;600;700&display=swap">
-<link rel="stylesheet" href="/assets/css/site.css?v=202608281454">
+<link rel="stylesheet" href="/assets/css/site.css?v=202608281512">
 <script type="application/ld+json">[{"@context": "https://schema.org", "@type": "Product", "sku": "KM-2324", "name": "Mobile Hanger Rack — Double-sided ❘ KM-23 KM-2324 — Steel, Gray, W1072xD613xH1571 mm", "brand": {"@type": "Brand", "name": "Tanko"}, "manufacturer": {"@type": "Organization", "name": "Tanko Enterprise Co., Ltd."}, "category": "Hanger Racks", "description": "KM-2324 Mobile Hanger Rack — Double-sided ❘ KM-23 · W1072xD613xH1571 mm · Steel — supplied in Malaysia by Primaxs, exclusive Tanko distributor. Request a quot", "offers": {"@type": "Offer", "availability": "https://schema.org/InStock", "priceCurrency": "MYR", "seller": {"@type": "Organization", "name": "Primaxs Marketing (M) Sdn Bhd"}, "url": "https://www.storagesystem.com.my/hanger-rack/km-23/km-2324/", "price": 2606, "priceValidUntil": "2027-12-31", "priceSpecification": {"@type": "PriceSpecification", "price": 2606, "priceCurrency": "MYR", "valueAddedTaxIncluded": false}}, "image": ["https://www.storagesystem.com.my/asset_content/km-23/exp3_spec3.jpg", "https://www.storagesystem.com.my/asset3/KM-2324.jpg"], "additionalProperty": [{"@type": "PropertyValue", "name": "Dimensions", "value": "W1072xD613xH1571 mm"}]}, {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.storagesystem.com.my/"}, {"@type": "ListItem", "position": 2, "name": "Hanger Racks", "item": "https://www.storagesystem.com.my/hanger-rack/"}, {"@type": "ListItem", "position": 3, "name": "Mobile Hanger Rack — Double-sided ❘ KM-23", "item": "https://www.storagesystem.com.my/hanger-rack/km-23/"}, {"@type": "ListItem", "position": 4, "name": "KM-2324", "item": "https://www.storagesystem.com.my/hanger-rack/km-23/km-2324/"}]}]</script><script>window.__BASE__ = "/";</script>
 </head>
 <body class="">
 <header class="site-header">
   <div class="container">
     <a class="brand" href="/">
-      <img src="/assets/primaxs-logo-removebg-preview.png" alt="Primaxs Marketing">
+      <span class="brand-logos">
+        <img src="/assets/primaxs-logo-removebg-preview.png" alt="Primaxs Marketing" class="brand-logo-primax">
+        <img src="/assets/tanko-logo-white.svg" alt="Tanko industrial storage" class="brand-logo-tanko">
+      </span>
       <span class="brand-text">Primaxs Marketing (M) Sdn Bhd</span>
     </a>
 
@@ -172,7 +175,10 @@
         </div>
       </div>
       <div class="variant-info">
-        <h1>Mobile Hanger Rack — Double-sided ❘ KM-23 KM-2324 — Steel, Gray, W1072xD613xH1571 mm</h1>
+        <div class="variant-title-row">
+          <h1>Mobile Hanger Rack — Double-sided ❘ KM-23 KM-2324 — Steel, Gray, W1072xD613xH1571 mm</h1>
+          <img src="/assets/tanko-logo.svg" alt="Tanko industrial storage — made in Taiwan" class="variant-tanko-logo">
+        </div>
         <div class="sku-line">Model No. KM-2324 &middot; <a href="/hanger-rack/km-23/">Mobile Hanger Rack — Double-sided ❘ KM-23</a></div>
         <div class="ref-price">Reference price: <strong>RM 2606</strong> <span class="ref-price-note">(guide price — final quotation on request)</span></div>
         <ul class="spec-list">
@@ -226,8 +232,10 @@
 <!-- Floating basket + slide-out panel + fly-to-basket target -->
 <button type="button" id="basket-fab" class="basket-fab" aria-label="Open basket" aria-controls="basket-panel">
   <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M6 7h12l-1.5 11a2 2 0 01-2 1.7h-5A2 2 0 017.5 18L6 7z"/>
-    <path d="M9 7V5a3 3 0 016 0v2"/>
+    <circle cx="9" cy="20" r="1.4"/>
+    <circle cx="18" cy="20" r="1.4"/>
+    <path d="M2.5 3h2.2l2.1 12.2a1.6 1.6 0 0 0 1.6 1.3h8.6a1.6 1.6 0 0 0 1.55-1.22L21.5 7H6"/>
+    <path d="M2.5 3 1.8 1.2"/>
   </svg>
   <span class="basket-fab-count" id="basket-count" data-count="0">0</span>
 </button>
@@ -254,6 +262,37 @@
     </footer>
   </div>
 </aside>
+
+<!-- WhatsApp basket modal — opened by the floating WhatsApp button -->
+<div id="wa-modal" class="wa-modal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="wa-modal-h">
+  <div class="wa-modal-scrim" data-close-wa></div>
+  <div class="wa-modal-body" role="document">
+    <header class="wa-modal-head">
+      <h2 id="wa-modal-h">Send your list via WhatsApp</h2>
+      <button type="button" class="wa-modal-close" data-close-wa aria-label="Close">×</button>
+    </header>
+    <div class="wa-modal-content">
+      <ul class="wa-basket-list" id="wa-basket-list" role="list"></ul>
+      <div class="wa-basket-empty" id="wa-basket-empty" hidden>
+        <div class="wa-empty-icon">
+          <svg viewBox="0 0 24 24" width="40" height="40" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="9" cy="20" r="1.4"/><circle cx="18" cy="20" r="1.4"/>
+            <path d="M2.5 3h2.2l2.1 12.2a1.6 1.6 0 0 0 1.6 1.3h8.6a1.6 1.6 0 0 0 1.55-1.22L21.5 7H6"/>
+          </svg>
+        </div>
+        <p class="wa-empty-title">Your basket is empty</p>
+        <p class="wa-empty-sub">Add products to your basket and we'll include the model codes in your WhatsApp message.</p>
+        <a class="btn wa-catalogue-btn" href="/products/" data-close-wa>Search in product catalogue →</a>
+      </div>
+    </div>
+    <footer class="wa-modal-foot">
+      <a id="wa-send-btn" class="btn wa-send-btn" href="#" target="_blank" rel="noopener">
+        <svg viewBox="0 0 32 32" width="22" height="22" aria-hidden="true"><path fill="#fff" d="M16 3C9.4 3 4 8.4 4 15c0 2.1.6 4.1 1.6 5.9L4 29l8.3-1.6c1.7.9 3.7 1.4 5.7 1.4 6.6 0 12-5.4 12-12S22.6 3 16 3zm0 21.8c-1.7 0-3.4-.4-4.9-1.3l-.4-.2-4.9.9.9-4.8-.2-.4C5.6 17.3 5.2 16.1 5.2 15c0-5.9 4.8-10.8 10.8-10.8S26.8 9.1 26.8 15s-4.8 10.8-10.8 10.8zm5.9-8.1c-.3-.2-1.9-.9-2.2-1-.3-.1-.5-.2-.7.2-.2.3-.8 1-.9 1.2-.2.2-.3.2-.6.1-.3-.2-1.3-.5-2.4-1.5-.9-.8-1.5-1.8-1.7-2.1-.2-.3 0-.5.1-.6l.5-.6c.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5l-1-2.4c-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.2.2 2.1 3.2 5.1 4.5.7.3 1.3.5 1.7.6.7.2 1.4.2 1.9.1.6-.1 1.9-.8 2.1-1.5.3-.8.3-1.4.2-1.5-.1-.1-.3-.2-.6-.4z"/></svg>
+        <span id="wa-send-label">Contact Us on WhatsApp</span>
+      </a>
+    </footer>
+  </div>
+</div>
 <!-- Global search modal (opened from the nav magnifying glass) -->
 <div id="nav-search-modal" class="nav-search-modal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="nav-search-title">
   <div class="nav-search-modal-scrim" data-close-search></div>
@@ -271,8 +310,9 @@
   </div>
 </div>
 
-<script src="/assets/js/basket.js?v=202608281454" defer></script>
-<script src="/assets/js/nav_search.js?v=202608281454" defer></script>
+<script src="/assets/js/basket.js?v=202608281512" defer></script>
+<script src="/assets/js/wa_float.js?v=202608281512" defer></script>
+<script src="/assets/js/nav_search.js?v=202608281512" defer></script>
 <footer class="site-footer">
   <div class="container">
     <div class="foot-grid">
@@ -314,10 +354,10 @@
     </div>
   </div>
 </footer>
-<a class="wa-float" href="https://wa.me/60126163088?text=Hi%2C%20I%27m%20interested%20in%20Tanko%20industrial%20storage%20products" rel="noopener" target="_blank" aria-label="Chat with us on WhatsApp">
+<button type="button" id="wa-fab" class="wa-float" aria-label="Chat with us on WhatsApp">
   <svg viewBox="0 0 32 32" width="28" height="28" aria-hidden="true"><path fill="#fff" d="M16 3C9.4 3 4 8.4 4 15c0 2.1.6 4.1 1.6 5.9L4 29l8.3-1.6c1.7.9 3.7 1.4 5.7 1.4 6.6 0 12-5.4 12-12S22.6 3 16 3zm0 21.8c-1.7 0-3.4-.4-4.9-1.3l-.4-.2-4.9.9.9-4.8-.2-.4C5.6 17.3 5.2 16.1 5.2 15c0-5.9 4.8-10.8 10.8-10.8S26.8 9.1 26.8 15s-4.8 10.8-10.8 10.8zm5.9-8.1c-.3-.2-1.9-.9-2.2-1-.3-.1-.5-.2-.7.2-.2.3-.8 1-.9 1.2-.2.2-.3.2-.6.1-.3-.2-1.3-.5-2.4-1.5-.9-.8-1.5-1.8-1.7-2.1-.2-.3 0-.5.1-.6l.5-.6c.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5l-1-2.4c-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.2.2 2.1 3.2 5.1 4.5.7.3 1.3.5 1.7.6.7.2 1.4.2 1.9.1.6-.1 1.9-.8 2.1-1.5.3-.8.3-1.4.2-1.5-.1-.1-.3-.2-.6-.4z"/></svg>
   <span>WhatsApp</span>
-</a>
+</button>
 <script>
   // Mobile-nav group toggles: header link is tappable, chevron button expands
   document.addEventListener("click", function (e) {

@@ -327,6 +327,11 @@ def copy_static():
         src_logo = os.path.join(ASSETS_SRC, name)
         if os.path.isfile(src_logo):
             shutil.copy(src_logo, os.path.join(DIST, "assets", name))
+    # Tanko brand logos (SVG, fetched from tanko.com.tw)
+    for name in ("tanko-logo.svg", "tanko-logo-white.svg"):
+        src_logo = os.path.join(ASSETS_SRC, name)
+        if os.path.isfile(src_logo):
+            shutil.copy(src_logo, os.path.join(DIST, "assets", name))
     # Favicon set + default Open Graph share image
     for name in ("favicon.ico", "favicon-32x32.png", "favicon-16x16.png",
                  "apple-touch-icon.png", "primaxs-og-1200x630.png"):

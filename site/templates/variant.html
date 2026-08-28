@@ -24,7 +24,10 @@
         {% endif %}
       </div>
       <div class="variant-info">
-        <h1>{{ variant.h1 }}</h1>
+        <div class="variant-title-row">
+          <h1>{{ variant.h1 }}</h1>
+          <img src="{{ base_url }}assets/tanko-logo.svg" alt="Tanko industrial storage — made in Taiwan" class="variant-tanko-logo">
+        </div>
         <div class="sku-line">Model No. {{ variant.sku }} &middot; <a href="{{ base_url }}{{ family.url }}">{{ family.name }}</a></div>
         {% if variant.price_myr %}
         <div class="ref-price">Reference price: <strong>RM {{ variant.price_myr }}</strong> <span class="ref-price-note">(guide price — final quotation on request)</span></div>
