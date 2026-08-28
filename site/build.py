@@ -21,6 +21,7 @@ sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="repla
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from content.guides import GUIDES
 from content.category_seo import CATEGORY_FAQ, CATEGORY_GUIDES
+from pricing import price_for_product, _usd_to_myr
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.abspath(os.path.join(HERE, ".."))
@@ -1351,6 +1352,19 @@ def build_variant(cat_slug, cat_meta, family_info, variant, all_family_variants)
             "url": f"https://www.storagesystem.com.my/{variant_url(cat_slug, family_info['family_slug'], sku)}",
         },
     }
+    # Add reference price (E147 USD x 12.05, rounded up) so Google's product
+    # structured data has a price — required for rich results. Combo/variant
+    # products use the matched base or summed price as a guide price.
+    _pmyr, _pmethod, _pusd = price_for_product(sku, variant.get("color") or None, variant)
+    if _pmyr:
+        prod_ld["offers"]["price"] = _pmyr
+        prod_ld["offers"]["priceValidUntil"] = "2027-12-31"
+        prod_ld["offers"]["priceSpecification"] = {
+            "@type": "PriceSpecification",
+            "price": _pmyr,
+            "priceCurrency": "MYR",
+            "valueAddedTaxIncluded": False,
+        }
     if variant["image_paths"]:
         prod_ld["image"] = [f"https://www.storagesystem.com.my/{p}" for p in variant["image_paths"]]
     if variant.get("dimensions"):
@@ -1379,7 +1393,7 @@ def build_variant(cat_slug, cat_meta, family_info, variant, all_family_variants)
         og_image=(f"https://www.storagesystem.com.my/{variant['image_paths'][0]}" if variant["image_paths"] else None),
         category={"name": cat_meta["name"], "slug": cat_slug},
         family={"name": fam_name, "url": family_url(cat_slug, family_info["family_slug"])},
-        variant={**variant, "h1": h1},
+        variant={**variant, "h1": h1, "price_myr": (_pmyr if _pmyr else None)},
         related=related,
         faqs=faqs,
         base_url=BASE_URL, year=YEAR, json_ld=json_ld,
@@ -1433,9 +1447,9 @@ def build_products_index(products):
 
 
 def build_search_index(products, families):
-    """Client-side search corpus — one entry per family + first-variant image.
-    Kept tiny: sku code, family name, category, family URL, thumb path, and a
-    lowercased haystack `h` for cheap substring match."""
+    """Client-side search corpus — one entry per variant SKU (so every product
+    code is findable, e.g. WAS-54032), plus one entry per product family.
+    Haystack `h` holds sku + name + category for cheap substring match."""
     listing_map = {}
     lp = os.path.join(ROOT, "listing_products.json")
     if os.path.exists(lp):
@@ -1446,28 +1460,65 @@ def build_search_index(products, families):
         if p.get("family_slug") and p.get("image_paths"):
             prods_by_family[p["family_slug"]].append(p)
 
-    seen_slugs = set()
-    entries = []
+    # family -> display name (group + distinct title)
+    fam_display = {}
     for f in families:
         fs = f.get("family_slug")
-        if not fs or fs in seen_slugs:
+        if not fs:
             continue
-        seen_slugs.add(fs)
+        nm = f.get("family", "")
+        dt = f.get("distinct_title")
+        if dt:
+            nm = nm + " — " + dt
+        fam_display[fs] = nm
+
+    seen_urls = set()
+    entries = []
+    # 1) one entry per variant (every product page is individually indexed)
+    for p in products:
+        cs = p.get("category_slug")
+        fs = p.get("family_slug")
+        sku = (p.get("sku") or "").strip()
+        if not cs or not fs or not sku or not p.get("image_paths"):
+            continue
+        url = f"{cs}/{fs}/{slug(sku)}/"
+        if url in seen_urls:
+            continue
+        seen_urls.add(url)
+        name = fam_display.get(fs) or fs
+        dt = p.get("distinct_title") or p.get("product_type") or ""
+        extra = p.get("color") or ""
+        dims = p.get("dimensions") or ""
+        cat_name = (CATEGORIES_META.get(cs) or {}).get("name", cs)
+        entries.append({
+            "sku": sku,
+            "name": name,
+            "cat": cat_name,
+            "url": url,
+            "img": p["image_paths"][0],
+            "h": " ".join(x for x in [sku, name, dt, extra, dims, cat_name] if x).lower(),
+        })
+
+    # 2) one entry per family (links to the compare/family hub page)
+    for f in families:
+        fs = f.get("family_slug")
+        if not fs or fs in seen_urls:
+            continue
         cs = f.get("category_slug")
         if not cs:
             continue
         variants = prods_by_family.get(fs, [])
         thumb = next((v["image_paths"][0] for v in variants if v["image_paths"]), None)
         sku = (listing_map.get(fs) or {}).get("sku_code", "") or fs.upper()
-        name = f.get("family", "")
-        dt = f.get("distinct_title")
-        if dt: name = name + " — " + dt
+        name = fam_display.get(fs) or f.get("family", "")
         cat_name = (CATEGORIES_META.get(cs) or {}).get("name", cs)
+        url = f"{cs}/{fs}/"
+        seen_urls.add(url)
         entries.append({
             "sku": sku,
             "name": name,
             "cat": cat_name,
-            "url": f"{cs}/{fs}/",
+            "url": url,
             "img": thumb,
             "h": (sku + " " + name + " " + cat_name).lower(),
         })

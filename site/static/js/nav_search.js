@@ -102,6 +102,7 @@
     }
     var ql = q.toLowerCase();
     var scored = [];
+    var fuzzyPrefix = fuzzyKey(ql); // e.g. "was-54032" -> "was-5403"
     for (var i = 0; i < index.length; i++) {
       var it = index[i];
       var pos = it.h.indexOf(ql);
@@ -109,11 +110,25 @@
         var score = pos;
         if (it.sku.toLowerCase() === ql) score = -1000;
         else if (it.sku.toLowerCase().indexOf(ql) === 0) score = -500 + pos;
-        scored.push({ it: it, score: score });
+        scored.push({ it: it, score: score, fuzzy: false });
+        continue;
+      }
+      // Fuzzy fallback: if the query looks like an SKU (letters-digits-hyphen),
+      // match on the shared numeric prefix so slightly-wrong codes still hit.
+      if (fuzzyPrefix && it.h.indexOf(fuzzyPrefix) >= 0) {
+        scored.push({ it: it, score: 400 + pos + it.h.indexOf(fuzzyPrefix), fuzzy: true });
       }
     }
     scored.sort(function (a, b) { return a.score - b.score; });
-    var top = scored.slice(0, 24);
+    // dedupe by URL, exact/fuzzy combined, exact wins
+    var seenUrl = {};
+    var top = [];
+    for (var j = 0; j < scored.length && top.length < 24; j++) {
+      var r = scored[j];
+      if (seenUrl[r.it.url]) continue;
+      seenUrl[r.it.url] = true;
+      top.push(r);
+    }
     if (!top.length) {
       out.innerHTML = '<div class="ns-hint">No results for “' + escapeHtml(q) + '”. Try a shorter or different keyword.</div>';
       visibleHits = []; focusIndex = -1;
@@ -125,14 +140,14 @@
       var it = r.it;
       html +=
         '<li>' +
-          '<a class="ns-card" href="' + BASE + it.url + '" role="option">' +
+          '<a class="ns-card' + (r.fuzzy ? ' ns-card-fuzzy' : '') + '" href="' + BASE + it.url + '" role="option">' +
             '<div class="ns-card-img">' +
               (it.img ? '<img src="' + BASE + it.img + '" alt="" loading="lazy">' : '') +
             '</div>' +
             '<div class="ns-card-body">' +
               '<div class="ns-card-sku">' + highlight(it.sku, q) + '</div>' +
               '<div class="ns-card-name">' + highlight(it.name, q) + '</div>' +
-              '<div class="ns-card-cat">' + escapeHtml(it.cat) + '</div>' +
+              '<div class="ns-card-cat">' + escapeHtml(it.cat) + (r.fuzzy ? ' · similar SKU' : '') + '</div>' +
             '</div>' +
           '</a>' +
         '</li>';
@@ -141,5 +156,16 @@
     out.innerHTML = html;
     visibleHits = [].slice.call(out.querySelectorAll(".ns-card"));
     focusIndex = -1;
+  }
+
+  // Build a tolerant key from an SKU-like query: keep the letter prefix and the
+  // first N digits, so "was-54032" -> "was-5403" still matches real "was-54031".
+  function fuzzyKey(q) {
+    var m = q.match(/^([a-z]{1,5}-)(\d{2,})/);
+    if (!m) return "";
+    // drop the last digit to tolerate off-by-one codes
+    var digits = m[2].slice(0, -1);
+    if (digits.length < 3) return "";
+    return m[1] + digits;
   }
 })();
