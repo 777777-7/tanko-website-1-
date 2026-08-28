@@ -33,9 +33,33 @@ _COLOR_SUFFIX_RE = re.compile(
     re.IGNORECASE,
 )
 
-# ---- E147 source data ----
+# ---- Price source data (E147 primary + E146 supplementary) ----
+# E147 is the primary/authoritative list (already deployed, prices confirmed).
+# E146 is used ONLY to fill SKUs missing from E147 (never overwrites E147 prices).
 _e147_entries = None
 _e147_by_sku = None  # sku -> {"default": price, "colors": {COLOR: price}}
+
+
+def _build_lookup(entries, lookup, primary):
+    for entry in entries:
+        sku = entry["sku"]
+        price = float(entry["price"].replace(",", ""))
+        color = _extract_color(entry.get("words", []))
+        if primary:
+            rec = lookup.setdefault(sku, {"default": price, "colors": {}})
+            if color:
+                rec["colors"].setdefault(color, price)
+            else:
+                rec["default"] = price
+        else:
+            # E146 supplementary: skip SKUs already covered by E147
+            if sku in lookup:
+                continue
+            rec = lookup.setdefault(sku, {"default": price, "colors": {}})
+            if color:
+                rec["colors"][color] = price
+            else:
+                rec["default"] = price
 
 
 def _load_e147():
@@ -52,15 +76,17 @@ def _load_e147():
         _e147_entries = json.load(f)
 
     _e147_by_sku = {}
-    for entry in _e147_entries:
-        sku = entry["sku"]
-        price = float(entry["price"].replace(",", ""))
-        color = _extract_color(entry.get("words", []))
-        rec = _e147_by_sku.setdefault(sku, {"default": price, "colors": {}})
-        if color:
-            rec["colors"].setdefault(color, price)
-        else:
-            rec["default"] = price
+    _build_lookup(_e147_entries, _e147_by_sku, primary=True)
+
+    # E146 supplementary source (optional)
+    e146_path = os.path.join(here, "_e146_v7.json")
+    if not os.path.exists(e146_path):
+        alt146 = os.path.join(os.path.dirname(here), "_e146_v7.json")
+        e146_path = alt146 if os.path.exists(alt146) else e146_path
+    if os.path.exists(e146_path):
+        with open(e146_path, encoding="utf-8") as f:
+            e146_entries = json.load(f)
+        _build_lookup(e146_entries, _e147_by_sku, primary=False)
 
 
 def _extract_color(words):
