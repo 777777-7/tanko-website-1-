@@ -391,17 +391,54 @@ def _optimize_images(folder):
         sys.stderr.write(f"[webp] {folder}: {made} generated, {skipped} up-to-date\n")
 
 
+def _minify_css(css):
+    """Small, safe CSS minifier: strips /* ... */ comments (but preserves the
+    license/opening comment if you keep one at the top), collapses whitespace
+    around selectors and declarations, drops trailing semicolons. Enough to
+    cut ~30-40% off site.css without a full parser."""
+    # Strip block comments
+    css = re.sub(r"/\*.*?\*/", "", css, flags=re.DOTALL)
+    # Collapse whitespace
+    css = re.sub(r"\s+", " ", css)
+    # Kill space around structural chars
+    css = re.sub(r"\s*([{}:;,>~+])\s*", r"\1", css)
+    # Drop last ; before }
+    css = css.replace(";}", "}")
+    # Trim leading/trailing space
+    return css.strip()
+
+
+def _minify_js(js):
+    """Very conservative JS minifier: strips full-line // comments and /*..*/
+    block comments, collapses blank lines. Deliberately does NOT rename
+    identifiers or squeeze operators — that risks correctness."""
+    js = re.sub(r"/\*.*?\*/", "", js, flags=re.DOTALL)
+    lines = []
+    for ln in js.split("\n"):
+        stripped = ln.strip()
+        if not stripped or stripped.startswith("//"):
+            continue
+        lines.append(ln)
+    return "\n".join(lines)
+
+
 def copy_static():
     dst_css = os.path.join(DIST, "assets", "css")
     os.makedirs(dst_css, exist_ok=True)
-    shutil.copy(os.path.join(STATIC, "css", "site.css"), os.path.join(dst_css, "site.css"))
+    with open(os.path.join(STATIC, "css", "site.css"), encoding="utf-8") as f:
+        css = f.read()
+    with open(os.path.join(dst_css, "site.css"), "w", encoding="utf-8", newline="\n") as f:
+        f.write(_minify_css(css))
     # JS
     dst_js = os.path.join(DIST, "assets", "js")
     os.makedirs(dst_js, exist_ok=True)
     js_src = os.path.join(STATIC, "js")
     if os.path.isdir(js_src):
         for fn in os.listdir(js_src):
-            shutil.copy(os.path.join(js_src, fn), os.path.join(dst_js, fn))
+            with open(os.path.join(js_src, fn), encoding="utf-8") as f:
+                src = f.read()
+            with open(os.path.join(dst_js, fn), "w", encoding="utf-8", newline="\n") as f:
+                f.write(_minify_js(src))
     # Catalogue PDFs -> clean filenames
     dst_cat = os.path.join(DIST, "assets", "catalogs")
     os.makedirs(dst_cat, exist_ok=True)

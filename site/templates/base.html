@@ -33,7 +33,11 @@
 <meta name="twitter:card" content="summary_large_image">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Bodoni:wght@400;700&family=Public+Sans:wght@400;600;700&family=JetBrains+Mono:wght@500;600&display=swap">
+{# Async-load Google Fonts so they don't block first paint. Page renders with
+   the system-font fallback (Public Sans → -apple-system → Segoe UI → Roboto),
+   then swaps to Libre Bodoni / Public Sans when the webfonts land. #}
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Libre+Bodoni:wght@400;700&family=Public+Sans:wght@400;600;700&family=JetBrains+Mono:wght@500;600&display=swap" onload="this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Bodoni:wght@400;700&family=Public+Sans:wght@400;600;700&family=JetBrains+Mono:wght@500;600&display=swap"></noscript>
 <link rel="stylesheet" href="{{ base_url }}assets/css/site.css?v={{ asset_version }}">
 {% if preload_image %}
 <link rel="preload" as="image" href="{{ base_url }}{{ preload_image }}" imagesrcset="{{ base_url }}{{ preload_image_800 }} 800w, {{ base_url }}{{ preload_image }} 1200w" imagesizes="(max-width: 900px) 92vw, 560px" fetchpriority="high" type="image/webp">

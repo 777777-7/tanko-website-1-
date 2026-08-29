@@ -1,19 +1,14 @@
-/* Nav SKU / product search — full-screen modal popup, product cards with
-   images, keyboard navigation. Loads the index once, filters client-side. */
 (function () {
   var btn = document.getElementById("nav-search-btn");
   var modal = document.getElementById("nav-search-modal");
   var input = document.getElementById("nav-search-input");
   var out = document.getElementById("nav-search-results");
   if (!btn || !modal || !input || !out) return;
-
   var index = null;
   var loading = false;
   var visibleHits = []; // current DOM elements, for keyboard nav
   var focusIndex = -1;
-
   var BASE = (window.__BASE__ || "/").replace(/\/?$/, "/");
-
   function loadIndex() {
     if (index || loading) return;
     loading = true;
@@ -22,7 +17,6 @@
       .then(function (data) { index = data; loading = false; if (input.value) render(); })
       .catch(function () { loading = false; });
   }
-
   function open() {
     modal.classList.add("is-open");
     modal.setAttribute("aria-hidden", "false");
@@ -37,7 +31,6 @@
     document.body.style.overflow = "";
     focusIndex = -1;
   }
-
   btn.addEventListener("click", function () { open(); });
   modal.addEventListener("click", function (e) {
     if (e.target.closest("[data-close-search]")) close();
@@ -56,7 +49,6 @@
       }
     }
   });
-
   function moveFocus(delta) {
     if (!visibleHits.length) return;
     focusIndex = ((focusIndex + delta) % visibleHits.length + visibleHits.length) % visibleHits.length;
@@ -65,7 +57,6 @@
       else a.classList.remove("is-focused");
     });
   }
-
   function escapeHtml(s) {
     return String(s || "").replace(/[&<>"']/g, function (c) {
       return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c];
@@ -78,7 +69,6 @@
       '<mark>' + escapeHtml(text.slice(idx, idx + q.length)) + '</mark>' +
       escapeHtml(text.slice(idx + q.length));
   }
-
   function renderEmpty() {
     out.innerHTML =
       '<div class="ns-hint">' +
@@ -86,13 +76,11 @@
       '</div>';
     visibleHits = []; focusIndex = -1;
   }
-
   var debounceT = null;
   input.addEventListener("input", function () {
     clearTimeout(debounceT);
     debounceT = setTimeout(render, 60);
   });
-
   function render() {
     var q = input.value.trim();
     if (!q) { renderEmpty(); return; }
@@ -113,14 +101,11 @@
         scored.push({ it: it, score: score, fuzzy: false });
         continue;
       }
-      // Fuzzy fallback: if the query looks like an SKU (letters-digits-hyphen),
-      // match on the shared numeric prefix so slightly-wrong codes still hit.
       if (fuzzyPrefix && it.h.indexOf(fuzzyPrefix) >= 0) {
         scored.push({ it: it, score: 400 + pos + it.h.indexOf(fuzzyPrefix), fuzzy: true });
       }
     }
     scored.sort(function (a, b) { return a.score - b.score; });
-    // dedupe by URL, exact/fuzzy combined, exact wins
     var seenUrl = {};
     var top = [];
     for (var j = 0; j < scored.length && top.length < 24; j++) {
@@ -157,13 +142,9 @@
     visibleHits = [].slice.call(out.querySelectorAll(".ns-card"));
     focusIndex = -1;
   }
-
-  // Build a tolerant key from an SKU-like query: keep the letter prefix and the
-  // first N digits, so "was-54032" -> "was-5403" still matches real "was-54031".
   function fuzzyKey(q) {
     var m = q.match(/^([a-z]{1,5}-)(\d{2,})/);
     if (!m) return "";
-    // drop the last digit to tolerate off-by-one codes
     var digits = m[2].slice(0, -1);
     if (digits.length < 3) return "";
     return m[1] + digits;

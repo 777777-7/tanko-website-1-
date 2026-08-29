@@ -1,15 +1,8 @@
-/* Primaxs basket — localStorage-backed, cross-page, with fly-to-basket animation.
-   Public API: window.PrimaxsBasket.add({sku, name, image, url})  */
 (function () {
   var KEY = "primaxs.basket.v1";
-
   function load() {
     var items;
     try { items = JSON.parse(localStorage.getItem(KEY) || "[]"); } catch (e) { return []; }
-    // Self-heal: (1) rewrite legacy .png references to .jpg;
-    // (2) strip a leading __BASE__ prefix that was accidentally stored by
-    //     the family-page picker (stageImg.src is absolute, caused double
-    //     base-url like /tanko-website-1-/tanko-website-1-/asset3/…).
     var dirty = false;
     var basePrefix = (window.__BASE__ || "/").replace(/\/?$/, "/");
     (items || []).forEach(function (it) {
@@ -29,9 +22,7 @@
     return items || [];
   }
   function save(items) { localStorage.setItem(KEY, JSON.stringify(items)); render(); }
-
   function find(items, sku) { return items.findIndex(function (x) { return x.sku === sku; }); }
-
   function add(item) {
     if (!item || !item.sku) return;
     var items = load();
@@ -57,12 +48,9 @@
     save(items);
   }
   function clear() { save([]); }
-
   function count() {
     return load().reduce(function (n, x) { return n + x.qty; }, 0);
   }
-
-  // ─── render ─────────────────────────────────────────────
   function render() {
     var items = load();
     var badge = document.getElementById("basket-count");
@@ -87,14 +75,9 @@
       var li = document.createElement("li");
       li.className = "basket-item";
       var BASE = (window.__BASE__ || "/").replace(/\/?$/, "/");
-      // encode each path segment so spaces/parens in image filenames serve
-      // correctly on strict hosts (WE-58W8 (White).jpg -> WE-58W8%20(White).jpg)
       function encPath(p) {
         return String(p || "").replace(/^\//, "").split("/").map(encodeURIComponent).join("/");
       }
-      // Fallback: baskets added BEFORE the PNG->JPG image compression still
-      // reference .png. If it fails to load, retry with .jpg (or .jpeg);
-      // if that also fails, hide the img so we don't show a broken icon.
       var imgSrc = it.image ? BASE + encPath(it.image) : "";
       var img = imgSrc
         ? '<img src="' + imgSrc + '" alt="' + escapeHtml(it.sku) + '" ' +
@@ -127,8 +110,6 @@
       return {"&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"}[c];
     });
   }
-
-  // ─── panel open/close ────────────────────────────────────
   var panel = null;
   function openPanel() {
     panel = document.getElementById("basket-panel");
@@ -144,8 +125,6 @@
     panel.setAttribute("aria-hidden", "true");
     document.body.style.overflow = "";
   }
-
-  // ─── fly-to-basket animation ────────────────────────────
   function fly(fromEl, imageUrl) {
     var target = document.getElementById("basket-fab");
     if (!fromEl || !target || matchMedia("(prefers-reduced-motion: reduce)").matches) return;
@@ -164,7 +143,6 @@
     var endY = rectTo.top + rectTo.height / 2 - 30;
     flyEl.style.left = startX + "px";
     flyEl.style.top = startY + "px";
-    // trigger transition on next frame
     requestAnimationFrame(function () {
       flyEl.style.transform = "translate(" + (endX - startX) + "px," + (endY - startY) + "px) scale(0.28)";
       flyEl.style.opacity = "0.15";
@@ -175,10 +153,7 @@
       setTimeout(function () { target.classList.remove("is-bumping"); }, 500);
     }, 700);
   }
-
-  // ─── delegated events ────────────────────────────────────
   document.addEventListener("click", function (e) {
-    // add to basket buttons (main product page + variant pages)
     var addBtn = e.target.closest("#add-to-basket, .add-to-basket-btn");
     if (addBtn) {
       e.preventDefault();
@@ -188,16 +163,12 @@
         image: addBtn.getAttribute("data-image"),
         url: addBtn.getAttribute("data-url"),
       };
-      // if the picker is live, the model button reflects the current pick; sync from picker
       var modelVal = document.getElementById("model-val");
       var stageImg = document.getElementById("stage-img");
       if (modelVal && addBtn.id === "add-to-basket") {
         item.sku = modelVal.textContent.trim() || item.sku;
       }
       if (stageImg && addBtn.id === "add-to-basket") {
-        // stageImg.src is an absolute path (base + relative), e.g.
-        // /tanko-website-1-/asset3/EA-10051.jpg. Strip the base prefix so
-        // we store a relative path — otherwise render() doubles the base.
         var rawSrc = stageImg.getAttribute("src") || "";
         var flyBase = (window.__BASE__ || "/").replace(/\/?$/, "/");
         if (rawSrc.indexOf(flyBase) === 0) {
@@ -210,12 +181,9 @@
       add(item);
       return;
     }
-    // open basket
     if (e.target.closest("#basket-fab")) {
       e.preventDefault(); render(); openPanel(); return;
     }
-    // close basket. If the closer is an <a> with an href, close the panel
-    // but let navigation happen (so buttons like "Browse products" work).
     var cbClose = e.target.closest("[data-close-basket]");
     if (cbClose) {
       var link = cbClose.closest("a[href]");
@@ -225,15 +193,12 @@
       }
       e.preventDefault(); closePanel(); return;
     }
-    // remove item
     var rem = e.target.closest("[data-remove]");
     if (rem) { e.preventDefault(); remove(rem.getAttribute("data-remove")); return; }
-    // inc / dec
     var inc = e.target.closest("[data-inc]");
     if (inc) { var s = inc.getAttribute("data-inc"); setQty(s, (load()[find(load(), s)] || {qty: 0}).qty + 1); return; }
     var dec = e.target.closest("[data-dec]");
     if (dec) { var s2 = dec.getAttribute("data-dec"); setQty(s2, (load()[find(load(), s2)] || {qty: 0}).qty - 1); return; }
-    // clear
     if (e.target.closest("#basket-clear")) {
       e.preventDefault();
       if (confirm("Clear all items from your basket?")) clear();
@@ -249,9 +214,7 @@
   document.addEventListener("keydown", function (e) {
     if (e.key === "Escape") closePanel();
   });
-
   window.PrimaxsBasket = { add: add, remove: remove, setQty: setQty, clear: clear, load: load, count: count, render: render };
-
   if (document.readyState === "loading") {
     document.addEventListener("DOMContentLoaded", render);
   } else {

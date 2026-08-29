@@ -1,11 +1,7 @@
-/* Product-page tab switcher (Features / How to choose / Image Spec / Product Spec).
-   Deep-linking via URL hash (#features, #howto, #ispec, #pspec). All panels
-   are rendered in HTML so search crawlers see everything. */
 (function () {
   var btns = document.querySelectorAll(".ptabs-btn[data-tab]");
   var panels = document.querySelectorAll(".ptab-panel[data-tab]");
   if (!btns.length || !panels.length) return;
-
   function show(tab) {
     var found = false;
     btns.forEach(function (b) {
@@ -18,7 +14,6 @@
     });
     return found;
   }
-
   btns.forEach(function (b) {
     b.addEventListener("click", function () {
       var t = b.getAttribute("data-tab");
@@ -26,10 +21,8 @@
       history.replaceState(null, "", "#" + t);
     });
   });
-
   var initial = (location.hash || "").replace(/^#/, "");
   if (!initial || !show(initial)) show(btns[0].getAttribute("data-tab"));
-
   window.addEventListener("hashchange", function () {
     var t = (location.hash || "").replace(/^#/, "");
     if (t) show(t);
