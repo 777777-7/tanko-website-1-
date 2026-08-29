@@ -27,6 +27,7 @@ sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="repla
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from content.guides import GUIDES
 from content.category_seo import CATEGORY_FAQ, CATEGORY_GUIDES
+from content.geo_industry import CITY_PAGES, INDUSTRY_PAGES
 from pricing import price_for_product, _usd_to_myr
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -537,7 +538,22 @@ def _org_graph_nodes():
                     "availableLanguage": ["en", "ms", "zh"],
                 }
             ],
-            "areaServed": {"@type": "Country", "name": "Malaysia"},
+            "areaServed": [
+                {"@type": "Country", "name": "Malaysia"},
+                {"@type": "State", "name": "Selangor"},
+                {"@type": "State", "name": "Kuala Lumpur"},
+                {"@type": "State", "name": "Penang"},
+                {"@type": "State", "name": "Johor"},
+                {"@type": "City", "name": "Shah Alam"},
+                {"@type": "City", "name": "Petaling Jaya"},
+                {"@type": "City", "name": "Klang"},
+                {"@type": "City", "name": "Johor Bahru"},
+                {"@type": "City", "name": "George Town"},
+                {"@type": "City", "name": "Ipoh"},
+                {"@type": "City", "name": "Melaka"},
+                {"@type": "City", "name": "Kuching"},
+                {"@type": "City", "name": "Kota Kinabalu"},
+            ],
             "priceRange": "$$",
         },
     ]
@@ -674,6 +690,34 @@ def build_homepage(products, families, categories):
     lcp_webp = (lcp_img.rsplit(".", 1)[0] + ".webp") if lcp_img else None
     lcp_webp_800 = (lcp_img.rsplit(".", 1)[0] + "-w800.webp") if lcp_img else None
 
+    # Homepage FAQ schema for rich results
+    home_faqs = [
+        {"q": "Is Primaxs the official Tanko distributor in Malaysia?",
+         "a": "Yes. Primaxs Marketing (M) Sdn Bhd is the exclusive retail distributor for Tanko Enterprise Co., Ltd. in Malaysia since 2006. We hold Malaysia stock and administer warranty locally."},
+        {"q": "How long is delivery for Tanko products in Malaysia?",
+         "a": "Popular models in our Selangor warehouse deliver within 3-7 working days nationwide. Configured models may require 2-4 weeks for production and sea freight. We confirm stock and lead time with every quotation."},
+        {"q": "Can I get a quotation in Ringgit (MYR)?",
+         "a": "Yes. All Primaxs quotations are in Malaysian Ringgit (MYR), including unit prices, bulk pricing and delivery charges. Reference prices on product pages are guide prices — final quotes depend on configuration, quantity and location."},
+        {"q": "What industries use Tanko industrial storage in Malaysia?",
+         "a": "Tanko products serve manufacturing, automotive workshops, CNC machining, electronics assembly, food processing, pharmaceutical, laboratories, schools and technical training centres across Malaysia."},
+        {"q": "Do you offer bulk or project pricing for factories?",
+         "a": "Yes. We offer competitive B2B bulk pricing for factory outfitting, production line setup and facility upgrade projects across Malaysia, including layout advice, phased delivery and on-site coordination."},
+    ]
+    faq_node = {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {"@type": "Question", "name": f["q"],
+             "acceptedAnswer": {"@type": "Answer", "text": f["a"]}}
+            for f in home_faqs
+        ],
+    }
+    home_json_ld = json.loads(org_json_ld())
+    if isinstance(home_json_ld, dict):
+        home_json_ld = [home_json_ld]
+    home_json_ld.append(faq_node)
+    home_json_ld_str = json.dumps(home_json_ld, ensure_ascii=False)
+
     html = env.get_template("home.html").render(
         page_title="Industrial Storage & Tool Cabinets Malaysia | Primaxs",
         meta_description="Exclusive Malaysia distributor for Tanko industrial storage — tool cabinets, workbenches, racking & lockers. Nationwide delivery. Request a quote today.",
@@ -682,7 +726,7 @@ def build_homepage(products, families, categories):
         slides=slides, categories=cat_cards, featured=featured,
         n_categories=n_categories, n_skus_display=n_skus_display,
         preload_image=lcp_webp, preload_image_800=lcp_webp_800,
-        base_url=BASE_URL, year=YEAR, json_ld=org_json_ld(),
+        base_url=BASE_URL, year=YEAR, json_ld=home_json_ld_str,
     )
     write(os.path.join(DIST, "index.html"), html)
 
@@ -777,10 +821,14 @@ def build_category(cat_slug, category_meta, cat_families, prods_by_family):
         ),
         faq_node,
     )
+    # LCP preload — first family thumbnail, WebP form
+    cat_lcp_img = next((c["thumb"] for c in fam_cards if c.get("thumb")), None)
+    cat_lcp_webp = (cat_lcp_img.rsplit(".", 1)[0] + ".webp") if cat_lcp_img else None
     html = env.get_template("category.html").render(
         page_title=f"{category_meta['h1']} | Primaxs",
         meta_description=f"{category_meta['name']} from Tanko, distributed in Malaysia by Primaxs. Bulk quotes and nationwide delivery. Browse the full range.",
         canonical=cat_url,
+        preload_image=cat_lcp_webp,
         category={"name": category_meta["name"], "h1": category_meta["h1"], "intro": category_meta["intro"]},
         families=fam_cards, sections=section_list,
         subcollection_nav=_subcollection_pills(cat_slug, None),
@@ -1349,12 +1397,21 @@ def build_family(cat_slug, cat_meta, family_info, variants):
     fam_page_title = f"{fam_name}{title_disambig} — {cat_meta['name']} | Primaxs"
     if len(fam_page_title) > 60:
         fam_page_title = f"{fam_name}{title_disambig} | Primaxs"[:60]
-    meta_desc = (f"{fam_name}{title_disambig} — {len(variants)} Tanko variants "
-                 f"with side-by-side specs, distributed in Malaysia by Primaxs.")[:158]
+    meta_desc = (f"{fam_name}{title_disambig} — {len(variants)} Tanko {cat_meta['name'].lower()} variants "
+                 f"with side-by-side specs, dimensions and finishes. Distributed in Malaysia by Primaxs, "
+                 f"exclusive Tanko distributor. Request a quote.")[:158]
+    # LCP preload — first family thumbnail, WebP form
+    fam_lcp_img = None
+    for v in variants:
+        if v.get("image_paths"):
+            fam_lcp_img = v["image_paths"][0]
+            break
+    fam_lcp_webp = (fam_lcp_img.rsplit(".", 1)[0] + ".webp") if fam_lcp_img else None
     html = env.get_template("family.html").render(
         page_title=fam_page_title,
         meta_description=meta_desc,
         canonical=fam_canonical,
+        preload_image=fam_lcp_webp,
         category={"name": cat_meta["name"], "slug": cat_slug},
         family={"name": fam_name, "h1": h1, "intro": intro},
         variants=table_rows,
@@ -1403,6 +1460,130 @@ def _spec_image_for_variant(family_slug, variant_sku):
     return None
 
 
+# Category-specific description templates for unique, keyword-rich product copy.
+# Each template receives (fam_name, variant, cat_meta) and returns 2-3 paragraphs.
+_CATEGORY_DESCRIPTIONS = {
+    "workbench": lambda fam, v, cm: (
+        f"The {fam} ({v['sku']}) is a heavy-duty industrial workbench engineered for "
+        f"continuous shop-floor use in Malaysian factories, fabrication workshops and maintenance "
+        f"departments. Built by Tanko Enterprise in Taiwan and distributed exclusively in Malaysia "
+        f"by Primaxs Marketing, this workbench features a {v.get('material','steel')} top "
+        f"measuring {v.get('dimensions','custom size')} — providing a stable, flat work surface "
+        f"for assembly, inspection, repair and light fabrication tasks.\n\n"
+        f"Designed for the demands of Malaysian industry, the {v['sku']} workbench supports "
+        f"high-load applications with its reinforced steel frame and level-adjustable feet. "
+        f"Whether you are outfitting a production line in Penang, a maintenance bay in Johor or "
+        f"a technical training facility in KL, this Tanko workbench delivers the durability and "
+        f"ergonomics that B2B buyers expect. Popular configurations add drawer units, pegboards "
+        f"and overhead lighting — all configurable through Primaxs.\n\n"
+        f"Primaxs Marketing holds Malaysia stock for popular workbench models and provides "
+        f"local warranty support, Ringgit quotations and nationwide delivery. Send us your model "
+        f"list and quantities for a fast quotation with lead time and freight options."
+    ),
+    "tool-cabinet": lambda fam, v, cm: (
+        f"The {fam} ({v['sku']}) is a professional tool storage cabinet designed for automotive "
+        f"workshops, MRO departments and manufacturing facilities across Malaysia. Manufactured by "
+        f"Tanko Enterprise in Taiwan and supplied by Primaxs Marketing — the exclusive Malaysia "
+        f"distributor — this tool cabinet offers secure, organised storage for hand tools, "
+        f"power tools and workshop consumables.\n\n"
+        f"With dimensions of {v.get('dimensions','compact footprint')} and a "
+        f"{v.get('material','powder-coated steel')} construction, the {v['sku']} tool cabinet "
+        f"combines heavy-duty build quality with smart drawer organisation. Each drawer runs on "
+        f"precision slides rated for daily industrial use, while the central locking system keeps "
+        f"valuable tools secure across shifts. Mobile variants include heavy-duty casters for "
+        f"bay-side mobility in automotive and fabrication environments.\n\n"
+        f"Primaxs Marketing stocks popular tool cabinet configurations in Malaysia and offers "
+        f"local warranty administration, Ringgit pricing and delivery to KL, Selangor, Johor, "
+        f"Penang and nationwide. Contact us with your required SKUs and quantities for a "
+        f"competitive B2B quotation."
+    ),
+    "cnc-tool": lambda fam, v, cm: (
+        f"The {fam} ({v['sku']}) is specialised CNC tool storage for Malaysian machining shops, "
+        f"mould makers and precision manufacturers. Built by Tanko Enterprise in Taiwan and "
+        f"distributed exclusively in Malaysia by Primaxs Marketing, this CNC tool cabinet or "
+        f"trolley protects BT, HSK and ISO tool holders from chips, coolant and mix-ups on the "
+        f"shop floor.\n\n"
+        f"Measuring {v.get('dimensions','standard CNC footprint')}, the {v['sku']} provides "
+        f"organised storage for CNC tooling with labelled compartments and durable "
+        f"{v.get('material','steel')} construction. Whether you manage a vertical machining "
+        f"centre in Shah Alam, a mould shop in Penang or a precision parts manufacturer in Johor, "
+        f"proper CNC tool storage reduces setup time, protects expensive tool holders and "
+        f"improves 5S workplace organisation.\n\n"
+        f"Primaxs Marketing supplies the full Tanko CNC tool storage range in Malaysia with "
+        f"local stock on popular models, Ringgit quotations and nationwide delivery. Send us "
+        f"your tool holder specifications and quantities for a tailored quotation."
+    ),
+    "workstation": lambda fam, v, cm: (
+        f"The {fam} ({v['sku']}) is a modular industrial workstation configurable for assembly "
+        f"lines, inspection stations and production cells across Malaysian manufacturing "
+        f"facilities. Engineered by Tanko Enterprise in Taiwan and supplied by Primaxs Marketing "
+        f"— the exclusive Malaysia distributor — this workstation system integrates drawer units, "
+        f"pegboards, overhead shelving and power distribution on a common steel frame.\n\n"
+        f"At {v.get('dimensions','configurable dimensions')}, the {v['sku']} workstation "
+        f"supports lean manufacturing and 5S organisation in electronics assembly, automotive "
+        f"component production and general manufacturing. The {v.get('material','steel')} frame "
+        f"accepts a wide range of Tanko accessories, allowing each station to be tailored to the "
+        f"specific task — from ESD-safe electronics assembly in KL to heavy fabrication support "
+        f"in Johor.\n\n"
+        f"Primaxs Marketing provides full specification support for modular workstations in "
+        f"Malaysia, including layout advice, Ringgit quotations and nationwide delivery. Contact "
+        f"us with your production requirements and we will recommend the optimal configuration."
+    ),
+    "locker": lambda fam, v, cm: (
+        f"The {fam} ({v['sku']}) is a steel storage locker designed for factories, campuses, "
+        f"gymnasiums and public facilities across Malaysia. Manufactured by Tanko Enterprise in "
+        f"Taiwan and distributed by Primaxs Marketing, this locker provides secure personal "
+        f"storage with ventilation and durable {v.get('material','powder-coated steel')} "
+        f"construction.\n\n"
+        f"With a footprint of {v.get('dimensions','standard locker size')}, the {v['sku']} "
+        f"offers compartmentalised storage suitable for changing rooms in manufacturing plants, "
+        f"student lockers in technical schools and staff facilities in commercial buildings. "
+        f"Each compartment features a secure lock and label holder, while the steel frame "
+        f"withstands high-traffic environments in KL, Penang, Johor and other Malaysian cities.\n\n"
+        f"Primaxs Marketing supplies the full Tanko locker range in Malaysia with bulk pricing "
+        f"for facility managers, Ringgit quotations and nationwide delivery. Contact us with "
+        f"your compartment count and lock type requirements for a competitive quote."
+    ),
+    "rack": lambda fam, v, cm: (
+        f"The {fam} ({v['sku']}) is heavy-duty storage racking for warehouses, tool rooms and "
+        f"manufacturing facilities in Malaysia. Built by Tanko Enterprise in Taiwan and supplied "
+        f"by Primaxs Marketing, this rack system handles moulds, dies, raw materials and "
+        f"industrial equipment with rated load capacities.\n\n"
+        f"Measuring {v.get('dimensions','heavy-duty rack dimensions')}, the {v['sku']} rack "
+        f"features {v.get('material','steel')} construction with adjustable shelf levels and "
+        f"reinforced uprights. Mould rack variants include pull-out shelves for safe, ergonomic "
+        f"handling of heavy injection moulds — essential for plastic injection shops in Malaysia. "
+        f"All racking is designed for Malaysian warehouse conditions with corrosion-resistant "
+        f"finishes and level-adjustable feet.\n\n"
+        f"Primaxs Marketing provides racking specification support, Malaysia stock on popular "
+        f"configurations and nationwide delivery. Send us your storage requirements and load "
+        f"ratings for a tailored quotation with installation options."
+    ),
+}
+
+
+def _product_description(cat_slug, fam_name, variant, cat_meta):
+    """Generate a unique, keyword-rich product description for SEO."""
+    template = _CATEGORY_DESCRIPTIONS.get(cat_slug)
+    if template:
+        try:
+            return template(fam_name, variant, cat_meta)
+        except Exception:
+            pass
+    # Generic fallback for categories without a specific template
+    dims = variant.get("dimensions", "industrial dimensions")
+    mat = variant.get("material", "industrial-grade steel")
+    return (
+        f"The {fam_name} ({variant['sku']}) is a professional industrial storage solution "
+        f"manufactured by Tanko Enterprise in Taiwan and distributed exclusively in Malaysia "
+        f"by Primaxs Marketing. With {mat} construction and dimensions of {dims}, this product "
+        f"is designed for B2B use in factories, workshops and facilities across Malaysia.\n\n"
+        f"Primaxs Marketing provides local stock, Ringgit quotations, warranty support and "
+        f"nationwide delivery for the full Tanko range. Contact us with your model list and "
+        f"quantities for a fast, competitive quotation."
+    )
+
+
 def build_variant(cat_slug, cat_meta, family_info, variant, all_family_variants):
     sku = variant["sku"]
     _dt = family_info.get("distinct_title")
@@ -1424,9 +1605,16 @@ def build_variant(cat_slug, cat_meta, family_info, variant, all_family_variants)
     h1 = f"{fam_name} {sku}"
     if diff_attrs:
         h1 = f"{fam_name} {sku} — " + ", ".join(diff_attrs[:3])
+    # Ensure category keyword appears in H1 for SEO (e.g. "Metal Hook" -> "Perforated Board Metal Hook")
+    cat_name_lower = cat_meta.get("name", "").lower()
+    fam_lower = fam_name.lower()
+    cat_keywords = cat_name_lower.replace("&", " ").split()
+    if not any(kw in fam_lower for kw in cat_keywords if len(kw) > 3):
+        h1 = f"{cat_meta['name']} — {h1}"
 
     # Title / meta with variant-specific content — keep under Google's ~60-char
     # SERP truncation. Lead with SKU (what buyers search) and family name.
+    cat_keyword = cat_meta.get("name", "").lower()
     title_bits = [sku, fam_name]
     if variant.get("material"): title_bits.append(variant["material"])
     if variant.get("dimensions"): title_bits.append(variant["dimensions"])
@@ -1438,10 +1626,13 @@ def build_variant(cat_slug, cat_meta, family_info, variant, all_family_variants)
         title_core = title_core[:room].rsplit(" ", 1)[0].rstrip("·").rstrip()
     title = title_core + suffix
 
+    # Meta description: always include category keyword and ensure 120+ chars
     meta_bits = [f"{sku} {fam_name}"]
     if variant.get("dimensions"): meta_bits.append(variant["dimensions"])
     if variant.get("material"): meta_bits.append(variant["material"])
-    meta = " · ".join(meta_bits) + f" — supplied in Malaysia by Primaxs, exclusive Tanko distributor. Request a quote."
+    meta_core = " · ".join(meta_bits)
+    meta_tail = f" — {cat_keyword} and accessories supplied in Malaysia by Primaxs, exclusive Tanko distributor. Request a quote with pricing and lead time."
+    meta = meta_core + meta_tail
     meta = meta[:158]
 
     # Related variants: same family, different SKU, prefer ones with images
@@ -1574,7 +1765,39 @@ def build_variant(cat_slug, cat_meta, family_info, variant, all_family_variants)
         ],
     }
 
-    json_ld = json.dumps([prod_ld, breadcrumb_ld], ensure_ascii=False)
+    # Generate unique product description for SEO
+    product_desc = _product_description(cat_slug, fam_name, variant, cat_meta)
+
+    # Related guides for this product category
+    guide_by_slug = {g["slug"]: g for g in GUIDES}
+    related_guides = []
+    for gslug in CATEGORY_GUIDES.get(cat_slug, []):
+        g = guide_by_slug.get(gslug)
+        if g:
+            related_guides.append({
+                "slug": gslug,
+                "title": g["nav_title"],
+                "excerpt": g.get("excerpt", ""),
+                "url": f"{SITE_URL}/guides/{gslug}/",
+            })
+
+    # FAQ schema for rich results
+    faq_ld = {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {"@type": "Question", "name": f["q"],
+             "acceptedAnswer": {"@type": "Answer", "text": f["a"]}}
+            for f in faqs
+        ],
+    }
+
+    json_ld = json.dumps([prod_ld, breadcrumb_ld, faq_ld], ensure_ascii=False)
+
+    # LCP preload — first gallery image (spec drawing), WebP form
+    lcp_img = variant["image_paths"][0] if variant["image_paths"] else None
+    lcp_webp = (lcp_img.rsplit(".", 1)[0] + ".webp") if lcp_img else None
+    lcp_webp_800 = (lcp_img.rsplit(".", 1)[0] + "-w800.webp") if lcp_img else None
 
     html = env.get_template("variant.html").render(
         page_title=title,
@@ -1582,11 +1805,14 @@ def build_variant(cat_slug, cat_meta, family_info, variant, all_family_variants)
         canonical=f"https://www.storagesystem.com.my/{variant_url(cat_slug, family_info['family_slug'], sku)}",
         og_type="product",
         og_image=(f"https://www.storagesystem.com.my/{variant['image_paths'][0]}" if variant["image_paths"] else None),
+        preload_image=lcp_webp,
+        preload_image_800=lcp_webp_800,
         category={"name": cat_meta["name"], "slug": cat_slug},
         family={"name": fam_name, "url": family_url(cat_slug, family_info["family_slug"])},
-        variant={**variant, "h1": h1, "price_myr": (_pmyr if _pmyr else None)},
+        variant={**variant, "h1": h1, "price_myr": (_pmyr if _pmyr else None), "description": product_desc},
         related=related,
         faqs=faqs,
+        related_guides=related_guides,
         base_url=BASE_URL, year=YEAR, json_ld=json_ld,
     )
     write(os.path.join(DIST, cat_slug, family_info["family_slug"], slug(sku), "index.html"), html)
@@ -1736,6 +1962,106 @@ def build_download():
         downloads=downloads, base_url=BASE_URL, year=YEAR, json_ld=org_json_ld(),
     )
     write(os.path.join(DIST, "download", "index.html"), html)
+
+
+def build_landing_pages():
+    """Generate city geo pages (/locations/<slug>/) and industry pages
+    (/industries/<slug>/) for local SEO and topical authority."""
+    built = 0
+
+    # City / location pages
+    for page in CITY_PAGES:
+        faq_node = None
+        if page.get("faqs"):
+            faq_node = {
+                "@type": "FAQPage",
+                "mainEntity": [
+                    {"@type": "Question", "name": f["q"],
+                     "acceptedAnswer": {"@type": "Answer", "text": f["a"]}}
+                    for f in page["faqs"]
+                ],
+            }
+        json_ld = graph_ld(
+            *_org_graph_nodes(),
+            breadcrumb_ld([
+                ("Locations", f"{SITE_URL}/locations/"),
+                (page["nav_title"], f"{SITE_URL}/locations/{page['slug']}/"),
+            ]),
+            faq_node,
+        )
+        html = env.get_template("landing_page.html").render(
+            page_title=page["title"],
+            meta_description=page["meta_description"],
+            canonical=f"{SITE_URL}/locations/{page['slug']}/",
+            breadcrumbs=[{"label": "Locations", "url": "locations/"}],
+            page=page,
+            page_body=_fix_guide_links(page.get("body") or "", BASE_URL),
+            base_url=BASE_URL, year=YEAR, json_ld=json_ld,
+        )
+        write(os.path.join(DIST, "locations", page["slug"], "index.html"), html)
+        built += 1
+
+    # Industry pages
+    for page in INDUSTRY_PAGES:
+        faq_node = None
+        if page.get("faqs"):
+            faq_node = {
+                "@type": "FAQPage",
+                "mainEntity": [
+                    {"@type": "Question", "name": f["q"],
+                     "acceptedAnswer": {"@type": "Answer", "text": f["a"]}}
+                    for f in page["faqs"]
+                ],
+            }
+        json_ld = graph_ld(
+            *_org_graph_nodes(),
+            breadcrumb_ld([
+                ("Industries", f"{SITE_URL}/industries/"),
+                (page["nav_title"], f"{SITE_URL}/industries/{page['slug']}/"),
+            ]),
+            faq_node,
+        )
+        html = env.get_template("landing_page.html").render(
+            page_title=page["title"],
+            meta_description=page["meta_description"],
+            canonical=f"{SITE_URL}/industries/{page['slug']}/",
+            breadcrumbs=[{"label": "Industries", "url": "industries/"}],
+            page=page,
+            page_body=_fix_guide_links(page.get("body") or "", BASE_URL),
+            base_url=BASE_URL, year=YEAR, json_ld=json_ld,
+        )
+        write(os.path.join(DIST, "industries", page["slug"], "index.html"), html)
+        built += 1
+
+    # Hub index pages for /locations/ and /industries/
+    for hub_slug, hub_title, hub_intro, pages_list, hub_crumb in [
+        ("locations", "Industrial Storage by Location in Malaysia",
+         "Tanko industrial storage delivered across Malaysia — find your region and discover the products most relevant to local industries.",
+         CITY_PAGES, "Locations"),
+        ("industries", "Industrial Storage by Industry in Malaysia",
+         "Industry-specific storage solutions for automotive, electronics, food, pharmaceutical, CNC machining and warehouse sectors across Malaysia.",
+         INDUSTRY_PAGES, "Industries"),
+    ]:
+        hub_json = graph_ld(
+            *_org_graph_nodes(),
+            collection_page_ld(
+                name=hub_title, url=f"{SITE_URL}/{hub_slug}/",
+                description=hub_intro,
+                item_urls=[f"{SITE_URL}/{hub_slug}/{p['slug']}/" for p in pages_list],
+            ),
+        )
+        hub_html = env.get_template("landing_hub.html").render(
+            page_title=f"{hub_title} | Primaxs Malaysia",
+            meta_description=hub_intro[:155],
+            canonical=f"{SITE_URL}/{hub_slug}/",
+            hub_title=hub_title, hub_intro=hub_intro,
+            pages=pages_list, hub_slug=hub_slug,
+            base_url=BASE_URL, year=YEAR, json_ld=hub_json,
+        )
+        write(os.path.join(DIST, hub_slug, "index.html"), hub_html)
+        built += 1
+
+    return built
 
 
 # Wrong/legacy category slugs that appeared in early guide copy — map to the
@@ -1909,10 +2235,14 @@ def build_subcollections(families, prods_by_family):
                 item_urls=[f"https://www.storagesystem.com.my/{c['url']}" for c in fam_cards],
             ),
         )
+        # LCP preload — first family thumbnail, WebP form
+        sub_lcp_img = next((c["thumb"] for c in fam_cards if c.get("thumb")), None)
+        sub_lcp_webp = (sub_lcp_img.rsplit(".", 1)[0] + ".webp") if sub_lcp_img else None
         html = env.get_template("category.html").render(
             page_title=f"{label} {cat_name} Malaysia | Primaxs"[:62],
             meta_description=intro[:158],
             canonical=sub_canonical,
+            preload_image=sub_lcp_webp,
             category={"name": f"{label} {cat_name}", "h1": h1, "intro": intro},
             families=fam_cards,
             subcollection_nav=_subcollection_pills(cat_slug, sub_slug),
@@ -1947,6 +2277,11 @@ def main():
     build_search_index(products, families)
     build_download()
     build_guides()
+
+    # City geo pages + industry application pages
+    print("  location & industry landing pages")
+    n_landing = build_landing_pages()
+    print(f"  -> {n_landing} landing pages")
 
     # Group products by family_slug (which is unique per Tanko page).
     # product_family (the human name) is shared across many pages, so grouping
@@ -2013,7 +2348,7 @@ def main():
           env.get_template("404.html").render(
               page_title="Page Not Found | Primaxs Malaysia",
               meta_description="The page you were looking for could not be found. Browse the Tanko industrial storage catalogue or contact Primaxs Malaysia.",
-              canonical=None,
+              canonical="https://www.storagesystem.com.my/",
               base_url=BASE_URL, year=YEAR, json_ld=org_json_ld()))
     print("  404 page written")
 

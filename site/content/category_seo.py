@@ -119,6 +119,7 @@ CATEGORY_FAQ = {
 CATEGORY_GUIDES = {
     "workbench": [
         "how-to-choose-a-workbench-malaysia",
+        "workbench-top-material-guide-malaysia",
         "tanko-workbench-pricing-quote-guide-malaysia",
         "meja-kerja-industri-malaysia",
         "esd-anti-static-workbench-malaysia",
@@ -128,6 +129,7 @@ CATEGORY_GUIDES = {
     ],
     "tool-cabinet": [
         "tool-cabinet-buying-guide-automotive-workshop-malaysia",
+        "tool-cabinet-maintenance-longevity-malaysia",
         "kabinet-alat-penyimpanan-bengkel-malaysia",
         "industrial-storage-solutions-malaysia",
     ],
@@ -137,6 +139,7 @@ CATEGORY_GUIDES = {
     ],
     "workstation": [
         "modular-workstations-5s-workplace-organisation-malaysia",
+        "5s-workplace-organisation-modular-storage-malaysia",
         "how-to-choose-a-workbench-malaysia",
     ],
     "rack": [
@@ -158,6 +161,7 @@ CATEGORY_GUIDES = {
     ],
     "perforated-board": [
         "perforated-board-shadow-board-tool-control-malaysia",
+        "5s-workplace-organisation-modular-storage-malaysia",
         "modular-workstations-5s-workplace-organisation-malaysia",
     ],
     "household-items": [

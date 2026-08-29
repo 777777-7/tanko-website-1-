@@ -671,7 +671,7 @@ GUIDES = [
         "slug": "esd-anti-static-workbench-malaysia",
         "nav_title": "ESD Workbench Guide",
         "tag": "Industry Guide",
-        "title": "ESD & Anti-Static Workbenches in Malaysia: What Electronics & EMS Buyers Need to Know",
+        "title": "ESD Anti-Static Workbenches Malaysia | Electronics Buyer Guide",
         "h1": "ESD & Anti-Static Workbenches in Malaysia: A Specifier's Guide",
         "updated": "August 2026",
         "excerpt": "How to specify an ESD-safe workbench for electronics assembly, PCB repair and EMS lines in Malaysia — grounding, top materials, wrist-strap points and audit-readiness.",
@@ -730,7 +730,7 @@ GUIDES = [
         "slug": "stainless-steel-workbench-food-pharma-malaysia",
         "nav_title": "Stainless Steel Workbench Guide",
         "tag": "Industry Guide",
-        "title": "Stainless Steel Workbenches for Food, Pharma & Lab in Malaysia: A Hygienic Design Guide",
+        "title": "Stainless Steel Workbenches Malaysia | Food Pharma Lab Guide",
         "h1": "Stainless Steel Workbenches for Food, Pharma & Lab in Malaysia",
         "updated": "August 2026",
         "excerpt": "Why food processing, pharmaceutical, laboratory and cleanroom facilities in Malaysia specify stainless steel workbenches — hygiene, corrosion, welding and grade decisions.",
@@ -783,8 +783,8 @@ GUIDES = [
         "slug": "heavy-duty-workbench-fabrication-welding-malaysia",
         "nav_title": "Heavy-Duty Workbench Guide",
         "tag": "Industry Guide",
-        "title": "Heavy-Duty Workbenches for Fabrication, Welding & Maintenance in Malaysia",
-        "h1": "Heavy-Duty Workbenches for Fabrication, Welding & Maintenance in Malaysia",
+        "title": "Heavy Duty Workbenches Malaysia | Fabrication Welding Guide",
+        "h1": "Heavy Duty Workbenches Malaysia | Fabrication Welding Guide",
         "updated": "August 2026",
         "excerpt": "How Malaysian fabrication shops, welding bays and maintenance workshops specify heavy-duty workbenches — load rating, steel tops, bench dogs and vibration.",
         "meta_description": "Heavy-duty workbench Malaysia guide: load rating, thick steel tops, stability for welding and fabrication, and bench-vice mounting for maintenance bays.",
@@ -829,7 +829,7 @@ GUIDES = [
         "slug": "tanko-workbench-pricing-quote-guide-malaysia",
         "nav_title": "Workbench Pricing & Quotes in Malaysia",
         "tag": "Buying Guide",
-        "title": "How Tanko Workbench Pricing Works in Malaysia: Quotes, Factors & What Affects Cost",
+        "title": "Tanko Workbench Pricing Malaysia | Quote Cost Factors Guide",
         "h1": "How Tanko Workbench Pricing Works in Malaysia",
         "updated": "August 2026",
         "excerpt": "Tanko workbenches are premium Taiwan-made B2B products, so pricing is quote-based rather than listed online. Here is what determines the cost and how to get an accurate quote.",
@@ -977,4 +977,211 @@ GUIDES = [
              "a": "Ya — kami menghantar seluruh Malaysia dari gudang di Selangor. Kos dan masa penghantaran disahkan dalam sebut harga."},
         ],
     },
+
+    {
+        "slug": "5s-workplace-organisation-modular-storage-malaysia",
+        "nav_title": "5S Workplace Organisation Guide",
+        "tag": "Productivity Guide",
+        "title": "5S Workplace Organisation with Modular Storage in Malaysia",
+        "h1": "5S Workplace Organisation with Modular Storage in Malaysia",
+        "updated": "August 2026",
+        "excerpt": "How 5S lean methodology — Sort, Set in Order, Shine, Standardise, Sustain — pairs with modular workstations, tool cabinets and shadow boards to improve Malaysian factory productivity.",
+        "meta_description": "5S workplace organisation guide for Malaysian factories — how modular workstations, tool cabinets, pegboards and shadow boards support Sort, Set in Order, Shine, Standardise and Sustain.",
+        "body": """
+<p class="lead">5S is the foundation of lean manufacturing, and it is only as effective as the storage system that supports it. A Malaysian factory that invests in the right modular workstations, tool cabinets, perforated boards and parts storage will find 5S easier to implement — and far easier to sustain. This guide explains how each S maps to concrete storage choices on the shop floor.</p>
+
+<h2>What is 5S and why does it matter in Malaysia?</h2>
+<p>5S — <em>Seiri</em> (Sort), <em>Seiton</em> (Set in Order), <em>Seiso</em> (Shine), <em>Seiketsu</em> (Standardise) and <em>Shitsuke</em> (Sustain) — originated in Japanese manufacturing and is now standard practice in Malaysian factories, automotive plants and electronics assembly lines. The goal is a workplace where everything has a place, nothing is wasted, and problems are visible immediately. The result is faster changeovers, fewer lost tools, safer aisles and a shop floor that passes audit on inspection day.</p>
+<p>What many Malaysian facilities discover is that 5S fails not because the team lacks discipline, but because the storage infrastructure does not support it. If there is no designated place for a torque wrench, it will end up on a bench, in a drawer or on the floor — and Sort and Set in Order become impossible. The right storage system makes 5S the path of least resistance.</p>
+
+<h2>Sort (Seiri): remove what does not belong</h2>
+<p>Sort means separating what is needed at a workstation from what is not. The practical storage question is: does this position have enough designated storage for the tools and parts that <em>are</em> needed, so that everything else is obviously out of place? A <a href="/workstation/">modular workstation</a> with a drawer unit, pegboard and overhead shelf gives each item a home. When the drawer is full or the pegboard has no empty shadow, anything extra stands out — making Sort a daily habit rather than a quarterly campaign.</p>
+<p>For factories in Penang, Johor and the Klang Valley running multi-shift operations, Sort also means controlling what crosses shift boundaries. Lockable <a href="/tool-cabinet/">tool cabinets</a> assigned to technicians or shifts prevent tools from migrating between bays, and a locked lower cabinet on each workstation keeps consumables controlled rather than scattered.</p>
+
+<h2>Set in Order (Seiton): a place for everything</h2>
+<p>Set in Order is where storage design does the heavy lifting. The principle is simple: the most frequently used items are closest, at the right height, and visible without searching. In practice this means:</p>
+<ul>
+  <li><strong>Perforated boards and shadow boards</strong> behind or above the workstation for hand tools used every few minutes. A <a href="/perforated-board/">pegboard</a> with foam shadow outlines makes a missing tool instantly visible — the empty shadow is the audit.</li>
+  <li><strong>Drawer units</strong> at the workstation for tools used a few times per shift. Drawers with dividers keep sockets, spanners and measuring instruments separated rather than jumbled.</li>
+  <li><strong>Lower shelving</strong> for bulk consumables and less frequently used items, within arm's reach but not occupying prime work-surface space.</li>
+  <li><strong>CNC tool storage</strong> positioned between machining centres so BT-40, HSK and ISO holders are organised by station rather than piled in a drawer.</li>
+</ul>
+<p>The layout should follow the work sequence, not the storage catalogue. Walk through the task at each position and place tools in the order they are picked up — this cuts motion waste more than any other single change.</p>
+
+<h2>Shine (Seiso): clean to inspect</h2>
+<p>Shine is not housekeeping for its own sake — it is inspection by cleaning. A clean workstation reveals leaks, worn parts, loose fasteners and chip buildup before they become failures. Storage design supports Shine when surfaces are smooth, drawers are removable for cleaning, and perforated boards are open rather than enclosed. Stainless steel worktops in food, pharma and laboratory environments are chosen partly because they wipe clean and reveal contamination instantly.</p>
+<p>In Malaysian conditions — high humidity, occasional dust, and coolant or oil in machining areas — Shine also means choosing materials that resist corrosion. Powder-coated steel frames, stainless steel tops in wet areas, and drawer slides that can be wiped down all reduce the maintenance burden of keeping a position audit-ready.</p>
+
+<h2>Standardise (Seiketsu): make the best practice the default</h2>
+<p>Standardise means codifying what Sort, Set in Order and Shine look like at each position, so every shift and every operator follows the same layout. This is where modular storage earns its keep: because workstations, drawer units and pegboards are configurable, a standard layout can be replicated across every position in a production line. When Position 3 and Position 7 have the same drawer layout and the same shadow board, training is faster, problems are easier to spot, and temporary workers can be productive in minutes.</p>
+<p>For Malaysian facilities expanding or reconfiguring lines, standardised modular storage also means that when a new position is added, the storage spec is already defined — no redesign required. The <a href="/workstation/">Tanko workstation system</a> is built around this idea: a common frame accepts drawer units, pegboards, shelves, lighting and power in consistent positions.</p>
+
+<h2>Sustain (Shitsuke): make it stick</h2>
+<p>Sustain is the hardest S, and it is where most 5S programmes quietly stall. The key is to make the organised state easier than the disorganised state. If returning a tool to its shadow takes two seconds and leaving it on the bench takes one, the bench will win. If the drawer is labelled, the divider fits the tool, and the shadow board is at the right height, returning the tool becomes automatic.</p>
+<p>Audit and visual management support Sustain: daily 5S checks, a leader-led walk, and a board that shows each position's status. But the foundation is always the storage itself. A facility that buys cheap, non-configurable storage and then tries to enforce 5S through discipline alone is fighting an uphill battle. A facility that invests in the right modular storage finds that 5S sustains itself because the system makes it the natural way to work.</p>
+
+<div class="callout"><p><strong>Direct answer:</strong> The most effective 5S storage setup for a Malaysian production line is a modular workstation with a drawer unit for medium-use tools, a perforated shadow board for high-use hand tools, and lower shelving for consumables — all standardised across positions. Pair this with lockable tool cabinets for shift-assigned tools and CNC tool storage between machining centres.</p></div>
+
+<h2>Getting started with 5S storage</h2>
+<p>If you are setting up a new line or reorganising an existing one, start with one pilot position. Walk the task, list every tool and part used, and design the storage around that list — not around what is in the catalogue. Once the pilot position works and the team accepts it, replicate the standard across the line. <a href="/enquiry/">Request a quote</a> with your position count and task list, and we will recommend the workstation, drawer and pegboard configuration that makes 5S the default rather than the goal.</p>
+""",
+        "faqs": [
+            {"q": "What storage do I need for a 5S production line in Malaysia?",
+             "a": "A modular workstation with a drawer unit for medium-use tools, a perforated shadow board for high-use hand tools, and lower shelving for consumables. Add lockable tool cabinets for shift-assigned tools and CNC tool storage for machining areas."},
+            {"q": "How does a shadow board support 5S?",
+             "a": "A shadow board uses foam or painted outlines to show exactly where each tool belongs. A missing tool leaves an empty shadow, making the problem instantly visible — this supports Set in Order and makes daily audit automatic."},
+            {"q": "Can 5S storage be standardised across different positions?",
+             "a": "Yes. Modular workstation systems use a common frame that accepts drawer units, pegboards, shelves, lighting and power in consistent positions, so the same layout can be replicated across every position on a line."},
+            {"q": "How do I start implementing 5S storage in my factory?",
+             "a": "Start with one pilot position. Walk the task, list every tool and part used, and design storage around that list. Once the pilot works and the team accepts it, replicate the standard across the line."},
+        ],
+    },
+    {
+        "slug": "workbench-top-material-guide-malaysia",
+        "nav_title": "Workbench Top Material Guide",
+        "tag": "Selection Guide",
+        "title": "Workbench Top Material Guide Malaysia | Laminate Rubber Steel",
+        "h1": "Workbench Top Material Guide for Malaysian Workshops",
+        "updated": "August 2026",
+        "excerpt": "Laminate, rubber, solid wood, steel and stainless steel workbench tops — which one suits your Malaysian workshop? This guide matches top material to application, from electronics assembly to fabrication and food production.",
+        "meta_description": "Workbench top material guide for Malaysia — laminate, rubber, wood, steel and stainless steel tops matched to assembly, fabrication, electronics, food and lab applications.",
+        "body": """
+<p class="lead">The workbench top is the surface you touch every day, and choosing the wrong material is a mistake you feel for years. Laminate marks under heavy tools, rubber degrades near oil, steel rings under hammering, and stainless steel costs more but is essential in food and cleanroom environments. This guide matches each top material to the applications where it belongs in Malaysian workshops and factories.</p>
+
+<h2>The five common workbench top materials</h2>
+<p>Tanko workbenches are available with several top options, and each is engineered for a different duty. The choice comes down to three questions: what kind of work happens on the surface, what contaminants are present, and what level of impact and abrasion will the top see?</p>
+
+<h3>Laminate tops</h3>
+<p>Laminate (often called Formica or high-pressure laminate) is a smooth, non-porous surface that resists stains and is easy to wipe clean. It is the standard choice for <strong>light assembly, inspection, packing and administrative work</strong> where the surface needs to be clean and flat but does not take heavy impact. In Malaysian electronics assembly lines in Penang and Johor, laminate tops are common because they do not generate static when paired with an ESD mat, and they provide a smooth reference surface for measuring and inspection.</p>
+<p>What laminate is not: it is not a fabrication surface. A hammer, a sharp edge or a heavy workpiece dropped on it will mark or chip the surface. If your work involves clamping, hammering or heavy parts, choose rubber or steel instead.</p>
+
+<h3>Rubber tops</h3>
+<p>Rubber tops — usually a dense rubber mat bonded to a substrate — absorb impact and dampen vibration. They are the standard choice for <strong>mechanical assembly, maintenance bays, and any position where parts are placed down with force</strong>. A rubber top protects delicate parts from scratching, reduces noise when steel parts are set down, and provides a non-slip surface. In Malaysian automotive workshops and maintenance departments, rubber tops are the default because they survive daily use with hand tools and metal components.</p>
+<p>Rubber's weakness is oil and solvent exposure. In positions where coolant, cutting fluid or solvent is regularly present, rubber can swell or degrade over time. For those environments, steel or stainless steel is the better long-term choice.</p>
+
+<h3>Solid wood tops</h3>
+<p>Solid wood tops — typically beech or similar hardwood, laminated into staves — are a traditional workshop surface. They are kinder to edge tools than steel, absorb some impact, and can be re-sanded when marked. Wood tops suit <strong>general workshop, light fabrication and prototyping</strong> where the surface takes occasional abuse but not continuous heavy fabrication. In Malaysian small factories and contract workshops, wood tops are a versatile middle option.</p>
+<p>Wood's weakness is moisture. In Malaysia's high humidity, an unsealed wood top can swell or warp if it gets wet regularly. Tanko wood tops are sealed for industrial use, but in wet or outdoor positions, steel or stainless is more durable.</p>
+
+<h3>Steel tops</h3>
+<p>Steel tops — solid steel plate, usually 3–5 mm or thicker — are the heavy-duty option. They resist impact, weld spatter, oil and abrasion, and they provide a grounded work surface for welding. Steel tops are the standard for <strong>fabrication, welding bays, heavy maintenance and tool rooms</strong> where the surface is part of the work, not just a place to put things. In Malaysian fabrication shops in Shah Alam, Pasir Gudang and Penang, steel-top benches are the workhorses.</p>
+<p>Steel's trade-offs: it is noisy when parts are set down, it can mark soft materials, and it conducts cold and heat. For assembly or inspection work, steel is usually overkill — and a rubber or laminate top is more comfortable to work on.</p>
+
+<h3>Stainless steel tops</h3>
+<p>Stainless steel tops (typically 304 grade) are the premium option for <strong>food processing, pharmaceutical, laboratory and cleanroom environments</strong>. They are non-porous, corrosion-resistant, and can be sanitised to standards that no other top material can meet. In Malaysian food processing plants, pharmaceutical facilities and laboratories in KL, Penang and Johor, stainless steel tops are often specified by regulation or audit requirement.</p>
+<p>Stainless steel is more expensive than the other options, and it is not necessary in standard industrial positions. Choose it when hygiene, corrosion resistance or cleanroom compliance is the requirement — not when a steel or rubber top would do the job.</p>
+
+<h2>Matching top material to your application</h2>
+<table>
+  <thead><tr><th>Application</th><th>Recommended top</th><th>Why</th></tr></thead>
+  <tbody>
+    <tr><td>Electronics &amp; EMS assembly</td><td>Laminate + ESD mat</td><td>Smooth, flat, non-static when grounded</td></tr>
+    <tr><td>Automotive maintenance bay</td><td>Rubber</td><td>Impact absorption, part protection, non-slip</td></tr>
+    <tr><td>Fabrication &amp; welding</td><td>Steel</td><td>Impact, spatter and oil resistance; grounded surface</td></tr>
+    <tr><td>Food &amp; pharma production</td><td>Stainless steel</td><td>Non-porous, sanitizable, corrosion-resistant</td></tr>
+    <tr><td>Laboratory &amp; cleanroom</td><td>Stainless steel or laminate</td><td>Hygiene and chemical resistance</td></tr>
+    <tr><td>General workshop &amp; prototyping</td><td>Wood or rubber</td><td>Versatile, kind to tools, re-surfaceable</td></tr>
+    <tr><td>Inspection &amp; quality control</td><td>Laminate</td><td>Flat, stable, easy to clean</td></tr>
+    <tr><td>Packing &amp; dispatch</td><td>Laminate or wood</td><td>Clean, durable, cost-effective</td></tr>
+  </tbody>
+</table>
+
+<h2>Malaysian climate considerations</h2>
+<p>Malaysia's high humidity and occasional heavy rain affect top material choice in practical ways. Wood tops need sealing and should avoid continuously wet positions. Steel tops should be powder-coated or stainless to resist rust in humid storage areas. Rubber tops should be inspected for oil degradation in machining environments. Stainless steel, as expected, handles humidity best — which is one reason it is preferred in food and pharmaceutical facilities nationwide.</p>
+
+<div class="callout"><p><strong>Direct answer:</strong> For most Malaysian workshops, a rubber top is the best all-rounder for maintenance and assembly, a steel top is required for fabrication and welding, and a laminate top is right for light assembly and inspection. Choose stainless steel only when hygiene or corrosion resistance is a regulatory requirement.</p></div>
+
+<h2>Configuring your workbench</h2>
+<p>The <a href="/workbench/">Tanko workbench range</a> offers these top materials across multiple widths and duty ratings, and most models can be configured with drawer units, pegboards, lighting and power. If you are unsure which top suits your position, describe the work and the environment and we will recommend the right configuration. <a href="/enquiry/">Request a quote</a> with your application details and we will confirm the top material, size and options for each position.</p>
+""",
+        "faqs": [
+            {"q": "Which workbench top is best for automotive workshops in Malaysia?",
+             "a": "Rubber tops are the standard choice for automotive maintenance bays — they absorb impact, protect parts from scratching, and provide a non-slip surface for daily hand-tool use."},
+            {"q": "Can I weld on a laminate workbench top?",
+             "a": "No. Laminate will mark, burn or chip under weld spatter and heavy impact. For welding and fabrication, choose a steel top that resists spatter and provides a grounded work surface."},
+            {"q": "Is stainless steel worth the extra cost for a general workshop?",
+             "a": "Usually not. Stainless steel is premium-priced and is justified when hygiene, corrosion resistance or cleanroom compliance is required — food, pharma, laboratory. For general industrial work, steel or rubber tops are more cost-effective."},
+            {"q": "How does Malaysia's humidity affect workbench top choice?",
+             "a": "High humidity favours sealed tops. Wood should be sealed and kept from continuous moisture; steel should be powder-coated or stainless; stainless steel handles humidity best and is preferred in food and pharma facilities."},
+            {"q": "Can I change the top material on an existing Tanko workbench?",
+             "a": "Tanko workbenches are configured at order time with the chosen top. For existing benches, contact us to discuss whether a top replacement or re-surfacing is possible for your model."},
+        ],
+    },
+    {
+        "slug": "tool-cabinet-maintenance-longevity-malaysia",
+        "nav_title": "Tool Cabinet Maintenance Guide",
+        "tag": "Maintenance Guide",
+        "title": "Tool Cabinet Maintenance Guide Malaysia | Longevity Tips",
+        "h1": "Tool Cabinet Maintenance & Longevity Guide for Malaysia",
+        "updated": "August 2026",
+        "excerpt": "How to maintain industrial tool cabinets in Malaysian conditions — cleaning drawer slides, preventing rust in humidity, organising drawers, and getting 10+ years of daily use from Tanko steel cabinets.",
+        "meta_description": "Tool cabinet maintenance guide for Malaysia — cleaning drawer slides, rust prevention in humidity, drawer organisation, and maximising the lifespan of industrial steel tool cabinets.",
+        "body": """
+<p class="lead">A good industrial tool cabinet is a 10-to-15-year purchase, and how it is maintained in the first two years determines whether it reaches that lifespan. Malaysian workshops face high humidity, occasional dust, and oil or coolant in machining areas — all of which affect drawer slides, locks and powder coating. This guide covers the practical maintenance that keeps a <a href="/tool-cabinet/">Tanko tool cabinet</a> operating smoothly for years.</p>
+
+<h2>Why maintenance matters more in Malaysia</h2>
+<p>Malaysia's climate is the defining factor for tool cabinet longevity. Relative humidity above 80% for much of the year means that unprotected steel surfaces will eventually rust, even indoors. Dust from manufacturing, construction or outdoor storage gets into drawer slides and accelerates wear. In machining and fabrication areas, oil mist and coolant residue settle on every surface and can gum up slides and locks over time. A cabinet that is never cleaned will start sticking within two years; one that gets basic quarterly maintenance will still feel new after a decade.</p>
+
+<h2>Monthly: clean the exterior and check the locks</h2>
+<p>The exterior of a tool cabinet is the easiest part to maintain and the most visible. Wipe it down with a damp cloth and a mild industrial detergent — avoid abrasive scouring pads that will scratch the powder coating. Pay attention to the top surface, where tools are often set down, and the handle area, where hand oils accumulate. If the cabinet is in a machining area, wipe oil residue monthly rather than letting it build up.</p>
+<p>Check the lock every month: does the key turn smoothly? Is the central locking bar engaging all drawers? A sticky lock can often be fixed with a small amount of graphite lubricant (never oil — oil attracts dust). If the lock is already stiff, address it before it fails completely — a failed central lock can leave drawers stuck or unsecured.</p>
+
+<h2>Quarterly: service the drawer slides</h2>
+<p>Drawer slides are the heart of a tool cabinet, and they are where maintenance pays off most. Tanko industrial cabinets use ball-bearing full-extension slides rated for daily industrial use, but even the best slides need occasional attention. Every three months:</p>
+<ol>
+  <li><strong>Open each drawer fully</strong> and inspect the slide rails for dust, debris or oil buildup.</li>
+  <li><strong>Wipe the rails</strong> with a clean cloth. Do not use solvent — it can strip the slide's factory lubrication.</li>
+  <li><strong>Lubricate lightly</strong> with a dry silicone spray or a small amount of white lithium grease on the ball tracks. Avoid over-lubricating — excess grease attracts dust and creates more problems than it solves.</li>
+  <li><strong>Operate each drawer several times</strong> to distribute the lubricant evenly.</li>
+  <li><strong>Check for play or misalignment</strong>. A drawer that rocks or binds may have a slide that needs adjustment or replacement.</li>
+</ol>
+<p>In high-dust environments — cement works, stone fabrication, woodworking — increase slide servicing to monthly. Dust is the fastest way to wear out a set of slides.</p>
+
+<h2>Semi-annually: inspect for rust and touch up coating</h2>
+<p>Twice a year, inspect the cabinet thoroughly for rust. Pay special attention to:</p>
+<ul>
+  <li><strong>The bottom edge and base</strong>, where moisture can pool if the floor is wet.</li>
+  <li><strong>Drawer interiors</strong>, especially if tools are stored damp or with oily rags.</li>
+  <li><strong>Scratches and chips</strong> in the powder coating — any break in the coating is a starting point for rust.</li>
+  <li><strong>The back panel</strong>, which is often overlooked and can collect condensation.</li>
+</ul>
+<p>If you find surface rust, treat it immediately: scrub with a wire brush or abrasive pad, wipe clean, and touch up with a matching paint or rust converter. A small rust spot caught early is a five-minute fix; left for six months, it can spread and require panel replacement.</p>
+
+<h2>Ongoing: organise drawers to protect the cabinet</h2>
+<p>How you load a drawer affects its lifespan as much as how you maintain it. Overloading a drawer beyond its slide rating bends the slides and causes premature wear. A drawer packed with heavy tools on one side will twist and bind. Use drawer dividers and foam inserts to distribute weight evenly, keep heavy items toward the back and centre of the drawer, and never exceed the rated load.</p>
+<p>Drawer organisation also protects the cabinet's contents. Tools thrown loosely into a drawer scratch each other, damage the drawer interior, and make finding the right tool slow. A well-organised drawer with dividers or foam inserts keeps tools in place, reduces slide stress, and makes inventory checks fast. For Malaysian workshops running multiple shifts, organised drawers also mean that every technician can find and return tools without searching — reducing wasted time across the day.</p>
+
+<h2>Mobile cabinets: extra care for casters</h2>
+<p>Mobile tool cabinets and trolleys add casters to the maintenance list. Every month, check that all casters rotate freely and that locks engage properly. Wipe caster stems and wheels clean — hair, wire and debris can wrap around axles and seize a wheel. Lubricate caster stems with dry silicone spray if they start to stiffen. A mobile cabinet with a seized caster is not just annoying — it is a safety hazard when loaded with heavy tools.</p>
+
+<h2>When to call for service</h2>
+<p>Basic maintenance handles most issues, but some problems need professional attention. Contact us if:</p>
+<ul>
+  <li>A drawer slide is bent, broken or will not stay aligned after adjustment.</li>
+  <li>The central locking mechanism fails and drawers cannot be secured.</li>
+  <li>Rust has spread beyond surface treatment and is eating through a panel.</li>
+  <li>A caster is broken or the mounting plate is damaged.</li>
+  <li>The cabinet frame is dented or twisted from impact or overloading.</li>
+</ul>
+<p>As the exclusive Malaysia distributor, Primaxs can supply replacement slides, locks, casters and drawer components for Tanko cabinets — and advise on whether repair or replacement is the better option.</p>
+
+<div class="callout"><p><strong>Direct answer:</strong> A tool cabinet that gets a monthly exterior wipe and lock check, quarterly slide cleaning and light lubrication, and semi-annual rust inspection will easily last 10+ years in Malaysian conditions. The two things that shorten cabinet life most are neglected slides and untreated rust spots.</p></div>
+
+<h2>Setting up a maintenance schedule</h2>
+<p>The simplest way to ensure tool cabinet maintenance happens is to add it to the existing 5S or preventive maintenance schedule. Assign one technician per area to do the monthly check, and put the quarterly slide service on the same calendar as machine maintenance. A cabinet that is maintained as part of the routine — rather than fixed only when it breaks — costs almost nothing to keep and delivers years of reliable service. For advice on drawer organisation, replacement parts or cabinet configuration, <a href="/enquiry/">contact our team</a> — we are happy to help you get the most from your Tanko storage.</p>
+""",
+        "faqs": [
+            {"q": "How often should I clean tool cabinet drawer slides in Malaysia?",
+             "a": "Every three months for normal workshop environments, monthly for high-dust areas like woodworking or cement. Wipe rails clean and lubricate lightly with dry silicone or white lithium grease."},
+            {"q": "How do I prevent rust on tool cabinets in Malaysian humidity?",
+             "a": "Inspect twice a year for rust spots, especially on the base, drawer interiors and scratched coating. Treat surface rust immediately with a wire brush and touch-up paint. Keep cabinets away from wet floors and store tools dry."},
+            {"q": "Can I use oil to lubricate drawer slides?",
+             "a": "No. Oil attracts dust and creates a gummy residue that accelerates wear. Use dry silicone spray or a small amount of white lithium grease on the ball tracks instead."},
+            {"q": "What is the typical lifespan of an industrial tool cabinet?",
+             "a": "A well-maintained Tanko industrial tool cabinet will last 10-15 years or more in daily use. Neglected slides and untreated rust are the two main factors that shorten cabinet life."},
+            {"q": "Can I get replacement parts for Tanko tool cabinets in Malaysia?",
+             "a": "Yes. As the exclusive Malaysia distributor, Primaxs can supply replacement drawer slides, locks, casters and drawer components for Tanko cabinets."},
+        ],
+    },
+
 ]

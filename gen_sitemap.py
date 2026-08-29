@@ -15,7 +15,9 @@ TODAY = datetime.date.today().isoformat()
 PRIORITY = [
     ("^index\\.html$",                             1.0,  "weekly"),
     ("^products/index\\.html$",                    0.9,  "weekly"),
-    ("^(about|contact|enquiry|download|guides)/index\\.html$", 0.6, "monthly"),
+    ("^(about|contact|enquiry|download)/index\\.html$", 0.6, "monthly"),
+    ("^(locations|industries)/index\\.html$",      0.8,  "weekly"),
+    ("^(locations|industries)/[a-z0-9_-]+/index\\.html$", 0.7, "monthly"),
     ("^guides/[a-z0-9_-]+/index\\.html$",          0.7,  "monthly"),
     ("^[a-z-]+/index\\.html$",                     0.9,  "weekly"),    # category
     ("^[a-z-]+/[a-z0-9_-]+/[a-z0-9_()-]+/index\\.html$", 0.5, "monthly"),  # variant

@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container">
+  <nav class="crumbs" aria-label="Breadcrumb">
+    <a href="{{ base_url }}">Home</a><span class="sep">/</span>
+    {% for crumb in breadcrumbs %}
+    <a href="{{ base_url }}{{ crumb.url }}">{{ crumb.label }}</a><span class="sep">/</span>
+    {% endfor %}
+    <span class="current">{{ page.h1 }}</span>
+  </nav>
+</div>
+<section class="section">
+  <div class="container">
+    <article class="article">
+      <div class="tag" style="color:var(--accent);font-weight:700;text-transform:uppercase;letter-spacing:.06em;font-size:.72rem;">{{ page.tag }}</div>
+      <h1>{{ page.h1 }}</h1>
+      <div class="article-meta">By Primaxs Marketing (M) Sdn Bhd &middot; Exclusive Malaysia distributor for Tanko &middot; Updated {{ page.updated }}</div>
+      {{ page_body|safe }}
+
+      {% if page.faqs %}
+      <div class="faq">
+        <h2>Frequently asked questions</h2>
+        {% for f in page.faqs %}
+        <details><summary>{{ f.q }}</summary><p>{{ f.a }}</p></details>
+        {% endfor %}
+      </div>
+      {% endif %}
+
+      <div class="callout" style="margin-top:2.5rem;">
+        <p><strong>Sourcing in Malaysia?</strong> Primaxs is the exclusive Malaysia distributor for Tanko industrial storage. Browse the <a href="{{ base_url }}products/">product range</a> or <a href="{{ base_url }}enquiry/">request a quote</a> for your workshop or factory.</p>
+      </div>
+    </article>
+  </div>
+</section>
+{% endblock %}

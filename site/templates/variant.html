@@ -17,7 +17,7 @@
         {% if variant.image_paths|length > 1 %}
         <div class="variant-thumbs">
           {% for img in variant.image_paths %}
-          <a href="#" onclick="document.getElementById('main-img').src=this.querySelector('img').src;return false;"><img src="{{ base_url }}{{ img }}" alt="{{ variant.sku }} view {{ loop.index }}" width="120" height="120" loading="lazy" decoding="async"></a>
+          <a href="#" onclick="var p=document.getElementById('main-img').parentElement;var s=p.querySelector('source');if(s){s.srcset='{{ base_url }}{{ img|webp_full }}';}document.getElementById('main-img').src='{{ base_url }}{{ img }}';return false;"><picture><source type="image/webp" srcset="{{ base_url }}{{ img|webp_800 }} 800w, {{ base_url }}{{ img|webp_full }} 1200w"><img src="{{ base_url }}{{ img }}" alt="{{ variant.sku }} view {{ loop.index }}" width="120" height="120" loading="lazy" decoding="async"></picture></a>
           {% endfor %}
         </div>
         {% endif %}
@@ -26,7 +26,7 @@
       <div class="variant-info">
         <div class="variant-title-row">
           <h1>{{ variant.h1 }}</h1>
-          <img src="{{ base_url }}assets/tanko-logo.svg" alt="Tanko industrial storage — made in Taiwan" class="variant-tanko-logo">
+          <img src="{{ base_url }}assets/tanko-logo.svg" alt="Tanko industrial storage — made in Taiwan" class="variant-tanko-logo" width="1088" height="181">
         </div>
         <div class="sku-line">Model No. {{ variant.sku }} &middot; <a href="{{ base_url }}{{ family.url }}">{{ family.name }}</a></div>
         {% if variant.price_myr %}
@@ -60,6 +60,55 @@
       </ul>
     </section>
     {% endif %}
+
+    {% if variant.description %}
+    <section class="product-description" style="margin-top:2.5rem;">
+      <h2>About the {{ variant.sku }} {{ family.name }}</h2>
+      <div class="product-desc-text" style="line-height:1.7;color:#c8cdd6;max-width:75ch;">
+        {% for para in variant.description.split('\n\n') %}
+        <p style="margin-bottom:1rem;">{{ para }}</p>
+        {% endfor %}
+      </div>
+    </section>
+    {% endif %}
+
+    {% if related_guides %}
+    <section class="related-guides" style="margin-top:2.5rem;">
+      <h2>Related guides &amp; resources</h2>
+      <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem;margin-top:1rem;">
+        {% for g in related_guides %}
+        <a href="{{ g.url }}" style="display:block;padding:1rem;border:1px solid var(--line);border-radius:6px;text-decoration:none;color:inherit;transition:border-color .2s;">
+          <strong style="display:block;margin-bottom:.35rem;">{{ g.title }}</strong>
+          {% if g.excerpt %}<span style="font-size:.875rem;color:#9aa3af;">{{ g.excerpt[:120] }}{% if g.excerpt|length > 120 %}…{% endif %}</span>{% endif %}
+        </a>
+        {% endfor %}
+      </div>
+    </section>
+    {% endif %}
+
+    <section class="serving-malaysia" style="margin-top:2.5rem;">
+      <h2>Serving customers across Malaysia</h2>
+      <p style="color:var(--ink-muted);max-width:60ch;">Primaxs delivers Tanko industrial storage nationwide from our Selangor warehouse. Find your region or industry for tailored product recommendations.</p>
+      <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:1rem;margin-top:1rem;">
+        <div>
+          <strong style="display:block;margin-bottom:.5rem;font-size:.8rem;text-transform:uppercase;letter-spacing:.05em;color:var(--accent);">By Location</strong>
+          <ul style="list-style:none;padding:0;margin:0;">
+            <li style="margin-bottom:.35rem;"><a href="{{ base_url }}locations/kuala-lumpur-selangor/">Kuala Lumpur &amp; Selangor</a></li>
+            <li style="margin-bottom:.35rem;"><a href="{{ base_url }}locations/penang/">Penang</a></li>
+            <li style="margin-bottom:.35rem;"><a href="{{ base_url }}locations/johor/">Johor</a></li>
+            <li style="margin-bottom:.35rem;"><a href="{{ base_url }}locations/">All locations &rarr;</a></li>
+          </ul>
+        </div>
+        <div>
+          <strong style="display:block;margin-bottom:.5rem;font-size:.8rem;text-transform:uppercase;letter-spacing:.05em;color:var(--accent);">By Industry</strong>
+          <ul style="list-style:none;padding:0;margin:0;">
+            <li style="margin-bottom:.35rem;"><a href="{{ base_url }}industries/automotive-workshop/">Automotive Workshops</a></li>
+            <li style="margin-bottom:.35rem;"><a href="{{ base_url }}industries/electronics-manufacturing/">Electronics Manufacturing</a></li>
+            <li style="margin-bottom:.35rem;"><a href="{{ base_url }}industries/">All industries &rarr;</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
 
     {% if faqs %}
     <section class="related" style="margin-top:2.5rem;">

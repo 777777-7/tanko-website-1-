@@ -87,6 +87,21 @@
             {% for g in nav_guides %}
             <a href="{{ base_url }}guides/{{ g.slug }}/" role="menuitem">{{ g.nav_title }}</a>
             {% endfor %}
+            <hr style="margin:.4rem 0;border:none;border-top:1px solid #e2e6eb;">
+            <a href="{{ base_url }}locations/" role="menuitem"><strong>By Location</strong></a>
+            <a href="{{ base_url }}locations/kuala-lumpur-selangor/" role="menuitem">Kuala Lumpur &amp; Selangor</a>
+            <a href="{{ base_url }}locations/penang/" role="menuitem">Penang</a>
+            <a href="{{ base_url }}locations/johor/" role="menuitem">Johor</a>
+            <a href="{{ base_url }}locations/melaka/" role="menuitem">Melaka</a>
+            <a href="{{ base_url }}locations/ipoh-perak/" role="menuitem">Ipoh &amp; Perak</a>
+            <a href="{{ base_url }}locations/kuching-sarawak/" role="menuitem">Kuching &amp; Sarawak</a>
+            <a href="{{ base_url }}industries/" role="menuitem"><strong>By Industry</strong></a>
+            <a href="{{ base_url }}industries/automotive-workshop/" role="menuitem">Automotive Workshops</a>
+            <a href="{{ base_url }}industries/electronics-manufacturing/" role="menuitem">Electronics Manufacturing</a>
+            <a href="{{ base_url }}industries/food-beverage-processing/" role="menuitem">Food &amp; Beverage</a>
+            <a href="{{ base_url }}industries/pharmaceutical-laboratory/" role="menuitem">Pharmaceutical &amp; Lab</a>
+            <a href="{{ base_url }}industries/cnc-machining-tool-room/" role="menuitem">CNC Machining</a>
+            <a href="{{ base_url }}industries/warehouse-logistics/" role="menuitem">Warehouse &amp; Logistics</a>
           </div>
         </li>
         <li><a href="{{ base_url }}about/">About Us</a></li>
@@ -119,6 +134,20 @@
             <button type="button" class="grp-toggle" aria-expanded="false" aria-label="Show all guides"><span class="chev"></span></button>
             <div class="subgrp">
               {% for g in nav_guides %}<a href="{{ base_url }}guides/{{ g.slug }}/">{{ g.nav_title }}</a>{% endfor %}
+              <a href="{{ base_url }}locations/"><strong>By Location &rarr;</strong></a>
+              <a href="{{ base_url }}locations/kuala-lumpur-selangor/">Kuala Lumpur &amp; Selangor</a>
+              <a href="{{ base_url }}locations/penang/">Penang</a>
+              <a href="{{ base_url }}locations/johor/">Johor</a>
+              <a href="{{ base_url }}locations/melaka/">Melaka</a>
+              <a href="{{ base_url }}locations/ipoh-perak/">Ipoh &amp; Perak</a>
+              <a href="{{ base_url }}locations/kuching-sarawak/">Kuching &amp; Sarawak</a>
+              <a href="{{ base_url }}industries/"><strong>By Industry &rarr;</strong></a>
+              <a href="{{ base_url }}industries/automotive-workshop/">Automotive Workshops</a>
+              <a href="{{ base_url }}industries/electronics-manufacturing/">Electronics Manufacturing</a>
+              <a href="{{ base_url }}industries/food-beverage-processing/">Food &amp; Beverage</a>
+              <a href="{{ base_url }}industries/pharmaceutical-laboratory/">Pharmaceutical &amp; Lab</a>
+              <a href="{{ base_url }}industries/cnc-machining-tool-room/">CNC Machining</a>
+              <a href="{{ base_url }}industries/warehouse-logistics/">Warehouse &amp; Logistics</a>
             </div>
           </li>
           <li><a href="{{ base_url }}about/">About Us</a></li>
@@ -129,7 +158,9 @@
     </details>
   </div>
 </header>
+<main id="main-content">
 {% block content %}{% endblock %}
+</main>
 
 <section class="cta-band" aria-labelledby="cta-h">
   <h2 id="cta-h">Need a custom quote for your workshop or factory?</h2>

@@ -62,7 +62,7 @@
         <ul class="pchoose">
           {% for c in t.cards %}
           <li>
-            {% if c.image %}<div class="pc-img"><img src="{{ base_url }}{{ c.image }}" alt="{{ c.title or (family.name ~ ' — step ' ~ loop.index) }}" width="1200" height="1200" loading="lazy" decoding="async"></div>{% endif %}
+            {% if c.image %}<div class="pc-img"><picture><source type="image/webp" srcset="{{ base_url }}{{ c.image|webp_800 }} 800w, {{ base_url }}{{ c.image|webp_full }} 1200w" sizes="(max-width: 700px) 92vw, 400px"><img src="{{ base_url }}{{ c.image }}" alt="{{ c.title or (family.name ~ ' — step ' ~ loop.index) }}" width="1200" height="1200" loading="lazy" decoding="async"></picture></div>{% endif %}
             <div class="pc-body">
               <span class="pc-step">Step&nbsp;{{ '%02d' % loop.index }}</span>
               <h3>{{ c.title }}</h3>
@@ -75,7 +75,7 @@
         <ul class="pfeat">
           {% for c in t.cards %}
           <li class="{{ 'pf-has-spec' if c.spec_rows else '' }}">
-            {% if c.image %}<div class="pf-img"><img src="{{ base_url }}{{ c.image }}" alt="{{ c.title or family.name }}" width="1200" height="1200" loading="lazy" decoding="async"></div>{% endif %}
+            {% if c.image %}<div class="pf-img"><picture><source type="image/webp" srcset="{{ base_url }}{{ c.image|webp_800 }} 800w, {{ base_url }}{{ c.image|webp_full }} 1200w" sizes="(max-width: 700px) 92vw, 400px"><img src="{{ base_url }}{{ c.image }}" alt="{{ c.title or family.name }}" width="1200" height="1200" loading="lazy" decoding="async"></picture></div>{% endif %}
             <div class="pf-body">
               {% if c.title %}<h3>{{ c.title }}</h3>{% endif %}
               {% if c.caption %}<p>{{ c.caption }}</p>{% endif %}
@@ -113,13 +113,13 @@
       {% elif t.kind == "spec_blocks" %}
         {% if t.blueprint %}
         <figure class="spec-blueprint">
-          <img src="{{ base_url }}{{ t.blueprint }}" alt="{{ family.name }} — overall frame dimensions (mm)" width="1200" height="1200" loading="lazy" decoding="async">
+          <picture><source type="image/webp" srcset="{{ base_url }}{{ t.blueprint|webp_800 }} 800w, {{ base_url }}{{ t.blueprint|webp_full }} 1200w" sizes="(max-width: 900px) 92vw, 800px"><img src="{{ base_url }}{{ t.blueprint }}" alt="{{ family.name }} — overall frame dimensions (mm)" width="1200" height="1200" loading="lazy" decoding="async"></picture>
           <figcaption>Overall frame dimensions in millimetres. Per-model specifications below.</figcaption>
         </figure>
         {% endif %}
         {% for b in t.blocks %}
         <div class="pspec-block">
-          <div class="pspec-image">{% if b.image %}<img src="{{ base_url }}{{ b.image }}" alt="{{ b.model_no }} drawing" width="1200" height="1200" loading="lazy" decoding="async">{% endif %}</div>
+          <div class="pspec-image">{% if b.image %}<picture><source type="image/webp" srcset="{{ base_url }}{{ b.image|webp_800 }} 800w, {{ base_url }}{{ b.image|webp_full }} 1200w" sizes="(max-width: 700px) 92vw, 300px"><img src="{{ base_url }}{{ b.image }}" alt="{{ b.model_no }} drawing" width="1200" height="1200" loading="lazy" decoding="async"></picture>{% endif %}</div>
           <div class="pspec-body">
             {% if b.spec_table %}
               {% set _tables = b.spec_table if b.spec_table is sequence and b.spec_table is not mapping else [b.spec_table] %}
@@ -162,7 +162,7 @@
         <ul class="pfeat">
           {% for b in t.blocks %}
           <li class="{{ 'pf-has-spec' if (b.spec_table or b.table) else '' }}">
-            {% if b.image %}<div class="pf-img"><img src="{{ base_url }}{{ b.image }}" alt="{{ b.title or family.name }}" width="1200" height="1200" loading="lazy" decoding="async"></div>{% endif %}
+            {% if b.image %}<div class="pf-img"><picture><source type="image/webp" srcset="{{ base_url }}{{ b.image|webp_800 }} 800w, {{ base_url }}{{ b.image|webp_full }} 1200w" sizes="(max-width: 700px) 92vw, 400px"><img src="{{ base_url }}{{ b.image }}" alt="{{ b.title or family.name }}" width="1200" height="1200" loading="lazy" decoding="async"></picture></div>{% endif %}
             <div class="pf-body">
               {% if b.title %}<h3>{{ b.title }}</h3>{% endif %}
               {% if b.spec_table %}
