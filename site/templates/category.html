@@ -25,7 +25,7 @@
       <ul class="fam-grid">
         {% for f in sec.families %}
         <li class="fam-card"><a href="{{ base_url }}{{ f.url }}">
-          <div class="fam-thumb">{% if f.thumb %}<img src="{{ base_url }}{{ f.thumb }}" alt="{{ f.name }}" loading="lazy">{% endif %}</div>
+          <div class="fam-thumb">{% if f.thumb %}<img src="{{ base_url }}{{ f.thumb }}" alt="{{ f.name }}" width="1200" height="1200" loading="lazy" decoding="async">{% endif %}</div>
           <div class="fam-body">
             <div class="name">{{ f.name }}</div>
             <div class="meta">
@@ -43,7 +43,7 @@
       <ul class="fam-grid">
         {% for f in families %}
         <li class="fam-card"><a href="{{ base_url }}{{ f.url }}">
-          <div class="fam-thumb">{% if f.thumb %}<img src="{{ base_url }}{{ f.thumb }}" alt="{{ f.name }}" loading="lazy">{% endif %}</div>
+          <div class="fam-thumb">{% if f.thumb %}<img src="{{ base_url }}{{ f.thumb }}" alt="{{ f.name }}" width="1200" height="1200" loading="lazy" decoding="async">{% endif %}</div>
           <div class="fam-body">
             <div class="name">{{ f.name }}</div>
             <div class="meta">{{ f.variant_count }} variant{{ 's' if f.variant_count != 1 else '' }}{% if f.subcategory %} &middot; {{ f.subcategory }}{% endif %}</div>

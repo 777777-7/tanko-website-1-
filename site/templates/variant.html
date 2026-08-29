@@ -13,11 +13,11 @@
     <div class="variant">
       <div class="variant-gallery">
         {% if variant.image_paths %}
-        <img src="{{ base_url }}{{ variant.image_paths[0] }}" alt="{{ variant.h1 }}" id="main-img">
+        <img src="{{ base_url }}{{ variant.image_paths[0] }}" alt="{{ variant.h1 }}" id="main-img" width="1200" height="1200" loading="eager" decoding="async">
         {% if variant.image_paths|length > 1 %}
         <div class="variant-thumbs">
           {% for img in variant.image_paths %}
-          <a href="#" onclick="document.getElementById('main-img').src=this.querySelector('img').src;return false;"><img src="{{ base_url }}{{ img }}" alt="{{ variant.sku }} view {{ loop.index }}"></a>
+          <a href="#" onclick="document.getElementById('main-img').src=this.querySelector('img').src;return false;"><img src="{{ base_url }}{{ img }}" alt="{{ variant.sku }} view {{ loop.index }}" width="120" height="120" loading="lazy" decoding="async"></a>
           {% endfor %}
         </div>
         {% endif %}

@@ -23,7 +23,7 @@
           </div>
         </div>
         <figure class="v4-hero-photo">
-          <img src="{{ base_url }}{{ slide.image }}" alt="{{ slide.headline }}" {% if loop.first %}fetchpriority="high"{% else %}loading="lazy"{% endif %}>
+          <img src="{{ base_url }}{{ slide.image }}" alt="{{ slide.headline }}" width="1200" height="1200" {% if loop.first %}fetchpriority="high"{% else %}loading="lazy"{% endif %} decoding="async">
           <figcaption class="v4-hero-caption">
             <span class="v4-mono">Plate {{ '%02d' % loop.index }} / {{ slides|length }}</span>
           </figcaption>
@@ -79,7 +79,7 @@
         <a href="{{ base_url }}{{ c.slug }}/">
           <span class="v4-cat-num">{{ '%02d' % loop.index }}</span>
           <div class="v4-cat-tile">
-            {% if c.hero_image %}<img src="{{ base_url }}{{ c.hero_image }}" alt="{{ c.name }} — {{ c.tagline }}" loading="lazy">{% endif %}
+            {% if c.hero_image %}<img src="{{ base_url }}{{ c.hero_image }}" alt="{{ c.name }} — {{ c.tagline }}" width="1200" height="1200" loading="lazy" decoding="async">{% endif %}
           </div>
           <div class="v4-cat-body">
             <h3 class="v4-cat-name">{{ c.name }}</h3>
@@ -115,7 +115,7 @@
             {% endif %}
           </div>
           <div class="v4-feat-tile">
-            <img src="{{ base_url }}{{ f.image }}" alt="{{ f.name }} ({{ f.sku }})" loading="lazy">
+            <img src="{{ base_url }}{{ f.image }}" alt="{{ f.name }} ({{ f.sku }})" width="1200" height="1200" loading="lazy" decoding="async">
           </div>
           <div class="v4-feat-body">
             <h3 class="v4-feat-name">{{ f.name }}</h3>
