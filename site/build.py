@@ -392,26 +392,20 @@ def _optimize_images(folder):
 
 
 def _minify_css(css):
-    """Small, safe CSS minifier: strips /* ... */ comments (but preserves the
-    license/opening comment if you keep one at the top), collapses whitespace
-    around selectors and declarations, drops trailing semicolons. Enough to
-    cut ~30-40% off site.css without a full parser."""
-    # Strip block comments
+    """Small, safe CSS minifier: strips /* ... */ comments, collapses
+    whitespace around selectors/declarations, drops trailing semicolons.
+    Enough to cut ~20-25% off site.css without a full parser."""
     css = re.sub(r"/\*.*?\*/", "", css, flags=re.DOTALL)
-    # Collapse whitespace
     css = re.sub(r"\s+", " ", css)
-    # Kill space around structural chars
     css = re.sub(r"\s*([{}:;,>~+])\s*", r"\1", css)
-    # Drop last ; before }
     css = css.replace(";}", "}")
-    # Trim leading/trailing space
     return css.strip()
 
 
 def _minify_js(js):
-    """Very conservative JS minifier: strips full-line // comments and /*..*/
-    block comments, collapses blank lines. Deliberately does NOT rename
-    identifiers or squeeze operators — that risks correctness."""
+    """Conservative JS minifier: strips /*..*/ block comments and full-line
+    // comments, collapses blank lines. Does NOT rename identifiers or squeeze
+    operators — that risks correctness."""
     js = re.sub(r"/\*.*?\*/", "", js, flags=re.DOTALL)
     lines = []
     for ln in js.split("\n"):
