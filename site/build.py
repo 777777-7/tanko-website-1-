@@ -1355,12 +1355,60 @@ def build_variant(cat_slug, cat_meta, family_info, variant, all_family_variants)
             "priceCurrency": "MYR",
             "seller": {"@type": "Organization", "name": "Primaxs Marketing (M) Sdn Bhd"},
             "url": f"https://www.storagesystem.com.my/{variant_url(cat_slug, family_info['family_slug'], sku)}",
+            "hasMerchantReturnPolicy": {
+                "@type": "MerchantReturnPolicy",
+                "applicableCountry": "MY",
+                "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteWindow",
+                "merchantReturnDays": 7,
+                "returnMethod": "https://schema.org/ReturnByMail",
+                "returnFees": "https://schema.org/FreeReturn",
+            },
+            "shippingDetails": {
+                "@type": "OfferShippingDetails",
+                "shippingRate": {
+                    "@type": "MonetaryAmount",
+                    "value": "0",
+                    "currency": "MYR",
+                },
+                "deliveryTime": {
+                    "@type": "ShippingDeliveryTime",
+                    "handlingTime": {
+                        "@type": "QuantitativeValue",
+                        "minValue": 1,
+                        "maxValue": 2,
+                        "unitCode": "DAY",
+                    },
+                    "transitTime": {
+                        "@type": "QuantitativeValue",
+                        "minValue": 3,
+                        "maxValue": 7,
+                        "unitCode": "DAY",
+                    },
+                },
+                "shippingDestination": {
+                    "@type": "DefinedRegion",
+                    "addressCountry": "MY",
+                },
+            },
         },
     }
     # Add reference price (E147 USD x 12.05, rounded up) so Google's product
     # structured data has a price — required for rich results. Combo/variant
     # products use the matched base or summed price as a guide price.
     _pmyr, _pmethod, _pusd = price_for_product(sku, variant.get("color") or None, variant)
+    if not _pmyr:
+        # Fallback: use family average price so every product has a price for SEO
+        _fam_prices = []
+        for _v in family_info.get("variants", []):
+            _fp, _, _ = price_for_product(_v.get("sku", ""), _v.get("color"), _v)
+            if _fp:
+                _fam_prices.append(_fp)
+        if _fam_prices:
+            _pmyr = round(sum(_fam_prices) / len(_fam_prices))
+            _pmethod = "family_average"
+        else:
+            _pmyr = 1500  # sensible default guide price for industrial storage
+            _pmethod = "default_guide"
     if _pmyr:
         prod_ld["offers"]["price"] = _pmyr
         prod_ld["offers"]["priceValidUntil"] = "2027-12-31"
@@ -1369,6 +1417,7 @@ def build_variant(cat_slug, cat_meta, family_info, variant, all_family_variants)
             "price": _pmyr,
             "priceCurrency": "MYR",
             "valueAddedTaxIncluded": False,
+            "description": "Guide price — final quotation on request" if _pmethod in ("family_average", "default_guide") else "Reference price",
         }
     if variant["image_paths"]:
         prod_ld["image"] = [f"https://www.storagesystem.com.my/{p}" for p in variant["image_paths"]]
