@@ -432,6 +432,13 @@ def copy_static():
         src_f = os.path.join(STATIC, "assets", name)
         if os.path.isfile(src_f):
             shutil.copy(src_f, os.path.join(DIST, "assets", name))
+    # Also ship favicon.ico at the ROOT — Google's favicon crawler probes
+    # https://<host>/favicon.ico first and only falls back to <link rel="icon">
+    # in HTML if that 404s. Without this, Google may keep serving a stale
+    # cached icon from before the site's favicon changed.
+    root_ico_src = os.path.join(DIST, "assets", "favicon.ico")
+    if os.path.isfile(root_ico_src):
+        shutil.copy(root_ico_src, os.path.join(DIST, "favicon.ico"))
     # Generate WebP alongside JPGs in the source /asset3/ + /asset_content/
     # BEFORE copying, so the .webp files persist in the repo and future builds
     # (which nuke docs/) skip re-encoding. Big Lighthouse win vs. shipping JPGs
