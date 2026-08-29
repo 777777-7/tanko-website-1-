@@ -16,6 +16,12 @@ from datetime import datetime
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
+try:
+    from PIL import Image  # Pillow — used to generate WebP + small-LCP variants
+    _HAS_PIL = True
+except Exception:
+    _HAS_PIL = False
+
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -66,6 +72,20 @@ env.globals["nav_guides"] = [{"slug": g["slug"], "nav_title": g["nav_title"]} fo
 env.globals["asset_version"] = ASSET_VERSION
 env.globals["gsc_verification"] = GSC_VERIFICATION
 env.globals["ga4_id"] = GA4_ID
+
+
+def _webp_swap(path):
+    """Return (webp_full, webp_800) for a .jpg / .jpeg / .png path."""
+    if not path:
+        return None, None
+    stem, _dot, ext = path.rpartition(".")
+    if ext.lower() not in ("jpg", "jpeg", "png"):
+        return path, path
+    return stem + ".webp", stem + "-w800.webp"
+
+
+env.filters["webp_full"] = lambda p: _webp_swap(p)[0]
+env.filters["webp_800"] = lambda p: _webp_swap(p)[1]
 
 # ---------------------- category display metadata ----------------------
 # The 11 approved categories with SEO-tuned taglines, H1s and intros.
@@ -301,6 +321,75 @@ def clear_dist():
     os.makedirs(DIST, exist_ok=True)
 
 
+# Cache-Control for Cloudflare Pages. /assets/css + /assets/js carry a
+# ?v=<version> cache-buster so they can be treated as immutable. Product images
+# under /asset3/ never change once shipped either. HTML stays short so router
+# navigation still picks up new deployments quickly.
+_HEADERS = """\
+/assets/css/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/assets/js/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/asset3/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/asset_content/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/assets/*
+  Cache-Control: public, max-age=2592000
+
+/*.html
+  Cache-Control: public, max-age=300, must-revalidate
+
+/
+  Cache-Control: public, max-age=300, must-revalidate
+"""
+
+
+def _optimize_images(folder):
+    """Walk *folder* and generate .webp siblings for every .jpg/.jpeg/.png.
+    Incremental: skips files whose .webp is newer than the source. Also emits
+    a downscaled -w800.webp variant for use as the LCP srcset small size.
+    """
+    if not _HAS_PIL or not os.path.isdir(folder):
+        return
+    made = 0
+    skipped = 0
+    for root, _dirs, files in os.walk(folder):
+        for fn in files:
+            low = fn.lower()
+            if not (low.endswith(".jpg") or low.endswith(".jpeg") or low.endswith(".png")):
+                continue
+            src = os.path.join(root, fn)
+            base, _ext = os.path.splitext(src)
+            dst_full = base + ".webp"
+            dst_800 = base + "-w800.webp"
+            src_m = os.path.getmtime(src)
+            need_full = not os.path.exists(dst_full) or os.path.getmtime(dst_full) < src_m
+            need_800 = not os.path.exists(dst_800) or os.path.getmtime(dst_800) < src_m
+            if not (need_full or need_800):
+                skipped += 1
+                continue
+            try:
+                im = Image.open(src)
+                if im.mode not in ("RGB", "RGBA"):
+                    im = im.convert("RGBA" if "A" in im.getbands() else "RGB")
+                if need_full:
+                    im.save(dst_full, "WEBP", quality=82, method=4)
+                if need_800:
+                    im2 = im.copy()
+                    im2.thumbnail((800, 800), Image.LANCZOS)
+                    im2.save(dst_800, "WEBP", quality=80, method=4)
+                made += 1
+            except Exception as e:
+                sys.stderr.write(f"[webp] skipped {src}: {e}\n")
+    if made or skipped:
+        sys.stderr.write(f"[webp] {folder}: {made} generated, {skipped} up-to-date\n")
+
+
 def copy_static():
     dst_css = os.path.join(DIST, "assets", "css")
     os.makedirs(dst_css, exist_ok=True)
@@ -343,6 +432,13 @@ def copy_static():
         src_f = os.path.join(STATIC, "assets", name)
         if os.path.isfile(src_f):
             shutil.copy(src_f, os.path.join(DIST, "assets", name))
+    # Generate WebP alongside JPGs in the source /asset3/ + /asset_content/
+    # BEFORE copying, so the .webp files persist in the repo and future builds
+    # (which nuke docs/) skip re-encoding. Big Lighthouse win vs. shipping JPGs
+    # (typically -40 to -55% bytes), with graceful fallback via <picture>.
+    _optimize_images(os.path.join(ROOT, "asset3"))
+    _optimize_images(os.path.join(ROOT, "asset_content"))
+
     # Product images live under /asset3/ (compressed) — no pages reference
     # /assets/product/ any more; skip copying it. (Legacy pre-compression folder.)
     # /asset3/ — attribute-named live images (products.json image_paths point here)
@@ -353,6 +449,11 @@ def copy_static():
     src_a3 = os.path.join(ROOT, "asset3")
     if os.path.isdir(src_a3):
         shutil.copytree(src_a3, os.path.join(DIST, "asset3"), dirs_exist_ok=True)
+
+    # `_headers` for Cloudflare Pages: long-lived cache on hashed/immutable
+    # assets, short TTL for HTML. GitHub Pages ignores this file — harmless.
+    with open(os.path.join(DIST, "_headers"), "w", encoding="utf-8", newline="\n") as f:
+        f.write(_HEADERS)
 
     # GitHub Pages: custom-domain CNAME + .nojekyll so the site is served
     # as a static root site on storagesystem.com.my (no Jekyll processing).
@@ -560,6 +661,12 @@ def build_homepage(products, families, categories):
     total_skus = len(products)
     n_skus_display = f"{(total_skus // 100) * 100}+"  # rounds down to 100s, e.g. 1700+
 
+    # LCP preload — first hero slide, WebP form. base.html renders the
+    # <link rel="preload" as="image"> tag when preload_image is set.
+    lcp_img = slides[0]["image"] if slides else None
+    lcp_webp = (lcp_img.rsplit(".", 1)[0] + ".webp") if lcp_img else None
+    lcp_webp_800 = (lcp_img.rsplit(".", 1)[0] + "-w800.webp") if lcp_img else None
+
     html = env.get_template("home.html").render(
         page_title="Industrial Storage & Tool Cabinets Malaysia | Primaxs",
         meta_description="Exclusive Malaysia distributor for Tanko industrial storage — tool cabinets, workbenches, racking & lockers. Nationwide delivery. Request a quote today.",
@@ -567,6 +674,7 @@ def build_homepage(products, families, categories):
         og_image="https://www.storagesystem.com.my/assets/primaxs-og-1200x630.png",
         slides=slides, categories=cat_cards, featured=featured,
         n_categories=n_categories, n_skus_display=n_skus_display,
+        preload_image=lcp_webp, preload_image_800=lcp_webp_800,
         base_url=BASE_URL, year=YEAR, json_ld=org_json_ld(),
     )
     write(os.path.join(DIST, "index.html"), html)

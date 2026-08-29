@@ -13,7 +13,7 @@
   <div class="container">
     <div class="product" id="product" data-base="{{ base_url }}" data-family="{{ family.name }}">
       <div class="product-media">
-        <div class="stage"><img id="stage-img" src="{{ base_url }}{{ picker.default.image }}" alt="{{ family.name }} — {{ picker.default.sku }}" width="1200" height="1200" loading="eager" decoding="async"></div>
+        <div class="stage"><picture><source type="image/webp" srcset="{{ base_url }}{{ picker.default.image|webp_800 }} 800w, {{ base_url }}{{ picker.default.image|webp_full }} 1200w" sizes="(max-width: 900px) 92vw, 560px"><img id="stage-img" src="{{ base_url }}{{ picker.default.image }}" alt="{{ family.name }} — {{ picker.default.sku }}" width="1200" height="1200" loading="eager" fetchpriority="high" decoding="async"></picture></div>
         {% if picker.default.thumbs and picker.default.thumbs|length > 1 %}
         <div class="product-thumbs" id="stage-thumbs">
           {% for t in picker.default.thumbs %}

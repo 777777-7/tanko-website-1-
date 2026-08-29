@@ -13,7 +13,7 @@
     <div class="variant">
       <div class="variant-gallery">
         {% if variant.image_paths %}
-        <img src="{{ base_url }}{{ variant.image_paths[0] }}" alt="{{ variant.h1 }}" id="main-img" width="1200" height="1200" loading="eager" decoding="async">
+        <picture><source type="image/webp" srcset="{{ base_url }}{{ variant.image_paths[0]|webp_800 }} 800w, {{ base_url }}{{ variant.image_paths[0]|webp_full }} 1200w" sizes="(max-width: 900px) 92vw, 560px"><img src="{{ base_url }}{{ variant.image_paths[0] }}" alt="{{ variant.h1 }}" id="main-img" width="1200" height="1200" loading="eager" fetchpriority="high" decoding="async"></picture>
         {% if variant.image_paths|length > 1 %}
         <div class="variant-thumbs">
           {% for img in variant.image_paths %}
