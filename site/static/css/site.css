@@ -303,6 +303,11 @@ ul { padding-left: 1.25em; }
 .page-head { padding: 1.25rem 0 1.75rem; border-bottom: 1px solid var(--line-soft); }
 .page-head h1 { margin-bottom: .6rem; }
 .page-lede { color: var(--ink-muted); max-width: 62ch; font-size: 1.02rem; }
+.page-head-with-logo { display: flex; align-items: center; justify-content: space-between; gap: 2rem; flex-wrap: wrap; }
+.page-head-with-logo .page-head-text { flex: 1; min-width: 0; }
+.page-head-tanko-logo { height: 64px; width: auto; opacity: .9; flex-shrink: 0; }
+@media (min-width: 980px) { .page-head-tanko-logo { height: 80px; } }
+@media (max-width: 640px) { .page-head-tanko-logo { height: 44px; } }
 
 /* Family grid */
 .fam-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.1rem; list-style: none; padding: 0; margin: 1.5rem 0 0; }
