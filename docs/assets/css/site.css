@@ -85,10 +85,10 @@ ul { padding-left: 1.25em; }
 .brand img { height: 68px; width: auto; object-fit: contain; }
 .brand-logos { display: flex; flex-direction: column; gap: 3px; align-items: flex-start; }
 .brand-logo-primax { height: 46px !important; width: auto; }
-.brand-logo-tanko { height: 18px !important; width: auto; opacity: .82; filter: brightness(1.1); }
+.brand-logo-tanko { height: 26px !important; width: auto; opacity: .92; filter: brightness(1); }
 .brand-text { font-size: 1.2rem; letter-spacing: -.01em; }
-@media (min-width: 980px) { .brand-logo-primax { height: 54px !important; } .brand-logo-tanko { height: 20px !important; } }
-@media (max-width: 640px) { .brand-logo-tanko { display: none; } .brand-logo-primax { height: 38px !important; } }
+@media (min-width: 980px) { .brand-logo-primax { height: 54px !important; } .brand-logo-tanko { height: 30px !important; } }
+@media (max-width: 640px) { .brand-logo-tanko { height: 20px !important; } .brand-logo-primax { height: 38px !important; } }
 @media (min-width: 980px) { .brand img { height: 80px; } }
 .site-header .container { padding-top: .4rem; padding-bottom: .4rem; }
 
@@ -2437,5 +2437,5 @@ body.home-v4 .nav-list > li:hover > .nav-toggle {
 /* ── Product page Tanko logo beside title ─────────────── */
 .variant-title-row { display: flex; align-items: center; justify-content: space-between; gap: 1rem; flex-wrap: wrap; }
 .variant-title-row h1 { margin: 0; flex: 1; min-width: 0; }
-.variant-tanko-logo { height: 38px; width: auto; opacity: .88; flex-shrink: 0; }
-@media (max-width: 640px) { .variant-tanko-logo { height: 26px; } }
+.variant-tanko-logo { height: 48px; width: auto; opacity: .92; flex-shrink: 0; }
+@media (max-width: 640px) { .variant-tanko-logo { height: 32px; } }
