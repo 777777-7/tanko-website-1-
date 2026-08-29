@@ -307,7 +307,12 @@ ul { padding-left: 1.25em; }
 .page-head-with-logo .page-head-text { flex: 1; min-width: 0; }
 .page-head-tanko-logo { height: 64px; width: auto; opacity: .9; flex-shrink: 0; }
 @media (min-width: 980px) { .page-head-tanko-logo { height: 80px; } }
-@media (max-width: 640px) { .page-head-tanko-logo { height: 44px; } }
+.crumbs-tanko-logo { display: none; }
+@media (max-width: 640px) {
+  .page-head-tanko-logo { display: none; }
+  .crumbs-with-logo { display: flex; align-items: center; justify-content: space-between; }
+  .crumbs-tanko-logo { display: inline-block; height: 22px; width: auto; opacity: .85; }
+}
 
 /* Family grid */
 .fam-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.1rem; list-style: none; padding: 0; margin: 1.5rem 0 0; }
@@ -1185,6 +1190,11 @@ body.home-v4 .v4-eyebrow {
   letter-spacing: .14em; color: var(--ink-muted); text-transform: uppercase;
   margin: 0 0 24px; font-weight: 500;
 }
+body.home-v4 .v4-hero-tanko-logo {
+  height: 56px; width: auto; opacity: .9; margin-bottom: 20px; display: block;
+}
+@media (min-width: 980px) { body.home-v4 .v4-hero-tanko-logo { height: 72px; } }
+@media (max-width: 640px) { body.home-v4 .v4-hero-tanko-logo { height: 40px; margin-bottom: 14px; } }
 
 /* ── buttons ── */
 body.home-v4 .v4-btn {

@@ -1,9 +1,10 @@
 {% extends "base.html" %}
 {% block content %}
 <div class="container">
-  <nav class="crumbs" aria-label="Breadcrumb">
+  <nav class="crumbs crumbs-with-logo" aria-label="Breadcrumb">
     <a href="{{ base_url }}">Home</a><span class="sep">/</span>
     <span class="current">Products</span>
+    <img src="{{ base_url }}assets/tanko-logo.svg" alt="Tanko industrial storage" class="crumbs-tanko-logo">
   </nav>
   <div class="page-head page-head-with-logo">
     <div class="page-head-text">
