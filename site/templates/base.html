@@ -38,11 +38,6 @@
    the webfonts land. #}
 <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Libre+Bodoni:wght@400;700&family=Public+Sans:wght@400;600;700&family=JetBrains+Mono:wght@500;600&display=swap" onload="this.rel='stylesheet'">
 <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Bodoni:wght@400;700&family=Public+Sans:wght@400;600;700&family=JetBrains+Mono:wght@500;600&display=swap"></noscript>
-{# Critical CSS inlined so browser has base + hero styles before site.css
-   arrives. site.css itself stays render-blocking — async loading it caused
-   CLS on sections below the fold that only had styles once the full CSS
-   landed. #}
-{% if critical_css %}<style>{{ critical_css|safe }}</style>{% endif %}
 <link rel="stylesheet" href="{{ base_url }}assets/css/site.css?v={{ asset_version }}">
 {% if preload_image %}
 <link rel="preload" as="image" href="{{ base_url }}{{ preload_image }}" imagesrcset="{{ base_url }}{{ preload_image_800 }} 800w, {{ base_url }}{{ preload_image }} 1200w" imagesizes="(max-width: 900px) 92vw, 560px" fetchpriority="high" type="image/webp">
