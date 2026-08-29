@@ -478,16 +478,25 @@ def copy_static():
     _optimize_images(os.path.join(ROOT, "asset3"))
     _optimize_images(os.path.join(ROOT, "asset_content"))
 
-    # Product images live under /asset3/ (compressed) — no pages reference
-    # /assets/product/ any more; skip copying it. (Legacy pre-compression folder.)
-    # /asset3/ — attribute-named live images (products.json image_paths point here)
-    # extracted editorial images (Features / How-to-choose / Specification)
+    # Product / editorial images. Only ship .webp variants to /docs/ — the JPG
+    # sources stay in the repo (used to regenerate WebP on each build). Skips
+    # ~6.4k files, keeping deploys under Cloudflare Workers' 20k asset cap.
+    def _webp_only(_dir, entries):
+        skip = []
+        for e in entries:
+            low = e.lower()
+            if low.endswith((".jpg", ".jpeg", ".png")):
+                skip.append(e)
+        return skip
+
     src_ac = os.path.join(ROOT, "asset_content")
     if os.path.isdir(src_ac):
-        shutil.copytree(src_ac, os.path.join(DIST, "asset_content"), dirs_exist_ok=True)
+        shutil.copytree(src_ac, os.path.join(DIST, "asset_content"),
+                        dirs_exist_ok=True, ignore=_webp_only)
     src_a3 = os.path.join(ROOT, "asset3")
     if os.path.isdir(src_a3):
-        shutil.copytree(src_a3, os.path.join(DIST, "asset3"), dirs_exist_ok=True)
+        shutil.copytree(src_a3, os.path.join(DIST, "asset3"),
+                        dirs_exist_ok=True, ignore=_webp_only)
 
     # `_headers` for Cloudflare Pages: long-lived cache on hashed/immutable
     # assets, short TTL for HTML. GitHub Pages ignores this file — harmless.

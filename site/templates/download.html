@@ -17,7 +17,7 @@
       {% for d in downloads %}
       <li class="dl-card dl-card-visual">
         <a href="{{ base_url }}{{ d.href }}" download class="dl-cover">
-          {% if d.cover %}<picture><source type="image/webp" srcset="{{ base_url }}{{ d.cover|webp_800 }} 800w, {{ base_url }}{{ d.cover|webp_full }} 1200w" sizes="(max-width: 700px) 92vw, 400px"><img src="{{ base_url }}{{ d.cover }}" alt="{{ d.name }} cover" width="1200" height="1200" loading="lazy" decoding="async"></picture>{% endif %}
+          {% if d.cover %}<img src="{{ base_url }}{{ d.cover|webp_full }}" srcset="{{ base_url }}{{ d.cover|webp_800 }} 800w, {{ base_url }}{{ d.cover|webp_full }} 1200w" sizes="(max-width: 700px) 92vw, 400px" alt="{{ d.name }} cover" width="1200" height="1200" loading="lazy" decoding="async">{% endif %}
         </a>
         <div class="dl-body">
           <div class="dl-name">{{ d.name }}</div>

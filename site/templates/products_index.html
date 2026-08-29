@@ -19,7 +19,7 @@
     <ul class="cat-grid">
       {% for c in categories %}
       <li class="cat-card"><a href="{{ base_url }}{{ c.slug }}/">
-        <div class="cat-thumb">{% if c.hero_image %}<picture><source type="image/webp" srcset="{{ base_url }}{{ c.hero_image|webp_800 }} 800w, {{ base_url }}{{ c.hero_image|webp_full }} 1200w" sizes="(max-width: 700px) 45vw, 280px"><img src="{{ base_url }}{{ c.hero_image }}" alt="{{ c.name }} — {{ c.tagline }}" width="1200" height="1200" loading="lazy" decoding="async"></picture>{% endif %}</div>
+        <div class="cat-thumb">{% if c.hero_image %}<img src="{{ base_url }}{{ c.hero_image|webp_full }}" srcset="{{ base_url }}{{ c.hero_image|webp_800 }} 800w, {{ base_url }}{{ c.hero_image|webp_full }} 1200w" sizes="(max-width: 700px) 45vw, 280px" alt="{{ c.name }} — {{ c.tagline }}" width="1200" height="1200" loading="lazy" decoding="async">{% endif %}</div>
         <div class="cat-body"><h3>{{ c.name }}</h3><p>{{ c.tagline }}</p></div>
       </a></li>
       {% endfor %}

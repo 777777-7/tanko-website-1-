@@ -25,10 +25,7 @@
         <figure class="v4-hero-photo">
           {% set _webp = slide.image.rsplit('.',1)[0] ~ '.webp' %}
           {% set _webp_800 = slide.image.rsplit('.',1)[0] ~ '-w800.webp' %}
-          <picture>
-            <source type="image/webp" srcset="{{ base_url }}{{ _webp_800 }} 800w, {{ base_url }}{{ _webp }} 1200w" sizes="(max-width: 900px) 92vw, 560px">
-            <img src="{{ base_url }}{{ slide.image }}" alt="{{ slide.headline }}" width="1200" height="1200" {% if loop.first %}fetchpriority="high"{% else %}loading="lazy"{% endif %} decoding="async">
-          </picture>
+          <img src="{{ base_url }}{{ _webp }}" srcset="{{ base_url }}{{ _webp_800 }} 800w, {{ base_url }}{{ _webp }} 1200w" sizes="(max-width: 900px) 92vw, 560px" alt="{{ slide.headline }}" width="1200" height="1200" {% if loop.first %}fetchpriority="high"{% else %}loading="lazy"{% endif %} decoding="async">
           <figcaption class="v4-hero-caption">
             <span class="v4-mono">Plate {{ '%02d' % loop.index }} / {{ slides|length }}</span>
           </figcaption>
@@ -87,10 +84,7 @@
             {% if c.hero_image %}
             {% set _cwebp = c.hero_image.rsplit('.',1)[0] ~ '.webp' %}
             {% set _cwebp_800 = c.hero_image.rsplit('.',1)[0] ~ '-w800.webp' %}
-            <picture>
-              <source type="image/webp" srcset="{{ base_url }}{{ _cwebp_800 }} 800w, {{ base_url }}{{ _cwebp }} 1200w" sizes="(max-width: 600px) 45vw, 280px">
-              <img src="{{ base_url }}{{ c.hero_image }}" alt="{{ c.name }} — {{ c.tagline }}" width="1200" height="1200" loading="lazy" decoding="async">
-            </picture>
+            <img src="{{ base_url }}{{ _cwebp }}" srcset="{{ base_url }}{{ _cwebp_800 }} 800w, {{ base_url }}{{ _cwebp }} 1200w" sizes="(max-width: 600px) 45vw, 280px" alt="{{ c.name }} — {{ c.tagline }}" width="1200" height="1200" loading="lazy" decoding="async">
             {% endif %}
           </div>
           <div class="v4-cat-body">
@@ -129,10 +123,7 @@
           <div class="v4-feat-tile">
             {% set _fwebp = f.image.rsplit('.',1)[0] ~ '.webp' %}
             {% set _fwebp_800 = f.image.rsplit('.',1)[0] ~ '-w800.webp' %}
-            <picture>
-              <source type="image/webp" srcset="{{ base_url }}{{ _fwebp_800 }} 800w, {{ base_url }}{{ _fwebp }} 1200w" sizes="(max-width: 700px) 90vw, 380px">
-              <img src="{{ base_url }}{{ f.image }}" alt="{{ f.name }} ({{ f.sku }})" width="1200" height="1200" loading="lazy" decoding="async">
-            </picture>
+            <img src="{{ base_url }}{{ _fwebp }}" srcset="{{ base_url }}{{ _fwebp_800 }} 800w, {{ base_url }}{{ _fwebp }} 1200w" sizes="(max-width: 700px) 90vw, 380px" alt="{{ f.name }} ({{ f.sku }})" width="1200" height="1200" loading="lazy" decoding="async">
           </div>
           <div class="v4-feat-body">
             <h3 class="v4-feat-name">{{ f.name }}</h3>
