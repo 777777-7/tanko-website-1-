@@ -38,7 +38,12 @@
    the webfonts land. #}
 <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Libre+Bodoni:wght@400;700&family=Public+Sans:wght@400;600;700&family=JetBrains+Mono:wght@500;600&display=swap" onload="this.rel='stylesheet'">
 <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Bodoni:wght@400;700&family=Public+Sans:wght@400;600;700&family=JetBrains+Mono:wght@500;600&display=swap"></noscript>
-<link rel="stylesheet" href="{{ base_url }}assets/css/site.css?v={{ asset_version }}">
+{# Critical CSS inlined so first paint doesn't wait for site.css. Covers
+   base + header + home-v4 hero above-the-fold. site.css then loads async
+   via the preload/onload swap and applies the rest. #}
+{% if critical_css %}<style>{{ critical_css|safe }}</style>{% endif %}
+<link rel="preload" as="style" href="{{ base_url }}assets/css/site.css?v={{ asset_version }}" onload="this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="{{ base_url }}assets/css/site.css?v={{ asset_version }}"></noscript>
 {% if preload_image %}
 <link rel="preload" as="image" href="{{ base_url }}{{ preload_image }}" imagesrcset="{{ base_url }}{{ preload_image_800 }} 800w, {{ base_url }}{{ preload_image }} 1200w" imagesizes="(max-width: 900px) 92vw, 560px" fetchpriority="high" type="image/webp">
 {% endif %}
