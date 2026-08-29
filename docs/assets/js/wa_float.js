@@ -99,7 +99,15 @@
       openModal();
       return;
     }
-    if (e.target.closest("[data-close-wa]")) {
+    var waClose = e.target.closest("[data-close-wa]");
+    if (waClose) {
+      // If the closer is a link with an href, let navigation happen — just
+      // close the modal. Otherwise treat it as a plain close button.
+      var link = waClose.closest("a[href]");
+      if (link && link.getAttribute("href") && link.getAttribute("href") !== "#") {
+        closeModal();
+        return;
+      }
       e.preventDefault();
       closeModal();
       return;

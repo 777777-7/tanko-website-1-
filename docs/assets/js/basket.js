@@ -214,8 +214,15 @@
     if (e.target.closest("#basket-fab")) {
       e.preventDefault(); render(); openPanel(); return;
     }
-    // close basket
-    if (e.target.closest("[data-close-basket]")) {
+    // close basket. If the closer is an <a> with an href, close the panel
+    // but let navigation happen (so buttons like "Browse products" work).
+    var cbClose = e.target.closest("[data-close-basket]");
+    if (cbClose) {
+      var link = cbClose.closest("a[href]");
+      if (link && link.getAttribute("href") && link.getAttribute("href") !== "#") {
+        closePanel();
+        return;
+      }
       e.preventDefault(); closePanel(); return;
     }
     // remove item
