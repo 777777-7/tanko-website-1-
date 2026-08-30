@@ -1140,7 +1140,7 @@ SPEC_FIELD_LABELS = [
     "Type", "Cabinet", "Tool Holders", "Accessories",
     "Width", "Bench Vise", "Base", "Notes", "Shelf", "Modular Rack",
     "Layer A, B", "Layer C", "Panel Set", "Shelf Qty", "Hoist Rail",
-    "Unit of measurement",
+    "Unit of measurement", "Items Included", "Items included",
 ]
 
 
@@ -1203,15 +1203,35 @@ def _parse_single_spec_table(text):
         chunk = t[start:end].strip(" ：:·|｜")
         segments.append((lbl, chunk))
 
-    # Model No. row = headers (SKUs)
+    # Model No. row = headers (SKUs). SKUs may contain parentheses and
+    # spaces (e.g. "TC-111 (L)", "TKI-8301 (24pcs/CTN)") — use a regex to
+    # extract complete model tokens instead of naive whitespace splitting.
     header_chunk = segments[0][1]
-    # Split on whitespace — SKUs are single tokens
-    headers = header_chunk.split()
+    # Pattern: optional letters/digits/hyphens, optionally followed by
+    # parenthesised qualifier like (L), (M), (24pcs/CTN), (Wood), etc.
+    # SKUs may be separated by ｜ (fullwidth pipe) and carry inline
+    # descriptors (e.g. "FBA-202W｜Combination lock FBA-202AW｜Key lock").
+    # First split on ｜, then extract the leading SKU token from each piece.
+    if "｜" in header_chunk:
+        pieces = re.split(r'[｜|]', header_chunk)
+        headers = []
+        for piece in pieces:
+            piece = piece.strip()
+            m = re.match(r'([A-Za-z]+-?[A-Za-z0-9]+(?:\s*\([^)]*\))?)', piece)
+            if m:
+                headers.append(m.group(1).strip())
+    else:
+        sku_pattern = re.compile(
+            r'[A-Za-z]+-?[A-Za-z0-9]+'          # base SKU like TC-111, EKC333M, WP53100
+            r'(?:\s*\([^)]*\))?'                  # optional (L), (24pcs/CTN), etc.
+        )
+        headers = sku_pattern.findall(header_chunk)
+        headers = [h.strip() for h in headers if h.strip()]
     # Single-model blocks look terrible as a 1-column table (each attribute's
     # tokens fragment across ghost cells). Fall back to the key/value list
     # (pspec-model + pspec-attrs) — table format is only for genuine
     # side-by-side comparisons of 2+ SKUs.
-    if len(headers) < 2 or len(headers) > 8:
+    if len(headers) < 2 or len(headers) > 12:
         return None
 
     n_cols = len(headers)
