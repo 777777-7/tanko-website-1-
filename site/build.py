@@ -2149,6 +2149,20 @@ def build_landing_pages():
     (/industries/<slug>/) for local SEO and topical authority."""
     built = 0
 
+    # Cross-links: each location page gets a "Storage by industry" bar
+    # (all industry landing pages) and each industry page gets a "Serving
+    # customers in these regions" bar (all city landing pages). Boosts
+    # internal-link density and covers long-tail "industry-in-city"
+    # queries that neither page targets on its own.
+    industry_cross = {
+        "heading": "Storage by industry",
+        "items": [{"url": f"industries/{p['slug']}/", "label": p["nav_title"]} for p in INDUSTRY_PAGES],
+    }
+    location_cross = {
+        "heading": "Serving customers across Malaysia",
+        "items": [{"url": f"locations/{p['slug']}/", "label": p["nav_title"]} for p in CITY_PAGES],
+    }
+
     # City / location pages
     for page in CITY_PAGES:
         faq_node = None
@@ -2176,6 +2190,7 @@ def build_landing_pages():
             breadcrumbs=[{"label": "Locations", "url": "locations/"}],
             page=page,
             page_body=_fix_guide_links(page.get("body") or "", BASE_URL),
+            cross_links=industry_cross,
             base_url=BASE_URL, year=YEAR, json_ld=json_ld,
         )
         write(os.path.join(DIST, "locations", page["slug"], "index.html"), html)
@@ -2208,6 +2223,7 @@ def build_landing_pages():
             breadcrumbs=[{"label": "Industries", "url": "industries/"}],
             page=page,
             page_body=_fix_guide_links(page.get("body") or "", BASE_URL),
+            cross_links=location_cross,
             base_url=BASE_URL, year=YEAR, json_ld=json_ld,
         )
         write(os.path.join(DIST, "industries", page["slug"], "index.html"), html)
