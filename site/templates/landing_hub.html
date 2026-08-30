@@ -13,6 +13,20 @@
 
 <section class="section">
   <div class="container">
+    {% if hub_slug == "industries" %}
+    <div class="hub-narrative" style="max-width:75ch;margin:0 0 2.5rem;line-height:1.7;color:var(--ink-muted);">
+      <p>Industrial storage requirements vary sharply across Malaysian sectors. An automotive workshop in Shah Alam needs heavy-duty mobile tool trolleys that survive drops and impact; an EMS assembly line in Bayan Lepas needs ESD-safe workstations to protect electronics from static damage; a food processing plant in Muar needs stainless steel benches that withstand daily wash-down and comply with hygiene rules.</p>
+      <p>The same Tanko catalogue serves all six sectors below, but the model choices, accessories and configurations differ substantially. On each industry page we identify the specific product lines Primaxs supplies most often into that sector, the load ratings and materials that matter, and the local Malaysia stock position — so specifiers can shortlist the right models before requesting a quote.</p>
+      <p>For automotive workshops, expect heavy-duty <a href="{{ base_url }}tool-cabinet/">tool cabinets</a> and mobile trolleys with 100-150 kg drawer capacity, plus <a href="{{ base_url }}perforated-board/">perforated wall panels</a> for shadow-board tool control. For electronics manufacturing, look at ESD variants of <a href="{{ base_url }}workstation/">modular workstations</a> with anti-static rubber tops and grounding cords. For food, pharma and lab environments, all-stainless <a href="{{ base_url }}workbench/">workbenches</a> and <a href="{{ base_url }}locker/">lockers</a> in 304 / 316-grade steel are the specifiable options. For CNC machining tool rooms, tool holder cabinets in BT-30 / BT-40 / HSK / ISO formats live under <a href="{{ base_url }}cnc-tool/">CNC tool storage</a>. Warehouse and logistics operations combine mould racks, hanger racks and parts cabinets — see <a href="{{ base_url }}rack/">racking</a> and <a href="{{ base_url }}parts-cabinet/">parts cabinets</a>.</p>
+    </div>
+    {% elif hub_slug == "locations" %}
+    <div class="hub-narrative" style="max-width:75ch;margin:0 0 2.5rem;line-height:1.7;color:var(--ink-muted);">
+      <p>Primaxs delivers Tanko industrial storage nationwide from a Selangor warehouse in Balakong Jaya, Seri Kembangan — inside the Klang Valley industrial corridor. Popular models ship to Kuala Lumpur and Selangor typically within 3-7 working days, and to Penang, Johor Bahru, Melaka, Ipoh and Kuching within 5-10 working days depending on freight carrier and quantity.</p>
+      <p>Different regions in Malaysia have different industrial concentrations. The Klang Valley leans automotive, electronics and general MRO; Penang is dominated by electronics manufacturing (Bayan Lepas free trade zone); Johor concentrates automotive, oil-and-gas and food processing near Pasir Gudang; Melaka and Perak host mid-sized manufacturers and mould shops; East Malaysia (Sarawak, Sabah) is served through consolidated freight for larger project orders.</p>
+      <p>Each location page below covers the industries most active in that state, the typical Tanko product lines specified there, and the delivery mechanics — including which items ship directly from the Selangor warehouse versus which are configured to order. For a delivery quote to your specific city, use the <a href="{{ base_url }}enquiry/">enquiry form</a> with your model list and delivery postcode.</p>
+    </div>
+    {% endif %}
+
     <ul class="guide-grid" style="grid-template-columns:repeat(auto-fill,minmax(320px,1fr));">
       {% for p in pages %}
       <li>

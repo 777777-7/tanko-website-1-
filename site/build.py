@@ -1999,6 +1999,28 @@ def build_products_index(products):
         meta = CATEGORIES_META[slug_]
         cat_cards.append({"slug": slug_, "name": meta["name"], "tagline": meta["tagline"],
                           "hero_image": category_hero_image(slug_, by_sku, prods_by_cat)})
+    # FAQPage schema mirrors the visible FAQ block on the /products/ page so
+    # the questions become rich-result candidates in SERPs.
+    products_faqs = [
+        ("How do I get a price?",
+         "Add models to the basket from any product page, then submit the basket via the enquiry form. We reply with confirmed pricing, stock and delivery within one business day."),
+        ("Is there a minimum order quantity?",
+         "No minimum. We supply single-unit orders through to multi-hundred-unit factory outfits."),
+        ("Do you deliver to my state?",
+         "Yes — nationwide across Peninsular Malaysia and to Sabah / Sarawak via consolidated freight. Standard delivery times: 3-7 working days Klang Valley, 5-10 outstation, 10-14 East Malaysia."),
+        ("Can I customise the configuration?",
+         "Yes — drawer arrangements, top surfaces (rubber / laminate / stainless / steel), accessories and finishes are configurable on most product lines. Configured items ship in 2-4 weeks as they're built to order in Taiwan."),
+        ("Is the warranty valid in Malaysia?",
+         "Yes. Tanko's manufacturer warranty applies to all products supplied through Primaxs, and claims are administered locally from our Selangor office — no cross-border RMA process."),
+    ]
+    products_faq_ld = {
+        "@type": "FAQPage",
+        "mainEntity": [
+            {"@type": "Question", "name": q,
+             "acceptedAnswer": {"@type": "Answer", "text": a}}
+            for q, a in products_faqs
+        ],
+    }
     prod_json_ld = graph_ld(
         *_org_graph_nodes(),
         website_ld(),
@@ -2009,6 +2031,7 @@ def build_products_index(products):
             description="All Tanko industrial storage categories distributed in Malaysia by Primaxs.",
             item_urls=[f"https://www.storagesystem.com.my/{c['slug']}/" for c in cat_cards],
         ),
+        products_faq_ld,
     )
     html = env.get_template("products_index.html").render(
         page_title="Industrial Storage Product Range Malaysia | Primaxs",
