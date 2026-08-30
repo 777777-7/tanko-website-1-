@@ -1209,42 +1209,87 @@ def _parse_single_spec_table(text):
     # spaces (e.g. "TC-111 (L)", "TKI-8301 (24pcs/CTN)") — use a regex to
     # extract complete model tokens instead of naive whitespace splitting.
     header_chunk = segments[0][1]
-    # Pattern: optional letters/digits/hyphens, optionally followed by
-    # parenthesised qualifier like (L), (M), (24pcs/CTN), (Wood), etc.
-    # SKUs may be separated by ｜ (fullwidth pipe) and carry inline
-    # descriptors (e.g. "FBA-202W｜Combination lock FBA-202AW｜Key lock").
-    # First split on ｜, then extract the leading SKU token from each piece.
+    
+    # SKU regex
+    sku_pattern = re.compile(
+        r'(?:'
+        r'[A-Za-z]+(?:-[A-Za-z0-9]+)+'
+        r'|'
+        r'[A-Za-z]+[A-Za-z0-9]*'
+        r')'
+        r'(?:\s*\([^)]*\))?'
+    )
+    
+    # Merge parenthesized SKUs (e.g. "TC-111 (L)" -> "TC-111·(L)") so split()
+    # treats them as one token. Use · (middle dot) as placeholder.
+    merged_chunk = header_chunk
+    for m in list(sku_pattern.finditer(merged_chunk))[::-1]:
+        if ' ' in m.group(0):
+            merged_chunk = merged_chunk[:m.start()] + m.group(0).replace(' ', '·') + merged_chunk[m.end():]
+    hdr_tokens = merged_chunk.split()
+    
+    # Detect cross-reference table: scan from END for model rows (SKU + N values)
+    cross_rows = []
+    n_cols = 0
+    for try_cols in range(2, 7):
+        test_rows = []
+        i = len(hdr_tokens) - 1
+        while i >= try_cols:
+            tok = hdr_tokens[i - try_cols].replace('·', ' ')
+            if (any(c.isdigit() for c in tok) or '-' in tok) and len(tok) > 2 and tok not in ('—', '-', 'mm', 'cm', 'kg'):
+                row_vals = [v.replace('·', ' ') for v in hdr_tokens[i - try_cols + 1:i + 1]]
+                test_rows.append({"label": tok, "values": row_vals, "colspan": 1})
+                i -= try_cols + 1
+            else:
+                break
+        if len(test_rows) >= 2:
+            cross_rows = list(reversed(test_rows))
+            n_cols = try_cols
+            data_start = len(hdr_tokens) - len(cross_rows) * (try_cols + 1)
+            break
+    
+    if cross_rows:
+        # Cross-ref table found: headers are SKUs before data_start
+        header_text = " ".join(hdr_tokens[:data_start]).replace("·", " ")
+        if "｜" in header_text:
+            headers = []
+            for piece in re.split(r'[｜|]', header_text):
+                piece = piece.strip()
+                m = None
+                for cand in sku_pattern.finditer(piece):
+                    token = cand.group(0).strip()
+                    if any(c.isdigit() for c in token) or '-' in token:
+                        m = token
+                        break
+                if m:
+                    headers.append(m)
+        else:
+            headers = [h.strip() for h in sku_pattern.findall(header_text) if h.strip()]
+        if 2 <= len(headers) <= 12:
+            headers.insert(0, "Model")
+            rows = cross_rows
+            for lbl, chunk in segments[1:]:
+                if chunk:
+                    rows.append({"label": lbl, "values": [chunk], "colspan": len(headers)})
+            return {"headers": headers, "rows": rows}
+    
+    # No cross-ref table: extract headers normally
     if "｜" in header_chunk:
         pieces = re.split(r'[｜|]', header_chunk)
         headers = []
-        sku_re = re.compile(r'(?:[A-Za-z]+(?:-[A-Za-z0-9]+)+|[A-Za-z]+[A-Za-z0-9]*)(?:\s*\([^)]*\))?')
         for piece in pieces:
             piece = piece.strip()
-            # Find the first token that looks like a SKU (contains digit or hyphen)
             m = None
-            for cand in sku_re.finditer(piece):
+            for cand in sku_pattern.finditer(piece):
                 token = cand.group(0).strip()
-                # SKU must contain a digit or hyphen (skip pure words like "Combination", "Key")
                 if any(c.isdigit() for c in token) or '-' in token:
                     m = token
                     break
             if m:
                 headers.append(m)
     else:
-        sku_pattern = re.compile(
-            r'(?:'
-            r'[A-Za-z]+(?:-[A-Za-z0-9]+)+'      # SKU with >=1 hyphen: TKI-1-2, EGA-7041, TC-111
-            r'|'
-            r'[A-Za-z]+[A-Za-z0-9]*'            # SKU without hyphen: WP53100, EA, EB, ED
-            r')'
-            r'(?:\s*\([^)]*\))?'                  # optional (L), (24pcs/CTN), etc.
-        )
-        headers = sku_pattern.findall(header_chunk)
-        headers = [h.strip() for h in headers if h.strip()]
-    # Single-model blocks look terrible as a 1-column table (each attribute's
-    # tokens fragment across ghost cells). Fall back to the key/value list
-    # (pspec-model + pspec-attrs) — table format is only for genuine
-    # side-by-side comparisons of 2+ SKUs.
+        headers = [h.strip() for h in sku_pattern.findall(header_chunk) if h.strip()]
+    
     if len(headers) < 2 or len(headers) > 12:
         return None
 
@@ -1253,12 +1298,36 @@ def _parse_single_spec_table(text):
     for lbl, chunk in segments[1:]:
         if not chunk:
             continue
-        # Try splitting into n_cols tokens; if fewer, it's a merged/colspan value
+        # Check if this chunk contains multiple model rows (cross-reference table)
+        # e.g. "EKC-333M — — 144 EKC-332M — 32 96 ..."
+        chunk_lines = [l.strip() for l in chunk.replace('\n', ' ').split('  ') if l.strip()]
+        # Try to detect model rows: tokens that start with a SKU-like pattern
         tokens = chunk.split()
+        model_rows = []
+        i = 0
+        while i < len(tokens):
+            tok = tokens[i]
+            # SKU-like token: has digit or hyphen, length > 2, not a unit/symbol
+            if (any(c.isdigit() for c in tok) or '-' in tok) and len(tok) > 2 and tok not in ('—', '-', 'mm', 'cm', 'kg'):
+                # Cross-ref table: model + n_cols values
+                if i + n_cols + 1 <= len(tokens):
+                    row_vals = tokens[i+1:i+1+n_cols]
+                    model_rows.append({"label": tok, "values": row_vals, "colspan": 1})
+                    i += n_cols + 1
+                    continue
+            i += 1
+        
+        if len(model_rows) >= 2 and all(len(r["values"]) == n_cols for r in model_rows):
+            # Cross-reference table: first column is model, rest are values
+            # Prepend "Model" to headers since first data column is now the row label
+            headers.insert(0, "Model")
+            rows.extend(model_rows)
+            continue
+        
+        # Normal attribute row parsing
         if len(tokens) == n_cols:
             values = tokens
         elif len(tokens) == n_cols * 2 - 1 or len(tokens) == n_cols * 2:
-            # values that contain a unit (e.g. "W586xD348xH380 mm") — pair each
             values = []
             i = 0
             while i < len(tokens):
@@ -1269,7 +1338,6 @@ def _parse_single_spec_table(text):
             if len(values) != n_cols:
                 values = [" ".join(tokens)]
         else:
-            # Single (colspan) value covering all columns
             values = [chunk]
         rows.append({"label": lbl, "values": values, "colspan": (n_cols if len(values) == 1 and n_cols > 1 else 1)})
 
@@ -1347,6 +1415,7 @@ def build_ptabs(family_slug):
                         # only useful if we have >=2 SKU columns
                         if any(len(x.get("headers", [])) >= 2 for x in tables_list):
                             spec_table = parsed
+
                 # Skip blocks that carry only a bare model number — they render empty.
                 if not (dims or mat or desk or items or b.get("image") or spec_table) and not model:
                     continue
@@ -1444,6 +1513,15 @@ def build_product_content(family_slug, fam_name):
     for b in (d.get("spec_blocks") or []):
         items = [{"sku": it.get("sku", ""), "desc": _rewrite(it.get("desc", "")) or "", "qty": it.get("qty", "")}
                  for it in (b.get("items_included") or [])]
+        # Parse raw spec text into multi-column table if available
+        raw = b.get("raw") or ""
+        spec_table = None
+        if raw:
+            parsed = parse_spec_caption_to_table(raw)
+            if parsed:
+                tables_list = parsed if isinstance(parsed, list) else [parsed]
+                if any(len(x.get("headers", [])) >= 2 for x in tables_list):
+                    spec_table = parsed
         spec_blocks.append({
             "model_no": b.get("model_no", ""),
             "dimensions": b.get("dimensions", ""),
@@ -1451,6 +1529,7 @@ def build_product_content(family_slug, fam_name):
             "desktop": _rewrite(b.get("desktop", "")) or "",
             "items_included": items,
             "image": b.get("image"),
+            "spec_table": spec_table,
         })
 
     lead_features = f"What sets the {fam_name} range apart on Malaysian shop floors." if feats else None

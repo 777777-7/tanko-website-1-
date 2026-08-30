@@ -12088,65 +12088,49 @@
         "kind": "spec_blocks",
         "blocks": [
           {
-            "model_no": "Tilt",
-            "dimensions": "",
+            "model_no": "EKC Pro Series",
+            "dimensions": "W786 x D570 x H1640 mm",
             "material": "Steel",
             "desktop": "",
             "items_included": [],
-            "image": "asset_content/ekc/exp3_paired1.jpg",
-            "raw": "Model No. Tilt Out Bin Drawer Qty TC-111 (L) TC-112 (M) TC-113 (S) EKC-333M — — 144 EKC-332M — 32 96 EKC-331M 16 — 96 EKC-322M — 64 48 EKC-321M 16 32 48 EKC-311M 32 — 48 EKC-222M — 96 — EKC-221M 16 64 — EKC- 211M 32 32 — EKC-111M 48 — — Dimensions W786xD570xH1640 Material Steel Unit of measurement：mm"
+            "image": "asset_content/ekc/spec1.jpg",
+            "raw": "Model No. TC-111 (L) TC-112 (M) TC-113 (S)\nEKC-333M — — 144\nEKC-332M — 32 96\nEKC-331M 16 — 96\nEKC-322M — 64 48\nEKC-321M 16 32 48\nEKC-311M 32 — 48\nEKC-222M — 96 —\nEKC-221M 16 64 —\nEKC-211M 32 32 —\nEKC-111M 48 — —\nDimensions W786xD570xH1640\nMaterial Steel\nUnit of measurement mm"
           },
           {
-            "model_no": "Tilt",
-            "dimensions": "",
+            "model_no": "EKC Standard Series",
+            "dimensions": "W786 x D570 x H1640 mm",
             "material": "Steel",
             "desktop": "",
             "items_included": [],
-            "image": "asset_content/ekc/exp3_paired2.jpg",
-            "raw": "Model No. Tilt Out Bin Drawer Qty TC-111 (L) TC-112 (M) TC-113 (S) EKC-330M — — 96 EKC-320M — 32 48 EKC-310M 16 — 48 EKC-220M — 64 — EKC-210M 16 32 — EKC-110M 32 — — Dimensions W786xD570xH1640 Material Steel Unit of measurement：mm"
+            "image": "asset_content/ekc/spec2.jpg",
+            "raw": "Model No. TC-111 (L) TC-112 (M) TC-113 (S)\nEKC-330M — — 96\nEKC-320M — 32 48\nEKC-310M 16 — 48\nEKC-220M — 64 —\nEKC-210M 16 32 —\nEKC-110M 32 — —\nDimensions W786xD570xH1640\nMaterial Steel\nUnit of measurement mm"
           },
           {
-            "model_no": "TC-111 (L)",
+            "model_no": "TC-111 / TC-112 / TC-113 Drawers",
             "dimensions": "",
             "material": "ABS + PC (transparent)",
             "desktop": "",
             "items_included": [],
-            "image": "asset_content/ekc/exp3_paired3.jpg",
-            "raw": "Model No. TC-111 (L) TC-112 (M) TC-113 (S) Drawer Inner Dimensions 274x62x70 126x62x70 77x62x70 Loading 5 kg 3 kg 2 kg Material ABS + PC (transparent) Items included Colored label Unit of measurement：WxDxH mm"
+            "image": "asset_content/ekc/spec3.jpg",
+            "raw": "Model No. TC-111 (L) TC-112 (M) TC-113 (S)\nInner Dimensions 274x62x70 126x62x70 77x62x70\nLoading 5 kg 3 kg 2 kg\nMaterial ABS + PC (transparent)\nItems Included Label\nUnit of measurement WxDxH mm"
           },
           {
-            "model_no": "TKI-8301",
+            "model_no": "TKI-8301 / 8302 / 8303 Hanging Bins",
             "dimensions": "",
-            "material": "Yellow / Blue / Red ▸",
-            "desktop": "",
-            "items_included": [
-              {
-                "sku": "TKI-8304",
-                "desc": "TKI-8305 Inner Dimensions 115x151x118 115x201x118 Color █ █ █ █ █ █ █ Material Yellow / Blue / Red ▸",
-                "qty": ""
-              },
-              {
-                "sku": "PE",
-                "desc": "Black ▸",
-                "qty": ""
-              },
-              {
-                "sku": "PP",
-                "desc": "(anti-static) Items included Label Unit of measurement：WxDxH mm",
-                "qty": ""
-              }
-            ],
-            "image": "asset_content/ekc/exp3_paired4.jpg",
-            "raw": "Model No. TKI-8301 TKI-8302 TKI-8303 Inner Dimensions 86x78x45 86x100x70 86x150x70 Color █ █ █ █ █ █ █ █ █ █ Material Yellow / Blue / Red ▸ PE Black ▸ PP (anti-static) Items included Label Model No. TKI-8304 TKI-8305 Inner Dimensions 115x151x118 115x201x118 Color █ █ █ █ █ █ █ Material Yellow / Blue / Red ▸ PE Black ▸ PP (anti-static) Items included Label Unit of measurement：WxDxH mm"
-          },
-          {
-            "model_no": "TA-112",
-            "dimensions": "",
-            "material": "PE",
+            "material": "Yellow / Blue / Red PP, Black PP (anti-static)",
             "desktop": "",
             "items_included": [],
-            "image": "asset_content/ekc/exp3_paired5.jpg",
-            "raw": "Model No. TA-112 TA-115 Inner Dimensions 94x133x69 119x191x119 Color █ █ Material PE Items included Colored label Unit of measurement：WxDxH mm"
+            "image": "asset_content/ekc/spec4.jpg",
+            "raw": "Model No. TKI-8301 TKI-8302 TKI-8303\nInner Dimensions 86x78x45 86x100x70 86x150x70\nMaterial Yellow / Blue / Red PP Black PP (anti-static)\nItems Included Label\nUnit of measurement WxDxH mm"
+          },
+          {
+            "model_no": "TKI-8304 / 8305 Hanging Bins",
+            "dimensions": "",
+            "material": "Yellow / Blue / Red PP, Black PP (anti-static)",
+            "desktop": "",
+            "items_included": [],
+            "image": "asset_content/ekc/spec5.jpg",
+            "raw": "Model No. TKI-8304 TKI-8305\nInner Dimensions 115x151x118 115x201x118\nMaterial Yellow / Blue / Red PP Black PP (anti-static)\nItems Included Label\nUnit of measurement WxDxH mm"
           }
         ]
       }
