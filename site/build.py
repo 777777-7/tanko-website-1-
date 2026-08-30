@@ -228,7 +228,7 @@ CATEGORIES_META = {
     "parts-cabinet": {
         "name": "Parts Cabinets",
         "tagline": "Parts cabinets, bins & team cases",
-        "h1": "Parts Cabinets & Small-Parts Bin Storage — Malaysia",
+        "h1": "Parts Cabinets & Bin Storage — Malaysia",
         "intro": ("Small-parts organisation for spares rooms and service benches — parts cabinets, tilt-out and "
                   "hanging parts bins, and team cases. Keep fasteners and spares visible and countable."),
     },
@@ -945,8 +945,11 @@ def build_category(cat_slug, category_meta, cat_families, prods_by_family):
     # LCP preload — first family thumbnail, WebP form
     cat_lcp_img = next((c["thumb"] for c in fam_cards if c.get("thumb")), None)
     cat_lcp_webp = (cat_lcp_img.rsplit(".", 1)[0] + ".webp") if cat_lcp_img else None
+    _cat_page_title = f"{category_meta['h1']} | Primaxs"
+    if len(_cat_page_title) > 60:
+        _cat_page_title = category_meta["h1"][:60]
     html = env.get_template("category.html").render(
-        page_title=f"{category_meta['h1']} | Primaxs",
+        page_title=_cat_page_title,
         meta_description=f"{category_meta['name']} from Tanko, distributed in Malaysia by Primaxs. Bulk quotes and nationwide delivery. Browse the full range.",
         canonical=cat_url,
         preload_image=cat_lcp_webp,
@@ -1514,10 +1517,20 @@ def build_family(cat_slug, cat_meta, family_info, variants):
     # any (1200mm) chip so every family page gets a unique title + description.
     sku_hint = family_info.get("sku_code") or (variants[0]["sku"] if variants else "")
     sku_hint = (sku_hint or "").replace("(", " ").replace(")", "").strip()
+    # If the sku_code doesn't uniquely identify the family (families with
+    # shared codes like "SAA/SAQ" but different variant suffixes), fall back
+    # to the first variant SKU (e.g. SAA-361 vs SAA-361K) so titles differ.
+    first_sku = (variants[0]["sku"] if variants else "").strip()
+    if first_sku and sku_hint and not any(c.isdigit() for c in sku_hint):
+        sku_hint = f"{sku_hint} — {first_sku}"
     title_disambig = f" ({sku_hint})" if sku_hint and sku_hint not in fam_name else ""
     fam_page_title = f"{fam_name}{title_disambig} — {cat_meta['name']} | Primaxs"
     if len(fam_page_title) > 60:
-        fam_page_title = f"{fam_name}{title_disambig} | Primaxs"[:60]
+        fam_page_title = f"{fam_name}{title_disambig} | Primaxs"
+    if len(fam_page_title) > 60:
+        fam_page_title = f"{fam_name} ({first_sku}) | Primaxs"
+    if len(fam_page_title) > 60:
+        fam_page_title = fam_page_title[:60]
     meta_desc = (f"{fam_name}{title_disambig} — {len(variants)} Tanko {cat_meta['name'].lower()} variants "
                  f"with side-by-side specs, dimensions and finishes. Distributed in Malaysia by Primaxs, "
                  f"exclusive Tanko distributor. Request a quote.")[:158]
@@ -2080,7 +2093,8 @@ def build_download():
         page_title="Catalogues & Downloads | Primaxs Malaysia",
         meta_description="Download official Tanko industrial storage catalogues (E147, E327). For Malaysia pricing and stock, request a quote from Primaxs.",
         canonical="https://www.storagesystem.com.my/download/",
-        downloads=downloads, base_url=BASE_URL, year=YEAR, json_ld=org_json_ld(),
+        downloads=downloads, base_url=BASE_URL, year=YEAR,
+        json_ld=graph_ld(*_org_graph_nodes(), breadcrumb_ld([("Download", "download/")])),
     )
     write(os.path.join(DIST, "download", "index.html"), html)
 
@@ -2165,14 +2179,22 @@ def build_landing_pages():
     ]:
         hub_json = graph_ld(
             *_org_graph_nodes(),
+            breadcrumb_ld([(hub_crumb, f"{hub_slug}/")]),
             collection_page_ld(
                 name=hub_title, url=f"{SITE_URL}/{hub_slug}/",
                 description=hub_intro,
                 item_urls=[f"{SITE_URL}/{hub_slug}/{p['slug']}/" for p in pages_list],
             ),
         )
+        # Prefer full hub_title + brand suffix, fall back to shorter forms
+        # to keep title ≤60 chars.
+        _hub_page_title = f"{hub_title} | Primaxs Malaysia"
+        if len(_hub_page_title) > 60:
+            _hub_page_title = f"{hub_title} | Primaxs"
+        if len(_hub_page_title) > 60:
+            _hub_page_title = hub_title[:60]
         hub_html = env.get_template("landing_hub.html").render(
-            page_title=f"{hub_title} | Primaxs Malaysia",
+            page_title=_hub_page_title,
             meta_description=hub_intro[:155],
             canonical=f"{SITE_URL}/{hub_slug}/",
             hub_title=hub_title, hub_intro=hub_intro,
@@ -2359,8 +2381,16 @@ def build_subcollections(families, prods_by_family):
         # LCP preload — first family thumbnail, WebP form
         sub_lcp_img = next((c["thumb"] for c in fam_cards if c.get("thumb")), None)
         sub_lcp_webp = (sub_lcp_img.rsplit(".", 1)[0] + ".webp") if sub_lcp_img else None
+        # Sub-collection page title: try longest form, then shorten by
+        # dropping "Malaysia" (keyword lives in H1 anyway) and finally
+        # dropping the category name if still over the 60-char SERP cap.
+        _sub_title = f"{label} {cat_name} Malaysia | Primaxs"
+        if len(_sub_title) > 60:
+            _sub_title = f"{label} — {cat_name} | Primaxs"
+        if len(_sub_title) > 60:
+            _sub_title = f"{label} | Primaxs"
         html = env.get_template("category.html").render(
-            page_title=f"{label} {cat_name} Malaysia | Primaxs"[:62],
+            page_title=_sub_title,
             meta_description=intro[:158],
             canonical=sub_canonical,
             preload_image=sub_lcp_webp,
@@ -2442,25 +2472,29 @@ def main():
     n_sub = build_subcollections(families, prods_by_family)
     print(f"  -> {n_sub} sub-collection pages")
 
-    # Real pages: About, Contact, Enquiry (with basket + Formsubmit form)
+    # Real pages: About, Contact, Enquiry (with basket + Formsubmit form).
+    # Each carries a BreadcrumbList schema for GSC rich-result eligibility.
     write(os.path.join(DIST, "about", "index.html"),
           env.get_template("about.html").render(
               page_title="About Primaxs | Malaysia's Exclusive Tanko Distributor",
               meta_description="Primaxs Marketing (M) Sdn Bhd — Malaysia's exclusive Tanko industrial storage distributor. Selangor office, nationwide delivery, local warranty.",
               canonical="https://www.storagesystem.com.my/about/",
-              base_url=BASE_URL, year=YEAR, json_ld=org_json_ld()))
+              base_url=BASE_URL, year=YEAR,
+              json_ld=graph_ld(*_org_graph_nodes(), breadcrumb_ld([("About Us", "about/")]))))
     write(os.path.join(DIST, "contact", "index.html"),
           env.get_template("contact.html").render(
               page_title="Contact Primaxs Marketing (M) Sdn Bhd | Malaysia",
               meta_description="Contact Primaxs Marketing (M) Sdn Bhd — Selangor office, sales@storagesystem.my, +60 12-616 3088. Malaysia's exclusive Tanko distributor.",
               canonical="https://www.storagesystem.com.my/contact/",
-              base_url=BASE_URL, year=YEAR, json_ld=org_json_ld()))
+              base_url=BASE_URL, year=YEAR,
+              json_ld=graph_ld(*_org_graph_nodes(), breadcrumb_ld([("Contact Us", "contact/")]))))
     write(os.path.join(DIST, "enquiry", "index.html"),
           env.get_template("enquiry.html").render(
               page_title="Request a Quote | Primaxs Malaysia",
               meta_description="Review your basket and submit a quote request to Primaxs Marketing (M) Sdn Bhd — Malaysia's exclusive Tanko distributor. Reply within one business day.",
               canonical="https://www.storagesystem.com.my/enquiry/",
-              base_url=BASE_URL, year=YEAR, json_ld=org_json_ld()))
+              base_url=BASE_URL, year=YEAR,
+              json_ld=graph_ld(*_org_graph_nodes(), breadcrumb_ld([("Request a Quote", "enquiry/")]))))
 
     # (applications section removed — no /applications/ page or links)
 

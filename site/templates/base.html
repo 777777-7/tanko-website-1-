@@ -16,7 +16,9 @@
 <link rel="icon" type="image/png" sizes="16x16" href="{{ base_url }}assets/favicon-16x16.png">
 <link rel="apple-touch-icon" href="{{ base_url }}assets/apple-touch-icon.png">
 {% if gsc_verification %}<meta name="google-site-verification" content="{{ gsc_verification }}">{% endif %}
-{% if canonical %}<link rel="canonical" href="{{ canonical }}">{% endif %}
+{% if canonical %}<link rel="canonical" href="{{ canonical }}">
+<link rel="alternate" hreflang="en-MY" href="{{ canonical }}">
+<link rel="alternate" hreflang="x-default" href="{{ canonical }}">{% endif %}
 <meta property="og:site_name" content="Primaxs Marketing (M) Sdn Bhd">
 <meta property="og:title" content="{{ page_title }}">
 <meta property="og:description" content="{{ meta_description }}">

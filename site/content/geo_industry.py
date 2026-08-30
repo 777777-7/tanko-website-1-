@@ -7,7 +7,7 @@ CITY_PAGES = [
     {
         "slug": "kuala-lumpur-selangor",
         "nav_title": "Kuala Lumpur & Selangor",
-        "title": "Industrial Storage & Workbenches in Kuala Lumpur & Selangor | Primaxs",
+        "title": "Industrial Storage & Workbenches KL & Selangor | Primaxs",
         "h1": "Industrial Storage Solutions in Kuala Lumpur & Selangor",
         "tag": "Malaysia Hub",
         "updated": "August 2026",
@@ -59,7 +59,7 @@ CITY_PAGES = [
     {
         "slug": "penang",
         "nav_title": "Penang",
-        "title": "Industrial Storage & Workbenches in Penang | Primaxs Malaysia",
+        "title": "Industrial Storage & Workbenches Penang | Primaxs",
         "h1": "Industrial Storage Solutions in Penang",
         "tag": "Northern Malaysia",
         "updated": "August 2026",
@@ -111,7 +111,7 @@ CITY_PAGES = [
     {
         "slug": "johor",
         "nav_title": "Johor",
-        "title": "Industrial Storage & Workbenches in Johor Bahru & Johor | Primaxs",
+        "title": "Industrial Storage & Workbenches Johor Bahru | Primaxs",
         "h1": "Industrial Storage Solutions in Johor Bahru & Johor",
         "tag": "Southern Malaysia",
         "updated": "August 2026",
@@ -165,7 +165,7 @@ CITY_PAGES = [
     {
         "slug": "melaka",
         "nav_title": "Melaka",
-        "title": "Industrial Storage & Workbenches in Melaka | Primaxs Malaysia",
+        "title": "Industrial Storage & Workbenches Melaka | Primaxs",
         "h1": "Industrial Storage Solutions in Melaka",
         "tag": "West Malaysia",
         "updated": "August 2026",
@@ -273,7 +273,7 @@ CITY_PAGES = [
     {
         "slug": "kuching-sarawak",
         "nav_title": "Kuching & Sarawak",
-        "title": "Industrial Storage & Workbenches in Kuching & Sarawak | Primaxs",
+        "title": "Industrial Storage & Workbenches Kuching | Primaxs",
         "h1": "Industrial Storage Solutions in Kuching & Sarawak",
         "tag": "East Malaysia",
         "updated": "August 2026",
@@ -332,12 +332,12 @@ INDUSTRY_PAGES = [
     {
         "slug": "automotive-workshop",
         "nav_title": "Automotive Workshops",
-        "title": "Industrial Storage for Automotive Workshops in Malaysia | Primaxs",
+        "title": "Automotive Workshop Storage in Malaysia | Primaxs",
         "h1": "Industrial Storage for Automotive Workshops",
         "tag": "Industry Guide",
         "updated": "August 2026",
         "excerpt": "How automotive workshops in Malaysia use Tanko tool trolleys, heavy-duty workbenches, tyre racks and steel lockers to improve bay efficiency and tool control.",
-        "meta_description": "Automotive workshop storage Malaysia — tool trolleys, heavy-duty workbenches, tyre racks and lockers. Improve bay efficiency with Tanko, exclusive distributor.",
+        "meta_description": "Automotive workshop storage Malaysia — tool trolleys, heavy-duty workbenches, tyre racks and lockers. Tanko exclusive Malaysia distributor.",
         "body": """
 <p class="lead">Automotive workshops — from independent service centres to franchise dealerships across Malaysia — depend on fast, organised tool access. A technician who spends five minutes per job searching for tools loses hours per week. Tanko's automotive storage range — mobile tool trolleys, heavy-duty workbenches, tyre racks and steel lockers — is engineered to put every tool within reach and keep bays productive.</p>
 
@@ -382,7 +382,7 @@ INDUSTRY_PAGES = [
     {
         "slug": "electronics-manufacturing",
         "nav_title": "Electronics Manufacturing",
-        "title": "ESD Workstations for Electronics Manufacturing Malaysia | Primaxs",
+        "title": "ESD Workstations for Electronics Manufacturing | Primaxs",
         "h1": "ESD Storage & Workstations for Electronics Manufacturing",
         "tag": "Industry Guide",
         "updated": "August 2026",
@@ -443,7 +443,7 @@ INDUSTRY_PAGES = [
         "tag": "Industry Guide",
         "updated": "August 2026",
         "excerpt": "Stainless steel workbenches, cabinets and shelving for food and beverage processing in Malaysia — hygienic, corrosion-resistant and easy to clean. Tanko food-grade storage solutions.",
-        "meta_description": "Food grade storage Malaysia — stainless steel workbenches, cabinets and shelving for food and beverage processing. Hygienic and corrosion-resistant. Tanko exclusive.",
+        "meta_description": "Food grade storage Malaysia — stainless steel workbenches, cabinets and shelving for food and beverage processing. Hygienic. Tanko exclusive.",
         "body": """
 <p class="lead">Food and beverage processing in Malaysia — from small sauce and snack producers in Melaka to large dairy and beverage plants in Selangor and Johor — requires storage that meets hygiene standards. Stainless steel workbenches, cabinets and shelving are the standard in food production areas because they are non-porous, corrosion-resistant and easy to sanitise. Tanko's stainless steel range is engineered for exactly these environments.</p>
 
@@ -552,12 +552,12 @@ INDUSTRY_PAGES = [
     {
         "slug": "cnc-machining-tool-room",
         "nav_title": "CNC Machining & Tool Room",
-        "title": "CNC Tool Storage for Machining & Tool Rooms Malaysia | Primaxs",
+        "title": "CNC Tool Storage — Machining & Tool Rooms | Primaxs",
         "h1": "CNC Tool Storage for Machining & Tool Rooms",
         "tag": "Industry Guide",
         "updated": "August 2026",
         "excerpt": "CNC tool cabinets, BT-40 HSK holder storage and tool trolleys for machining shops and tool rooms in Malaysia. Protect expensive tooling, reduce changeover time and organise the tool crib.",
-        "meta_description": "CNC tool storage Malaysia — BT-40, HSK holder cabinets, tool trolleys and tool room organisation for machining shops. Protect tooling, reduce changeover. Tanko exclusive.",
+        "meta_description": "CNC tool storage Malaysia — BT-40, HSK cabinets, tool trolleys and tool room organisation. Protect tooling, reduce changeover. Tanko exclusive.",
         "body": """
 <p class="lead">CNC machining shops and tool rooms in Malaysia — from precision component makers in Penang to mould and die shops in Selangor — invest heavily in cutting tools, holders and fixtures. A single BT-40 tool holder with a carbide end mill can cost hundreds of ringgit. Proper CNC tool storage protects that investment, reduces changeover time and keeps the tool crib organised. Tanko's CNC tool storage range is purpose-built for exactly this environment.</p>
 
@@ -623,7 +623,7 @@ INDUSTRY_PAGES = [
         "tag": "Industry Guide",
         "updated": "August 2026",
         "excerpt": "Mould racks, shelving, hanger racks and parts storage for warehouses and logistics operations in Malaysia. Heavy-duty vertical storage, organised inventory and safe material handling.",
-        "meta_description": "Warehouse storage Malaysia — mould racks, shelving, hanger racks and parts cabinets for logistics. Heavy-duty vertical storage, organised inventory. Tanko exclusive.",
+        "meta_description": "Warehouse storage Malaysia — mould racks, shelving, hanger racks and parts cabinets. Heavy-duty vertical storage. Tanko exclusive.",
         "body": """
 <p class="lead">Warehouses and logistics operations in Malaysia — from 3PL providers in Port Klang to e-commerce fulfilment centres in Shah Alam and manufacturing warehouses in Johor — depend on organised, safe and space-efficient storage. Tanko's industrial range covers mould racks for heavy tooling, shelving for general inventory, hanger racks for long items and parts cabinets for small-parts control — all engineered for industrial use.</p>
 
