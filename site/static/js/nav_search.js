@@ -142,11 +142,13 @@
     top.forEach(function (r) {
       var it = r.it;
       var typeLabel = r.isFamily ? ' <span class="ns-type-badge">Series</span>' : '';
+      // Deployed assets are WebP only — convert .jpg/.png to .webp
+      var imgSrc = it.img ? it.img.replace(/\.(jpg|jpeg|png)$/i, ".webp") : "";
       html +=
         '<li>' +
           '<a class="ns-card' + (r.fuzzy ? ' ns-card-fuzzy' : '') + (r.isFamily ? ' ns-card-family' : '') + '" href="' + BASE + it.url + '" role="option">' +
             '<div class="ns-card-img">' +
-              (it.img ? '<img src="' + BASE + it.img + '" alt="" loading="lazy" onerror="this.parentElement.innerHTML=\'<div class=\'ns-img-placeholder\'>No image</div\'">' : '<div class="ns-img-placeholder">No image</div>') +
+              (imgSrc ? '<img src="' + BASE + imgSrc + '" alt="" loading="lazy" onerror="this.parentElement.innerHTML=\'<div class=\'ns-img-placeholder\'>No image</div\'">' : '<div class="ns-img-placeholder">No image</div>') +
             '</div>' +
             '<div class="ns-card-body">' +
               '<div class="ns-card-sku">' + highlight(it.sku, q) + typeLabel + '</div>' +
