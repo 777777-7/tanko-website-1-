@@ -1049,14 +1049,30 @@ def build_picker(cat_slug, family_info, variants):
                 d[k] = (v.get("attributes") or {}).get(k)
         return d
 
+    # Detect variants that share identical attribute combos (e.g. ELA-185M and
+    # ELA-187M both have Accessories=None). If so, add a Model axis so every
+    # variant is reachable — otherwise findExact() always returns the first match.
+    combo_map = {}
+    for v in variants:
+        combo = tuple(sorted(variant_values(v).items()))
+        combo_map.setdefault(combo, []).append(v["sku"])
+    needs_model_axis = any(len(skus) > 1 for skus in combo_map.values())
+
     # Fallback: no shared axis -> Model selector
     fallback = not axes
-    if fallback:
-        axes = [{"key": "__model__", "label": "Model", "values": [v["sku"] for v in variants]}]
+    if fallback or needs_model_axis:
+        model_axis = {"key": "__model__", "label": "Model", "values": [v["sku"] for v in variants]}
+        if fallback:
+            axes = [model_axis]
+        else:
+            axes = [model_axis] + axes  # Model first, then attribute axes
 
     pv = []
+    has_model_axis = any(a["key"] == "__model__" for a in axes)
     for v in variants:
-        vals = {"__model__": v["sku"]} if fallback else variant_values(v)
+        vals = variant_values(v)
+        if has_model_axis:
+            vals["__model__"] = v["sku"]
         pv.append({
             "sku": v["sku"],
             "values": vals,
