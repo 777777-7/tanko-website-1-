@@ -94,15 +94,17 @@
     for (var i = 0; i < index.length; i++) {
       var it = index[i];
       var pos = it.h.indexOf(ql);
+      var isFamily = (it.url.match(/\//g) || []).length <= 2;
+      var familyBoost = isFamily ? -200 : 0;
       if (pos >= 0) {
-        var score = pos;
-        if (it.sku.toLowerCase() === ql) score = -1000;
-        else if (it.sku.toLowerCase().indexOf(ql) === 0) score = -500 + pos;
-        scored.push({ it: it, score: score, fuzzy: false });
+        var score = pos + familyBoost;
+        if (it.sku.toLowerCase() === ql) score = -1000 + familyBoost;
+        else if (it.sku.toLowerCase().indexOf(ql) === 0) score = -500 + pos + familyBoost;
+        scored.push({ it: it, score: score, fuzzy: false, isFamily: isFamily });
         continue;
       }
       if (fuzzyPrefix && it.h.indexOf(fuzzyPrefix) >= 0) {
-        scored.push({ it: it, score: 400 + pos + it.h.indexOf(fuzzyPrefix), fuzzy: true });
+        scored.push({ it: it, score: 400 + pos + it.h.indexOf(fuzzyPrefix) + familyBoost, fuzzy: true, isFamily: isFamily });
       }
     }
     scored.sort(function (a, b) { return a.score - b.score; });
@@ -123,14 +125,15 @@
                '<ul class="ns-grid" role="listbox">';
     top.forEach(function (r) {
       var it = r.it;
+      var typeLabel = r.isFamily ? ' <span class="ns-type-badge">Series</span>' : '';
       html +=
         '<li>' +
-          '<a class="ns-card' + (r.fuzzy ? ' ns-card-fuzzy' : '') + '" href="' + BASE + it.url + '" role="option">' +
+          '<a class="ns-card' + (r.fuzzy ? ' ns-card-fuzzy' : '') + (r.isFamily ? ' ns-card-family' : '') + '" href="' + BASE + it.url + '" role="option">' +
             '<div class="ns-card-img">' +
-              (it.img ? '<img src="' + BASE + it.img + '" alt="" loading="lazy">' : '') +
+              (it.img ? '<img src="' + BASE + it.img + '" alt="" loading="lazy" onerror="this.parentElement.innerHTML=\'<div class=\'ns-img-placeholder\'>No image</div\'">' : '<div class="ns-img-placeholder">No image</div>') +
             '</div>' +
             '<div class="ns-card-body">' +
-              '<div class="ns-card-sku">' + highlight(it.sku, q) + '</div>' +
+              '<div class="ns-card-sku">' + highlight(it.sku, q) + typeLabel + '</div>' +
               '<div class="ns-card-name">' + highlight(it.name, q) + '</div>' +
               '<div class="ns-card-cat">' + escapeHtml(it.cat) + (r.fuzzy ? ' · similar SKU' : '') + '</div>' +
             '</div>' +
