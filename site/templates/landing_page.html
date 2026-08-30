@@ -34,7 +34,7 @@
       <aside class="cross-links" style="margin-top:2.5rem;padding:1.25rem 1.5rem;border-top:1px solid var(--line,#26303f);">
         <h3 style="margin:0 0 .75rem;font-size:1rem;">{{ cross_links.heading }}</h3>
         <ul style="display:flex;flex-wrap:wrap;gap:.5rem 1.25rem;list-style:none;padding:0;margin:0;font-size:.9rem;">
-          {% for cl in cross_links.items %}
+          {% for cl in cross_links['items'] %}
           <li><a href="{{ base_url }}{{ cl.url }}">{{ cl.label }}&nbsp;→</a></li>
           {% endfor %}
         </ul>

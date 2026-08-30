@@ -1,0 +1,43 @@
+# Primaxs Marketing (M) Sdn Bhd — robots.txt
+
+# Default policy: allow every well-behaved crawler
+User-agent: *
+Allow: /
+Disallow: /search_index.json
+
+# --- Real-time AI answer engines (explicit allow for clarity) ---
+# These fetch a page when a user asks the assistant a question and cite it back.
+User-agent: OAI-SearchBot
+Allow: /
+User-agent: ChatGPT-User
+Allow: /
+User-agent: PerplexityBot
+Allow: /
+User-agent: Perplexity-User
+Allow: /
+User-agent: Claude-SearchBot
+Allow: /
+User-agent: Claude-User
+Allow: /
+User-agent: ClaudeBot
+Allow: /
+User-agent: Applebot
+Allow: /
+User-agent: Applebot-Extended
+Allow: /
+
+# --- Training crawlers (allow — brand + product visibility is the goal) ---
+User-agent: GPTBot
+Allow: /
+User-agent: Google-Extended
+Allow: /
+User-agent: anthropic-ai
+Allow: /
+User-agent: CCBot
+Allow: /
+
+# --- Aggressive scrapers we don't want (block) ---
+User-agent: Bytespider
+Disallow: /
+
+Sitemap: https://www.storagesystem.com.my/sitemap.xml
