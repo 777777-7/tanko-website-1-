@@ -1136,11 +1136,13 @@ SPEC_FIELD_LABELS = [
     "Dimensions (WxDxH)", "Outer Dimensions", "Inner Dimensions", "Dimensions", "Dimension",
     "Material", "Drawer Height", "Drawer Hieght", "Color", "Loading",
     "Qty", "Storage space", "Storage unit", "Drawer",
-    "Applicable", "Handle", "Bins", "Panel", "Top", "Combination", "Lock",
+    "Applicable", "Handle", "Bins", "Panel", "Top", "Lock",
     "Type", "Cabinet", "Tool Holders", "Accessories",
     "Width", "Bench Vise", "Base", "Notes", "Shelf", "Modular Rack",
     "Layer A, B", "Layer C", "Panel Set", "Shelf Qty", "Hoist Rail",
     "Unit of measurement", "Items Included", "Items included",
+    "Step.1", "Step.2", "Step.3", "Step.4", "Step 1", "Step 2", "Step 3", "Step 4",
+    "Size", "Specification", "Outer dimensions", "Inner dimensions", "Depth", "Height",
 ]
 
 
@@ -1215,14 +1217,26 @@ def _parse_single_spec_table(text):
     if "｜" in header_chunk:
         pieces = re.split(r'[｜|]', header_chunk)
         headers = []
+        sku_re = re.compile(r'(?:[A-Za-z]+(?:-[A-Za-z0-9]+)+|[A-Za-z]+[A-Za-z0-9]*)(?:\s*\([^)]*\))?')
         for piece in pieces:
             piece = piece.strip()
-            m = re.match(r'([A-Za-z]+-?[A-Za-z0-9]+(?:\s*\([^)]*\))?)', piece)
+            # Find the first token that looks like a SKU (contains digit or hyphen)
+            m = None
+            for cand in sku_re.finditer(piece):
+                token = cand.group(0).strip()
+                # SKU must contain a digit or hyphen (skip pure words like "Combination", "Key")
+                if any(c.isdigit() for c in token) or '-' in token:
+                    m = token
+                    break
             if m:
-                headers.append(m.group(1).strip())
+                headers.append(m)
     else:
         sku_pattern = re.compile(
-            r'[A-Za-z]+-?[A-Za-z0-9]+'          # base SKU like TC-111, EKC333M, WP53100
+            r'(?:'
+            r'[A-Za-z]+(?:-[A-Za-z0-9]+)+'      # SKU with >=1 hyphen: TKI-1-2, EGA-7041, TC-111
+            r'|'
+            r'[A-Za-z]+[A-Za-z0-9]*'            # SKU without hyphen: WP53100, EA, EB, ED
+            r')'
             r'(?:\s*\([^)]*\))?'                  # optional (L), (24pcs/CTN), etc.
         )
         headers = sku_pattern.findall(header_chunk)
