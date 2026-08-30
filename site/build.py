@@ -1469,20 +1469,36 @@ def build_family(cat_slug, cat_meta, family_info, variants):
     default_img = None
     if default_variant and default_variant.get("image_paths"):
         default_img = f"https://www.storagesystem.com.my/{default_variant['image_paths'][0]}"
+    # ProductGroup instead of Product for the family page — schema.org's
+    # correct type for a set of variant products sharing a common template.
+    # variesBy names the axes; each hasVariant references the variant's own
+    # Product node by @id (defined on that variant's page) so validators
+    # don't flag the entries as incomplete Products.
+    _varies_by = []
+    _seen_cols = set()
+    for _v in variants:
+        for _k in ("color", "material", "dimensions"):
+            _val = _v.get(_k)
+            if _val and _k not in _seen_cols:
+                _seen_cols.add(_k)
+    _varies_by = list(_seen_cols)
+
     family_product_ld = {
-        "@type": "Product",
+        "@type": "ProductGroup",
         "name": fam_name,
         "description": intro,
         "brand": {"@type": "Brand", "name": "Tanko"},
         "manufacturer": {"@type": "Organization", "name": "Tanko Enterprise Co., Ltd."},
         "category": cat_meta["name"],
         "url": fam_canonical,
+        "productGroupID": family_info.get("sku_code") or family_info["family_slug"],
         "hasVariant": [
-            {"@type": "Product", "name": f"{fam_name} — {v['sku']}", "sku": v["sku"],
-             "url": f"https://www.storagesystem.com.my/{variant_url(cat_slug, family_info['family_slug'], v['sku'])}"}
+            {"@id": f"https://www.storagesystem.com.my/{variant_url(cat_slug, family_info['family_slug'], v['sku'])}#product"}
             for v in variants[:50]  # cap to keep JSON-LD reasonable
         ],
     }
+    if _varies_by:
+        family_product_ld["variesBy"] = _varies_by
     if default_img:
         family_product_ld["image"] = default_img
     # Family Product also needs offers so it validates as a Product node.
@@ -1797,10 +1813,13 @@ def build_variant(cat_slug, cat_meta, family_info, variant, all_family_variants)
          "a": "All Tanko products supplied through Primaxs are covered under the Taiwan manufacturer's warranty, with claims administered locally through our office."},
     ]
 
-    # Product JSON-LD
+    # Product JSON-LD. @id lets the family ProductGroup's hasVariant list
+    # reference this variant by identifier instead of duplicating fields.
+    _variant_url_abs = f"https://www.storagesystem.com.my/{variant_url(cat_slug, family_info['family_slug'], sku)}"
     prod_ld = {
         "@context": "https://schema.org",
         "@type": "Product",
+        "@id": f"{_variant_url_abs}#product",
         "sku": sku,
         "name": h1,
         "brand": {"@type": "Brand", "name": "Tanko"},
