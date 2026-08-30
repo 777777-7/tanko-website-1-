@@ -142,9 +142,25 @@
     return current.image ? [current.image] : [];
   }
 
+  function toWebp(path) {
+    // Convert asset3/XXX.jpg -> asset3/XXX.webp
+    return path.replace(/\.jpg$/i, ".webp").replace(/\.png$/i, ".webp");
+  }
+  function toWebp800(path) {
+    // Convert asset3/XXX.jpg -> asset3/XXX-w800.webp
+    return path.replace(/\.jpg$/i, "-w800.webp").replace(/\.png$/i, "-w800.webp");
+  }
+
+  function setStageImage(imgPath) {
+    var full = base + toWebp(imgPath);
+    var w800 = base + toWebp800(imgPath);
+    stageImg.src = full;
+    stageImg.srcset = w800 + " 800w, " + full + " 1200w";
+  }
+
   function renderMedia() {
     var imgs = currentImages();
-    if (imgs.length) stageImg.src = base + imgs[0];
+    if (imgs.length) setStageImage(imgs[0]);
     stageImg.alt = data.family + " — " + current.sku;
     if (thumbsWrap) {
       thumbsWrap.innerHTML = "";
@@ -154,9 +170,9 @@
         btn.type = "button";
         if (i === 0) btn.className = "active";
         btn.setAttribute("data-src", base + t);
-        btn.innerHTML = '<img src="' + base + t + '" alt="' + current.sku + ' view ' + (i + 1) + '">';
+        btn.innerHTML = '<img src="' + base + toWebp800(t) + '" alt="' + current.sku + ' view ' + (i + 1) + '">';
         btn.addEventListener("click", function () {
-          stageImg.src = base + t;
+          setStageImage(t);
           Array.prototype.forEach.call(thumbsWrap.children, function (c) { c.className = ""; });
           btn.className = "active";
         });
