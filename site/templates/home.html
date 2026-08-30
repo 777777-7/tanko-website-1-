@@ -12,7 +12,12 @@
           <img src="{{ base_url }}assets/tanko-logo.svg" alt="Tanko industrial storage — made in Taiwan" class="v4-hero-tanko-logo" width="1088" height="181">
           <p class="v4-eyebrow"><span class="v4-rule"></span>EST.&nbsp;1975 &middot; AUTHORISED MALAYSIA DEALER</p>
           {% if loop.first %}
-          <h1 class="v4-hero-h">The Tanko catalogue,<br>distributed in Malaysia<br>since 2006.</h1>
+          {# Keyword-first H1 for SEO; editorial subtitle carries the brand
+             story that used to be the H1. Google reads the H1 as the page's
+             topic — "Industrial Storage & Tool Cabinets — Malaysia" hits the
+             three highest-value queries the homepage should rank for. #}
+          <h1 class="v4-hero-h">Industrial Storage<br>&amp; Tool Cabinets<br>— Malaysia</h1>
+          <p class="v4-hero-tagline">The Tanko catalogue, distributed in Malaysia since 2006.</p>
           {% else %}
           <h2 class="v4-hero-h">{{ slide.headline }}</h2>
           {% endif %}

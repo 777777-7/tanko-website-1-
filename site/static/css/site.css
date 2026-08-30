@@ -1,4 +1,9 @@
 /* Primaxs — dark, modern, technology-forward B2B theme. Mobile-first, no deps. */
+body.home-v4 .v4-hero-tagline {
+  font-family: var(--display, serif); font-style: italic;
+  color: var(--ink-muted, #5c6470); font-size: clamp(15px, 2vw, 20px);
+  line-height: 1.4; margin: -8px 0 24px; max-width: 46ch; letter-spacing: -.01em;
+}
 *, *::before, *::after { box-sizing: border-box; }
 html, body { margin: 0; padding: 0; }
 html { scroll-behavior: smooth; }

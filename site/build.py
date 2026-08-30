@@ -841,7 +841,10 @@ def build_homepage(products, families, categories):
 
     html = env.get_template("home.html").render(
         page_title="Industrial Storage & Tool Cabinets Malaysia | Primaxs",
-        meta_description="Exclusive Malaysia distributor for Tanko industrial storage — tool cabinets, workbenches, racking & lockers. Nationwide delivery. Request a quote today.",
+        # Meta description intentionally distinct from title — expands on
+        # scope (11 ranges, 1,700+ SKUs), local proof (Selangor stock,
+        # Ringgit pricing), and buyer action (quote in one day).
+        meta_description="Malaysia's exclusive Tanko distributor since 2006 — 11 ranges, 1,700+ SKUs of workbenches, tool cabinets, CNC storage, lockers & racking. Selangor stock, Ringgit pricing, quote in one day.",
         canonical="https://www.storagesystem.com.my/",
         og_image="https://www.storagesystem.com.my/assets/primaxs-og-1200x630.png",
         slides=slides, categories=cat_cards, featured=featured,
