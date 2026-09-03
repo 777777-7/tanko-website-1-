@@ -3,7 +3,22 @@
 # Default policy: allow every well-behaved crawler
 User-agent: *
 Allow: /
+
+# Crawl-budget protection. These paths are either machine-readable payloads,
+# client-side state, or parameterised views that duplicate a canonical page.
 Disallow: /search_index.json
+Disallow: /*?q=
+Disallow: /*?utm_
+Disallow: /*?fbclid=
+Disallow: /*?gclid=
+Disallow: /404.html
+Disallow: /sales/
+
+# Explicitly crawlable: product, category, guide, location and industry pages.
+Allow: /products/
+Allow: /guides/
+Allow: /locations/
+Allow: /industries/
 
 # --- Real-time AI answer engines (explicit allow for clarity) ---
 # These fetch a page when a user asks the assistant a question and cite it back.

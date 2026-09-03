@@ -66,7 +66,7 @@
     {% if variant.description %}
     <section class="product-description" style="margin-top:2.5rem;">
       <h2>About the {{ variant.sku }} {{ family.name }}</h2>
-      <div class="product-desc-text" style="line-height:1.7;color:#c8cdd6;max-width:75ch;">
+      <div class="product-desc-text" style="line-height:1.7;color:var(--ink);max-width:75ch;">
         {% for para in variant.description.split('\n\n') %}
         <p style="margin-bottom:1rem;">{{ para }}</p>
         {% endfor %}
@@ -81,7 +81,7 @@
         {% for g in related_guides %}
         <a href="{{ g.url }}" style="display:block;padding:1rem;border:1px solid var(--line);border-radius:6px;text-decoration:none;color:inherit;transition:border-color .2s;">
           <strong style="display:block;margin-bottom:.35rem;">{{ g.title }}</strong>
-          {% if g.excerpt %}<span style="font-size:.875rem;color:#9aa3af;">{{ g.excerpt[:120] }}{% if g.excerpt|length > 120 %}…{% endif %}</span>{% endif %}
+          {% if g.excerpt %}<span style="font-size:.875rem;color:var(--ink-muted);">{{ g.excerpt[:120] }}{% if g.excerpt|length > 120 %}…{% endif %}</span>{% endif %}
         </a>
         {% endfor %}
       </div>

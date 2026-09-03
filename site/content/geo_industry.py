@@ -222,7 +222,7 @@ CITY_PAGES = [
         "tag": "Northern Malaysia",
         "updated": "August 2026",
         "excerpt": "Tanko industrial storage for Ipoh, Perak — manufacturing, automotive, food and cement industries. Workbenches, tool cabinets, CNC storage and lockers. Nationwide delivery from Selangor.",
-        "meta_description": "Tanko industrial storage Ipoh & Perak — workbenches, CNC tool cabinets and lockers for Ipoh, Lumut, Teluk Intan and Taiping factories. Exclusive distributor.",
+        "meta_description": "Tanko industrial storage Ipoh & Perak — workbenches, CNC tool cabinets and lockers for Ipoh, Lumut and Taiping factories. Exclusive distributor.",
         "body": """
 <p class="lead">Perak, with its capital Ipoh, is a key industrial state in northern Malaysia. From the cement and manufacturing hubs of Ipoh to the port and naval industries of Lumut, and the food processing of Teluk Intan, Perak's factories need durable, organised industrial storage. Primaxs supplies Tanko workbenches, tool cabinets, CNC tool storage and lockers to all of Perak, with delivery from our Selangor warehouse.</p>
 

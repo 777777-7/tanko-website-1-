@@ -325,6 +325,25 @@ def slug(s):
     return s or "x"
 
 
+# Google truncates meta descriptions around 155-160 chars on desktop and
+# shorter on mobile. Hard-slicing at a fixed index cuts mid-word and leaves
+# dangling punctuation in the SERP snippet, so clip on a word boundary and
+# tidy the tail instead.
+META_DESC_MAX = 155
+
+
+def clip_meta(text, limit=META_DESC_MAX):
+    """Trim a meta description to `limit` chars without splitting a word."""
+    text = re.sub(r"\s+", " ", (text or "")).strip()
+    if len(text) <= limit:
+        return text
+    cut = text[:limit]
+    if " " in cut:
+        cut = cut[:cut.rindex(" ")]
+    # Drop a trailing separator/punctuation left behind by the cut.
+    return cut.rstrip(" ,;:·—-–.") + "."
+
+
 CODE_LIKE = re.compile(r"^[A-Z0-9/\-]{2,10}$")
 
 
@@ -408,6 +427,13 @@ def clear_dist():
 # under /asset3/ never change once shipped either. HTML stays short so router
 # navigation still picks up new deployments quickly.
 _HEADERS = """\
+/*
+  Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  X-Frame-Options: SAMEORIGIN
+  Permissions-Policy: geolocation=(), microphone=(), camera=(), interest-cohort=()
+
 /assets/css/*
   Cache-Control: public, max-age=31536000, immutable
 
@@ -839,7 +865,7 @@ def build_homepage(products, families, categories):
         # Meta description intentionally distinct from title — expands on
         # scope (11 ranges, 1,700+ SKUs), local proof (Selangor stock,
         # Ringgit pricing), and buyer action (quote in one day).
-        meta_description="Malaysia's exclusive Tanko distributor since 2006 — 11 ranges, 1,700+ SKUs of workbenches, tool cabinets, CNC storage, lockers & racking. Selangor stock, Ringgit pricing, quote in one day.",
+        meta_description="Malaysia's exclusive Tanko distributor since 2006. Workbenches, tool cabinets, CNC storage & lockers — Selangor stock, Ringgit pricing, quote in one day.",
         canonical="https://www.storagesystem.com.my/",
         og_image="https://www.storagesystem.com.my/assets/primaxs-og-1200x630.png",
         slides=slides, categories=cat_cards, featured=featured,
@@ -1674,9 +1700,9 @@ def build_family(cat_slug, cat_meta, family_info, variants):
         fam_page_title = f"{fam_name} ({first_sku}) | Primaxs"
     if len(fam_page_title) > 60:
         fam_page_title = fam_page_title[:60]
-    meta_desc = (f"{fam_name}{title_disambig} — {len(variants)} Tanko {cat_meta['name'].lower()} variants "
+    meta_desc = clip_meta((f"{fam_name}{title_disambig} — {len(variants)} Tanko {cat_meta['name'].lower()} variants "
                  f"with side-by-side specs, dimensions and finishes. Distributed in Malaysia by Primaxs, "
-                 f"exclusive Tanko distributor. Request a quote.")[:158]
+                 f"exclusive Tanko distributor. Request a quote."))
     # LCP preload — first family thumbnail, WebP form
     fam_lcp_img = None
     for v in variants:
@@ -1910,7 +1936,7 @@ def build_variant(cat_slug, cat_meta, family_info, variant, all_family_variants)
     meta_core = " · ".join(meta_bits)
     meta_tail = f" — {cat_keyword} and accessories supplied in Malaysia by Primaxs, exclusive Tanko distributor. Request a quote with pricing and lead time."
     meta = meta_core + meta_tail
-    meta = meta[:158]
+    meta = clip_meta(meta)
 
     # Related variants: same family, different SKU, prefer ones with images
     related = []
@@ -2103,7 +2129,7 @@ def build_category_stubs(cat_slug):
     meta = CATEGORIES_META[cat_slug]
     html = env.get_template("category.html").render(
         page_title=f"{meta['h1']} | Primaxs",
-        meta_description=meta["intro"][:155],
+        meta_description=clip_meta(meta["intro"]),
         canonical=f"https://www.storagesystem.com.my/{cat_slug}/",
         category={"name": meta["name"], "h1": meta["h1"], "intro": meta["intro"] + " — Full product range coming online shortly. Contact us for current availability."},
         families=[],
@@ -2159,7 +2185,7 @@ def build_products_index(products):
     )
     html = env.get_template("products_index.html").render(
         page_title="Industrial Storage Product Range Malaysia | Primaxs",
-        meta_description="Browse Tanko industrial storage in Malaysia — workbenches, tool cabinets, CNC storage, workstations, racking, lockers and more. Exclusive distributor Primaxs.",
+        meta_description="Browse Tanko industrial storage in Malaysia — workbenches, tool cabinets, CNC storage, workstations, lockers and more. Exclusive distributor Primaxs.",
         canonical="https://www.storagesystem.com.my/products/",
         categories=cat_cards, base_url=BASE_URL, year=YEAR, json_ld=prod_json_ld,
     )
@@ -2380,7 +2406,7 @@ def build_landing_pages():
             _hub_page_title = hub_title[:60]
         hub_html = env.get_template("landing_hub.html").render(
             page_title=_hub_page_title,
-            meta_description=hub_intro[:155],
+            meta_description=clip_meta(hub_intro),
             canonical=f"{SITE_URL}/{hub_slug}/",
             hub_title=hub_title, hub_intro=hub_intro,
             pages=pages_list, hub_slug=hub_slug,
@@ -2487,7 +2513,7 @@ def build_guides():
             guide_page_title = gt
         html = env.get_template("guide_article.html").render(
             page_title=guide_page_title,
-            meta_description=g["meta_description"][:158],
+            meta_description=clip_meta(g["meta_description"]),
             canonical=f"https://www.storagesystem.com.my/guides/{g['slug']}/",
             og_type="article",
             guide=g, base_url=BASE_URL, year=YEAR, json_ld=combined_ld,
@@ -2576,7 +2602,7 @@ def build_subcollections(families, prods_by_family):
             _sub_title = f"{label} | Primaxs"
         html = env.get_template("category.html").render(
             page_title=_sub_title,
-            meta_description=intro[:158],
+            meta_description=clip_meta(intro),
             canonical=sub_canonical,
             preload_image=sub_lcp_webp,
             category={"name": f"{label} {cat_name}", "h1": h1, "intro": intro},
@@ -2691,6 +2717,17 @@ def main():
               canonical="https://www.storagesystem.com.my/",
               base_url=BASE_URL, year=YEAR, json_ld=org_json_ld()))
     print("  404 page written")
+
+    # Owner-only sales dashboard. noindex + no canonical + excluded from
+    # sitemap.xml (see gen_sitemap.py). Data protection is enforced by
+    # Supabase RLS, not by URL obscurity.
+    write(os.path.join(DIST, "sales", "index.html"),
+          env.get_template("sales.html").render(
+              page_title="Sales dashboard — Primaxs (owner-only)",
+              meta_description="Owner-only analytics dashboard for Primaxs Marketing. Records WhatsApp clicks and email quote submissions from storagesystem.com.my.",
+              page_robots="noindex, nofollow",
+              base_url=BASE_URL, year=YEAR))
+    print("  /sales/ dashboard written")
 
     # count outputs
     n_html = 0

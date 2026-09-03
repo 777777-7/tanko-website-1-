@@ -16,7 +16,7 @@
       {% for g in guides %}
       <li class="guide-card">
         <div class="tag">{{ g.tag }}</div>
-        <h3><a href="{{ base_url }}guides/{{ g.slug }}/">{{ g.title }}</a></h3>
+        <h2 class="guide-card-h"><a href="{{ base_url }}guides/{{ g.slug }}/">{{ g.title }}</a></h2>
         <p>{{ g.excerpt }}</p>
         <a href="{{ base_url }}guides/{{ g.slug }}/">Read guide &rarr;</a>
       </li>

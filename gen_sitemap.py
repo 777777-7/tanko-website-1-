@@ -39,6 +39,11 @@ def find_pages():
         for f in files:
             if f == "index.html":
                 rel = os.path.relpath(os.path.join(root, f), DIST).replace("\\", "/")
+                # Owner-only pages: never expose in sitemap.xml even though
+                # they are noindex'd — belt-and-braces so scrapers who ignore
+                # meta robots also don't get a URL hint.
+                if rel.startswith(("sales/",)):
+                    continue
                 pages.append(rel)
     return sorted(pages)
 
@@ -77,7 +82,22 @@ def main():
 # Default policy: allow every well-behaved crawler
 User-agent: *
 Allow: /
+
+# Crawl-budget protection. These paths are either machine-readable payloads,
+# client-side state, or parameterised views that duplicate a canonical page.
 Disallow: /search_index.json
+Disallow: /*?q=
+Disallow: /*?utm_
+Disallow: /*?fbclid=
+Disallow: /*?gclid=
+Disallow: /404.html
+Disallow: /sales/
+
+# Explicitly crawlable: product, category, guide, location and industry pages.
+Allow: /products/
+Allow: /guides/
+Allow: /locations/
+Allow: /industries/
 
 # --- Real-time AI answer engines (explicit allow for clarity) ---
 # These fetch a page when a user asks the assistant a question and cite it back.

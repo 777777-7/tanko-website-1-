@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+<meta name="robots" content="{{ page_robots|default('index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1') }}">
 <meta name="theme-color" content="#0a0d13">
 <meta name="geo.region" content="MY-10">
 <meta name="geo.placename" content="Seri Kembangan, Selangor, Malaysia">
@@ -197,15 +197,17 @@
 <script src="{{ base_url }}assets/js/basket.js?v={{ asset_version }}" defer></script>
 <script src="{{ base_url }}assets/js/wa_float.js?v={{ asset_version }}" defer></script>
 <script src="{{ base_url }}assets/js/nav_search.js?v={{ asset_version }}" defer></script>
+<script src="{{ base_url }}assets/js/supabase-config.js?v={{ asset_version }}" defer></script>
+<script src="{{ base_url }}assets/js/analytics.js?v={{ asset_version }}" defer></script>
 <footer class="site-footer">
   <div class="container">
     <div class="foot-grid">
       <div>
-        <h4>Primaxs Marketing (M) Sdn Bhd</h4>
+        <h2 class="foot-h">Primaxs Marketing (M) Sdn Bhd</h2>
         <p style="color:#a4abb5;font-size:.85rem;">Exclusive Malaysia retail distributor for Tanko industrial storage — tool cabinets, workbenches, racking, lockers and workstations engineered in Taiwan since 1975.</p>
       </div>
       <div>
-        <h4>Products</h4>
+        <h2 class="foot-h">Products</h2>
         <ul>
           <li><a href="{{ base_url }}workbench/">Workbenches</a></li>
           <li><a href="{{ base_url }}tool-cabinet/">Tool Cabinets</a></li>
@@ -216,7 +218,7 @@
         </ul>
       </div>
       <div>
-        <h4>Company</h4>
+        <h2 class="foot-h">Company</h2>
         <ul>
           <li><a href="{{ base_url }}about/">About Primaxs</a></li>
           <li><a href="{{ base_url }}contact/">Contact</a></li>
@@ -224,7 +226,7 @@
         </ul>
       </div>
       <div>
-        <h4>Get in Touch</h4>
+        <h2 class="foot-h">Get in Touch</h2>
         <ul>
           <li>No. 39, Jalan Balakong Jaya 4,<br>Taman Industri Balakong Jaya,<br>43300 Seri Kembangan, Selangor</li>
           <li><a href="tel:+60126163088">+60&nbsp;12-616&nbsp;3088</a> &middot; <a href="tel:+60342964737">+60&nbsp;3-4296&nbsp;4737</a></li>

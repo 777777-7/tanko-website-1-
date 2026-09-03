@@ -65,7 +65,7 @@
             {% if c.image %}<div class="pc-img"><img src="{{ base_url }}{{ c.image|webp_full }}" srcset="{{ base_url }}{{ c.image|webp_800 }} 800w, {{ base_url }}{{ c.image|webp_full }} 1200w" sizes="(max-width: 700px) 92vw, 400px" alt="{{ family.name }} — step {{ loop.index }}{% if c.title %}: {{ c.title }}{% endif %}" width="1200" height="1200" loading="lazy" decoding="async"></div>{% endif %}
             <div class="pc-body">
               <span class="pc-step">Step&nbsp;{{ '%02d' % loop.index }}</span>
-              <h3>{{ c.title }}</h3>
+              <h2 class="pc-h">{{ c.title }}</h2>
               {% if c.caption %}<p style="font-size:13.5px;color:var(--ink-muted);margin:6px 0 0;line-height:1.5;">{{ c.caption }}</p>{% endif %}
             </div>
           </li>
@@ -77,7 +77,7 @@
           <li class="{{ 'pf-has-spec' if c.spec_rows else '' }}">
             {% if c.image %}<div class="pf-img"><img src="{{ base_url }}{{ c.image|webp_full }}" srcset="{{ base_url }}{{ c.image|webp_800 }} 800w, {{ base_url }}{{ c.image|webp_full }} 1200w" sizes="(max-width: 700px) 92vw, 400px" alt="{{ family.name }}{% if c.title %} — {{ c.title }}{% endif %}" width="1200" height="1200" loading="lazy" decoding="async"></div>{% endif %}
             <div class="pf-body">
-              {% if c.title %}<h3>{{ c.title }}</h3>{% endif %}
+              {% if c.title %}<h2 class="pf-h">{{ c.title }}</h2>{% endif %}
               {% if c.caption %}<p>{{ c.caption }}</p>{% endif %}
               {% if c.spec_tables %}
               <div class="pf-spec-tables">
@@ -164,7 +164,7 @@
           <li class="{{ 'pf-has-spec' if (b.spec_table or b.table) else '' }}">
             {% if b.image %}<div class="pf-img"><img src="{{ base_url }}{{ b.image|webp_full }}" srcset="{{ base_url }}{{ b.image|webp_800 }} 800w, {{ base_url }}{{ b.image|webp_full }} 1200w" sizes="(max-width: 700px) 92vw, 400px" alt="{{ family.name }}{% if b.title %} — {{ b.title }}{% endif %}" width="1200" height="1200" loading="lazy" decoding="async"></div>{% endif %}
             <div class="pf-body">
-              {% if b.title %}<h3>{{ b.title }}</h3>{% endif %}
+              {% if b.title %}<h2 class="pf-h">{{ b.title }}</h2>{% endif %}
               {% if b.spec_table %}
                 <div class="pf-spec-tables">
                   {% set _tables = b.spec_table if b.spec_table is sequence and b.spec_table is not mapping else [b.spec_table] %}

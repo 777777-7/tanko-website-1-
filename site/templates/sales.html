@@ -1,0 +1,97 @@
+{% extends "base.html" %}
+{% block body_class %}sales{% endblock %}
+{% block content %}
+<div class="container" style="padding-top:2rem;">
+  <nav class="crumbs" aria-label="Breadcrumb">
+    <a href="{{ base_url }}">Home</a><span class="sep">/</span>
+    <span class="current">Sales dashboard</span>
+  </nav>
+  <div class="page-head">
+    <h1 id="sales-h1">Sales dashboard</h1>
+    <p class="page-lede" id="sales-lede">Owner-only view of WhatsApp clicks and email quote submissions.</p>
+  </div>
+</div>
+
+<section class="section">
+  <div class="container">
+
+    {# Sign-in card, shown until Supabase auth session exists #}
+    <div id="sales-auth" hidden style="max-width:420px;margin:0 auto;padding:1.75rem;border:1px solid var(--line,#26303f);border-radius:8px;background:var(--surface,#131926);">
+      <h2 style="margin:0 0 .75rem;font-size:1.1rem;">Sign in</h2>
+      <p style="color:var(--ink-muted,#93a2b7);font-size:.9rem;margin:0 0 1rem;">Enter the owner email + password. Session persists for months on this browser.</p>
+      <form id="sales-login" onsubmit="return false;">
+        <label style="display:block;margin-bottom:.6rem;font-size:.85rem;color:var(--ink-muted);">Email
+          <input type="email" id="sales-email" required autocomplete="email"
+                 style="display:block;width:100%;margin-top:.3rem;padding:.55rem .7rem;background:var(--bg,#0a0d13);border:1px solid var(--line,#26303f);border-radius:5px;color:var(--ink,#e9eef6);font-family:inherit;font-size:.95rem;">
+        </label>
+        <label style="display:block;margin-bottom:1rem;font-size:.85rem;color:var(--ink-muted);">Password
+          <input type="password" id="sales-pw" required autocomplete="current-password"
+                 style="display:block;width:100%;margin-top:.3rem;padding:.55rem .7rem;background:var(--bg,#0a0d13);border:1px solid var(--line,#26303f);border-radius:5px;color:var(--ink,#e9eef6);font-family:inherit;font-size:.95rem;">
+        </label>
+        <button type="submit" class="btn" id="sales-login-btn" style="width:100%;">Sign in</button>
+        <p id="sales-error" style="color:var(--accent,#ff3b47);font-size:.85rem;min-height:1.1em;margin:.75rem 0 0;"></p>
+      </form>
+    </div>
+
+    {# Dashboard, shown after auth #}
+    <div id="sales-dash" hidden>
+      <div class="sales-toolbar" style="display:flex;align-items:center;gap:1rem;margin-bottom:1.5rem;flex-wrap:wrap;">
+        <button type="button" id="sales-prev" class="btn btn-outline">&larr;</button>
+        <h2 id="sales-month-label" style="margin:0;font-size:1.35rem;min-width:12ch;text-align:center;"></h2>
+        <button type="button" id="sales-next" class="btn btn-outline">&rarr;</button>
+        <button type="button" id="sales-today" class="btn btn-outline">Today</button>
+        <span style="flex:1;"></span>
+        <span id="sales-summary" style="color:var(--ink-muted);font-size:.9rem;"></span>
+        <button type="button" id="sales-logout" class="btn btn-outline">Sign out</button>
+      </div>
+
+      <div id="sales-calendar" class="sales-cal" role="grid" aria-label="Sales activity by day">
+        <div class="sales-cal-loading" style="padding:3rem;text-align:center;color:var(--ink-muted);">Loading…</div>
+      </div>
+
+      <div id="sales-drilldown" class="sales-drill" hidden style="margin-top:1.5rem;padding:1.25rem;border:1px solid var(--line,#26303f);border-radius:6px;background:var(--surface,#131926);">
+        <div style="display:flex;align-items:baseline;justify-content:space-between;margin-bottom:.75rem;">
+          <h3 id="sales-drill-h" style="margin:0;font-size:1.1rem;"></h3>
+          <button type="button" id="sales-drill-close" class="btn btn-outline">Close</button>
+        </div>
+        <div id="sales-drill-body"></div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<style>
+  body.sales { background:var(--bg,#0a0d13); }
+  body.sales .cta-band, body.sales .site-footer .foot-grid { display:none; }
+
+  .sales-cal { display:grid; grid-template-columns:repeat(7,1fr); gap:6px; }
+  .sales-cal-head { padding:.4rem 0; text-align:center; font-size:.75rem; text-transform:uppercase; letter-spacing:.08em; color:var(--ink-muted); }
+  .sales-cal-cell { min-height:88px; padding:.5rem .55rem; border:1px solid var(--line,#26303f); border-radius:5px; background:var(--surface,#131926); position:relative; cursor:pointer; transition:border-color .12s, background .12s; }
+  .sales-cal-cell:hover { border-color:var(--accent,#ff3b47); }
+  .sales-cal-cell.empty { background:transparent; border-color:transparent; cursor:default; }
+  .sales-cal-cell.other-month { opacity:.4; }
+  .sales-cal-cell.today { border-color:var(--accent,#ff3b47); }
+  .sales-cal-cell.active { background:var(--surface-2,#1a2130); border-color:var(--accent,#ff3b47); }
+  .sales-cal-date { font-size:.85rem; color:var(--ink,#e9eef6); margin-bottom:.35rem; font-weight:600; }
+  .sales-cal-badges { display:flex; flex-direction:column; gap:2px; }
+  .sales-badge { font-size:.72rem; padding:2px 6px; border-radius:3px; display:inline-flex; align-items:center; gap:4px; width:fit-content; }
+  .sales-badge.wa   { background:rgba(37,211,102,.15); color:#25d366; }
+  .sales-badge.mail { background:rgba(59,130,246,.15); color:#60a5fa; }
+
+  .sales-drill table { width:100%; border-collapse:collapse; font-size:.88rem; }
+  .sales-drill td, .sales-drill th { padding:.55rem .6rem; border-bottom:1px solid var(--line,#26303f); text-align:left; vertical-align:top; }
+  .sales-drill th { color:var(--ink-muted); font-weight:600; font-size:.75rem; text-transform:uppercase; letter-spacing:.05em; }
+  .sales-drill .basket-mini { color:var(--ink-muted); font-size:.82rem; margin-top:.15rem; }
+  .sales-drill .basket-mini li { margin:.15rem 0; }
+</style>
+
+{# Load order matters: supabase-config.js sets window.SUPABASE_URL/KEY,
+   the CDN SDK defines window.supabase, then sales.js consumes both.
+   All three run synchronously here so the guard in sales.js passes —
+   the base.html footer includes supabase-config.js with `defer`, which
+   would otherwise fire AFTER sales.js and leave the config undefined. #}
+<script src="{{ base_url }}assets/js/supabase-config.js?v={{ asset_version }}"></script>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
+<script src="{{ base_url }}assets/js/sales.js?v={{ asset_version }}"></script>
+{% endblock %}

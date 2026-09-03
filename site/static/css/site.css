@@ -132,7 +132,7 @@ ul { padding-left: 1.25em; }
 .mega-foot { border-top: 1px solid var(--line); margin-top: .75rem; padding-top: .75rem; }
 .mega-foot a { font-weight: 600; font-size: .9rem; color: var(--accent); }
 
-.dropdown { min-width: 260px; padding: .45rem; }
+.dropdown { min-width: 260px; padding: .45rem; max-height: calc(100vh - 120px); overflow-y: auto; overscroll-behavior: contain; }
 .dropdown a { display: block; padding: .55rem .65rem; border-radius: 7px; color: var(--ink); font-size: .9rem; }
 .dropdown a:hover { background: var(--surface-2); text-decoration: none; color: #fff; }
 
@@ -241,7 +241,7 @@ ul { padding-left: 1.25em; }
 .cat-thumb { aspect-ratio: 4/3; display: flex; align-items: center; justify-content: center; padding: 1.25rem; }
 .cat-thumb img { max-height: 100%; object-fit: contain; }
 .cat-body { padding: 1rem 1.15rem 1.15rem; }
-.cat-body h3 { margin: 0 0 .3rem; font-size: 1.05rem; color: #fff; }
+.cat-body h3, .cat-body .cat-name { margin: 0 0 .3rem; font-size: 1.05rem; color: #fff; }
 .cat-body p { margin: 0; font-size: .85rem; color: var(--ink-muted); }
 @media (min-width: 560px) { .cat-grid { grid-template-columns: repeat(2, 1fr); } }
 @media (min-width: 900px) { .cat-grid { grid-template-columns: repeat(3, 1fr); } }
@@ -292,7 +292,7 @@ ul { padding-left: 1.25em; }
 .site-footer a:hover { color: var(--accent); }
 .foot-grid { display: grid; grid-template-columns: 1fr; gap: 1.75rem; }
 @media (min-width: 780px) { .foot-grid { grid-template-columns: 2fr 1fr 1fr 1fr; } }
-.foot-grid h4 { color: #fff; font-size: .85rem; margin-bottom: .6rem; text-transform: uppercase; letter-spacing: .08em; }
+.foot-grid h4, .foot-grid .foot-h { color: #fff; font-size: .85rem; margin-bottom: .6rem; text-transform: uppercase; letter-spacing: .08em; }
 .foot-grid ul { list-style: none; padding: 0; margin: 0; }
 .foot-grid li { margin-bottom: .45rem; }
 .foot-legal { border-top: 1px solid #1a212c; margin-top: 1.75rem; padding-top: 1.25rem; text-align: center; font-size: .8rem; color: #6b7787; }
@@ -433,9 +433,9 @@ details { color: var(--steel); }
 @media (min-width: 1000px){ .guide-grid { grid-template-columns: repeat(3, 1fr); } }
 .guide-card { border: 1px solid var(--line); border-radius: 14px; padding: 1.4rem; background: var(--surface); transition: transform .16s, border-color .16s; }
 .guide-card:hover { transform: translateY(-3px); border-color: var(--accent); }
-.guide-card h3 { font-size: 1.08rem; margin-bottom: .45rem; }
-.guide-card h3 a { color: #fff; }
-.guide-card h3 a:hover { color: var(--accent); }
+.guide-card h3, .guide-card .guide-card-h { font-size: 1.08rem; margin-bottom: .45rem; }
+.guide-card h3 a, .guide-card .guide-card-h a { color: #fff; }
+.guide-card h3 a:hover, .guide-card .guide-card-h a:hover { color: var(--accent); }
 .guide-card p { font-size: .9rem; margin-bottom: .7rem; }
 .guide-card .tag { font-size: .7rem; text-transform: uppercase; letter-spacing: .07em; color: var(--accent); font-weight: 700; }
 
@@ -1062,7 +1062,7 @@ body.home .nav-list { display: flex; align-items: center; gap: .1rem; list-style
 .enq-lbl { display: block; font-size: 13px; color: var(--ink-muted); margin-bottom: 6px; font-weight: 500; text-transform: uppercase; letter-spacing: .04em; }
 .enq-lbl em { color: var(--accent); font-style: normal; margin-left: 2px; }
 .enq-form input[type="text"], .enq-form input[type="email"], .enq-form input[type="tel"], .enq-form textarea {
-  width: 100%; padding: 11px 14px; background: var(--surface-2); color: #fff;
+  width: 100%; padding: 11px 14px; background: #fff; color: #111;
   border: 1px solid var(--line); border-radius: 6px; font-family: inherit; font-size: 14px;
   transition: border-color .14s;
 }
@@ -1581,7 +1581,7 @@ a:hover { color: var(--accent); }
   border-bottom: 1px solid var(--line);
 }
 .cat-thumb img, .fam-thumb img, .feat-thumb img { mix-blend-mode: multiply; }
-.cat-body h3, .fam-body .name, .feat-body .name {
+.cat-body h3, .cat-body .cat-name, .fam-body .name, .feat-body .name {
   font-family: var(--serif); font-weight: 500; color: var(--ink);
   font-size: 20px; line-height: 1.15; letter-spacing: -.008em; text-transform: none;
 }
@@ -1614,7 +1614,7 @@ a:hover { color: var(--accent); }
 
 /* ── FOOTER ── */
 .site-footer { background: var(--bg-dark); color: #c9cfd9; border-top: 1px solid #2f3644; }
-.site-footer h4 { font-family: var(--font); color: #f5f2eb; font-weight: 700; letter-spacing: .08em; }
+.site-footer h4, .site-footer .foot-h { font-family: var(--font); color: #f5f2eb; font-weight: 700; font-size: .85rem; letter-spacing: .08em; }
 .site-footer a { color: #f5f2eb; }
 .site-footer a:hover { color: var(--accent); }
 .site-footer .foot-legal { color: #8b93a0; border-top-color: #2f3644; }
@@ -1709,8 +1709,8 @@ a:hover { color: var(--accent); }
 .article .faq summary { color: var(--ink); font-family: var(--serif); font-size: 17px; }
 .guide-card { background: var(--surface); border: 1px solid var(--line); border-radius: 4px; box-shadow: var(--shadow); }
 .guide-card:hover { box-shadow: var(--shadow-lift); border-color: var(--line); transform: translateY(-3px); }
-.guide-card h3 { color: var(--ink); font-family: var(--serif); font-weight: 500; }
-.guide-card h3 a { color: var(--ink); }
+.guide-card h3, .guide-card .guide-card-h { color: var(--ink); font-family: var(--serif); font-weight: 500; }
+.guide-card h3 a, .guide-card .guide-card-h a { color: var(--ink); }
 .guide-card h3 a:hover { color: var(--accent); }
 .guide-card p { color: var(--ink-muted); }
 .guide-card .tag { color: var(--accent); font-family: var(--mono); }
@@ -1744,7 +1744,11 @@ a:hover { color: var(--accent); }
 .enq-item-img img { mix-blend-mode: multiply; }
 .enq-form { background: var(--surface); border: 1px solid var(--line); border-radius: 4px; box-shadow: var(--shadow); }
 .enq-lbl { color: var(--ink-muted); font-family: var(--mono); font-size: 11px; }
-.enq-form input, .enq-form textarea { background: #fff; color: var(--ink); border: 1px solid var(--line); }
+/* Enquiry form inputs sit on the light "paper" enquiry-page background,
+   so the text must be dark. Previously used var(--ink) which resolves to
+   near-white in the dark theme -> invisible text on white. */
+.enq-form input, .enq-form textarea { background: #fff; color: #111; border: 1px solid var(--line); }
+.enq-form input::placeholder, .enq-form textarea::placeholder { color: #6b7280; opacity: 1; }
 .enq-form input:focus, .enq-form textarea:focus { border-color: var(--accent); box-shadow: 0 0 0 3px rgba(198,40,40,.12); }
 .qty-btn { background: var(--surface); color: var(--ink); border: 1px solid var(--line); }
 .qty-btn:hover { border-color: var(--accent); color: var(--accent); }
@@ -2459,3 +2463,6 @@ body.home-v4 .nav-list > li:hover > .nav-toggle {
 .variant-title-row h1 { margin: 0; flex: 1; min-width: 0; }
 .variant-tanko-logo { height: 48px; width: auto; opacity: .92; flex-shrink: 0; }
 @media (max-width: 640px) { .variant-tanko-logo { height: 32px; } }
+
+/* Card headings promoted h3 -> h2 for valid heading order; keep card scale. */
+.pc-body .pc-h, .pf-body .pf-h { font-size: 1.05rem; line-height: 1.25; margin: 0 0 .35rem; }
