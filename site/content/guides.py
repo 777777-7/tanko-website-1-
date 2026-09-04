@@ -1185,3 +1185,11 @@ GUIDES = [
     },
 
 ]
+
+# ── Bahasa Malaysia guides ───────────────────────────────────────────────
+# Kept in a separate module so the BM copy can be reviewed and edited
+# independently of the English set. Appended rather than interleaved so
+# guide ordering in the nav stays stable.
+from content.guides_bm import BM_GUIDES  # noqa: E402
+
+GUIDES.extend(BM_GUIDES)
