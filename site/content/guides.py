@@ -1193,3 +1193,7 @@ GUIDES = [
 from content.guides_bm import BM_GUIDES  # noqa: E402
 
 GUIDES.extend(BM_GUIDES)
+
+from content.guides_bm2 import BM_GUIDES_2  # noqa: E402
+
+GUIDES.extend(BM_GUIDES_2)
