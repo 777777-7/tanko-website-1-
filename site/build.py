@@ -2488,7 +2488,8 @@ def build_guides():
             "publisher": {"@type": "Organization", "name": "Primaxs Marketing (M) Sdn Bhd"},
             "about": "Industrial storage in Malaysia",
             "mainEntityOfPage": guide_url,
-            "inLanguage": "en-MY",
+            # Bahasa Malaysia guides are tagged "Panduan"; everything else is en-MY.
+            "inLanguage": "ms-MY" if g.get("tag") == "Panduan" else "en-MY",
         }
         breadcrumb_node = breadcrumb_ld([
             ("Guides", "https://www.storagesystem.com.my/guides/"),
@@ -2518,6 +2519,7 @@ def build_guides():
             og_type="article",
             guide=g, base_url=BASE_URL, year=YEAR, json_ld=combined_ld,
             guide_body=_fix_guide_links(g.get("body") or "", BASE_URL),
+            page_lang="ms-MY" if g.get("tag") == "Panduan" else "en-MY",
         )
         write(os.path.join(DIST, "guides", g["slug"], "index.html"), html)
 
