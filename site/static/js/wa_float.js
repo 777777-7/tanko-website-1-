@@ -3,7 +3,7 @@
    Empty basket → original greeting only + catalogue link. */
 (function () {
   var KEY = "primaxs.basket.v1";
-  var WA_NUMBER = "60126163088";
+  var WA_NUMBER = "601158419886";
   var WA_GREETING = "Hi, I'm interested in Tanko industrial storage products.";
 
   function load() {
