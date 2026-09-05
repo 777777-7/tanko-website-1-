@@ -832,3 +832,36 @@ For the next session, in order:
    second-degree, which is when search becomes usable.
 5. Once there are real connections: retry the Company Page, then start posting
    from the 24-post bank.
+
+
+---
+
+### 6 Sep 2026 — 8 invites, 1st post live
+
+**First connection accepted:** Dr. Shangkar Ganesh Chandiram (Head of Estate
+Operations). Immediately visible effect — his network surfaced as second-degree
+suggestions, which is the compounding this whole slow build is for. Every
+accept widens the invitable pool.
+
+**First post published.** "Heavy duty is not a specification" — the workbench
+load-rating piece, linking to the English workbench guide. Led with a technical
+insight rather than a pitch, because posts also make the profile look
+substantive to people deciding whether to accept an invite.
+
+| Name | Role | Why targeted |
+|---|---|---|
+| Ganda Martua Situmorang | Palm Oil Mill Consultant | Mills run maintenance workshops |
+| Faiz Dayan Vahaddisz | HRGA / Legal / AK3 Umum | AK3 is a certified safety officer — workplace safety and 5S organisation |
+| M. Peremakumar Munisamy | Plantation General Manager | Multi-estate operations, estate workshops |
+| Ng Thiam Seng | Plantation Senior Manager, 18+ yrs | Large estates, mechanisation |
+| Qayyim Esa | Project Management, Telecom Infrastructure | Infrastructure fit-outs |
+| Ts. Gs. Dr. Kamalul Adham, PMP | Project management professional | Project procurement |
+| Sasivarman Ganesan | Plantation Management, Estate Ops | Estate operations |
+| Girish Mavath Ramachandran | Agritech / Built Environment consultant | Food security + built environment |
+
+Running total: 18 invites, 1 connection, 1 post.
+
+**Plantation is now clearly the strongest surfaced segment.** Estates and palm
+oil mills run vehicle workshops, machinery maintenance depots and worker
+facilities — benches, tool storage, lockers. This was not on the original
+channel list and is worth a dedicated push if the accepts come through.
