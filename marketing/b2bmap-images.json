@@ -1,0 +1,52 @@
+{
+ "WE-47W": [
+  "asset3/WE-47W (Black).jpg",
+  "asset3/WE-47W (White).jpg",
+  "asset_content/we1200/exp_1.jpg"
+ ],
+ "EGA-10061": [
+  "asset3/EGA-10061.jpg",
+  "asset_content/ega-1/exp_1.jpg",
+  "asset_content/ega-1/exp_2.jpg"
+ ],
+ "EA-10031-11N": [
+  "asset3/EA-10031-11N.jpg",
+  "asset3/EA-10031-11N_2.jpg",
+  "asset_content/ea-10n/exp_1.jpg"
+ ],
+ "RY-01SA": [
+  "asset3/RY-01SA.jpg",
+  "asset_content/ry/exp_1.jpg",
+  "asset_content/ry/exp_2.jpg"
+ ],
+ "FBA-202W": [
+  "asset3/FBA-202W.jpg",
+  "asset_content/locker-white/exp_1.jpg",
+  "asset_content/locker-white/exp_10.jpg"
+ ],
+ "KQ-306A": [
+  "asset3/KQ-306A (Black).jpg",
+  "asset3/KQ-306A (Blue).jpg",
+  "asset3/KQ-306A (Gray).jpg"
+ ],
+ "MB-206": [
+  "asset3/MB-206.jpg",
+  "asset_content/mb-2/exp_1.jpg",
+  "asset_content/mb-2/exp_2.jpg"
+ ],
+ "TKI-1308": [
+  "asset3/TKI-1308.jpg",
+  "asset3/TKI-1308-2.jpg",
+  "asset3/TKI-1308-3.jpg"
+ ],
+ "TOA-14": [
+  "asset3/TOA-14.jpg",
+  "asset_content/toa-14/exp_1.jpg",
+  "asset_content/toa-14/exp_2.jpg"
+ ],
+ "KM-2204": [
+  "asset3/KM-2204.jpg",
+  "asset_content/km-22/exp_1.jpg",
+  "asset_content/km-22/exp_2.jpg"
+ ]
+}

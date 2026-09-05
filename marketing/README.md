@@ -59,3 +59,36 @@ traffic lands on the ten Bahasa guides now live on the site.
   limits; bulk-inviting from a new account gets it restricted.
 - **Google Ads going live** — costs money. CSVs are ready; switching them on
   is your call.
+
+## B2BMap — status 5 Sep 2026
+
+**Company profile: complete.**
+- Category corrected to Furniture & Decor > Office & Industrial Furniture
+  (was Furniture Machinery & Parts, i.e. machines that *make* furniture)
+- Business type: Supplier + Wholesaler + Importer
+- Office phone added, company logo uploaded
+- Tanko catalogue E327 uploaded as a downloadable brochure
+  (E147 is 11.7 MB, above the upload limit — needs manual upload)
+
+**Products: 6 of 10 posted, all "Waiting For Approval".**
+
+Live: WE-47W, EGA-10061, EA-10031-11N, FBA-202W, MB-206, TKI-1308
+Not posted: RY-01SA, KQ-306A, TOA-14, KM-2204
+
+**Free-tier product cap appears to be 6.** Products 7-10 fail silently with an
+identical, verified-correct submission (2 images attached as `images[]`, all
+ten required fields populated, real Submit click). B2BMap's pricing table
+advertises 100 / 200 / 500 products for its paid tiers and does not list a
+free allowance. The remaining four are ready in `b2bmap-products.json` if the
+account is ever upgraded.
+
+### Two things that cost time here, worth remembering
+
+1. **Two images minimum per product.** A single image fails silently with no
+   error message. The uploader converts files into hidden `images[]` inputs;
+   the visible `files` input stays empty, which makes it look broken when it
+   is not. Check `document.querySelectorAll('[name="images[]"]').length >= 2`.
+2. **Prices are USD-only** — no currency selector, because B2BMap is a global
+   platform. Reference prices came from `site/pricing.py` (the same module the
+   website uses) converted at 4.5. Every description states the RM figure
+   alongside the USD one and notes that quotations are issued in Ringgit.
