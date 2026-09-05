@@ -865,3 +865,57 @@ Running total: 18 invites, 1 connection, 1 post.
 oil mills run vehicle workshops, machinery maintenance depots and worker
 facilities — benches, tool storage, lockers. This was not on the original
 channel list and is worth a dedicated push if the accepts come through.
+
+
+---
+
+## Post format — researched 5 Sep 2026, supersedes earlier guidance
+
+Two things I got wrong in the first two posts, corrected here.
+
+### What the 2026 data says
+
+| Format | Relative reach | Engagement |
+|---|---|---|
+| Document carousel | 2-3x | 45.8% (top format) |
+| Multi-image post | strong | 6.6% |
+| Text only | 1.5-2x | ~4% |
+| **Single image** | 0.8-1.2x | 4.85% |
+| **External link in body** | **0.5-0.8x** | - |
+
+- **Single-image posts now UNDERPERFORM text-only by about 30%.** This reversed
+  the 2024-2025 pattern. One photo is worse than no photo; three or more is
+  better than either.
+- **A link in the post body costs roughly 60% of reach**, and the old
+  "put the link in the first comment" workaround is **also penalised** as of
+  early 2026. That trick no longer works.
+- **Hook must land in 210 characters.** 60-70% of readers never click "See more".
+- **1,300-1,900 characters** is the sweet spot. Under 500 gets flagged as
+  low-effort.
+- **Three hashtags maximum.** Q1 2026 data: posts with more than three
+  performed 71% worse than posts with none at all.
+- **The first 60-90 minutes decide about 70% of total reach**, so early
+  comments matter more than anything done later.
+
+### What this means for Primaxs
+
+The first two posts (workbench load ratings, CNC taper damage) each carried a
+storagesystem.com.my link in the body. That cost roughly 60% of their reach.
+Not fatal on an account with 4 connections, but it must not become the habit.
+
+**The standing format from here:**
+
+1. Hook in the first 210 characters - a specific claim, not a preamble
+2. 1,300-1,900 characters of genuinely useful content
+3. **Three or more product photos**, not one, not zero
+4. **No URL in the body.** The website is on the profile and the Company Page;
+   let the content earn the profile click
+5. Two or three hashtags, never more
+6. Reserve link-in-body for occasional posts where the click genuinely is the
+   point, and accept the reach cost knowingly
+
+**Highest-value format to build toward:** a document carousel - a 5 to 8 slide
+PDF such as "Choosing a workbench top: rubber vs laminate vs stainless", built
+from photos in asset3/ and copy already written in the guides. Top reach
+multiplier and top engagement, and it showcases product visually without a
+link.
