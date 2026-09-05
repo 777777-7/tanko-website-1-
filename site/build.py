@@ -26,6 +26,7 @@ sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="repla
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from content.guides import GUIDES
+from content.guides_bm2 import LANG_PAIRS, LANG_PAIRS_REV
 from content.category_seo import CATEGORY_FAQ, CATEGORY_GUIDES
 from content.geo_industry import CITY_PAGES, INDUSTRY_PAGES
 from pricing import price_for_product, _usd_to_myr
@@ -2458,6 +2459,32 @@ def _fix_guide_links(body, base):
     return re.sub(r'href="(/[^"#]*?)"', _repl, body)
 
 
+def _guide_hreflang(slug):
+    """
+    Reciprocal hreflang for the 10 Bahasa/English guide pairs.
+
+    Each guide already emits a self-referential hreflang from base.html. This
+    adds the pointer to its counterpart in the other language, which is what
+    lets Google serve the Malay page to a Malay query instead of guessing.
+    Google ignores partial hreflang sets, so both directions must be present —
+    hence the reverse map.
+
+    x-default resolves to the English page: Malaysian B2B enquiries arrive
+    predominantly in English, so that is the safer fallback for an unmatched
+    locale.
+    """
+    base = "https://www.storagesystem.com.my/guides/"
+    if slug in LANG_PAIRS:                 # this is the Bahasa page
+        en = LANG_PAIRS[slug]
+        return {"hreflang_alts": [{"lang": "en-MY", "url": base + en + "/"}],
+                "hreflang_default": base + en + "/"}
+    if slug in LANG_PAIRS_REV:             # this is the English page
+        ms = LANG_PAIRS_REV[slug]
+        return {"hreflang_alts": [{"lang": "ms-MY", "url": base + ms + "/"}],
+                "hreflang_default": base + slug + "/"}
+    return {}
+
+
 def build_guides():
     cards = [{"slug": g["slug"], "title": g["title"], "excerpt": g["excerpt"], "tag": g["tag"]} for g in GUIDES]
     guides_ld = graph_ld(
@@ -2520,6 +2547,7 @@ def build_guides():
             guide=g, base_url=BASE_URL, year=YEAR, json_ld=combined_ld,
             guide_body=_fix_guide_links(g.get("body") or "", BASE_URL),
             page_lang="ms-MY" if g.get("tag") == "Panduan" else "en-MY",
+            **_guide_hreflang(g["slug"]),
         )
         write(os.path.join(DIST, "guides", g["slug"], "index.html"), html)
 

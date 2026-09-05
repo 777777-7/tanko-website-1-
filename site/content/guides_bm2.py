@@ -340,3 +340,30 @@ BM_GUIDES_2 = [
         ],
     },
 ]
+
+
+# ── Language pairs: Bahasa guide  <->  its English counterpart ────────────
+# These are not word-for-word translations; each is original copy written for
+# its own audience. But they cover the same topic and compete for the same
+# intent in two languages, which is exactly what hreflang exists to
+# disambiguate. Without it Google treats them as unrelated pages and may pick
+# the wrong one for a Malay query.
+#
+# x-default points at the English page: Malaysian B2B enquiries arrive
+# predominantly in English, so that is the safer fallback for an
+# unmatched locale.
+LANG_PAIRS = {
+    "meja-kerja-industri-malaysia":                   "how-to-choose-a-workbench-malaysia",
+    "kabinet-alat-penyimpanan-bengkel-malaysia":      "tool-cabinet-buying-guide-automotive-workshop-malaysia",
+    "loker-besi-malaysia":                            "steel-locker-buying-guide-malaysia",
+    "rak-gudang-rak-acuan-malaysia":                  "warehouse-racking-mould-rack-shelving-malaysia",
+    "papan-berlubang-kawalan-alat-5s-malaysia":       "perforated-board-shadow-board-tool-control-malaysia",
+    "harga-sebut-harga-penyimpanan-industri-malaysia": "tanko-workbench-pricing-quote-guide-malaysia",
+    "stesen-kerja-modular-malaysia":                  "modular-workstations-5s-workplace-organisation-malaysia",
+    "kabinet-alat-ganti-bin-stor-malaysia":           "parts-bin-document-storage-spares-room-malaysia",
+    "meja-kerja-esd-elektronik-malaysia":             "esd-anti-static-workbench-malaysia",
+    "penyimpanan-alat-cnc-malaysia":                  "cnc-tool-storage-management-malaysia",
+}
+
+# reverse lookup so the English page can point back at its Bahasa alternate
+LANG_PAIRS_REV = {v: k for k, v in LANG_PAIRS.items()}
