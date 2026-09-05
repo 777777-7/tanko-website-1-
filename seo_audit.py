@@ -6,7 +6,7 @@ AEO/GEO readiness, local SEO.
 """
 import os, re, io, sys, json, glob, collections, html as HTMLLIB
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
-os.chdir(r"C:\Users\User\Documents\GitHub\tanko-website-1-")
+os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
 pages = sorted(glob.glob("docs/**/*.html", recursive=True))
 cache = {}
