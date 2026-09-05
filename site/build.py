@@ -27,6 +27,7 @@ sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="repla
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from content.guides import GUIDES
 from content.guides_bm2 import LANG_PAIRS, LANG_PAIRS_REV
+from content.categories_bm import CATEGORIES_BM, CAT_LANG_PAIRS, CAT_LANG_PAIRS_REV
 from content.category_seo import CATEGORY_FAQ, CATEGORY_GUIDES
 from content.geo_industry import CITY_PAGES, INDUSTRY_PAGES
 from pricing import price_for_product, _usd_to_myr
@@ -905,6 +906,85 @@ def _subcollection_pills(cat_slug, active_slug=None):
     return pills
 
 
+def build_categories_bm(fam_by_cat, prods_by_family):
+    """
+    Bahasa Malaysia category landing pages.
+
+    These target transactional Malay search ("beli meja kerja industri",
+    "pembekal kabinet alat") which the English category pages structurally
+    cannot rank for. Each carries original Bahasa copy plus FAQPage schema,
+    reuses the same family cards as its English counterpart, and is bound to
+    that counterpart by reciprocal hreflang.
+    """
+    site = "https://www.storagesystem.com.my"
+    for cb in CATEGORIES_BM:
+        en_slug, bm_slug = cb["en_slug"], cb["slug"]
+        cat_families = fam_by_cat.get(en_slug, [])
+
+        sections = OrderedDict()
+        for fam in cat_families:
+            variants = prods_by_family.get(fam["family_slug"], [])
+            thumb = next((v["image_paths"][0] for v in variants if v["image_paths"]), None)
+            dt = fam.get("distinct_title")
+            sku_base, dim_chip = _split_sku_code(fam.get("sku_code", ""))
+            sections.setdefault(fam.get("subcategory") or "Produk", []).append({
+                "name": (f"{fam['family']} \u2014 {dt}" if dt else fam["family"]),
+                "subcategory": fam.get("subcategory"),
+                "sku_code": fam.get("sku_code", ""),
+                "sku_code_base": sku_base,
+                "dim_chip": dim_chip,
+                "url": family_url(en_slug, fam["family_slug"]),
+                "thumb": thumb,
+                "variant_count": len(variants),
+            })
+        section_list = [{"title": n, "families": c} for n, c in sections.items()]
+        fam_cards = [c for cards in sections.values() for c in cards]
+
+        bm_url = f"{site}/{bm_slug}/"
+        en_url = f"{site}/{en_slug}/"
+        faq_node = None
+        if cb.get("faqs"):
+            faq_node = {"@type": "FAQPage", "mainEntity": [
+                {"@type": "Question", "name": q["q"],
+                 "acceptedAnswer": {"@type": "Answer", "text": q["a"]}}
+                for q in cb["faqs"]]}
+        json_ld = graph_ld(
+            *_org_graph_nodes(),
+            breadcrumb_ld([(cb["name"], bm_url)]),
+            collection_page_ld(
+                name=cb["h1"], url=bm_url,
+                description=cb["meta"],
+                item_urls=[f"{site}/{c['url']}" for c in fam_cards]),
+            faq_node,
+        )
+        lcp = next((c["thumb"] for c in fam_cards if c.get("thumb")), None)
+        lcp_webp = (lcp.rsplit(".", 1)[0] + ".webp") if lcp else None
+
+        title = f"{cb['h1']} | Primaxs"
+        if len(title) > 60:
+            title = cb["h1"][:60]
+
+        html = env.get_template("category.html").render(
+            page_title=title,
+            meta_description=clip_meta(cb["meta"]),
+            canonical=bm_url,
+            preload_image=lcp_webp,
+            page_lang="ms-MY",
+            hreflang_alts=[{"lang": "en-MY", "url": en_url}],
+            hreflang_default=en_url,
+            lang_switch={"href": f"/{en_slug}/", "lang": "en-MY",
+                         "label": "Read this page in English →"},
+            category={"name": cb["name"], "h1": cb["h1"],
+                      "intro": cb["intro"], "body": cb.get("body", "")},
+            families=fam_cards, sections=section_list,
+            subcollection_nav=[],
+            faqs=cb.get("faqs", []), related_guides=[],
+            base_url=BASE_URL, year=YEAR, json_ld=json_ld,
+        )
+        write(os.path.join(DIST, bm_slug, "index.html"), html)
+    print(f"  -> {len(CATEGORIES_BM)} Bahasa category pages")
+
+
 def build_category(cat_slug, category_meta, cat_families, prods_by_family):
     # cat_families arrive in products.json order == tanko category/subcollection order.
     # Group into sub-collection sections, preserving that order (mirrors tanko).
@@ -978,6 +1058,12 @@ def build_category(cat_slug, category_meta, cat_families, prods_by_family):
         meta_description=f"{category_meta['name']} from Tanko, distributed in Malaysia by Primaxs. Bulk quotes and nationwide delivery. Browse the full range.",
         canonical=cat_url,
         preload_image=cat_lcp_webp,
+        **({"hreflang_alts": [{"lang": "ms-MY",
+                               "url": f"https://www.storagesystem.com.my/{CAT_LANG_PAIRS[cat_slug]}/"}],
+            "hreflang_default": cat_url,
+            "lang_switch": {"href": f"/{CAT_LANG_PAIRS[cat_slug]}/", "lang": "ms-MY",
+                            "label": "Baca halaman ini dalam Bahasa Malaysia →"}}
+           if cat_slug in CAT_LANG_PAIRS else {}),
         category={"name": category_meta["name"], "h1": category_meta["h1"], "intro": category_meta["intro"]},
         families=fam_cards, sections=section_list,
         subcollection_nav=_subcollection_pills(cat_slug, None),
@@ -2707,6 +2793,11 @@ def main():
                 n_var += 1
         print(f"  category [{cat_slug}]: {len(cat_fams)} families")
     print(f"  -> {n_fam} family pages, {n_var} variant pages")
+
+    # Bahasa Malaysia category landing pages, paired to their English
+    # counterparts by reciprocal hreflang.
+    print("  Bahasa category pages")
+    build_categories_bm(fams_by_cat, prods_by_family)
 
     # Sub-collection SEO pages (Professional / Classic / Heavy Duty / Hooks / ...)
     print("  sub-collection SEO pages")

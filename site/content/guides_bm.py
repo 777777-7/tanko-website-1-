@@ -106,7 +106,7 @@ BM_GUIDES = [
         "slug": "rak-gudang-rak-acuan-malaysia",
         "nav_title": "Rak Gudang & Rak Acuan (Bahasa Malaysia)",
         "tag": "Panduan",
-        "title": "Rak Gudang & Rak Acuan Malaysia: Panduan Beban dan Susun Atur",
+        "title": "Rak Gudang & Rak Acuan Malaysia: Panduan Beban",
         "h1": "Rak Gudang dan Rak Acuan di Malaysia: Panduan Beban, Saiz dan Susun Atur",
         "updated": "September 2026",
         "excerpt": "Cara menentukan spesifikasi rak gudang dan rak acuan (mould rack) di Malaysia — pengiraan beban, ketinggian selamat, akses forklift dan penyimpanan acuan berat.",

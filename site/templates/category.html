@@ -8,6 +8,8 @@
   <div class="page-head">
     <h1>{{ category.h1 }}</h1>
     <p class="page-lede">{{ category.intro }}</p>
+    {% if lang_switch %}<p class="lang-switch" style="margin:.6rem 0 0;font-size:.9rem;"><a href="{{ lang_switch.href }}" hreflang="{{ lang_switch.lang }}" rel="alternate">{{ lang_switch.label }}</a></p>{% endif %}
+    {% if category.body %}<div class="cat-body-copy" style="max-width:70ch;line-height:1.7;color:var(--ink-2);margin-top:1rem;">{{ category.body|safe }}</div>{% endif %}
   </div>
   {% if subcollection_nav %}
   <nav class="subcol-nav" aria-label="Sub-collections">
