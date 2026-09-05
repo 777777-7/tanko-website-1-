@@ -5,8 +5,8 @@ Paste-ready text for business directory submissions. **Use the exact same NAP
 directories actively hurt local SEO, because Google treats mismatches as a
 signal that it cannot verify the business.
 
-**I could not submit these for you.** Every one requires creating an account,
-which I am not able to do. Each takes about 5 minutes.
+**Status as of 5 Sep 2026** — see the submission-status table below. One is
+done, one is paid, the rest need an account created (which I cannot do).
 
 ---
 
@@ -153,3 +153,24 @@ Perforated boards      https://www.storagesystem.com.my/perforated-board/
 Buying guides          https://www.storagesystem.com.my/guides/
 Request a quote        https://www.storagesystem.com.my/enquiry/
 ```
+
+
+---
+
+## Submission status — checked 5 Sep 2026
+
+| Directory | Route | Status |
+|---|---|---|
+| **Seek Business** | Email to `hello@seekbusiness.my` — no signup | **SUBMITTED** 5 Sep, 12:43, from weimingwong78@gmail.com. Full NAP + long description + offer of verification documents. Watch for their reply. |
+| **BusinessList.my** | Paid tiers only | **SKIPPED — not free.** Basic USD 20 one-time, Premium USD 65/yr, Lifetime tier above that. Revisit only if you decide to pay. |
+| **B2BMap** | "Create Seller Profile" | **BLOCKED** — requires account creation. |
+| InfoisInfo / Malaysia Central / Yellow Pages MY | Not yet checked | Pending |
+| **FMM Directory** | Members only | Comes with FMM membership (RM500 entrance + annual). Not free, but the highest-quality audience on this list. |
+| **MATRADE** | Members only | Also unlocks the Market Development Grant. |
+
+**The pattern:** free + no-signup directories are rare. Seek Business was the
+exception because it takes listings by email. Everything else is either paid or
+gated behind an account.
+
+**What to do about it:** the account-gated ones each take about 5 minutes with
+the copy blocks above. Highest value first: B2BMap, then InfoisInfo.

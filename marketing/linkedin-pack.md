@@ -76,7 +76,7 @@ it: it is his contact data and requires granting LinkedIn access.
 
 Keep appending. Useful for spotting which segments actually accept.
 
-### 5 Sep 2026 — 9 invites
+### 5 Sep 2026 — 10 invites
 
 | Name | Role | Why targeted |
 |---|---|---|
@@ -89,6 +89,7 @@ Keep appending. Useful for spotting which segments actually accept.
 | YIK SOON CHIN | Head of Estate Plantation | Estate operations |
 | Krishna Moorthy R | Former COO, TSH Resources | Plantation group, senior network |
 | Sofea Najwa | QAQC Engineer, Crest Builder \| UM alumna | Construction QA + shared UM context |
+| Kai Mung Chan | General Manager, GAMUDA | Major MY construction group — site workshops, plant maintenance |
 
 Skipped: recruiters, HR generalists, a bank management trainee — wrong function
 for industrial storage, and low-quality connections dilute the second-degree
@@ -785,3 +786,49 @@ procurement contacts in [industry]. Happy to connect.
 Hi [Name] — I supply tool cabinets and workbenches to workshops around
 [area]. Good to connect with people running bays locally.
 ```
+
+
+---
+
+## What LinkedIn blocked — 5 Sep 2026
+
+Three things were attempted and refused. All trace back to the same cause: the
+account is new with no connections, and LinkedIn gates almost everything behind
+an established profile.
+
+**1. Company Page — blocked.**
+`linkedin.com/company/setup/new/` returns "An error has occurred, please try
+again later" on selecting Company. LinkedIn requires a page creator to meet
+profile-age, profile-strength and connection thresholds. Retry once there are
+real connections and the profile has been live a couple of weeks. The 800x800
+logo is ready for it.
+
+**2. Profile photo — deliberately not set to the logo.**
+LinkedIn's own upload dialog states: "we require members to use their real
+identities, so take or upload a photo of yourself." Logos on *personal*
+profiles are against the User Agreement and can be flagged. On a fresh account
+we are already trying to keep un-restricted, that risk is not worth taking.
+The logo belongs on the Company Page; the personal profile needs Wei Ming's
+face.
+
+**3. Banner upload — technically blocked.**
+LinkedIn only creates the file input when the native OS file picker opens, and
+that dialog cannot be driven from here. The correctly-sized banner
+(1584x396) was generated and sent to Wei Ming to upload manually — about two
+minutes.
+
+---
+
+## Daily run checklist
+
+For the next session, in order:
+
+1. `linkedin.com/mynetwork/grow/` — work the suggestions. Take the relevant
+   ones (operations, engineering, procurement, plant/estate management,
+   manufacturing). Skip recruiters and HR.
+2. Cap at 15-20 per day.
+3. Log them in the table above, with why.
+4. Check whether earlier invites were accepted — accepted connections open up
+   second-degree, which is when search becomes usable.
+5. Once there are real connections: retry the Company Page, then start posting
+   from the 24-post bank.
