@@ -919,3 +919,37 @@ PDF such as "Choosing a workbench top: rubber vs laminate vs stainless", built
 from photos in asset3/ and copy already written in the guides. Top reach
 multiplier and top engagement, and it showcases product visually without a
 link.
+
+---
+
+## Company Page — LIVE 5 Sep 2026
+
+**linkedin.com/company/primaxs-marketing** (id 143658983)
+
+Creation was blocked earlier in the day ("An error has occurred") because
+LinkedIn gates Page creation behind profile age, strength and connections.
+It succeeded once the profile was complete and connections had started
+landing — worth remembering as the general pattern on this platform.
+
+Complete: logo, tagline, website, industry (Wholesale), size (2–10),
+type (Privately held), 1,385-character overview, phone, year founded 2006,
+five specialties, and the Balakong head-office location.
+
+Still open on the Page: banner image (needs a manual upload, same native
+file-picker limitation as the personal profile), and a valid email domain
+for brand verification.
+
+### Session log — 5 Sep 2026
+
+| Platform | Action |
+|---|---|
+| LinkedIn personal | 7 invites (running total ~25); connections 1 → 4 |
+| LinkedIn personal | Post 2 published (CNC taper damage) |
+| LinkedIn Page | Created and fully completed |
+| LinkedIn Page | Post 1 published in the corrected format: 4 product images, no link in body, 2 hashtags |
+| B2BMap | 7th product attempted and refused — free-tier cap confirmed at 6 |
+| Publer | GBP + LinkedIn both connected; 6 posts still queued |
+| Publer | Locker post scheduled 16 Sep 10:00, with image and a "Learn more" CTA to /locker/ |
+
+**Yellow Pages Malaysia showed no logged-in session** — whichever "yellow
+market" site was meant, it is not yellowpages.my. Needs the URL confirmed.
