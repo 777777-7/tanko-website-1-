@@ -1,34 +1,103 @@
 # LinkedIn pack — Primaxs
 
-Everything here is ready to paste. **One blank needs your input:** your job
-title at Primaxs. It appears as `[TITLE]` below. I did not guess it — your
-profile currently reads "Student at Kmkph", and inventing a corporate title on
-a real person's public profile is the kind of thing procurement officers check.
+**Profile is live as of 5 Sep 2026.** Title confirmed as **Business
+Development Manager** — see the note below on why this is deliberately not
+"Founder".
 
-Fill `[TITLE]` once (Founder / Director / Sales Manager / whatever is true) and
-the rest is copy-paste.
+## Title accuracy — do not change this without thinking
+
+Primaxs is Wei Ming's **uncle's** company. Wei Ming has full authority to run
+sales and marketing, but did not found it and does not own it.
+
+"Founder" was briefly set and then corrected. It must not go back. In Malaysia,
+SSM company records list directors publicly — a procurement officer who
+verifies Primaxs and finds a different founder stops trusting everything else
+on the profile, including the Tanko distributorship claim. That would cost far
+more than the title is worth.
+
+**Business Development Manager** is accurate, carries authority to quote and
+negotiate, and makes no ownership claim.
 
 ---
 
-## Before you post anything: account state
+## Profile state — live now
 
-Your account today:
+| Field | Value |
+|---|---|
+| Headline | Business Development Manager at Primaxs Marketing (M) Sdn Bhd \| Exclusive Malaysia Distributor for Tanko Industrial Storage \| Workbenches, Tool Cabinets, CNC Tool Storage & Lockers \| Selangor Stock, Nationwide Delivery |
+| Location | Seri Kembangan, Malaysia |
+| Experience | Business Development Manager, Primaxs Marketing (M) Sdn Bhd, Jan 2025 – Present, Full-time |
+| Education | University of Malaya (displayed), Kmkph (retained) |
+| Industry | Wholesale |
+| About | Live — company positioning, ranges, why-buy-local |
 
-- Headline: "Student at Kmkph"
-- Location: Seremban, Negri Sembilan
-- **0 connections**
-- No About, no Experience beyond the school entry
+**Check the Experience start date.** I set January 2025 because I had no way to
+know the real one. Fix it if wrong — it is on the profile now.
 
-**Posting now reaches nobody.** Do these in order:
+**Still missing: a profile photo and banner.** This is the single biggest
+remaining lever on connection accept rates, and it is the one thing I cannot do
+for you. A photo of you plus a shop-floor or warehouse banner beats any stock
+image.
 
-1. Fix the profile (below) — this is what makes connection requests get accepted
-2. Build to ~50 connections over 2 weeks — **max 15–20 invites per day**
-3. Only then start posting
+---
 
-**Why the daily cap matters:** LinkedIn restricts new accounts that send bulk
-invites. A 0-connection account firing 100 requests is the exact pattern their
-spam system looks for, and a restricted account is very hard to recover. Slow
-is the fast route here.
+## The 0-connection gate — important structural finding
+
+From a standing start, LinkedIn locks almost everything:
+
+- **People search is anonymised.** Every result shows as "LinkedIn Member" with
+  no name and **no Connect button**. Searching "procurement manager
+  manufacturing" returned perfect targets — HP Malaysia, EMS buyers in Penang,
+  a procurement lead who literally lists ePerolehan — and not one of them was
+  invitable.
+- **Alumni pages are the same.** 91,755 University of Malaya alumni, filterable
+  by Engineering and Operations and Selangor, all anonymised, no Connect.
+- **Only "People you may know" on `/mynetwork/grow/` can be invited.** That list
+  is algorithm-chosen and refreshes over time.
+
+So the sequence is forced, and it is slow by design:
+
+1. Work the My Network suggestions daily — take the relevant ones, skip the rest
+2. As first-degree connections build, second-degree opens up
+3. Once second-degree is live, search becomes usable and real buyers become
+   reachable with notes
+
+**Cap: 15–20 invites per day.** A 0-connection account firing 100 requests is
+the exact pattern LinkedIn restricts accounts for, and a restricted account is
+very hard to recover.
+
+**The fastest legitimate accelerant is importing Gmail contacts** — real people
+who already know Wei Ming, which seeds first-degree fast. That needs him to do
+it: it is his contact data and requires granting LinkedIn access.
+
+---
+
+## Connection log
+
+Keep appending. Useful for spotting which segments actually accept.
+
+### 5 Sep 2026 — 9 invites
+
+| Name | Role | Why targeted |
+|---|---|---|
+| Munireternam Muniandy | Deputy Managing Director, Dole plc | Food production — stainless benches, wet-area storage |
+| Tan Keo Sing | Infrastructure Engineer, TWT Design Sdn Bhd | Engineering / facilities |
+| Edwin Terence Dominic | Project Director | Project fit-outs |
+| Devadas KPS Nair | Plantation Advisor, Citra Borneo Indah | Estate workshops, machinery maintenance |
+| Dr. Shangkar Ganesh Chandiram | Head of Estate Operations | Estate workshops, worker lockers |
+| vinoth nair | Head of Agronomy, MP Evans Group | Estate operations |
+| YIK SOON CHIN | Head of Estate Plantation | Estate operations |
+| Krishna Moorthy R | Former COO, TSH Resources | Plantation group, senior network |
+| Sofea Najwa | QAQC Engineer, Crest Builder \| UM alumna | Construction QA + shared UM context |
+
+Skipped: recruiters, HR generalists, a bank management trainee — wrong function
+for industrial storage, and low-quality connections dilute the second-degree
+network that is the whole point of this exercise.
+
+**Segment worth noting:** plantation and estate operations kept surfacing.
+Estates run vehicle workshops, machinery maintenance depots and worker
+facilities — genuinely a buying segment, and not one that was on the original
+channel list. Worth watching whether these accept.
 
 ---
 
@@ -38,17 +107,17 @@ Pick one. All under LinkedIn's 220-character limit.
 
 **Option A — buyer-keyword led (recommended)**
 ```
-[TITLE] at Primaxs Marketing (M) Sdn Bhd | Exclusive Malaysia Distributor for Tanko Industrial Storage | Workbenches, Tool Cabinets, CNC Tool Storage & Lockers | Selangor Stock, Nationwide Delivery
+Business Development Manager at Primaxs Marketing (M) Sdn Bhd | Exclusive Malaysia Distributor for Tanko Industrial Storage | Workbenches, Tool Cabinets, CNC Tool Storage & Lockers | Selangor Stock, Nationwide Delivery
 ```
 
 **Option B — problem led**
 ```
-[TITLE] at Primaxs | I help Malaysian factories and workshops specify workbenches, tool cabinets and CNC tool storage that survive the shop floor | Exclusive Tanko distributor since 2006
+Business Development Manager at Primaxs | I help Malaysian factories and workshops specify workbenches, tool cabinets and CNC tool storage that survive the shop floor | Exclusive Tanko distributor since 2006
 ```
 
 **Option C — short**
 ```
-[TITLE], Primaxs Marketing (M) Sdn Bhd | Exclusive Malaysia Distributor for Tanko Industrial Storage
+Business Development Manager, Primaxs Marketing (M) Sdn Bhd | Exclusive Malaysia Distributor for Tanko Industrial Storage
 ```
 
 ---
@@ -95,7 +164,7 @@ Quotes: sales@storagesystem.my | WhatsApp +60 11-5841 9886
 ## 3. Profile — Experience entry
 
 ```
-Title:       [TITLE]
+Title:       Business Development Manager
 Company:     Primaxs Marketing (M) Sdn Bhd
 Location:    Seri Kembangan, Selangor, Malaysia
 Industry:    Wholesale / Industrial Equipment
