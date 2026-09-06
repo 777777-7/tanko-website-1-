@@ -24,3 +24,6 @@ desktop.ini
 # copies at repo root out of the tracked tree.
 /TANKO Catalogue NO.E147.pdf
 /TANKO_Catalogue_NO.E327.pdf
+
+# Private promotion working file — never push (contains account/channel state)
+/PROMOTION-STATE.md
