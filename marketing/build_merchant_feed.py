@@ -94,57 +94,67 @@ def clean(t, limit):
     t = t.rstrip(' -,')
     return t[:limit]
 
-rows, seen = [], set()
+rows = []
 no_price = no_image = 0
 
+# Pass 1: collect every Product node on the site, keyed by SKU. A SKU appears
+# twice -- the full node on its own page, and a slim inlined variant on the
+# family page which carries no category or description. Keep the richest.
+best = {}
 for dirpath, _d, files in os.walk(ROOT):
     if 'index.html' not in files:
         continue
-    for p in products_in(os.path.join(dirpath, 'index.html')):
-        sku = (p.get('sku') or '').strip()
-        offers = p.get('offers') or {}
-        if isinstance(offers, list):
-            offers = offers[0] if offers else {}
-        price = offers.get('price')
-        link = offers.get('url') or p.get('@id', '').split('#')[0]
-        imgs = p.get('image') or []
-        if isinstance(imgs, str):
-            imgs = [imgs]
-
-        if not sku or sku in seen or not link:
+    for node in products_in(os.path.join(dirpath, 'index.html')):
+        sku = (node.get('sku') or '').strip()
+        if not sku:
             continue
-        if not price:
-            no_price += 1
-            continue
-        if not imgs:
-            no_image += 1
-            continue
-        seen.add(sku)
+        prev = best.get(sku)
+        if prev is None or len(node) > len(prev):
+            best[sku] = node
 
-        cat = p.get('category') or ''
-        gpc = GPC.get(cat) or GPC.get(cat[:-1] if cat.endswith('s') else cat) or ''
+# Pass 2: build a row per SKU
+for sku, p in best.items():
+    offers = p.get('offers') or {}
+    if isinstance(offers, list):
+        offers = offers[0] if offers else {}
+    price = offers.get('price')
+    link = offers.get('url') or p.get('@id', '').split('#')[0]
+    imgs = p.get('image') or []
+    if isinstance(imgs, str):
+        imgs = [imgs]
 
-        name = clean(p.get('name') or sku, 150)
-        desc = clean(build_desc(sku, name, cat), 4000)
+    if not link:
+        continue
+    if not price:
+        no_price += 1
+        continue
+    if not imgs:
+        no_image += 1
+        continue
 
-        rows.append({
-            'id': sku,
-            'title': name,
-            'description': desc,
-            'link': link,
-            'image_link': imgs[0],
-            'additional_image_link': ','.join(imgs[1:11]) if len(imgs) > 1 else '',
-            'availability': 'in_stock',
-            'price': '%s MYR' % str(price).replace(',', ''),
-            'condition': 'new',
-            'brand': 'Tanko',
-            'mpn': sku,
-            'identifier_exists': 'no',
-            'google_product_category': gpc,
-            'product_type': cat,
-            'shipping': 'MY::Selangor and Klang Valley:0 MYR',
-            'shipping_label': 'bulky',
-        })
+    cat = p.get('category') or ''
+    gpc = GPC.get(cat) or GPC.get(cat[:-1] if cat.endswith('s') else cat) or ''
+    name = clean(p.get('name') or sku, 150)
+    desc = clean(build_desc(sku, name, cat), 4000)
+
+    rows.append({
+        'id': sku,
+        'title': name,
+        'description': desc,
+        'link': link,
+        'image_link': imgs[0],
+        'additional_image_link': ','.join(imgs[1:11]) if len(imgs) > 1 else '',
+        'availability': 'in_stock',
+        'price': '%s MYR' % str(price).replace(',', ''),
+        'condition': 'new',
+        'brand': 'Tanko',
+        'mpn': sku,
+        'identifier_exists': 'no',
+        'google_product_category': gpc,
+        'product_type': cat,
+        'shipping': 'MY::Selangor and Klang Valley:0 MYR',
+        'shipping_label': 'bulky',
+    })
 
 cols = ['id', 'title', 'description', 'link', 'image_link', 'additional_image_link',
         'availability', 'price', 'condition', 'brand', 'mpn', 'identifier_exists',
