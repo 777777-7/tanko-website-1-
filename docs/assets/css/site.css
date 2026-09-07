@@ -2466,3 +2466,13 @@ body.home-v4 .nav-list > li:hover > .nav-toggle {
 
 /* Card headings promoted h3 -> h2 for valid heading order; keep card scale. */
 .pc-body .pc-h, .pf-body .pf-h { font-size: 1.05rem; line-height: 1.25; margin: 0 0 .35rem; }
+
+/* ---- Guide article figures ------------------------------------------- */
+.guide-figure{margin:2rem 0;padding:0}
+.guide-figure picture{display:block}
+.guide-img{display:block;width:100%;height:auto;max-width:520px;margin:0 auto;
+  background:#fff;border:1px solid #e5e8ec;border-radius:10px}
+.guide-figure figcaption{margin-top:.7rem;font-size:.87rem;line-height:1.5;
+  color:#5a6069;text-align:center;max-width:560px;margin-left:auto;margin-right:auto}
+@media (max-width:600px){.guide-figure{margin:1.4rem 0}
+  .guide-figure figcaption{font-size:.83rem}}
