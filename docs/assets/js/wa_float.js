@@ -57,6 +57,7 @@
           'onerror="var s=this.getAttribute(\'src\');' +
           'if(/\\.png($|\\?)/i.test(s)){this.src=s.replace(/\\.png/i,\'.jpg\');return;}' +
           'if(/\\.jpeg($|\\?)/i.test(s)){this.src=s.replace(/\\.jpeg/i,\'.jpg\');return;}' +
+          'if(/\\.jpg($|\\?)/i.test(s)){this.src=s.replace(/\\.jpg/i,\'.webp\');return;}' +
           'this.style.display=\'none\';">'
         : '<div class="wa-item-img-placeholder"></div>';
       var link = it.url ? (BASE + encPath(it.url)) : null;
@@ -124,4 +125,6 @@
       render();
     }
   });
+
+  window.PrimaxsWa = { open: openModal, close: closeModal };
 })();

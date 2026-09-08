@@ -1,4 +1,4 @@
-/* Primaxs — dark, modern, technology-forward B2B theme. Mobile-first, no deps. */
+﻿/* Primaxs â€” dark, modern, technology-forward B2B theme. Mobile-first, no deps. */
 body.home-v4 .v4-hero-tagline {
   font-family: var(--display, serif); font-style: italic;
   color: var(--ink-muted, #5c6470); font-size: clamp(15px, 2vw, 20px);
@@ -474,7 +474,7 @@ details { color: var(--steel); }
 .howto .step{ font-family:var(--mono); color:var(--accent); font-size:.75rem; font-weight:700; }
 .howto h3{ font-size:.98rem; margin:.2rem 0 0; color:#fff; }
 
-/* ── nav search: popup modal ── */
+/* â”€â”€ nav search: popup modal â”€â”€ */
 .sr-only { position:absolute!important; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden; clip:rect(0 0 0 0); white-space:nowrap; border:0; }
 .nav-search-li { position: relative; }
 .nav-search-btn {
@@ -552,12 +552,12 @@ details { color: var(--steel); }
   .nav-search-modal-body { margin: 0; height: 100vh; max-height: 100vh; border-radius: 0; border: 0; }
 }
 
-/* ══════════════════════════════════════════════════════════════════
-   HOMEPAGE v3 — industrial spec-catalog language
+/* â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+   HOMEPAGE v3 â€” industrial spec-catalog language
    Scoped under body.home so other pages are untouched.
-   Typography: Saira Condensed (display) · Public Sans (body) · JetBrains Mono
+   Typography: Saira Condensed (display) Â· Public Sans (body) Â· JetBrains Mono
    Palette: steel-tinted dark, tanko catalogue red as sole signal accent
-   ══════════════════════════════════════════════════════════════════ */
+   â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• */
 body.home {
   --h-ground:  #0b0e14;
   --h-panel:   #141922;
@@ -617,7 +617,7 @@ body.home .btn-ghost { background: transparent; color: var(--h-ink); border-colo
 body.home .btn-ghost:hover { border-color: var(--h-accent); color:#fff; text-decoration: none; }
 body.home .btn-lg { padding: 16px 30px; font-size: 14.5px; }
 
-/* ══════ HERO ══════ */
+/* â•â•â•â•â•â• HERO â•â•â•â•â•â• */
 body.home .hero { position: relative; overflow: hidden; border-bottom: 1px solid var(--h-line); }
 body.home .hero::before {
   content:""; position:absolute; inset:0; pointer-events:none;
@@ -686,7 +686,7 @@ body.home .hero-tick.is-active { color: var(--h-ink); }
 body.home .hero-tick.is-active::before { background: var(--h-accent); }
 body.home .hero-tick:hover::before { background: var(--h-ink); }
 
-/* hero category strip — 11 tiles */
+/* hero category strip â€” 11 tiles */
 body.home .hero-cats-wrap {
   position: relative; max-width: var(--h-max); margin: 0 auto; padding: 8px 24px 32px;
 }
@@ -729,7 +729,7 @@ body.home .hc-name { font-family: var(--h-display); font-weight: 700; color: #ff
   body.home .hero-cats { grid-auto-flow: initial; grid-template-columns: repeat(11, 1fr); grid-auto-columns: auto; overflow: visible; }
 }
 
-/* ══════ sections ══════ */
+/* â•â•â•â•â•â• sections â•â•â•â•â•â• */
 body.home .section { padding: 72px 0; position: relative; }
 @media (max-width: 780px) { body.home .section { padding: 52px 0; } }
 body.home .section-panel { background: #0f131a; border-top: 1px solid var(--h-line); border-bottom: 1px solid var(--h-line); }
@@ -741,7 +741,7 @@ body.home .section-title {
 }
 body.home .section-lede { color: var(--h-muted); font-size: 15.5px; line-height: 1.55; margin: 0; max-width: 62ch; }
 
-/* ══════ CATEGORY DIRECTORY ══════ */
+/* â•â•â•â•â•â• CATEGORY DIRECTORY â•â•â•â•â•â• */
 body.home .cat-grid { list-style:none; padding:0; margin:0; display:grid; grid-template-columns: 1fr; gap: 14px; }
 @media (min-width: 560px) { body.home .cat-grid { grid-template-columns: repeat(2, 1fr); } }
 @media (min-width: 900px) { body.home .cat-grid { grid-template-columns: repeat(3, 1fr); } }
@@ -769,7 +769,7 @@ body.home .cc-name { font-family: var(--h-display); font-weight: 700; color: #ff
 body.home .cc-rule { display: block; width: 22px; height: 2px; background: var(--h-line-2); margin: 10px 0; }
 body.home .cc-desc { color: var(--h-muted); font-size: 13px; line-height: 1.45; margin: 0; }
 
-/* ══════ FEATURED ══════ */
+/* â•â•â•â•â•â• FEATURED â•â•â•â•â•â• */
 body.home .feat-grid { list-style:none; padding:0; margin:0; display:grid; grid-template-columns: 1fr; gap: 14px; }
 @media (min-width: 560px) { body.home .feat-grid { grid-template-columns: repeat(2, 1fr); } }
 @media (min-width: 1000px){ body.home .feat-grid { grid-template-columns: repeat(4, 1fr); } }
@@ -794,7 +794,7 @@ body.home .fc-name { font-family: var(--h-display); font-weight: 700; color: #ff
 body.home .fc-dim { font-family: var(--h-mono); font-size: 11px; color: var(--h-muted); margin: 0 0 8px; }
 body.home .fc-more { font-family: var(--h-body); font-size: 11.5px; text-transform: uppercase; letter-spacing: .1em; color: var(--h-accent); font-weight: 600; }
 
-/* ══════ INDUSTRIES ══════ */
+/* â•â•â•â•â•â• INDUSTRIES â•â•â•â•â•â• */
 body.home .ind-list { list-style: none; padding: 0; margin: 0; border-top: 1px solid var(--h-line); }
 body.home .ind-row {
   display: grid; grid-template-columns: 50px 1fr; gap: 14px;
@@ -810,7 +810,7 @@ body.home .ind-links { display: flex; flex-wrap: wrap; gap: 8px; align-items: ce
 body.home .ind-links a { font-family: var(--h-mono); font-size: 11px; text-transform: uppercase; letter-spacing: .06em; color: var(--h-ink); padding: 6px 10px; border: 1px solid var(--h-line); border-radius: 2px; }
 body.home .ind-links a:hover { border-color: var(--h-accent); color: var(--h-accent); text-decoration: none; }
 
-/* ══════ WHY / STATS ══════ */
+/* â•â•â•â•â•â• WHY / STATS â•â•â•â•â•â• */
 body.home .why-grid { display: grid; grid-template-columns: 1fr; gap: 36px; align-items: start; }
 @media (min-width: 900px) { body.home .why-grid { grid-template-columns: .95fr 1.05fr; gap: 64px; } }
 body.home .stat-block { list-style:none; padding:0; margin: 20px 0 0; display: grid; grid-template-columns: 1fr 1fr; gap: 0; border-top: 1px solid var(--h-line); border-left: 1px solid var(--h-line); }
@@ -819,7 +819,7 @@ body.home .st-n { font-family: var(--h-display); font-weight: 800; color: #fff; 
 body.home .st-l { font-family: var(--h-mono); font-size: 10.5px; text-transform: uppercase; letter-spacing: .1em; color: var(--h-muted); }
 body.home .why-copy p { color: var(--h-ink); font-size: 15.5px; line-height: 1.7; margin: 0 0 20px; }
 
-/* ══════ CTA CLOSE ══════ */
+/* â•â•â•â•â•â• CTA CLOSE â•â•â•â•â•â• */
 body.home .cta-close { position: relative; padding: 90px 24px; text-align: center; background: var(--h-ground); border-top: 1px solid var(--h-line); overflow: hidden; }
 body.home .cta-close::before {
   content:""; position:absolute; inset:0; pointer-events:none;
@@ -833,7 +833,7 @@ body.home .cta-close::before {
 body.home .cta-close-inner { position: relative; max-width: 640px; margin: 0 auto; }
 body.home .cta-close-h { font-family: var(--h-display); font-weight: 800; color: #fff; font-size: clamp(30px, 4vw, 52px); line-height: 1.02; text-transform: uppercase; letter-spacing: -.005em; margin: 0 0 28px; text-wrap: balance; }
 
-/* ══════ hide site-default CTA on homepage (base.html appends one) ══════ */
+/* â•â•â•â•â•â• hide site-default CTA on homepage (base.html appends one) â•â•â•â•â•â• */
 body.home + .cta-band, body.home .cta-band { display: none !important; }
 
 @media (prefers-reduced-motion: reduce) {
@@ -857,7 +857,7 @@ body.home .site-header { border-bottom: 1px solid var(--h-line); background: var
 body.home .site-header .container { position: relative; padding: .7rem 24px; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
 body.home .nav-list { display: flex; align-items: center; gap: .1rem; list-style: none; margin: 0; padding: 0; }
 
-/* ── sub-collection pills on category / sub-page ── */
+/* â”€â”€ sub-collection pills on category / sub-page â”€â”€ */
 .subcol-nav { display:flex; flex-wrap:wrap; gap:8px; margin: 4px 0 24px; }
 .subcol-pill {
   display: inline-block; padding: 9px 18px;
@@ -870,7 +870,7 @@ body.home .nav-list { display: flex; align-items: center; gap: .1rem; list-style
 .subcol-pill.is-active { background: var(--accent); border-color: var(--accent); color: #fff; }
 .subcol-pill.is-active:hover { color:#fff; }
 
-/* ── dimension chip on family card meta (e.g. 1200mm beside SKU) ── */
+/* â”€â”€ dimension chip on family card meta (e.g. 1200mm beside SKU) â”€â”€ */
 .fam-body .meta .dim-chip {
   display:inline-block; padding: 1px 7px; margin-left: 6px;
   font-family: var(--mono); font-size: 10.5px; font-weight: 600;
@@ -878,7 +878,7 @@ body.home .nav-list { display: flex; align-items: center; gap: .1rem; list-style
   border: 1px solid var(--line); border-radius: 3px; letter-spacing: .02em;
 }
 
-/* ── product page tabs (Features / How to choose / Image Spec / Product Spec) ── */
+/* â”€â”€ product page tabs (Features / How to choose / Image Spec / Product Spec) â”€â”€ */
 .ptabs { display:flex; flex-wrap:wrap; gap:0; border-bottom: 1px solid var(--line); margin: 2rem 0 1.5rem; }
 .ptabs-btn {
   padding: 14px 20px; background: transparent; color: var(--ink-muted);
@@ -930,9 +930,9 @@ body.home .nav-list { display: flex; align-items: center; gap: .1rem; list-style
 .pspec-items .sku { font-family: var(--mono); color: var(--accent); font-weight: 600; letter-spacing: .02em; }
 .pspec-items .desc { color: var(--steel); }
 .pspec-items .qty { color: var(--ink-muted); font-family: var(--mono); font-size: 12.5px; }
-/* ═══════════════════════════════════════════════════════════════
+/* â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
    BASKET (floating FAB + slide-out panel + fly-to-basket animation)
-   ═══════════════════════════════════════════════════════════════ */
+   â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• */
 .basket-fab {
   position: fixed; right: 20px; bottom: 80px; z-index: 91;
   width: 60px; height: 60px; border-radius: 50%; background: var(--accent);
@@ -1023,15 +1023,16 @@ body.home .nav-list { display: flex; align-items: center; gap: .1rem; list-style
 .basket-panel-foot .btn { width: 100%; text-align: center; }
 .basket-clear { display: block; margin: 12px auto 0; background: transparent; border: 0; color: var(--ink-muted); cursor: pointer; font-size: 12px; text-decoration: underline; }
 .basket-clear:hover { color: var(--accent); }
+#basket-wa-btn { margin-top: 10px; }
 
 @media (max-width: 480px) {
   .basket-fab { width: 54px; height: 54px; right: 14px; bottom: 74px; } /* above WhatsApp pill (52px + 14px + 8px) */
   .basket-panel-body { max-width: 100%; }
 }
 
-/* ═══════════════════════════════════════════════════════════════
+/* â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
    ENQUIRY PAGE
-   ═══════════════════════════════════════════════════════════════ */
+   â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• */
 .enq-wrap { display: grid; grid-template-columns: 1fr; gap: 40px; max-width: 960px; margin: 0 auto; }
 @media (min-width: 900px) { .enq-wrap { grid-template-columns: 1fr; } }
 .enq-h2 { font-size: 20px; margin: 0 0 16px; color: #fff; }
@@ -1081,9 +1082,9 @@ body.home .nav-list { display: flex; align-items: center; gap: .1rem; list-style
 .enq-sent-inner { text-align: center; padding: 60px 24px; background: var(--surface); border: 1px solid var(--line); border-radius: 8px; border-top: 3px solid var(--accent); max-width: 640px; margin: 40px auto; }
 .enq-sent h2 { color: #fff; margin: 0 0 14px; }
 
-/* ═══════════════════════════════════════════════════════════════
+/* â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
    CONTACT PAGE
-   ═══════════════════════════════════════════════════════════════ */
+   â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• */
 .contact-grid { display: grid; grid-template-columns: 1fr; gap: 16px; margin-top: 24px; }
 @media (min-width: 640px) { .contact-grid { grid-template-columns: repeat(2, 1fr); } }
 @media (min-width: 980px) { .contact-grid { grid-template-columns: repeat(3, 1fr); } }
@@ -1097,9 +1098,9 @@ body.home .nav-list { display: flex; align-items: center; gap: .1rem; list-style
 .contact-map { margin-top: 24px; text-align: center; }
 .contact-map a { color: var(--accent); font-weight: 600; }
 
-/* ═══════════════════════════════════════════════════════════════
+/* â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
    DOWNLOAD PAGE (visual catalogue cards)
-   ═══════════════════════════════════════════════════════════════ */
+   â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• */
 .dl-grid-visual { display: grid; grid-template-columns: 1fr; gap: 24px; list-style: none; padding: 0; margin: 24px 0 0; }
 @media (min-width: 720px) { .dl-grid-visual { grid-template-columns: repeat(2, 1fr); } }
 .dl-card-visual { background: var(--surface); border: 1px solid var(--line); border-radius: 8px; overflow: hidden; display: flex; flex-direction: column; }
@@ -1111,11 +1112,11 @@ body.home .nav-list { display: flex; align-items: center; gap: .1rem; list-style
 .dl-card-visual .dl-actions { margin-top: 18px; display: flex; gap: 10px; flex-wrap: wrap; }
 
 
-/* ═══════════════════════════════════════════════════════════════════
-   HOMEPAGE v4 — warm-paper editorial catalogue (MASTER.md v2)
+/* â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+   HOMEPAGE v4 â€” warm-paper editorial catalogue (MASTER.md v2)
    Scoped under body.home-v4 so nothing else on the site is affected
    until this direction is approved.
-   ═══════════════════════════════════════════════════════════════════ */
+   â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• */
 body.home-v4 {
   /* palette */
   --paper:      #f3efe8;
@@ -1173,7 +1174,7 @@ body.home-v4 .cta-band { display: none !important; }
 body.home-v4 .v4-wrap { max-width: var(--max); margin: 0 auto; padding: 0 24px; }
 body.home-v4 .v4-mono { font-family: var(--mono); font-size: 11px; letter-spacing: .06em; }
 
-/* ── chapter markers + kickers ── */
+/* â”€â”€ chapter markers + kickers â”€â”€ */
 body.home-v4 .v4-chapter {
   display: inline-block; font-family: var(--mono); font-size: 12px; letter-spacing: .1em;
   color: var(--rule-2); vertical-align: baseline; margin-right: 12px;
@@ -1189,7 +1190,7 @@ body.home-v4 .v4-rule {
   margin-right: 12px; vertical-align: middle;
 }
 
-/* ── eyebrow (mono) ── */
+/* â”€â”€ eyebrow (mono) â”€â”€ */
 body.home-v4 .v4-eyebrow {
   display: flex; align-items: center; font-family: var(--mono); font-size: 11px;
   letter-spacing: .14em; color: var(--ink-muted); text-transform: uppercase;
@@ -1201,7 +1202,7 @@ body.home-v4 .v4-hero-tanko-logo {
 @media (min-width: 980px) { body.home-v4 .v4-hero-tanko-logo { height: 72px; } }
 @media (max-width: 640px) { body.home-v4 .v4-hero-tanko-logo { height: 40px; margin-bottom: 14px; } }
 
-/* ── buttons ── */
+/* â”€â”€ buttons â”€â”€ */
 body.home-v4 .v4-btn {
   display: inline-flex; align-items: center; justify-content: center;
   padding: 14px 22px; border-radius: 3px; font-family: var(--body); font-weight: 600;
@@ -1218,7 +1219,7 @@ body.home-v4 .v4-btn-ghost-light:hover { background: var(--steel-ink); color: va
 body.home-v4 .v4-btn-lg { padding: 18px 30px; font-size: 15px; }
 body.home-v4 .v4-btn:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
 
-/* ── headings ── */
+/* â”€â”€ headings â”€â”€ */
 body.home-v4 .v4-h2 {
   font-family: var(--display); font-weight: 500; color: var(--ink);
   font-size: clamp(30px, 3.4vw, 46px); line-height: 1.05; letter-spacing: -.012em;
@@ -1229,7 +1230,7 @@ body.home-v4 .v4-head { max-width: 720px; margin: 0 0 42px; }
 body.home-v4 .v4-head .v4-chapter { margin-right: 10px; }
 body.home-v4 .v4-head .v4-kicker + .v4-h2 { margin-top: 14px; }
 
-/* ══════ HERO ══════ */
+/* â•â•â•â•â•â• HERO â•â•â•â•â•â• */
 body.home-v4 .v4-hero {
   position: relative; background: var(--paper); overflow: hidden;
   border-bottom: 1px solid var(--rule);
@@ -1291,7 +1292,7 @@ body.home-v4 .v4-tick.is-active { color: var(--ink); }
 body.home-v4 .v4-tick.is-active::before { background: var(--accent); }
 body.home-v4 .v4-tick:hover::before { background: var(--ink); }
 
-/* ══════ sections ══════ */
+/* â•â•â•â•â•â• sections â•â•â•â•â•â• */
 body.home-v4 .v4-section { padding: 96px 0; }
 body.home-v4 .v4-section-paper2 { background: var(--paper-2); border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule); }
 body.home-v4 .v4-section-steel { background: var(--steel-dark); color: var(--steel-ink); border-top: 1px solid var(--steel-rule); border-bottom: 1px solid var(--steel-rule); }
@@ -1301,7 +1302,7 @@ body.home-v4 .v4-section-steel p { color: #c9cfd9; }
 @media (max-width: 900px) { body.home-v4 .v4-section { padding: 72px 0; } }
 @media (max-width: 560px) { body.home-v4 .v4-section { padding: 56px 0; } }
 
-/* ══════ THE RANGE ══════ */
+/* â•â•â•â•â•â• THE RANGE â•â•â•â•â•â• */
 body.home-v4 .v4-cats { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: 1fr; gap: 24px; }
 @media (min-width: 640px) { body.home-v4 .v4-cats { grid-template-columns: repeat(2, 1fr); gap: 20px; } }
 @media (min-width: 960px) { body.home-v4 .v4-cats { grid-template-columns: repeat(3, 1fr); } }
@@ -1330,7 +1331,7 @@ body.home-v4 .v4-cat-name {
 body.home-v4 .v4-cat-desc { color: var(--ink-muted); font-size: 13.5px; line-height: 1.45; margin: 0 0 12px; }
 body.home-v4 .v4-cat-more { font-family: var(--body); font-size: 12px; text-transform: uppercase; letter-spacing: .08em; color: var(--accent); font-weight: 600; }
 
-/* ══════ SELECTED MODELS ══════ */
+/* â•â•â•â•â•â• SELECTED MODELS â•â•â•â•â•â• */
 body.home-v4 .v4-feat { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: 1fr; gap: 24px; }
 @media (min-width: 640px) { body.home-v4 .v4-feat { grid-template-columns: repeat(2, 1fr); } }
 @media (min-width: 1024px){ body.home-v4 .v4-feat { grid-template-columns: repeat(4, 1fr); } }
@@ -1359,7 +1360,7 @@ body.home-v4 .v4-feat-name {
 body.home-v4 .v4-feat-dim { font-family: var(--mono); font-size: 11px; color: var(--ink-muted); margin: 0 0 12px; }
 body.home-v4 .v4-feat-more { font-family: var(--body); font-size: 12px; text-transform: uppercase; letter-spacing: .1em; color: var(--accent); font-weight: 600; }
 
-/* ══════ INDUSTRIES ══════ */
+/* â•â•â•â•â•â• INDUSTRIES â•â•â•â•â•â• */
 body.home-v4 .v4-ind { list-style: none; padding: 0; margin: 0; border-top: 1px solid var(--rule); }
 body.home-v4 .v4-ind-row {
   display: grid; grid-template-columns: 60px 1fr; gap: 18px;
@@ -1386,7 +1387,7 @@ body.home-v4 .v4-ind-links a {
 }
 body.home-v4 .v4-ind-links a:hover { background: var(--ink); color: var(--paper); border-color: var(--ink); text-decoration: none; }
 
-/* ══════ WHY / STATS ══════ */
+/* â•â•â•â•â•â• WHY / STATS â•â•â•â•â•â• */
 body.home-v4 .v4-why { display: grid; grid-template-columns: 1fr; gap: 48px; align-items: center; }
 @media (min-width: 900px) { body.home-v4 .v4-why { grid-template-columns: 1.1fr .9fr; gap: 80px; } }
 body.home-v4 .v4-why-copy p { color: #c9cfd9; font-size: 16px; line-height: 1.7; margin: 20px 0 24px; max-width: 56ch; }
@@ -1396,7 +1397,7 @@ body.home-v4 .v4-stat-n { font-family: var(--display); font-weight: 500; color: 
 body.home-v4 .v4-stat-n sup { font-size: 0.5em; vertical-align: top; margin-left: 2px; color: var(--accent); }
 body.home-v4 .v4-stat-l { font-family: var(--mono); font-size: 10.5px; text-transform: uppercase; letter-spacing: .12em; color: var(--steel-muted); }
 
-/* ══════ CTA close ══════ */
+/* â•â•â•â•â•â• CTA close â•â•â•â•â•â• */
 body.home-v4 .v4-cta {
   background: var(--steel-dark); color: var(--steel-ink); padding: 96px 24px;
   text-align: left; border-top: 1px solid var(--steel-rule);
@@ -1405,7 +1406,7 @@ body.home-v4 .v4-cta {
 body.home-v4 .v4-cta .v4-h2 { color: var(--steel-ink); max-width: 20ch; }
 body.home-v4 .v4-cta .v4-btn { margin-top: 32px; }
 
-/* ══════ scroll reveal ══════ */
+/* â•â•â•â•â•â• scroll reveal â•â•â•â•â•â• */
 body.home-v4 .v4-head, body.home-v4 .v4-cat, body.home-v4 .v4-feat-card, body.home-v4 .v4-ind-row, body.home-v4 .v4-why, body.home-v4 .v4-cta {
   opacity: 0; transform: translateY(16px); transition: opacity .5s ease, transform .5s cubic-bezier(.2,.7,.2,1);
 }
@@ -1418,17 +1419,17 @@ body.home-v4 .v4-head.in-view, body.home-v4 .v4-cat.in-view, body.home-v4 .v4-fe
   body.home-v4 [class$="in-view"], body.home-v4 .v4-head, body.home-v4 .v4-cat, body.home-v4 .v4-feat-card, body.home-v4 .v4-ind-row, body.home-v4 .v4-why, body.home-v4 .v4-cta { opacity: 1; transform: none; }
 }
 
-/* ═══════════════════════════════════════════════════════════════════
-   PRIMAXS v2 — SITE-WIDE OVERRIDE LAYER
-   Loads after all existing rules to flip site palette from v3 dark →
+/* â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+   PRIMAXS v2 â€” SITE-WIDE OVERRIDE LAYER
+   Loads after all existing rules to flip site palette from v3 dark â†’
    warm-paper editorial catalogue per MASTER.md v2.
    Every :root token above is redefined; component classes keep their
    existing selectors so no template markup needs to change.
-   ═══════════════════════════════════════════════════════════════════ */
+   â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• */
 
-/* Redefine root tokens — this alone flips 80% of the site */
+/* Redefine root tokens â€” this alone flips 80% of the site */
 :root {
-  --bg:        #f3efe8;     /* was near-black — now warm paper */
+  --bg:        #f3efe8;     /* was near-black â€” now warm paper */
   --bg-alt:    #eae5db;
   --bg-dark:   #141821;     /* only used in explicit dark sections */
   --surface:   #ffffff;
@@ -1457,7 +1458,7 @@ html, body { background: var(--bg); color: var(--ink); }
 body { font-family: var(--font); }
 body img { max-width: 100%; }
 
-/* Headings — all Bodoni, mixed case */
+/* Headings â€” all Bodoni, mixed case */
 h1, h2, h3, h4 {
   font-family: var(--serif); font-weight: 500; color: var(--ink);
   letter-spacing: -.012em; text-transform: none; line-height: 1.1;
@@ -1467,7 +1468,7 @@ p { color: var(--ink); }
 a { color: var(--ink); }
 a:hover { color: var(--accent); }
 
-/* ── HEADER ── */
+/* â”€â”€ HEADER â”€â”€ */
 .site-header {
   background: var(--bg); border-bottom: 1px solid var(--line);
   backdrop-filter: none; -webkit-backdrop-filter: none;
@@ -1505,7 +1506,7 @@ a:hover { color: var(--accent); }
 .site-header .btn { background: var(--ink); color: var(--bg); }
 .site-header .btn:hover { background: var(--accent); }
 
-/* ── BUTTONS ── */
+/* â”€â”€ BUTTONS â”€â”€ */
 .btn {
   padding: 12px 20px; border-radius: 3px; font-family: var(--font);
   font-weight: 600; font-size: 14px; letter-spacing: .02em;
@@ -1522,21 +1523,21 @@ a:hover { color: var(--accent); }
   outline: 2px solid var(--accent); outline-offset: 3px;
 }
 
-/* ── SECTIONS + CONTAINER ── */
+/* â”€â”€ SECTIONS + CONTAINER â”€â”€ */
 .section { padding: 84px 0; }
 @media (max-width: 900px) { .section { padding: 64px 0; } }
 @media (max-width: 560px) { .section { padding: 48px 0; } }
 .section-alt { background: var(--bg-alt); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
 .container { max-width: var(--max); }
 
-/* Section titles → underline in accent, no gradient */
+/* Section titles â†’ underline in accent, no gradient */
 .section > .container > h2 { position: relative; display: block; margin-bottom: 24px; font-size: clamp(30px, 3.4vw, 46px); }
 .section > .container > h2::after {
   content: ""; display: block; width: 40px; height: 2px; margin-top: 14px;
   background: var(--accent); border-radius: 0;
 }
 
-/* ── PAGE HEAD ── */
+/* â”€â”€ PAGE HEAD â”€â”€ */
 .page-head { padding: 32px 0 40px; border-bottom: 1px solid var(--line); }
 .page-head h1 {
   font-family: var(--serif); font-weight: 500; color: var(--ink);
@@ -1545,14 +1546,14 @@ a:hover { color: var(--accent); }
 }
 .page-lede { color: var(--ink-muted); font-size: 17px; line-height: 1.55; max-width: 62ch; }
 
-/* ── CRUMBS ── */
+/* â”€â”€ CRUMBS â”€â”€ */
 .crumbs { color: var(--ink-muted); }
 .crumbs a { color: var(--ink-muted); }
 .crumbs a:hover { color: var(--accent); }
 .crumbs .current { color: var(--ink); }
 .crumbs .sep { color: var(--line); }
 
-/* ── SUB-COLLECTION PILLS (baseline-underline per MASTER §6.6) ── */
+/* â”€â”€ SUB-COLLECTION PILLS (baseline-underline per MASTER Â§6.6) â”€â”€ */
 .subcol-nav { display: flex; flex-wrap: wrap; gap: 8px 20px; margin: 20px 0 32px; padding-bottom: 4px; }
 .subcol-pill {
   padding: 4px 2px 10px; background: transparent !important; color: var(--ink-muted);
@@ -1563,7 +1564,7 @@ a:hover { color: var(--accent); }
 .subcol-pill:hover { color: var(--ink); border-bottom-color: var(--ink); background: transparent !important; text-decoration: none; }
 .subcol-pill.is-active { color: var(--ink) !important; border-bottom-color: var(--accent); background: transparent !important; }
 
-/* ── CATEGORY / FAMILY / FEATURED CARDS ── */
+/* â”€â”€ CATEGORY / FAMILY / FEATURED CARDS â”€â”€ */
 .cat-grid, .fam-grid, .feat-grid { gap: 24px; }
 .cat-card, .fam-card, .feat-card {
   background: var(--surface); border: 1px solid var(--line); border-radius: 4px;
@@ -1592,7 +1593,7 @@ a:hover { color: var(--accent); }
 .feat-body .sku { font-family: var(--mono); }
 .feat-body .more { color: var(--accent); font-weight: 600; font-size: 12px; text-transform: uppercase; letter-spacing: .08em; }
 
-/* ── APPLICATIONS / APPS CARDS (still used on home fallback) ── */
+/* â”€â”€ APPLICATIONS / APPS CARDS (still used on home fallback) â”€â”€ */
 .app-card { background: var(--surface); border: 1px solid var(--line); border-radius: 4px; box-shadow: var(--shadow); }
 .app-card h3 { color: var(--ink); font-family: var(--serif); }
 .app-card h3 a { color: var(--ink); }
@@ -1600,10 +1601,10 @@ a:hover { color: var(--accent); }
 .app-card p { color: var(--ink-muted); }
 .app-card:hover { box-shadow: var(--shadow-lift); border-color: var(--line); transform: translateY(-3px); }
 
-/* ── WHY BLOCK ── */
+/* â”€â”€ WHY BLOCK â”€â”€ */
 .why img { background: var(--surface); border: 1px solid var(--line); }
 
-/* ── CTA BAND (dark-steel closer) ── */
+/* â”€â”€ CTA BAND (dark-steel closer) â”€â”€ */
 .cta-band {
   background: var(--bg-dark); color: #f5f2eb; padding: 72px 24px;
   border-top: 1px solid #2f3644;
@@ -1612,14 +1613,14 @@ a:hover { color: var(--accent); }
 .cta-band h2 { color: #f5f2eb; font-family: var(--serif); font-weight: 500; }
 .cta-band p { color: #c9cfd9; }
 
-/* ── FOOTER ── */
+/* â”€â”€ FOOTER â”€â”€ */
 .site-footer { background: var(--bg-dark); color: #c9cfd9; border-top: 1px solid #2f3644; }
 .site-footer h4, .site-footer .foot-h { font-family: var(--font); color: #f5f2eb; font-weight: 700; font-size: .85rem; letter-spacing: .08em; }
 .site-footer a { color: #f5f2eb; }
 .site-footer a:hover { color: var(--accent); }
 .site-footer .foot-legal { color: #8b93a0; border-top-color: #2f3644; }
 
-/* ── TABLES (variant comparison) ── */
+/* â”€â”€ TABLES (variant comparison) â”€â”€ */
 .table-scroll { background: var(--surface); border: 1px solid var(--line); border-radius: 4px; box-shadow: var(--shadow); }
 .spec-table { background: var(--surface); color: var(--ink); }
 .spec-table thead th { background: var(--bg-alt); color: var(--ink-muted); font-family: var(--mono); font-size: 11px; letter-spacing: .06em; text-transform: uppercase; }
@@ -1628,7 +1629,7 @@ a:hover { color: var(--accent); }
 .spec-table td strong { color: var(--accent); font-family: var(--mono); }
 .spec-table a { color: var(--accent); }
 
-/* ── PRODUCT PAGE (family) MEDIA + PICKER ── */
+/* â”€â”€ PRODUCT PAGE (family) MEDIA + PICKER â”€â”€ */
 .product-media { background: var(--surface); border: 1px solid var(--line); border-radius: 4px; box-shadow: var(--shadow); padding: 32px; }
 .product-media .stage img { mix-blend-mode: multiply; }
 .product-thumbs button { background: var(--surface); border: 1px solid var(--line); border-radius: 4px; }
@@ -1650,7 +1651,7 @@ a:hover { color: var(--accent); }
 .product-specs .k { color: var(--ink-muted); }
 .product-specs .v { color: var(--ink); }
 
-/* ── VARIANT PAGE ── */
+/* â”€â”€ VARIANT PAGE â”€â”€ */
 .variant-gallery { background: var(--surface); border: 1px solid var(--line); border-radius: 4px; box-shadow: var(--shadow); padding: 24px; }
 .variant-gallery img { mix-blend-mode: multiply; }
 .variant-thumbs img { background: var(--surface); border: 1px solid var(--line); border-radius: 4px; padding: 4px; mix-blend-mode: multiply; }
@@ -1664,7 +1665,7 @@ a:hover { color: var(--accent); }
 .related li a { background: var(--surface); color: var(--ink); border: 1px solid var(--line); border-radius: 3px; font-family: var(--mono); }
 .related li a:hover { background: var(--accent); color: #fff; border-color: var(--accent); }
 
-/* ── PRODUCT TABS (Features / How to choose / Spec / Comparison) ── */
+/* â”€â”€ PRODUCT TABS (Features / How to choose / Spec / Comparison) â”€â”€ */
 .ptabs { border-bottom: 1px solid var(--line); }
 .ptabs-btn {
   color: var(--ink-muted); font-family: var(--font); font-weight: 600;
@@ -1692,7 +1693,7 @@ a:hover { color: var(--accent); }
 .pspec-items .desc { color: var(--ink); }
 .pspec-items .qty { color: var(--ink-muted); font-family: var(--mono); }
 
-/* ── GUIDES ARTICLE ── */
+/* â”€â”€ GUIDES ARTICLE â”€â”€ */
 .article h1 { font-family: var(--serif); color: var(--ink); font-size: clamp(36px, 3.6vw, 50px); font-weight: 500; }
 .article h2, .article h3 { color: var(--ink); font-family: var(--serif); text-transform: none; }
 .article p, .article li { color: var(--ink); font-size: 17px; line-height: 1.65; }
@@ -1715,14 +1716,14 @@ a:hover { color: var(--accent); }
 .guide-card p { color: var(--ink-muted); }
 .guide-card .tag { color: var(--accent); font-family: var(--mono); }
 
-/* ── DOWNLOAD CARDS ── */
+/* â”€â”€ DOWNLOAD CARDS â”€â”€ */
 .dl-card, .dl-card-visual { background: var(--surface); border: 1px solid var(--line); border-radius: 4px; box-shadow: var(--shadow); }
 .dl-card:hover, .dl-card-visual:hover { box-shadow: var(--shadow-lift); border-color: var(--line); }
 .dl-card .dl-name, .dl-card-visual .dl-name { color: var(--ink); font-family: var(--serif); font-weight: 500; }
 .dl-card .dl-meta, .dl-card-visual .dl-meta { color: var(--ink-muted); }
 .dl-cover { background: var(--surface); border-bottom: 1px solid var(--line); }
 
-/* ── CONTACT CARDS ── */
+/* â”€â”€ CONTACT CARDS â”€â”€ */
 .contact-card { background: var(--surface); border: 1px solid var(--line); border-radius: 4px; box-shadow: var(--shadow); border-top: 3px solid var(--accent); }
 .contact-card .ck { color: var(--ink-muted); font-family: var(--mono); }
 .contact-card .cv { color: var(--ink); }
@@ -1732,7 +1733,7 @@ a:hover { color: var(--accent); }
 .contact-cta p { color: var(--ink); }
 .contact-map a { color: var(--accent); }
 
-/* ── ENQUIRY FORM ── */
+/* â”€â”€ ENQUIRY FORM â”€â”€ */
 .enq-h2 { font-family: var(--serif); color: var(--ink); font-weight: 500; text-transform: none; font-size: 26px; }
 .enq-empty { background: var(--surface); border: 1px dashed var(--line); color: var(--ink-muted); }
 .enq-basket-list { background: var(--surface); border: 1px solid var(--line); border-radius: 4px; box-shadow: var(--shadow); }
@@ -1757,7 +1758,7 @@ a:hover { color: var(--accent); }
 .enq-rm:hover { background: var(--accent); color: #fff; border-color: var(--accent); }
 .enq-note { color: var(--ink-muted); }
 
-/* ── BASKET PANEL ── */
+/* â”€â”€ BASKET PANEL â”€â”€ */
 .basket-panel-body { background: var(--surface); border-left: 1px solid var(--line); box-shadow: -10px 0 30px rgba(15,20,30,.15); }
 .basket-panel-head { border-bottom: 1px solid var(--line); }
 .basket-panel-head h2 { color: var(--ink); font-family: var(--serif); font-weight: 500; text-transform: none; }
@@ -1776,8 +1777,9 @@ a:hover { color: var(--accent); }
 .basket-summary-val { color: var(--ink); font-family: var(--mono); }
 .basket-clear { color: var(--ink-muted); }
 .basket-clear:hover { color: var(--accent); }
+#basket-wa-btn { margin-top: 10px; }
 
-/* ── SEARCH MODAL ── */
+/* â”€â”€ SEARCH MODAL â”€â”€ */
 .nav-search-modal-body { background: var(--surface); border: 1px solid var(--line); box-shadow: 0 30px 80px rgba(15,20,30,.30); }
 .nav-search-modal-head { border-bottom: 1px solid var(--line); }
 .nav-search-modal-icon { color: var(--accent); }
@@ -1798,15 +1800,15 @@ a:hover { color: var(--accent); }
 .nav-search-modal-foot { border-top: 1px solid var(--line); color: var(--ink-muted); }
 .ns-kbd { background: var(--bg-alt); color: var(--ink); border: 1px solid var(--line); font-family: var(--mono); }
 
-/* ── ENQUIRY THANK-YOU TOAST ── */
+/* â”€â”€ ENQUIRY THANK-YOU TOAST â”€â”€ */
 .enq-toast-card { background: var(--surface); border: 1px solid var(--line); border-top: 3px solid var(--accent); color: var(--ink); box-shadow: 0 20px 60px rgba(15,20,30,.25); }
 .enq-toast-check { color: var(--accent); }
 .enq-toast h3 { color: var(--ink); font-family: var(--serif); font-weight: 500; }
 
-/* ── HERO on non-home pages (reused from home v3 residuals — hide) ── */
+/* â”€â”€ HERO on non-home pages (reused from home v3 residuals â€” hide) â”€â”€ */
 body:not(.home) .hero { display: none; }
 
-/* ── DISABLE HOME v3 dark styles when v4 is active ── */
+/* â”€â”€ DISABLE HOME v3 dark styles when v4 is active â”€â”€ */
 body.home.home-v4 { /* v4 CSS defined in _home_v4.css takes over via body.home-v4 scope */ }
 
 /* Accessibility: keep focus-visible visible always */
@@ -1816,7 +1818,7 @@ body.home.home-v4 { /* v4 CSS defined in _home_v4.css takes over via body.home-v
   *, *::before, *::after { transition: none !important; animation: none !important; }
 }
 
-/* ═══════════ v2 NAV — distinct visual chunks per item ═══════════ */
+/* â•â•â•â•â•â•â•â•â•â•â• v2 NAV â€” distinct visual chunks per item â•â•â•â•â•â•â•â•â•â•â• */
 .site-header .container { padding-top: .9rem; padding-bottom: .9rem; }
 .nav-list { gap: .35rem; }
 .nav-list > li > a,
@@ -1850,7 +1852,7 @@ body.home.home-v4 { /* v4 CSS defined in _home_v4.css takes over via body.home-v
 }
 .site-header .btn:hover { background: #a1201f !important; box-shadow: var(--shadow-lift) !important; }
 
-/* Mega + dropdown — softer, more considered */
+/* Mega + dropdown â€” softer, more considered */
 .mega, .dropdown { border-radius: 10px; padding: 14px; box-shadow: var(--shadow-lift); }
 .mega-item { border-radius: 6px; }
 .dropdown a { border-radius: 6px; }
@@ -1858,13 +1860,13 @@ body.home.home-v4 { /* v4 CSS defined in _home_v4.css takes over via body.home-v
 /* Mobile: keep hamburger circular */
 .mobnav summary { border-radius: 999px; width: 44px; height: 44px; padding: 0; display: inline-flex; align-items: center; justify-content: center; }
 
-/* ═══════════ v2 spec block — hide empty image tile ═══════════ */
+/* â•â•â•â•â•â•â•â•â•â•â• v2 spec block â€” hide empty image tile â•â•â•â•â•â•â•â•â•â•â• */
 .pspec-block:not(:has(.pspec-image img)) { grid-template-columns: 1fr !important; }
 .pspec-block:not(:has(.pspec-image img)) .pspec-image { display: none; }
 .pspec-image { min-height: unset; padding: 0; }
 .pspec-image:empty, .pspec-image:not(:has(img)) { display: none; }
 
-/* ═══════════ v2 accessories card with spec_rows ═══════════ */
+/* â•â•â•â•â•â•â•â•â•â•â• v2 accessories card with spec_rows â•â•â•â•â•â•â•â•â•â•â• */
 .pfeat li.pf-has-spec { display: grid; grid-template-columns: 1fr; gap: 0; }
 @media (min-width: 720px) { .pfeat li.pf-has-spec { grid-template-columns: 1fr 1.2fr; } }
 .pfeat .pf-spec-rows { padding: 14px 16px; border-top: 1px solid var(--line); }
@@ -1873,7 +1875,7 @@ body.home.home-v4 { /* v4 CSS defined in _home_v4.css takes over via body.home-v
 .pfeat .pf-spec-rows p:last-child { margin-bottom: 0; }
 .pfeat .pf-spec-rows strong { color: var(--accent); font-family: var(--mono); font-weight: 700; }
 
-/* ═══════════ v2.1 — nav pills VISIBLE at rest + sub-nav restyle ═══════════ */
+/* â•â•â•â•â•â•â•â•â•â•â• v2.1 â€” nav pills VISIBLE at rest + sub-nav restyle â•â•â•â•â•â•â•â•â•â•â• */
 /* Nav items get a visible pill/border at rest, not only on hover */
 .nav-list > li > a,
 .nav-list > li > .nav-toggle {
@@ -1894,7 +1896,7 @@ body.home.home-v4 { /* v4 CSS defined in _home_v4.css takes over via body.home-v
 }
 .nav-search-btn { box-shadow: 0 1px 2px rgba(15,20,30,.04); }
 
-/* Sub-collection nav (ALL / PROFESSIONAL / CLASSIC) — same round-pill treatment */
+/* Sub-collection nav (ALL / PROFESSIONAL / CLASSIC) â€” same round-pill treatment */
 .subcol-nav { gap: 10px; padding: 0; margin-top: 24px; margin-bottom: 32px; }
 .subcol-pill {
   padding: 10px 18px !important;
@@ -1926,7 +1928,7 @@ body.home.home-v4 { /* v4 CSS defined in _home_v4.css takes over via body.home-v
 }
 .subcol-pill.is-active:hover { background: #a1201f !important; border-color: #a1201f !important; color: #fff !important; }
 
-/* Product tabs (Features / How to choose / Specification / Variant Comparison) — same round-pill treatment */
+/* Product tabs (Features / How to choose / Specification / Variant Comparison) â€” same round-pill treatment */
 .ptabs { border-bottom: 0; display: flex; flex-wrap: wrap; gap: 10px; margin: 2rem 0 1.5rem; }
 .ptabs-btn {
   padding: 10px 20px !important;
@@ -1955,7 +1957,7 @@ body.home.home-v4 { /* v4 CSS defined in _home_v4.css takes over via body.home-v
   box-shadow: var(--shadow);
 }
 
-/* ═══════════ v2.1 — make spec measurements prominent ═══════════ */
+/* â•â•â•â•â•â•â•â•â•â•â• v2.1 â€” make spec measurements prominent â•â•â•â•â•â•â•â•â•â•â• */
 .pspec-attrs li { grid-template-columns: 120px 1fr !important; padding: 10px 0 !important; font-size: 15px !important; }
 .pspec-attrs .k { color: var(--ink-muted); font-family: var(--mono); font-size: 11.5px; text-transform: uppercase; letter-spacing: .06em; padding-top: 2px; }
 .pspec-attrs .v { color: var(--ink); font-family: var(--font); font-weight: 600; font-size: 15.5px; }
@@ -1963,7 +1965,7 @@ body.home.home-v4 { /* v4 CSS defined in _home_v4.css takes over via body.home-v
 .pspec-model strong { font-size: 18px; margin-left: 8px; }
 .pspec-block { padding: 24px !important; }
 
-/* Home nav on v4 homepage — keep the same visible pill style */
+/* Home nav on v4 homepage â€” keep the same visible pill style */
 body.home-v4 .nav-list > li > a,
 body.home-v4 .nav-list > li > .nav-toggle {
   background: var(--surface); border: 1px solid var(--rule);
@@ -1974,7 +1976,7 @@ body.home-v4 .nav-list > li:hover > .nav-toggle {
   background: var(--ink); color: var(--paper); border-color: var(--ink);
 }
 
-/* ═══════════ v2.2 — proper spec tables (tanko-style) ═══════════ */
+/* â•â•â•â•â•â•â•â•â•â•â• v2.2 â€” proper spec tables (tanko-style) â•â•â•â•â•â•â•â•â•â•â• */
 .pf-spec-tables { margin-top: 14px; }
 .pf-spec-table-wrap { overflow-x: auto; border: 1px solid var(--line); border-radius: 4px; margin-bottom: 12px; }
 .pf-spec-table {
@@ -2003,12 +2005,12 @@ body.home-v4 .nav-list > li:hover > .nav-toggle {
 .pf-spec-table tbody td { background: var(--surface); color: var(--ink); font-family: var(--font); font-weight: 500; }
 .pf-spec-table tbody tr:hover td { background: var(--bg-alt); }
 
-/* .pf-has-spec cards on generic renderer — same 2-col layout as accessories */
+/* .pf-has-spec cards on generic renderer â€” same 2-col layout as accessories */
 .pfeat li.pf-has-spec { display: grid; grid-template-columns: 1fr; gap: 0; }
 @media (min-width: 720px) { .pfeat li.pf-has-spec { grid-template-columns: minmax(0, 1fr) minmax(0, 1.3fr); } }
 .pfeat li.pf-has-spec .pf-body { padding: 16px 18px; }
 
-/* ═══════════ v2.3 — spec cards span full width, tables don't scroll ═══════════ */
+/* â•â•â•â•â•â•â•â•â•â•â• v2.3 â€” spec cards span full width, tables don't scroll â•â•â•â•â•â•â•â•â•â•â• */
 /* When a card contains a spec table, span the full grid width so the table
    has real breathing room instead of being crammed into a 1/3 column. */
 .pfeat li.pf-has-spec {
@@ -2027,7 +2029,7 @@ body.home-v4 .nav-list > li:hover > .nav-toggle {
 .pfeat li.pf-has-spec .pf-body { padding: 24px 28px; display: flex; flex-direction: column; justify-content: flex-start; }
 .pfeat li.pf-has-spec h3 { font-size: 22px; margin-bottom: 16px; }
 
-/* Kill the horizontal scroll wrapper — table sits inline at full width */
+/* Kill the horizontal scroll wrapper â€” table sits inline at full width */
 .pf-spec-table-wrap { overflow-x: visible !important; border: 0 !important; margin-bottom: 16px; }
 .pf-spec-table { width: 100%; min-width: 0; }
 .pf-spec-table thead th, .pf-spec-table tbody th, .pf-spec-table tbody td {
@@ -2039,10 +2041,10 @@ body.home-v4 .nav-list > li:hover > .nav-toggle {
 .pf-spec-table tbody th { width: auto !important; min-width: 100px; text-align: left; padding-left: 14px !important; }
 .pf-spec-table tbody td { text-align: center; }
 
-/* Enforce a sane column layout — first col (label) 25%, remaining cols share equally */
+/* Enforce a sane column layout â€” first col (label) 25%, remaining cols share equally */
 .pf-spec-table thead th:first-child, .pf-spec-table tbody th { width: 25%; }
 
-/* ═══════════ v2.4 — accessory image never crops; spec-block wide ═══════════ */
+/* â•â•â•â•â•â•â•â•â•â•â• v2.4 â€” accessory image never crops; spec-block wide â•â•â•â•â•â•â•â•â•â•â• */
 .pfeat li.pf-has-spec .pf-img {
   aspect-ratio: auto !important;
   min-height: 220px;
@@ -2073,7 +2075,7 @@ body.home-v4 .nav-list > li:hover > .nav-toggle {
 }
 .pspec-block:has(.pf-spec-table) .pf-spec-table-wrap { margin: 0 0 12px; }
 
-/* ═══════════ v2.5 — variant-page FAQ readable on warm-paper ═══════════ */
+/* â•â•â•â•â•â•â•â•â•â•â• v2.5 â€” variant-page FAQ readable on warm-paper â•â•â•â•â•â•â•â•â•â•â• */
 .related details, .faq details {
   background: var(--surface);
   border: 1px solid var(--line);
@@ -2114,7 +2116,7 @@ body.home-v4 .nav-list > li:hover > .nav-toggle {
 }
 .related details[open] summary::before,
 .faq details[open] summary::before {
-  content: "−"; color: var(--accent);
+  content: "âˆ’"; color: var(--accent);
 }
 .related details[open] summary,
 .faq details[open] summary {
@@ -2129,7 +2131,7 @@ body.home-v4 .nav-list > li:hover > .nav-toggle {
 /* Section heading */
 .related h2 { color: var(--ink); font-family: var(--serif); font-weight: 500; font-size: 24px; margin-bottom: 16px; }
 
-/* ═══════════ v2.6 — How-to-choose: full-width horizontal rows ═══════════ */
+/* â•â•â•â•â•â•â•â•â•â•â• v2.6 â€” How-to-choose: full-width horizontal rows â•â•â•â•â•â•â•â•â•â•â• */
 /* Override the 3-column grid so each step is a wide horizontal block,
    step label left / large product image right (like tanko). */
 .pchoose {
@@ -2363,7 +2365,7 @@ body.home-v4 .nav-list > li:hover > .nav-toggle {
   .wa-float { padding: 12px; border-radius: 50%; bottom: 14px; } /* keep WhatsApp at the very bottom */
 }
 
-/* ── Homepage trust bar ─────────────────────────────── */
+/* â”€â”€ Homepage trust bar â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 .v4-trust { background: var(--paper-2, #eae5db); border-bottom: 1px solid var(--rule-2, #b8b1a2); }
 .v4-trust-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1px; background: var(--rule-2, #b8b1a2); }
 .v4-trust-item { background: var(--paper-2, #eae5db); padding: 1.35rem 1.4rem; display: flex; flex-direction: column; gap: .2rem; }
@@ -2373,7 +2375,7 @@ body.home-v4 .nav-list > li:hover > .nav-toggle {
 @media (max-width: 900px) { .v4-trust-grid { grid-template-columns: repeat(2, 1fr); } }
 @media (max-width: 520px) { .v4-trust-grid { grid-template-columns: 1fr; } }
 
-/* ── Contact trust section ──────────────────────────── */
+/* â”€â”€ Contact trust section â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 .contact-trust { margin-top: 3rem; border-top: 1px solid var(--line-soft, #1d2531); padding-top: 2rem; }
 .contact-trust h2 { margin-bottom: 1rem; }
 .contact-trust-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem; }
@@ -2381,14 +2383,14 @@ body.home-v4 .nav-list > li:hover > .nav-toggle {
 .contact-trust-card .ct-k { display: block; font-family: var(--mono); font-size: .68rem; letter-spacing: .14em; color: var(--accent, #ff3b47); font-weight: 600; text-transform: uppercase; margin-bottom: .4rem; }
 .contact-trust-card p { margin: 0; color: var(--ink-muted, #93a2b7); font-size: .9rem; line-height: 1.55; }
 
-/* ── Guide grid on category pages ───────────────────── */
+/* â”€â”€ Guide grid on category pages â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 .guide-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 1rem; }
 .guide-card { display: flex; flex-direction: column; gap: .35rem; background: var(--surface-2, #1a2130); border: 1px solid var(--line-soft, #1d2531); border-radius: var(--radius, 10px); padding: 1rem 1.15rem; transition: border-color .15s, transform .15s; }
 .guide-card:hover { border-color: var(--accent, #ff3b47); transform: translateY(-2px); }
 .guide-card strong { color: #fff; font-size: .92rem; line-height: 1.3; }
 .guide-card span { color: var(--ink-muted, #93a2b7); font-size: .82rem; line-height: 1.45; }
 
-/* ── WhatsApp basket modal ─────────────────────────── */
+/* â”€â”€ WhatsApp basket modal â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 .wa-modal {
   position: fixed; inset: 0; z-index: 96;
   display: flex; align-items: center; justify-content: center;
@@ -2458,7 +2460,7 @@ body.home-v4 .nav-list > li:hover > .nav-toggle {
   .wa-item-img { width: 48px; height: 48px; }
 }
 
-/* ── Product page Tanko logo beside title ─────────────── */
+/* â”€â”€ Product page Tanko logo beside title â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 .variant-title-row { display: flex; align-items: center; justify-content: space-between; gap: 1rem; flex-wrap: wrap; }
 .variant-title-row h1 { margin: 0; flex: 1; min-width: 0; }
 .variant-tanko-logo { height: 48px; width: auto; opacity: .92; flex-shrink: 0; }

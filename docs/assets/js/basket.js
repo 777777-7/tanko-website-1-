@@ -84,6 +84,7 @@
           'onerror="var s=this.getAttribute(\'src\');' +
           'if(/\\.png($|\\?)/i.test(s)){this.src=s.replace(/\\.png/i,\'.jpg\');return;}' +
           'if(/\\.jpeg($|\\?)/i.test(s)){this.src=s.replace(/\\.jpeg/i,\'.jpg\');return;}' +
+          'if(/\\.jpg($|\\?)/i.test(s)){this.src=s.replace(/\\.jpg/i,\'.webp\');return;}' +
           'this.style.display=\'none\';">'
         : "";
       var link = it.url ? (BASE + encPath(it.url)) : null;
@@ -183,6 +184,12 @@
     }
     if (e.target.closest("#basket-fab")) {
       e.preventDefault(); render(); openPanel(); return;
+    }
+    if (e.target.closest("#basket-wa-btn")) {
+      e.preventDefault();
+      closePanel();
+      if (window.PrimaxsWa) window.PrimaxsWa.open();
+      return;
     }
     var cbClose = e.target.closest("[data-close-basket]");
     if (cbClose) {
