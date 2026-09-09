@@ -40,6 +40,8 @@ def main():
             if not m_price:
                 continue  # 无价格或 Price on request
             price = m_price.group(1).replace(",", "")
+            if float(price) < 200.0:
+                continue  # RM200 以下不收录（用户要求）
             m_url = OG_URL_RE.search(txt)
             if not m_url:
                 continue
