@@ -469,3 +469,78 @@ the two gaps above are real, cheap, and currently unaddressed.
 - **Backlink profiles.** No Ahrefs/Majestic access; every statement about competitor authority in this document is inference from observable page quality, not link data.
 - **Whether image packs appear on these SERPs.** Unknown.
 - **Why `my-ise.com` outranks a demonstrably better site for Tanko-brand queries.** Their page is ~550 words on Wix with no schema, no SKUs, no images and no prices [VERIFIED]. On page quality it should lose. The cause is off-page and I could not measure it.
+
+---
+
+## 9. SERPs verified by hand — 10 Sep 2026 [VERIFIED, not inference]
+
+§0 and §1 of this document are explicitly labelled inference because live
+`google.com.my` results could not be fetched at the time. They now have been,
+via `google.com/search?gl=my&hl=en`, and **three of the conclusions in §1 need
+correcting.**
+
+### Measured positions
+
+| Keyword | Primaxs | What ranks above |
+|---|---|---|
+| **mould rack malaysia** | **4** | ttf.com.my, mega-rack.my, yesdisplay.com.my |
+| **stainless steel workbench malaysia** | **10** | berjayacke, Shopee, machinerytools, MISUMI, rcmesin, puncaksteel, officefurnitures, soonrex, ongplas |
+| heavy duty workbench malaysia | not in top 10 | Knight Auto, Machlab, TOPTUL, Artsystem, Techno, JTE, Newtech, MISUMI, RS |
+| tool cabinet malaysia | not in top 10 | Knight Auto, machinerytools, TOPTUL, RS, JTE, CT Hardware, Milwaukee, Shopee, TTF |
+
+### Correction 1 — we are already on page one for two terms
+
+GSC average position blends every impression including deep long-tail ones.
+The head terms actually sit at **4** and **10**, not 20.7 and 10.7. Two page-one
+placements already exist and are worth protecting, not rebuilding.
+
+### Correction 2 — the stainless category-page theory was wrong
+
+§1.2 argued the stalled position was a format mismatch: "competitors rank a
+category/collection page, we only have a guide." Two things were wrong. A
+stainless **category page already existed** (`/workbench/stainless-steel/`),
+and Google is not ranking it or the guide — it ranks a single **SKU page**,
+`Stainless Steel Workbench — Standard (WD-68S)`.
+
+So the fix was not "build a category page". It was that the category page was
+413 words with no prices and no product links, which is why Google preferred a
+product page over it. That page has now been rebuilt with a 23-line price
+table; whether it displaces the SKU page is the thing to watch.
+
+### Correction 3 — this keyword is mostly a commercial-kitchen query
+
+Eight of the ten results are **stainless kitchen work tables** — "Boost Kitchen
+Efficiency", "2 and 3 Tier", "with Back Splash", Shopee listings. Only MISUMI
+and Primaxs are industrial. Ranking higher here means winning traffic that
+largely wants a RM600 kitchen prep table, not a RM3,000 lab bench.
+
+That reframes the opportunity. Either target the food-production intent
+explicitly — Tanko stainless genuinely suits it — or shift effort to qualified
+terms with the right intent (`cleanroom workbench malaysia`, `food grade
+workbench malaysia`, `laboratory workbench malaysia`), where the competition
+is MISUMI rather than nine kitchen suppliers.
+
+### Confirmed decisively — the NEWPAGES finding
+
+§3.1 is right, and stronger than stated. NEWPAGES-built sites hold:
+
+```
+tool cabinet malaysia          #1 Knight Auto   #2 machinerytools (Sui U)
+heavy duty workbench malaysia  #1 Knight Auto
+mould rack malaysia            #7 alliance-supplies
+stainless steel workbench      #3 machinerytools (Sui U)
+```
+
+Four of our keywords have a NEWPAGES site in the top 3. Primaxs has the
+listing and the followed link already; the products are what is missing.
+
+### What the mould-rack result teaches
+
+Position 4 is our best, and it is the **category page** ranking, with the price
+in the title tag: *"Mould Racks Malaysia — from RM9,471 | Primaxs"*. A category
+page carrying a real Ringgit figure is the format that is working. That is the
+pattern now applied to the six workbench range pages.
+
+**Method:** `google.com/search?q=<term>&gl=my&hl=en&num=20`, organic `h3`
+results only, packs and ads excluded, 10 Sep 2026. Not personalised-search
+free — treat as indicative to within a position or two.
