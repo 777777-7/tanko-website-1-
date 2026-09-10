@@ -56,3 +56,6 @@ User-agent: Bytespider
 Disallow: /
 
 Sitemap: https://www.storagesystem.com.my/sitemap.xml
+
+# IndexNow key location
+# https://www.storagesystem.com.my/b1dd499f0665531b994a037ac9cc3027.txt
