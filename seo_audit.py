@@ -72,9 +72,17 @@ sec = ["Strict-Transport-Security", "X-Content-Type-Options", "Referrer-Policy",
 n = sum(1 for s in sec if s in hh)
 results.append(row("Security headers", f"{n}/5", n == 5))
 
+# sitemap.xml is a sitemap index; count URLs across every section it lists
 sm = open("docs/sitemap.xml", encoding="utf-8").read()
-results.append(row("Sitemap URLs", sm.count("<url>"), sm.count("<url>") > 1800))
-results.append(row("Sitemap excludes /sales/", sm.count("/sales/"), sm.count("/sales/") == 0))
+_parts = [sm]
+if "<sitemapindex" in sm:
+    import glob as _glob
+    _parts = [open(f, encoding="utf-8").read()
+              for f in sorted(_glob.glob("docs/sitemap-*.xml"))]
+_urls = sum(x.count("<url>") for x in _parts)
+_sales = sum(x.count("/sales/") for x in _parts) + sm.count("/sales/")
+results.append(row("Sitemap URLs", _urls, _urls > 1800))
+results.append(row("Sitemap excludes /sales/", _sales, _sales == 0))
 
 # ─────────────── 2. ON-PAGE ───────────────
 hdr("2. ON-PAGE SEO")
