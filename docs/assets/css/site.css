@@ -2510,3 +2510,38 @@ body.home-v4 .nav-list > li:hover > .nav-toggle {
   .why-premium .wp-card { padding: 1.2rem 1.1rem; }
   .why-premium .wp-p { font-size: .92rem; line-height: 1.68; }
 }
+
+/* ══════ RANGE TABLE ══════
+   The model-line table on workbench range pages. These pages previously
+   carried no price and no table at all, which is the format competitors on
+   page one all use. Scrolls inside its own box so the page body never does. */
+.range-table-section .rt-note {
+  color: var(--ink-muted); font-size: .9rem; line-height: 1.6;
+  max-width: 70ch; margin: 0 0 1rem;
+}
+.range-table-section .rt-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+.range-table {
+  width: 100%; border-collapse: collapse; font-size: .92rem;
+  border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden;
+  background: var(--surface); min-width: 640px;
+}
+.range-table thead th {
+  background: var(--surface-2); color: var(--ink-muted); text-align: left;
+  font-size: .74rem; text-transform: uppercase; letter-spacing: .05em;
+  padding: .7rem .8rem; white-space: nowrap;
+}
+.range-table td {
+  padding: .7rem .8rem; border-top: 1px solid var(--line-soft);
+  color: var(--steel); vertical-align: top;
+}
+.range-table tbody tr:hover { background: var(--bg-alt); }
+.range-table a { color: var(--accent); text-decoration: none; }
+.range-table a:hover { text-decoration: underline; }
+.page-sub {
+  color: var(--steel); font-size: .96rem; line-height: 1.7;
+  max-width: 72ch; margin: .75rem 0 0;
+}
+@media (max-width: 600px) {
+  .range-table { font-size: .86rem; }
+  .range-table td, .range-table thead th { padding: .55rem .6rem; }
+}
