@@ -1,0 +1,128 @@
+{
+ "workbench": {
+  "n": 893,
+  "min": 216,
+  "max": 33209,
+  "loads": [
+   50,
+   100,
+   400,
+   600,
+   1000,
+   2000
+  ],
+  "tapers": [],
+  "title": "Industrial Workbenches Malaysia \u2014 from RM904"
+ },
+ "tool-cabinet": {
+  "n": 219,
+  "min": 1024,
+  "max": 8808,
+  "loads": [
+   50,
+   60,
+   100,
+   400
+  ],
+  "tapers": [],
+  "title": "Tool Cabinets & Trolleys Malaysia \u2014 from RM1,025"
+ },
+ "perforated-board": {
+  "n": 113,
+  "min": 241,
+  "max": 1500,
+  "loads": [
+   50
+  ],
+  "tapers": [],
+  "title": "Perforated Boards, Hooks & Hangers \u2014 Malaysia"
+ },
+ "cnc-tool": {
+  "n": 90,
+  "min": 1349,
+  "max": 5952,
+  "loads": [
+   100,
+   200,
+   400,
+   1000
+  ],
+  "tapers": [
+   "BT-30",
+   "BT-40",
+   "BT-50",
+   "HSK-40",
+   "HSK-63"
+  ],
+  "title": "CNC Tool Storage Malaysia \u2014 from RM1,350"
+ },
+ "workstation": {
+  "n": 86,
+  "min": 927,
+  "max": 14954,
+  "loads": [
+   100,
+   200
+  ],
+  "tapers": [],
+  "title": "Modular Workstations Malaysia \u2014 from RM928"
+ },
+ "parts-cabinet": {
+  "n": 71,
+  "min": 289,
+  "max": 6145,
+  "loads": [
+   50,
+   210,
+   900,
+   1000
+  ],
+  "tapers": [],
+  "title": "Parts Cabinets & Bin Storage \u2014 Malaysia"
+ },
+ "hanger-rack": {
+  "n": 59,
+  "min": 1012,
+  "max": 3084,
+  "loads": [
+   250
+  ],
+  "tapers": [],
+  "title": "Hanger Racks Malaysia \u2014 from RM1,013"
+ },
+ "documents-cabinet": {
+  "n": 28,
+  "min": 216,
+  "max": 3590,
+  "loads": [],
+  "tapers": [],
+  "title": "Document Cabinets & Trays Malaysia \u2014 from RM217"
+ },
+ "locker": {
+  "n": 20,
+  "min": 1500,
+  "max": 3928,
+  "loads": [],
+  "tapers": [],
+  "title": "Steel Lockers Malaysia \u2014 from RM1,615"
+ },
+ "rack": {
+  "n": 10,
+  "min": 1500,
+  "max": 17773,
+  "loads": [
+   500,
+   1000
+  ],
+  "tapers": [],
+  "title": "Mould Racks Malaysia \u2014 from RM9,471"
+ },
+ "household-items": {
+  "n": 2,
+  "min": 1500,
+  "max": 1500,
+  "loads": [],
+  "tapers": [],
+  "title": "Chest of Drawers & Home Storage \u2014 Malaysia"
+ }
+}
