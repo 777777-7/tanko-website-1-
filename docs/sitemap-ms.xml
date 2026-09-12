@@ -5,14 +5,19 @@
     <lastmod>2026-09-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
+      <image:image>
+      <image:loc>https://www.storagesystem.com.my/feed-img/asset3__TKI-1308.jpg</image:loc>
+      <image:title>Kabinet Alat Ganti &amp; Bin Malaysia — Stor Bahagian</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://www.storagesystem.com.my/kabinet-alat/</loc>
     <lastmod>2026-09-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
-      <image:image>
-      <image:loc>https://www.storagesystem.com.my/asset3/EKK-1M.webp</image:loc>
+    <image:image>
+      <image:loc>https://www.storagesystem.com.my/feed-img/asset3__EKK-1M.jpg</image:loc>
+      <image:title>Kabinet Alat &amp; Troli Bengkel Malaysia — Tanko</image:title>
     </image:image>
   </url>
   <url>
@@ -20,20 +25,29 @@
     <lastmod>2026-09-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
+      <image:image>
+      <image:loc>https://www.storagesystem.com.my/feed-img/asset3__TOA-14.jpg</image:loc>
+      <image:title>Kabinet Dokumen &amp; Dulang A4 Malaysia — Tanko</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://www.storagesystem.com.my/loker-besi/</loc>
     <lastmod>2026-09-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
+      <image:image>
+      <image:loc>https://www.storagesystem.com.my/feed-img/asset3__FBA-202AW.jpg</image:loc>
+      <image:title>Loker Besi Malaysia — Kilang, Sekolah &amp; Pejabat</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://www.storagesystem.com.my/meja-kerja/</loc>
     <lastmod>2026-09-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
-      <image:image>
-      <image:loc>https://www.storagesystem.com.my/asset3/WE-47W (Black).webp</image:loc>
+    <image:image>
+      <image:loc>https://www.storagesystem.com.my/feed-img/asset3__WE-47W-Black.jpg</image:loc>
+      <image:title>Meja Kerja Industri Malaysia — Pengedar Eksklusif Tanko</image:title>
     </image:image>
   </url>
   <url>
@@ -41,8 +55,9 @@
     <lastmod>2026-09-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
-      <image:image>
-      <image:loc>https://www.storagesystem.com.my/asset3/KQ-306A (Black).webp</image:loc>
+    <image:image>
+      <image:loc>https://www.storagesystem.com.my/feed-img/asset3__KQ-306A-Black.jpg</image:loc>
+      <image:title>Papan Berlubang &amp; Shadow Board Malaysia — Kawalan Alat 5S</image:title>
     </image:image>
   </url>
   <url>
@@ -50,29 +65,49 @@
     <lastmod>2026-09-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
+      <image:image>
+      <image:loc>https://www.storagesystem.com.my/feed-img/asset3__EA-10031-11N.jpg</image:loc>
+      <image:title>Penyimpanan Alat CNC Malaysia — BT, HSK &amp; ISO</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://www.storagesystem.com.my/perkakas-rumah/</loc>
     <lastmod>2026-09-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
+      <image:image>
+      <image:loc>https://www.storagesystem.com.my/feed-img/asset3__HAA-715W.jpg</image:loc>
+      <image:title>Perkakas Rumah &amp; Storan Ringan Tanko Malaysia</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://www.storagesystem.com.my/rak-gantung/</loc>
     <lastmod>2026-09-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
+      <image:image>
+      <image:loc>https://www.storagesystem.com.my/feed-img/asset3__KM-2204.jpg</image:loc>
+      <image:title>Rak Gantung &amp; Panel Louvre Malaysia — Bin Bahagian</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://www.storagesystem.com.my/rak-gudang/</loc>
     <lastmod>2026-09-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
+      <image:image>
+      <image:loc>https://www.storagesystem.com.my/feed-img/asset3__MB-206.jpg</image:loc>
+      <image:title>Rak Gudang &amp; Rak Acuan Malaysia — Beban Berat</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://www.storagesystem.com.my/stesen-kerja/</loc>
     <lastmod>2026-09-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
+      <image:image>
+      <image:loc>https://www.storagesystem.com.my/feed-img/asset3__RY-01SA.jpg</image:loc>
+      <image:title>Stesen Kerja Modular Malaysia — Barisan Pemasangan</image:title>
+    </image:image>
   </url>
   </urlset>
