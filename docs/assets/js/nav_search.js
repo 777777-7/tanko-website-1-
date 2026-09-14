@@ -1,5 +1,8 @@
 (function () {
-  var btn = document.getElementById("nav-search-btn");
+  // bind every search trigger, not just the desktop one -- the mobile header
+  // carries a second button because the desktop nav is hidden below 980px
+  var btns = [].slice.call(document.querySelectorAll(".nav-search-btn"));
+  var btn = btns[0];
   var modal = document.getElementById("nav-search-modal");
   var input = document.getElementById("nav-search-input");
   var out = document.getElementById("nav-search-results");
@@ -31,7 +34,7 @@
     document.body.style.overflow = "";
     focusIndex = -1;
   }
-  btn.addEventListener("click", function () { open(); });
+  btns.forEach(function (b) { b.addEventListener("click", function () { open(); }); });
   modal.addEventListener("click", function (e) {
     if (e.target.closest("[data-close-search]")) close();
   });
