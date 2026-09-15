@@ -84,3 +84,22 @@ posts outright, and being removed costs more than the post gains.
 ## Already published
 - **Facebook Page, 14 Sep** — mould racks / die storage. Link preview rendering
   correctly. Boost off, no ad spend.
+- **Google Business Profile, 15 Sep** — parts bins vs lockable parts cabinets.
+  Two photos (TA-115 bin, TKI-301 cabinet) and a "Learn more" button to
+  /parts-cabinet/. First published without an image, which Wei Ming caught;
+  every post from here carries one.
+- **LinkedIn, 15 Sep** — load ratings, the three questions (uniformly
+  distributed vs concentrated, tested loaded or empty, what happens at the
+  base). Photo: WA-57A workbench. Posted from Wei Ming's personal profile.
+  This is the first LinkedIn post to go out under automation.
+- **Facebook Page + 4 groups, 15 Sep** — document cabinets vs A4 trays, the two
+  states of production paperwork. Photo: the A4L-104 / A4LM-10203 / A4M-106 /
+  A4A-106 comparison shot. Cross-posted to Iklan Bengkel-Bengkel Malaysia,
+  Malaysia Agriculture & Industry Machinery Traders, Hardware Tools Global
+  Sourcing and Supply, and 五金交流区 Supplier Hardware.
+
+## Two rules added 15 Sep
+1. **Every post carries an image.** No exceptions, on any channel.
+2. **Every Facebook Page post is cross-posted to groups** — 下一页 → 帖子设置 →
+   分享到小组. It is not on the composer's first screen, which is why it was
+   being missed.
