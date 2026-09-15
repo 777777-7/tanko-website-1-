@@ -167,3 +167,64 @@ Everything below needs the NEWPAGES login. I cannot create accounts or sign in.
 
 I have emailed NEWPAGES separately. If they confirm a bulk import, I can
 produce the file the same day.
+
+---
+
+# Second addendum — I got into the account, and the wall is commercial
+
+You were already signed in to NEWPAGES, so I went in and read the actual limits
+rather than guessing. **This corrects the plan above.**
+
+## What the account says
+
+| | |
+|---|---|
+| Signed in as | Wong Wei Ming |
+| Current tier | free Business Listing |
+| Product slots | **15** — twelve used, **three free** |
+| NP Points balance | **15** |
+| Point price | 10 NP Points per RM 2.00 |
+| "Post to Timeline" | **10 NP Points per post** (so the balance buys one) |
+| Business Listing **Advanced** | **3,500 NP Points ≈ RM 700** → +18 slots, 33 total, lifetime |
+| **Premium Listing** | **MYR 1,980.00** → **unlimited products and timeline posts** |
+
+**That last line is the whole thing.** Knight Auto's 23,900 links are not a
+trick we are missing, and not a form field we forgot. They are on the
+**Premium tier**, which is the only one that allows unlimited products. On our
+tier the ceiling is fifteen. We are at twelve.
+
+So the earlier suggestion — "ask whether they take a feed import for all 1,517
+SKUs" — was premature. There is no point asking until the tier allows it.
+
+## What that changes
+
+**The RM1,980 is the decision, and the evidence for it is now on the table.**
+Not a vague "we should do more SEO" — a measured 265× link gap against the
+competitor beating us on our weakest term, with the mechanism identified and
+the price of the mechanism printed on the page.
+
+Judge it as a purchase: 1,517 products × 3 languages on a domain that already
+sends Knight Auto 23,900 links, versus one year of the ad spend it replaces.
+
+**What I could not find:** there is no add-product control anywhere in the web
+member area — only View, Delete and Post to Timeline on each existing listing,
+and no Edit. Product upload appears to happen through their app or their staff.
+Worth asking them directly, because it also decides whether 1,500 products is a
+bulk import or a data-entry job.
+
+## What I deliberately did not touch
+
+- **I did not spend the NP Points.** The balance has money value and buying a
+  timeline post with it is a purchase; that is yours to authorise.
+- **I did not delete and re-create any listing.** The twelve have no Edit
+  option, so adding the website URL to them may mean deleting and re-adding —
+  and if the re-add needs points or approval, deleting first risks losing
+  listings that are live and approved today.
+
+## Still free, still worth doing
+
+- **Three unused product slots.** Add the three highest-value SKUs when there is
+  a way to add them.
+- The company listing itself is already complete — website, Facebook page,
+  phone, address, business type, 255-character service description and full
+  opening hours are all filled in correctly. Nothing to fix there.
