@@ -51,9 +51,30 @@ Allow: /
 User-agent: CCBot
 Allow: /
 
-# --- Aggressive scrapers we don't want (block) ---
+# --- Other AI crawlers and answer engines (named explicitly) ---
+# The wildcard above already allows these. They are named anyway because some
+# crawlers only honour a rule addressed to them by name, and because an explicit
+# Allow removes any doubt for an operator checking whether we opted out.
+User-agent: meta-externalagent
+Allow: /
+User-agent: FacebookBot
+Allow: /
+User-agent: Amazonbot
+Allow: /
+User-agent: MistralAI-User
+Allow: /
+User-agent: cohere-ai
+Allow: /
+User-agent: DuckAssistBot
+Allow: /
+User-agent: YouBot
+Allow: /
+User-agent: Diffbot
+Allow: /
+User-agent: PetalBot
+Allow: /
 User-agent: Bytespider
-Disallow: /
+Allow: /
 
 Sitemap: https://www.storagesystem.com.my/sitemap.xml
 
