@@ -46,7 +46,12 @@ OUT = os.path.join(ROOT, 'local-inventory.xml')
 
 # Set in Google Business Profile first: More settings > Advanced > Store code.
 # Must match exactly, including case. Never change it once chosen.
-STORE_CODE = 'PRIMAXS-BALAKONG'
+# Google assigns the store code itself; it is NOT ours to choose. Read off
+# Business Profile Manager (business.google.com/locations, column 商店代码)
+# on 15 Sep 2026. The first build used a readable 'PRIMAXS-BALAKONG' and
+# Merchant Center rejected all 1,517 rows with '[Business Profile] Invalid
+# store code'. If the listing is ever re-created, re-read this value.
+STORE_CODE = '11724893644651686981'
 
 if not os.path.isfile(SRC):
     raise SystemExit('primary feed not found: %s' % SRC)
