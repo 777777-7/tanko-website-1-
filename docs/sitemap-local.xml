@@ -140,4 +140,44 @@
       <image:title>Industrial Storage &amp; Workbenches Penang</image:title>
     </image:image>
   </url>
+  <url>
+    <loc>https://www.storagesystem.com.my/locations/shah-alam/</loc>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://www.storagesystem.com.my/feed-img/asset3__EGL-185M-EGL-185M-black.jpg</image:loc>
+      <image:title>Industrial Storage Solutions in Shah Alam</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.storagesystem.com.my/locations/klang/</loc>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://www.storagesystem.com.my/feed-img/asset3__EKA-3MRed.jpg</image:loc>
+      <image:title>Industrial Storage Solutions in Klang</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.storagesystem.com.my/locations/puchong/</loc>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://www.storagesystem.com.my/feed-img/asset3__EKC-110MHanging-bin-TKI-8305.jpg</image:loc>
+      <image:title>Industrial Storage Solutions in Puchong</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.storagesystem.com.my/locations/seri-kembangan-balakong/</loc>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://www.storagesystem.com.my/feed-img/asset3__EKC-330M-Hanging-bin-TKI-8305.jpg</image:loc>
+      <image:title>Industrial Storage Solutions in Seri Kembangan &amp; Balakong</image:title>
+    </image:image>
+  </url>
   </urlset>
