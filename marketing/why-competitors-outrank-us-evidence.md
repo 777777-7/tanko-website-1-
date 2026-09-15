@@ -99,3 +99,71 @@ who points at it.
 *Source: Bing Webmaster Tools → Backlinks → Backlinks To Any Site, 15 Sep 2026.
 Bing's index is also what ChatGPT search, Copilot and DuckDuckGo read — and it
 currently holds **28** of our 1,847 URLs.*
+
+---
+
+# Addendum — I opened the listings and found the exact gap
+
+The table above says Knight Auto has 23,900 NEWPAGES links and we have 90. That
+is the *symptom*. Here is the cause, read off the live pages.
+
+## 1. We have 12 products listed. They have thousands.
+
+Our NEWPAGES company page is **id 93368** (`m.newpages.com.my/en/company/93368/`)
+and the copy on it is good — it describes the 11 ranges properly. It lists
+**twelve products**.
+
+## 2. Our product listings carry no link to our website at all
+
+I opened our own listing for the KQ-308A perforated board and counted the links
+pointing at storagesystem.com.my. **Zero.**
+
+Then I opened a Knight Auto product listing and counted theirs. **Five**, and
+none of them carry `rel="nofollow"` — they are followed links that pass value:
+
+| Link text on their product page | Points to |
+|---|---|
+| **View Product On Official Website** | the matching product page on knightauto.com.my |
+| https://www.knightauto.com.my | their homepage |
+| https://knightauto.newpages.com.my/ | their NEWPAGES subdomain |
+| http://knightauto.n.my/ | their .n.my microsite |
+
+That first one is the anchor that appears 4,800 times in their profile, plus
+5,100 in Malay and 5,400 in Chinese. It comes from a **product URL field** on
+the listing form. On our twelve listings that field was left blank, so we get
+the listing and none of the link.
+
+## 3. We have not claimed either microsite
+
+Knight Auto has `knightauto.n.my` and `knightauto.newpages.com.my`, both live,
+both serving their own content, both linked from every product page they own.
+
+I checked ours. `primaxs.n.my`, `primaxsmarketing.n.my` and
+`primaxs.newpages.com.my` all resolve to **NEWPAGES' generic landing page** —
+nothing is claimed. Two separate indexed sites we are entitled to and do not
+have.
+
+---
+
+## What Wei Ming needs to do — in order of return
+
+Everything below needs the NEWPAGES login. I cannot create accounts or sign in.
+
+1. **Fill in the product URL on every existing listing.** Twelve listings, five
+   minutes, and each one starts carrying "View Product On Official Website"
+   straight to the matching page on our site. Do this first — it is the
+   smallest action with a real result, and it proves the field is the cause.
+2. **Claim `primaxs.n.my` and `primaxs.newpages.com.my`.** Free with the
+   account, and both become separate indexed properties linking to us.
+3. **Then add products in bulk, in all three languages.** Ask NEWPAGES whether
+   they take a spreadsheet or feed import — with 1,517 SKUs, adding them by
+   hand is not realistic, and we already generate a complete product feed at
+   `/merchant-feed.xml` with titles, descriptions, images and URLs. If they
+   accept a feed, this is one conversation rather than months of typing.
+4. **When you add them, set a descriptive product title.** Their anchor text is
+   generic because the link text is fixed, but the listing *title* is not:
+   "Heavy Duty Industrial Workbench Malaysia - Tanko WB-57F" is how our
+   existing twelve are named, and that is exactly right. Keep it.
+
+I have emailed NEWPAGES separately. If they confirm a bulk import, I can
+produce the file the same day.
