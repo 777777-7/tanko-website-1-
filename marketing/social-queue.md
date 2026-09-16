@@ -114,6 +114,18 @@ posts outright, and being removed costs more than the post gains.
   in** (... -> 编辑帖子 -> paste -> 保存); Jual Beli Barang Hardware/ Tools removed
   its copy as spam before it could be fixed.
 
+- **Google Business Profile, 16 Sep** — perforated boards for 5S tool control:
+  the two-second audit test, hook length vs load rating, panel sizes, colour as
+  a shift control, #304 stainless for wash-down. Photo: the five-colour KQ-306A
+  panel stack. "Learn more" button to /perforated-board/perforated-board/.
+  Verified after publishing: image, 914-char description and the correct link
+  all saved.
+
+- **LinkedIn, 16 Sep** — same subject, from Wei Ming's personal profile. Went
+  out with the link preview card rather than an attached photo; LinkedIn's photo
+  picker cannot be driven (see memory). The card image will show a board rather
+  than a hook once Google and LinkedIn re-scrape the page.
+
 ## Two rules added 15 Sep
 1. **Every post carries an image.** No exceptions, on any channel.
 2. **Every Facebook Page post is cross-posted to groups** — 下一页 → 帖子设置 →
