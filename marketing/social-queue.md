@@ -107,12 +107,12 @@ posts outright, and being removed costs more than the post gains.
   seluruh Malaysia, bengkel kereta satu malaysia, Power Tools Malaysia,
   Jual Beli Barang Hardware/ Tools.
 
-  **Went out wrong and was partly repaired.** The composer published the image
-  with NO text (see memory: attach the image before typing). The Page post was
-  edited and is now correct. The Power Tools Malaysia group copy was edited and
-  is correct. **Six group copies are still image-only and need the text pasted
-  in** (... -> 编辑帖子 -> paste -> 保存); Jual Beli Barang Hardware/ Tools removed
-  its copy as spam before it could be fixed.
+  **Went out wrong and is now fully repaired.** The composer published the image
+  with NO text (see memory: attach the image before typing). The Page post and
+  all 8 surviving group copies have since been edited and now carry the full
+  text with correct paragraph breaks. Jual Beli Barang Hardware/ Tools removed
+  its copy as spam before it could be fixed -- an image with no words reads as
+  spam to group admins, which is the real cost of that bug.
 
 - **Google Business Profile, 16 Sep** — perforated boards for 5S tool control:
   the two-second audit test, hook length vs load rating, panel sizes, colour as
