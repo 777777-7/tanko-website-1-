@@ -98,6 +98,22 @@ posts outright, and being removed costs more than the post gains.
   Malaysia Agriculture & Industry Machinery Traders, Hardware Tools Global
   Sourcing and Supply, and 五金交流区 Supplier Hardware.
 
+- **Facebook Page + 9 groups, 16 Sep (evening)** — perforated board panels: hook
+  length vs load rating (80mm = 6kg, 300mm = 3kg), panel sizes W900-W2100 x H450,
+  colour as a shift/station control, #304 stainless for wash-down. Photo: the
+  five-colour KQ-306A panel stack. Groups: Iklan Bengkel-Bengkel Malaysia,
+  Hardware Tools Global Sourcing and Supply, 五金交流区 Supplier Hardware,
+  五金机械批发/零售, 马来西亚机械与模具工业技术交流平台, Workshop Bengkel kereta
+  seluruh Malaysia, bengkel kereta satu malaysia, Power Tools Malaysia,
+  Jual Beli Barang Hardware/ Tools.
+
+  **Went out wrong and was partly repaired.** The composer published the image
+  with NO text (see memory: attach the image before typing). The Page post was
+  edited and is now correct. The Power Tools Malaysia group copy was edited and
+  is correct. **Six group copies are still image-only and need the text pasted
+  in** (... -> 编辑帖子 -> paste -> 保存); Jual Beli Barang Hardware/ Tools removed
+  its copy as spam before it could be fixed.
+
 ## Two rules added 15 Sep
 1. **Every post carries an image.** No exceptions, on any channel.
 2. **Every Facebook Page post is cross-posted to groups** — 下一页 → 帖子设置 →

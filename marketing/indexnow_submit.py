@@ -15,6 +15,7 @@ Usage:
     python marketing/indexnow_submit.py --what products   # the 1,591 SKU pages
     python marketing/indexnow_submit.py --what changed    # touched in last commit
     python marketing/indexnow_submit.py --what all        # everything in the sitemaps
+    python marketing/indexnow_submit.py --what changed --rev <sha>
     (add --apply to actually send; default is a dry run)
 
 The key must be live at https://www.storagesystem.com.my/<key>.txt before any
@@ -39,13 +40,14 @@ def urls_from(paths):
     return out
 
 
-def pick(what):
+def pick(what, rev='HEAD~1..HEAD'):
     if what == 'products':
         return urls_from(['docs/sitemap-products.xml'])
     if what == 'all':
         return urls_from(sorted(glob.glob('docs/sitemap-*.xml')))
     if what == 'changed':
-        files = subprocess.run(['git', 'diff', '--name-only', 'HEAD~1', 'HEAD'],
+        a, b = (rev.split('..') + ['HEAD'])[:2] if '..' in rev else (rev + '~1', rev)
+        files = subprocess.run(['git', 'diff', '--name-only', a, b],
                                capture_output=True, text=True).stdout.split()
         out = []
         for f in files:
@@ -57,14 +59,19 @@ def pick(what):
 
 def main():
     what = 'changed'
+    rev = 'HEAD~1..HEAD'
     for a in sys.argv[1:]:
+        if a.startswith('--rev='):
+            rev = a.split('=', 1)[1]
+        elif a == '--rev':
+            rev = sys.argv[sys.argv.index(a) + 1]
         if a.startswith('--what='):
             what = a.split('=', 1)[1]
         elif a == '--what':
             what = sys.argv[sys.argv.index(a) + 1]
     apply = '--apply' in sys.argv
 
-    urls = sorted(set(pick(what)))
+    urls = sorted(set(pick(what, rev)))
     print('key      :', KEY)
     print('selection:', what)
     print('urls     :', len(urls))
