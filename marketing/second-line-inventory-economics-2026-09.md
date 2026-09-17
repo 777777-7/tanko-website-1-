@@ -1,5 +1,13 @@
 # Which second line behaves like Tanko? — 17 September 2026
 
+> **Correction, same day — see
+> [castor-demand-malaysia-2026-09.md](castor-demand-malaysia-2026-09.md).**
+> The #1 ranking of casters below is **withdrawn.** The inventory analysis holds,
+> but the Malaysian castor market is densely contested (KSW: 12 branches since
+> 1992; UKAI: 9 imported brands since 1989), and there is no positioning gap for a
+> Taiwanese mid-tier brand. JEIN YI's territory being open was not the same thing
+> as the market being open, and I conflated the two. **TAI SAM is now #1.**
+
 Wei Ming's question, and it is the right one: forget margin for a moment and ask
 **which candidate can I actually afford to keep on a shelf.** A line you can stock
 is a line you can win exclusivity on. A line you cannot stock leaves you a trader
