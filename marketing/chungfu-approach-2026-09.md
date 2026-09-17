@@ -38,9 +38,50 @@ paying for anyway.
 It is also a genuinely attractive argument *to Chung Fu*: you are not a new
 importer learning the lane, you are an established one adding a line.
 
-**So the honest position for the first email:** back-to-back to start, an
-explicit intention to hold working stock of the fastest-moving sizes once demand
-is proven, and territory discussed at that point — not now.
+### Your reason is the right reason — say it out loud
+
+The reason you do not want to stock these is not that you cannot afford
+inventory. You already carry inventory. It is that **the economics of holding a
+Chung Fu cabinet are nothing like the economics of holding a Tanko cabinet**, and
+that is a real, defensible argument:
+
+| | Tanko line | FM flammable cabinet |
+|---|---|---|
+| Capital tied up per unit | low | **several times higher** |
+| Stock turn | continuous — every factory buys benches and cabinets | **occasional — a plant buys one and not another for years** |
+| SKU matrix to cover demand | wide, but each unit is cheap | **capacities (4 / 12 / 30 / 45 / 90 gal) × colour codes (yellow flammable, red paint, blue corrosive, green pesticide)** |
+| Floor space per unit | stackable, flat-packable | **bulky, and a 90-gallon unit eats real cubic metres** |
+
+High unit cost **and** low turn is the worst possible pair for inventory. Stocking
+a meaningful spread would mean tens of thousands of ringgit of dead capital in
+cabinets that might sit a year. That is not timidity, that is correct.
+
+**So do not hide it — state it.** "We will not stock a wide range initially,
+because capital per unit is several times our existing line and the turn rate is
+lower. We will buy a demonstration unit, and stock the fastest-moving size once
+we know which it is." That is what an experienced distributor sounds like. Being
+vague about stock is what makes an exporter suspicious; explaining the inventory
+maths is what makes them take you seriously.
+
+### The middle path — four options between zero and full stock
+
+1. **One demonstration unit.** Not inventory — a sales tool. You cannot sell a
+   fire-rated cabinet from a photograph; a buyer wants to open the door, see the
+   self-closing hinge, the vents, the sump, the FM plate. One unit is the highest
+   return per ringgit you will spend on this line, and it is the single thing
+   that most reassures a manufacturer that you are serious. **This is now in the
+   email.**
+2. **One size, once you know it.** Not a spread. The common standard floor unit
+   is usually the one that moves; stock that alone and quote the rest.
+3. **Ask about consignment.** A manufacturer opening a new territory will
+   sometimes place stock with a distributor unsold. Usually no, but it costs
+   nothing to ask once the conversation is warm — not in the first email.
+4. **Consolidate into your Tanko containers.** The freight fix above. This is the
+   one that actually changes the numbers.
+
+**So the honest position for the first email:** back-to-back to start, one demo
+unit bought outright, working stock of the fastest-moving size once demand is
+proven, and territory discussed at that point — not now.
 
 ---
 
@@ -134,8 +175,10 @@ Two things worth knowing:
 >
 > We would start on a back-to-back basis, ordering against confirmed customer
 > orders while we build demand and publish the product information in English and
-> Bahasa Malaysia. Once volume is established we would hold working stock of the
-> fastest-moving sizes, and at that stage we would like to discuss formal
+> Bahasa Malaysia. We would purchase one demonstration unit at the outset for our
+> premises, as buyers specifying safety equipment want to see and open a cabinet
+> before committing. Once the fastest-moving size is established we would hold
+> working stock of it, and at that stage we would like to discuss formal
 > distribution arrangements for Malaysia.
 >
 > **Could you please send us**
