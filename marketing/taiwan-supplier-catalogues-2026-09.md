@@ -156,3 +156,119 @@ brand, and they return matched suppliers.
 
 I have not verified prices, MOQ, quality or certification for any of these
 beyond what is printed on their Taiwantrade records.
+
+---
+
+## 5. Tanko-scale candidates — the answer to "not mature enough"
+
+Wei Ming is right that a seven-product maker is not a business line. He wants
+something like Tanko: decades old, own brand, a catalogue deep enough to build a
+site and a stock list around.
+
+**First, the tension he has put his finger on.** Maturity and virgin territory
+rarely coexist. A Taiwanese manufacturer with 40 years and a thousand SKUs has
+almost always been found by *somebody* in Malaysia — a hardware retailer, a
+trader buying ad-hoc, an importer with no marketing. What is genuinely available
+is not usually "nobody sells it". It is **"nobody owns it"**.
+
+That distinction is the whole opportunity, and it happens to be the thing Primaxs
+can prove it does well.
+
+### Doors already shut — don't spend effort here
+
+| Brand | Malaysian situation |
+|---|---|
+| **TOPTUL** | Has a dedicated Malaysian arm, **toptulmalaysia.com**, with its own distributor and dealer pages. Mee Huat (M) Sdn Bhd listed as sole distributor. 6,000+ tools, 110 countries. **Knight Auto also sells it** — your direct SEO rival, same town |
+| **King Tony** | Long established and common across MY/SG |
+| **VERTEX** | Secure Tooling Systems Sdn Bhd, KL/Selangor/Penang |
+
+Hand tools as a category is locked and price-fought. Knight Auto is already
+there. Not the door.
+
+### The two that are Tanko-scale AND possibly open
+
+#### GISON MACHINERY CO., LTD. — the closest analogue to Tanko found so far
+
+- **Established 1973** — 50+ years, same generation as Tanko
+- **44+ product categories, 500+ models** — air wrenches, grinders, sanders,
+  polishers, hammers, drills, screwdrivers, riveters, saws, nibblers, shears,
+  spray guns, wet air stone tools, robotic-arm tools, FRL preparation units
+- Own brand, own factory, OBM/ODM/OEM
+- **Explicitly states it is "looking for pneumatic tool distributors and agents
+  in various regions"** — and names Europe, America and Australia as its focus,
+  which is precisely why South East Asia may be under-attended
+- **Malaysian presence today:** GISON products appear on **Hup Sheng Hardware**, a
+  Selangor hardware retailer. That is a shop stocking a brand — not an exclusive
+  distributor with local stock, Malay content or marketing. **That is an unowned
+  territory, not a closed one.**
+
+#### M7 — MIGHTY-SEVEN INTERNATIONAL, Taichung
+
+- Six divisions, and the depth is real: **Air Tools (22 sub-categories),
+  Cordless Tools (25), Impact Sockets (13), Torque Products (4, incl. digital
+  torque wrenches and multipliers), Accessories, Work Lighting**
+- Serious own brand with an established international dealer network (UK
+  distributor events, US arm at m7-us.com)
+- **No Malaysian distributor found** in searching. Absence of evidence again, not
+  proof — but worth the email
+
+### Why air tools fits Primaxs specifically
+
+- **Same buyer, and you are already talking to them.** Your nine Facebook groups
+  are bengkel, hardware and machinery groups. Air tools are what those members
+  actually buy.
+- **It goes in the workshop you already furnish.** You sell the bench, the tool
+  cabinet and the shadow board. The air tools hang above them.
+- **Spec-driven**: free speed, working torque, air consumption in CFM, air inlet
+  size, vibration. That is the same kind of table you already publish and rank
+  with — and it is exactly what Shopee listings do not give.
+- **Consumable pull-through**: couplers, hoses, FRL units, impact sockets, vanes
+  and service kits. Repeat revenue that Tanko does not give you.
+- **No Tanko conflict at all.**
+
+### The risks, stated plainly
+
+- **Margin is thinner than storage.** Air tools are price-shopped in a way steel
+  cabinets are not, and Shopee and every hardware shop carry them.
+- **Knight Auto is strong in tools** and is already your SEO rival in the same
+  town. You would be picking a fight on their ground, not yours.
+- **After-sales is an operational commitment you do not currently have.** Air
+  tools fail, need vanes, seals and bearings, and customers expect repair. A
+  Tanko cabinet never comes back. Ask yourself whether you want a service bench
+  and a spares stock before you commit.
+- **GISON is already on a Malaysian retailer's shelf.** You would be asking them
+  to formalise and hand you a territory they are already selling into. That is a
+  harder conversation than an empty market, and they may say no.
+
+### The pitch that actually works here
+
+Do not open with "do you have a distributor in Malaysia?" — for a mature brand
+the answer is usually a vague yes, and the conversation dies.
+
+Open with what you can see:
+
+> Your products reach Malaysia today through hardware retailers, listed without
+> local stock, without Malay-language product information and without technical
+> support. There is no distributor building the brand here.
+>
+> We did exactly that for Tanko Enterprise over twenty years: exclusive Malaysia
+> distribution, a Selangor warehouse, our own delivery and installation team, and
+> storagesystem.com.my — 1,851 product pages, first in Malaysia for CNC tool
+> storage, with a Google Merchant feed and Bahasa Malaysia coverage.
+>
+> We would like to do the same for [brand]. May we start with a trial order and
+> discuss territory once we have shown what the channel produces?
+
+That is a real differentiator, because it is true and almost no other candidate
+distributor in Malaysia can say it.
+
+### What I would do next
+
+1. Email **GISON** first. They publicly want distributors, they are Tanko's
+   generation and scale, and their Malaysian presence is retail-only.
+2. Email **M7** second. Deeper catalogue, no visible Malaysian partner.
+3. Ask both the same two questions: *what is your current Malaysian arrangement,
+   and what annual volume would you want to see before discussing exclusivity?*
+4. Before either answers, decide internally whether you are willing to run
+   warranty repairs. If the answer is no, air tools is the wrong category and the
+   better direction is back to consumable tooling, where nothing comes back.
