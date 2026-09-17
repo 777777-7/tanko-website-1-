@@ -126,6 +126,41 @@ posts outright, and being removed costs more than the post gains.
   picker cannot be driven (see memory). The card image will show a board rather
   than a hook once Google and LinkedIn re-scrape the page.
 
+## 17 Sep — steel lockers
+
+Pain first: the locker bank gets replaced because of the smell, not the steel.
+Damp overalls, door shuts on 80% humidity, then smell, rust, complaints. Tanko
+ships through-ventilation as standard rather than as a paid option.
+
+Two specification points, both verified from the product pages:
+- Compartment count, not locker count. FBB shell W900xD515xH1800mm; on the
+  2-door each compartment is W415xD450xH1653mm, closet rod + two 30kg shelves.
+- Combination vs key, and count the keys: combination = 2 master keys per
+  LOCKER, key = 2 keys per UNIT. On a 16-door bank, 2 keys versus 32.
+Plus the low FBA (W900xD465xH1070mm, rubber wood top, mail slot, tray).
+Photo: FBB-202, which shows the door vents and the combination lock.
+
+- **Facebook Page + 9 groups** — image attached BEFORE typing, and this time the
+  text survived: Page post and the spot-checked group copy both carry image and
+  full text. Groups: Iklan Bengkel-Bengkel, Hardware Tools Global Sourcing,
+  五金交流区, Malaysia Agriculture & Industry Machinery Traders, 五金机械批发/零售,
+  马来西亚机械与模具工业技术交流平台, Workshop Bengkel kereta, 马来西亚建筑五金门业广告群,
+  MALAYSIA CONSTRUCTION MACHINERY. Deliberately skipped Jual Beli Barang
+  Hardware/Tools, which removed the 16 Sep post as spam.
+- **Google Business Profile** — published with the image. The "Learn more"
+  button had to be dropped: clicks would not land on its URL field (the iframe's
+  reported coordinates do not match the screen), so the URL is in the body text
+  instead. Worth retrying the button next time.
+- **LinkedIn** — published from Wei Ming's personal profile with the link card.
+
+**Watch out:** Facebook's "add a Call Now button" upsell appears between 发帖 and
+publishing, and dismissing it with 以后再说 turns the 速推帖子 (boost) toggle ON.
+That is paid advertising. Check that toggle is off before publishing. Verified
+afterwards in Business Suite 广告帖: no ad created, the only entry is 6 Sep.
+
+**Missed check:** GBP already had a steel locker post two days earlier. Look at
+the existing GBP post list before choosing a topic, not just the Facebook page.
+
 ## Two rules added 15 Sep
 1. **Every post carries an image.** No exceptions, on any channel.
 2. **Every Facebook Page post is cross-posted to groups** — 下一页 → 帖子设置 →
