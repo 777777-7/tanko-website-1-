@@ -223,3 +223,104 @@ to you are pre-filtered for export intent.
    with Bright Jing Chin (pull studs) and K-Gualda (holders).
 3. Ignore the Penang plastic container demand for now. It is real, but Taiwan is
    the wrong source and local moulders will beat you on it.
+
+---
+
+## 8. "Should it be a completely different category?" — answered
+
+Wei Ming asked whether it would be better to pick something outside the 11
+existing categories entirely. The 11 are cnc-tool, documents-cabinet,
+hanger-rack, household-items, locker, parts-cabinet, perforated-board, rack,
+tool-cabinet, workbench, workstation — and every one of them is the same thing
+underneath: **steel storage and workplace furniture.**
+
+**Category is the wrong axis. Buyer is the right one.** There are three different
+moves hiding inside the word "different":
+
+| Move | Example | Verdict |
+|---|---|---|
+| Same category, new brand | a second storage brand | **Dangerous** — see channel conflict below |
+| **Different category, same buyer** | CNC tooling, air-line equipment, lifting gear, casters | **This is the one** |
+| Different category, different buyer | office furniture, retail display, consumer goods | Throws away the only moat |
+
+### You have already run the third experiment, and it failed
+
+`household-items` is the one category aimed at a different buyer — the home, not
+the factory. Search Console, last 90 days, by page:
+
+```
+guides             1,211 impressions   17 clicks
+tool-cabinet         881               2
+workbench            419               8
+perforated-board     128              17
+cnc-tool             123               0
+locker                39               2
+household-items       37               0     <-- different buyer
+```
+
+**37 impressions and zero clicks in three months.** It is the worst performer in
+the catalogue. Not because the products are bad, but because nothing you own
+helps you sell them: the site ranks for industrial terms, the customer list is
+factories, the installation crew is irrelevant to a household buyer, and the
+Tanko name means nothing outside industry.
+
+That is direct, local evidence — from your own data, not theory — that the
+channel does not transfer to a different buyer.
+
+### Which of your assets actually transfer?
+
+| Asset | Transfers to a different category? | To a different buyer? |
+|---|---|---|
+| Balakong warehouse | yes | yes |
+| Import, customs, logistics | yes | yes |
+| Working capital | yes | yes |
+| **Website ranking (#1 CNC tool storage, 1,851 pages)** | yes | **no** |
+| **Customer list — factories, tool rooms, bengkel** | yes | **no** |
+| **Installation crew** | only if it needs installing | **no** |
+| **20-year Tanko reputation in industry** | yes | **no** |
+
+Four of the seven are buyer-specific. Change the buyer and you write off more
+than half of what makes Primaxs worth anything.
+
+### The risk that IS worth diversifying
+
+Not buyer risk — **supplier concentration risk.** Essentially all revenue depends
+on one company in Taiwan. If Tanko appoints someone else, raises prices, gets
+acquired, or simply has a bad year, there is no second leg.
+
+A different *category* from a different *supplier* fixes exactly that. A
+different *buyer* does not make you safer; it just makes you start again.
+
+### The danger nobody has mentioned yet: channel conflict
+
+Taking on a **second storage brand could breach or sour the Tanko exclusive**,
+which is the entire business. SHUTER (Taiwan, est. 1979) is the specific trap —
+they make CNC tool storage carts and plastic parts bins, so they are attractive
+*and* a direct Tanko competitor.
+
+**Read the Tanko distributor agreement for non-compete or restricted-category
+clauses before contacting anyone in storage.** If there is any doubt, tell Tanko
+what you are considering. A supplier who hears it from you keeps trusting you; a
+supplier who finds out from a customer does not.
+
+### The test to apply to any candidate
+
+**Could it go on the same purchase order as a Tanko cabinet, to the same person,
+without a new sales conversation?**
+
+- Pull studs and collets for the CNC cabinet you just sold → yes
+- Air-line couplers and hose reels above the workbench you just installed → yes
+- A jib crane for the same factory → yes, but DOSH registration and competent-
+  person requirements are a real operational burden, not just paperwork
+- An office chair → no, different buyer, different budget holder
+- A household shelf → no, and you already have the data proving it
+
+### So: yes to a different category, no to a different customer
+
+The recommendation in section 3 already satisfies this. CNC tooling is **not** one
+of your 11 categories — it is tooling, not storage, bought from a different
+budget, from different manufacturers, with different margins and repeat cycles.
+It is genuinely a different business line. It just happens to be sold to the
+person already reading your #1-ranked page.
+
+That is the combination you want: **new category, new supplier, same customer.**
