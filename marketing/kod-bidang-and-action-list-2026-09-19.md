@@ -268,3 +268,92 @@ factory facilities manager buys what works.
 **Is Primaxs a Bumiputera-status company?** That single fact decides whether the
 RM50k–100k band exists for you and how much of a handicap you carry in
 RM100k–500k. Answer that before paying the RM450.
+
+---
+
+# CONFIRMED NON-BUMIPUTERA — the narrowed plan
+
+Wei Ming confirmed Primaxs is not a Bumiputera company. Here is what that actually
+closes, what it leaves open, and my revised ranking.
+
+## What is open to you, band by band
+
+| Value | Status for a non-Bumi supplier | MOF registration needed? |
+|---|---|---|
+| **Below RM20,000** | **OPEN.** Pembelian terus can be made from *any* supplier — registered or not, Bumi or non-Bumi | **No. None at all** |
+| **RM20,000 – RM50,000** | **OPEN.** Sebut harga inviting at least 3 local MOF-registered suppliers, **Bumiputera or non-Bumiputera** | **Yes** |
+| **RM50,000 – RM100,000** | **CLOSED. Bumiputera only** | — |
+| RM100,000 – RM500,000 | Open, but **Bumiputera carry a price preference** | Yes |
+| Above RM500,000 | Genuinely open | Yes |
+
+**Two things worth noticing.**
+
+First, **below RM20,000 you need no registration whatsoever.** You can start
+approaching agencies tomorrow for nothing. A polytechnic buying six workbenches or
+a district office buying a bank of lockers sits here, and the rule explicitly
+allows unregistered, non-Bumi suppliers.
+
+Second, **the RM450 buys you the RM20k–50k band.** That is the honest value
+proposition — not the whole feed, one band, plus optionality above RM100k where
+specification rather than price decides.
+
+## The band you lose is the annoying one
+
+RM50k–100k is exactly the size of "supply and install lockers for one school" or
+"fit out one workshop". It is shut. Do not spend a minute on it.
+
+## On supplying a Bumiputera company that wins
+
+There is a real and legal distinction, and it is worth stating carefully:
+
+- **Selling goods to a company that won a contract is normal trade.** They are
+  your customer. You invoice them, they invoice the agency. That is procurement,
+  not novation.
+- **Being handed the contract to perform is novation** — the "Ali Baba" pattern.
+
+The Government Procurement Act 2025 makes unauthorised transfer, assignment or
+novation of a contract a criminal offence: **a fine of at least three times the
+contract value or RM1 million, whichever is higher, and up to five years'
+imprisonment.** Any subcontracting without the controlling officer's written
+approval is an offence. The Act is gazetted and expected to commence around 2027.
+
+**So: being someone's supplier is fine. Being their front is not.** If you ever
+end up in an arrangement that looks like performing the contract rather than
+supplying goods into it, get it in writing from the controlling officer, and take
+proper legal advice rather than mine.
+
+## Revised ranking — I am moving government down
+
+Given non-Bumi status, I would now rank the channels like this:
+
+**1. Private sector new plants — the strongest play, unchanged.**
+No thresholds, no Bumiputera preference, no tender process. A facilities manager
+buys what works. Everything you actually have — exclusivity, specification depth,
+Selangor stock, your own installation crew, Ringgit quotes, local warranty — is
+worth something here and worth nothing in a price-scored tender. **This is where
+your advantages compound.**
+
+**2. Deal registration with your existing dealers — free, and fixes a live
+problem.** Still the highest return per hour on this whole page.
+
+**3. Government, but narrowly:**
+   - **Free intelligence.** Read KEPUTUSAN for `020101` and `130101`. You learn
+     who wins, at what price, for which agency — useful even if you never bid.
+   - **Below RM20k, no registration.** Get known to polytechnics, TVET colleges
+     and district offices. Small, repeatable, relationship-driven.
+   - **TVET and polytechnic workshop fit-outs**, where the requirement is a
+     working teaching workshop and the spec genuinely rules out generic
+     fabricators.
+   - **Pay the RM450 only after** you have counted a week of live RM20k–50k items
+     under your codes and seen enough to justify it.
+
+**4. Generic locker and furniture tenders — do not bother.** You carry two
+handicaps at once: no Bumiputera preference, and freight from Taiwan against local
+fabricators who pay none. You will lose on price every time, and you should.
+
+## The short version
+
+**You were right to be suspicious.** Government procurement is a real but narrow
+channel for you, not the answer to the dealer-margin problem you started with. The
+answer to that problem is still deal registration, and the answer to growth is
+still the factories being built right now in Penang, Selangor and Johor.
