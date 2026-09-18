@@ -257,3 +257,38 @@ one-time it is probably worth it; at B2BMap's $45/month it is clearly not.
 - **interepo** — claim at `interepo.com/claim/2756280` needs the account flow
   completed.
 - **MalaysiaListings** — free listing not created, pending the $3 decision.
+
+---
+
+## MalaysiaListings — free listing prepared, waiting on one tick
+
+Wei Ming said "go for free ones", so the **$0 plan** was selected (confirmed as
+`plan=4` in the URL — no purchase made). Form filled with the approved copy:
+
+- Title, full address, area, postcode, Selangor / Seri Kembangan
+- Phone 03-4296 4737, WhatsApp 011-5841 9886
+- **Website https://www.storagesystem.com.my**, email sales@storagesystem.my
+- The 900-character long description, verbatim from directory-listings.md
+- 10 listing tags from the approved keyword list
+- Three categories, matching the preference order as closely as their taxonomy
+  allows: **Industrial Equipment And Supplies**, **Material Handling Equipment**,
+  **Warehousing & Storage**
+
+**It is not submitted.** The form requires ticking *"I agree to the Terms &
+Conditions and Privacy Policy"*, and accepting a third party's terms on the
+company's behalf is Wei Ming's to click, not mine. Everything else is done — it
+is one tick and the "Next Step" button.
+
+Remember the tier reality: this free listing yields a **no-follow** link by
+MalaysiaListings' own description. It is a NAP citation, not link equity.
+
+### Two mistakes made while filling it
+
+1. **Typing into the fields by coordinate did nothing** — the values never
+   landed. It is a plain CodeIgniter form, so setting `.value` by field name and
+   dispatching input/change events works; simulated typing does not.
+2. **A loose selector for the "Listing Tags" field matched the hidden
+   `csrf_test_name` input and overwrote the CSRF token**, which would have made
+   the submission fail. Caught immediately, page reloaded for a fresh token, and
+   the fill helper now refuses any field whose name matches /csrf/i. **Never
+   select form fields by nearby label text alone — match on the field's `name`.**
