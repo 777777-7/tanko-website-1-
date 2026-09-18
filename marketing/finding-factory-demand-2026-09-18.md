@@ -291,3 +291,90 @@ It moves **ePerolehan from item 3 to item 2**, and it makes the first step free:
    private-sector signal.
 5. Vendor registration at ten target plants — unchanged.
 6. Lapasar — unchanged, eyes open about the margin.
+
+---
+
+# SESSION 2 — 19 September, working the portal together
+
+**Wei Ming confirmed he can sell direct to end users.** That removes the only
+contractual doubt in section 3. Direct is open; the only remaining restraint is
+the commercial one — don't take an account a dealer introduced.
+
+## How much is actually live right now
+
+Counted on MyProcurement today, no login:
+
+| Feed | Live items |
+|---|---|
+| **Iklan Tender** | **1,082** |
+| **Iklan Sebut Harga** | **3,978** |
+| **Total live government requirements** | **~5,060** |
+
+**The Sebut Harga feed is four times larger than the tender feed, and it is the
+one that suits you.** Sebut harga are the smaller-value jobs. Big tenders go to
+contractors with bonding capacity; sebut harga is where a Selangor distributor
+with stock competes well.
+
+## What each listing gives you, free
+
+Every advert prints:
+
+- Tarikh Pelawaan and **Tarikh Tutup** (closing date)
+- No. Tender
+- Full title
+- **Kementerian and Agensi** — so you know exactly who to call
+- Kategori Perolehan and **Kod Bidang**
+- **Harga Indikatif Jabatan — the department's own budget figure**
+
+That last one is unusual and valuable. One item seen today carried an indicative
+price of **RM 8,818,000**. You can see the budget before deciding whether to
+chase, which is more than most private buyers will ever tell you.
+
+## Kod Bidang is the real filter — and I could not confirm yours
+
+The free-text search on the portal did not filter under automation, and searching
+by title is the wrong approach anyway. **Tenders are tagged by Kod Bidang, the MOF
+registration field code.** You register under specific codes and then filter on
+them.
+
+ePerolehan publishes the authoritative list as **"SENARAI KOD BIDANG PENDAFTARAN
+BEKALAN DAN PERKHIDMATAN"** (a PDF on eperolehan.gov.my). One heading visible in
+search results is *"Perabot, Perabot Makmal dan Kelengkapan Berasaskan
+Kayu/Rotan/Fabrik"* — wood, rattan and fabric furniture, which is **not** you.
+
+**Your products are steel.** There will be a separate code for metal furniture,
+steel cabinets and racking, and probably another for workshop and laboratory
+equipment. **I did not guess at the numbers, because registering under the wrong
+Kod Bidang means the right tenders never reach you.** Read the official list and
+pick the codes together.
+
+## Practical notes
+
+- **ePerolehan runs weekly maintenance, Friday 10:00pm to Saturday 6:00am.** Plan
+  around it.
+- Several agencies also run their **own** eperolehan portals — KEJORA and UPNM
+  were both seen. MyProcurement does not necessarily carry everything.
+- MyProcurement notes that supply and service adverts appear there **later** than
+  the original invitation date, and points to ePerolehan for the freshest view.
+  So the free feed lags slightly. That is an argument for registering once the
+  volume justifies it.
+
+## Tabs open for the joint session
+
+1. MyProcurement — **Iklan Tender** (1,082 live)
+2. MyProcurement — **Iklan Sebut Harga** (3,978 live)
+3. **MIDA** announcements and media releases
+4. **ePerolehan** — annual ministry procurement plan
+5. ePerolehan portal
+
+## Next, in order
+
+1. **Find the right Kod Bidang codes** from the official ePerolehan list. Nothing
+   else works until this is right.
+2. **Read one week of Sebut Harga** filtered to those codes. Count the items that
+   are genuinely your product and add up the indicative prices. That tells you
+   whether the RM450 is worth it — with evidence rather than a guess.
+3. **Read KEPUTUSAN** for the same codes to see who keeps winning and at what
+   price. Advance Team Solution Sdn Bhd already showed up on the school locker
+   tender; there will be four or five names that recur.
+4. Then register, and only then.
