@@ -78,5 +78,8 @@ Allow: /
 
 Sitemap: https://www.storagesystem.com.my/sitemap.xml
 
+# Guidance for LLMs and AI crawlers
+# https://www.storagesystem.com.my/llms.txt
+
 # IndexNow key location
 # https://www.storagesystem.com.my/b1dd499f0665531b994a037ac9cc3027.txt

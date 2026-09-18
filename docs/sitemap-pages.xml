@@ -80,4 +80,16 @@
       <image:title>Returns &amp; Warranty Policy | Primaxs Tanko Malaysia</image:title>
     </image:image>
   </url>
+  <url>
+    <loc>https://www.storagesystem.com.my/privacy/</loc>
+    <lastmod>2026-09-18</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://www.storagesystem.com.my/terms/</loc>
+    <lastmod>2026-09-18</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
 </urlset>
