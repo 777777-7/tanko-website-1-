@@ -130,7 +130,7 @@ ul { padding-left: 1.25em; }
 .mega-item .mi-name { font-weight: 600; font-size: .92rem; color: #fff; }
 .mega-item .mi-desc { font-size: .78rem; color: var(--ink-muted); line-height: 1.35; }
 .mega-foot { border-top: 1px solid var(--line); margin-top: .75rem; padding-top: .75rem; }
-.mega-foot a { font-weight: 600; font-size: .9rem; color: var(--accent); }
+.mega-foot a { font-weight: 700; font-size: .95rem; color: #d92b2b !important; }
 
 .dropdown { min-width: 260px; padding: .45rem; max-height: calc(100vh - 120px); overflow-y: auto; overscroll-behavior: contain; }
 .dropdown a { display: block; padding: .55rem .65rem; border-radius: 7px; color: var(--ink); font-size: .9rem; }
@@ -1503,7 +1503,7 @@ a:hover { color: var(--accent); }
 .mega-item .mi-name { color: var(--ink); }
 .mega-item .mi-desc { color: var(--ink-muted); }
 .mega-foot { border-top: 1px solid var(--line); }
-.mega-foot a { color: var(--accent); }
+.mega-foot a { color: #d92b2b !important; font-weight: 700; }
 
 .mobnav summary { background: var(--surface); color: var(--ink); border: 1px solid var(--line); }
 .mobnav-panel {
