@@ -175,3 +175,96 @@ confirm that 020101, 130101 and 060501 still read the same.** Codes get
 renumbered between versions, and registering under a stale code means the right
 tenders never reach you. That check takes two minutes and I could not do it last
 night.
+
+---
+
+# REALITY CHECK — "will they really choose an importer?"
+
+Wei Ming asked this before spending anything. It is the right question and it
+changes the answer materially. **Importing is not the obstacle. Bumiputera status
+is.**
+
+## Importing is not the problem
+
+You are a Malaysian Sdn Bhd, MOF-registrable, invoicing in Ringgit, warehousing in
+Selangor. **That is a local supplier.** A large share of MOF-registered suppliers
+import what they sell; nobody is required to manufacture.
+
+The local-content rules people worry about are aimed at *foreign companies* and at
+*international tenders*. Government policy says it will only go to international
+tender when no local product meets the requirement, and that foreign firms usually
+need a local partner. **None of that describes you.**
+
+**The empirical proof:** the Ministry of Education school locker tender was won by
+**Advance Team Solution Sdn Bhd**, incorporated 2017, based in Puchong. Their own
+description is *"consultant in the field of mechanical and mechatronics equipment
+supply… collaborates with reputable principals and partners"*. **They are a
+supplier working with principals, not a manufacturer.** A non-manufacturer won a
+national school locker rollout. That is your answer on the import question.
+
+## The real gate: Bumiputera thresholds on supply
+
+| Procurement value | Who may bid |
+|---|---|
+| Up to RM50,000 | Pembelian terus / sebut harga. Agencies must do market research and must not rely on set suppliers |
+| **RM50,000 – RM100,000** | **Bumiputera MOF-registered suppliers only** |
+| **RM100,000 – RM500,000** | Open to all local MOF-registered firms, **but price preference to Bumiputera** |
+| Above RM500,000 | Open tender, all eligible |
+
+Bumiputera status for MOF purposes normally requires **51% Bumiputera equity,
+directors, key management and employees**, with genuine Bumiputera control.
+
+**If Primaxs is not a Bumiputera company:**
+
+- The **RM50k–100k band is closed to you entirely.** Do not spend time there.
+- **RM100k–500k is open but you carry a price handicap.** Winnable on
+  specification, not on price.
+- **Above RM500k is genuinely open.**
+- **Below RM50k is the quiet one** — direct purchase and small quotations, where
+  the agency is buying a handful of cabinets and cares more about spec and
+  delivery than about a tender process.
+
+## Where you actually win, and where you never will
+
+**You will lose every time on a generic spec.** "200 steel lockers, 6 compartment"
+is a commodity. Malaysia has many steel furniture manufacturers, they do not pay
+freight from Taiwan, and on a like-for-like line item they will beat you on price
+and on the local-product preference at the same time. Chasing those is how you
+waste the RM450.
+
+**You win where the specification is beyond what a generic local fabricator
+makes:**
+
+- **CNC tool storage** fitted for BT-30/40/50, HSK-40/63 and ISO holders
+- **ESD and cleanroom workstations**
+- **Heavy duty cabinets with 200 kg T-drawers and 100% extension** — the spec you
+  posted about this week
+- **Stainless steel workbenches** for food, pharma and wash-down
+- **TVET and polytechnic workshop fit-outs**, where the requirement is a working
+  teaching workshop rather than a furniture list
+
+That last one is the sweet spot, and it is why **`130101` Mesin Dan Kelengkapan
+Bengkel matters as much as `020101`.** A workshop fit-out is judged on whether the
+equipment teaches the syllabus, not on price per locker.
+
+## So: honest verdict
+
+**Worth doing, but not the way most people do it.** Do not treat MyProcurement as
+a place to bid on lockers. Treat it as:
+
+1. **A free market-intelligence feed.** KEPUTUSAN tells you who keeps winning, at
+   what price, for which agency. That alone is worth the hour.
+2. **A source of spec-driven jobs** — workshop and laboratory fit-outs where Tanko
+   is genuinely the better answer.
+3. **A route to agencies you can then sell to directly** below tender thresholds,
+   once they know you.
+
+**The private-sector new-plant route from the earlier research is still the
+stronger play**, because none of these thresholds or preferences apply there. A
+factory facilities manager buys what works.
+
+## The one thing that decides this
+
+**Is Primaxs a Bumiputera-status company?** That single fact decides whether the
+RM50k–100k band exists for you and how much of a handicap you carry in
+RM100k–500k. Answer that before paying the RM450.
