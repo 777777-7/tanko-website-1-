@@ -161,6 +161,59 @@ afterwards in Business Suite 广告帖: no ad created, the only entry is 6 Sep.
 **Missed check:** GBP already had a steel locker post two days earlier. Look at
 the existing GBP post list before choosing a topic, not just the Facebook page.
 
+## 18 Sep -- heavy duty tool cabinets (distribution of Wei Ming's own posts)
+
+Wei Ming had already published two tool cabinet posts to the Page himself before
+asking for promotion: an English one 8 hours earlier ("The number one reason tool
+cabinets get replaced is not rust") and a Chinese one 2 hours earlier ("工具柜最常见
+的报废原因不是生锈"). Both carry an image and a link card to
+/tool-cabinet/. He chose to distribute those rather than publish a competing post.
+
+Both cover load capacity per drawer (100kg standard / 200kg T) and full vs partial
+extension. Language matched to audience: Chinese post to the Chinese-language
+groups, English post to the English and Malay ones, each with a one-line intro.
+
+**Confirmed live (3):**
+- Iklan Bengkel-Bengkel Malaysia (CN)
+- Hardware Tools Global Sourcing and Supply (EN)
+- 五金交流区～品牌～发展～批发 Supplier Hardware (CN)
+
+**Submitted, Facebook returned "已分享到你的小组", not visible in the group feed
+even with CHRONOLOGICAL sorting -- almost certainly held for admin approval (6):**
+- 五金机械批发/零售 (CN)
+- 马来西亚机械与模具工业技术交流平台 (CN)
+- 马来西亚建筑五金门业广告群 (CN)
+- Malaysia Agriculture & Industry Machinery Traders (EN)
+- Workshop Bengkel kereta seluruh Malaysia (EN)
+- MALAYSIA CONSTRUCTION MACHINERY (EN)
+
+Deliberately skipped Jual Beli Barang Hardware/Tools, which removed the 16 Sep
+post as spam.
+
+**Still outstanding for 18 Sep: Google Business Profile and LinkedIn.**
+
+### Three things that went wrong, and the rules that come out of them
+
+1. **The first attempt typed the whole post body into a comment box, not the
+   composer.** `document.querySelector('div[contenteditable="true"][role="textbox"]')`
+   matched the comment field of the post underneath the modal. Nothing was ever
+   submitted and the draft was cleared, but Facebook persists comment drafts across
+   a reload, so it took real ctrl+A and Delete on the focused field to remove.
+   **Always scope the selector to the dialog:
+   `dlg.querySelector(...)` where dlg matches `创建帖子`, never the document.**
+
+2. **A JS helper reported success it had not verified.** It returned "clicked
+   publish" and I read that as published, then reported six groups as done on that
+   basis. **A helper must return the observed outcome, not the action attempted.**
+
+3. **Checking a group's default feed does not prove a post is missing.** The feed
+   sorts by relevance, and Page posts in moderated groups never appear at all.
+   The reliable receipt is the green "已分享到你的小组" toast at the moment of
+   publishing. **Screenshot immediately after clicking 发布 and read the toast.**
+
+Also confirmed: a real mouse click at the publish button's computed centre works;
+a synthetic `.click()` on it is unreliable in this dialog.
+
 ## Two rules added 15 Sep
 1. **Every post carries an image.** No exceptions, on any channel.
 2. **Every Facebook Page post is cross-posted to groups** — 下一页 → 帖子设置 →
