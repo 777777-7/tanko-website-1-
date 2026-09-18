@@ -2026,6 +2026,7 @@ body.home-v4 .nav-list > li:hover > .nav-toggle {
 }
 /* Spec cards that carry no drawing: there is no image column to reserve,
    so give the table the full card width instead of a 280px sliver. */
+.pfeat li.pf-spec-wide { grid-column: 1 / -1 !important; }
 .pfeat li.pf-has-spec.pf-spec-wide { grid-template-columns: minmax(0, 1fr) !important; }
 
 .pfeat li.pf-has-spec .pf-img { aspect-ratio: 1/1; padding: 20px; border-bottom: 1px solid var(--line); }
