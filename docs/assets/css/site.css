@@ -2045,8 +2045,14 @@ body.home-v4 .nav-list > li:hover > .nav-toggle {
 .pf-spec-table tbody th { width: auto !important; min-width: 100px; text-align: left; padding-left: 14px !important; }
 .pf-spec-table tbody td { text-align: center; }
 
-/* Enforce a sane column layout â€” first col (label) 25%, remaining cols share equally */
+/* Enforce a sane column layout — first col (label) 25%, remaining cols share equally */
 .pf-spec-table thead th:first-child, .pf-spec-table tbody th { width: 25%; }
+
+/* Mobile: allow horizontal scroll for wide spec tables so they stay readable */
+@media (max-width: 700px) {
+  .pf-spec-table-wrap { overflow-x: auto !important; -webkit-overflow-scrolling: touch; border: 1px solid var(--line); border-radius: 4px; }
+  .pf-spec-table { min-width: 480px; width: 100%; }
+}
 
 /* â•â•â•â•â•â•â•â•â•â•â• v2.4 â€” accessory image never crops; spec-block wide â•â•â•â•â•â•â•â•â•â•â• */
 .pfeat li.pf-has-spec .pf-img {
@@ -2586,3 +2592,27 @@ body.home-v4 .nav-list > li:hover > .nav-toggle {
 @media (max-width: 979px) {
   .mob-search-btn { display: inline-flex; margin-left: auto; margin-right: .5rem; flex: 0 0 auto; }
 }
+
+/* ---- drawer configuration row diagrams: natural wide rectangle, not cropped ---- */
+.variant-gallery img.spec-row-img {
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+    max-height: none !important;
+    object-fit: contain !important;
+    margin: 14px 0 0 !important;
+    border-top: 1px solid var(--line);
+    padding-top: 14px;
+    mix-blend-mode: multiply;
+}
+.pspec-image img {
+    width: 100%;
+    height: auto;
+    max-height: none;
+    object-fit: contain;
+}
+
+/* ---- wide configuration row diagrams span full width, natural rectangle ---- */
+.pfeat li.pf-rowdiag { grid-column: 1 / -1 !important; }
+.pfeat li.pf-rowdiag .pf-img { aspect-ratio: auto !important; padding: 0 !important; border: 0 !important; background: #fff; }
+.pfeat li.pf-rowdiag .pf-img img { width: 100% !important; max-width: 100% !important; height: auto !important; max-height: none !important; object-fit: contain !important; mix-blend-mode: multiply; }
