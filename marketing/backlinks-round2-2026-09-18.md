@@ -195,3 +195,65 @@ from 13 Sep and was hand-verified then.
 **Not verified:** whether NEWPAGES' microsite tier is still offered or what it
 costs; whether Metaltech will list a non-exhibitor; Yellow Pages MY and
 InfoisInfo, both of which block automated fetching.
+
+---
+
+# RESULTS — executed 18 September, evening
+
+## Sent
+
+**NEWPAGES** — sent 18:21 from `sales@storagesystem.my` (the Gmail send-as alias
+Wei Ming set up), single recipient `sales@newpages.com.my`. Names the five
+competitor `.n.my` subdomains and asks four questions: which plan includes the
+microsite, the annual cost, whether ~1,700 SKUs can be bulk-imported, and
+**whether the microsite link to www.storagesystem.com.my is followed rather than
+nofollow**. Verified in the Sent folder.
+
+**Tanko** — already covered. The Sent folder shows two of Wei Ming's own:
+"Follow up: Malaysia is the only distributor with no website link on your
+location page" (17 Sep) and "please add our website to the distributor listing"
+(00:01 today). Nothing further needed from me.
+
+## Created
+
+**BeOnline** — company listing created and saved: full medium description,
+`https://www.storagesystem.com.my`, `sales@storagesystem.my`, phone, industry
+"Industrial Equipment Supplier", registration 200601036829 (756588-H), founded
+2006. Live slug `beonline.com.my/company/primaxs-marketing-m-sdn-bhd`.
+**Status: Pending** their approval.
+
+## The finding that matters — I tested all three free tiers and none gives a usable link
+
+This is the part worth reading. Each of these was checked on the public page as a
+visitor would see it, not in the dashboard.
+
+| Directory | Free tier reality | Verified how |
+|---|---|---|
+| **B2BMap** | **The website is not rendered on the public profile at all** — not as a link, not even as plain text. The URL sits in the dashboard and is simply not published | Loaded `b2bmap.com/primaxs-marketing` in a clean browser: zero outbound links to the domain, and the string "storagesystem" does not appear in the page text |
+| **MalaysiaListings** | **"Unlimited listing duration with a no-follow website link"** — their own wording on the plan card. The $3 Essential tier says "permanent **dofollow** website link" | Read directly off the plan comparison |
+| **BeOnline** | Its own SEO panel reads **"Dofollow Links: No"** and **"Show on Google: No"**. Both are paid upgrades | Read off the company profile page after creating the listing |
+
+**So the free-directory route delivers no link equity.** That is three for three,
+and it is consistent with what the 5 Sep audit found: free and no-signup
+directories are rare, and where they exist the link is deliberately withheld as
+the thing you pay for.
+
+The listings still have mild value as NAP citations, which helps local and map
+results. They will not help rankings.
+
+**I did not buy anything.** The MalaysiaListings $3 dofollow upgrade is the only
+cheap option on the page and it is a purchase, so it is Wei Ming's call. At $3
+one-time it is probably worth it; at B2BMap's $45/month it is clearly not.
+
+## Still open
+
+- **Informa Markets / Metaltech** — not sent. The only address I could find is a
+  named individual from a search snippet (`geonice.chong@informa.com`), and
+  `metaltech.com.my` returns 403 to every fetch method, so I could not verify a
+  general enquiry address. Worth doing, but I would rather confirm the recipient
+  than email a person whose role I inferred.
+- **all.biz** — logged in at `profile.all.biz/account` but the public listing
+  `4617-my.all.biz` still shows no link and no claim control was visible on it.
+- **interepo** — claim at `interepo.com/claim/2756280` needs the account flow
+  completed.
+- **MalaysiaListings** — free listing not created, pending the $3 decision.
