@@ -1,0 +1,177 @@
+# Kod Bidang, and the list to settle — 19 September 2026
+
+Wei Ming asked for this to be ready for the morning. Everything below is from the
+official MOF field-code list; the source caveat is at the bottom and you should
+read it before you pay for anything.
+
+---
+
+## 1. The answer: which Kod Bidang to register under
+
+The code is six digits, built as **MAIN(2) + SUB(2) + ITEM(2)**. I confirmed the
+format against a live tender on MyProcurement tagged `050201`, which decodes
+correctly against the list.
+
+### Your primary code
+
+> ## `020101`
+> **Perabot, Perabot Makmal Dan Kelengkapan Berasaskan Kayu/ Rotan/ Fabrik/
+> Logam/ Plastik (Workstation)**
+>
+> `02` PERABOT, PERALATAN PEJABAT, HIASAN DALAMAN DAN DOMESTIK
+> &rarr; `01` Perabot, Kelengkapan Dan Aksesori
+> &rarr; `01` the item above
+
+**This is the one that matters.** The wording explicitly includes **Logam**
+(metal) and **Perabot Makmal** (laboratory furniture) and names **Workstation**.
+That covers your workbenches, workstations, tool cabinets, steel lockers, parts
+and document cabinets, and racking.
+
+**I checked specifically and there is no separate code for racking, shelving,
+lockers or storage.** Searching the whole list for `rak`, `stor`, `gudang`,
+`keluli` and `besi` returns nothing relevant. Steel storage sits inside 020101.
+So do not go looking for a better-fitting code — this is it.
+
+### Two secondary codes worth considering
+
+> ### `130101` — **Mesin Dan Kelengkapan Bengkel**
+> `13` PERALATAN KEJURUTERAAN DAN MESIN PENGELUARAN
+> &rarr; `01` Mesin, Kelengkapan Bengkel Dan Mesin Pengeluaran &rarr; `01`
+
+Workshop machinery and equipment. Worth having because **TVET, polytechnic and
+vocational workshop fit-outs** are often written under engineering equipment
+rather than furniture. The live TVET automotive workshop item found yesterday is
+exactly this shape.
+
+> ### `060501` — **Peralatan Makmal Serta Aksesori**
+> `06` KIMIA, BAHAN KIMIA DAN PERALATAN MAKMAL
+> &rarr; `05` Peralatan Makmal &rarr; `01`
+
+Laboratory equipment and accessories. Only worth it if you intend to chase
+laboratory fit-outs. Lab *furniture* is already inside 020101, so this is
+optional.
+
+### One thing not to tick
+
+Every category ends with a **`99 — Pembuat`** (manufacturer) item. **You are a
+distributor, not the manufacturer.** Register as supplier under the item codes
+above, not under Pembuat. Tanko is the manufacturer, and it is in Taiwan.
+
+---
+
+## 2. What registration actually costs and gives
+
+| | |
+|---|---|
+| **MOF account** | **RM450 for 3 years** |
+| What it unlocks | Bidding on federal tenders and sebut harga above RM20,000 |
+| What it does **not** unlock | Reading the adverts — that is already free on MyProcurement |
+| Basic account | Individual with MyKad, capped at RM20,000. Not useful for an Sdn Bhd |
+
+**Do not pay yet.** Do step 4 first.
+
+---
+
+## 3. What is live right now, counted yesterday
+
+| Feed | Live items |
+|---|---|
+| Iklan **Sebut Harga** | **3,978** |
+| Iklan **Tender** | **1,082** |
+| **Total** | **~5,060** |
+
+**Work the Sebut Harga feed, not the tender feed.** Sebut harga are the smaller
+jobs. The big tenders go to contractors with bonding capacity; sebut harga is
+where a Selangor distributor holding stock actually competes.
+
+Every advert publishes: closing date, ministry, **agency (so you know who to
+call)**, Kod Bidang, and **Harga Indikatif Jabatan — the department's own budget
+figure.** One item carried RM 8,818,000. Very few private buyers will ever tell
+you their budget up front.
+
+---
+
+## 4. The list to settle tomorrow
+
+### Morning, 30 minutes, free
+
+1. **Open MyProcurement &rarr; Iklan Sebut Harga.** Filter by Kod Bidang
+   **020101**. Count how many items are genuinely your product and add up the
+   indicative prices.
+2. **Repeat for `130101`.**
+3. **Open KEPUTUSAN** (results) for the same two codes. Note which companies keep
+   winning and at what price. **Advance Team Solution Sdn Bhd** already surfaced
+   on the Ministry of Education school locker tender — expect four or five names
+   to recur. That tells you the real competition and the real price level.
+
+**After that hour you will know whether RM450 is worth it, with evidence instead
+of a guess.** If the answer is yes, register. If the volume is thin, you have
+lost nothing.
+
+### Then, the free fix that has nothing to do with portals
+
+4. **Write the deal registration policy.** One page. First dealer to register an
+   end-user and project with you gets protected pricing for 60 or 90 days; anyone
+   else asking you to quote that same job gets list price.
+
+   This is the thing that actually solves the problem you described — three
+   dealers quoting one factory, all buying from you, competing Tanko's street
+   price down. You hold the exclusive distributorship, so you set the terms. It
+   costs nothing and risks no dealer relationship, unlike going direct.
+
+### Weekly habit, 20 minutes
+
+5. **Scan MIDA announcements and InvestPenang news** for new plants in Selangor,
+   Penang and Johor. Log company, location, floor area, headcount, expected
+   completion.
+
+   **The window is 6 to 18 months after groundbreaking, during fit-out.** MKS
+   Instruments' Penang plant — 17 acres, ~500,000 sq ft, ~1,000 employees — is
+   exactly the profile. A thousand staff is a locker order in the hundreds.
+   Winner Sky and SkyGate both *opened* this year, which means their storage was
+   bought months ago. **Groundbreaking is the lead. Opening is the post-mortem.**
+
+### Slow burn, start soon
+
+6. **Pick ten target plants and begin vendor registration.** Most MNC plants buy
+   indirect and MRO from an approved vendor list, and by the time a requirement
+   exists the shortlist is set. Routes vary — own portal, SAP Ariba, Coupa,
+   Zycus. There is no aggregator and no shortcut.
+
+---
+
+## 5. Practical notes that will save you time
+
+- **ePerolehan runs weekly maintenance, Friday 10:00pm to Saturday 6:00am.** It
+  returned 503 to me during that window last night.
+- **Several agencies run their own portals** — KEJORA and UPNM both have their
+  own eperolehan sites. MyProcurement does not carry everything.
+- **MyProcurement lags.** Its own notice says supply and service adverts appear
+  there later than the original invitation date, and points to ePerolehan for the
+  current view. That is the honest argument for registering once volume justifies
+  it.
+- **Search in Malay.** `lokar`, `almari`, `meja kerja`, `rak`, `bengkel`,
+  `perabot`, `kabinet`, plus `TVET`, `politeknik`, `kolej vokasional`, `makmal`.
+  English terms find almost nothing.
+- The 2025 Government Procurement Act introduces a **novation offence** aimed at
+  the fronting model — registering and then handing the job to someone else. If
+  you win it, deliver it yourself.
+
+---
+
+## 6. Source caveat — read before you pay
+
+The code list above is from **"Senarai Kod Bidang Bekalan Dan Perkhidmatan, Versi
+2.0, 10/01/2023"**, the official MOF registration list.
+
+**I read it from a third-party mirror, not from eperolehan.gov.my**, because the
+official server was inside its Friday maintenance window and returned 503 to
+every request. The document is the genuine MOF list and internally consistent —
+the hierarchy decodes correctly against a live tender code — but it is **dated
+January 2023**.
+
+**Before you pay the RM450, open the current copy on eperolehan.gov.my and
+confirm that 020101, 130101 and 060501 still read the same.** Codes get
+renumbered between versions, and registering under a stale code means the right
+tenders never reach you. That check takes two minutes and I could not do it last
+night.
