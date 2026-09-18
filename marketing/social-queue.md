@@ -190,7 +190,28 @@ even with CHRONOLOGICAL sorting -- almost certainly held for admin approval (6):
 Deliberately skipped Jual Beli Barang Hardware/Tools, which removed the 16 Sep
 post as spam.
 
-**Still outstanding for 18 Sep: Google Business Profile and LinkedIn.**
+**Google Business Profile** -- published with the EA-7042T photo and a 1,045
+character description: drawer slides binding under load, load capacity per drawer
+(100kg standard / 200kg T), 90% vs 100% extension, cabinet sizes, ten drawer
+heights, division boxes, the delivery offer and the range URL. Checked the
+existing post list first this time -- the newest was steel lockers 1 day earlier
+and there was no heavy duty cabinet post at all, so no duplicate. The "Learn more"
+button was skipped again; the URL sits in the body text.
+
+The image needed the iframe workaround: a shim `input[type=file]` in the top
+document, then a `File` re-created inside the iframe's own window and delivered
+by a synthetic `drop` on the zone matching `拖动到此处`. Direct assignment to the
+iframe's file input is rejected. **The drop landed the image twice and one copy
+had to be deleted** -- check the thumbnail count before publishing.
+
+**LinkedIn** -- published from Wei Ming's personal profile, confirmed by the "Post
+successful" dialog and visible in the feed. Link preview card resolved to
+"Tool Cabinet - H700 — Heavy Duty (EA-7041) | Primaxs" with the cabinet
+thumbnail, which is what carries the image since the photo picker still cannot be
+driven. LinkedIn's composer is not reachable by `querySelector` at all, so the
+text went in with real keystrokes; multi-line `type` works and newlines do not
+submit. **Declined the "Share this post on your page" prompt** -- posting to the
+company page is a separate channel and was not asked for.
 
 ### Three things that went wrong, and the rules that come out of them
 
