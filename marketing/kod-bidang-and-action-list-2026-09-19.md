@@ -357,3 +357,53 @@ fabricators who pay none. You will lose on price every time, and you should.
 channel for you, not the answer to the dealer-margin problem you started with. The
 answer to that problem is still deal registration, and the answer to growth is
 still the factories being built right now in Penang, Selangor and Johor.
+
+---
+
+# CODE VERIFICATION — 19 September, afternoon
+
+The caveat about the January 2023 mirror is now largely closed. I could not read
+the official PDF directly — **eperolehan.gov.my blocks automated requests**
+("Your request was blocked for security reasons") and MyProcurement refuses
+navigation from my browser — but both codes are corroborated by independent
+current sources, including a 2026 edition of the list.
+
+| Code | Wording confirmed in 2026 | Status |
+|---|---|---|
+| **020101** | *"Perabot, Perabot Makmal dan Kelengkapan Berasaskan Kayu/ Rotan/ Fabrik/ Logam/ Plastik (Workstations)"* | **Unchanged since 2023. Confirmed** |
+| **130101** | *"Mesin Dan Kelengkapan Bengkel"*, under *"Mesin, Kelengkapan Bengkel Dan Mesin Pengeluaran"* | **Unchanged. Confirmed** |
+
+**Treat 020101 as settled.** The wording is identical to the 2023 list, it still
+includes Logam and Perabot Makmal, and it still names Workstation.
+
+## Two new things worth knowing
+
+**1. You may hold up to 30 kod bidang on one registration.**
+
+So there is no reason to be stingy. Register 020101 as the core, add 130101, and
+add 060501 if laboratory work interests you. The cost is the same RM450 either
+way, and a code you do not use costs nothing while a code you lack means the
+tender never reaches you.
+
+**2. Some codes require a site verification visit — check whether 130101 does.**
+
+Sources describing 130101 mention supporting evidence along the lines of an
+equipment and facilities list, photographs of machinery, permanent signage, and
+interior and exterior views of the workshop. **I am not certain that requirement
+attaches to 130101 itself** rather than to the vehicle-workshop service codes
+nearby, and I do not want to assert it.
+
+**Why it matters to you:** you run a distribution warehouse in Selangor, not a
+machining workshop. If 130101 requires a workshop inspection you may not qualify,
+or may need to present the warehouse and installation setup instead.
+
+**Ask this directly when you register.** It is a two-minute question to the MOF
+registration unit and it decides whether 130101 is available to you at all.
+Nothing about 020101 depends on the answer.
+
+## What remains genuinely unverified
+
+The counting exercise. **I could not reach MyProcurement from either browser**, so
+I have not been able to filter the Sebut Harga feed by 020101 and 130101 and total
+the indicative prices. That is still the step that turns the RM450 into a decision
+rather than a guess, and it needs your own browser.
