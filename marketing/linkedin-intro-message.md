@@ -101,3 +101,59 @@ attempts, no dialog. That is the platform slowing things down.
 **The right response is to stop, not to keep clicking.** Persisting is what turns
 throttling into a restriction. A handful of messages per session, spread out, is
 the sustainable pace.
+
+---
+
+# Confirmed in practice — 20 September 2026
+
+## The link preview is the image. Settled.
+
+Sending to Harvinderpal Singh rendered a card in the thread reading
+**"Industrial Workbenches Malaysia — from RM904 | storagesystem.com.my"**, with the
+product photo.
+
+**No attachment is needed on LinkedIn, and none is possible.** I checked the DOM
+inside an open composer: there are **zero `input[type=file]` elements**. LinkedIn
+creates one only at the moment you click the image button, and that click opens a
+native Windows file dialog which cannot be seen or controlled, and which freezes
+the whole browser until dismissed. Do not click it.
+
+**Facebook is the opposite** — its file input exists in the DOM and accepts a
+programmatic upload. Open the composer, find the input, upload to it. Never click
+Facebook's 照片/视频 button either, for the same native-dialog reason.
+
+## Wei Ming's correction: no delivery or lead-time claims
+
+He asked for these removed from outreach on 20 Sep. **Cut from all messages:**
+
+- "3 to 7 working days rather than a 6 to 9 week import"
+- "free delivery and installation within Selangor and KL"
+- "our own installation crew"
+
+**Keep:** who he is, exclusive Tanko distributor since 1975, Samsung, the product
+list, made in Taiwan, stock held in Selangor, the link, and the exit line.
+
+The commercial offer still belongs in **promotional posts** — see
+[[project-commercial-offer]]. This restriction is for one-to-one outreach only,
+where a lead-time promise to a stranger is a commitment he may not want to make
+before seeing the requirement.
+
+## LinkedIn throttles at roughly four messages
+
+Tonight: two messages, then an InMail, then one more — and the composer stopped
+opening. Same pattern as the previous session, which stalled after two messages
+and an invite.
+
+**Four per session, then stop.** Persisting is what converts throttling into a
+restriction, and this is the account that carries his professional identity.
+
+## Premium Business is active
+
+Renews 20 October 2026, so the free month runs until then. **15 InMail credits per
+month, 14 remaining.** InMail reaches 3rd-degree people directly, which is what
+made the BAC plant manager reachable at all.
+
+**Screen out "Open to work" before spending anything.** Three of the first five
+prospects found were job-hunting, including a BASF Facilities Manager and a
+Nexperia engineer. Someone leaving is not a champion and will not be there when a
+fit-out lands.
