@@ -2647,3 +2647,22 @@ footer address { font-style: normal; line-height: inherit; }
 .author-box p:last-child { margin-bottom: 0; }
 .article-meta .author-name { font-weight: 600; }
 .article-meta time { white-space: nowrap; }
+
+/* Accessibility: skip link. Visually hidden until focused by keyboard. */
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  z-index: 9999;
+  padding: 10px 16px;
+  background: var(--accent, #c8102e);
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 0 0 4px 0;
+}
+.skip-link:focus {
+  left: 0;
+  outline: 3px solid #fff;
+  outline-offset: -6px;
+}
