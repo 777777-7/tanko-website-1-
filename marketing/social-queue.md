@@ -265,3 +265,39 @@ went out as the Page, so approvals land in the Page's notifications, not his.
 profile's, and do it within a day or two while the "已交叉发布到X" notices are still
 in the list. Those notices are the only reliable receipt Facebook gives after the
 green toast.
+
+## 20 Sep -- CNC tool storage, Page + 10 groups
+
+**Published and cross-posted to ten groups.** Best distribution yet: on 18 Sep only
+3 of 9 confirmed and 6 sat pending admin approval. This time all ten landed.
+
+Groups confirmed from the "你的帖子已交叉发布到X" notifications, which are the only
+reliable receipt:
+
+Iklan Bengkel-Bengkel Malaysia · 马来西亚机械与模具工业技术交流平台 · Workshop
+Bengkel kereta seluruh Malaysia · 五金机械批发/零售 · 五金交流区～品牌～发展～批发
+Supplier Hardware · Hardware Tools Global Sourcing and Supply · Jual Beli Barang
+Hardware/Tools · MALAYSIA CONSTRUCTION MACHINERY · Malaysia Agriculture & Industry
+Machinery Traders · 马来西亚建筑五金门业广告群
+
+**Jual Beli Barang Hardware/Tools accepted it** — that is the group which removed
+the 16 Sep post as spam. Worth keeping in rotation rather than skipping.
+
+Image: `asset3__EA-10031-111MN.jpg`, the CNC trolley showing red BT-30 sockets and
+drawer heights 150 / 350T / 400T. Link: `/cnc-tool/`.
+
+### Two mechanics worth keeping
+
+**Upload the image programmatically, never click 照片/视频.** Clicking it opens a
+native Windows file dialog that cannot be seen or controlled and which freezes the
+entire browser until dismissed by hand. Instead: open the composer, locate the
+hidden `input[type=file]` in the post dialog, and upload straight to it. Image
+first, then type — the text survives.
+
+**A hung 帖子设置 dialog does not mean the post failed.** The settings step froze on
+skeleton placeholders for 25+ seconds, the back button went dead, and a screenshot
+timed out with the renderer unresponsive. **It had already published server-side.**
+I started a second identical post and only caught it because a cross-post
+notification appeared mid-way through.
+
+**Always check the Page before retrying a post that appeared to fail.**
