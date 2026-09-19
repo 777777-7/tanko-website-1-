@@ -130,3 +130,86 @@ exposure is.** The ranking is about right; the reason was wrong.
 I also recorded "1 day payment" as a benefit on their say-so without reading
 clause 7.1. That is the same mistake as the ranking claim in the Tai Sam draft:
 repeating a party's own marketing without checking the document underneath it.
+
+---
+
+# How uploading actually works — read before submitting anything
+
+Checked on the Lapasar vendor portal walkthrough, 19 September 2026, after Wei Ming
+completed registration.
+
+## The thing that would have cost you money
+
+> *"For each product: **your unit cost in MYR (your wholesale price to Lapasar —
+> not what the client sees)**, MOQ and lead time, the Malaysian states you deliver
+> to, and a Valid Until date for your quote."*
+
+**The price you submit is your wholesale price TO Lapasar, not your retail price.**
+Lapasar marks it up and the client sees their number, not yours.
+
+**So do not submit the prices published on storagesystem.com.my.** Those are retail.
+Loading 1,591 retail prices as wholesale costs would mean Lapasar sells above you
+while you earn a wholesale margin on a retail number — you would be undercutting
+your own website and losing margin on every unit.
+
+This also answers the undisclosed "Transaction Fee" question from earlier. It is
+not a commission skimmed off your listed price. **You quote a cost, they set the
+sell price.** A different model, and a cleaner one — but only if you quote cost.
+
+## The risk I raised earlier is smaller than I thought
+
+I warned against listing anything on a 6–9 week import lead time, because clause
+3.4 requires shipping within 4–5 business days and clause 9.3 penalises 50–100% of
+order value.
+
+**Lead time is a per-product field.** You declare it per SKU. So import-to-order
+lines can be listed honestly with their real lead time, and the 4–5 day clock is
+about despatch against what you committed, not a blanket promise.
+
+**That materially widens what is safe to list.** The discipline is simply that the
+lead time you enter must be one you can actually meet.
+
+## It is not a self-serve bulk import
+
+> *"Use 'Suggest a Product' for a single new item, or submit your full price list
+> as **Excel or PDF** under **My Catalog** — the Lapasar team uses AI to clean and
+> format it. Bulk submissions are reviewed within 1–2 business days."*
+
+There is no API and no CSV importer to push 1,591 SKUs into. You submit a price
+list file, a human-plus-AI process ingests it, and it is reviewed in 1–2 business
+days.
+
+## Two more things worth knowing
+
+**Multiple vendors quote the same product.** The client picks. Lapasar shows a
+suggested competitive price range per product, and quoting inside it improves your
+odds. Price changes go to Lapasar for approval rather than taking effect instantly.
+
+**This is the part that should shape your expectations.** On your own site you win
+on specification depth, stock, installation and local warranty. On Lapasar a buyer
+sees a product and competing quotes — much of your story is invisible. Treat it as
+a price-led channel.
+
+**Verification badges.** Submit business documents and certifications through the
+portal to earn badges shown next to your products. The walkthrough calls it the
+highest-leverage few minutes in the portal, and given that buyers are comparing
+vendors on the same SKU, that is believable. Your SSM Form 9 and the Tanko
+exclusive distributorship are the documents to put in.
+
+## What is blocking the upload
+
+I have exported all 1,591 products with SKU, name, image, URL and **retail** price.
+That file is ready.
+
+**I cannot complete it, because I do not have your wholesale prices.** Nobody has
+them but you. The export includes two blank columns to fill in:
+
+- `STOCKED_Y_N`
+- `LEAD_TIME_DAYS`
+
+Add a third, `WHOLESALE_PRICE_MYR`, and the file becomes the Excel price list
+Lapasar wants. I can format and submit it from there.
+
+**Suggestion: do not start with all 1,591.** Start with the lines you genuinely
+stock and know your margin on. A short, sharp, accurate catalogue that you can
+always fulfil is worth more than a complete one that trips clause 9.3 once.
