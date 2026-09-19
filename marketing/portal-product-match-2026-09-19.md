@@ -53,3 +53,49 @@ for a month at zero cost.
 **The strongest reason to register anywhere remains the invitation list, not the
 public feed.** Air Selangor, IWK and Prasarana all work that way, and all three are
 free.
+
+---
+
+# CORRECTION — IWK's supplier categories do include your product
+
+I wrote above that the category match was thin. **That was right about this week's
+49 live events and wrong about the registration itself.**
+
+IWK's Contractor & Supplier registration page lists the **Supplier** categories
+explicitly, and these are verbatim from their page:
+
+| Category | Their own description |
+|---|---|
+| **Hardware** | **Tools / power tools / bolts & nuts** |
+| **Furniture / Building Maintenance** | — |
+| **Office Equipment** | — |
+| **Office Supplies** | — |
+| **Safety equipment** | Tripod / gas detector |
+| **General supplies** | — |
+| **Laboratory** | Chemicals / equipment / analysis |
+| **Renovation** | — |
+
+**Hardware (Tools) and Furniture are both explicit supplier categories.** Tool
+cabinets and CNC storage register under Hardware; lockers, workbenches and
+cabinets under Furniture / Building Maintenance.
+
+And the page states the mechanism in one line:
+
+> *"Only registered Contractor/Supplier will be listed in the tender invitation
+> list for tender in any Indah Water Projects."*
+
+**So the public feed was never the point.** You register into a category and get
+invited. Browsing 49 live events told me nothing about how much Hardware and
+Furniture IWK buys in a year — only that none of it was open this week.
+
+## Also important: CIDB and SPAN do not apply to you
+
+Their requirements page tags SPAN and CIDB as **"- Contractors"**, and the
+Contractor section says registration with CIDB and SPAN is compulsory *"for all
+construction works involving Capital Works and Refurbishment."*
+
+**You are registering under Supplier (Section B), not Contractor (Section A).**
+Nothing in the Supplier path requires CIDB, SPAN or MOF.
+
+**Register with IWK. It is free, it takes you off the public feed and onto the
+invitation list, and two of their supplier categories are literally your product.**
