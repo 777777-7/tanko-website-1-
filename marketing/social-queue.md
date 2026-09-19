@@ -240,3 +240,28 @@ a synthetic `.click()` on it is unreliable in this dialog.
 2. **Every Facebook Page post is cross-posted to groups** — 下一页 → 帖子设置 →
    分享到小组. It is not on the composer's first screen, which is why it was
    being missed.
+
+## 19 Sep -- checking whether the six held group posts cleared
+
+**Result: could not verify, and I am not going to claim otherwise.**
+
+One hard data point: a Facebook notification reads *"你的帖子已交叉发布到马来西亚建筑
+五金门业广告群"* dated 2 days ago, so **马来西亚建筑五金门业广告群 did go live**. That is
+one of the six.
+
+For the other five I have nothing conclusive. Two methods both failed:
+
+1. **Searching inside the group** (`/groups/<id>/search/?q=...`) matches loosely.
+   Searching 报废原因 in 五金机械批发/零售 returned unrelated posts from other members
+   about scrap tungsten recycling and a sales motivational post. Facebook is doing
+   fuzzy matching, so absence of a result proves nothing.
+2. **Relative timestamps in search results** ("2天", "3天") do not line up with the
+   posting log reliably enough to tell an 18 Sep post from a 16 Sep one.
+
+**Personal-profile notifications are the wrong place to look** — the group shares
+went out as the Page, so approvals land in the Page's notifications, not his.
+
+**Better method for next time:** check the Page's notifications, not the personal
+profile's, and do it within a day or two while the "已交叉发布到X" notices are still
+in the list. Those notices are the only reliable receipt Facebook gives after the
+green toast.
