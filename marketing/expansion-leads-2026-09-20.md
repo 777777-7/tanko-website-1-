@@ -119,3 +119,62 @@ contracted as one package to a main contractor — which would change your route
 from direct to subcontract.
 
 **Those are phone calls, not searches.**
+
+---
+
+# Second research pass — more names, and one date correction
+
+## Correction first: SPIL is not a new lead
+
+Search results surface **Siliconware (SPIL) breaking ground on an RM6 billion
+semiconductor packaging plant in Penang** and it reads like the biggest opportunity
+on any list. **It broke ground on 24 May 2024** — over two years ago. The P1 plant
+is likely operational or close to it.
+
+**Its storage was bought long ago.** Do not chase it. This is exactly why every
+lead needs its groundbreaking date checked before any effort goes into it.
+
+## Fresh leads — fit-out still ahead
+
+| Company | Where | Detail |
+|---|---|---|
+| **BAC (Baltimore Aircoil)** | **Nilai, Negeri Sembilan** | US$150m, ground broken 5 Aug 2026, Phase 1 late 2027. **Still the best lead** |
+| **Mondelēz** | **Shah Alam, Selangor** | RM90m Crumb Tower, announced 11 Sep 2026. Food = stainless |
+| **Simmtech Southeast Asia** | Penang | **RM508 million (US$120m)**, construction underway per Penang Technology Park, September |
+| **SuperSiC** | Penang | Broke ground on a new manufacturing facility |
+| **Ferrotec** | **Kulim Hi-Tech Park** | Broke ground on a new manufacturing site |
+| **HuiRui Polymers** | Malaysia | Expanding manufacturing, reported roughly one week ago |
+| **Serendah Technology Park** | **Selangor** | Groundbreaking about a month ago — a whole park, so multiple tenants to come |
+| **Sheng Long Aqua Technology** | Perak | Groundbreaking 10 Aug 2026 |
+
+**Serendah Technology Park deserves attention.** It is in Selangor, it is a park
+rather than a single plant, and every tenant that moves in fits out a building.
+Worth tracking who takes space there.
+
+## Already open — too late for fit-out
+
+Winner Sky Technology (Penang, opened Jun 2026), MKS Supercenter (opened Jun 2026),
+SkyGate NHJ (Perai, opened Sep 2026), Mahsuri Food (opened May 2026), SPIL (ground
+broken May 2024).
+
+Worth one call each in case of phased expansion, but rank them below everything in
+the table above.
+
+## Also noted
+
+**Daikin** ran a supply chain development programme with MIDA and SHRDC in May 2026
+to strengthen local supplier capabilities. That is a company actively looking to
+add Malaysian suppliers — a different and warmer route than cold outreach.
+
+**Emerson Automation Solutions has a Nilai Campus**, surfaced via LinkedIn. Same
+town as BAC.
+
+## What is verified and what is not
+
+**Verified:** the SPIL May 2024 groundbreaking date, BAC's figures and dates,
+Mondelēz's announcement date and site.
+
+**Not verified:** Simmtech's, SuperSiC's, Ferrotec's and HuiRui's exact
+groundbreaking dates and current build stage — these came from search summaries and
+social posts. **Check each date before spending effort**, exactly as the SPIL case
+shows.
