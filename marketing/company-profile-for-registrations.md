@@ -17,6 +17,10 @@ About and Terms pages, not from memory.
 | **Contact person** | Wong Wei Ming |
 | **Designation** | Business Development Manager |
 | **Bumiputera status** | **Non-Bumiputera** |
+| **Delivery coverage** | Whole of Malaysia including East Malaysia, plus Singapore. Free delivery + installation in Selangor/KL; outstation charged separately |
+| **Lead time** | 3-7 working days on stocked items |
+| **Warranty** | 1 year against manufacturing defects, administered locally in Selangor |
+| **SKUs** | ~1,744 products carrying full specifications |
 | **Business** | Exclusive Malaysia distributor for Tanko Enterprise Co., Ltd. (Taiwan) since 2006 — industrial storage: workbenches, tool cabinets, CNC tool storage, lockers, racking, perforated board, trolleys |
 
 ## Still missing — you will be asked for these

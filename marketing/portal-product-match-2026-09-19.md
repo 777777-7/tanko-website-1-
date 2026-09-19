@@ -17,8 +17,13 @@ systems, labour supply contracts, a genset radiator.
 > EQUIPMENT, OFFICE SUPPLIES, RENOVATION**
 > Closes 22/09/2026
 
-And even that is a **renovation contract in Terengganu** — outside your free
-delivery zone, and it wants a contractor, not a furniture supplier.
+And even that is a **renovation contract** — it wants a contractor, not a
+furniture supplier.
+
+**Correction:** I first wrote that Terengganu was outside your delivery area. It is
+not. You deliver throughout Malaysia, including East Malaysia, and to Singapore.
+Only the *free* delivery and installation zone is Selangor and KL; everywhere else
+is delivered and simply charged. Location is not a reason to skip a job.
 
 ## What this means — the same lesson as MyProcurement
 
