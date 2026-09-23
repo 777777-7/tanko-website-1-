@@ -524,6 +524,7 @@ try:
     from terms_pb_zh import TERMS_PB
     from terms_tc_zh import TERMS_TC
     from terms_misc_zh import TERMS_MISC
+    from terms_wb_zh import TERMS_WB
     from boiler_zh import BOILER
     from pb_prose_zh import PB_PROSE
     from tc_prose_zh import TC_PROSE
@@ -533,6 +534,7 @@ except ImportError:
     from .terms_pb_zh import TERMS_PB
     from .terms_tc_zh import TERMS_TC
     from .terms_misc_zh import TERMS_MISC
+    from .terms_wb_zh import TERMS_WB
     from .boiler_zh import BOILER
     from .pb_prose_zh import PB_PROSE
     from .tc_prose_zh import TC_PROSE
@@ -541,6 +543,7 @@ T.update(TERMS2)
 T.update(TERMS_PB)
 T.update(TERMS_TC)
 T.update(TERMS_MISC)
+T.update(TERMS_WB)
 T.update(BOILER)
 T.update(PB_PROSE)
 T.update(TC_PROSE)
@@ -616,6 +619,95 @@ def _rules(s):
         m = rx.match(s)
         if m:
             return fmt % m.group(1)
+    # --- "The Team Bin range"
+    m = re.match(r'^The (.+) range$', s)
+    if m:
+        sub = tr(m.group(1).strip())
+        if sub:
+            return "%s系列" % sub
+
+    # --- product titles: "X — Y (CODE) | Primaxs", including the truncated
+    #     "| Prima" / "| Primax" forms that appear in meta fields
+    m = re.match(r'^(.+?) — (.+?) \(([^)]+)\) \| Prima(?:x|xs)?$', s)
+    if m:
+        a, b = tr(m.group(1).strip()), tr(m.group(2).strip())
+        if a and b:
+            return "%s — %s（%s）| Primaxs" % (a, b, m.group(3))
+
+    # --- "X: Y — Malaysia" already handled; here "X — Y (CODE) — Malaysia"
+    m = re.match(r'^(.+?) — (.+?) \(([^)]+)\) — Malaysia$', s)
+    if m:
+        a, b = tr(m.group(1).strip()), tr(m.group(2).strip())
+        if a and b:
+            return "%s — %s（%s）— 马来西亚" % (a, b, m.group(3))
+
+    # --- "CEA drawer x 24 pcs"
+    m = re.match(r'^([A-Z][A-Z0-9\-]*) drawer x (\d+) pcs$', s)
+    if m:
+        return "%s 抽屉 x %s 件" % (m.group(1), m.group(2))
+
+    # --- "1000kg load capacity 45kg load capacity per drawer"
+    m = re.match(r'^(\d+)kg load capacity (\d+)kg load capacity per drawer$', s)
+    if m:
+        return "承重 %skg　每屉承重 %skg" % (m.group(1), m.group(2))
+
+    # --- "CODE (with doors)" / "(mobile)" / "(with doors/mobile)"
+    OPT = {'with doors': '附门', 'mobile': '移动式',
+           'with doors/mobile': '附门/移动式'}
+    m = re.match(r'^([A-Z][A-Z0-9\-]*) \(([a-z /]+)\)$', s)
+    if m and m.group(2) in OPT:
+        return "%s（%s）" % (m.group(1), OPT[m.group(2)])
+
+    # --- "Can be assembled with TA-155"
+    m = re.match(r'^Can be assembled with ?([A-Z][A-Z0-9\-]*)?$', s)
+    if m:
+        return ("可与 %s 组装搭配" % m.group(1)) if m.group(1) \
+            else "可组装搭配"
+
+    # --- "hanger 3kg / 15kg"
+    m = re.match(r'^hanger (\d+kg) / (\d+kg)$', s)
+    if m:
+        return "吊挂 %s / %s" % (m.group(1), m.group(2))
+
+    # --- "(with 2 dividers) 45kg load capacity [50kg load capacity WxDxH mm]"
+    m = re.match(r'^\(with (\d+) dividers?( per drawer)?\) (.*)$', s)
+    if m:
+        per = '每屉' if m.group(2) else ''
+        tail = m.group(3)
+        tail = re.sub(r'(\d+)kg load capacity', lambda x: '承重 %skg' % x.group(1), tail)
+        return "（%s附 %s 片分隔片）%s" % (per, m.group(1), tail)
+
+    # --- "Perforated board x 4 pcs" / "Louvred boards x 2 pcs", possibly joined
+    if re.match(r'^(Perforated|Louvred) boards?\b', s):
+        parts = re.findall(r'(Perforated|Louvred) boards? x (\d+) pcs?', s)
+        if parts and len(parts) == len(re.findall(r'x \d+ pcs?', s)):
+            NAME = {'Perforated': '洞洞板', 'Louvred': '百叶板'}
+            return '　'.join('%s x %s 件' % (NAME[a], n) for a, n in parts)
+
+    # --- "Perforated (2) + Louvred (4)"
+    if re.match(r'^(Perforated|Louvred) \(\d+\)', s):
+        parts = re.findall(r'(Perforated|Louvred) \((\d+)\)', s)
+        if parts and len(parts) == s.count('('):
+            NAME = {'Perforated': '孔板', 'Louvred': '百叶板'}
+            return ' + '.join('%s(%s)' % (NAME[a], n) for a, n in parts)
+
+    # --- "H600 Perforated board+Shelf+Light"
+    m = re.match(r'^(H\d+) (.+)$', s)
+    if m:
+        sub = tr(m.group(2).strip())
+        if sub:
+            return "%s %s" % (m.group(1), sub)
+
+    # --- "wa-67 drawing" / "WA-57□M drawing" - any model code
+    m = re.match(r'^([A-Za-z0-9□\-]+) drawing$', s)
+    if m:
+        return "%s 图面" % m.group(1)
+
+    # --- "Type PR" (HEUER vise types)
+    m = re.match(r'^Type ([A-Za-z]{1,3})$', s)
+    if m:
+        return "%s 型" % m.group(1)
+
     # --- "X &mdash; Malaysia" (entity form of the em-dash)
     m = re.match(r'^(.+?) &mdash; Malaysia$', s)
     if m:
@@ -867,6 +959,15 @@ def _rules(s):
         sub = tr(m.group(1).strip())
         if sub:
             return "%s（%s）" % (sub, m.group(2))
+    # --- general fallback: "Name (anything)" where the name itself translates
+    #     and the bracket holds model codes, e.g. "(RFA/RFB — RFA-091)".
+    #     Kept late so the more specific bracket rules above win first.
+    m = re.match(r'^(.+?)\s*\(([^()]+)\)$', s)
+    if m and not re.search(r'[a-z]{4,}', m.group(2)):
+        sub = tr(m.group(1).strip())
+        if sub:
+            return "%s（%s）" % (sub, m.group(2))
+
     # "Sourcing X in Malaysia?"
     m = re.match(r'^Sourcing (.+) in Malaysia\?$', s)
     if m:
