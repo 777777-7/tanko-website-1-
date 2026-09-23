@@ -127,8 +127,7 @@ def build(lang, pages, write=True, verbose=True):
         # hrefs are language-specific and would be rewritten wrongly by the
         # link fixer below; tools/add_lang_picker.py re-adds a correct one
         # afterwards, derived from this page's own hreflang block.
-        html = re.sub(r'
-\s*<li class="lang-pick">.*?</li>', '', html, flags=re.S)
+        html = re.sub(r'\n\s*<li class="lang-pick">.*?</li>', '', html, flags=re.S)
 
         new = '/%s%s' % (cfg['prefix'], path)
 

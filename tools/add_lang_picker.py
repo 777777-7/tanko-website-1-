@@ -26,8 +26,8 @@ MARKER = 'class="lang-pick"'
 
 # Where to send someone when this exact page has no twin in that language.
 # Better to land them on that language's home than to hide the option entirely.
-# Malay has no hub page of its own, so it is only offered on a real twin.
-FALLBACK = {'en-MY': '/', 'zh-Hans-MY': '/zh/'}
+# Malay now has a hub at /ms/, so all three languages are always offered.
+FALLBACK = {'en-MY': '/', 'ms-MY': '/ms/', 'zh-Hans-MY': '/zh/'}
 
 
 def build_picker(alts, current):

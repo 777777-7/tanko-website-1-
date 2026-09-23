@@ -19,6 +19,7 @@ MARKER = 'id="lang-modal"'
 HOMEPAGES = [
     (os.path.join(DOCS, 'index.html'), 'en-MY'),
     (os.path.join(DOCS, 'zh', 'index.html'), 'zh-Hans-MY'),
+    (os.path.join(DOCS, 'ms', 'index.html'), 'ms-MY'),
 ]
 
 COPY = {
@@ -26,6 +27,11 @@ COPY = {
         title='Choose your language',
         sub='You can change this any time from the menu.',
         close='Close language chooser',
+    ),
+    'ms-MY': dict(
+        title='Pilih bahasa anda',
+        sub='Anda boleh menukarnya bila-bila masa dari menu.',
+        close='Tutup pemilih bahasa',
     ),
     'zh-Hans-MY': dict(
         title='选择语言',
@@ -35,8 +41,9 @@ COPY = {
 }
 
 OPTIONS = [
-    ('/',    'en-MY',      'English',         'EN'),
-    ('/zh/', 'zh-Hans-MY', '中文',    '中文'),
+    ('/',    'en-MY',      'English',              'EN'),
+    ('/ms/', 'ms-MY',      'Bahasa Malaysia',      'BM'),
+    ('/zh/', 'zh-Hans-MY', '中文',         '中文'),
 ]
 
 SNIPPET = """
