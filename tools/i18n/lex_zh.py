@@ -522,19 +522,25 @@ T.update({
 try:
     from terms_zh import TERMS2
     from terms_pb_zh import TERMS_PB
+    from terms_tc_zh import TERMS_TC
     from boiler_zh import BOILER
     from pb_prose_zh import PB_PROSE
+    from tc_prose_zh import TC_PROSE
     from prose_zh import PROSE
 except ImportError:
     from .terms_zh import TERMS2
     from .terms_pb_zh import TERMS_PB
+    from .terms_tc_zh import TERMS_TC
     from .boiler_zh import BOILER
     from .pb_prose_zh import PB_PROSE
+    from .tc_prose_zh import TC_PROSE
     from .prose_zh import PROSE
 T.update(TERMS2)
 T.update(TERMS_PB)
+T.update(TERMS_TC)
 T.update(BOILER)
 T.update(PB_PROSE)
+T.update(TC_PROSE)
 T.update(PROSE)
 
 # ------------------------------------------------------------ composition rules
@@ -601,6 +607,47 @@ def _rules(s):
         m = rx.match(s)
         if m:
             return fmt % m.group(1)
+    # --- "X &mdash; Malaysia" (entity form of the em-dash)
+    m = re.match(r'^(.+?) &mdash; Malaysia$', s)
+    if m:
+        sub = tr(m.group(1).strip())
+        if sub:
+            return "%s &mdash; 马来西亚" % sub
+
+    # --- "The EGA-1 standard tool cabinet" style headings
+    m = re.match(r'^The (.+)$', s)
+    if m:
+        sub = tr(m.group(1).strip())
+        if sub:
+            return sub
+
+    # --- "Tool Cabinet - H1000"
+    m = re.match(r'^(.+?) - (H\d+)$', s)
+    if m:
+        sub = tr(m.group(1).strip())
+        if sub:
+            return "%s - %s" % (sub, m.group(2))
+
+    # --- "Something SKU-1234" : translate the prose, keep the model number
+    m = re.match(r'^(.+?) ([A-Z]{2,4}-[\dA-Z][\dA-Z\-]*)$', s)
+    if m:
+        sub = tr(m.group(1).strip())
+        if sub:
+            return "%s %s" % (sub, m.group(2))
+
+    # --- "Drawer height 50 mm"
+    m = re.match(r'^Drawer height (\d+) ?mm$', s)
+    if m:
+        return "抽屉高度 %s mm" % m.group(1)
+
+    # --- "EGL-185M (black)" : lowercase colour in parentheses
+    LC = {'black': '黑色', 'red': '红色', 'blue': '蓝色',
+          'gray': '灰色', 'grey': '灰色', 'white': '白色',
+          'green': '绿色', 'yellow': '黄色'}
+    m = re.match(r'^([A-Z][A-Z0-9\-]*) \(([a-z]+)\)$', s)
+    if m and m.group(2) in LC:
+        return "%s（%s）" % (m.group(1), LC[m.group(2)])
+
     # --- bare letter codes: KPQ-C, KPQ-B, TKI-8302x4
     if re.match(r'^[A-Z]{1,5}-[A-Z0-9]+(x\d+)?$', s):
         return s
@@ -619,7 +666,7 @@ def _rules(s):
 
     # --- "X range within our Y — N model lines from Tanko, ..."
     m = re.match(r'^(.+?) range within our (.+?) — (\d+) model lines from Tanko, '
-                 r'distributed in Malaysia by Primaxs\. Compare options and request a quote\.$', s)
+                 r'distributed in Malaysia by Primaxs\. Compare options and request a quo', s)
     if m:
         name, cat, n = tr(m.group(1).strip()), tr(m.group(2).strip()), m.group(3)
         if name and cat:

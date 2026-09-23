@@ -1,9 +1,5 @@
 [
 [
-"None",
-232
-],
-[
 "WAS",
 10
 ],
@@ -16,15 +12,35 @@
 8
 ],
 [
+"H600 Perforated board",
+8
+],
+[
+"H600 Perforated board+Shelf",
+8
+],
+[
+"H600 Perforated board+Shelf+Light",
+8
+],
+[
+"H900 Perforated board",
+8
+],
+[
+"H900 Perforated board+Shelf",
+8
+],
+[
+"H900 Perforated board+Shelf+Light",
+8
+],
+[
 "Transparent",
 8
 ],
 [
 "Materials",
-7
-],
-[
-"T drawer",
 7
 ],
 [
@@ -37,18 +53,6 @@
 ],
 [
 "WET",
-6
-],
-[
-"How Malaysian factories, workshops and facilities choose the right storage system — workbenches, tool cabinets, racking, lockers and more — with a category-by-category breakdown.",
-6
-],
-[
-"Yes",
-6
-],
-[
-"Handles",
 6
 ],
 [
@@ -96,15 +100,15 @@
 4
 ],
 [
+"H600 Perforated Board+Shelf",
+4
+],
+[
 "G-shaped handle",
 4
 ],
 [
 "Laminate top and rubber top.",
-4
-],
-[
-"Step.2 Size",
 4
 ],
 [
@@ -121,58 +125,6 @@
 ],
 [
 "Jaw width",
-4
-],
-[
-"Size",
-4
-],
-[
-"The rest with dividers",
-4
-],
-[
-"Drawer Height A 50 75 100 125 150 Side Panel Height B 33 52 77 77 127 Usable Height C 35 57 82 107 132",
-4
-],
-[
-"Cabinet ▸ Steel ; Handle ▸ Plastic",
-4
-],
-[
-"Adjustable partitions",
-4
-],
-[
-"Division Boxes configuration",
-4
-],
-[
-"Partitions",
-4
-],
-[
-"EGL-185M (black)",
-4
-],
-[
-"EGL-185M (red)",
-4
-],
-[
-"EGL-187M (black)",
-4
-],
-[
-"EGL-187M (red)",
-4
-],
-[
-"Drawer Qty",
-4
-],
-[
-"Label",
 4
 ],
 [
@@ -221,10 +173,6 @@
 ],
 [
 "CEA drawer x 30 pcs",
-4
-],
-[
-"ABS (white)",
 4
 ],
 [
@@ -284,38 +232,6 @@
 3
 ],
 [
-"Model No. EA EB ED Width 566 mm 718 mm 718 mm Depth 607 mm 607 mm 759 mm Step.1 Cabinet Size",
-3
-],
-[
-"Cabinet (slide system)",
-3
-],
-[
-"4&#34;x2&#34; PU castors",
-3
-],
-[
-"KPQ-B x 1 set PVC mat x 3 pcs ▸ Top shelf is not reversible ▸ Top cover is optional",
-3
-],
-[
-"Steel drawer + Parts drawer(8)",
-3
-],
-[
-"Parts drawer(8)",
-3
-],
-[
-"Parts drawer(16)",
-3
-],
-[
-"Steel drawer",
-3
-],
-[
 "Professional Workstation — Combination",
 3
 ],
@@ -356,31 +272,11 @@
 3
 ],
 [
-"CNC Tool Cabinet - H1000",
-3
-],
-[
-"CNC Tool Cabinet - H1200",
-3
-],
-[
-"Mobile CNC Tool Cabinet - H1000",
-3
-],
-[
-"Mobile CNC Tool Cabinet - H1300",
-3
-],
-[
 "Drawer ▸ ABS",
 3
 ],
 [
 "Side link slots",
-3
-],
-[
-"ABS+PS (yellow)",
 3
 ],
 [
@@ -484,6 +380,14 @@
 2
 ],
 [
+"H600 Perforated Board",
+2
+],
+[
+"H900 Perforated Board+Shelf",
+2
+],
+[
 "Buffer slide",
 2
 ],
@@ -497,14 +401,6 @@
 ],
 [
 "1000kg load capacity 45kg load capacity per drawer",
-2
-],
-[
-"Roll holder",
-2
-],
-[
-"Tabletop cutter",
 2
 ],
 [
@@ -537,90 +433,6 @@
 ],
 [
 "Weight",
-2
-],
-[
-"Products",
-2
-],
-[
-"Packing Cart",
-2
-],
-[
-"Cabinet Height",
-2
-],
-[
-"Black (PP/anti-static) is optional.",
-2
-],
-[
-"EGA drawer",
-2
-],
-[
-"Steel handle",
-2
-],
-[
-"5&#34;x2&#34; PU castors",
-2
-],
-[
-"Partitions and division boxes",
-2
-],
-[
-"Can be assembled on both sides of the cabinet.",
-2
-],
-[
-"Top cover",
-2
-],
-[
-"Shelf can be adjusted",
-2
-],
-[
-"Made in Taiwan DIY product",
-2
-],
-[
-"Stainless steel handle",
-2
-],
-[
-"Steel Drawer Set",
-2
-],
-[
-"EKB-P05 x 1 set",
-2
-],
-[
-"PC plastic",
-2
-],
-[
-"Oil resistance and impact absorption.",
-2
-],
-[
-"Tilt Out Bin Drawer Qty",
-2
-],
-[
-"Yellow / Blue / Red ▸ PE Black ▸ PP (anti-static)",
-2
-],
-[
-"ABS handle",
-2
-],
-[
-"The rest with partitions",
 2
 ],
 [
@@ -657,14 +469,6 @@
 ],
 [
 "Drawer division boxes and dividers are optional.",
-2
-],
-[
-"Division Boxes Configuration",
-2
-],
-[
-"Adjustable Partitions",
 2
 ],
 [
@@ -1652,6 +1456,10 @@
 1
 ],
 [
+"H900 Perforated Board",
+1
+],
+[
 "Performance Workbench — Standard (WE 1500mm) | Primaxs",
 1
 ],
@@ -1896,551 +1704,15 @@
 1
 ],
 [
-"Tool Cabinets, Trolleys &amp; Bin Carts — Malaysia",
+"Perforated Board &amp; Tool Display Board Malaysia | Primaxs",
 1
 ],
 [
-"Steel tool cabinets and mobile chests for automotive workshops and MRO teams. Standard and Heavy-Duty cabinets, mobile trolleys and tilt-out bin carts — full-extension slides rated for daily industrial use.",
+"Tanko perforated boards, tool display boards and shadow boards for 5S tool control, with hooks and hangers. Selangor stock, Ringgit pricing, free delivery in Selangor and KL.",
 1
 ],
 [
-"219 models across 15 lines. Guide prices in Ringgit for the base configuration of each line; drawers, panels and lighting are quoted on top. Free delivery and installation in Selangor and Kuala Lumpur.",
-1
-],
-[
-"EKC",
-1
-],
-[
-"Tool cabinets, roller cabinets and tool chests",
-1
-],
-[
-"drawer roller cabinet",
-1
-],
-[
-"is the mobile version, a tool chest usually sits on top of it, and a tool cabinet is the fixed one. All three carry the same central lock and the same drawer ratings. If the cabinet moves between bays, the castors and the lock matter more than the drawer count &mdash; an unlocked cabinet on wheels is how tooling leaves a workshop.",
-1
-],
-[
-"The drawer is where a tool cabinet is won or lost",
-1
-],
-[
-"Tanko cabinets and trolleys are made in Taiwan with a central lock across the range and load ratings published per model, up to 400kg on the mobile and packing-cart models. Drawer layouts are fixed at the factory to depths that suit real tooling rather than to a round number of drawers. Supplied in Malaysia by Primaxs, exclusive Tanko distributor since 2006 &mdash; Ringgit pricing and a 1-year defect warranty handled locally, not shipped back. Free delivery and installation in Selangor and Kuala Lumpur; outstation delivery is itemised on the quote.",
-1
-],
-[
-"Tool Cabinets for Workshops",
-1
-],
-[
-"Drawer layout, slide rating, mobility and lock type — how automotive and MRO workshops in Malaysia choose a tool cabinet that lasts.",
-1
-],
-[
-"Tool Cabinet Maintenance Guide",
-1
-],
-[
-"How to maintain industrial tool cabinets in Malaysian conditions — cleaning drawer slides, preventing rust in humidity, organising drawers, and getting 10+ years of daily use from Tanko steel cabinets.",
-1
-],
-[
-"Kabinet Alat Bengkel (Bahasa Malaysia)",
-1
-],
-[
-"Panduan memilih kabinet alat dan penyimpanan bengkel di Malaysia — kabinet tetap, troli mudah alih, kabinet CNC dan cara mendapatkan sebut harga.",
-1
-],
-[
-"Frequently asked questions — Tool Cabinets",
-1
-],
-[
-"A tool cabinet is a stationary chest (often with full-extension drawers) for high-density storage at one point. A trolley or mobile chest adds casters so the same tools travel bay to bay. Many Malaysian workshops buy one fixed cabinet plus one mobile trolley.",
-1
-],
-[
-"Drawer ratings vary by model, but Tanko industrial cabinets use full-extension ball-bearing slides rated for daily industrial use, typically 30-50 kg per drawer depending on the line. Confirm the exact rating for the model you are looking at.",
-1
-],
-[
-"Yes — Tanko tool cabinets include a central locking system that locks all drawers with one key turn, with an optional padlock hasp. This is standard on industrial chests used in shared workshops.",
-1
-],
-[
-"Standard powder-coated steel cabinets suit dry indoor workshops. For humid or outdoor areas (common in parts of Malaysia), specify the corrosion-protected option or keep the cabinet in a sheltered bay.",
-1
-],
-[
-"We keep the popular chest sizes (e.g. 7-12 drawer rolling cabinets and 2-3 bay drawer chests) in local stock at Selangor. Larger or custom drawer configurations are ordered to your specification with a confirmed lead time.",
-1
-],
-[
-"Tool Cabinets &amp; Trolleys Malaysia — from RM1,025 | Primaxs",
-1
-],
-[
-"Tanko tool cabinets and trolleys, Taiwan-made with central locking and load ratings to 400kg. Ringgit pricing, Selangor stock, local 1-year warranty.",
-1
-],
-[
-"Tool Cabinet - H1000 — Heavy Duty EA-10052",
-1
-],
-[
-"Tool Cabinet - H1000: Heavy Duty — Malaysia",
-1
-],
-[
-"drawer EB drawer ED drawer",
-1
-],
-[
-"1st drawer ABS division boxes",
-1
-],
-[
-"Drawer height 50 mm",
-1
-],
-[
-"Drawer height 75 mm",
-1
-],
-[
-"Drawer height 100 mm",
-1
-],
-[
-"Tool Cabinet - H1000 — Heavy Duty EB-10051T",
-1
-],
-[
-"Tool Cabinet - H1200: Heavy Duty — Malaysia",
-1
-],
-[
-"Step.2 Cabinet Height",
-1
-],
-[
-"Tool Cabinet - H1200 — Heavy Duty EA-12051T",
-1
-],
-[
-"Tool Cabinet - H700: Heavy Duty — Malaysia",
-1
-],
-[
-"per drawer",
-1
-],
-[
-"Hooks can be applied to perforated board.",
-1
-],
-[
-"Model No. EA EB Width 566 mm 718 mm Depth 640 mm 640 mm Step.1 Cabinet Size",
-1
-],
-[
-"Taiwan-manufactured, distributed in Malaysia 1st drawer with division boxes, the rest with dividers.",
-1
-],
-[
-"EA Mobile Tool Cabinet",
-1
-],
-[
-"EB Mobile Tool Cabinet",
-1
-],
-[
-"EA Mobile Tool Cabinet with Panel Set",
-1
-],
-[
-"EB Mobile Tool Cabinet with Panel Set",
-1
-],
-[
-"Mobile Tool Cabinet — Heavy Duty EA-7042M",
-1
-],
-[
-"Drawer Hieght",
-1
-],
-[
-"The EGA-1 standard tool cabinet",
-1
-],
-[
-"Division boxes and adjustable partitions are optional, letting a drawer be split for small parts or left open for larger tools. Three EGA-1 configurations are available &mdash; see the comparison table above for exact dimensions. Primaxs holds Malaysia stock at our Seri Kembangan warehouse, with free delivery and installation in Selangor and Kuala Lumpur and a 1-year local warranty.",
-1
-],
-[
-"Steel Handle",
-1
-],
-[
-"Chamfer design",
-1
-],
-[
-"The EGA-2M mobile tool cabinet",
-1
-],
-[
-"Division boxes and adjustable partitions are optional for splitting drawers between small parts and larger tools. Two EGA-2M configurations are available &mdash; see the comparison table above. Primaxs holds Malaysia stock at our Seri Kembangan warehouse, with free delivery and installation in Selangor and Kuala Lumpur and a 1-year local warranty.",
-1
-],
-[
-"EGL drawer",
-1
-],
-[
-"Model No. (color)",
-1
-],
-[
-"EGL-177M (black)",
-1
-],
-[
-"EGM drawer",
-1
-],
-[
-"Top Cover",
-1
-],
-[
-"The EKA-3M trolley",
-1
-],
-[
-"EKA-3M is an open trolley rather than a drawer cabinet &mdash; a side tray, an adjustable shelf and an optional top cover, built for tools and parts that get picked up and carried rather than filed away in a drawer. The panel accepts hooks for a perforated board layout, so frequently used tools can hang in view rather than sit under a lid. A PVC mat on the work surface protects both the tool and the trolley from scratches.",
-1
-],
-[
-"The trolley moves on 4-inch PU castors rated to 400kg. Four EKA-3M configurations are available &mdash; see the comparison table above for exact dimensions. Primaxs holds Malaysia stock at our Seri Kembangan warehouse, with free delivery and installation in Selangor and Kuala Lumpur and a 1-year local warranty against manufacturing defects.",
-1
-],
-[
-"Because it has no drawers, EKA-3M suits tools and parts used constantly through a shift rather than stored between uses &mdash; a trolley left at a workstation rather than wheeled back to a central store each time. Outstation delivery is quoted separately from the free Selangor and Kuala Lumpur service.",
-1
-],
-[
-"Top shelf is reversible for a flat surface",
-1
-],
-[
-"Silent buffer slide",
-1
-],
-[
-"The EKA-3MS stainless steel trolley",
-1
-],
-[
-"Division boxes are optional for the drawer, and the panel still accepts perforated-board hooks. The trolley moves on 4-inch PU castors rated to 400kg. Four configurations are available &mdash; see the comparison table above. Primaxs holds Malaysia stock at our Seri Kembangan warehouse, with free delivery and installation in Selangor and Kuala Lumpur and a 1-year local warranty.",
-1
-],
-[
-"Shelf is reversible",
-1
-],
-[
-"KPQ-B x 1 set",
-1
-],
-[
-"PVC mat x 3 pcs ▸ Top shelf is not reversible ▸ Top cover is optional",
-1
-],
-[
-"EKB-P02 x 1 set",
-1
-],
-[
-"EKB-P02 x 2 set",
-1
-],
-[
-"EKB-P02 x 1 set KPQ-B x 1 set PVC mat x 3 pcs ▸ Top shelf is not reversible ▸ Top cover is optional",
-1
-],
-[
-"Shelf ▸ Steel",
-1
-],
-[
-"Drawer x 8 pcs",
-1
-],
-[
-"Drawer ▸ PP+PS (TB-1016) Shelf x 1 pc (red / blue / gray)",
-1
-],
-[
-"Drawer x 3 (with dividers)",
-1
-],
-[
-"EKB Top Cover",
-1
-],
-[
-"Hanging bins",
-1
-],
-[
-"Tilt Out Bins (S/M/L)",
-1
-],
-[
-"Tilt Out Bins Cart(pro)",
-1
-],
-[
-"Tilt Out Bins Cart(standard)",
-1
-],
-[
-"Tilt Out Bins",
-1
-],
-[
-"ABS + PC (transparent)",
-1
-],
-[
-"TKI Hanging Bins",
-1
-],
-[
-"TA Team Bins",
-1
-],
-[
-"Layer A, B",
-1
-],
-[
-"Layer C",
-1
-],
-[
-"Packing Cart — Malaysia",
-1
-],
-[
-"Made in Taiwan, DIY product",
-1
-],
-[
-"Applicable packaging specification",
-1
-],
-[
-"The EKK-1M packing cart",
-1
-],
-[
-"EKK-1M is built for a packing station rather than general tool storage &mdash; a roll holder and tabletop cutter for tape and wrapping film, mounted on a cart that moves with 4-inch PU castors rated to 400kg. The panel accepts perforated-board hooks for scissors, markers and other small packing tools kept close at hand, and the handles are positioned for pushing a loaded cart across a warehouse floor. It suits an outbound goods area or an assembly line finishing station where packaging materials need to travel with the product.",
-1
-],
-[
-"Applicable packaging specifications vary by roll size &mdash; confirm the dimensions your operation needs when requesting a quote. As a single-variant line there is one EKK-1M configuration; see the specification tab above for exact dimensions. Primaxs holds Malaysia stock at our Seri Kembangan warehouse, with free delivery and installation in Selangor and Kuala Lumpur and a 1-year local warranty.",
-1
-],
-[
-"A packing cart earns its keep by staying at the point of use rather than requiring a trip back to a fixed bench every time a carton needs sealing &mdash; the roll holder and cutter travel with the cart, not the operator. Outstation delivery, including East Malaysia and Singapore, is quoted separately alongside the free Selangor and Kuala Lumpur service.",
-1
-],
-[
-"Packing Cart (EKK-1M) — Tool Cabinets | Primaxs",
-1
-],
-[
-"Packing Cart (EKK-1M) — 1 Tanko tool cabinets variants with side-by-side specs, dimensions and finishes. Distributed in Malaysia by Primaxs, exclusive Tanko d",
-1
-],
-[
-"The ELA-1 mobile tool cabinet",
-1
-],
-[
-"The first drawer comes fitted with division boxes for small parts, and the rest take adjustable partitions. The panel accepts perforated-board hooks. Four ELA-1 configurations are available &mdash; see the comparison table above for exact dimensions. Primaxs holds Malaysia stock at our Seri Kembangan warehouse, with free delivery and installation in Selangor and Kuala Lumpur and a 1-year local warranty.",
-1
-],
-[
-"Storage cabinet with shelf",
-1
-],
-[
-"60kg load capacity per shelf",
-1
-],
-[
-"The ELS-2 mobile tool cabinet",
-1
-],
-[
-"ELS-274MA pairs drawer storage with a shelved storage cabinet section rated at 60kg per shelf, useful for taller items that do not suit a drawer &mdash; power tool cases, coiled hose, boxed consumables. It moves on 4-inch PU castors rated to 400kg and locks centrally, with full-length aluminium handles and labels making each drawer identifiable at a glance.",
-1
-],
-[
-"The first drawer comes fitted with division boxes, the rest take adjustable partitions, and the panel accepts perforated-board hooks for tools kept in view. Four ELS-2 configurations are available &mdash; see the comparison table above. Primaxs holds Malaysia stock at our Seri Kembangan warehouse, with free delivery and installation in Selangor and Kuala Lumpur and a 1-year local warranty.",
-1
-],
-[
-"Heavy-Duty Tool Cabinet Tool Cabinets",
-1
-],
-[
-"Heavy Duty Tool Cabinets &mdash; Malaysia",
-1
-],
-[
-"EA-7, EA-10, EA-12 and the mobile EA-7M",
-1
-],
-[
-"Where a heavy-duty cabinet earns its keep",
-1
-],
-[
-"Primaxs holds Malaysia stock for popular EA configurations at our Seri Kembangan warehouse, with 3&ndash;7 working days on stocked items and free delivery and installation in Selangor and Kuala Lumpur. Every cabinet carries a 1-year warranty against manufacturing defects, administered locally rather than shipped back to Taiwan.",
-1
-],
-[
-"Sourcing Heavy-Duty Tool Cabinet Tool Cabinets in Malaysia?",
-1
-],
-[
-"Tool Cabinet - H1200 — Heavy Duty EA-12071",
-1
-],
-[
-"Standard Tool Cabinet Tool Cabinets",
-1
-],
-[
-"Standard Tool Cabinets &mdash; Malaysia",
-1
-],
-[
-"Six lines, one drawer standard",
-1
-],
-[
-"Fixed vs mobile in the standard range",
-1
-],
-[
-"Primaxs holds Malaysia stock for popular configurations at our Seri Kembangan warehouse, with 3&ndash;7 working days on stocked items and free delivery and installation in Selangor and Kuala Lumpur. Every cabinet carries a 1-year warranty against manufacturing defects, administered locally.",
-1
-],
-[
-"Sourcing Standard Tool Cabinet Tool Cabinets in Malaysia?",
-1
-],
-[
-"Tool Cabinet - H1200 — Heavy Duty EA-12072T",
-1
-],
-[
-"Tilt Out Bins Cart Tool Cabinets",
-1
-],
-[
-"Tilt Out Bins Cart Tool Cabinets — Malaysia",
-1
-],
-[
-"The EKC tilt out bins cart",
-1
-],
-[
-"EKC is a mobile cart built around tilt-out bins rather than drawers &mdash; each bin tips forward for full visibility of its contents, similar in principle to the smaller Tilt Out Bin parts cabinets but scaled up to cart size with 64 configurations covering different bin counts and layouts. It suits picking stations where the same small parts get pulled repeatedly through a shift, and where a drawer would need to be fully opened just to see what is inside.",
-1
-],
-[
-"Choosing an EKC configuration",
-1
-],
-[
-"With 64 variants, the choice comes down to bin count and cart footprint rather than features &mdash; every configuration shares the same tilt-out mechanism and mobile frame. A denser bin layout suits a fixed picking station with many small part numbers; fewer, larger bins suit a cart that also carries bigger components between the store and the line.",
-1
-],
-[
-"Primaxs holds Malaysia stock for popular EKC configurations at our Seri Kembangan warehouse, with 3&ndash;7 working days on stocked items and free delivery and installation in Selangor and Kuala Lumpur. Every cart carries a 1-year warranty against manufacturing defects, administered locally rather than shipped back to Taiwan.",
-1
-],
-[
-"EKC shares its tilt-out principle with the smaller Tilt Out Bin parts cabinets, scaled up from a single unit to a full cart of bins &mdash; useful where a picking station needs more part numbers within reach than one cabinet can hold. Outstation delivery, including East Malaysia and Singapore, is quoted separately from the free Selangor and Kuala Lumpur service.",
-1
-],
-[
-"Sourcing Tilt Out Bins Cart Tool Cabinets in Malaysia?",
-1
-],
-[
-"Tilt Out Bins Cart Tool Cabinets Malaysia | Primaxs",
-1
-],
-[
-"Tool Cabinet - H1200 — Heavy Duty EA-12072",
-1
-],
-[
-"Trolley Tool Cabinets",
-1
-],
-[
-"Trolley Tool Cabinets — Malaysia",
-1
-],
-[
-"Three trolley lines, different jobs",
-1
-],
-[
-"EKA-3M is the general-purpose open trolley with a side tray and adjustable shelf. EKB-3M adds drawers to the same trolley format across 15 variants, for a mix of open shelf space and enclosed small-parts storage on one mobile frame. EKA-3MS is the #304 stainless steel version of EKA-3M, built for washdown areas or food and pharmaceutical environments where painted steel corrodes or fails a hygiene audit.",
-1
-],
-[
-"Choosing between the three",
-1
-],
-[
-"All three move on 4-inch PU castors rated to 400kg, so load capacity is not the deciding factor &mdash; the choice comes down to how the trolley gets used. An open shelf trolley (EKA-3M) suits tools that get picked up and carried; adding drawers (EKB-3M) suits a mix of open and enclosed storage on the same cart; stainless steel (EKA-3MS) is worth the extra cost only where the environment actually demands it.",
-1
-],
-[
-"Primaxs holds Malaysia stock for popular configurations at our Seri Kembangan warehouse, with 3&ndash;7 working days on stocked items and free delivery and installation in Selangor and Kuala Lumpur. Every trolley carries a 1-year warranty against manufacturing defects, administered locally.",
-1
-],
-[
-"Perforated-board panels are available across the range for hooks and small accessories, and each trolley&#39;s handle position is set for one-handed pushing rather than a two-handed drag. Outstation delivery, including East Malaysia and Singapore, is quoted separately from the free Selangor and Kuala Lumpur installation service.",
-1
-],
-[
-"Sourcing Trolley Tool Cabinets in Malaysia?",
-1
-],
-[
-"Trolley Tool Cabinets Malaysia | Primaxs",
-1
-],
-[
-"Tool Cabinet - H1200 — Heavy Duty EA-12073T",
+"W40xD30 — Load 5kg",
 1
 ],
 [
@@ -2936,79 +2208,7 @@
 1
 ],
 [
-"CNC Tool Cabinet - H1000 EA-10031-22N",
-1
-],
-[
-"CNC Tool Cabinet with Door CNC Tool Storage",
-1
-],
-[
-"CNC Tool Cabinets with Doors &mdash; Malaysia",
-1
-],
-[
-"Why an enclosed door matters for CNC tooling",
-1
-],
-[
-"Choosing between the SAN-33, SAN-36 and SAN-36K",
-1
-],
-[
-"All three lines share the same tool holder rack fitted for BT-30, BT-40, BT-50, HSK-40 and HSK-63 &mdash; the same fitted-socket principle used across Tanko&#39;s CNC range, with ISO available for legacy machines. SAN-36 is the taller frame with more rack capacity than SAN-33; SAN-36K adds a clear acrylic door so operators can identify a holder without opening the cabinet, useful on a shared tool room floor. All three include a lockable handle and leveler screws for a stable footing on an uneven workshop slab.",
-1
-],
-[
-"Primaxs is the exclusive Malaysia distributor for Tanko, supplying from stock held in Seri Kembangan, Selangor with 3&ndash;7 working days on popular configurations. Delivery and installation are free within Selangor and Kuala Lumpur, with outstation delivery &mdash; including East Malaysia and Singapore &mdash; quoted separately. Every cabinet carries a 1-year warranty against manufacturing defects, administered locally.",
-1
-],
-[
-"Sourcing CNC Tool Cabinet with Door CNC Tool Storage in Malaysia?",
-1
-],
-[
-"CNC Tool Cabinets with Doors Malaysia | Primaxs",
-1
-],
-[
-"CNC Tool Cabinet with Door range within our cnc tool storage — 3 model lines from Tanko, distributed in Malaysia by Primaxs. Compare options and request a quo",
-1
-],
-[
-"Mobile CNC Tool Cabinet - H1300 EA-10032-666MN",
-1
-],
-[
-"CNC Tool Cabinet CNC Tool Storage",
-1
-],
-[
-"CNC Tool Cabinets &mdash; BT &amp; HSK Holders, Malaysia",
-1
-],
-[
-"A fixed CNC tool cabinet suits a tool crib where holders are issued and returned rather than carried &mdash; BT-40 is the most common interface on general machining centres, and both the H1000 and H1200 frames here are built around fitted racks sized to it, with BT-30, BT-50, HSK-40 and HSK-63 also available. The mobile H1000 and H1300 lines use the same rack principle on castors, for shops that want the cabinet at the machine rather than at a separate crib.",
-1
-],
-[
-"Sizing a CNC tool cabinet",
-1
-],
-[
-"Primaxs supplies all four lines from Malaysia stock at our Seri Kembangan warehouse, with 3&ndash;7 working days on stocked configurations and free delivery and installation in Selangor and Kuala Lumpur. Outstation delivery, including East Malaysia and Singapore, is quoted on the same enquiry. Every cabinet is covered for 1 year against manufacturing defects, administered locally rather than through Taiwan.",
-1
-],
-[
-"Sourcing CNC Tool Cabinet CNC Tool Storage in Malaysia?",
-1
-],
-[
-"CNC Tool Cabinets Malaysia &mdash; BT &amp; HSK Holders | Primaxs",
-1
-],
-[
-"CNC Tool Cabinet - H1000 EA-10032-33N",
+"H1000 and H1200 refer to cabinet height in millimetres; the taller H1200 frame takes more drawers in the same footprint, useful where floor space is limited but the tool count is not. Every drawer holds tapers in individual pockets, not loose &mdash; the point of CNC storage rather than a general-purpose drawer is exactly this: one trapped chip on an unprotected taper shows up as runout at the spindle, and a knocked or rusted taper can scrap a part outright.",
 1
 ],
 [
@@ -3045,66 +2245,6 @@
 ],
 [
 "CNC Trolley CNC Tool Storage Malaysia | Primaxs",
-1
-],
-[
-"CNC Tool Cabinet - H1000 EA-10032-66N",
-1
-],
-[
-"Mobile CNC Tool Cabinet - H1300 — Malaysia",
-1
-],
-[
-"Mobile CNC Tool Cabinet - H1300 (EA-10031-111MN) | Primaxs",
-1
-],
-[
-"Mobile CNC Tool Cabinet - H1300 (EA-10031-111MN) — 15 Tanko cnc tool storage variants with side-by-side specs, dimensions and finishes. Distributed in Malaysi",
-1
-],
-[
-"Mobile CNC Tool Cabinet - H1300 EA-10032-888MN",
-1
-],
-[
-"CNC Tool Cabinet - H1000 (EA-10031-11N) | Primaxs",
-1
-],
-[
-"CNC Tool Cabinet - H1000 (EA-10031-11N) — 15 Tanko cnc tool storage variants with side-by-side specs, dimensions and finishes. Distributed in Malaysia by Prim",
-1
-],
-[
-"CNC Tool Cabinet - H1000 EA-10032-88N",
-1
-],
-[
-"CNC Tool Cabinet - H1200 (EA-12031-111N) | Primaxs",
-1
-],
-[
-"CNC Tool Cabinet - H1200 (EA-12031-111N) — 15 Tanko cnc tool storage variants with side-by-side specs, dimensions and finishes. Distributed in Malaysia by Pri",
-1
-],
-[
-"CNC Tool Cabinet - H1200 EA-12031-111N",
-1
-],
-[
-"Mobile CNC Tool Cabinet - H1000 — Malaysia",
-1
-],
-[
-"Mobile CNC Tool Cabinet - H1000 (EA-7021-11MN) | Primaxs",
-1
-],
-[
-"Mobile CNC Tool Cabinet - H1000 (EA-7021-11MN) — 15 Tanko cnc tool storage variants with side-by-side specs, dimensions and finishes. Distributed in Malaysia",
-1
-],
-[
-"Mobile CNC Tool Cabinet - H1000 — EA-7021-11MN",
 1
 ],
 [
@@ -3173,10 +2313,6 @@
 ],
 [
 "Leveler screws give the cabinet a stable footing on an uneven workshop slab, and the handle locks to keep tooling in one place on a shared floor. Five SAN-33 configurations are available &mdash; see the comparison table above for exact rack counts. Primaxs holds Malaysia stock at our Seri Kembangan warehouse, with 3&ndash;7 working days on stocked items, free delivery and installation in Selangor and Kuala Lumpur, and a 1-year local warranty against manufacturing defects.",
-1
-],
-[
-"CNC Tool Cabinet with Door SAN-331 — W900xD515xH900 mm",
 1
 ],
 [

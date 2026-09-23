@@ -33,7 +33,17 @@ LANGS = {
                switch_to="Baca halaman ini dalam Bahasa Malaysia →"),
 }
 
-SKIP = re.compile(r'^[\s\W\d]*$|^[WDH]\d|^\d+(\.\d+)?$|^RM\s?[\d,]|^[A-Z]{1,4}[\-A-Z0-9]*\d[\-A-Z0-9]*$')
+# A node is skipped only when the WHOLE string is a dimension, price or SKU.
+# The old rule used a bare `^[WDH]\d` prefix test, which silently swallowed
+# any sentence beginning "H1000 and H1200 refer to..." - that text never
+# reached the coverage gate and shipped in English.
+SKIP = re.compile(
+    r'^[\s\W\d]*$'                                   # punctuation / digits only
+    r'|^[WDHL]\d+(?:[\sx×*][WDHL]?\d+)*\s*(?:mm|cm)?$'  # W1800xD750xH800mm
+    r'|^\d+(\.\d+)?$'                                 # bare number
+    r'|^RM\s?[\d,]'                                   # price
+    r'|^[A-Z]{1,4}[\-A-Z0-9]*\d[\-A-Z0-9]*$'          # SKU
+)
 
 HEAD_PATTERNS = [
     (re.compile(r'(<title>)(.*?)(</title>)', re.S), 2),
