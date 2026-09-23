@@ -73,7 +73,7 @@
 ],
 [
 "Workbenches",
-111
+113
 ],
 [
 "Color",
@@ -196,6 +196,10 @@
 48
 ],
 [
+"Modular Workstations",
+47
+],
+[
 "Top",
 47
 ],
@@ -220,12 +224,12 @@
 45
 ],
 [
-"Modular Workstations",
-45
-],
-[
 "Items included",
 42
+],
+[
+"Perforated Boards",
+41
 ],
 [
 "Loading",
@@ -280,10 +284,6 @@
 39
 ],
 [
-"Perforated Boards",
-39
-],
-[
 "Hanging Cabinet",
 38
 ],
@@ -328,6 +328,10 @@
 34
 ],
 [
+"Tool Cabinets",
+33
+],
+[
 "Perforated boards",
 33
 ],
@@ -345,10 +349,6 @@
 ],
 [
 "Perforated Board+Shelf",
-31
-],
-[
-"Tool Cabinets",
 31
 ],
 [
@@ -436,6 +436,10 @@
 25
 ],
 [
+"CNC Tool Storage",
+24
+],
+[
 "8 configurations. Every variant below has its own detail page.",
 24
 ],
@@ -470,6 +474,10 @@
 [
 "Wood",
 24
+],
+[
+"Parts Cabinets",
+23
 ],
 [
 "1500mm",
@@ -508,15 +516,11 @@
 22
 ],
 [
-"CNC Tool Storage",
-22
-],
-[
-"White / Black",
+"Hanger Racks",
 21
 ],
 [
-"Parts Cabinets",
+"White / Black",
 21
 ],
 [
@@ -560,8 +564,8 @@
 19
 ],
 [
-"Hanger Racks",
-19
+"CNC Tool Cabinet with Door",
+18
 ],
 [
 "Load",
@@ -624,6 +628,10 @@
 18
 ],
 [
+"Documents Cabinets",
+17
+],
+[
 "1800mm",
 17
 ],
@@ -660,8 +668,8 @@
 17
 ],
 [
-"CNC Tool Cabinet with Door",
-17
+"Mobile",
+16
 ],
 [
 "Drawer stop design",
@@ -701,10 +709,6 @@
 ],
 [
 "45kg load capacity",
-15
-],
-[
-"Documents Cabinets",
 15
 ],
 [
@@ -792,10 +796,6 @@
 13
 ],
 [
-"Mobile",
-13
-],
-[
 "&middot; 18 variants",
 12
 ],
@@ -876,6 +876,10 @@
 12
 ],
 [
+"View range&nbsp;→",
+11
+],
+[
 "Baca halaman ini dalam Bahasa Malaysia →",
 11
 ],
@@ -922,6 +926,14 @@
 [
 "ABS (gray)",
 11
+],
+[
+"Heavy Duty",
+10
+],
+[
+"Tilt Out Bins Cart",
+10
 ],
 [
 "Stainless Steel",
@@ -1012,11 +1024,11 @@
 10
 ],
 [
-"Performance",
+"Racks",
 9
 ],
 [
-"Heavy Duty",
+"Performance",
 9
 ],
 [
@@ -1136,10 +1148,6 @@
 9
 ],
 [
-"Tilt Out Bins Cart",
-9
-],
-[
 "KPQ-C",
 9
 ],
@@ -1162,6 +1170,10 @@
 [
 "30kg load capacity",
 9
+],
+[
+"View details&nbsp;→",
+8
 ],
 [
 "&middot; 14 variants",
@@ -1396,6 +1408,10 @@
 8
 ],
 [
+"Lockers",
+7
+],
+[
 "45kg",
 7
 ],
@@ -1476,8 +1492,8 @@
 7
 ],
 [
-"Racks",
-7
+"Workbenches&nbsp;—",
+6
 ],
 [
 "Performance Workbench — Standard",
@@ -1800,6 +1816,10 @@
 6
 ],
 [
+"Household Items",
+5
+],
+[
 "WAT",
 5
 ],
@@ -1944,8 +1964,20 @@
 5
 ],
 [
-"Lockers",
-5
+"EST.&nbsp;1975 &middot; AUTHORISED MALAYSIA DEALER",
+4
+],
+[
+"Authorised dealer for Tanko Enterprise Co., Ltd. — the Taiwan industrial-storage manufacturer since 1975. Stocked in Selangor, quoted in Ringgit, warranty administered locally.",
+4
+],
+[
+"Send us your list",
+4
+],
+[
+"Browse the range&nbsp;→",
+4
 ],
 [
 "1200mm",
@@ -2390,6 +2422,18 @@
 [
 "Hoist rail",
 4
+],
+[
+"Products",
+3
+],
+[
+"Multi-Config",
+3
+],
+[
+"Lockers&nbsp;—",
+3
 ],
 [
 "Heavy Duty Workbench — Double Cabinet",
@@ -3072,8 +3116,60 @@
 3
 ],
 [
-"Household Items",
-3
+"Configurable production &amp; assembly workstations",
+2
+],
+[
+"Heavy-duty industrial workbenches, all sizes",
+2
+],
+[
+"Standard, heavy-duty, trolleys &amp; tilt-out carts",
+2
+],
+[
+"CNC tool cabinets &amp; trolleys — BT, HSK, ISO",
+2
+],
+[
+"Mould racks &amp; pull-out storage racks",
+2
+],
+[
+"Mobile &amp; fixed hanger racks and display stands",
+2
+],
+[
+"Personal &amp; departmental steel storage lockers",
+2
+],
+[
+"Parts cabinets, bins &amp; team cases",
+2
+],
+[
+"A4 document cabinets &amp; document trays",
+2
+],
+[
+"Pegboards, hooks &amp; hangers",
+2
+],
+[
+"Chest of drawers &amp; home storage",
+2
+],
+[
+"Workstations&nbsp;—",
+2
+],
+[
+"Parts Cabinets&nbsp;—",
+2
+],
+[
+"and",
+2
 ],
 [
 "&middot; 48 variants",
@@ -3637,10 +3733,6 @@
 ],
 [
 "WP53100 180",
-2
-],
-[
-"Products",
 2
 ],
 [
@@ -4770,6 +4862,510 @@
 [
 "Divider x 15pcs",
 2
+],
+[
+"Industrial Storage",
+1
+],
+[
+"&amp; Tool Cabinets",
+1
+],
+[
+"— Malaysia",
+1
+],
+[
+"The Tanko catalogue, distributed in Malaysia since 2006.",
+1
+],
+[
+"Plate 01 / 4",
+1
+],
+[
+"Heavy-Duty Workbenches for Every Shop Floor",
+1
+],
+[
+"Plate 02 / 4",
+1
+],
+[
+"CNC Tool Storage — BT, HSK &amp; ISO",
+1
+],
+[
+"Plate 03 / 4",
+1
+],
+[
+"Modular Workstations You Can Configure",
+1
+],
+[
+"Plate 04 / 4",
+1
+],
+[
+"EXCLUSIVE",
+1
+],
+[
+"Malaysia distributor",
+1
+],
+[
+"Authorised channel for Tanko Enterprise — no parallel import doubts.",
+1
+],
+[
+"LOCAL",
+1
+],
+[
+"Stock in Selangor",
+1
+],
+[
+"Popular models held locally; quoted and delivered in Ringgit.",
+1
+],
+[
+"NATIONWIDE",
+1
+],
+[
+"Delivery across Malaysia",
+1
+],
+[
+"KL, Selangor, Johor, Penang, Ipoh and more — freight arranged.",
+1
+],
+[
+"SUPPORT",
+1
+],
+[
+"Local after-sales",
+1
+],
+[
+"Help from a Malaysia office — sourcing, spec and warranty routing.",
+1
+],
+[
+"PRODUCTS",
+1
+],
+[
+"THE RANGE",
+1
+],
+[
+"Eleven core Tanko ranges,",
+1
+],
+[
+"from workbench to CNC storage.",
+1
+],
+[
+"SELECTED MODELS",
+1
+],
+[
+"Flagship configurations,",
+1
+],
+[
+"real specifications.",
+1
+],
+[
+"Professional Workbench",
+1
+],
+[
+"Heavy Duty Workbench",
+1
+],
+[
+"Mobile Tool Cabinet",
+1
+],
+[
+"Documents cabinet (Floor-standing)",
+1
+],
+[
+"Professional Workstation",
+1
+],
+[
+"Mobile Hanger Rack",
+1
+],
+[
+"WHO WE EQUIP",
+1
+],
+[
+"Industries we serve",
+1
+],
+[
+"across Malaysia.",
+1
+],
+[
+"i",
+1
+],
+[
+"Factories &amp; Manufacturing",
+1
+],
+[
+"Production-line workstations, tool control and parts organisation for continuous shift operations.",
+1
+],
+[
+"ii",
+1
+],
+[
+"Automotive Workshops",
+1
+],
+[
+"Heavy-duty tool cabinets, mobile trolleys and workbenches sized for bay-side use.",
+1
+],
+[
+"Tool Cabinets&nbsp;—",
+1
+],
+[
+"Perforated Boards&nbsp;—",
+1
+],
+[
+"iii",
+1
+],
+[
+"Laboratories &amp; Cleanrooms",
+1
+],
+[
+"Stainless-steel worksurfaces, chemical-resistant storage and modular lab benching.",
+1
+],
+[
+"Documents Cabinets&nbsp;—",
+1
+],
+[
+"iv",
+1
+],
+[
+"Campuses &amp; Facilities",
+1
+],
+[
+"Lockers, technical-training benches and departmental parts storage for schools and campuses.",
+1
+],
+[
+"v",
+1
+],
+[
+"Electronics &amp; EMS",
+1
+],
+[
+"ESD-safe workstations, anti-static mats and grounded assembly benches for electronics plants.",
+1
+],
+[
+"ESD guide&nbsp;—",
+1
+],
+[
+"vi",
+1
+],
+[
+"Food, Pharma &amp; Labs",
+1
+],
+[
+"Stainless-steel benches and hygienic storage for food processing, pharmaceutical and laboratory environments.",
+1
+],
+[
+"Stainless guide&nbsp;—",
+1
+],
+[
+"WHY PRIMAXS",
+1
+],
+[
+"A local channel",
+1
+],
+[
+"for a Taiwan catalogue.",
+1
+],
+[
+"Primaxs Marketing (M) Sdn Bhd is the exclusive Malaysia retail distributor for Tanko Enterprise Co., Ltd., the Taiwan industrial-storage manufacturer established in 1975. Buying through the local distributor means Malaysian stock and Ringgit pricing, help selecting the right model from a technician who has physically handled the range, and after-sales support routed through a Malaysia office instead of a cross-border RMA queue.",
+1
+],
+[
+"More about Primaxs&nbsp;→",
+1
+],
+[
+"tanko established",
+1
+],
+[
+"primaxs incorporated",
+1
+],
+[
+"product categories",
+1
+],
+[
+"SKUs catalogued",
+1
+],
+[
+"INDUSTRIAL STORAGE MALAYSIA",
+1
+],
+[
+"Workbenches, tool cabinets &amp; storage",
+1
+],
+[
+"for Malaysian industry.",
+1
+],
+[
+"Primaxs Marketing (M) Sdn Bhd is the exclusive Malaysia distributor for Tanko Enterprise Co., Ltd. — the Taiwan industrial storage manufacturer established in 1975. Our catalogue covers",
+1
+],
+[
+"industrial workbenches",
+1
+],
+[
+"modular workstations",
+1
+],
+[
+"tool cabinets",
+1
+],
+[
+"CNC tool storage",
+1
+],
+[
+"steel lockers",
+1
+],
+[
+"parts cabinets",
+1
+],
+[
+"warehouse racking",
+1
+],
+[
+"perforated boards",
+1
+],
+[
+"— all built to Taiwanese quality standards and supported locally from our Selangor office.",
+1
+],
+[
+"Malaysian factories, workshops and facilities choose Tanko because the range is engineered for real shop-floor conditions. Heavy-duty workbenches handle fabrication, assembly and maintenance tasks with load ratings that match production demands. Tool cabinets and roller cabinets keep expensive hand tools secure and organised across shifts. CNC tool storage protects BT, HSK and ISO tool holders from chips and moisture in machining shops across Selangor, Johor and Penang.",
+1
+],
+[
+"Whether you are outfitting a new production line in Klang, upgrading a maintenance workshop in Johor Bahru, or equipping a technical training centre in Kuching, Primaxs provides full specification support, Ringgit quotations, Malaysia stock on popular models and nationwide delivery. Our team has physically handled the full Tanko range — we help you select the right configuration, drawer layout and top material for your application, not just sell you a catalogue number.",
+1
+],
+[
+"We serve",
+1
+],
+[
+"manufacturing plants",
+1
+],
+[
+"automotive workshops",
+1
+],
+[
+"CNC machining shops",
+1
+],
+[
+"laboratories and cleanrooms",
+1
+],
+[
+"schools and campuses",
+1
+],
+[
+"electronics and EMS facilities",
+1
+],
+[
+", and",
+1
+],
+[
+"food and pharmaceutical production",
+1
+],
+[
+"across Malaysia. Every product comes with the Tanko manufacturer warranty, administered locally through our office — no cross-border RMA delays.",
+1
+],
+[
+"Browse the full range above, or",
+1
+],
+[
+"send us your model list",
+1
+],
+[
+"for a fast quotation with pricing, lead time and delivery options. We also recommend reading our",
+1
+],
+[
+"industrial storage guides",
+1
+],
+[
+"for practical advice on specifying workbenches, tool cabinets and storage systems for Malaysian conditions.",
+1
+],
+[
+"FREQUENTLY ASKED",
+1
+],
+[
+"Questions Malaysian buyers",
+1
+],
+[
+"ask about Tanko storage.",
+1
+],
+[
+"Is Primaxs the official Tanko distributor in Malaysia?",
+1
+],
+[
+"Yes. Primaxs Marketing (M) Sdn Bhd is the exclusive retail distributor for Tanko Enterprise Co., Ltd. in Malaysia. We have represented the brand since 2006 and hold Malaysia stock for popular configurations. Every Tanko product purchased through Primaxs is covered under the manufacturer warranty with claims administered locally through our Selangor office.",
+1
+],
+[
+"How long is the delivery time for Tanko products in Malaysia?",
+1
+],
+[
+"Popular models held in our Selangor warehouse can be delivered within 3–7 working days to KL, Selangor, Johor, Penang and other Malaysian states. Configured or less common models may require 2–4 weeks for Taiwan production and sea freight. When you send us your model list, we confirm current stock status and lead time for each item before you order.",
+1
+],
+[
+"Can I get a quotation in Ringgit (MYR)?",
+1
+],
+[
+"Yes. All quotations from Primaxs are in Malaysian Ringgit (MYR). We provide unit prices, bulk pricing for quantity orders, and delivery charges separately. Reference prices on product pages are guide prices — the final quotation depends on configuration, quantity and delivery location. Send us your list for an accurate quote.",
+1
+],
+[
+"What industries use Tanko industrial storage in Malaysia?",
+1
+],
+[
+"Tanko products are used across Malaysian manufacturing, automotive repair, CNC machining, electronics assembly, food processing, pharmaceutical production, laboratories, schools and technical training centres. Our workbenches serve fabrication and assembly lines; tool cabinets equip automotive and MRO workshops; CNC tool storage supports precision machining; and lockers serve factories, campuses and public facilities nationwide.",
+1
+],
+[
+"Do you offer bulk or project pricing for factories?",
+1
+],
+[
+"Yes. We offer competitive B2B bulk pricing for factory outfitting, production line setup and facility upgrade projects across Malaysia. For large orders, we can also provide layout advice, phased delivery and on-site coordination. Contact us with your project requirements and quantities for a tailored quotation.",
+1
+],
+[
+"How does the warranty work for Tanko products in Malaysia?",
+1
+],
+[
+"All Tanko products supplied through Primaxs are covered for 1 year against manufacturing defects. If you encounter a manufacturing defect, contact our office with the product details and photos — we handle the warranty claim locally, avoiding the need to ship items back to Taiwan. We also provide spare parts and after-sales support for the full range.",
+1
+],
+[
+"Can Tanko workbenches and cabinets be customised?",
+1
+],
+[
+"Tanko offers configurable options across many ranges — workbench tops (laminate, wood, rubber, stainless steel), drawer counts, pegboard panels, overhead lighting and power sockets. Modular workstations can be assembled in multiple configurations. Tell us your application and we will recommend the right combination from the available Tanko options.",
+1
+],
+[
+"READY TO SPECIFY",
+1
+],
+[
+"Send us your model list",
+1
+],
+[
+"and we'll come back with a quote.",
+1
+],
+[
+"Send us your list&nbsp;→",
+1
+],
+[
+"Industrial Storage &amp; Tool Cabinets Malaysia | Primaxs",
+1
+],
+[
+"Malaysia&#39;s exclusive Tanko distributor since 2006. Taiwan-made steel workbenches, CNC tool cabinets, lockers and racking. Ringgit pricing.",
+1
+],
+[
+"High-Spec Industrial Storage &amp; Tool Cabinets Malaysia | Primaxs",
+1
+],
+[
+"Primaxs Storage Systems - Tanko industrial storage, Malaysia distributor",
+1
 ],
 [
 "Industrial Workbenches — Malaysia Distributor",
@@ -8469,10 +9065,6 @@
 ],
 [
 "The same panel goes by half a dozen names depending on who is specifying it.",
-1
-],
-[
-"and",
 1
 ],
 [

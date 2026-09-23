@@ -17,6 +17,7 @@
 <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
 <link rel="llms-txt" type="text/plain" href="/llms.txt"><link rel="canonical" href="https://www.storagesystem.com.my/">
 <link rel="alternate" hreflang="en-MY" href="https://www.storagesystem.com.my/">
+<link rel="alternate" hreflang="zh-Hans-MY" href="https://www.storagesystem.com.my/zh/">
 <link rel="alternate" hreflang="x-default" href="https://www.storagesystem.com.my/"><meta property="og:site_name" content="Primaxs Marketing (M) Sdn Bhd">
 <meta property="og:title" content="High-Spec Industrial Storage &amp; Tool Cabinets Malaysia | Primaxs">
 <meta property="og:description" content="Malaysia&#39;s exclusive Tanko distributor since 2006. Taiwan-made steel workbenches, CNC tool cabinets, lockers and racking. Ringgit pricing.">
@@ -156,7 +157,15 @@
  </button>
  </li>
  <li><a href="/enquiry/" class="btn" style="margin-left:.5rem;">Basket &amp; Send List</a></li>
- </ul>
+      
+        <li class="lang-pick">
+          <a href="#" class="nav-toggle" aria-haspopup="true" aria-label="Language">EN<span class="caret"></span></a>
+          <div class="dropdown" role="menu" aria-label="Language">
+            <a href="/" hreflang="en-MY" role="menuitem" aria-current="true">English</a>
+            <a href="/zh/" hreflang="zh-Hans-MY" role="menuitem">中文</a>
+          </div>
+        </li>
+      </ul>
  </nav>
 
  <button type="button" class="nav-search-btn mob-search-btn" aria-label="Search products by SKU or name" aria-controls="nav-search-modal"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg></button>
@@ -1015,6 +1024,45 @@
  var open = b.getAttribute("aria-expanded") === "true";
  b.setAttribute("aria-expanded", open ? "false" : "true");
  });
+</script>
+
+<div id="lang-modal" hidden>
+  <div class="lang-modal__backdrop" data-lang-dismiss></div>
+  <div class="lang-modal__card" role="dialog" aria-modal="true" aria-labelledby="lang-modal-title">
+    <h2 id="lang-modal-title">Choose your language</h2>
+    <p>You can change this any time from the menu.</p>
+    <div class="lang-modal__opts">
+      <a href="/" hreflang="en-MY" data-lang-go="en-MY" aria-current="true">English</a>
+      <a href="/zh/" hreflang="zh-Hans-MY" data-lang-go="zh-Hans-MY">中文</a>
+    </div>
+    <button type="button" class="lang-modal__x" data-lang-dismiss aria-label="Close language chooser">&times;</button>
+  </div>
+</div>
+<script>
+(function(){
+  var KEY='primaxs-lang';
+  var el=document.getElementById('lang-modal');
+  if(!el) return;
+  var store=null;
+  try{ store=window.localStorage; }catch(e){}
+  var seen=null;
+  try{ seen=store&&store.getItem(KEY); }catch(e){}
+  if(seen) return;                       // already chose once - never nag again
+  el.hidden=false;
+  document.documentElement.classList.add('lang-modal-open');
+  function remember(v){ try{ store&&store.setItem(KEY,v||'dismissed'); }catch(e){} }
+  function close(){
+    el.hidden=true;
+    document.documentElement.classList.remove('lang-modal-open');
+    remember('dismissed');
+  }
+  el.addEventListener('click',function(ev){
+    var a=ev.target.closest('[data-lang-go]');
+    if(a){ remember(a.getAttribute('data-lang-go')); return; }
+    if(ev.target.closest('[data-lang-dismiss]')) close();
+  });
+  document.addEventListener('keydown',function(ev){ if(ev.key==='Escape') close(); });
+})();
 </script>
 </body>
 </html>

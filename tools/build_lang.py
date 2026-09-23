@@ -123,6 +123,13 @@ def build(lang, pages, write=True, verbose=True):
             skipped.append((path, cov, len(absent)))
             continue
 
+        # Strip any language picker inherited from the English source. Its
+        # hrefs are language-specific and would be rewritten wrongly by the
+        # link fixer below; tools/add_lang_picker.py re-adds a correct one
+        # afterwards, derived from this page's own hreflang block.
+        html = re.sub(r'
+\s*<li class="lang-pick">.*?</li>', '', html, flags=re.S)
+
         new = '/%s%s' % (cfg['prefix'], path)
 
         # capture the ORIGINAL alternates before anything rewrites them.
@@ -219,7 +226,7 @@ def build(lang, pages, write=True, verbose=True):
 def target_pages():
     CATS = ("workbench tool-cabinet perforated-board workstation cnc-tool parts-cabinet "
             "hanger-rack documents-cabinet locker rack household-items").split()
-    pages = []
+    pages = ['docs/index.html']          # the homepage is the language hub
     for c in CATS:
         pages.append('docs/%s/index.html' % c)
         pages += sorted(glob.glob('docs/%s/*/index.html' % c))
