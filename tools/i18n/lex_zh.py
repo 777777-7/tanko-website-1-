@@ -523,6 +523,7 @@ try:
     from terms_zh import TERMS2
     from terms_pb_zh import TERMS_PB
     from terms_tc_zh import TERMS_TC
+    from terms_misc_zh import TERMS_MISC
     from boiler_zh import BOILER
     from pb_prose_zh import PB_PROSE
     from tc_prose_zh import TC_PROSE
@@ -531,6 +532,7 @@ except ImportError:
     from .terms_zh import TERMS2
     from .terms_pb_zh import TERMS_PB
     from .terms_tc_zh import TERMS_TC
+    from .terms_misc_zh import TERMS_MISC
     from .boiler_zh import BOILER
     from .pb_prose_zh import PB_PROSE
     from .tc_prose_zh import TC_PROSE
@@ -538,10 +540,17 @@ except ImportError:
 T.update(TERMS2)
 T.update(TERMS_PB)
 T.update(TERMS_TC)
+T.update(TERMS_MISC)
 T.update(BOILER)
 T.update(PB_PROSE)
 T.update(TC_PROSE)
 T.update(PROSE)
+
+# page copy translated in batches and stored as a generated overlay, so the
+# very long English keys never have to be retyped (see overlay_batch*.py)
+_ov = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'overlay_zh.json')
+if os.path.exists(_ov):
+    T.update(json.load(io.open(_ov, encoding='utf-8')))
 
 # ------------------------------------------------------------ composition rules
 
