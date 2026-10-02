@@ -2687,5 +2687,5 @@ html.lang-modal-open{overflow:hidden}
 
 /* ---- nav language picker ---- */
 .nav-list > li.lang-pick > .nav-toggle{letter-spacing:.02em}
-.lang-pick .dropdown{min-width:190px}
+.lang-pick .dropdown{min-width:190px;left:auto;right:0}  /* last nav item: open leftwards so it never overflows the viewport */
 .lang-pick .dropdown a[aria-current="true"]{font-weight:700}
