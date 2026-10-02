@@ -301,3 +301,81 @@ I started a second identical post and only caught it because a cross-post
 notification appeared mid-way through.
 
 **Always check the Page before retrying a post that appeared to fail.**
+
+---
+
+## 3 Oct 2026 — drafts awaiting Wei Ming's go-ahead (NOT posted)
+
+Research behind them: SEOmator MY volumes (tool cabinet 260, tool trolley 210,
+pegboard hooks 170, metal pegboard 110), live Google SERPs, pains 1 and 6 in
+`icp-and-pains.md`. Both link to guides published 3 Oct.
+
+### A. Facebook Page + share to groups (EN) — pain 6 "drawers stopped closing"
+
+Images (attach BEFORE typing): `asset3/EKA-3M(Red).jpg`, `asset3/EGA-10061.jpg`,
+`asset3/EGM-1703MA.jpg`, `asset3/EA-7041M.jpg`. No "/" anywhere in the text.
+
+```
+🔧 Tool trolley, tool chest or tool cabinet?
+
+Same steel box, four different names in the shop. Buy the wrong one and you find out within a year: drawers that stop closing under load, a trolley that can't carry the job, tools walking off a cabinet that doesn't lock.
+
+Three questions settle it 👇
+1️⃣ Does the work move, or the worker? Work moves → trolley or roller cabinet. Fixed bay → fixed cabinet.
+2️⃣ How heavy is your heaviest drawer? Up to 45kg → standard drawers. Heavier → 100kg or 200kg heavy-duty drawers.
+3️⃣ Are the tools shared? → you need a central lock, not an open trolley.
+
+📦 Tanko (Taiwan) guide prices
+▪️ EKA-3M open trolley, 400kg castors: from RM1,024.25
+▪️ EGA-1 fixed tool cabinet: from RM1,602.65
+▪️ EGA-2M mobile tool cabinet: from RM1,662.90
+▪️ EA-7 heavy-duty cabinet, 200kg T drawers: from RM2,651.00
+
+✅ FREE delivery in Selangor & KL
+✅ FREE installation
+✅ 1-year warranty, handled locally in Selangor
+🚚 Outstation & East Malaysia: delivery quoted separately
+
+📲 WhatsApp Kenny 012-616 3088
+🌐 Full comparison table: storagesystem.com.my → Guides
+
+#toolcabinet #tooltrolley #toolstorage #bengkel #workshopmalaysia #Tanko #Primaxs
+```
+
+Groups: workshop + tools + hardware groups that accept Page posts (Iklan Bengkel,
+Workshop Bengkel kereta seluruh Malaysia, Hardware Tools Global Sourcing, Jual Beli
+Barang Hardware/Tools, Power Tools Malaysia, Malaysia Power Tools).
+
+### B. LinkedIn personal (Wong Wei Ming) — pain 1 "techs waste the morning looking for tools"
+
+Image: `asset3/KQ-306A (Gray).jpg`. Link goes in the first comment:
+https://www.storagesystem.com.my/guides/metal-pegboard-malaysia/
+
+```
+A technician who spends 15 minutes a day looking for tools loses about 60 working hours a year. In a workshop of eight, that is most of a person's month gone to searching.
+
+The fix most workshops already know is a shadow board: every tool hangs in a marked outline, and a missing one shows as a gap by the end of the same shift, not days later when the next job needs it.
+
+Where it usually goes wrong is the board, not the idea.
+
+Three things I tell customers before they buy one:
+
+1. Steel, not hardboard. In Malaysian humidity a fibreboard panel can swell, and its holes wear oval under daily hook loads. Once the hooks no longer sit where the outlines say, people stop using the board.
+
+2. Size it from the tool set, plus a third. Lay the tools out on the floor first. A 1,800 x 450mm board above a bench fills faster than most people expect.
+
+3. Choose the hook per tool. Tanko steel hooks are rated 3 to 6kg, plastic 2 to 4kg, stainless 5kg. A drill on a light hook is how a board ends up on the floor.
+
+The honest downside: a steel board costs more. A 900 x 450mm Tanko board is RM168.70, while home pegboards start at around RM40. For a home garage the cheap one is fine. On a line where tools move every hour, the cheap board turns out to be the expensive one.
+
+This week I put the full size and price table, and which hooks hold what, into a guide on our site. Link in the first comment.
+
+#5S #LeanManufacturing #Malaysia
+```
+
+### C. Google Business Profile — image `asset3/EGM-1703MA.jpg`, button "Learn more" →
+https://www.storagesystem.com.my/guides/tool-trolley-vs-tool-chest-vs-tool-cabinet-malaysia/
+
+```
+Tool trolley, tool chest or tool cabinet? Our new guide compares drawer loads (45kg to 200kg), mobility, locks and Ringgit guide prices for every Tanko line, from RM1,024.25. FREE delivery and installation in Selangor & KL, 1-year warranty handled locally. WhatsApp 012-616 3088.
+```
