@@ -379,3 +379,18 @@ https://www.storagesystem.com.my/guides/tool-trolley-vs-tool-chest-vs-tool-cabin
 ```
 Tool trolley, tool chest or tool cabinet? Our new guide compares drawer loads (45kg to 200kg), mobility, locks and Ringgit guide prices for every Tanko line, from RM1,024.25. FREE delivery and installation in Selangor & KL, 1-year warranty handled locally. WhatsApp 012-616 3088.
 ```
+
+### Status 3 Oct 2026, ~02:30
+- PUBLISHED: Facebook Page + 9 groups, tool trolley vs cabinet, 4 range posters + guide link. 6 of 9 cross-posts confirmed (Power Tools Malaysia, second hand machinery malaysia, Jual Beli Barang Hardware/Tools, MEKANIK KERETA ANAK MELAYU, Hardware Tools Global Sourcing, Jual.beli peralatan bengkel); 3 bengkel groups pending.
+- SCHEDULED in Publer: LinkedIn personal Mon 5 Oct 09:00 (B), GBP Mon 5 Oct 10:30 (C), LinkedIn Page Wed 7 Oct 09:00, GBP Fri 9 Oct 10:00 (pegboard). All with posters + links.
+- LinkedIn invites sent (no note; the note dialog would not load): Raymond Yong Yik Weng, Wei Aik Gun, Kea Chang Beh, Bee Hock Tan, Maggie Ng Wai Chi. Search-result Connect links hang; profile-sidebar buttons work.
+- TODO: Chinese pegboard FB post Tue 6 Oct ~12:30 to 五金交流区, 五金机械批发/零售, 马来西亚建筑五金门业广告群, 马来西亚二手机床, MALAYSIA CONSTRUCTION MACHINERY, Malaysian machineries. ~15-20 more LinkedIn invites.
+- Facebook text trick: paste via synthetic ClipboardEvent('paste') on the composer editor - keeps "/" in URLs safe. Scheduling a FB post disables share-to-groups.
+- Tanko link request was already sent 12 + 13 Sep (no reply). The 3 Oct Gmail draft is a duplicate - do not send.
+
+### Status 3 Oct 2026, 10:40
+- FB post 1 (EN, tool trolley vs cabinet): all 9 group cross-posts confirmed. 1 reaction, 1 share by morning.
+- FB post 2 (中文, 钢制洞洞板, posters 3-2-1-4 + pegboard guide link): published 10:34 to Page + 7 groups. Confirmed: Malaysian machineries., 五金机械批发/零售, 马来西亚二手机床, MALAYSIA CONSTRUCTION MACHINERY, Malaysia Agriculture & Industry Machinery Traders. Pending (admin approval likely): 五金交流区, 马来西亚建筑五金门业广告群. First attempt failed silently (navigated away too early); one supervised retry worked - no duplicate.
+- GSC: Request indexing accepted for both new guides + the expanded shadow-board guide. Both new guides already "discovered" via sitemap-guides.xml.
+- LinkedIn: 21 invites total (5 without note on 3 Oct 02:30, 16 with personal notes at 10:00-10:30): Chung Hon Leong (Tyson Foods), Thanasegar (The Italian Baker), Zaim (Siemens), Sureya (Forbes Marshall), Nizamuddin (Kossan), Ali (Tenpower), Logesan (IOI Plantation), Saravanan (PKT Logistics), YS Tan (medical device OEM), Selven (Sika), Sasindran (DiFeed), Soong Seok Loon, Ahmad Hazim (KJTS), Nedunchelien (MACOM), Mohammad Firdaus (Tyson Foods), Mohd Nizam (Ingress). Wei Aik Gun already accepted. Search-result Connect works in daytime; the note dialog loads.
+- Next week (per playbook): follow-up messages to accepted connections (no delivery-time claims), Monday GSC check, one new guide.
