@@ -229,3 +229,20 @@ trolleys and cabinets sit under RM2,000. Confirm the wording with a tax agent be
 | Optional, decide by Dec: one 2027 trade show booth | RM11–18k + build |
 
 Everything else in this plan is free.
+
+## 6. Registration status — 4 Oct 2026
+
+All forms below are filled with Primaxs details (email weimingwong78@gmail.com). Nothing has been
+submitted. What is left in each one needs Wei Ming: a password, a legal declaration, a document,
+a payment, or data we do not hold.
+
+| Portal | Filled | Left for Wei Ming |
+|---|---|---|
+| **Pharmaniaga** (ADAM / Supplycart draft, autosaves) | Company name, trading name, reg. no., address, State Selangor, Malaysia, phone, email + PO email, website, Sdn Bhd, incorporated 15 Dec 2006, Nature of business = Distributor, categories (Racking & Shelving, Furniture Supply, Tools and Other Consumables, Other MHE, Non-Bumiputera), Company Status Non-Bumiputera, contact-person row, authorised-representative row (name, designation, company) | T&C consent radio; uploads (SSM cert, Tanko authorisation letter, company profile*, signed bank verification form*); shareholder % and shareholder/director tables (names + IC); bank details; veteran-owned answer; all Yes/No compliance and ESG declarations; declaration date; **Submit** |
+| **Coupa** supplier sign-up | Business name, email, first/last name, country Malaysia | Password x2, Tax ID (or tick "I do not have a Tax ID"), Privacy/Terms tick, **Create an account** |
+| **eP UKM** (Cipta Akaun → Pembekal) | Company name, SDN BHD, ROC 200601036829, officer name, email, username `primaxs.marketing` | Officer IC no., password x2, agreement tick, submit |
+| **Air Selangor** step 1 | Reg. no., full company name | Data privacy tick, **Submit** (opens the full form) |
+| **Eezee** register | Email | Password x2, **Register**, then seller application |
+| **ePerolehan (MOF)** | Akaun MOF chosen, reached Terma dan Syarat | Accept terms; MyKad-based admin details; RM50 processing fee now, RM400 on approval |
+| **Prasarana (SAP Ariba)** self-request | Justification New Registration, legal name, street/house no./street 2, postcode, city, Malaysia, State Selangor, contact name/email/phone, English-Malaysia, Local Company, UNSPSC Commercial and industrial furniture (5611) | Company registration number (the row only shows a Country field for Malaysia; enter it if a box appears, or in Prasarana's follow-up questionnaire), **Submit** |
+| **Procurehere** checkout (Unlimited Buyer Plan, RM145.80 shown) | Company name, reg. no., country, full name, designation, login + communication email, mobile, office number | Password, promo code if any, payment, **checkout**. Company name, reg. no., name and designation cannot be changed after submit, so check them first |
