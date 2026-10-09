@@ -365,3 +365,48 @@ reach — the 5 Timeline posts earn 278–393 impressions each — but it does *
 multiply backlinks. We have the two links that listing will ever give us. Budget
 effort accordingly, and do not pay for an upgrade on the assumption that more
 products means more links without testing that first.
+
+## New sources — 9 Oct 2026 research pass
+
+Checked with read-only fetches of public HTML (no accounts created). "Followed" means a real
+listing's website anchor carried no nofollow/ugc/sponsored. Already-covered sites were skipped
+(NEWPAGES, InfoPages, Seek Business, BeOnline, MalaysiaListings, B2BMap, all.biz, interepo,
+BusinessList.my, Listing.my, manufacturermalaysia.com, Lapasar — Lapasar profiles carry no link).
+
+**Best lead:** the 15 Sep Bing backlink data shows three followed-link sources that send links to
+competitors and not to us yet: MyPages.my, NEWJOBS and JawatanKosong.
+
+| # | Source | How to get on it | Cost | Link | Who's there | Do |
+|---|---|---|---|---|---|---|
+| 1 | **MyPages.my / Super Pages** (PanPages, Shah Alam) | Email contact@panpages.com, tel 03-5612 5907 (no self-serve form) | Ask (sales-gated) | Followed + one nofollow per listing | Nation Racking, Eonmetall, SKL Metal Systems; JTE gets links | Email: is a basic listing free, and does the website link stay followed? |
+| 2 | **Jobstreet company profile** | my.employer.seek.com, free "Lite ad" | Free | Followed (Nutech's profile) | Knight Auto, Nutech | Only with a real vacancy |
+| 3 | **NEWJOBS** (NEWPAGES job board) | Via NEWPAGES account 93368 ("Post A Job" says coming soon) | Ask | Followed | Knight Auto (6 links) | Add to the existing NEWPAGES chase email |
+| 4 | **ThePages.com.my** | thepages.com.my/add-business-listing/ (login) | Check price first | Followed, index,follow | Small: 12 industrial listings | Industrial & Manufacturing category |
+| 5 | **JawatanKosong.com** | jawatankosong.com/Employer/Register | Not stated | Followed | JTE (8 links) | Same real vacancy as Jobstreet |
+| 6 | **MATRADE membership** | crmv2.matrade.gov.my/mem-public/create/ | Registration free; MDT portal is a separate paid option | Unknown | — | Register free as a Trader; also the route to the MDG export grant |
+| 7 | **Hotfrog MY** | hotfrog.com.my/admin/add | Not stated | Nofollow | Starke Storage, GSE Racking | NAP citation only |
+| 8 | **Apple Business Connect** | business.apple.com | Free (Apple) | Apple Maps card | — | Citation, Malaysia supported |
+| 9 | **Infobel MY** | infobel.com/en/malaysia/UpdateData/Index | Basic appears free | Unknown | — | Syndicates to partner sites |
+| 10 | **Cybo** | cybo.com/add-business | Unknown | Unknown | — | Text blocked to the checker |
+
+Paid memberships (value is networking, not the link): FMM (RM500 entrance + RM900–6,000/yr, or
+Affiliate RM2,600/yr), KL & Selangor Chinese Chamber (RM300 entrance + annual, RM6,000 life),
+SME Association (lifetime RM2,050 rising to RM3,500). Free registrations with no public link:
+SME Corp MyBPI (SME status), UiTM FinEProcurement Plus.
+
+Editorial (brand mention, links unlikely): APMEN equipment-news.com (pitch a CNC tool-storage
+story), Malaysia SME magazine.
+
+Forums (reply helpfully, link a guide not a product page, say openly it's Primaxs):
+lowyat topic 4972486 (how DIYers store tools), 5527966 (renting a garage/workshop, Jun 2025),
+4978044 (DIY car repair at home).
+
+Rejected after checking: MyIndustryGuide (dead), SupplierMalaysia.my (no outbound links),
+Archify (JS click-to-reveal), logasiamag.com (gambling blog), Hardware1000 (scraped),
+AseanBiz (already 5 links; spam member base), Jobstore (noindex). Could not verify: Kompass MY,
+Yellow Pages MY, Europages (likely needs a DE/AT/CH branch), MIDA i-Services (404), Reddit, Quora.
+
+**This week, in order:** (1) email PanPages; (2) add NEWJOBS to the NEWPAGES chase; (3) Jobstreet
++ JawatanKosong only if there's a real opening; (4) ThePages after checking price; (5) MATRADE
+free Trader registration; (6) Hotfrog and Apple Business Connect as NAP citations. All need Wei
+Ming's own account sign-up or email.
