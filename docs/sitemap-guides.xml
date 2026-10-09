@@ -62,7 +62,7 @@
   </url>
   <url>
     <loc>https://www.storagesystem.com.my/guides/how-to-choose-a-workbench-malaysia/</loc>
-    <lastmod>2026-09-15</lastmod>
+    <lastmod>2026-10-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -319,5 +319,11 @@
       <image:loc>https://www.storagesystem.com.my/feed-img/asset3__KQ-306A-Gray.jpg</image:loc>
       <image:title>Metal Pegboard Malaysia: Sizes, Hooks &amp; Prices</image:title>
     </image:image>
+  </url>
+  <url>
+    <loc>https://www.storagesystem.com.my/guides/workbench-height-ergonomics-malaysia/</loc>
+    <lastmod>2026-10-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
 </urlset>

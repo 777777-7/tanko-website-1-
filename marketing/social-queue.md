@@ -394,3 +394,126 @@ Tool trolley, tool chest or tool cabinet? Our new guide compares drawer loads (4
 - GSC: Request indexing accepted for both new guides + the expanded shadow-board guide. Both new guides already "discovered" via sitemap-guides.xml.
 - LinkedIn: 21 invites total (5 without note on 3 Oct 02:30, 16 with personal notes at 10:00-10:30): Chung Hon Leong (Tyson Foods), Thanasegar (The Italian Baker), Zaim (Siemens), Sureya (Forbes Marshall), Nizamuddin (Kossan), Ali (Tenpower), Logesan (IOI Plantation), Saravanan (PKT Logistics), YS Tan (medical device OEM), Selven (Sika), Sasindran (DiFeed), Soong Seok Loon, Ahmad Hazim (KJTS), Nedunchelien (MACOM), Mohammad Firdaus (Tyson Foods), Mohd Nizam (Ingress). Wei Aik Gun already accepted. Search-result Connect works in daytime; the note dialog loads.
 - Next week (per playbook): follow-up messages to accepted connections (no delivery-time claims), Monday GSC check, one new guide.
+
+---
+
+## Week of 6 Oct 2026 — drafts awaiting Wei Ming's go-ahead (NOT posted)
+
+Topic: **worker hostel lockers and the Act 446 size rule**. Research behind it (9 Oct):
+- Live Google MY for "steel locker malaysia" and "factory staff locker malaysia": office-furniture
+  sellers own it (officepro.my, supreme.com.my, asiastarfurniture, gy.com.my, Saidina) with
+  RM200–RM900 lockers. One competitor sells a 6-door locker as "JTK Approved Locker Size".
+- The rule (verified on Skrine's alert): Employees' Minimum Standards of Housing, Accommodations
+  and Amenities (Accommodation and Centralised Accommodation) Regulations 2020, in force 1 Sep
+  2020 — a locked cupboard of at least 0.35 x 0.35 x 0.9 m per worker, not shared.
+- Enforcement (verified, The Vibes 29 Oct 2023): Peninsular Labour Dept said only 50% of employers
+  comply; failures listed include locked cupboards; up to RM50,000 per offence.
+- Only FBA-202W (inside 420x388x987) and FBB-202 (inside 415x450x1653) pass. Built into
+  /locker/#locker-sizes, /loker-besi/#saiz-loker and the steel locker guide on 9 Oct.
+
+Poster (attach BEFORE typing): `marketing/posters/locker-act446-en.jpg` (EN groups, LinkedIn,
+GBP) and `marketing/posters/locker-act446-zh.jpg` (Chinese groups). Made by
+`tools/make_locker_poster.py`.
+
+### A. Facebook Page + share to groups (EN)
+
+```
+🏠 Worker hostel lockers: does yours pass the JTK size?
+
+Since 1 September 2020, every worker in employer-provided housing must have their own locked cupboard of at least 350 x 350 x 900 mm, for valuables and passport (Accommodation Regulations 2020, Act 446).
+
+When JTK reported on inspections in 2023, only about half of employers were complying, and missing locked cupboards was on the list. Fine: up to RM50,000 per offence.
+
+The catch: many multi-tier "staff lockers" are too narrow or too short inside. "JTK approved" in a listing is not a certificate. JTK certifies the hostel, not the locker. Measure the compartment.
+
+✅ Tanko 2-door lockers that pass
+▪️ FBB-202, inside 415 x 450 x 1653 mm: RM2,120.80
+▪️ FBA-202W, inside 420 x 388 x 987 mm, rubber-wood top: RM1,614.70
+
+Changing rooms are not covered by the hostel rule. There, 8 to 15-door banks for phones and wallets start at RM261.89 per door.
+
+✅ FREE delivery in Selangor & KL
+✅ FREE installation
+✅ 1-year warranty, handled locally in Selangor
+🚚 Outstation & East Malaysia: delivery quoted separately
+
+📲 WhatsApp Kenny 012-616 3088
+🌐 Every model's inside size and price: storagesystem.com.my → Lockers
+
+#locker #lokerbesi #almaribesi #asramapekerja #Akta446 #Tanko #Primaxs
+```
+
+Groups: factory, hostel and HR-adjacent groups first; hardware and workshop groups second. Skip
+any group that removed an earlier post.
+
+### B. Facebook Chinese groups (中文) — poster `locker-act446-zh.jpg`
+
+```
+🏠 员工宿舍储物柜，符合 JTK 尺寸吗？
+
+2020年9月1日起（Act 446 住宿条例），雇主提供的宿舍，每位员工必须有独立上锁柜，内部至少 350 x 350 x 900 mm，用来保管贵重物品和护照。
+
+劳工局2023年公布：只有约一半雇主合规，缺少上锁柜是违规项目之一。罚款：每项最高 RM50,000。
+
+注意：很多多层"员工储物柜"内部太窄或太矮。广告写"JTK认可"不是认证，JTK认证的是宿舍，不是柜子。请量内部尺寸。
+
+✅ 符合尺寸的 Tanko 双门储物柜
+▪️ FBB-202，内部 415 x 450 x 1653 mm：RM2,120.80
+▪️ FBA-202W，内部 420 x 388 x 987 mm，橡胶木台面：RM1,614.70
+
+更衣室不受宿舍条例限制：8至15门手机钱包柜，每门 RM261.89 起。
+
+✅ 雪兰莪及吉隆坡免费送货
+✅ 免费安装
+✅ 一年保修，雪兰莪本地处理
+🚚 外州及东马：运费另报
+
+📲 WhatsApp Kenny 012-616 3088
+🌐 所有型号内部尺寸及价格：storagesystem.com.my → Lockers
+```
+
+Groups: 五金交流区, 五金机械批发/零售, 马来西亚机械与模具工业技术交流平台, 马来西亚建筑五金门业广告群,
+Malaysian machineries. Post at least an hour after A (Page throttle).
+
+### C. LinkedIn personal (Wong Wei Ming) — poster EN, link in first comment:
+https://www.storagesystem.com.my/locker/#locker-sizes
+
+```
+If your company houses workers, the law sets a minimum locker size, and many of the lockers sold as "staff lockers" do not meet it.
+
+Since 1 September 2020, the accommodation regulations under Act 446 require every worker in employer-provided housing to have their own locked cupboard, at least 0.35 m x 0.35 m x 0.9 m, for valuables including their passport. One per worker, not one per room.
+
+When the Labour Department reported on its inspections in October 2023, only about half of employers were complying, and missing locked cupboards was one of the listed failures. The fine is up to RM50,000 per offence.
+
+The problem I keep seeing is the multi-tier locker. A three-column, six-door bank looks efficient on a quotation, but each compartment is about 272 mm wide inside. A four-door bank is under 800 mm high per door. Neither meets the rule, whatever the listing says. "JTK approved" on a product page is not a certification; JTK certifies the accommodation, not the furniture.
+
+Three checks before you buy:
+1. Measure inside the compartment, not the outside of the bank.
+2. Count one compartment per resident at peak occupancy.
+3. For hostels with damp uniforms, ask for ventilation on every door.
+
+In our range only two models pass: the full-height FBB-202 (inside 415 x 450 x 1653 mm) and the low FBA-202W (inside 420 x 388 x 987 mm). The honest downside: they cost more per worker than a multi-tier bank, RM807 to RM1,060 per door against about RM262 for a 15-door bank. For a changing room, where the hostel rule does not apply, the 15-door bank is the better buy.
+
+I have put every model's inside size, price and pass or fail into one table on our site. Link in the first comment.
+
+#Act446 #FactoryManagement #Malaysia
+```
+
+### D. LinkedIn Company Page (Primaxs) — same poster, link in post
+
+```
+Worker hostel lockers have a legal minimum size in Malaysia: since 1 September 2020, each worker in employer-provided housing needs their own locked cupboard of at least 0.35 x 0.35 x 0.9 m (Act 446 accommodation regulations).
+
+Many multi-tier lockers are too narrow or too short inside to meet it. We have published the inside dimensions, price and pass or fail for every Tanko locker model, so buyers can check before ordering.
+
+Two Tanko models pass: FBB-202 (inside 415 x 450 x 1653 mm) and FBA-202W (inside 420 x 388 x 987 mm).
+
+https://www.storagesystem.com.my/locker/#locker-sizes
+```
+
+### E. Google Business Profile — poster EN, button "Learn more" →
+https://www.storagesystem.com.my/locker/#locker-sizes (no phone numbers in GBP text)
+
+```
+Worker hostel lockers: since 1 Sep 2020 each worker in employer housing needs a locked cupboard of at least 350 x 350 x 900 mm (Act 446 accommodation regulations). Our new table shows every Tanko locker's inside size, price and whether it passes. The two-door FBB-202 and FBA-202W pass. FREE delivery and installation in Selangor & KL, 1-year warranty handled locally.
+```
