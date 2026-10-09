@@ -517,3 +517,23 @@ https://www.storagesystem.com.my/locker/#locker-sizes (no phone numbers in GBP t
 ```
 Worker hostel lockers: since 1 Sep 2020 each worker in employer housing needs a locked cupboard of at least 350 x 350 x 900 mm (Act 446 accommodation regulations). Our new table shows every Tanko locker's inside size, price and whether it passes. The two-door FBB-202 and FBA-202W pass. FREE delivery and installation in Selangor & KL, 1-year warranty handled locally.
 ```
+
+### F. LinkedIn follow-ups to accepted connections (send via /messaging/compose; one each)
+
+Rules: personal, one useful thing, no delivery-time claims, no hard sell, no attachment.
+Pick the variant that fits their industry; fill [Name] and [Company].
+
+**Food, pharma, medical devices (Tyson Foods, Kossan, The Italian Baker, medical-device OEM)**
+```
+Hi [Name], thanks for connecting. One thing that comes up a lot with food and pharma plants we supply: if [Company] houses workers, the 2020 Act 446 accommodation rules need a locked cupboard of at least 0.35 x 0.35 x 0.9 m per worker, and many multi-tier lockers are too small inside. I put the sizes into one table here in case it is useful: https://www.storagesystem.com.my/locker/#locker-sizes
+```
+
+**Electronics, EMS, engineering (Siemens, MACOM, Ingress, KJTS)**
+```
+Hi [Name], thanks for connecting. We have just published a short guide on workbench height for assembly and inspection lines, based on DOSH's 2024 standing-at-work guideline (precision work standing under 10 minutes, the elbow-height rule, mats and footrests). Might be handy for your line layouts: https://www.storagesystem.com.my/guides/workbench-height-ergonomics-malaysia/
+```
+
+**Plantation, logistics, general manufacturing (IOI, PKT Logistics, Sika, Forbes Marshall, DiFeed, Tenpower)**
+```
+Hi [Name], thanks for connecting. I work with Tanko industrial storage here in Malaysia, so workshops, maintenance bays and worker hostels are my world. If a bench, tool cabinet or locker question ever comes up at [Company], happy to help even if it is not something we sell.
+```
