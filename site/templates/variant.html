@@ -31,6 +31,8 @@
         <div class="sku-line">Model No. {{ variant.sku }} &middot; <a href="{{ base_url }}{{ family.url }}">{{ family.name }}</a></div>
         {% if variant.price_myr %}
         <div class="ref-price">Reference price: <strong>RM {{ variant.price_myr }}</strong> <span class="ref-price-note">(guide price — final quotation on request)</span></div>
+        {% else %}
+        <div class="ref-price">Reference price: <strong>Price on request</strong></div>
         {% endif %}
         <ul class="spec-list">
           {% if variant.dimensions %}<li><span class="k">Dimensions</span><span class="v">{{ variant.dimensions|replace('|','')|trim }}</span></li>{% endif %}

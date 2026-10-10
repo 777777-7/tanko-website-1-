@@ -2124,8 +2124,10 @@ def build_variant(cat_slug, cat_meta, family_info, variant, all_family_variants)
             _pmyr = round(sum(_fam_prices) / len(_fam_prices))
             _pmethod = "family_average"
         else:
-            _pmyr = 1500  # sensible default guide price for industrial storage
-            _pmethod = "default_guide"
+            # No price data anywhere in the family: say so. A made-up RM1,500 used
+            # to go here and was shown to buyers and sent to Google Shopping
+            # (removed 10 Oct 2026, Wei Ming's call).
+            prod_ld["offers"]["description"] = "Price on request"
     if _pmyr:
         prod_ld["offers"]["price"] = _pmyr
         prod_ld["offers"]["priceValidUntil"] = "2027-12-31"

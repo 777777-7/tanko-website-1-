@@ -4,7 +4,7 @@
 default `_pmyr = 1500` "so every product has a price for SEO". That RM1,500 is shown on the page and
 sent to Google in Product structured data (and so to Merchant listings) as if it were real.
 
-**Nothing has been changed.** Wei Ming's standing rule is that pricing is not touched unless he asks.
+**Resolved 10 Oct 2026 — Wei Ming chose option 2.** All 41 now show "Price on request" (page text and Product JSON-LD), family pages recomputed their price range from real prices only, the 41 items were removed from merchant-feed.xml and local-inventory.xml (1,517 → 1,476), the 6 affected /zh/ family pages got the same JSON-LD change, and `site/build.py` + `site/templates/variant.html` no longer invent a price. Original note below.
 Options, his call:
 
 1. Give these 41 SKUs their real Tanko prices (best: they then rank in Shopping tiles honestly).

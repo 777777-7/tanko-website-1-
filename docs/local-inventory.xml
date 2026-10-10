@@ -185,28 +185,10 @@
       <g:price>4820.00 MYR</g:price>
     </item>
     <item>
-      <g:id>EA-12031-111N</g:id>
-      <g:store_code>11724893644651686981</g:store_code>
-      <g:availability>in_stock</g:availability>
-      <g:price>1500 MYR</g:price>
-    </item>
-    <item>
       <g:id>EA-12031-222N</g:id>
       <g:store_code>11724893644651686981</g:store_code>
       <g:availability>in_stock</g:availability>
       <g:price>4518.75 MYR</g:price>
-    </item>
-    <item>
-      <g:id>EA-12031-333N</g:id>
-      <g:store_code>11724893644651686981</g:store_code>
-      <g:availability>in_stock</g:availability>
-      <g:price>1500 MYR</g:price>
-    </item>
-    <item>
-      <g:id>EA-12041-666N</g:id>
-      <g:store_code>11724893644651686981</g:store_code>
-      <g:availability>in_stock</g:availability>
-      <g:price>1500 MYR</g:price>
     </item>
     <item>
       <g:id>EA-12042-88N</g:id>
@@ -215,28 +197,10 @@
       <g:price>4627.20 MYR</g:price>
     </item>
     <item>
-      <g:id>EB-12031-111N</g:id>
-      <g:store_code>11724893644651686981</g:store_code>
-      <g:availability>in_stock</g:availability>
-      <g:price>1500 MYR</g:price>
-    </item>
-    <item>
       <g:id>EB-12031-222N</g:id>
       <g:store_code>11724893644651686981</g:store_code>
       <g:availability>in_stock</g:availability>
       <g:price>5024.85 MYR</g:price>
-    </item>
-    <item>
-      <g:id>EB-12031-333N</g:id>
-      <g:store_code>11724893644651686981</g:store_code>
-      <g:availability>in_stock</g:availability>
-      <g:price>1500 MYR</g:price>
-    </item>
-    <item>
-      <g:id>EB-12041-666N</g:id>
-      <g:store_code>11724893644651686981</g:store_code>
-      <g:availability>in_stock</g:availability>
-      <g:price>1500 MYR</g:price>
     </item>
     <item>
       <g:id>EB-12042-88N</g:id>
@@ -245,28 +209,10 @@
       <g:price>5181.50 MYR</g:price>
     </item>
     <item>
-      <g:id>ED-12031-111N</g:id>
-      <g:store_code>11724893644651686981</g:store_code>
-      <g:availability>in_stock</g:availability>
-      <g:price>1500 MYR</g:price>
-    </item>
-    <item>
       <g:id>ED-12031-222N</g:id>
       <g:store_code>11724893644651686981</g:store_code>
       <g:availability>in_stock</g:availability>
       <g:price>5735.80 MYR</g:price>
-    </item>
-    <item>
-      <g:id>ED-12031-333N</g:id>
-      <g:store_code>11724893644651686981</g:store_code>
-      <g:availability>in_stock</g:availability>
-      <g:price>1500 MYR</g:price>
-    </item>
-    <item>
-      <g:id>ED-12041-666N</g:id>
-      <g:store_code>11724893644651686981</g:store_code>
-      <g:availability>in_stock</g:availability>
-      <g:price>1500 MYR</g:price>
     </item>
     <item>
       <g:id>ED-12042-88N</g:id>
@@ -1061,18 +1007,6 @@
       <g:price>2277.45 MYR</g:price>
     </item>
     <item>
-      <g:id>HAA-715W</g:id>
-      <g:store_code>11724893644651686981</g:store_code>
-      <g:availability>in_stock</g:availability>
-      <g:price>1500 MYR</g:price>
-    </item>
-    <item>
-      <g:id>HAA-915W</g:id>
-      <g:store_code>11724893644651686981</g:store_code>
-      <g:availability>in_stock</g:availability>
-      <g:price>1500 MYR</g:price>
-    </item>
-    <item>
       <g:id>FBB-202</g:id>
       <g:store_code>11724893644651686981</g:store_code>
       <g:availability>in_stock</g:availability>
@@ -1169,22 +1103,10 @@
       <g:price>3918 MYR</g:price>
     </item>
     <item>
-      <g:id>FBA-202AW</g:id>
-      <g:store_code>11724893644651686981</g:store_code>
-      <g:availability>in_stock</g:availability>
-      <g:price>1500 MYR</g:price>
-    </item>
-    <item>
       <g:id>FBA-202W</g:id>
       <g:store_code>11724893644651686981</g:store_code>
       <g:availability>in_stock</g:availability>
       <g:price>1614.70 MYR</g:price>
-    </item>
-    <item>
-      <g:id>FBA-204AW</g:id>
-      <g:store_code>11724893644651686981</g:store_code>
-      <g:availability>in_stock</g:availability>
-      <g:price>1500 MYR</g:price>
     </item>
     <item>
       <g:id>FBA-204W</g:id>
@@ -1853,12 +1775,6 @@
       <g:price>397.65 MYR</g:price>
     </item>
     <item>
-      <g:id>TE-211</g:id>
-      <g:store_code>11724893644651686981</g:store_code>
-      <g:availability>in_stock</g:availability>
-      <g:price>1500 MYR</g:price>
-    </item>
-    <item>
       <g:id>MB-206</g:id>
       <g:store_code>11724893644651686981</g:store_code>
       <g:availability>in_stock</g:availability>
@@ -1905,18 +1821,6 @@
       <g:store_code>11724893644651686981</g:store_code>
       <g:availability>in_stock</g:availability>
       <g:price>17773.75 MYR</g:price>
-    </item>
-    <item>
-      <g:id>ME-321</g:id>
-      <g:store_code>11724893644651686981</g:store_code>
-      <g:availability>in_stock</g:availability>
-      <g:price>1500 MYR</g:price>
-    </item>
-    <item>
-      <g:id>ME-322</g:id>
-      <g:store_code>11724893644651686981</g:store_code>
-      <g:availability>in_stock</g:availability>
-      <g:price>1500 MYR</g:price>
     </item>
     <item>
       <g:id>EA-10051</g:id>
@@ -3177,12 +3081,6 @@
       <g:store_code>11724893644651686981</g:store_code>
       <g:availability>in_stock</g:availability>
       <g:price>4687.45 MYR</g:price>
-    </item>
-    <item>
-      <g:id>EKK-1M</g:id>
-      <g:store_code>11724893644651686981</g:store_code>
-      <g:availability>in_stock</g:availability>
-      <g:price>1500 MYR</g:price>
     </item>
     <item>
       <g:id>ELA-185M</g:id>
@@ -7379,12 +7277,6 @@
       <g:price>5543.00 MYR</g:price>
     </item>
     <item>
-      <g:id>WS-48MS</g:id>
-      <g:store_code>11724893644651686981</g:store_code>
-      <g:availability>in_stock</g:availability>
-      <g:price>1500 MYR</g:price>
-    </item>
-    <item>
       <g:id>WD-58P</g:id>
       <g:store_code>11724893644651686981</g:store_code>
       <g:availability>in_stock</g:availability>
@@ -8415,144 +8307,6 @@
       <g:store_code>11724893644651686981</g:store_code>
       <g:availability>in_stock</g:availability>
       <g:price>23750.55 MYR</g:price>
-    </item>
-    <item>
-      <g:id>WKT-5102F</g:id>
-      <g:store_code>11724893644651686981</g:store_code>
-      <g:availability>in_stock</g:availability>
-      <g:price>1500 MYR</g:price>
-    </item>
-    <item>
-      <g:id>WKT-5102F1</g:id>
-      <g:store_code>11724893644651686981</g:store_code>
-      <g:availability>in_stock</g:availability>
-      <g:price>1500 MYR</g:price>
-    </item>
-    <item>
-      <g:id>WKT-5102F1WPK-21</g:id>
-      <g:store_code>11724893644651686981</g:store_code>
-      <g:availability>in_stock</g:availability>
-      <g:price>1500 MYR</g:price>
-    </item>
-    <item>
-      <g:id>WKT-5102W</g:id>
-      <g:store_code>11724893644651686981</g:store_code>
-      <g:availability>in_stock</g:availability>
-      <g:price>1500 MYR</g:price>
-    </item>
-    <item>
-      <g:id>WKT-5102W1</g:id>
-      <g:store_code>11724893644651686981</g:store_code>
-      <g:availability>in_stock</g:availability>
-      <g:price>1500 MYR</g:price>
-    </item>
-    <item>
-      <g:id>WKT-5102W1WPK-21</g:id>
-      <g:store_code>11724893644651686981</g:store_code>
-      <g:availability>in_stock</g:availability>
-      <g:price>1500 MYR</g:price>
-    </item>
-    <item>
-      <g:id>WP511024</g:id>
-      <g:store_code>11724893644651686981</g:store_code>
-      <g:availability>in_stock</g:availability>
-      <g:price>1500 MYR</g:price>
-    </item>
-    <item>
-      <g:id>WP511024A</g:id>
-      <g:store_code>11724893644651686981</g:store_code>
-      <g:availability>in_stock</g:availability>
-      <g:price>1500 MYR</g:price>
-    </item>
-    <item>
-      <g:id>WP511025</g:id>
-      <g:store_code>11724893644651686981</g:store_code>
-      <g:availability>in_stock</g:availability>
-      <g:price>1500 MYR</g:price>
-    </item>
-    <item>
-      <g:id>WP511025A</g:id>
-      <g:store_code>11724893644651686981</g:store_code>
-      <g:availability>in_stock</g:availability>
-      <g:price>1500 MYR</g:price>
-    </item>
-    <item>
-      <g:id>WP511026</g:id>
-      <g:store_code>11724893644651686981</g:store_code>
-      <g:availability>in_stock</g:availability>
-      <g:price>1500 MYR</g:price>
-    </item>
-    <item>
-      <g:id>WP511026A</g:id>
-      <g:store_code>11724893644651686981</g:store_code>
-      <g:availability>in_stock</g:availability>
-      <g:price>1500 MYR</g:price>
-    </item>
-    <item>
-      <g:id>WP511028</g:id>
-      <g:store_code>11724893644651686981</g:store_code>
-      <g:availability>in_stock</g:availability>
-      <g:price>1500 MYR</g:price>
-    </item>
-    <item>
-      <g:id>WP511028A</g:id>
-      <g:store_code>11724893644651686981</g:store_code>
-      <g:availability>in_stock</g:availability>
-      <g:price>1500 MYR</g:price>
-    </item>
-    <item>
-      <g:id>WP53100-100</g:id>
-      <g:store_code>11724893644651686981</g:store_code>
-      <g:availability>in_stock</g:availability>
-      <g:price>1500 MYR</g:price>
-    </item>
-    <item>
-      <g:id>WP53100-120</g:id>
-      <g:store_code>11724893644651686981</g:store_code>
-      <g:availability>in_stock</g:availability>
-      <g:price>1500 MYR</g:price>
-    </item>
-    <item>
-      <g:id>WP53100-140</g:id>
-      <g:store_code>11724893644651686981</g:store_code>
-      <g:availability>in_stock</g:availability>
-      <g:price>1500 MYR</g:price>
-    </item>
-    <item>
-      <g:id>WP53100-160</g:id>
-      <g:store_code>11724893644651686981</g:store_code>
-      <g:availability>in_stock</g:availability>
-      <g:price>1500 MYR</g:price>
-    </item>
-    <item>
-      <g:id>WP53100-180</g:id>
-      <g:store_code>11724893644651686981</g:store_code>
-      <g:availability>in_stock</g:availability>
-      <g:price>1500 MYR</g:price>
-    </item>
-    <item>
-      <g:id>WP53101-120</g:id>
-      <g:store_code>11724893644651686981</g:store_code>
-      <g:availability>in_stock</g:availability>
-      <g:price>1500 MYR</g:price>
-    </item>
-    <item>
-      <g:id>WP53101-140</g:id>
-      <g:store_code>11724893644651686981</g:store_code>
-      <g:availability>in_stock</g:availability>
-      <g:price>1500 MYR</g:price>
-    </item>
-    <item>
-      <g:id>WP53101-160</g:id>
-      <g:store_code>11724893644651686981</g:store_code>
-      <g:availability>in_stock</g:availability>
-      <g:price>1500 MYR</g:price>
-    </item>
-    <item>
-      <g:id>WP53118-001</g:id>
-      <g:store_code>11724893644651686981</g:store_code>
-      <g:availability>in_stock</g:availability>
-      <g:price>1500 MYR</g:price>
     </item>
     <item>
       <g:id>WP-61102</g:id>
