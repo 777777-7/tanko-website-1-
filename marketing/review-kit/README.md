@@ -2,7 +2,7 @@
 
 Reviews feed the Maps pack, which sits above the organic results for searches like
 "locker malaysia" or "workbench supplier near me". On 9 Oct 2026 the Primaxs listing had
-**5.0 stars from 5 reviews**; on 10 Oct a sixth arrived (Aries Ho, Local Guide, pegboard with custom support structure and installation). Competitors such as officepro.my show "store nearby" with more.
+**5.0 stars from 5 reviews**; on 10 Oct a sixth arrived (Aries Ho, Local Guide, pegboard with custom support structure and installation), replied to 10 Oct as the owner. Still unreplied: Elex Hoe (5 stars, no text, Dec 2018). Note: the Google account signed in on Wei Ming's PC shows its own 5-star review ("W wM") on the listing; owner/staff reviews break Google's policy and should be deleted by that account. Competitors such as officepro.my show "store nearby" with more.
 The goal is one new review per delivered order.
 
 ## The link
