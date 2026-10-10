@@ -20,9 +20,9 @@ TEMPLATE = os.path.join(ROOT, 'docs', 'guides',
 
 AUTHOR = {"@type": "Person", "name": "Wong Wei Ming", "jobTitle": "Business Development Manager",
           "worksFor": {"@type": "Organization", "name": "Primaxs Marketing (M) Sdn Bhd",
-                       "url": SITE + "/", "sameAs": ["https://www.facebook.com/primaxsmarketing"]}}
+                       "url": SITE + "/", "sameAs": ["https://www.facebook.com/primaxsmarketing", "https://www.linkedin.com/company/primaxs-marketing/", "https://maps.google.com/?cid=11876437970279822645", "https://www.newpages.com.my/v2/en/company/93368/index.html"]}}
 PUBLISHER = {"@type": "Organization", "name": "Primaxs Marketing (M) Sdn Bhd",
-             "sameAs": ["https://www.facebook.com/primaxsmarketing"]}
+             "sameAs": ["https://www.facebook.com/primaxsmarketing", "https://www.linkedin.com/company/primaxs-marketing/", "https://maps.google.com/?cid=11876437970279822645", "https://www.newpages.com.my/v2/en/company/93368/index.html"]}
 
 
 def plain(s):

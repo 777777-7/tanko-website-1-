@@ -630,6 +630,15 @@ def org_json_ld():
     return graph_ld(*_org_graph_nodes(), website_ld())
 
 
+# Profiles of the same company, so search and AI engines can join them into one entity.
+SAME_AS = [
+    "https://www.facebook.com/primaxsmarketing",
+    "https://www.linkedin.com/company/primaxs-marketing/",
+    "https://maps.google.com/?cid=11876437970279822645",
+    "https://www.newpages.com.my/v2/en/company/93368/index.html",
+]
+
+
 def _org_graph_nodes():
     """The @graph Organization + LocalBusiness dicts (so other page schemas can bundle them)."""
     return [
@@ -637,9 +646,16 @@ def _org_graph_nodes():
             "@type": "Organization",
             "@id": "https://www.storagesystem.com.my/#org",
             "name": "Primaxs Marketing (M) Sdn Bhd",
+            "legalName": "Primaxs Marketing (M) Sdn Bhd",
+            "alternateName": ["Primaxs", "Primaxs Marketing"],
+            "foundingDate": "2006-12-15",
+            "identifier": [
+                {"@type": "PropertyValue", "propertyID": "SSM registration number", "value": "200601036829"},
+                {"@type": "PropertyValue", "propertyID": "SSM company number (old format)", "value": "756588-H"},
+            ],
             "url": "https://www.storagesystem.com.my/",
             "logo": "https://www.storagesystem.com.my/assets/primaxs-logo-removebg-preview.png",
-            "sameAs": [],
+            "sameAs": SAME_AS,
             "description": "Exclusive Malaysia retail distributor for Tanko Enterprise Co., Ltd., the Taiwan industrial storage manufacturer established in 1975.",
         },
         {
