@@ -84,6 +84,20 @@ components could not be dated (article blocked) - check before calling.
 
 ---
 
+## Added 10 Oct 2026 (6 leads, from MIDA, NST, The Edge and PR Newswire, all read 10 Oct)
+
+Use the new fit-out checklist as the first message's link:
+https://www.storagesystem.com.my/guides/new-factory-storage-fit-out-checklist-malaysia/
+
+| # | Pri | Company | Location | Trigger + date | Likely needs | Source | Contact route |
+|---|---|---|---|---|---|---|---|
+| 27 | A | E&R Engineering (Malaysia subsidiary), Taiwanese semiconductor packaging-equipment maker | Melaka Free Trade Zone | Grand opening **13 Oct 2026**; sample testing now, mass production early 2027 | Assembly and test benches, ESD areas, tool cabinets, parts cabinets, lockers. Taiwanese management knows Tanko | [PR Newswire, 5 Oct 2026](https://www.prnewswire.com/news-releases/er-engineering-to-launch-new-malaysia-plant-expanding-global-packaging-materials-production-and-localized-services-302897736.html) | LinkedIn: "E&R Engineering" Malaysia, plant / facilities / admin manager; congratulate on the opening |
+| 28 | B | PEN SJ Electronics (SJ Electronics) | Batu Kawan Industrial Park 3, Penang (8.5 acres) | US$70m (~RM300m) advanced-packaging materials plant announced **7 Oct 2026**; phase 1 ~1,000 jobs (TIM1 thermal interface materials) | Lab and QC benches, maintenance workshop, lockers for ~1,000 staff | [NST, Oct 2026](https://www.nst.com.my/amp/business/corporate/2026/10/1549783/pen-sj-invest-rm300mil-penang-advanced-packaging-plant-create), [EdgeProp](https://www.edgeprop.my/content/1917738/pen-s-j-electronics-signs-lease-85-acre-batu-kawan-site-plans-us70m-facility) | Get on the vendor list during construction; LinkedIn project / facilities lead |
+| 29 | B | TANAKA MEP | Penang | Groundbreaking for RM70m high-purity precious-metal refining facility, MIDA **8 Oct 2026** | Lab benches (stainless), secure parts and document storage, lockers | [MIDA announcements](https://www.mida.gov.my/media-and-events/announcement-media-release/) | LinkedIn: TANAKA Malaysia project / admin; Japanese parent, so a formal email works |
+| 30 | B | Kyzen | Penang | New facility expanding advanced manufacturing, MIDA **8 Oct 2026** | Chemical-process lab and production benches, maintenance storage | [MIDA announcements](https://www.mida.gov.my/media-and-events/announcement-media-release/) | LinkedIn: Kyzen Malaysia operations |
+| 31 | B | RIGOL Technologies | Penang | RM100m first manufacturing facility and R&D centre (MIDA media page) | Electronics assembly and test benches (ESD), R&D lab storage | [MIDA announcements](https://www.mida.gov.my/media-and-events/announcement-media-release/) | LinkedIn: RIGOL Malaysia; check opening date first |
+| 32 | C | Insulet | Johor Bahru (13 acres, 400,000 sq ft) | Opened Aug 2024 with 350+ staff, growing to 1,000+ | Locker banks as headcount grows; medical-device cleanroom benches | [Business Wire / MassDevice coverage](https://www.drugdeliverybusiness.com/insulet-opens-new-manufacturing-plant-malaysia/) | LinkedIn: facilities / EHS |
+
 ## Channel partners
 
 The angle for every one of these: Primaxs is their **subcontract supplier for

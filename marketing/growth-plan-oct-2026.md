@@ -1,5 +1,7 @@
 # Growth plan — more clients, more sales, rank #1 in Malaysia
 
+> **Update 10 Oct 2026:** see `growth-plan-update-2026-10-10.md` (GSC click-through fixes, Budget 2027 TVET, new-factory fit-out guide, new leads).
+
 Written 3 October 2026 from live research (Claude in Chrome, Search Console, SEOmator)
 plus four parallel research agents. Detail files are in `marketing/research-oct-2026/`.
 
