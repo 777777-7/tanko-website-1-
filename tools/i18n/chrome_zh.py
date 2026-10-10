@@ -67,6 +67,7 @@ CHROME = {
     "About Primaxs": "关于 Primaxs",
     "Contact": "联系方式",
     "Get in Touch": "联系我们",
+    "Online Sales Executive: ": "线上销售专员：",
     "Follow us on Facebook": "在 Facebook 关注我们",
     "Privacy Policy": "隐私政策",
     "Terms of Service": "服务条款",

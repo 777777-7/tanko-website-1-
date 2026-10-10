@@ -29,7 +29,7 @@ Then, before posting changes:
 - Set location targeting to **Malaysia**, and set "people in your targeted
   locations" rather than the default which includes people merely interested
 - Set language targeting to **English and Malay**
-- Add call extensions: office `+60 3-4296 4737`, mobile `+60 12-616 3088`
+- Add call extensions: office `+60 3-4296 4737`, mobile `+60 11-5841 9886` (Wei Ming, online sales: ad leads are online leads)
 - Add sitelinks pointing at `/enquiry/`, `/guides/`, `/products/`, `/about/`
 - Import conversions from the `/sales/` Supabase dashboard: `email_submit`
   and `whatsapp_send`

@@ -24,14 +24,19 @@ official short link (g.page/r/...). Swap it in here and in the card if you prefe
   or tape it inside the lid of a tool cabinet before it ships.
 - `review-qr.png`: the QR on its own, for invoices, delivery orders and email signatures.
 
-## WhatsApp message for the day after delivery (Kenny, 012-616 3088)
+## WhatsApp message for the day after delivery
+
+Whoever handled the order sends it, from their own WhatsApp, so the customer recognises the
+sender: Wei Ming (online sales, 011-5841 9886) for orders that came in through the website,
+WhatsApp or social media; Kenny (sales, 012-616 3088) for the rest. Put that name in the
+`[Wei Ming / Kenny]` slot.
 
 Send it to every customer, not only the happy ones. Choosing who to ask is called review gating,
 and Google's policy forbids it.
 
 **English**
 ```
-Hi [name], this is Kenny from Primaxs. Hope the [product] is settling in well at [company].
+Hi [name], this is [Wei Ming / Kenny] from Primaxs. Hope the [product] is settling in well at [company].
 If you have a minute, a Google review would really help other factories find us:
 https://www.google.com/search?q=Primaxs+Marketing+(M)+Sdn+Bhd#lrd=0x31cc366fbae78e4b:0xa4d19568ef7d7535,3,,,
 And if anything isn't right, just reply here and we'll sort it out. Thank you!
@@ -39,7 +44,7 @@ And if anything isn't right, just reply here and we'll sort it out. Thank you!
 
 **Bahasa Malaysia**
 ```
-Hi [nama], ini Kenny dari Primaxs. Harap [produk] di [syarikat] berfungsi dengan baik.
+Hi [nama], ini [Wei Ming / Kenny] dari Primaxs. Harap [produk] di [syarikat] berfungsi dengan baik.
 Jika ada masa seminit, ulasan Google anda sangat membantu kilang lain mencari kami:
 https://www.google.com/search?q=Primaxs+Marketing+(M)+Sdn+Bhd#lrd=0x31cc366fbae78e4b:0xa4d19568ef7d7535,3,,,
 Jika ada apa-apa masalah, balas sahaja di sini dan kami akan uruskan. Terima kasih!
@@ -47,7 +52,7 @@ Jika ada apa-apa masalah, balas sahaja di sini dan kami akan uruskan. Terima kas
 
 **中文**
 ```
-您好 [名字]，我是 Primaxs 的 Kenny。希望 [产品] 在 [公司] 用得顺手。
+您好 [名字]，我是 Primaxs 的 [Wei Ming / Kenny]。希望 [产品] 在 [公司] 用得顺手。
 如果方便，花一分钟在 Google 给我们留个评价，能帮助其他工厂找到我们：
 https://www.google.com/search?q=Primaxs+Marketing+(M)+Sdn+Bhd#lrd=0x31cc366fbae78e4b:0xa4d19568ef7d7535,3,,,
 如有任何问题，直接回复这里，我们会处理。谢谢！
