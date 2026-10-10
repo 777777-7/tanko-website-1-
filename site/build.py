@@ -675,18 +675,18 @@ def _org_graph_nodes():
             ],
             "contactPoint": [
                 {
-                    "@type": "ContactPoint",
-                    "telephone": "+60-12-616-3088",
-                    "contactType": "sales",
-                    "areaServed": "MY",
-                    "availableLanguage": ["en", "ms", "zh"],
-                },
-                {
                     # Wei Ming handles all online sales (added 10 Oct 2026).
                     "@type": "ContactPoint",
                     "telephone": "+60-11-5841-9886",
                     "contactType": "sales",
                     "name": "Online Sales Executive",
+                    "areaServed": "MY",
+                    "availableLanguage": ["en", "ms", "zh"],
+                },
+                {
+                    "@type": "ContactPoint",
+                    "telephone": "+60-12-616-3088",
+                    "contactType": "sales",
                     "areaServed": "MY",
                     "availableLanguage": ["en", "ms", "zh"],
                 },
@@ -2827,7 +2827,7 @@ def main():
     write(os.path.join(DIST, "contact", "index.html"),
           env.get_template("contact.html").render(
               page_title="Contact Primaxs Marketing (M) Sdn Bhd | Malaysia",
-              meta_description="Contact Primaxs Marketing (M) Sdn Bhd — Selangor office, sales@storagesystem.my, +60 12-616 3088, online sales +60 11-5841 9886. Malaysia's exclusive Tanko distributor.",
+              meta_description="Contact Primaxs Marketing (M) Sdn Bhd — Selangor office, online sales +60 11-5841 9886, +60 12-616 3088, sales@storagesystem.my. Malaysia's exclusive Tanko distributor.",
               canonical="https://www.storagesystem.com.my/contact/",
               base_url=BASE_URL, year=YEAR,
               json_ld=graph_ld(*_org_graph_nodes(), breadcrumb_ld([("Contact Us", "contact/")]))))

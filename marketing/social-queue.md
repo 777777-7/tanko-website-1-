@@ -550,6 +550,7 @@ Hi [Name], thanks for connecting. I work with Tanko industrial storage here in M
 
 ### Contact lines from 10 Oct 2026
 Wei Ming runs all online sales, so every post from now on carries two WhatsApp lines, his first:
-`💬 WhatsApp Wei Ming (online sales) 011-5841 9886` then `💬 WhatsApp Kenny (sales) 012-616 3088`
+`💬 WhatsApp Wei Ming (Online Marketing Executive) 011-5841 9886` then `💬 WhatsApp Kenny 012-616 3088`
+(Kenny owns the business; his line is never dropped)
 (BM and 中文 versions in `post-template.md`). Drafts A and B above went out with Kenny's line only and
 were left as published. The scheduled C, D, E posts carry no phone numbers, so nothing to change.
