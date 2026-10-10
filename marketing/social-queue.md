@@ -554,3 +554,79 @@ Every post from now on carries two WhatsApp lines, Kenny first because it is his
 (only the website puts Wei Ming's number first)
 (BM and 中文 versions in `post-template.md`). Drafts A and B above went out with Kenny's line only and
 were left as published. The scheduled C, D, E posts carry no phone numbers, so nothing to change.
+
+## Week of 12 Oct 2026 — approved by Wei Ming 10 Oct ("go")
+
+Contact order off the website: Kenny first, then Wei Ming as Online Marketing Executive.
+
+### A. LinkedIn personal (Wong Wei Ming) — Publer, Wed 14 Oct 09:00 — poster `fit-out-checklist-en.jpg`
+First comment: https://www.storagesystem.com.my/guides/new-factory-storage-fit-out-checklist-malaysia/
+
+```
+On most new-plant projects in Malaysia, storage is the last purchase order. You can tell on handover day.
+
+The machines arrived on schedule because a vendor chased every milestone. The workbenches, tool cabinets, spares cabinets and lockers had nobody chasing them, so they were ordered when someone noticed they were missing. The first breakdowns get fixed out of cartons. Commissioning spares sit in boxes on the floor. And if the plant houses workers, the hostel has no compliant lockers on the day people move in.
+
+MIDA approved 973 manufacturing projects in the first half of 2026, 88% more than a year earlier. A lot of facilities teams are doing this right now, so here is the sequence that works:
+
+1. Count before you ask for prices: stations per line, technicians per shift, spare-part lines, moulds and the heaviest one, headcount per shift, hostel residents at full occupancy.
+2. Confirm the counts six to eight weeks before start-up. Configured and bulk items need the longest lead time, so they are the ones to commit first.
+3. Order hostel lockers early. Since September 2020 the Act 446 accommodation regulations require one locked cupboard per worker, at least 350 x 350 x 900 mm inside. Most multi-tier lockers fail that size.
+4. Mark the ESD-protected areas on the floor plan before choosing benches, so the grounding chain is specified with the furniture.
+5. Leave shadow boards to the last week. They are laid out with the real tool set.
+
+The honest concession: if your start-up date is still moving, don't lock in the stocked items early. Only the configured items need committing first.
+
+I have put the full area-by-area checklist, with counts and guide prices, on our site. Link in the first comment.
+
+#FactorySetup #Manufacturing #Malaysia
+```
+
+### B. LinkedIn Company Page (Primaxs) — Publer, Thu 15 Oct 09:00 — same poster, link in post
+
+```
+Fitting out a new plant in Malaysia? We have published an area-by-area checklist for storage and workstations: what each area needs (production lines, maintenance and tool room, spares store, mould storage, changing rooms, worker hostel), how to count it, and the order sequence. It includes the Act 446 hostel locker size, which most multi-tier lockers fail.
+
+https://www.storagesystem.com.my/guides/new-factory-storage-fit-out-checklist-malaysia/
+```
+
+### C. Google Business Profile — Publer, Thu 15 Oct 10:30 — same poster, "Learn more" → guide URL (no phone numbers in GBP text)
+
+```
+New guide: fitting out a new factory in Malaysia. An area-by-area checklist for workbenches, tool storage, spares cabinets, mould racks and lockers, with order timing and the Act 446 hostel locker size (one per worker, at least 350 x 350 x 900mm inside). FREE delivery and installation in Selangor & KL, 1-year warranty handled locally.
+```
+
+### D. Facebook Page + EN workshop groups — Tue 13 Oct evening — poster `pegboard-steel-vs-hardboard-en.jpg`
+(Not tonight: the same 9 groups got the locker post on 9 Oct; leave a few days between posts.)
+
+```
+🔩 Hooks falling out of your tool board? Holes gone oval?
+
+That's hardboard. In a Malaysian workshop it soaks up humidity and swells, and every hook pulled out at an angle wears the hole a little wider. Once the outlines stop matching the tools, nobody uses the board.
+
+✅ Tanko steel perforated boards
+▪️ KQ-3 painted steel, 9 sizes, 5 colours: from RM168.70 (900 x 450mm)
+▪️ Same hole pitch on every board, so hooks move freely between sizes
+▪️ Steel hooks rated 3–6kg, stainless hooks 5kg
+▪️ #304 stainless KQ-306AS for wash-down areas: RM397.65
+
+The honest bit: for a home garage with light hand tools, hardboard is fine and cheaper. Steel earns its price where the board is used every shift.
+
+🚚 FREE delivery — Selangor & Klang Valley
+🔧 FREE installation
+📦 Outstation — delivery quoted separately
+🛡️ 1-year warranty against manufacturing defects, handled from our Selangor office
+
+💬 WhatsApp Kenny 012-616 3088
+💬 WhatsApp Wei Ming (Online Marketing Executive) 011-5841 9886
+🌐 Sizes and prices: storagesystem.com.my → Perforated Boards
+
+#pegboard #toolboard #shadowboard #5S #workshopmalaysia #bengkel #Tanko #Primaxs
+```
+
+### E. LinkedIn invites — new and expanding plants (leads 27-32 in research-oct-2026/leads-and-partners.md)
+Facilities, plant engineering, EHS, admin and procurement people at E&R Engineering (Melaka FTZ), PEN SJ Electronics (Batu Kawan), TANAKA MEP, Kyzen, RIGOL (Penang), Insulet (Johor Bahru). Note (under 200 characters, no delivery-time promises):
+
+```
+Hi {first}, congratulations on {company}'s new {place} plant. We supply Tanko workbenches, tool storage and lockers to Malaysian plants, including Samsung's. Happy to connect. Wei Ming, Primaxs
+```
