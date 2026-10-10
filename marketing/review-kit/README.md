@@ -2,7 +2,7 @@
 
 Reviews feed the Maps pack, which sits above the organic results for searches like
 "locker malaysia" or "workbench supplier near me". On 9 Oct 2026 the Primaxs listing had
-**5.0 stars from 5 reviews**. Competitors such as officepro.my show "store nearby" with more.
+**5.0 stars from 5 reviews**; on 10 Oct a sixth arrived (Aries Ho, Local Guide, pegboard with custom support structure and installation). Competitors such as officepro.my show "store nearby" with more.
 The goal is one new review per delivered order.
 
 ## The link
@@ -67,4 +67,4 @@ The listing's name is **"Primaxs Marketing (M) Sdn Bhd — Tanko Industrial Stor
 Google's guidelines say the name must match the real-world business name. Adding keywords
 ("Tanko Industrial Storage Malaysia") is a common cause of suspension, and a competitor can
 trigger it with one "Suggest an edit". Safer: rename to **Primaxs Marketing (M) Sdn Bhd** and keep
-the keywords in the description, categories and posts. This is Wei Ming's call; it has not been changed.
+the keywords in the description, categories and posts. **Done 10 Oct 2026 at Wei Ming's request:** the name was changed to "Primaxs Marketing (M) Sdn Bhd" in Edit profile (Google may hold it for review before it shows).
