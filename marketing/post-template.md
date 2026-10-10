@@ -41,9 +41,9 @@ duplication — they reach three different buyer populations.
 
 ## The standard offer block — goes on EVERY commercial post
 
-Two WhatsApp contacts since 10 Oct 2026 (Wei Ming's call): Wei Ming runs online sales and
-marketing, so his line goes first on every online post, as Online Marketing Executive.
-Kenny's line must always be there too: he owns the business. No role label after Kenny's name.
+Two WhatsApp contacts since 10 Oct 2026 (Wei Ming's call): **Kenny first**, because it is his
+business, then Wei Ming as Online Marketing Executive. No role label after Kenny's name.
+(The website is the one exception: there Wei Ming's number comes first.)
 
 **English**
 ```
@@ -56,8 +56,8 @@ Kenny's line must always be there too: he owns the business. No role label after
 
 📍 Balakong, Selangor — exclusive Malaysia distributor for Tanko since 2006
 📞 03-4296 4737
-💬 WhatsApp Wei Ming (Online Marketing Executive) 011-5841 9886
 💬 WhatsApp Kenny 012-616 3088
+💬 WhatsApp Wei Ming (Online Marketing Executive) 011-5841 9886
 🌐 storagesystem.com.my
 ```
 
@@ -72,8 +72,8 @@ Kenny's line must always be there too: he owns the business. No role label after
 
 📍 Balakong, Selangor — pengedar eksklusif Tanko di Malaysia sejak 2006
 📞 03-4296 4737
-💬 WhatsApp Wei Ming (Eksekutif Pemasaran Dalam Talian) 011-5841 9886
 💬 WhatsApp Kenny 012-616 3088
+💬 WhatsApp Wei Ming (Eksekutif Pemasaran Dalam Talian) 011-5841 9886
 🌐 storagesystem.com.my
 ```
 
@@ -87,8 +87,8 @@ Kenny's line must always be there too: he owns the business. No role label after
 
 📍 万绕 (Balakong)，雪兰莪 — Tanko 马来西亚独家代理，2006年至今
 📞 03-4296 4737
-💬 WhatsApp Wei Ming（线上营销专员）011-5841 9886
 💬 WhatsApp Kenny 012-616 3088
+💬 WhatsApp Wei Ming（线上营销专员）011-5841 9886
 🌐 storagesystem.com.my
 ```
 

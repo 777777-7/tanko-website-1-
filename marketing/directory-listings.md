@@ -21,17 +21,18 @@ State:          Selangor
 Postcode:       43300
 Country:        Malaysia
 Phone:          +60 3-4296 4737
-Mobile:         +60 11-5841 9886
-Mobile 2:       +60 12-616 3088
-WhatsApp:       +60 11-5841 9886
+Mobile:         +60 12-616 3088
+Mobile 2:       +60 11-5841 9886
+WhatsApp:       +60 12-616 3088
+WhatsApp 2:     +60 11-5841 9886
 Email:          sales@storagesystem.my
 Website:        https://www.storagesystem.com.my
 Founded:        2006
 Hours:          Monday-Friday 09:00-18:00, closed Saturday & Sunday
 ```
 
-Mobile is Wei Ming (online sales and marketing: directory leads are online leads). Kenny owns the
-business, so his number goes in a second phone/mobile field wherever the form has one.
+Kenny comes first (it is his business); Wei Ming (online sales) goes in the second mobile or
+WhatsApp field wherever the form has one.
 Listings already live can keep the mobile they were submitted with.
 
 Do not abbreviate "Jalan" to "Jln" on one site and not another. Do not write

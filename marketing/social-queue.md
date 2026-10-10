@@ -549,8 +549,8 @@ Hi [Name], thanks for connecting. I work with Tanko industrial storage here in M
 - **Facebook comment answered** — Gulchehra Nerida asked (3 Oct pegboard post) whether we are the manufacturer or a distributor; replied as the Page: exclusive Tanko distributor since 2006, Selangor stock, free Klang Valley delivery and installation, WhatsApp 012-616 3088. (A mis-targeted click hid her comment for about a minute; it was unhidden before replying.)
 
 ### Contact lines from 10 Oct 2026
-Wei Ming runs all online sales, so every post from now on carries two WhatsApp lines, his first:
-`💬 WhatsApp Wei Ming (Online Marketing Executive) 011-5841 9886` then `💬 WhatsApp Kenny 012-616 3088`
-(Kenny owns the business; his line is never dropped)
+Every post from now on carries two WhatsApp lines, Kenny first because it is his business:
+`💬 WhatsApp Kenny 012-616 3088` then `💬 WhatsApp Wei Ming (Online Marketing Executive) 011-5841 9886`
+(only the website puts Wei Ming's number first)
 (BM and 中文 versions in `post-template.md`). Drafts A and B above went out with Kenny's line only and
 were left as published. The scheduled C, D, E posts carry no phone numbers, so nothing to change.
