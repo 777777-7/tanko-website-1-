@@ -630,3 +630,20 @@ Facilities, plant engineering, EHS, admin and procurement people at E&R Engineer
 ```
 Hi {first}, congratulations on {company}'s new {place} plant. We supply Tanko workbenches, tool storage and lockers to Malaysian plants, including Samsung's. Happy to connect. Wei Ming, Primaxs
 ```
+
+## 13 Oct 2026 — showroom installation + schedule
+
+- **PUBLISHED 13 Oct ~16:50:** Facebook Page + 7 groups (Hardware Tools Global Sourcing and Supply,
+  Iklan Bengkel-Bengkel Malaysia, Malaysia Agriculture & Industry Machinery Traders, Jual.beli
+  peralatan bengkel, Workshop Bengkel kereta seluruh Malaysia, Jual Beli Barang Hardware/Tools,
+  Power Tools Malaysia) — poster `showroom-pegboard-en.jpg` (customer's showroom, logos cropped,
+  customer not named), link to /guides/pegboard-display-wall-shop-showroom-malaysia/. 5 cross-post
+  receipts confirmed in /notifications at once; text verified on the Page.
+- **SCHEDULED in Publer:** LinkedIn personal Wed 14 Oct 09:00 — fit-out checklist (A above), link in first comment.
+- **TO SCHEDULE (Publer, needs Chrome in front):**
+  - GBP Wed 14 Oct 10:30 — `showroom-pegboard-en.jpg`, Learn more → showroom guide:
+    `Real installation: steel pegboard on support poles as a free-standing partition and a counter backboard in a showroom. Custom panels up to 8 x 4 ft, five colours, hooks, shelves and screen arms. FREE delivery and installation in Selangor & KL, 1-year warranty handled locally.`
+  - LinkedIn Page Wed 14 Oct 12:00 — `showroom-pegboard-en.jpg`:
+    `A showroom with no solid walls still needed display space. The answer was steel pegboard on support poles: a free-standing partition and a counter backboard, both taking hooks, shelves and screen arms anywhere on the face. Steel rather than hardboard, because display walls get rearranged constantly and fibreboard holes wear oval in Malaysian humidity. Custom panels up to 8 x 4 ft, five colours, delivered and installed free in Selangor and KL. https://www.storagesystem.com.my/guides/pegboard-display-wall-shop-showroom-malaysia/`
+  - LinkedIn Page Thu 15 Oct 09:00 — fit-out (B above). GBP Thu 15 Oct 10:30 — fit-out (C above).
+- Steel vs hardboard pegboard poster (D above) moved to next week: today's showroom post covers the same pain.
