@@ -3,7 +3,7 @@
   "configurations": [
     {
       "name": "docs-static",
-      "runtimeExecutable": "python",
+      "runtimeExecutable": "C:/Users/User/AppData/Local/Python/pythoncore-3.14-64/python.exe",
       "runtimeArgs": ["-m", "http.server", "8099", "--directory", "docs"],
       "port": 8099
     }
