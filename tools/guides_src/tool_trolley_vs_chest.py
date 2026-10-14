@@ -7,7 +7,7 @@
 
 GUIDE = dict(
     slug='tool-trolley-vs-tool-chest-vs-tool-cabinet-malaysia',
-    title='Tool Trolley vs Tool Chest vs Tool Cabinet | Malaysia Guide',
+    title='Tool Cabinet vs Tool Chest vs Tool Trolley: Drawers & Prices',
     description=('Tool trolley, tool chest or tool cabinet? Compare drawer loads, mobility, locks '
                  'and Ringgit prices from RM1,024, with a decision table for Malaysian workshops.'),
     h1='Tool Trolley vs Tool Chest vs Tool Cabinet: Which Does Your Workshop Need?',

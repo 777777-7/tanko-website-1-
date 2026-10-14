@@ -172,7 +172,7 @@ GUIDES = [
         "slug": "tool-cabinet-buying-guide-automotive-workshop-malaysia",
         "nav_title": "Tool Cabinets for Workshops",
         "tag": "Selection Guide",
-        "title": "Tool Cabinet & Roller Cabinet Guide for Malaysian Workshops",
+        "title": "Tool Cabinet Malaysia: Roller & Workshop Cabinet Guide",
         "h1": "Tool Cabinet & Roller Cabinet Buying Guide for Malaysian Workshops",
         "updated": "August 2026",
         "excerpt": "Drawer layout, slide rating, mobility and lock type — how automotive and MRO workshops in Malaysia choose a tool cabinet that lasts.",
