@@ -75,6 +75,10 @@ User-agent: PetalBot
 Allow: /
 User-agent: Bytespider
 Allow: /
+User-agent: meta-externalfetcher
+Allow: /
+User-agent: Google-CloudVertexBot
+Allow: /
 
 Sitemap: https://www.storagesystem.com.my/sitemap.xml
 
