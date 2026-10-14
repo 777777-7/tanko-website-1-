@@ -647,3 +647,24 @@ Hi {first}, congratulations on {company}'s new {place} plant. We supply Tanko wo
     `A showroom with no solid walls still needed display space. The answer was steel pegboard on support poles: a free-standing partition and a counter backboard, both taking hooks, shelves and screen arms anywhere on the face. Steel rather than hardboard, because display walls get rearranged constantly and fibreboard holes wear oval in Malaysian humidity. Custom panels up to 8 x 4 ft, five colours, delivered and installed free in Selangor and KL. https://www.storagesystem.com.my/guides/pegboard-display-wall-shop-showroom-malaysia/`
   - LinkedIn Page Thu 15 Oct 09:00 — fit-out (B above). GBP Thu 15 Oct 10:30 — fit-out (C above).
 - Steel vs hardboard pegboard poster (D above) moved to next week: today's showroom post covers the same pain.
+
+## 14 Oct 2026 — Chinese showroom post, Chery invites
+
+- **Publer:** the Wed 14 Oct posts went out (LinkedIn personal fit-out checklist, GBP and LinkedIn
+  Page showroom). Still queued: LinkedIn Page Thu 15 Oct 09:00 and GBP Thu 15 Oct 10:03 (fit-out;
+  the minute field autocompleted 10:30 to 10:03, which is fine).
+- **PUBLISHED 14 Oct:** Facebook Page 中文 post + 3 Chinese groups (五金交流区, 五金机械批发/零售,
+  马来西亚建筑五金门业广告群). Poster `showroom-pegboard-zh.jpg`; it opens with
+  `🏬 店里没有墙可以挂展示板？`, then steel vs hardboard in humidity, 8 x 4 ft custom panels, five colours,
+  from RM168.70, free delivery and installation in Selangor & KL, outstation charged, and a 1-year
+  warranty. Cross-post receipts confirmed in /notifications.
+- **LinkedIn invites with notes (all pending):**
+  - Resent: Jiun Ee Teoh (lost when the session dropped on 13 Oct).
+  - New: Sam Jiang (Plant Director, Vertiv), Theena Tayalan, Jayson Vijayanathan (Head of
+    Facilities, Collins Aerospace), Mohamad Syafiq, Mohd Zulfadli Abu Hassan (Senior Plant Manager,
+    Chery Malaysia), Faizal Arif Reza Mustafar Kamar (Assistant Manager, Facility Management,
+    Chery Malaysia).
+- **LinkedIn messages:** Maggie Ng (APAC procurement) got the catalogue link. Tah Sau Seong replied
+  "no current need", so no follow-up until Q1.
+- **Next:** the steel vs hardboard pegboard FB post (`pegboard-steel-vs-hardboard-en.jpg`) is for the
+  week of 19 Oct.
