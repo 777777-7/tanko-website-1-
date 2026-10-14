@@ -666,5 +666,22 @@ Hi {first}, congratulations on {company}'s new {place} plant. We supply Tanko wo
     Chery Malaysia).
 - **LinkedIn messages:** Maggie Ng (APAC procurement) got the catalogue link. Tah Sau Seong replied
   "no current need", so no follow-up until Q1.
+- **LinkedIn invites, afternoon batch (notes, all pending):** Faizal Arif Reza (Facility Mgmt, Chery
+  Malaysia), Mohammad Saiyaff (Facility & Equipment Maintenance, CTRM AeroSystems), Vijay Rajaindran
+  (Plant Manager, Archemical), Hong Peng Chin (Plant Engineer, Nestlé), Vincent Lim (Operations
+  Manager, Kyzen Penang: new facility, lead 30), Abdul Munir (Facility Engineer, RIGOL Malaysia:
+  lead 31), Paul Chin (Maintenance Manager, PMB Aluminium), Prathiban Saiman (Senior Manager
+  Maintenance & Facilities, Serendah), Rubanendran Ganesan (Reliability Maintenance Manager),
+  Ariff Kamarudin (Facilities & Assets Mgmt Manager, Boeing Composites Malaysia: lead 20).
+  TANAKA (lead 29) has only sales staff on LinkedIn: use the formal-email route instead.
+  PEN SJ (lead 28): only HR and sales found; retry with "PEN SJ facilities" later.
+- **LinkedIn message:** Tan Keo Sing (Infrastructure Engineer, TWT Design) connected today and got a
+  specifier-angle message (models have published dimensions and guide prices, so they're easy to
+  write into a fit-out spec).
+- **SCHEDULED in Publer, Fri 16 Oct:** LinkedIn personal 09:00 (Budget 2027 RM8b TVET hook,
+  training workshop, honest HRD Corp ALAT note, link in the first comment) and GBP 10:00 (same
+  story, Learn more → /guides/training-workshop-benches-tool-storage-malaysia/). Image for both is
+  `docs/feed-img/workshop__training-workshop-bench.jpg` (our own workshop). The Publer minute
+  field turns a typed "30" into "03", so use :00 times.
 - **Next:** the steel vs hardboard pegboard FB post (`pegboard-steel-vs-hardboard-en.jpg`) is for the
   week of 19 Oct.
