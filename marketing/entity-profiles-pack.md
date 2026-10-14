@@ -89,3 +89,9 @@ Website (Organization JSON-LD on every page, /about/, /contact/, llms.txt, llms-
 Google Business Profile · Bing Places · Facebook Page · LinkedIn company page · NewPages ·
 Hotfrog (pending submit) · Yelp (correction in moderation) · all.biz (support asked to fix) ·
 contact.page (email correction to send) · MATRADE (registration in progress).
+
+**Wrong and outranking us (found 14 Oct):** D&B (dnb.com, Bing #2 for the company name) shows the old KL
+address, website storagesystem.my and Kenny Lai as key principal. Fix it free at
+https://www.dnb.com/duns-number/view-update-company-credit-file.html (Wei Ming: search, claim, update).
+CTOS (#1) shows the SSM record; if SSM's nature of business still says packaging machinery, the
+company secretary can update it. Full test: ai-engine-test-2026-10-14.md.
