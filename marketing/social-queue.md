@@ -685,3 +685,34 @@ Hi {first}, congratulations on {company}'s new {place} plant. We supply Tanko wo
   field turns a typed "30" into "03", so use :00 times.
 - **Next:** the steel vs hardboard pegboard FB post (`pegboard-steel-vs-hardboard-en.jpg`) is for the
   week of 19 Oct.
+
+## 15 Oct 2026 — mould racks, moulding-plant invites, next week scheduled
+
+- **PUBLISHED 15 Oct evening:** Facebook Page + 6 groups (Hardware Tools Global Sourcing and Supply,
+  Malaysia Agriculture & Industry Machinery Traders, Jual Beli Barang Hardware/ Tools, MALAYSIA
+  CONSTRUCTION MACHINERY, used machinery & part & Engineering sales in Malaysia, second hand
+  machinery malaysia). Mould rack post with both real workshop photos
+  (`marketing/customer-projects/workshop-2026-08/tanko-mould-rack-500kg-crane.jpg`, `tanko-mould-racks-row.jpg`).
+  Opener "Moulds on pallets, on the floor, or stacked two deep on a plain shelf…", slide-out levels,
+  500 kg lifting arm, up to 1,000 kg per level (MB-3), from RM9,471 (MB-2), offer + Kenny first,
+  /rack/ link. The first 3 group receipts confirmed in /notifications; the rest may need admin approval.
+  Skipped 马来西亚机械与模具工业技术交流平台 (operators' technical group, no selling).
+- **LinkedIn invites (moulding plants, notes, all pending):** Davin Sugumar (Ops Manager, PVC pipe +
+  injection moulding, PJ), Muhamad Khairul Azkar (Production Manager, plastic injection, MT Lighting,
+  Kajang), Wan Chem Poh (NPI Tooling & Moulding, JB), LA Kuek (Manufacturing Manager, Lepu Technology,
+  Butterworth), Chow Kian Liew (Plant Manager, Carrier), Najhah Ruslan (Project Engineer, plastic
+  injection, Triam Manufacturing, Bangi).
+- **LinkedIn follow-ups to accepted connections:** Sam Jiang (Vertiv, /workstation/), Faizal (Chery,
+  fit-out checklist + /locker/), Abdul Munir (RIGOL, ESD guide + fit-out checklist), Vijay (Archemical,
+  spares-room guide), Amelia Siman (M&R Manufacturing, she had replied "Thanks"; workstations + 5S guide).
+  Sureya Prekgas and Zaim Ramli had already been messaged, so they were skipped.
+- **SCHEDULED in Publer (week of 19 Oct):**
+  - Mon 19 Oct 09:00: LinkedIn personal, mould rack, both photos; first comment links /rack/.
+  - Tue 20 Oct 09:00: LinkedIn Page, steel vs hardboard pegboard poster; link to the metal pegboard guide.
+  - Tue 20 Oct 10:00: GBP, mould rack (crane photo); Learn more → /rack/.
+  - Thu 22 Oct 09:00: LinkedIn Page, mould rack, both photos; /rack/ link.
+  - Thu 22 Oct 10:00: GBP, pegboard poster; Learn more → metal pegboard guide.
+- **TO DO Wed 21 Oct:** Facebook Page + EN workshop groups with the steel vs hardboard post (copy D
+  above). Publish it live, because scheduled posts can't be shared to groups.
+- **Not built (on purpose):** a "pegboard hooks" guide. The metal pegboard guide already targets that
+  term and is a top performer (pos ~6, 11.5% CTR), so a second page would cannibalise it.
