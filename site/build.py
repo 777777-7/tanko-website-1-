@@ -1753,7 +1753,7 @@ def build_family(cat_slug, cat_meta, family_info, variants):
         "name": fam_name,
         "description": intro,
         "brand": {"@type": "Brand", "name": "Tanko"},
-        "manufacturer": {"@type": "Organization", "name": "Tanko Enterprise Co., Ltd."},
+        "manufacturer": {"@type": "Organization", "name": "Tanko Enterprise Co., Ltd.", "url": "https://www.tanko.com.tw/en/"},
         "category": cat_meta["name"],
         "url": fam_canonical,
         "productGroupID": family_info.get("sku_code") or family_info["family_slug"],
@@ -2088,7 +2088,7 @@ def build_variant(cat_slug, cat_meta, family_info, variant, all_family_variants)
         "sku": sku,
         "name": h1,
         "brand": {"@type": "Brand", "name": "Tanko"},
-        "manufacturer": {"@type": "Organization", "name": "Tanko Enterprise Co., Ltd."},
+        "manufacturer": {"@type": "Organization", "name": "Tanko Enterprise Co., Ltd.", "url": "https://www.tanko.com.tw/en/"},
         "category": cat_meta["name"],
         "description": meta,
         "offers": {
@@ -2097,40 +2097,14 @@ def build_variant(cat_slug, cat_meta, family_info, variant, all_family_variants)
             "priceCurrency": "MYR",
             "seller": {"@type": "Organization", "name": "Primaxs Marketing (M) Sdn Bhd"},
             "url": f"https://www.storagesystem.com.my/{variant_url(cat_slug, family_info['family_slug'], sku)}",
+            # Matches /returns/: built to order, no change-of-mind returns.
+            # No shippingDetails: delivery is free only in Selangor/KL and
+            # Google cannot express a Malaysian state-level rate.
             "hasMerchantReturnPolicy": {
                 "@type": "MerchantReturnPolicy",
                 "applicableCountry": "MY",
-                "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteWindow",
-                "merchantReturnDays": 7,
-                "returnMethod": "https://schema.org/ReturnByMail",
-                "returnFees": "https://schema.org/FreeReturn",
-            },
-            "shippingDetails": {
-                "@type": "OfferShippingDetails",
-                "shippingRate": {
-                    "@type": "MonetaryAmount",
-                    "value": "0",
-                    "currency": "MYR",
-                },
-                "deliveryTime": {
-                    "@type": "ShippingDeliveryTime",
-                    "handlingTime": {
-                        "@type": "QuantitativeValue",
-                        "minValue": 1,
-                        "maxValue": 2,
-                        "unitCode": "DAY",
-                    },
-                    "transitTime": {
-                        "@type": "QuantitativeValue",
-                        "minValue": 3,
-                        "maxValue": 7,
-                        "unitCode": "DAY",
-                    },
-                },
-                "shippingDestination": {
-                    "@type": "DefinedRegion",
-                    "addressCountry": "MY",
-                },
+                "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted",
+                "merchantReturnLink": "https://www.storagesystem.com.my/returns/",
             },
         },
     }
