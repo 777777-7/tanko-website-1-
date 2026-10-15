@@ -104,10 +104,39 @@ def rel_path(f):
     return f.replace(os.sep, '/')[len('docs'):].rsplit('index.html', 1)[0]
 
 
+_MS_TWIN = {}
+
+
+def malay_twin(path):
+    """Malay pages live at root with their own slug (/meja-kerja/), not /ms/.
+    Read the English page's ms-MY alternate so links point at the real page."""
+    if path not in _MS_TWIN:
+        f = os.path.join(ROOT, 'docs', *[x for x in path.split('/') if x], 'index.html')
+        href = None
+        if os.path.exists(f):
+            m = re.search(r'<link rel="alternate" hreflang="ms-MY" href="%s(/[^"]*)">' % re.escape(SITE),
+                          io.open(f, encoding='utf-8').read())
+            href = m.group(1) if m and m.group(1) != path else None
+        _MS_TWIN[path] = href
+    return _MS_TWIN[path]
+
+
 def build(lang, pages, write=True, verbose=True):
     cfg = LANGS[lang]
     gl = load_glossary(lang)
-    twins = {rel_path(f) for f in pages}
+    # Link into this language layer only where a page will really exist: pages
+    # that pass the coverage gate in this run, plus pages already built in the
+    # layer. Linking to a page the gate skips produced 404s (/zh/workbench/ in
+    # every zh nav, found in GSC on 15 Oct 2026).
+    def _passes(f):
+        s = all_strings(io.open(f, encoding='utf-8').read())
+        return not s or all(x in gl for x in s)
+    layer_dir = os.path.join(ROOT, 'docs', cfg['prefix'])
+    built = set()
+    for p in glob.glob(os.path.join(layer_dir, '**', 'index.html'), recursive=True):
+        r = os.path.relpath(os.path.dirname(p), layer_dir).replace(os.sep, '/')
+        built.add('/' if r == '.' else '/%s/' % r)
+    twins = {rel_path(f) for f in pages if _passes(f)} | built
     written, skipped = [], []
     missing = collections.Counter()
 
@@ -179,7 +208,10 @@ def build(lang, pages, write=True, verbose=True):
         #      so the switcher's own href is not caught by it)
         def fixhref(m):
             h = m.group(1)
-            return 'href="/%s%s"' % (cfg['prefix'], h) if h in twins else m.group(0)
+            if h in twins:
+                return 'href="/%s%s"' % (cfg['prefix'], h)
+            ms = malay_twin(h) if lang == 'ms' else None
+            return 'href="%s"' % ms if ms else m.group(0)
         html = re.sub(r'href="(/[^"#?]*/)"', fixhref, html)
 
         # ---- language switcher in the body: point back to English
