@@ -716,3 +716,26 @@ Hi {first}, congratulations on {company}'s new {place} plant. We supply Tanko wo
   above). Publish it live, because scheduled posts can't be shared to groups.
 - **Not built (on purpose):** a "pegboard hooks" guide. The metal pegboard guide already targets that
   term and is a top performer (pos ~6, 11.5% CTR), so a second page would cannibalise it.
+
+## 18 Oct 2026 — Malay bengkel post, data-centre invites, Friday scheduled
+
+- **PUBLISHED 18 Oct (Sunday):** Facebook Page + 5 Malay workshop groups (Iklan Bengkel-Bengkel Malaysia,
+  Workshop Bengkel kereta seluruh Malaysia, Jual.beli peralatan bengkel…, bengkel kereta satu malaysia,
+  MEKANIK KERETA ANAK MELAYU). It's in Bahasa Malaysia, opening "Spanar hilang lagi? Alat bersepah atas lantai
+  bengkel?", with the EKB-3M drawer trolley (W850 x D485 x H855mm, 400kg, 4" PU castors, red/blue/grey,
+  from RM1,060.40), a steel shadow board from RM168.70, the offer, Kenny first, and the /kabinet-alat/ link. Photo:
+  `workshop-2026-08/tanko-tool-trolley-drawer-parts-cabinet.jpg`. Iklan Bengkel confirmed; the others
+  may need admin approval.
+- **LinkedIn reply:** Theena Tayalan (Vertiv, Johor line ramp-up) had written "Hi, Wong". I replied asking
+  which stations they set up first, with the /workstation/ link and an offer to suggest a configuration.
+- **LinkedIn follow-ups (new acceptances):** LA Kuek (Lepu, ESD guide + /workstation/), Chow Kian Liew
+  (Carrier, 5S workstation guide), Wan Chem Poh (/rack/ + racking guide, Johor delivery quoted).
+  Vijay ("Thanks") and Amelia ("Thanks for sharing") had replied to the 15 Oct follow-ups.
+- **LinkedIn invites, data centres (notes, all pending):** Mohd Addni Sapili (Facility Lead, K2 Data
+  Center), Zulhelmi Zainal (DC Facilities Manager, Alibaba Cloud JB), Ts. Gobi Govinda Raju (Mechanical
+  Engineering Manager, mission-critical DC, JB), Akmal Qushayry (Yondr/DayOne, KL), Ts. Muhammad Nazri
+  Othman (DC Facilities Manager, CDFOM), Abdullah Hazim (Shift Manager, DayOne Data Centers, JB).
+- **SCHEDULED in Publer, Fri 23 Oct:** LinkedIn personal 09:00 and GBP 11:00 (10:00 clashed with
+  another post), both for the data centre fit-out guide with the lockers + parts cabinets photo
+  (`docs/feed-img/workshop__lockers-parts-cabinets.jpg`). Mon to Thu posts from 15 Oct still queued.
+- **TO DO Wed 21 Oct:** the steel vs hardboard Facebook post (copy D, 12 Oct section), published live.
