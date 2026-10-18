@@ -87,7 +87,7 @@ GUIDE = dict(
         'The Star: <a href="%s" rel="noopener" target="_blank">Penang manufacturing investments jump 38%% to RM17.3bil in 1H2026</a>' % STAR,
         'Skrine: <a href="%s" rel="noopener" target="_blank">Workers&rsquo; accommodation standards updated</a> (Act 446 regulations, in force 1 September 2020)' % SKRINE,
         'DOSH Malaysia: <a href="%s" rel="noopener" target="_blank">Guidelines on Occupational Safety and Health for Standing at Work 2024</a> (PDF)' % DOSH,
-        'Related: <a href="/guides/industrial-storage-solutions-malaysia/">Industrial storage solutions</a>, <a href="/guides/esd-anti-static-workbench-malaysia/">ESD workbenches</a> and <a href="/guides/steel-locker-buying-guide-malaysia/">steel locker buying guide</a>',
+        'Related: <a href="/guides/industrial-storage-solutions-malaysia/">Industrial storage solutions</a>, <a href="/guides/esd-anti-static-workbench-malaysia/">ESD workbenches</a> and <a href="/guides/steel-locker-buying-guide-malaysia/">steel locker buying guide</a> (and, for data centres, the <a href="/guides/data-centre-fit-out-workbenches-spares-storage-malaysia/">data centre fit-out guide</a>)',
     ],
     body='''
 <div class="callout"><p><strong>Direct answer:</strong> List every area of the plant, count what each one needs (stations, technicians, spare-part lines, moulds, staff per shift, hostel residents), and confirm the storage order six to eight weeks before start-up. Configured and bulk orders take 2 to 4 weeks, stocked models 3 to 7 working days, and installation comes after that. Order hostel lockers first: the Act 446 rule requires one locked cupboard per resident, at least 350 x 350 x 900mm inside, before workers move in.</p></div>
