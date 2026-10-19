@@ -739,3 +739,20 @@ Hi {first}, congratulations on {company}'s new {place} plant. We supply Tanko wo
   another post), both for the data centre fit-out guide with the lockers + parts cabinets photo
   (`docs/feed-img/workshop__lockers-parts-cabinets.jpg`). Mon to Thu posts from 15 Oct still queued.
 - **TO DO Wed 21 Oct:** the steel vs hardboard Facebook post (copy D, 12 Oct section), published live.
+
+## 19 Oct 2026 — daily routine
+
+- **Publer:** the Mon 19 Oct 09:00 LinkedIn personal post (mould rack) went out. Tue to Fri are still queued
+  (Tue LinkedIn Page pegboard 09:00, Tue GBP mould rack 10:00, Thu LinkedIn Page mould rack 09:00, Thu GBP
+  pegboard 10:00, Fri LinkedIn personal data centre 09:00, Fri GBP data centre 11:00).
+- **PUBLISHED 19 Oct:** Facebook Page + 3 Chinese groups (五金交流区～品牌～发展～批发 Supplier Hardware,
+  五金机械批发/零售, 马来西亚建筑五金门业广告群), all 3 receipts confirmed. Chinese mould-rack post
+  (`🔩 模具还放在栈板上…`) with both workshop photos, MB-3 1,000kg per level, from RM9,471 (MB-2), the offer,
+  Kenny first and the /rack/ link. The 18 Oct Malay post was also approved in MEKANIK KERETA ANAK MELAYU.
+- **LinkedIn follow-ups (accepted 18 Oct):** Akmal Qushayry (Yondr DC) and Mohd Addni Sapili (K2 DC), both sent
+  the data centre fit-out guide.
+- **LinkedIn invites, ESD people (for the ESD storage guide):** Sritharan Ramasamy (iNARTE ESD engineer,
+  Micron; note), Yassvind Navalingam (Quality & ESD engineer; the side-panel Connect sent it without a note),
+  Lim Wern Pink (ESD Coordinator, Keysight; note), Muhammad Nurhidayat Muhtaza (Senior ESD Specialist, Kulim;
+  note). 3rd-degree people need More → Connect on the profile.
+- **TO DO Wed 21 Oct:** the steel vs hardboard EN Facebook post (copy D), published live, to the EN workshop groups.
