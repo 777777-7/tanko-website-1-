@@ -756,3 +756,73 @@ Hi {first}, congratulations on {company}'s new {place} plant. We supply Tanko wo
   Lim Wern Pink (ESD Coordinator, Keysight; note), Muhammad Nurhidayat Muhtaza (Senior ESD Specialist, Kulim;
   note). 3rd-degree people need More → Connect on the profile.
 - **TO DO Wed 21 Oct:** the steel vs hardboard EN Facebook post (copy D), published live, to the EN workshop groups.
+
+## 21 Oct 2026 — daily routine (first run on the new Claude account)
+
+- **PUBLISHED 21 Oct ~14:00:** Facebook Page + 5 EN groups (Hardware Tools Global Sourcing and Supply,
+  Jual Beli Barang Hardware/ Tools, Power Tools Malaysia, Malaysia Agriculture & Industry Machinery Traders,
+  Malaysia Power Tools(Second Hand & New)). Steel vs hardboard pegboard, copy D (week of 12 Oct) unchanged,
+  poster `pegboard-steel-vs-hardboard-en.jpg`. Text verified on the Page. Receipts in /notifications:
+  Hardware Tools Global Sourcing, Malaysia Agriculture & Industry Machinery Traders, Malaysia Power Tools;
+  the other two may be waiting for admin approval. Bengkel groups skipped (Malay post 18 Oct).
+- **Publer:** Thu 22 (LinkedIn Page mould rack 09:00, GBP pegboard 10:00) and Fri 23 (LinkedIn personal data
+  centre 09:00, GBP data centre 11:00) still queued. Also queued: **Fri 23 Oct 10:00, GBP, rack photo with NO
+  text**, not in any log; left alone, ask Wei Ming. Nothing queued from Mon 26 Oct.
+- **LinkedIn:** monthly profile-search limit reached (Premium trial ended 20 Oct), so no targeted invites today.
+  Follow-ups drafted, awaiting Wei Ming's go-ahead: Gobi (replied "Ok nice to meet you", DC guide), Sritharan
+  (replied "Nice", ESD storage guide), Nazri (accepted 20 Oct, DC guide), Lim Wern Pink and Nurhidayat
+  (accepted 21 Oct, ESD storage guide). Theena (Vertiv): no reply yet.
+
+### Drafts for Mon 26 / Tue 27 Oct (Publer), ESD storage guide — image `docs/feed-img/asset3__TKI-2515-9.jpg` — awaiting go-ahead
+
+**A. LinkedIn personal, Mon 26 Oct 09:00 — link in first comment**
+```
+An ESD workstation protects a board while someone is working on it. A lot of the damage happens before and after.
+
+A cardboard box on a shelf. A coloured plastic bin that charges up every time it's pulled out. A drawer that was never part of the ESD control plan. And air-conditioned production rooms in Malaysia dry the air, which makes static worse.
+
+What anti-static storage looks like in practice:
+🗄️ Component store: Tanko TKI-2515-9, 75 black anti-static drawers in under 0.6m of wall, listed at 10^4–10^6 ohm. RM1,156.80
+🧰 Smaller stores: 20 drawers RM325.35, 40 drawers RM650.70
+🛒 Kitting to the line: the same cabinet on castors, RM1,337.55
+🔐 High-value parts: lockable-door version, RM2,578.70
+📌 At the bench: black anti-static hanging bins on a louvred or perforated panel
+
+One honest note: Tanko doesn't publish a resistance figure for the black hanging bins, so test them against your control plan before they go into the protected area.
+
+I wrote a guide on what the resistance classes mean and how to set ESD storage up so it works. Link in the first comment.
+
+🚚 Free delivery and installation in Selangor & KL
+📦 Penang, Kedah, Johor and other outstation delivery charged separately
+🛡️ 1-year warranty against manufacturing defects, handled locally
+
+📞 Kenny: +60 12-616 3088
+📱 Wei Ming (Online Marketing Executive): +60 11-5841 9886
+
+#ESD #Electronics #Semiconductor #Manufacturing #Malaysia
+```
+First comment: `The ESD storage guide: https://www.storagesystem.com.my/guides/esd-storage-anti-static-bins-drawers-malaysia/`
+
+**B. GBP, Mon 26 Oct 10:00 — Learn more → ESD storage guide (no phone numbers in GBP text)**
+```
+Anti-static parts storage for electronics assembly: Tanko TKI-2-9 cabinets with black ESD drawers listed at 10^4–10^6 ohm. 20 drawers from RM325.35, 75 drawers RM1,156.80, with mobile and lockable versions. FREE delivery and installation in Selangor & KL, 1-year warranty handled locally.
+```
+
+**C. LinkedIn Page, Tue 27 Oct 09:00 — link in post**
+```
+Is your parts storage inside your ESD control plan?
+
+Ordinary plastic drawers and bins are insulative: every time one slides out, it charges up, and the charge has nowhere to go. In dry, air-conditioned production rooms it's worse.
+
+Tanko TKI-2-9 parts cabinets have black anti-static drawers listed at 10^4–10^6 ohm, the low end of the dissipative range:
+▪️ 20 drawers: RM325.35
+▪️ 40 drawers: RM650.70
+▪️ 75 drawers: RM1,156.80 (mobile RM1,337.55, lockable RM2,578.70)
+
+Free delivery and installation in Selangor & KL; outstation delivery quoted separately. 1-year warranty handled locally.
+📞 Kenny +60 12-616 3088 · Wei Ming +60 11-5841 9886
+
+What the resistance classes mean, and how to set ESD storage up so it works: https://www.storagesystem.com.my/guides/esd-storage-anti-static-bins-drawers-malaysia/
+
+#ESD #ElectronicsManufacturing #Malaysia
+```
