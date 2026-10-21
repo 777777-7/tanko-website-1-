@@ -769,11 +769,15 @@ Hi {first}, congratulations on {company}'s new {place} plant. We supply Tanko wo
   centre 09:00, GBP data centre 11:00) still queued. Also queued: **Fri 23 Oct 10:00, GBP, rack photo with NO
   text**, not in any log; left alone, ask Wei Ming. Nothing queued from Mon 26 Oct.
 - **LinkedIn:** monthly profile-search limit reached (Premium trial ended 20 Oct), so no targeted invites today.
-  Follow-ups drafted, awaiting Wei Ming's go-ahead: Gobi (replied "Ok nice to meet you", DC guide), Sritharan
-  (replied "Nice", ESD storage guide), Nazri (accepted 20 Oct, DC guide), Lim Wern Pink and Nurhidayat
-  (accepted 21 Oct, ESD storage guide). Theena (Vertiv): no reply yet.
+  **Follow-ups SENT 21 Oct ~14:36 (approved by Wei Ming):** Gobi (data centre guide), Sritharan (ESD storage guide,
+  asked for his audit view; he replied "Thanks"), Nazri (data centre guide), Lim Wern Pink and Nurhidayat (ESD
+  storage guide). Theena (Vertiv): no reply yet.
 
-### Drafts for Mon 26 / Tue 27 Oct (Publer), ESD storage guide — image `docs/feed-img/asset3__TKI-2515-9.jpg` — awaiting go-ahead
+### Mon 26 / Tue 27 Oct (Publer), ESD storage guide — image `docs/feed-img/asset3__TKI-2515-9.jpg` — SCHEDULED 21 Oct
+
+All three scheduled ("Successfully scheduled", checked on the calendar): A Mon 26 09:00 LinkedIn personal, B Mon 26
+10:00 GBP (Learn more → ESD guide), C Tue 27 09:00 LinkedIn Page. **Change to A:** Publer's free plan now paywalls the
+LinkedIn first comment, so the guide link went into the post body ("...so it works: <link>") instead of the first comment.
 
 **A. LinkedIn personal, Mon 26 Oct 09:00 — link in first comment**
 ```
