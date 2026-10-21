@@ -49,6 +49,10 @@ GUIDE = dict(
         ('Can I put a perforated board on a tool trolley?',
          'Yes. The panels on the EKA-3M, EKB-3M, EGM-1, EGL-1, ELA-1 and ELS-2 accept standard Tanko '
          'perforated-board hooks, so the most-used tools can hang in view on the trolley itself.'),
+        ('What is a tool box cabinet?',
+         'A tool box cabinet is a floor-standing steel cabinet of drawers that does the job of several portable tool boxes, with one central lock. Tanko makes them fixed (EGA-1 from RM1,602.65, EA-7 heavy duty from RM2,651.00) and mobile on castors (EGA-2M from RM1,662.90). Delivery and installation are free in Selangor and Kuala Lumpur.'),
+        ('How much weight can a tool drawer hold?',
+         "It depends on the slide. Tanko standard tool cabinet drawers are rated 45kg (50kg on the ELA-1), heavy-duty EA drawers 100kg, and the EA T drawer 200kg at full extension. Weigh the heaviest drawer's contents and choose a rating with margin to spare."),
     ],
     ranges=[
         ('/tool-cabinet/trolley/', 'Tool trolleys', 'EKA-3M open trolley, EKB-3M drawer trolley, EKA-3MS stainless trolley'),
@@ -126,6 +130,16 @@ GUIDE = dict(
   <li><strong>Leave one drawer spare</strong> for growth. Tool sets only get bigger.</li>
 </ol>
 <p>Then check the weight of the heaviest drawer against the slide rating. If it is close to 45kg, step up to a 100kg heavy-duty drawer rather than relying on the margin.</p>
+
+<h2>Tool drawers and tool box cabinets: what to check</h2>
+<p>"Tool box cabinet" and "tool drawer cabinet" are the names many buyers use for the same thing: a steel cabinet of drawers that replaces a stack of loose tool boxes. Whatever it is called, four things decide whether the drawers still work in five years.</p>
+<ul>
+  <li><strong>Load rating per drawer</strong>, not per cabinet. Tanko standard drawers are rated 45kg (50kg on the ELA-1), heavy-duty EA drawers 100kg, and the EA T drawer 200kg.</li>
+  <li><strong>Extension.</strong> The further a drawer opens, the less you lift tools over the front to reach the back. Tanko standard lines open 90–95%; the EA T drawer opens fully.</li>
+  <li><strong>Inside the drawer.</strong> Loose tools sliding to the back make a drawer feel full when it is half empty. On the EA heavy-duty cabinets the first drawer takes division boxes at 50–100mm high, 3 × 3 dividers at 150mm and 2 × 2 dividers at 200mm.</li>
+  <li><strong>One lock for every drawer.</strong> A central lock secures the whole stack with one key, so no single drawer is left open by mistake.</li>
+</ul>
+<p>If the drawers need to sit under a work surface rather than stand on their own, drawer cabinets are also built into Tanko <a href="/workbench/heavy-duty/">heavy-duty workbenches</a>.</p>
 
 <h2>Five questions that settle it</h2>
 <ol>
