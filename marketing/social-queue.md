@@ -830,3 +830,19 @@ What the resistance classes mean, and how to set ESD storage up so it works: htt
 
 #ESD #ElectronicsManufacturing #Malaysia
 ```
+
+## 22 Oct 2026 — daily routine
+
+- **Publer:** Thu 22 posts went out (LinkedIn Page mould rack 09:00, GBP pegboard 10:00). Queued: Fri 23 (LinkedIn
+  personal data centre 09:00, GBP rack photo 10:00 with no text — still unexplained, GBP data centre 11:00),
+  Mon 26 (LinkedIn personal ESD 09:00, GBP ESD 10:00), Tue 27 (LinkedIn Page ESD 09:00). Nothing yet from Wed 28.
+- **PUBLISHED 22 Oct (approved by Wei Ming):** Facebook Page + 5 Malay bengkel groups (Iklan Bengkel-Bengkel Malaysia,
+  Workshop Bengkel kereta seluruh Malaysia, Jual.beli peralatan bengkel…, bengkel kereta satu malaysia, MEKANIK KERETA
+  ANAK MELAYU). All 5 cross-post receipts in /notifications, and the Jual.beli admin approved it within a minute.
+  Pain 5 ("the bench sagged"), opener `🔧 Meja kerja bengkel dah melendut? Ragum goyang setiap kali ketat?`, WA frame
+  rated to 2,000kg, rubber/laminate/stainless tops, add-on drawers/pegboard/shelf/sockets, WA-57 (1500 x 650mm) from
+  RM2,385.90, honest home-use line, Malay offer block, Kenny first, /meja-kerja/ link. Photo (first use):
+  `marketing/customer-projects/workshop-2026-08/tanko-workbench-pegboard-upright.jpg`. Text + image verified on the Page.
+- **21 Oct post, late receipt:** Jual Beli Barang Hardware/ Tools also confirmed (4 of 5; Power Tools Malaysia pending).
+- **LinkedIn:** no new replies or acceptances (Sritharan replied "Thanks"). Invites still blocked by the monthly search cap.
+- **Rotation next:** 中文 五金 groups are due (last 19 Oct), then EN hardware/tools groups (last 21 Oct).
