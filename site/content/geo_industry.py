@@ -62,7 +62,7 @@ CITY_PAGES = [
         "title": "Industrial Storage & Workbenches Penang | Primaxs",
         "h1": "Industrial Storage Solutions in Penang",
         "tag": "Northern Malaysia",
-        "updated": "August 2026",
+        "updated": "October 2026",
         "excerpt": "Tanko industrial storage for Penang factories — Bayan Lepas, Bukit Mertajam, Seberang Perai, Nibong Tebal. Electronics, ESD workstations, tool cabinets and CNC storage. Nationwide delivery from Selangor.",
         "meta_description": "Tanko industrial storage Penang — ESD workstations for Bayan Lepas electronics, CNC tool cabinets for Bukit Mertajam machining, workbenches and lockers.",
         "body": """
@@ -81,6 +81,16 @@ CITY_PAGES = [
   <li><strong>Automotive & metalworking</strong> across Seberang Perai — tool trolleys, workbenches and steel lockers.</li>
   <li><strong>Food & packaging</strong> in Bukit Mertajam and Juru — stainless steel workbenches for hygienic production.</li>
 </ul>
+
+<h2>Storage racks and parts bins in Penang</h2>
+<p>Many Penang buyers search for a "storage rack" or "industrial plastic bins". Here is what we supply, and what we don't, so you can shortlist quickly.</p>
+<ul>
+  <li><strong>Bin racks:</strong> Tanko <a href="/hanger-rack/">hanger racks</a> carry louvred panels that take hanging bins anywhere on the face. Single-sided KR-13 from RM1,012.20, double-sided KR-23 from RM1,530.35, and the mobile KM-22 on castors from RM1,771.35, for line-side kitting and spares picking in Bayan Lepas and Batu Kawan plants.</li>
+  <li><strong>Stackable industrial bins:</strong> TA-1 Team Bins in PE, five sizes rated 3 to 50kg, link side by side and the two smaller sizes hang on louvred or perforated boards (TA-112 RM421.75 per carton of 50). TKI-83 hanging bins come in five sizes, with a black anti-static option for electronics lines. See the <a href="/guides/parts-bin-document-storage-spares-room-malaysia/">parts bin guide</a>.</li>
+  <li><strong>Parts cabinets:</strong> 20 to 75 drawers from RM289.20, including black anti-static drawers listed at 10^4 to 10^6 ohm for <a href="/guides/esd-storage-anti-static-bins-drawers-malaysia/">ESD storage</a>.</li>
+  <li><strong>Mould and pull-out racks:</strong> for moulding shops and tool rooms, the <a href="/rack/">MB-2 from RM9,471.30 and MB-3 from RM13,857.50</a>, with pull-out levels rated to 1,000kg on the MB-3.</li>
+</ul>
+<p>We do not supply pallet racking or boltless warehouse shelving. For that, a local racking contractor is the better call. For parts, bins and tooling at the line, the ranges above are built for it.</p>
 
 <h2>Delivery to Penang</h2>
 <p>We deliver to all Penang addresses, including George Town, Bayan Lepas, Gelugor, Jelutong, Air Itam, Paya Terubong, Bukit Mertajam, Perai, Seberang Jaya, Prai, Nibong Tebal, Batu Kawan, Simpang Ampat and Juru. Delivery from our Selangor warehouse typically takes 3-7 working days for stocked items, with freight cost confirmed in your quotation.</p>
@@ -105,6 +115,8 @@ CITY_PAGES = [
              "a": "Stocked items typically deliver within 3-7 working days to Penang from our Selangor warehouse. Configured orders are quoted with a confirmed lead time."},
             {"q": "Do you serve Kulim and other parts of Kedah near Penang?",
              "a": "Yes. We deliver across the northern region including Penang, Kedah (Kulim, Sungai Petani, Alor Setar) and Perlis."},
+            {"q": "Do you supply storage racks and plastic bins in Penang?",
+             "a": "Yes, for parts and tooling: Tanko hanger racks with louvred panels and hanging bins (from RM1,012.20), TA-1 stackable PE bins, 20 to 75 drawer parts cabinets (from RM289.20) and mould racks with 1,000kg pull-out levels. We do not supply pallet racking. Delivery to Penang is quoted with the order."},
         ],
         "related_categories": ["workstation", "cnc-tool", "workbench", "tool-cabinet", "perforated-board"],
     },
