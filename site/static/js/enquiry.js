@@ -105,7 +105,7 @@
       if (submitBtn) { submitBtn.disabled = true; submitBtn.textContent = "Sending…"; }
       var fd = new FormData(form);
       // strip formsubmit control fields — the AJAX endpoint ignores _next / _captcha
-      var ajaxUrl = "https://formsubmit.co/ajax/weimingwong78@gmail.com";
+      var ajaxUrl = "https://api.web3forms.com/submit";
       var ctrl = window.AbortController ? new AbortController() : null;
       var timer = ctrl ? setTimeout(function () { ctrl.abort(); }, 15000) : null;
       fetch(ajaxUrl, { method: "POST", headers: {"Accept": "application/json"}, body: fd, signal: ctrl ? ctrl.signal : undefined })
@@ -119,12 +119,12 @@
     });
   }
 
-  // FormSubmit failed (down, timeout or success:false): keep the basket and let the
+  // The form service failed (down, timeout or success:false): keep the basket and let the
   // customer send the same details by WhatsApp or email in one tap.
   function enquiryText(fd) {
     var lines = [], seen = {};
     fd.forEach(function (v, k) {
-      if (k.charAt(0) === "_" || !String(v).trim()) return;
+      if (k.charAt(0) === "_" || /^(access_key|subject|from_name|botcheck)$/.test(k) || !String(v).trim()) return;
       var label = k.replace(/\[\]$/, "").replace(/_/g, " ");
       if (seen[label]) { lines[seen[label] - 1] += ", " + v; return; }
       lines.push(label.charAt(0).toUpperCase() + label.slice(1) + ": " + v);
