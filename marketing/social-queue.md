@@ -846,3 +846,66 @@ What the resistance classes mean, and how to set ESD storage up so it works: htt
 - **21 Oct post, late receipt:** Jual Beli Barang Hardware/ Tools also confirmed (4 of 5; Power Tools Malaysia pending).
 - **LinkedIn:** no new replies or acceptances (Sritharan replied "Thanks"). Invites still blocked by the monthly search cap.
 - **Rotation next:** 中文 五金 groups are due (last 19 Oct), then EN hardware/tools groups (last 21 Oct).
+
+## 29 Oct 2026 — catch-up routine (first since 22 Oct) — approved by Wei Ming, done 30–31 Oct
+
+**LinkedIn follow-ups (accepted 22–26 Oct, only our invite note in each thread):**
+- Adena Ng (Senior HR Manager, KSB Malaysia Pumps & Valves): `Thanks for connecting, Adena. In case it's useful for hostel or staff lockers, this guide covers the Act 446 requirements, compartment sizes and guide prices: https://www.storagesystem.com.my/guides/steel-locker-buying-guide-malaysia/`
+- Zulhelmi Zainal (DC facilities, JB): `Thanks for connecting, Zulhelmi. Here's the room-by-room guide to data centre support spaces (build room, spares store, data hall door, security entrance), with sizes and guide prices: https://www.storagesystem.com.my/guides/data-centre-fit-out-workbenches-spares-storage-malaysia/`
+- Mohammad Saiyaff (aerospace maintenance): `Thanks for connecting, Saiyaff. This guide covers shadow boards for tool control, with board sizes, hooks and guide prices: https://www.storagesystem.com.my/guides/perforated-board-shadow-board-tool-control-malaysia/`
+
+**Publer (queue was empty from 29 Oct). Links go in the post body (first comment is paywalled).**
+- A. Fri 30 Oct 09:00, LinkedIn personal, image `docs/feed-img/asset3__EA-12051_2.jpg`:
+```
+A drawer that sticks gets forced. A drawer that gets forced stops closing. Within a year the heaviest drawer in the shop is the one nobody opens.
+
+That's a slide problem, not a cabinet problem. Gauges, fixtures and dense tooling overload a standard 45kg drawer.
+
+Tanko heavy-duty EA tool cabinets:
+▪️ 100kg standard drawers, 200kg T drawers at full extension
+▪️ H700 / H1000 / H1200mm, 32–48 drawer layouts per line
+▪️ First drawer takes division boxes or 3x3 / 2x2 dividers
+▪️ One central lock for every drawer
+▪️ EA-7 from RM2,651.00; mobile EA-7M on 1,000kg castors from RM3,627.05
+
+Sizes and prices: https://www.storagesystem.com.my/tool-cabinet/heavy-duty-tool-cabinet/
+
+🚚 Free delivery and installation in Selangor & KL
+📦 Outstation delivery charged separately
+🛡️ 1-year warranty against manufacturing defects, handled locally
+
+📞 Kenny: +60 12-616 3088
+📱 Wei Ming (Online Marketing Executive): +60 11-5841 9886
+
+#ToolCabinet #Maintenance #Manufacturing #Malaysia
+```
+- B. Fri 30 Oct 10:00, GBP, same image, Learn more → heavy-duty page:
+`Heavy duty tool cabinets: Tanko EA series with 100kg drawers and 200kg full-extension T drawers, H700 to H1200mm, central lock. From RM2,651.00. FREE delivery and installation in Selangor & KL, 1-year warranty handled locally.`
+- C. Mon 2 Nov 09:00, LinkedIn Page, photo `marketing/customer-projects/workshop-2026-08/tanko-workbench-pegboard-upright.jpg`:
+```
+A bench that sags half a degree puts everything clamped to it half a degree out too.
+
+Tanko heavy-duty WA workbenches have frames rated to 2,000kg, with rubber, laminate or stainless tops, and take lockable drawers, a pegboard upright, a top shelf and power sockets, like this one. WA-57 (1500 x 650mm) from RM2,385.90.
+
+Free delivery and installation in Selangor & KL; outstation delivery quoted separately. 1-year warranty handled locally.
+📞 Kenny +60 12-616 3088 · Wei Ming +60 11-5841 9886
+
+https://www.storagesystem.com.my/workbench/heavy-duty/
+
+#Workbench #Workshop #Malaysia
+```
+- D. Tue 3 Nov 10:00, GBP, same photo, Learn more → /workbench/heavy-duty/:
+`Heavy duty workbenches with frames rated to 2,000kg: rubber, laminate or stainless tops, with drawers, pegboard upright, shelf and sockets as options. WA-57 from RM2,385.90. FREE delivery and installation in Selangor & KL, 1-year warranty handled locally.`
+
+**Facebook (staged, not published):** Page + 4 Chinese groups (五金交流区, 五金机械批发/零售, 马来西亚建筑五金门业广告群, 马来西亚二手机床&零件买卖). Pain 6, opener `🧰 工具柜抽屉拉不动、关不上？`, EA heavy-duty cabinet, image `asset3__EA-12051_2.jpg`, link to the heavy-duty page.
+
+### Status 31 Oct 2026
+- **PUBLISHED 30 Oct:** Chinese heavy-duty cabinet post, Page + 4 groups; all 4 cross-post receipts, and the
+  马来西亚二手机床&零件买卖 admin approved it. Text verified on the Page.
+- **SENT 31 Oct:** LinkedIn follow-ups to Adena Ng, Zulhelmi Zainal, Mohammad Saiyaff (texts above).
+- **SCHEDULED 31 Oct (dates moved because 30 Oct had passed):** A LinkedIn personal Mon 2 Nov 09:00, B GBP Mon 2 Nov
+  10:00 (Learn more → heavy-duty tool cabinet page), C LinkedIn Page Tue 3 Nov 09:00, D GBP Tue 3 Nov 10:00
+  (Learn more → /workbench/heavy-duty/). All four seen on the November calendar.
+- **Lead lost to the form outage:** 28 Oct 14:31 /sales/ shows an enquiry for KQ-412A grey board, KPQ-4302 + KPQ-4307
+  bin sets and ~70 hooks/clip holders; FormSubmit was down, no contact details stored. Wei Ming to check Gmail.
+- **Rotation next:** EN hardware/tools groups (last 21 Oct), then Malay bengkel (last 22 Oct).
