@@ -909,3 +909,72 @@ https://www.storagesystem.com.my/workbench/heavy-duty/
 - **Lead lost to the form outage:** 28 Oct 14:31 /sales/ shows an enquiry for KQ-412A grey board, KPQ-4302 + KPQ-4307
   bin sets and ~70 hooks/clip holders; FormSubmit was down, no contact details stored. Wei Ming to check Gmail.
 - **Rotation next:** EN hardware/tools groups (last 21 Oct), then Malay bengkel (last 22 Oct).
+
+## 4 Nov 2026 — daily routine — drafts awaiting go-ahead (Chrome was offline at start)
+
+### Facebook Page + EN hardware/tools groups (last EN post 21 Oct) — photo `marketing/customer-projects/workshop-2026-08/tanko-9-door-locker.jpg` (first use) — pain 7
+```
+🔒 Staff lockers that smell by Friday?
+
+Sweaty uniforms, wet boots and a closed steel box: that is how a locker room starts to smell, and how rust starts inside the door.
+
+✅ Tanko FBB-309 staff locker, 9 doors (real photo)
+▪️ Ventilation holes on every door
+▪️ Built-in combination lock on each door, no keys to lose or cut
+▪️ Name-card holder on every door
+▪️ 900 x 515 x 1800mm bank; each compartment 272 x 450 x 565mm inside
+▪️ RM3,446.30 for the bank, about RM383 per worker
+
+The honest bit: for worker hostels under Act 446, each worker needs a locked space of at least 0.35 x 0.35 x 0.9m. The 9-door doesn't meet that. The 2-door FBB-202 (RM2,120.80) does.
+
+🚚 FREE delivery — Selangor & KL
+🔧 FREE installation
+📦 Outstation — delivery quoted separately
+🛡️ 1-year warranty against manufacturing defects, handled from our Selangor office
+
+💬 WhatsApp Kenny 012-616 3088
+💬 WhatsApp Wei Ming (Online Marketing Executive) 011-5841 9886
+🌐 Every model with inside sizes: storagesystem.com.my/locker/
+
+#locker #steellocker #stafflocker #factorymalaysia #Act446 #Tanko #Primaxs
+```
+
+### Publer (queue empty after 3 Nov) — photo `marketing/customer-projects/workshop-2026-08/tanko-display-lockers-parts-cabinets.jpg` (first use)
+- A. Thu 5 Nov 09:00, LinkedIn personal:
+```
+Buying lockers for a worker hostel? Check the inside size before the price.
+
+Under the Act 446 accommodation regulations, each worker in employer-provided housing needs their own locked space of at least 0.35 x 0.35 x 0.9m. Most multi-door lockers sold as "hostel lockers" are too short or too narrow inside to meet it.
+
+Of Tanko's ten locker models, two meet it: the FBA-202W (2 doors, 420 x 388 x 987mm inside, RM1,614.70) and the FBB-202 (2 doors, 415 x 450 x 1653mm inside, RM2,120.80). The 3-, 4-, 6-, 8-, 9-, 12- and 15-door models suit staff changing rooms, where the day's belongings are smaller.
+
+Every model with its inside size and a pass/fail against the hostel rule: https://www.storagesystem.com.my/locker/
+
+🚚 Free delivery and installation in Selangor & KL
+📦 Outstation delivery charged separately
+🛡️ 1-year warranty against manufacturing defects, handled locally
+
+📞 Kenny: +60 12-616 3088
+📱 Wei Ming (Online Marketing Executive): +60 11-5841 9886
+
+#Act446 #WorkerAccommodation #HR #Malaysia
+```
+- B. Thu 5 Nov 10:00, GBP, Learn more → /locker/:
+`Steel lockers for staff and worker hostels: 2 to 15 doors, ventilated, combination or key lock. The 2-door FBA-202W and FBB-202 meet the Act 446 hostel minimum (0.35 x 0.35 x 0.9m). From RM1,614.70. FREE delivery and installation in Selangor & KL, 1-year warranty handled locally.`
+- C. Mon 9 Nov 09:00, LinkedIn Page, Learn-more link in body:
+```
+"We can't find the spare, so we order another one."
+
+That is how a spares store fills up with duplicates. The fix is boring: one labelled drawer per part number, small parts kept off the floor, and bins at the bench for what is used every shift.
+
+Tanko parts cabinets come with 20 to 75 drawers from RM289.20, with lockable, mobile and anti-static versions, and hanging bins for louvred or perforated panels.
+
+Free delivery and installation in Selangor & KL; outstation delivery quoted separately. 1-year warranty handled locally.
+📞 Kenny +60 12-616 3088 · Wei Ming +60 11-5841 9886
+
+https://www.storagesystem.com.my/parts-cabinet/
+
+#Maintenance #SpareParts #Malaysia
+```
+- D. Mon 9 Nov 10:00, GBP, Learn more → /parts-cabinet/:
+`Parts cabinets with 20 to 75 labelled drawers from RM289.20: lockable, mobile and anti-static versions, plus hanging bins for louvred and perforated panels. FREE delivery and installation in Selangor & KL, 1-year warranty handled locally.`
