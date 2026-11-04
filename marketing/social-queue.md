@@ -910,7 +910,7 @@ https://www.storagesystem.com.my/workbench/heavy-duty/
   bin sets and ~70 hooks/clip holders; FormSubmit was down, no contact details stored. Wei Ming to check Gmail.
 - **Rotation next:** EN hardware/tools groups (last 21 Oct), then Malay bengkel (last 22 Oct).
 
-## 4 Nov 2026 — daily routine — drafts awaiting go-ahead (Chrome was offline at start)
+## 4 Nov 2026 — daily routine — approved by Wei Ming, all done 4 Nov
 
 ### Facebook Page + EN hardware/tools groups (last EN post 21 Oct) — photo `marketing/customer-projects/workshop-2026-08/tanko-9-door-locker.jpg` (first use) — pain 7
 ```
@@ -978,3 +978,13 @@ https://www.storagesystem.com.my/parts-cabinet/
 ```
 - D. Mon 9 Nov 10:00, GBP, Learn more → /parts-cabinet/:
 `Parts cabinets with 20 to 75 labelled drawers from RM289.20: lockable, mobile and anti-static versions, plus hanging bins for louvred and perforated panels. FREE delivery and installation in Selangor & KL, 1-year warranty handled locally.`
+
+### Status 4 Nov 2026
+- **PUBLISHED:** FB locker post (FBB-309, 9-door real photo), Page + 7 groups (Hardware Tools Global Sourcing, Jual Beli Barang
+  Hardware/ Tools, Malaysia Agriculture & Industry Machinery Traders, MALAYSIA CONSTRUCTION MACHINERY, Logistics Malaysia,
+  Malaysia Logistic & Freight Forwarding Companies, Freight Forwarding Logistics E/W…). All 7 receipts; Malaysia Logistic
+  admin approved it. Text verified on the Page.
+- **SCHEDULED (all four seen on the calendar):** A Thu 5 Nov 09:00 LinkedIn personal, B Thu 5 Nov 10:00 GBP → /locker/,
+  C Mon 9 Nov 09:00 LinkedIn Page, D Mon 9 Nov 10:00 GBP → /parts-cabinet/. Photo `tanko-display-lockers-parts-cabinets.jpg`.
+- **LinkedIn:** no replies or acceptances since 31 Oct; invites still blocked by the search cap.
+- **Rotation next:** Malay bengkel (last 22 Oct), then 中文 五金 (last 30 Oct).
