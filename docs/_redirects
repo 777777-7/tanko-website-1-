@@ -51,3 +51,22 @@
 /industries/:slug/household-items/ /household-items/ 301
 /guides/:slug/racks/ /rack/ 301
 /guides/:slug/guides/:other/ /guides/:other/ 301
+
+# /ms/<category>/ and unbuilt /zh/<category>/ URLs were linked from the language
+# layers until 15 Oct 2026 and still show as 404 in GSC. Send each to the real page.
+# Exact paths only: /zh/workbench/<model>/ pages exist and must not be caught.
+/ms/workbench/ /meja-kerja/ 301
+/ms/workstation/ /stesen-kerja/ 301
+/ms/tool-cabinet/ /kabinet-alat/ 301
+/ms/parts-cabinet/ /kabinet-alat-ganti/ 301
+/ms/documents-cabinet/ /kabinet-dokumen/ 301
+/ms/locker/ /loker-besi/ 301
+/ms/perforated-board/ /papan-berlubang/ 301
+/ms/cnc-tool/ /penyimpanan-alat-cnc/ 301
+/ms/hanger-rack/ /rak-gantung/ 301
+/ms/rack/ /rak-gudang/ 301
+/ms/household-items/ /perkakas-rumah/ 301
+/zh/workbench/ /workbench/ 301
+/zh/workstation/ /workstation/ 301
+/zh/hanger-rack/ /hanger-rack/ 301
+/zh/parts-cabinet/ /parts-cabinet/ 301
