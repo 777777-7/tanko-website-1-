@@ -988,3 +988,42 @@ https://www.storagesystem.com.my/parts-cabinet/
   C Mon 9 Nov 09:00 LinkedIn Page, D Mon 9 Nov 10:00 GBP → /parts-cabinet/. Photo `tanko-display-lockers-parts-cabinets.jpg`.
 - **LinkedIn:** no replies or acceptances since 31 Oct; invites still blocked by the search cap.
 - **Rotation next:** Malay bengkel (last 22 Oct), then 中文 五金 (last 30 Oct).
+
+## 5 Nov 2026 — routine + off-site listings pass
+
+- **Publer:** Thu 5 Nov posts went out (LinkedIn personal 09:00, GBP 10:00 → /locker/). Mon 9 Nov still queued. Gap: Tue 10 Nov onward.
+- **LinkedIn:** no new replies; no acceptances since Ariff (4 Nov, already messaged). Invites still blocked (search cap).
+- **GSC (28 days):** 243 clicks / 11k impressions / avg pos 21.2 / 776 queries (29 Oct: 221 / 10.2k). Brand query "primaxs" sits at 9.3: directories outrank us.
+- **Improvement:** racking guide +4 FAQs (types of warehouse racking, racking vs shelving, mould rack price from RM9,471.30 / RM13,857.50, floor anchoring). Targets "warehouse racking" 73 impr @14.2, "warehousing racks" 35 @18.9 (guide 190 impr @20.4). Mirrored in site/content/guides.py. Lastmod, IndexNow 200, GSC indexing requested.
+- **Off-site listings (Brave "Primaxs Marketing Sdn Bhd"):** #1 all.biz (old KL address), #2 contact.page ("Packaging Machinery", old address), #3 InfoPages (now CORRECT Balakong), CTOS, our site #7 (was outside top 8 on 10 Oct).
+  - Hotfrog: LIVE and verified with the Balakong address. Done.
+  - all.biz: support request 184816 still open; not signed in.
+  - D&B: dnb.com update form is U.S.-only; D&B Malaysia corrections go to csc@dnb.com.my (03-5623 5888). Public profile behind a Cloudflare bot check.
+  - contact.page: no claim flow; its own address is ads@contact.page.
+  - Yelp, Apple Business Connect, Bing Places: not signed in. Yelp claim still needs the phone call.
+  - SSM "packaging machinery" nature of business: only the company secretary can change it.
+
+### DRAFT (awaiting approval) — Facebook Page + Malay bengkel groups — image `docs/feed-img/asset3__KR-1330_2.jpg`
+```
+🔩 Skru, nat, klip dan fius bercampur dalam satu tin? Masa terbuang mencari satu bolt sementara kereta pelanggan masih atas lif.
+
+Ini masalah susunan, bukan masalah pekerja. Bila setiap barang ada tempat yang nampak, semua orang letak balik di tempat yang sama.
+
+Rak gantung Tanko KR-13 (satu sisi):
+▪️ Panel besi berlubang, W971 x D360 x H1453mm
+▪️ Beban sehingga 250kg
+▪️ Gantung spanar, playar dan bin bahagian di depan mata
+▪️ Bin dan cangkuk dijual berasingan, pilih ikut saiz barang anda
+▪️ Dari RM1,012.20
+
+Saiz dan harga: https://www.storagesystem.com.my/rak-gantung/
+
+🚚 Penghantaran & pemasangan PERCUMA di Selangor dan KL (luar kawasan dikenakan caj)
+💬 WhatsApp Kenny 012-616 3088
+💬 WhatsApp Wei Ming (Online Marketing Executive) 011-5841 9886
+```
+
+### DRAFT (awaiting approval) — correction emails from weimingwong78@gmail.com
+1. To ads@contact.page — "Correction request: listing my59646, Primaxs Marketing (M) Sdn Bhd": old KL address + "Packaging Machinery" → Balakong address, industrial storage category, 03-4296 4737, www.storagesystem.com.my, sales@storagesystem.my.
+2. To csc@dnb.com.my — "Update company record: Primaxs Marketing (M) Sdn Bhd (200601036829 / 756588-H)": D&B shows BL10 Jalan Maju 2/1, Taman Lembah Maju, 56100 KL → Balakong address, phone, website, activity (industrial storage distributor, exclusive Tanko distributor).
+3. Reply on all.biz request 184816: please update listing 4617 address to Balakong / Seri Kembangan.
