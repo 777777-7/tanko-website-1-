@@ -1027,3 +1027,7 @@ Saiz dan harga: https://www.storagesystem.com.my/rak-gantung/
 1. To ads@contact.page — "Correction request: listing my59646, Primaxs Marketing (M) Sdn Bhd": old KL address + "Packaging Machinery" → Balakong address, industrial storage category, 03-4296 4737, www.storagesystem.com.my, sales@storagesystem.my.
 2. To csc@dnb.com.my — "Update company record: Primaxs Marketing (M) Sdn Bhd (200601036829 / 756588-H)": D&B shows BL10 Jalan Maju 2/1, Taman Lembah Maju, 56100 KL → Balakong address, phone, website, activity (industrial storage distributor, exclusive Tanko distributor).
 3. Reply on all.biz request 184816: please update listing 4617 address to Balakong / Seri Kembangan.
+- **DONE 5 Nov (approved by Wei Ming):**
+  - FB Page + 4 Malay bengkel groups (Iklan Bengkel-Bengkel Malaysia, Jual.beli peralatan bengkel…, Workshop Bengkel kereta seluruh Malaysia, bengkel kereta satu malaysia) published 19:59 with the KR-13 draft above + `asset3__KR-1330_2.jpg`. Text + image verified on the Page. Receipts so far: Iklan Bengkel, Jual.beli; the other two may need admin approval. MEKANIK KERETA ANAK MELAYU no longer appears in the Page's group picker (left or removed).
+  - Correction emails sent from Gmail (each showed 邮件已发送): ads@contact.page (listing my59646), csc@dnb.com.my (D&B Malaysia record), support.my@all.biz (request 184816, page 4617, account 18350362).
+- **Rotation next:** 中文 五金 groups (last 30 Oct), then EN hardware/tools.
