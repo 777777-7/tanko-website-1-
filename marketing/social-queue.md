@@ -1031,3 +1031,57 @@ Saiz dan harga: https://www.storagesystem.com.my/rak-gantung/
   - FB Page + 4 Malay bengkel groups (Iklan Bengkel-Bengkel Malaysia, Jual.beli peralatan bengkel…, Workshop Bengkel kereta seluruh Malaysia, bengkel kereta satu malaysia) published 19:59 with the KR-13 draft above + `asset3__KR-1330_2.jpg`. Text + image verified on the Page. Receipts so far: Iklan Bengkel, Jual.beli; the other two may need admin approval. MEKANIK KERETA ANAK MELAYU no longer appears in the Page's group picker (left or removed).
   - Correction emails sent from Gmail (each showed 邮件已发送): ads@contact.page (listing my59646), csc@dnb.com.my (D&B Malaysia record), support.my@all.biz (request 184816, page 4617, account 18350362).
 - **Rotation next:** 中文 五金 groups (last 30 Oct), then EN hardware/tools.
+
+## 7 Nov 2026 — drafts (Chrome offline; awaiting Wei Ming's OK)
+
+### DRAFT — Facebook Page + 中文 五金 groups (五金机械批发/零售, 五金交流区～品牌～发展～批发 Supplier Hardware, 马来西亚建筑五金门业广告群, Hardware Tools Global Sourcing and Supply) — image `docs/feed-img/asset3__TKI-2515-1.jpg`
+```
+🔩 螺丝、垫片、接头全混在同一个箱子里？客户在柜台等，员工在后面翻了半天。
+
+问题不在员工，而在零件没有固定的位置。每样零件一个抽屉、贴上标签，谁都能一眼找到，用完也放回原位。
+
+Tanko TKI-2 零件柜：
+▪️ 20 至 75 个抽屉，透明、灰色或黑色防静电可选
+▪️ 每个抽屉承重 5 至 10kg，可加隔板
+▪️ TKI-2405（20 抽，W460 x D230 x H310mm）从 RM325.35 起
+▪️ 75 抽款有带 2 寸 PU 轮的移动版
+▪️ 台湾制造，Primaxs 自 2006 年起独家代理
+
+尺寸和价格：https://www.storagesystem.com.my/parts-cabinet/
+
+🚚 雪兰莪和吉隆坡免费送货及安装（外坡另计）
+💬 WhatsApp Kenny 012-616 3088
+💬 WhatsApp Wei Ming（Online Marketing Executive）011-5841 9886
+```
+
+### DRAFT — Publer (queue empty after Mon 9 Nov; links in the body)
+- **A. Tue 10 Nov 09:00, LinkedIn personal** — image `docs/feed-img/asset3__TKI-2410-9.jpg`:
+```
+"Anti-static storage box" and "anti-static drawer cabinet" get used as if they were the same thing. They do different jobs.
+
+Boxes and totes carry parts between stations and into kits. Drawer cabinets stay put and give every part a labelled home inside the ESD protected area. Most lines need both.
+
+What to check on either one: the surface resistance figure (dissipative storage is usually 10^4 to 10^11 ohm), and whether it matches your ANSI/ESD S20.20 or IEC 61340-5-1 control plan.
+
+Tanko TKI-2 "-9" cabinets: 20 to 75 black anti-static drawers listed at 10^4 to 10^6 ohm, from RM325.35.
+
+Guide: https://www.storagesystem.com.my/guides/esd-storage-anti-static-bins-drawers-malaysia/
+```
+- **B. Tue 10 Nov 10:00, GBP, Learn more → /workbench/** — image `docs/feed-img/asset3__WB-57F.jpg`:
+```
+Industrial workbench prices in Malaysia, Tanko guide prices: WE1200 steel bench from RM903.75, WB-57 (1500 x 750mm, laminate, rubber or wood top) from RM1,277.30, heavy-duty WA-57 from RM2,385.90. Drawers, upper panels and lighting quoted on top. Free delivery and installation in Selangor and KL; outstation charged. WhatsApp Kenny 012-616 3088 or Wei Ming 011-5841 9886.
+```
+- **C. Thu 12 Nov 09:00, LinkedIn Page** — image `marketing/customer-projects/workshop-2026-08/tanko-mould-racks-row.jpg`:
+```
+A mould on ordinary shelving is a point load on a shelf rated for a spread load. It can fail inside the "total weight" rating.
+
+Racking vs shelving, in one line: racking is loaded by forklift, crane or hoist and carries heavy or concentrated loads per level; shelving is loaded by hand.
+
+Tanko mould racks: 2-column MB-2 from RM9,471.30, 3-column MB-3 from RM13,857.50, rated up to 1000kg per shelf. Free delivery and installation in Selangor and KL.
+
+Guide to racking types, loads and anchoring: https://www.storagesystem.com.my/guides/warehouse-racking-mould-rack-shelving-malaysia/
+```
+- **D. Thu 12 Nov 10:00, GBP, Learn more → /rack/** — image `marketing/customer-projects/workshop-2026-08/tanko-mould-rack-500kg-crane.jpg`:
+```
+Mould racks for injection moulds and die sets: Tanko MB-2 (2-column) from RM9,471.30 and MB-3 (3-column, up to 1000kg per shelf) from RM13,857.50, with pull-out racks quoted on request. Free delivery and installation in Selangor and KL; outstation charged. WhatsApp Kenny 012-616 3088 or Wei Ming 011-5841 9886.
+```
