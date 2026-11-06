@@ -61,6 +61,14 @@ GUIDE = dict(
          'Yes. Delivery and installation are free in Selangor and Kuala Lumpur; outstation delivery, '
          'including Penang, Kedah and Johor, is quoted separately. A 1-year warranty against manufacturing '
          'defects is handled from our Selangor office.'),
+        ('What is an ESD bin?',
+         'An ESD bin is a parts bin made from static-dissipative or conductive plastic, so it does not build up a charge when it is handled or slid along a shelf. Tanko makes the TKI-83 hanging bin in a black anti-static version, in five sizes for 3 to 10kg, for louvred and perforated panels. Tanko does not publish a resistance figure for these bins, so test them against your ESD control plan.'),
+        ('How should ESD-sensitive components be stored?',
+         'Inside the ESD protected area, in dissipative drawers or bins that stand on grounded surfaces, labelled as ESD storage and kept away from ordinary plastic, cardboard and bubble wrap. Tanko TKI-2 "-9" cabinets give 20 to 75 black anti-static drawers listed at 10^4 to 10^6 ohm, from RM325.35, with lockable and mobile versions for high-value parts and kitting.'),
+        ('What is the difference between anti-static storage boxes and anti-static drawer cabinets?',
+         'Anti-static storage boxes and totes are loose containers for carrying and kitting parts between stations. Anti-static drawer cabinets stay in one place and give every part a labelled location in the component store or at the bench. Tanko makes the drawer cabinets (TKI-2 "-9", 20 to 75 drawers, from RM325.35) and black anti-static hanging bins; for conductive transport totes and shielding bags, use an ESD consumables supplier.'),
+        ('What are anti-static containers made of?',
+         'Most are polypropylene loaded with carbon or another additive so the surface is conductive or static-dissipative, and some are conductive kraft board. Dissipative storage is usually specified at 10^4 to 10^11 ohm surface resistance, and the Tanko TKI-2 "-9" drawers are listed at 10^4 to 10^6 ohm. Check the figure against your ESD control plan (ANSI/ESD S20.20 or IEC 61340-5-1) before use.'),
     ],
     ranges=[
         ('/parts-cabinet/tki-2/', 'TKI-2 parts cabinets', 'the "-9" versions have black anti-static drawers, from RM325.35 for 20 drawers'),

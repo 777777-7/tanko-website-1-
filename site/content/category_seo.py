@@ -19,6 +19,10 @@ CATEGORY_FAQ = {
          "a": "Stocked configurations can ship from our Selangor warehouse within a few business days. Non-stocked or fully configured units are quoted with a confirmed lead time before you order. Nationwide delivery (including Peninsular Malaysia) is available."},
         {"q": "Do you sell to companies outside Selangor and KL?",
          "a": "Yes — we deliver across Malaysia. We regularly supply factories and workshops in Johor Bahru, Penang, Ipoh, Melaka and the East Coast, and can arrange freight to East Malaysia on request."},
+        {"q": "Is a worktable the same as a workbench?",
+         "a": "In Malaysia the words are used for the same thing, along with meja kerja. A workbench usually means a steel frame built for assembly, maintenance and vice work; a worktable is often lighter and used for packing or inspection. Tanko lines run from the WE1200 steel bench (W1200 x D600 x H750mm) to heavy-duty WA frames with laminate, rubber or stainless steel tops."},
+        {"q": "How much does an industrial workbench cost in Malaysia?",
+         "a": "Tanko guide prices start from RM903.75 for the WE1200 steel bench, RM1,277.30 for the WB-57 (W1500 x D750mm, laminate, rubber or wood top), RM1,674.95 for the WD-48 and RM2,385.90 for the heavy-duty WA-57. Drawers, upper panels and lighting are quoted on top. Delivery and installation are free in Selangor and Kuala Lumpur; outstation delivery is charged."},
     ],
     "tool-cabinet": [
         {"q": "What is the difference between a tool cabinet and a tool trolley?",
