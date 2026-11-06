@@ -1085,3 +1085,4 @@ Guide to racking types, loads and anchoring: https://www.storagesystem.com.my/gu
 ```
 Mould racks for injection moulds and die sets: Tanko MB-2 (2-column) from RM9,471.30 and MB-3 (3-column, up to 1000kg per shelf) from RM13,857.50, with pull-out racks quoted on request. Free delivery and installation in Selangor and KL; outstation charged. WhatsApp Kenny 012-616 3088 or Wei Ming 011-5841 9886.
 ```
+- **7 Nov checks (Chrome back):** all 4 bengkel cross-posts from 5 Nov confirmed (Iklan Bengkel, Jual.beli (admin-approved), Workshop Bengkel kereta, bengkel kereta satu malaysia). LinkedIn: no new replies. No replies yet from contact.page / D&B / all.biz. GSC 28d: 236 clicks / 11.1k impr / pos 20.7. Indexing requested: /workbench/, ESD storage guide, trolley comparison guide.
